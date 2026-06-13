@@ -1,0 +1,3933 @@
+{
+  "dagger": {
+    "slug": "dagger",
+    "name": "Dagger",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 5,
+      "dex": 9,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 74,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.35,
+      "dex": 0.65,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "black-knife": {
+    "slug": "black-knife",
+    "name": "Black Knife",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 8,
+      "dex": 12,
+      "int": 0,
+      "fai": 18,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 66,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 65
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.55,
+      "int": 0,
+      "fai": 0.35,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "parrying-dagger": {
+    "slug": "parrying-dagger",
+    "name": "Parrying Dagger",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 5,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 75,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.16,
+      "dex": 0.76,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "mis\u00e9ricorde": {
+    "slug": "mis\u00e9ricorde",
+    "name": "Mis\u00e9ricorde",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 7,
+      "dex": 12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 92,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0.5,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "reduvia": {
+    "slug": "reduvia",
+    "name": "Reduvia",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 5,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 13
+    },
+    "attack": {
+      "phys": 79,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.4,
+      "int": 0,
+      "fai": 0,
+      "arc": 0.55
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10013,
+    "calcCorrectGraphIds": {
+      "0": 7
+    }
+  },
+  "glintstone-kris": {
+    "slug": "glintstone-kris",
+    "name": "Glintstone Kris",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 5,
+      "dex": 12,
+      "int": 16,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 57,
+      "magic": 68,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.45,
+      "int": 0.4,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "scorpions-stinger": {
+    "slug": "scorpions-stinger",
+    "name": "Scorpion's Stinger",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 6,
+      "dex": 12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 79,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.3,
+      "dex": 0.7,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "erdsteel-dagger": {
+    "slug": "erdsteel-dagger",
+    "name": "Erdsteel Dagger",
+    "type": "Dagger",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 7,
+      "dex": 12,
+      "int": 0,
+      "fai": 14,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 67,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.3,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0.3,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 12000,
+    "calcCorrectGraphIds": {}
+  },
+  "longsword": {
+    "slug": "longsword",
+    "name": "Longsword",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 110,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.5,
+      "dex": 0.33,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "short-sword": {
+    "slug": "short-sword",
+    "name": "Short Sword",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 8,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 102,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.37,
+      "dex": 0.48,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "broadsword": {
+    "slug": "broadsword",
+    "name": "Broadsword",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 117,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.55,
+      "dex": 0.22,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "lordsworns-straight-sword": {
+    "slug": "lordsworns-straight-sword",
+    "name": "Lordsworn's Straight Sword",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 115,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.36,
+      "dex": 0.36,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "ornamental-straight-sword": {
+    "slug": "ornamental-straight-sword",
+    "name": "Ornamental Straight Sword",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 10,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 101,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.55,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "golden-epitaph": {
+    "slug": "golden-epitaph",
+    "name": "Golden Epitaph",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 10,
+      "int": 0,
+      "fai": 14,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 85,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 85
+    },
+    "scaling": {
+      "str": 0.3,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0.38,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "inseparable-sword": {
+    "slug": "inseparable-sword",
+    "name": "Inseparable Sword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 18,
+      "dex": 18,
+      "int": 0,
+      "fai": 20,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 98,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 98
+    },
+    "scaling": {
+      "str": 0.27,
+      "dex": 0.27,
+      "int": 0,
+      "fai": 0.6,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "coded-sword": {
+    "slug": "coded-sword",
+    "name": "Coded Sword",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "fai": 20,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 0,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 85
+    },
+    "scaling": {
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "fai": 0.95,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "sword-of-night-and-flame": {
+    "slug": "sword-of-night-and-flame",
+    "name": "Sword of Night and Flame",
+    "type": "Straight Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 12,
+      "int": 24,
+      "fai": 24,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 87,
+      "magic": 56,
+      "fire": 56,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.14,
+      "dex": 0.14,
+      "int": 0.5,
+      "fai": 0.5,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4,
+      "2": 4
+    }
+  },
+  "bastard-sword": {
+    "slug": "bastard-sword",
+    "name": "Bastard Sword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 16,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 138,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.55,
+      "dex": 0.27,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "iron-greatsword": {
+    "slug": "iron-greatsword",
+    "name": "Iron Greatsword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 18,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 149,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.65,
+      "dex": 0.1,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "knights-greatsword": {
+    "slug": "knights-greatsword",
+    "name": "Knight's Greatsword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 16,
+      "dex": 12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 141,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.33,
+      "dex": 0.44,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "banished-knights-greatsword": {
+    "slug": "banished-knights-greatsword",
+    "name": "Banished Knight's Greatsword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 17,
+      "dex": 9,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 142,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.44,
+      "dex": 0.36,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "sacred-relic-sword": {
+    "slug": "sacred-relic-sword",
+    "name": "Sacred Relic Sword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 14,
+      "dex": 24,
+      "int": 0,
+      "fai": 22,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 118,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 76
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0.56,
+      "int": 0,
+      "fai": 0.36,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "sword-of-milos": {
+    "slug": "sword-of-milos",
+    "name": "Sword of Milos",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 15,
+      "dex": 19,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 141,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.34,
+      "dex": 0.47,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "claymore": {
+    "slug": "claymore",
+    "name": "Claymore",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 16,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 138,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.49,
+      "dex": 0.34,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "gargoyles-greatsword": {
+    "slug": "gargoyles-greatsword",
+    "name": "Gargoyle's Greatsword",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 18,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 133,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.76,
+      "dex": 0.05,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "deaths-poker": {
+    "slug": "deaths-poker",
+    "name": "Death's Poker",
+    "type": "Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 15,
+      "dex": 17,
+      "int": 11,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 123,
+      "magic": 36,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.35,
+      "dex": 0.5,
+      "int": 0.2,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "greatsword": {
+    "slug": "greatsword",
+    "name": "Greatsword",
+    "type": "Colossal Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 31,
+      "dex": 12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 164,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.61,
+      "dex": 0.18,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "watchdogs-greatsword": {
+    "slug": "watchdogs-greatsword",
+    "name": "Watchdog's Greatsword",
+    "type": "Colossal Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 30,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 142,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.85,
+      "dex": 0.06,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "malikeths-black-blade": {
+    "slug": "malikeths-black-blade",
+    "name": "Maliketh's Black Blade",
+    "type": "Colossal Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 34,
+      "dex": 12,
+      "int": 0,
+      "fai": 20,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 127,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 82
+    },
+    "scaling": {
+      "str": 0.62,
+      "dex": 0.15,
+      "int": 0,
+      "fai": 0.5,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "trolls-golden-sword": {
+    "slug": "trolls-golden-sword",
+    "name": "Troll's Golden Sword",
+    "type": "Colossal Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 29,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 155,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.53,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "zweihander": {
+    "slug": "zweihander",
+    "name": "Zweihander",
+    "type": "Colossal Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 19,
+      "dex": 11,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 141,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.38,
+      "dex": 0.53,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "godslayers-greatsword": {
+    "slug": "godslayers-greatsword",
+    "name": "Godslayer's Greatsword",
+    "type": "Colossal Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 20,
+      "dex": 22,
+      "int": 0,
+      "fai": 20,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 119,
+      "magic": 0,
+      "fire": 77,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.31,
+      "dex": 0.56,
+      "int": 0,
+      "fai": 0.4,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "estoc": {
+    "slug": "estoc",
+    "name": "Estoc",
+    "type": "Type15",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 11,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 107,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.14,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "cleanrot-knights-sword": {
+    "slug": "cleanrot-knights-sword",
+    "name": "Cleanrot Knight's Sword",
+    "type": "Type15",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 11,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 109,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.45,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "rapier": {
+    "slug": "rapier",
+    "name": "Rapier",
+    "type": "Type15",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 7,
+      "dex": 12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 96,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "godskin-stitcher": {
+    "slug": "godskin-stitcher",
+    "name": "Godskin Stitcher",
+    "type": "Twinblade",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 14,
+      "dex": 17,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 127,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.42,
+      "dex": 0.42,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "falchion": {
+    "slug": "falchion",
+    "name": "Falchion",
+    "type": "Curved Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 9,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 109,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.44,
+      "dex": 0.44,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "shamshir": {
+    "slug": "shamshir",
+    "name": "Shamshir",
+    "type": "Curved Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 7,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 108,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.36,
+      "dex": 0.5,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "bandits-curved-sword": {
+    "slug": "bandits-curved-sword",
+    "name": "Bandit's Curved Sword",
+    "type": "Curved Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 11,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 118,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.35,
+      "dex": 0.48,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "magma-blade": {
+    "slug": "magma-blade",
+    "name": "Magma Blade",
+    "type": "Curved Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 9,
+      "dex": 15,
+      "int": 0,
+      "fai": 16,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 96,
+      "magic": 0,
+      "fire": 62,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.45,
+      "dex": 0.31,
+      "int": 0,
+      "fai": 0.4,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "eclipse-shotel": {
+    "slug": "eclipse-shotel",
+    "name": "Eclipse Shotel",
+    "type": "Curved Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 10,
+      "dex": 25,
+      "int": 0,
+      "fai": 30,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 77,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 77
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0.45,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "scimitar": {
+    "slug": "scimitar",
+    "name": "Scimitar",
+    "type": "Curved Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 7,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 106,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.25,
+      "dex": 0.57,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "bloodhounds-fang": {
+    "slug": "bloodhounds-fang",
+    "name": "Bloodhound's Fang",
+    "type": "Curved Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 18,
+      "dex": 17,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 141,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.41,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "magma-wyrms-scalesword": {
+    "slug": "magma-wyrms-scalesword",
+    "name": "Magma Wyrm's Scalesword",
+    "type": "Curved Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 24,
+      "dex": 15,
+      "int": 0,
+      "fai": 18,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 114,
+      "magic": 0,
+      "fire": 74,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.6,
+      "dex": 0.25,
+      "int": 0,
+      "fai": 0.55,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "omen-cleaver": {
+    "slug": "omen-cleaver",
+    "name": "Omen Cleaver",
+    "type": "Curved Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 19,
+      "dex": 16,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 142,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.44,
+      "dex": 0.43,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "monks-flameblade": {
+    "slug": "monks-flameblade",
+    "name": "Monk's Flameblade",
+    "type": "Curved Greatsword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 18,
+      "dex": 18,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 134,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.37,
+      "dex": 0.52,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "morgotts-cursed-sword": {
+    "slug": "morgotts-cursed-sword",
+    "name": "Morgott's Cursed Sword",
+    "type": "Curved Greatsword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 14,
+      "dex": 35,
+      "int": 0,
+      "fai": 0,
+      "arc": 17
+    },
+    "attack": {
+      "phys": 120,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0.3
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10013,
+    "calcCorrectGraphIds": {
+      "0": 7
+    }
+  },
+  "uchigatana": {
+    "slug": "uchigatana",
+    "name": "Uchigatana",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 11,
+      "dex": 15,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 115,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.36,
+      "dex": 0.55,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "nagakiba": {
+    "slug": "nagakiba",
+    "name": "Nagakiba",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 18,
+      "dex": 22,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 115,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.27,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "hand-of-malenia": {
+    "slug": "hand-of-malenia",
+    "name": "Hand of Malenia",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 16,
+      "dex": 48,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 117,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.05,
+      "dex": 0.75,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "meteoric-ore-blade": {
+    "slug": "meteoric-ore-blade",
+    "name": "Meteoric Ore Blade",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 15,
+      "dex": 14,
+      "int": 18,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 112,
+      "magic": 72,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.45,
+      "dex": 0.17,
+      "int": 0.36,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "rivers-of-blood": {
+    "slug": "rivers-of-blood",
+    "name": "Rivers of Blood",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 18,
+      "int": 0,
+      "fai": 0,
+      "arc": 20
+    },
+    "attack": {
+      "phys": 76,
+      "magic": 0,
+      "fire": 76,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.5,
+      "int": 0,
+      "fai": 0,
+      "arc": 0.33
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10100,
+    "calcCorrectGraphIds": {
+      "0": 7,
+      "2": 4
+    }
+  },
+  "moonveil": {
+    "slug": "moonveil",
+    "name": "Moonveil",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 18,
+      "int": 23,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 73,
+      "magic": 87,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.12,
+      "dex": 0.5,
+      "int": 0.6,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "dragonscale-blade": {
+    "slug": "dragonscale-blade",
+    "name": "Dragonscale Blade",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 20,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 110,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.3,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "serpentbone-blade": {
+    "slug": "serpentbone-blade",
+    "name": "Serpentbone Blade",
+    "type": "Type13",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 11,
+      "dex": 22,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 120,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.75,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "twinblade": {
+    "slug": "twinblade",
+    "name": "Twinblade",
+    "type": "Katana",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 18,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 119,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.35,
+      "dex": 0.43,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "godskin-peeler": {
+    "slug": "godskin-peeler",
+    "name": "Godskin Peeler",
+    "type": "Katana",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 17,
+      "dex": 22,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 121,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.19,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "twinned-knight-swords": {
+    "slug": "twinned-knight-swords",
+    "name": "Twinned Knight Swords",
+    "type": "Katana",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 16,
+      "dex": 18,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 122,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.54,
+      "dex": 0.24,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "eleonoras-poleblade": {
+    "slug": "eleonoras-poleblade",
+    "name": "Eleonora's Poleblade",
+    "type": "Katana",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 21,
+      "int": 0,
+      "fai": 0,
+      "arc": 19
+    },
+    "attack": {
+      "phys": 72,
+      "magic": 0,
+      "fire": 72,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.4,
+      "int": 0,
+      "fai": 0,
+      "arc": 0.3
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10100,
+    "calcCorrectGraphIds": {
+      "0": 7,
+      "2": 4
+    }
+  },
+  "gargoyles-twinblade": {
+    "slug": "gargoyles-twinblade",
+    "name": "Gargoyle's Twinblade",
+    "type": "Katana",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 18,
+      "dex": 15,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 123,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.66,
+      "dex": 0.1,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "mace": {
+    "slug": "mace",
+    "name": "Mace",
+    "type": "Type21",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 12,
+      "dex": 7,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 115,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.55,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "club": {
+    "slug": "club",
+    "name": "Club",
+    "type": "Type21",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 103,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.75,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "0": 7
+    }
+  },
+  "warpick": {
+    "slug": "warpick",
+    "name": "Warpick",
+    "type": "Type21",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 11,
+      "dex": 9,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 108,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.41,
+      "dex": 0.41,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "morning-star": {
+    "slug": "morning-star",
+    "name": "Morning Star",
+    "type": "Type21",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 12,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 118,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.47,
+      "dex": 0.37,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "large-club": {
+    "slug": "large-club",
+    "name": "Large Club",
+    "type": "Type23",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 22,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 131,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.74,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "great-mace": {
+    "slug": "great-mace",
+    "name": "Great Mace",
+    "type": "Type23",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 28,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 134,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.8,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "curved-great-club": {
+    "slug": "curved-great-club",
+    "name": "Curved Great Club",
+    "type": "Type23",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 24,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 145,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.49,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "brick-hammer": {
+    "slug": "brick-hammer",
+    "name": "Brick Hammer",
+    "type": "Type23",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 31,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 122,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.96,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "devourers-scepter": {
+    "slug": "devourers-scepter",
+    "name": "Devourer's Scepter",
+    "type": "Type23",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 24,
+      "dex": 20,
+      "int": 0,
+      "fai": 25,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 112,
+      "magic": 0,
+      "fire": 69,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.48,
+      "dex": 0.48,
+      "int": 0,
+      "fai": 0.37,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "nightrider-flail": {
+    "slug": "nightrider-flail",
+    "name": "Nightrider Flail",
+    "type": "Type24",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 24,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 115,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.21,
+      "dex": 0.66,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "flail": {
+    "slug": "flail",
+    "name": "Flail",
+    "type": "Type24",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 18,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 112,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.34,
+      "dex": 0.52,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "bastards-stars": {
+    "slug": "bastards-stars",
+    "name": "Bastard's Stars",
+    "type": "Type24",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 8,
+      "dex": 22,
+      "int": 22,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 68,
+      "magic": 81,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.35,
+      "int": 0.8,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "battle-axe": {
+    "slug": "battle-axe",
+    "name": "Battle Axe",
+    "type": "Type17",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 12,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 128,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.48,
+      "dex": 0.33,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "hand-axe": {
+    "slug": "hand-axe",
+    "name": "Hand Axe",
+    "type": "Type17",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 9,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 117,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.3,
+      "dex": 0.55,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "ripple-blade": {
+    "slug": "ripple-blade",
+    "name": "Ripple Blade",
+    "type": "Type17",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 11,
+      "dex": 11,
+      "int": 0,
+      "fai": 0,
+      "arc": 20
+    },
+    "attack": {
+      "phys": 75,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 1.58
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10013,
+    "calcCorrectGraphIds": {
+      "0": 7
+    }
+  },
+  "celebrants-cleaver": {
+    "slug": "celebrants-cleaver",
+    "name": "Celebrant's Cleaver",
+    "type": "Type17",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 12,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 125,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.49,
+      "dex": 0.32,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "greataxe": {
+    "slug": "greataxe",
+    "name": "Greataxe",
+    "type": "Thrusting Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 30,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 151,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.55,
+      "dex": 0.31,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "warped-axe": {
+    "slug": "warped-axe",
+    "name": "Warped Axe",
+    "type": "Type17",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 24,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 124,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.85,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "crescent-moon-axe": {
+    "slug": "crescent-moon-axe",
+    "name": "Crescent Moon Axe",
+    "type": "Thrusting Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 25,
+      "dex": 15,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 146,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.39,
+      "dex": 0.49,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "axe-of-godrick": {
+    "slug": "axe-of-godrick",
+    "name": "Axe of Godrick",
+    "type": "Thrusting Sword",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 34,
+      "dex": 22,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 142,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.48,
+      "dex": 0.4,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "executioners-greataxe": {
+    "slug": "executioners-greataxe",
+    "name": "Executioner's Greataxe",
+    "type": "Thrusting Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 34,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 150,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.64,
+      "dex": 0.12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "butchering-knife": {
+    "slug": "butchering-knife",
+    "name": "Butchering Knife",
+    "type": "Thrusting Sword",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 16,
+      "dex": 20,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 134,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0.73,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "spear": {
+    "slug": "spear",
+    "name": "Spear",
+    "type": "Axe",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 12,
+      "dex": 15,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 114,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.55,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "bolt-of-gransax": {
+    "slug": "bolt-of-gransax",
+    "name": "Bolt of Gransax",
+    "type": "Axe",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 20,
+      "dex": 40,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 98,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 63,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.3,
+      "dex": 0.4,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "3": 4
+    }
+  },
+  "cross-naginata": {
+    "slug": "cross-naginata",
+    "name": "Cross-Naginata",
+    "type": "Axe",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 16,
+      "dex": 20,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 122,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.25,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "death-ritual-spear": {
+    "slug": "death-ritual-spear",
+    "name": "Death Ritual Spear",
+    "type": "Axe",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 14,
+      "dex": 20,
+      "int": 18,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 99,
+      "magic": 64,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.23,
+      "dex": 0.53,
+      "int": 0.3,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "mohgwyns-sacred-spear": {
+    "slug": "mohgwyns-sacred-spear",
+    "name": "Mohgwyn's Sacred Spear",
+    "type": "Type28",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 24,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 27
+    },
+    "attack": {
+      "phys": 96,
+      "magic": 0,
+      "fire": 62,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.4,
+      "dex": 0.15,
+      "int": 0,
+      "fai": 0,
+      "arc": 0.4
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10100,
+    "calcCorrectGraphIds": {
+      "0": 7,
+      "2": 4
+    }
+  },
+  "silurias-tree": {
+    "slug": "silurias-tree",
+    "name": "Siluria's Tree",
+    "type": "Type28",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 27,
+      "dex": 13,
+      "int": 0,
+      "fai": 20,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 90,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 90
+    },
+    "scaling": {
+      "str": 0.58,
+      "dex": 0.15,
+      "int": 0,
+      "fai": 0.45,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "serpent-hunter": {
+    "slug": "serpent-hunter",
+    "name": "Serpent-Hunter",
+    "type": "Type28",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 111,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.95,
+      "dex": 0.05,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "vykes-war-spear": {
+    "slug": "vykes-war-spear",
+    "name": "Vyke's War Spear",
+    "type": "Type28",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 16,
+      "dex": 20,
+      "int": 0,
+      "fai": 18,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 103,
+      "magic": 0,
+      "fire": 66,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0.4,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "lance": {
+    "slug": "lance",
+    "name": "Lance",
+    "type": "Type28",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 20,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 123,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.5,
+      "dex": 0.4,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "treespear": {
+    "slug": "treespear",
+    "name": "Treespear",
+    "type": "Type28",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 15,
+      "dex": 22,
+      "int": 0,
+      "fai": 18,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 122,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 79
+    },
+    "scaling": {
+      "str": 0.25,
+      "dex": 0.44,
+      "int": 0,
+      "fai": 0.3,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "halberd": {
+    "slug": "halberd",
+    "name": "Halberd",
+    "type": "Hammer",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 14,
+      "dex": 12,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 125,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.54,
+      "dex": 0.38,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "commanders-standard": {
+    "slug": "commanders-standard",
+    "name": "Commander's Standard",
+    "type": "Hammer",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 24,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 138,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.55,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "nightrider-glaive": {
+    "slug": "nightrider-glaive",
+    "name": "Nightrider Glaive",
+    "type": "Hammer",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 26,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 129,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.79,
+      "dex": 0.05,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "lorettas-war-sickle": {
+    "slug": "lorettas-war-sickle",
+    "name": "Loretta's War Sickle",
+    "type": "Hammer",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 20,
+      "dex": 15,
+      "int": 20,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 110,
+      "magic": 71,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.36,
+      "dex": 0.45,
+      "int": 0.4,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "1": 4
+    }
+  },
+  "guardians-swordspear": {
+    "slug": "guardians-swordspear",
+    "name": "Guardian's Swordspear",
+    "type": "Hammer",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 17,
+      "dex": 16,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 139,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.05,
+      "dex": 0.64,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "dragon-halberd": {
+    "slug": "dragon-halberd",
+    "name": "Dragon Halberd",
+    "type": "Hammer",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 22,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 135,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.51,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "scythe": {
+    "slug": "scythe",
+    "name": "Scythe",
+    "type": "Great Hammer",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 14,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 125,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.23,
+      "dex": 0.65,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "grave-scythe": {
+    "slug": "grave-scythe",
+    "name": "Grave Scythe",
+    "type": "Great Hammer",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 17,
+      "dex": 13,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 144,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.42,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "winged-scythe": {
+    "slug": "winged-scythe",
+    "name": "Winged Scythe",
+    "type": "Great Hammer",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 16,
+      "dex": 16,
+      "int": 0,
+      "fai": 24,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 87,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 104
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0.45,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "4": 4
+    }
+  },
+  "whip": {
+    "slug": "whip",
+    "name": "Whip",
+    "type": "Whip",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 8,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 103,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.34,
+      "dex": 0.45,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "urumi": {
+    "slug": "urumi",
+    "name": "Urumi",
+    "type": "Whip",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 19,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 101,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0.7,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "caestus": {
+    "slug": "caestus",
+    "name": "Caestus",
+    "type": "Fist",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 8,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 90,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.48,
+      "dex": 0.43,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "spiked-caestus": {
+    "slug": "spiked-caestus",
+    "name": "Spiked Caestus",
+    "type": "Fist",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 8,
+      "dex": 10,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 91,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.48,
+      "dex": 0.43,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "star-fist": {
+    "slug": "star-fist",
+    "name": "Star Fist",
+    "type": "Fist",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 12,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 105,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.56,
+      "dex": 0.17,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "hookclaws": {
+    "slug": "hookclaws",
+    "name": "Hookclaws",
+    "type": "Claw",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 8,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 93,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.22,
+      "dex": 0.6,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "bloodhound-claws": {
+    "slug": "bloodhound-claws",
+    "name": "Bloodhound Claws",
+    "type": "Claw",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 10,
+      "dex": 15,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 99,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.43,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "raptor-talons": {
+    "slug": "raptor-talons",
+    "name": "Raptor Talons",
+    "type": "Claw",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 6,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 86,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.1,
+      "dex": 0.72,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "prelates-inferno-crozier": {
+    "slug": "prelates-inferno-crozier",
+    "name": "Prelate's Inferno Crozier",
+    "type": "Spear",
+    "weight": 3.5,
+    "somber": false,
+    "requirements": {
+      "str": 45,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 156,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.76,
+      "dex": 0.1,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "axe-of-godfrey": {
+    "slug": "axe-of-godfrey",
+    "name": "Axe of Godfrey",
+    "type": "Spear",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 42,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 165,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.47,
+      "dex": 0.3,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "torch": {
+    "slug": "torch",
+    "name": "Torch",
+    "type": "Type87",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 5,
+      "dex": 5,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 54,
+      "magic": 0,
+      "fire": 97,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.5,
+      "dex": 0.35,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "beast-repellent-torch": {
+    "slug": "beast-repellent-torch",
+    "name": "Beast-Repellent Torch",
+    "type": "Type87",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 12,
+      "dex": 8,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 58,
+      "magic": 0,
+      "fire": 104,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.61,
+      "dex": 0.18,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {
+      "2": 4
+    }
+  },
+  "carian-regal-scepter": {
+    "slug": "carian-regal-scepter",
+    "name": "Carian Regal Scepter",
+    "type": "Ballista",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 8,
+      "dex": 10,
+      "int": 60,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 24,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.12,
+      "dex": 0.1,
+      "int": 0.96,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2400",
+    "attackElementCorrectId": 20000,
+    "calcCorrectGraphIds": {
+      "0": 15,
+      "1": 15,
+      "2": 15,
+      "3": 15,
+      "4": 15
+    }
+  },
+  "astrologers-staff": {
+    "slug": "astrologers-staff",
+    "name": "Astrologer's Staff",
+    "type": "Ballista",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 7,
+      "dex": 0,
+      "int": 16,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 25,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.12,
+      "dex": 0,
+      "int": 0.89,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "1900",
+    "attackElementCorrectId": 20000,
+    "calcCorrectGraphIds": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16
+    }
+  },
+  "lusats-glintstone-staff": {
+    "slug": "lusats-glintstone-staff",
+    "name": "Lusat's Glintstone Staff",
+    "type": "Ballista",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 10,
+      "dex": 0,
+      "int": 52,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 24,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.25,
+      "dex": 0,
+      "int": 1.1,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2400",
+    "attackElementCorrectId": 20000,
+    "calcCorrectGraphIds": {
+      "0": 15,
+      "1": 15,
+      "2": 15,
+      "3": 15,
+      "4": 15
+    }
+  },
+  "meteorite-staff": {
+    "slug": "meteorite-staff",
+    "name": "Meteorite Staff",
+    "type": "Ballista",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 6,
+      "dex": 0,
+      "int": 18,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 39,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.25,
+      "dex": 0,
+      "int": 1.92,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "3000",
+    "attackElementCorrectId": 20000,
+    "calcCorrectGraphIds": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16
+    }
+  },
+  "finger-seal": {
+    "slug": "finger-seal",
+    "name": "Finger Seal",
+    "type": "Type61",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 4,
+      "dex": 0,
+      "int": 0,
+      "fai": 10,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 25,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0,
+      "int": 0,
+      "fai": 0.83,
+      "arc": 0
+    },
+    "reinforceTypeId": "1900",
+    "attackElementCorrectId": 30000,
+    "calcCorrectGraphIds": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16
+    }
+  },
+  "godslayers-seal": {
+    "slug": "godslayers-seal",
+    "name": "Godslayer's Seal",
+    "type": "Type61",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 4,
+      "dex": 0,
+      "int": 0,
+      "fai": 27,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 25,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.15,
+      "dex": 0,
+      "int": 0,
+      "fai": 0.85,
+      "arc": 0
+    },
+    "reinforceTypeId": "1900",
+    "attackElementCorrectId": 30000,
+    "calcCorrectGraphIds": {
+      "0": 16,
+      "1": 16,
+      "2": 16,
+      "3": 16,
+      "4": 16
+    }
+  },
+  "golden-order-seal": {
+    "slug": "golden-order-seal",
+    "name": "Golden Order Seal",
+    "type": "Type61",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 0,
+      "dex": 0,
+      "int": 17,
+      "fai": 17,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 24,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0,
+      "dex": 0,
+      "int": 0.53,
+      "fai": 0.53,
+      "arc": 0
+    },
+    "reinforceTypeId": "2400",
+    "attackElementCorrectId": 30010,
+    "calcCorrectGraphIds": {
+      "0": 12,
+      "1": 12,
+      "2": 12,
+      "3": 12,
+      "4": 12
+    }
+  },
+  "erdtree-seal": {
+    "slug": "erdtree-seal",
+    "name": "Erdtree Seal",
+    "type": "Type61",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "fai": 40,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 25,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 15
+    },
+    "scaling": {
+      "str": 0,
+      "dex": 0,
+      "int": 0,
+      "fai": 0.89,
+      "arc": 0
+    },
+    "reinforceTypeId": "2400",
+    "attackElementCorrectId": 30000,
+    "calcCorrectGraphIds": {
+      "0": 15,
+      "1": 15,
+      "2": 15,
+      "3": 15,
+      "4": 15
+    }
+  },
+  "longbow": {
+    "slug": "longbow",
+    "name": "Longbow",
+    "type": "Bow",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 9,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 80,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.2,
+      "dex": 0.26,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "0",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "black-bow": {
+    "slug": "black-bow",
+    "name": "Black Bow",
+    "type": "Bow",
+    "weight": 3.5,
+    "somber": true,
+    "requirements": {
+      "str": 9,
+      "dex": 20,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 70,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "scaling": {
+      "str": 0.18,
+      "dex": 0.26,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "reinforceTypeId": "2200",
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  }
+}

@@ -1,0 +1,124 @@
+// lib/articles.ts — Game article content definitions
+
+export interface ArticleBase {
+  slug: string;
+  category: "builds" | "bosses" | "weapons" | "walkthroughs";
+  gameSlug: string;
+  difficulty?: "beginner" | "intermediate" | "advanced" | "expert";
+  readTimeMinutes: number;
+  order: number;
+}
+
+export interface ArticleContent {
+  title: string;
+  metaDescription: string;
+  sections: ArticleSection[];
+  internalLinks: InternalLink[];
+}
+
+export interface ArticleSection {
+  heading: string;
+  level: 1 | 2 | 3;
+  content: string;
+  image?: string;
+  imageAlt?: string;
+}
+
+export interface InternalLink {
+  href: string;
+  anchorText: string;
+}
+
+export interface Article extends ArticleBase {
+  title: string;
+  metaDescription: string;
+  sections: ArticleSection[];
+  internalLinks: InternalLink[];
+}
+
+const articles: Article[] = [
+  // ═══ ELDEN RING — BUILDS ═══
+  {
+    slug: "moonveil-intelligence-build",
+    category: "builds",
+    gameSlug: "elden-ring",
+    difficulty: "intermediate",
+    readTimeMinutes: 9,
+    order: 1,
+    title: "Moonveil Intelligence Build — Best Elden Ring Samurai Mage Setup",
+    metaDescription:
+      "Should you use the Moonveil INT build? Full comparison vs Dark Moon Greatsword and Wing of Astel. Stat spreads, armor loadouts, progression path, and when this build falls short.",
+    sections: [
+      {
+        heading: "Decision — Should You Use This Build?",
+        level: 2,
+        content:
+          "The Moonveil Intelligence build is Elden Ring\'s strongest hybrid option for players who want both melee pressure and ranged burst without the glass-cannon fragility of a pure mage. You should pick this build if: you like the katana moveset but want INT scaling; you want to delete bosses with Transient Moonlight from medium range; you value FP efficiency (the weapon art costs 16 FP vs 40+ for a comparable sorcery). You should NOT pick this build if: you prefer slow heavy weapons with poise trading; you want to use incantations instead of sorceries; you struggle with FP management and flask allocation; you are fighting Elden Beast or Radagon (both highly resistant to magic damage). The most common mistake is treating Moonveil as a primary melee weapon\u2014it fills the same role as a spell catalyst, not a main hand weapon. Your R1 is backup; Transient Moonlight is your primary attack."
+      },
+      {
+        heading: "Stat Distribution vs Dark Moon Greatsword Build",
+        level: 2,
+        content:
+          "Moonveil build at RL 150: Vigor 50, Mind 30, Endurance 20, DEX 18, INT 70. Dark Moon Greatsword build (comparison): Vigor 50, Mind 25, Endurance 25, STR 16, DEX 20, INT 68. The key difference: Moonveil reaches 70 INT faster because it needs only 18 DEX and 12 STR, saving 8 points you can put into Mind. Dark Moon Greatsword deals about 10% more raw damage per charged R2 but costs 30% more FP per use. For most PvE encounters, Moonveil\'s faster attack speed and lower FP cost give higher DPS. Dark Moon only wins against magic-resistant enemies where its magic damage still connects while your sorceries bounce off.",
+        image: "elden-ring-moonveil-stats.jpg",
+        imageAlt: "Moonveil katana stat requirements showing 12 STR and 18 DEX"
+      },
+      {
+        heading: "Weapon and Spell Synergy",
+        level: 2,
+        content:
+          "Your damage comes from three overlapping sources. 1) Transient Moonlight weapon art: 16 FP, 180% INT scaling, stance damage equal to a greatsword. Use the heavy input (horizontal slash) for groups and the light input (vertical slice) for single targets. 2) Carian Slicer: 8 FP, 240% INT scaling per second on dagger-speed swings. Use this for DPS windows during boss openings. 3) Night Comet: 26 FP, invisible to NPC dodgers\u2014essential for dungeons with sorcery-reading enemies. The synergy trap: players try to cast Terra Magicus + Comet Azur for one-shot kills. This wastes FP and misses 90% of the fight. Instead, weave Carian Slicer between Moonveil R2s for sustained DPS. For armor, aim for 51 poise using the Scale set + Bull-Goat Talisman, not the full Veteran set\u2014the extra equip load investment isn\'t worth the minimal defense gain.",
+        image: "elden-ring-moonveil-combat.jpg",
+        imageAlt: "Moonveil Transient Moonlight weapon art action shot"
+      },
+      {
+        heading: "Progression Path \u2014 When to Transition",
+        level: 2,
+        content:
+          "Early game (Level 25-50): Rush 18 DEX by Limgrave, then INT to 30. Cross the bridge to Caelid immediately to fight Magma Wyrm for Moonveil\u2014bring a bleed weapon and summon. Mid game (Level 50-90): INT to 50, Carian Regal Scepter, Shard of Alexander from Jar Alexander quest. Intelligence investment should outpace Vigor at this stage. Late game (Level 90-150): INT 70-80. This build peaks at 70 INT\u2014going to 80 gives only 5% more damage. Put remaining points into Mind for more weapon art casts. The build drops off after Malenia because endgame bosses (Godfrey, Radagon, Elden Beast) have high magic resistance. At that point, respec to a Cold-infused weapon build with INT/STR split, or accept the lower damage and focus on spell variety."
+      },
+      {
+        heading: "Comparison vs Wing of Astel",
+        level: 2,
+        content:
+          "Wing of Astel (also INT curved sword): Lower AR per hit (490 vs 580 at 70 INT) but costs 50% less FP per weapon art use. Wing of Astel excels in tight boss fights where you need sustained pressure over 90 seconds; Moonveil wins in fights under 60 seconds where burst matters more. Against Malenia, Wing of Astel\'s Nebula does 30% more stance damage. Against Mohg, Moonveil\'s range advantage lets you hit during his bloodflame pools. Trade-off summary: Moonveil for open world and invasions; Wing of Astel for boss fights where you go through 3+ FP flasks."
+      },
+      {
+        heading: "Common Mistakes",
+        level: 2,
+        content:
+          "Most players mess up by: (1) using Moonveil R1 as primary attack\u2014it does 30% less DPS than two-handing and weapon-arting. (2) skipping Mind investment\u2014with 15 Mind you get 4 weapon art casts per flask; with 30 Mind you get 8 casts. (3) wearing light armor for the \'mage aesthetic\'\u2014Moonveil requires you to be close to use Transient Moonlight, and low poise means any hit staggers you out of the weapon art. (4) not using the backstep version of Transient Moonlight for closing gaps\u2014the R2 follow-up has better range and stun potential than the R1 version."
+      }
+    ],
+    internalLinks: [
+      { href: "/en/elden-ring/builds", anchorText: "All Elden Ring Builds" },
+      { href: "/en/elden-ring/weapons/moonveil", anchorText: "Moonveil Weapon Guide" },
+      { href: "/en/elden-ring/bosses/margit", anchorText: "Margit Boss Strategy" },
+      { href: "/en/elden-ring", anchorText: "Elden Ring Game Hub" }
+    ]
+  }
+];
+
+export function getArticlesForGame(
+  gameSlug: string,
+  category?: string
+): Article[] {
+  return articles.filter(
+    (a) =>
+      a.gameSlug === gameSlug &&
+      (category ? a.category === category : true)
+  );
+}
+
+export function getArticleBySlug(
+  slug: string,
+  gameSlug: string
+): Article | undefined {
+  return articles.find((a) => a.slug === slug && a.gameSlug === gameSlug);
+}
+
+export function getAllArticleSlugs(): { slug: string; gameSlug: string }[] {
+  return articles.map((a) => ({ slug: a.slug, gameSlug: a.gameSlug }));
+}
+
+export const ARTICLE_CATEGORIES = ["builds", "bosses", "weapons", "walkthroughs"] as const;

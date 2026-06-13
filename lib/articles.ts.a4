@@ -1,0 +1,34 @@
+{
+  slug: "rivers-of-blood",
+  category: "weapons",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 8,
+  order: 1,
+  title: "Rivers of Blood Guide - Corpse Piler, Arcane Scaling & Best Builds",
+  metaDescription: "Is Rivers of Blood still the best katana? Corpse Piler timing, arcane cap at 45, comparison vs Moonveil and Hand of Malenia, and when NOT to use it.",
+  sections: [
+    {
+      heading: "Decision - Should You Use Rivers of Blood?",
+      level: 2,
+      content: "RoB is the highest-DPS weapon against bleedable targets but a specialist. Use if: melting bosses under 20s, you have Arcane investment, fighting bleedable bosses (Malenia, Mohg, Godfrey). Do NOT use if: fighting bleed-immune bosses (Elden Beast, Radagon, gargoyles, Rennala); you want PvP weapon (Corpse Piler is easy to dodge post-nerf). Moonveil is better for range. Hand of Malenia has higher potential but harder to land."
+    },
+    {
+      heading: "Corpse Piler - Timing and Positioning",
+      level: 2,
+      content: "L2 > R1 (horizontal slash, 360 arc, groups/mobile bosses). L2 > R2 (overhead vertical, single targets, stance breaks). Bleed procs on SECOND hit - always commit to 2 hits. 16 FP per cast. At 20 Mind = 6 casts per flask. Range: 2/3 of Moonveil's Transient Moonlight. The weapon art tracks slightly - if first hit misses, second re-adjusts."
+      image: "elden-ring-rivers-of-blood-corpse-piler.jpg",
+      imageAlt: "Rivers of Blood Corpse Piler weapon art in combat",
+    },
+    { heading: "Comparison vs Moonveil", level: 2, content: "RoB at 50 DEX/45 ARC: 565 AR + 112 bleed. Moonveil at 70 INT: 580 AR. RoB does 30% more DPS vs bleedable bosses. Moonveil does 40% more vs magic-weak. Key: Moonveil projectile = safer range. Corpse Piler = need to be close. For Mohg: RoB wins (bleed + hits through phase transition). Rennala: Moonveil wins (distance + magic weakness). Malenia: RoB kills in 18s vs 45s for Moonveil." },
+    { heading: "Stat Scaling and Arcane Cap", level: 2, content: "Scales D STR, C DEX, D ARC at +10. Bleed buildup scales with ARC up to 45 (hard cap). Past 45, +1-2 bleed per level. Physical soft caps at 50 DEX. Optimal: 50 DEX / 45 ARC at RL 150. 80 DEX / 60 ARC adds only 12% more damage for 45 stat points." },
+    { heading: "Progression and Upgrades", level: 2, content: "Found in Mountaintops of Giants after capital. Complete Yura questline through Altus Plateau. Upgrade: Somber Smithing Stones to +10. Before RoB: use Bloody Slash Uchigatana. Switch to RoB as soon as obtained - outclasses every other bleed weapon for PvE boss killing." },
+    { heading: "Common Mistakes", level: 2, content: "(1) Only using Corpse Piler - L1 power-stance does more stance damage. (2) No Mind investment - 10 Mind = 2 Corpse Piler casts per flask. (3) Using RoB vs bleed-immune enemies - switch weapon. (4) Not using Seppuku offhand trick - put Seppuku on left-hand Uchigatana for +30 bleed to both weapons." }
+  ],
+  internalLinks: [
+    { href: "/en/elden-ring/weapons", anchorText: "All Weapons" },
+    { href: "/en/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
+    { href: "/en/elden-ring/bosses/malenia", anchorText: "Malenia Boss Guide" },
+    { href: "/en/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+},

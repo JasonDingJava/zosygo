@@ -1,0 +1,34 @@
+{
+  slug: "elden-ring-pure-dex-bleed-build",
+  category: "builds",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 9,
+  order: 3,
+  title: "Elden Ring Pure Dexterity Bleed Build - Samurai Arcane Setup",
+  metaDescription: "Is the pure DEX bleed build worth the stat investment? Full comparison vs Bloodhound's Fang and Moonveil.",
+  sections: [
+    {
+      heading: "Decision - Should You Use This Build?",
+      level: 2,
+      content: "The Pure DEX Bleed build is Elden Ring's highest burst-damage setup against bleedable bosses but the most binary build in the game. Pick this if: you want to delete bosses in under 30 seconds (Malenia in 18s, Mohg in 12s); you enjoy aggressive jump attack pressure. Do NOT pick this if: fighting bleed-immune bosses (Elden Beast, Radagon, Gargoyles, Crystalians, Rennala phase 1 - about 20% of bosses); you prefer safe ranged play. Bloodhound's Fang is a better all-rounder for first playthroughs. Moonveil is better for hybrid ranged/melee."
+    },
+    {
+      heading: "Stat Distribution vs Bloodhound's Fang Build",
+      level: 2,
+      content: "Bleed build at RL 150: Vigor 50, Mind 12, Endurance 30, STR 18, DEX 55, ARC 45. Bloodhound build: Vigor 50, Endurance 30, STR 50, DEX 60. Bleed build needs only 18 STR for RoB (12 + 2-handing), freeing 30+ points for Arcane. Bloodhound needs 40 STR. Trade-off: Bloodhound deals 700-800 AR per R1. Bleed deals 450-550 per L1 but procs 15% max HP every 4 hits. Against 10k HP bosses, bleed adds 1700 damage per proc = 30-50% higher DPS. Against bleed-immune, Bloodhound does 60% more raw damage."
+      image: "elden-ring-pure-dex-bleed-stats.jpg",
+      imageAlt: "Dexterity and Arcane stat distribution for Elden Ring bleed build",
+    },
+    { heading: "Weapon Loadout and Talisman Synergy", level: 2, content: "Left hand Rivers of Blood +10, Right hand Uchigatana +25 with Seppuku (Blood affinity). Seppuku adds 30 bleed buildup per weapon for 60s. White Mask +10% attack on bleed proc. Lord of Blood's Exultation +20% attack for 20s after bleed. Stack: 1.1 x 1.2 = 32% increase. Talismans: Lord of Blood's Exultation, Shard of Alexander, Claw Talisman, Dragoncrest Greatshield. Rotational priority: Seppuku > jump L1 > Corpse Piler when bleed procs." },
+    { heading: "Progression Path", level: 2, content: "Early (1-40): Samurai start, dual Uchigatanas with Bloody Slash. Focus VGR 25, DEX 30. Mid (40-80): Yura questline for RoB, farm White Mask at Mohgwyn. DEX 40, VGR 35. Late (80-150): DEX 55, ARC 45. Carry Cold-infused Zweihander +25 for Radagon/Elden Beast." },
+    { heading: "Three-Way Comparison", level: 2, content: "Bleed build: 3500 DPS vs bleedable bosses. Bloodhound: 2400 DPS consistent. Moonveil: 2800 DPS with range safety. Malenia kill times: bleed 18s, Moonveil 60-80s, Bloodhound 90+s. First playthrough pick: Bloodhound. Boss rush pick: bleed." },
+    { heading: "Common Mistakes", level: 2, content: "(1) Not using Seppuku before boss fights. (2) Dual RoB instead of RoB + Seppuku Uchi. (3) No Dragoncrest Greatshield - one mistake kills. (4) No backup for bleed-immune bosses. (5) Spamming Corpse Piler instead of jump L1s - jump L1s stagger in 3-4 hits." }
+  ],
+  internalLinks: [
+    { href: "/en/elden-ring/builds", anchorText: "All Elden Ring Builds" },
+    { href: "/en/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
+    { href: "/en/elden-ring/bosses/margit", anchorText: "Margit Boss Guide" },
+    { href: "/en/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+},

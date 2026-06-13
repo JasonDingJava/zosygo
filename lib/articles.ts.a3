@@ -1,0 +1,33 @@
+{
+  slug: "godrick-the-grafted",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "beginner",
+  readTimeMinutes: 7,
+  order: 1,
+  title: "Godrick the Grafted Boss Guide - Phase Breakdown & Attack Patterns",
+  metaDescription: "Is Godrick harder than Margit? Full phase breakdown with dodge timings. Grafted dragon phase 2 explained. Best weapons, summons, level recommendations.",
+  sections: [
+    {
+      heading: "Decision - Should You Fight Godrick First?",
+      level: 2,
+      content: "Godrick is easier than Margit but blocks access to Liurnia. Fight at level 35+ with +5 weapon. Below 30? Explore Weeping Peninsula first. Difficulty: 6/10. Weak to strike damage, bleed, and lightning. Resists holy (40% resistance). Margit tests dodge timing; Godrick tests positioning."
+    },
+    {
+      heading: "Phase 1 Attack Patterns (100% to 60% HP)",
+      level: 2,
+      content: "Seven attacks: (1) Overhead axe slam - 2s windup, roll RIGHT at last moment, 2-hit punish. (2) Five-hit spinning combo - block first 2 with Brass Shield, roll away, 3-hit punish. (3) Shockwave stomp - JUMP to avoid, not roll. (4) Ground sweep - jump over and attack. (5) Grab - strafe left, charged R2 on back. (6) Leaping slam - roll INTO him. (7) Wind funnel - strafe sideways. All leave 2-3s windows."
+      image: "elden-ring-godrick-phase1.jpg",
+      imageAlt: "Godrick the Grafted Phase 1 in Stormveil Castle",
+    },
+    { heading: "Phase 2 - The Grafted Dragon", level: 2, content: "At 60% HP he grafts dragon head. New moves: (1) Fire breath cone - sprint BEHIND him. (2) Dragon bite lunge - roll INTO it. (3) Fire tornado - run to max range, dont punish. (4) Ground fire lines - stand between lines. Key: stay behind him always in phase 2. Punish only after fire breath and bite lunge." },
+    { heading: "Recommended Builds vs Godrick", level: 2, content: "Best: Large Club (strike damage), Bloodhound's Fang (bleed), Claymore with Lightning. Worst: holy weapons. Best summons: Nepheli Loux (sign outside fog gate). Best spells: Lightning Spear, Rock Sling. Use Dragoncrest Shield +1 for fire resist in phase 2." },
+    { heading: "Common Mistakes", level: 2, content: "(1) Staying in front in phase 2 - get behind him. (2) Rolling through tornado - run away. (3) Not using Nepheli Loux. (4) Fighting before collecting Stormveil Golden Seeds. (5) Using holy damage." }
+  ],
+  internalLinks: [
+    { href: "/en/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/en/elden-ring/bosses/margit", anchorText: "Margit Boss Strategy" },
+    { href: "/en/elden-ring/builds", anchorText: "Elden Ring Builds" },
+    { href: "/en/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+},
