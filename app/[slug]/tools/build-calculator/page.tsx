@@ -702,8 +702,8 @@ export default function EldenRingBuildCalculator() {
         {/* ────── MAIN GRID ────── */}
         <div className="grid gap-6 lg:grid-cols-12">
 
-          {/* ═══ LEFT PANEL (5/12) ═══ */}
-          <div className="lg:col-span-5 space-y-6">
+          {/* ═══ LEFT PANEL (4/12) ═══ */}
+          <div className="lg:col-span-4 space-y-6">
 
             {/* Starting Class */}
             <Section title="Starting Class">
@@ -869,8 +869,8 @@ export default function EldenRingBuildCalculator() {
 
           </div>
 
-          {/* ═══ RIGHT PANEL (7/12) ═══ */}
-          <div className="lg:col-span-7 space-y-6">
+          {/* ═══ RIGHT PANEL (8/12) ═══ */}
+          <div className="lg:col-span-8 space-y-6">
 
             {buildOutput ? (
               <>
