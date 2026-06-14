@@ -583,19 +583,77 @@ export default function EldenRingBuildCalculator() {
         {/* Popular Builds */}
         <div className="mb-8">
           <h2 className="mb-4 text-xl font-bold text-yellow-400">Popular Builds</h2>
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {POPULAR_BUILDS.map(function(build) { return (
               <button key={build.name} onClick={function() { applyPopularBuild(build); }}
-                className="group rounded-lg border border-gray-800 bg-gray-900/60 p-4 text-left transition-all hover:border-yellow-700/40 hover:bg-gray-900">
-                <h3 className="font-semibold text-gray-200 group-hover:text-yellow-300">{build.name}</h3>
-                <p className="mt-1 text-xs text-gray-500 line-clamp-2">{build.description}</p>
-                <div className="mt-2 flex flex-wrap gap-1">
-                  {build.weapons.slice(0, 2).map(function(w) {
-                    var wp = ALL_WEAPONS[w];
-                    return wp ? <span key={w} className="rounded bg-gray-800 px-2 py-0.5 text-[10px] text-gray-400">{wp.name}</span> : null;
-                  })}
-                  {build.weapons.length > 2 ? <span className="rounded bg-gray-800 px-2 py-0.5 text-[10px] text-gray-500">+{build.weapons.length - 2} more</span> : null}
+                className="group relative overflow-hidden rounded-xl border border-gray-800 bg-gradient-to-br from-gray-900 to-gray-950 p-5 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-yellow-900/20">
+                {/* Theme color accent bar */}
+                <div className={"absolute top-0 left-0 right-0 h-1 " + (
+                  build.name === "Bleed Build" ? "bg-red-500" :
+                  build.name === "Moonveil Intelligence Build" ? "bg-blue-500" :
+                  build.name === "Strength Greatsword Build" ? "bg-orange-500" :
+                  build.name === "Faith Blasphemous Blade" ? "bg-amber-500" :
+                  build.name === "Quality Build" ? "bg-teal-500" :
+                  "bg-purple-500"
+                )}></div>
+                {/* Icon + Name */}
+                <div className="flex items-start justify-between">
+                  <div>
+                    <h3 className="text-base font-bold text-gray-100 group-hover:text-yellow-300 transition-colors">{build.name}</h3>
+                    <p className="mt-1 text-[11px] leading-relaxed text-gray-500 line-clamp-2">{build.description}</p>
+                  </div>
+                  <span className="ml-3 text-2xl shrink-0">
+                    {build.name === "Bleed Build" ? "\ud83d\udde1\ufe0f" :
+                     build.name === "Moonveil Intelligence Build" ? "\ud83d\udd2e" :
+                     build.name === "Strength Greatsword Build" ? "\ud83d\udc8a" :
+                     build.name === "Faith Blasphemous Blade" ? "\u2728" :
+                     build.name === "Quality Build" ? "\u2694\ufe0f" :
+                     "\ud83e\uddd9"}
+                  </span>
                 </div>
+                {/* Class + Level tag */}
+                <div className="mt-3 flex items-center gap-2">
+                  <span className="rounded-full border border-gray-700 bg-gray-800/80 px-2.5 py-0.5 text-[10px] font-medium text-gray-400 capitalize">{build.class}</span>
+                  {function() {
+                    var total = 0;
+                    if (build.stats) {
+                      for (var k of Object.keys(build.stats)) { total += (build.stats as any)[k]; }
+                    }
+                    var rl = total - 79;
+                    return <span className="rounded-full bg-yellow-900/30 px-2.5 py-0.5 text-[10px] font-medium text-yellow-400">RL {rl}</span>;
+                  }()}
+                </div>
+                {/* Weapon preview chips */}
+                <div className="mt-3 flex flex-wrap gap-1.5">
+                  {build.weapons.slice(0, 3).map(function(w) {
+                    var wp = ALL_WEAPONS[w];
+                    return wp ? <span key={w} className="rounded-md border border-gray-700/60 bg-gray-800/60 px-2 py-0.5 text-[10px] font-medium text-gray-300">{wp.name}</span> : null;
+                  })}
+                  {build.weapons.length > 3 ? <span className="rounded-md border border-gray-700/40 bg-gray-800/40 px-2 py-0.5 text-[10px] text-gray-500">+{build.weapons.length - 3}</span> : null}
+                </div>
+                {/* Key stats mini display */}
+                {function() {
+                  var s = build.stats;
+                  var parts = [];
+                  if (!s) return null;
+                  if (s.vigor && s.vigor >= 40) parts.push("VIG " + s.vigor);
+                  if (s.mind && s.mind >= 20) parts.push("MND " + s.mind);
+                  if (s.endurance && s.endurance >= 25) parts.push("END " + s.endurance);
+                  if (s.strength && s.strength >= 40) parts.push("STR " + s.strength);
+                  if (s.dexterity && s.dexterity >= 40) parts.push("DEX " + s.dexterity);
+                  if (s.intelligence && s.intelligence >= 40) parts.push("INT " + s.intelligence);
+                  if (s.faith && s.faith >= 40) parts.push("FTH " + s.faith);
+                  if (s.arcane && s.arcane >= 40) parts.push("ARC " + s.arcane);
+                  return parts.length > 0 ? (
+                    <div className="mt-2 flex flex-wrap gap-1">
+                      {parts.map(function(p, i) { return (
+                        <span key={i} className="rounded-full bg-gray-800/60 px-2 py-0.5 text-[9px] font-bold text-yellow-500">{p}</span>
+                      );})}
+                    </div>
+                  ) : null;
+                }()}
+                {/* Hover arrow indicator */}
+                <div className="absolute bottom-3 right-3 text-xs text-yellow-600 opacity-0 transition-opacity group-hover:opacity-100">Load Build \u2192</div>
               </button>
             );})}
           </div>
