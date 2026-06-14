@@ -3,6 +3,7 @@
 
 import { ALL_WEAPONS, calculateWeaponAR, type WeaponEntry } from "./weapons";
 import { STARTING_CLASSES, type StartingClass } from "./classes";
+import { ALL_ARMOR_SETS, ALL_TALISMANS } from "./armor";
 
 export interface BuildStats {
   vigor: number;
@@ -21,6 +22,8 @@ export interface BuildInput {
   selectedWeapons: string[];
   twoHanding: boolean;
   upgradeLevel: number;
+  selectedArmorSet?: string;
+  selectedTalismans?: string[];
 }
 
 export interface WeaponARResult {
@@ -332,9 +335,23 @@ export function calculateBuild(input: BuildInput): BuildOutput {
     });
   }
 
-  // Estimate armor + talismans weight
-  totalWeight += 15; // armor set
-  totalWeight += 3;  // talismans
+  // Armor set weight (user selected or default estimate)
+  const armorSet = input.selectedArmorSet ? ALL_ARMOR_SETS[input.selectedArmorSet] : null;
+  if (armorSet) {
+    totalWeight += armorSet.totalWeight;
+  } else {
+    totalWeight += 15; // default armor estimate
+  }
+
+  // Talismans weight
+  if (input.selectedTalismans && input.selectedTalismans.length > 0) {
+    for (const tid of input.selectedTalismans) {
+      const tal = ALL_TALISMANS[tid];
+      if (tal) totalWeight += tal.weight;
+    }
+  } else {
+    totalWeight += 3; // default talisman estimate
+  }
 
   const rollType = getRollType(totalWeight, loadData.maxLoad);
   const buildType = detectBuildType(input.stats, weaponResults);

@@ -1,0 +1,496 @@
+{
+  "talismans": [
+    {
+      "id": "radagon-sorseal",
+      "name": "Radagon's Soreseal",
+      "weight": 0.8,
+      "effect": "Raises Vigor, Endurance, Strength, Dexterity by 5 each. Increases damage taken by 15%."
+    },
+    {
+      "id": "marika-sorseal",
+      "name": "Marika's Soreseal",
+      "weight": 0.8,
+      "effect": "Raises Mind, Intelligence, Faith, Arcane by 5 each. Increases damage taken by 15%."
+    },
+    {
+      "id": "erdtrees-favor",
+      "name": "Erdtree's Favor",
+      "weight": 0.6,
+      "effect": "Raises HP, Stamina, and Equip Load by 2%."
+    },
+    {
+      "id": "erdtrees-favor+1",
+      "name": "Erdtree's Favor +1",
+      "weight": 0.6,
+      "effect": "Raises HP, Stamina, and Equip Load by 3%."
+    },
+    {
+      "id": "erdtrees-favor+2",
+      "name": "Erdtree's Favor +2",
+      "weight": 0.6,
+      "effect": "Raises HP, Stamina, and Equip Load by 4%."
+    },
+    {
+      "id": "great-jars-arsenal",
+      "name": "Great-Jar's Arsenal",
+      "weight": 1.5,
+      "effect": "Raises Equip Load by 19%."
+    },
+    {
+      "id": "arsenal-charm",
+      "name": "Arsenal Charm",
+      "weight": 0.8,
+      "effect": "Raises Equip Load by 15%."
+    },
+    {
+      "id": "arsenal-charm+1",
+      "name": "Arsenal Charm +1",
+      "weight": 0.8,
+      "effect": "Raises Equip Load by 17%."
+    },
+    {
+      "id": "radagon-icon",
+      "name": "Radagon Icon",
+      "weight": 0.4,
+      "effect": "Shortens spell casting time by 10%."
+    },
+    {
+      "id": "graven-mass",
+      "name": "Graven-Mass Talisman",
+      "weight": 0.6,
+      "effect": "Raises potency of sorceries by 8%."
+    },
+    {
+      "id": "graven-school",
+      "name": "Graven-School Talisman",
+      "weight": 0.4,
+      "effect": "Raises potency of sorceries by 4%."
+    },
+    {
+      "id": "flocks-canvas",
+      "name": "Flocks's Canvas Talisman",
+      "weight": 0.5,
+      "effect": "Raises potency of incantations by 8%."
+    },
+    {
+      "id": "faithfuls-canvas",
+      "name": "Faithful's Canvas Talisman",
+      "weight": 0.4,
+      "effect": "Raises potency of incantations by 4%."
+    },
+    {
+      "id": "godfrey-icon",
+      "name": "Godfrey Icon",
+      "weight": 0.6,
+      "effect": "Raises the power of charged attacks and spells by 15%."
+    },
+    {
+      "id": "alexanders-shard",
+      "name": "Alexander's Shard",
+      "weight": 0.8,
+      "effect": "Greatly raises the power of skills by 15%."
+    },
+    {
+      "id": "shard-of-alexander",
+      "name": "Shard of Alexander",
+      "weight": 0.8,
+      "effect": "Raises the power of skills by 10%."
+    },
+    {
+      "id": "rotted-winged-insignia",
+      "name": "Rotted Winged Sword Insignia",
+      "weight": 0.5,
+      "effect": "Greatly raises attack power with successive attacks."
+    },
+    {
+      "id": "winged-sword-insignia",
+      "name": "Winged Sword Insignia",
+      "weight": 0.4,
+      "effect": "Raises attack power with successive attacks."
+    },
+    {
+      "id": "millicents-prosthesis",
+      "name": "Millicent's Prosthesis",
+      "weight": 0.5,
+      "effect": "Raises Dexterity by 5. Raises attack power with successive attacks."
+    },
+    {
+      "id": "claw-talisman",
+      "name": "Claw Talisman",
+      "weight": 0.6,
+      "effect": "Raises jump attack damage by 15%."
+    },
+    {
+      "id": "axe-talisman",
+      "name": "Axe Talisman",
+      "weight": 0.6,
+      "effect": "Raises charge attack damage by 10%."
+    },
+    {
+      "id": "dagger-talisman",
+      "name": "Dagger Talisman",
+      "weight": 0.4,
+      "effect": "Raises critical hit damage by 17%."
+    },
+    {
+      "id": "spear-talisman",
+      "name": "Spear Talisman",
+      "weight": 0.5,
+      "effect": "Raises counterattack damage by 15%."
+    },
+    {
+      "id": "hammer-talisman",
+      "name": "Hammer Talisman",
+      "weight": 0.6,
+      "effect": "Increases stance damage by 20%."
+    },
+    {
+      "id": "curved-sword-talisman",
+      "name": "Curved Sword Talisman",
+      "weight": 0.5,
+      "effect": "Raises guard counter damage by 20%."
+    },
+    {
+      "id": "takers-cameo",
+      "name": "Taker's Cameo",
+      "weight": 0.4,
+      "effect": "Restores HP upon defeating enemies."
+    },
+    {
+      "id": "assassins-crimson-dagger",
+      "name": "Assassin's Crimson Dagger",
+      "weight": 0.3,
+      "effect": "Restores HP on critical hits."
+    },
+    {
+      "id": "assassins-cerulean-dagger",
+      "name": "Assassin's Cerulean Dagger",
+      "weight": 0.3,
+      "effect": "Restores FP on critical hits."
+    },
+    {
+      "id": "lord-of-blood",
+      "name": "Lord of Blood's Exultation",
+      "weight": 0.5,
+      "effect": "Raises attack power by 20% when blood loss occurs nearby."
+    },
+    {
+      "id": "kindred-of-rot",
+      "name": "Kindred of Rot's Exultation",
+      "weight": 0.5,
+      "effect": "Raises attack power by 20% when poison or rot occurs nearby."
+    },
+    {
+      "id": "rotten- winged-insignia",
+      "name": "Rotten Winged Sword Insignia",
+      "weight": 0.5,
+      "effect": "Greatly raises attack power with successive attacks."
+    },
+    {
+      "id": "blue-dancer-charm",
+      "name": "Blue Dancer Charm",
+      "weight": 0.3,
+      "effect": "Raises attack power when equipment load is light."
+    },
+    {
+      "id": "stargazer-heirloom",
+      "name": "Stargazer Heirloom",
+      "weight": 0.3,
+      "effect": "Raises Intelligence by 5."
+    },
+    {
+      "id": "two-fingers-heirloom",
+      "name": "Two Fingers Heirloom",
+      "weight": 0.3,
+      "effect": "Raises Faith by 5."
+    },
+    {
+      "id": "silver-scarab",
+      "name": "Silver Scarab",
+      "weight": 0.5,
+      "effect": "Raises item discovery by 75."
+    },
+    {
+      "id": "gold-scarab",
+      "name": "Gold Scarab",
+      "weight": 0.5,
+      "effect": "Raises runes obtained from enemies by 20%."
+    },
+    {
+      "id": "crimson-seed",
+      "name": "Crimson Seed Talisman",
+      "weight": 0.3,
+      "effect": "Greatly increases HP restoration from Flask of Crimson Tears."
+    },
+    {
+      "id": "cerulean-seed",
+      "name": "Cerulean Seed Talisman",
+      "weight": 0.3,
+      "effect": "Greatly increases FP restoration from Flask of Cerulean Tears."
+    },
+    {
+      "id": "green-turtle",
+      "name": "Green Turtle Talisman",
+      "weight": 0.3,
+      "effect": "Raises Stamina recovery speed by 12%."
+    },
+    {
+      "id": "viridian-amber",
+      "name": "Viridian Amber Medallion",
+      "weight": 0.5,
+      "effect": "Raises maximum Stamina by 11%."
+    },
+    {
+      "id": "viridian-amber+1",
+      "name": "Viridian Amber Medallion +1",
+      "weight": 0.5,
+      "effect": "Raises maximum Stamina by 13%."
+    },
+    {
+      "id": "viridian-amber+2",
+      "name": "Viridian Amber Medallion +2",
+      "weight": 0.5,
+      "effect": "Raises maximum Stamina by 15%."
+    },
+    {
+      "id": "crimson-amber",
+      "name": "Crimson Amber Medallion",
+      "weight": 0.5,
+      "effect": "Raises maximum HP by 6%."
+    },
+    {
+      "id": "crimson-amber+1",
+      "name": "Crimson Amber Medallion +1",
+      "weight": 0.5,
+      "effect": "Raises maximum HP by 7%."
+    },
+    {
+      "id": "crimson-amber+2",
+      "name": "Crimson Amber Medallion +2",
+      "weight": 0.5,
+      "effect": "Raises maximum HP by 8%."
+    },
+    {
+      "id": "cerulean-amber",
+      "name": "Cerulean Amber Medallion",
+      "weight": 0.5,
+      "effect": "Raises maximum FP by 6%."
+    },
+    {
+      "id": "cerulean-amber+1",
+      "name": "Cerulean Amber Medallion +1",
+      "weight": 0.5,
+      "effect": "Raises maximum FP by 7%."
+    },
+    {
+      "id": "cerulean-amber+2",
+      "name": "Cerulean Amber Medallion +2",
+      "weight": 0.5,
+      "effect": "Raises maximum FP by 8%."
+    },
+    {
+      "id": "bull-goat-tal",
+      "name": "Bull-Goat's Talisman",
+      "weight": 1.0,
+      "effect": "Raises Poise by 25%."
+    },
+    {
+      "id": "dragoncrest-greatshield",
+      "name": "Dragoncrest Greatshield Talisman",
+      "weight": 0.6,
+      "effect": "Greatly reduces physical damage taken by 20%."
+    },
+    {
+      "id": "dragoncrest-shield",
+      "name": "Dragoncrest Shield Talisman",
+      "weight": 0.6,
+      "effect": "Reduces physical damage taken by 10%."
+    },
+    {
+      "id": "dragoncrest-shield+1",
+      "name": "Dragoncrest Shield Talisman +1",
+      "weight": 0.6,
+      "effect": "Reduces physical damage taken by 13%."
+    },
+    {
+      "id": "dragoncrest-shield+2",
+      "name": "Dragoncrest Shield Talisman +2",
+      "weight": 0.6,
+      "effect": "Reduces physical damage taken by 17%."
+    },
+    {
+      "id": "pearl-shield",
+      "name": "Pearl Shield Talisman",
+      "weight": 0.5,
+      "effect": "Reduces non-physical damage taken by 5%."
+    },
+    {
+      "id": "spelldrake",
+      "name": "Spelldrake Talisman",
+      "weight": 0.4,
+      "effect": "Reduces magic damage taken by 10%."
+    },
+    {
+      "id": "spelldrake+1",
+      "name": "Spelldrake Talisman +1",
+      "weight": 0.4,
+      "effect": "Reduces magic damage taken by 13%."
+    },
+    {
+      "id": "spelldrake+2",
+      "name": "Spelldrake Talisman +2",
+      "weight": 0.4,
+      "effect": "Reduces magic damage taken by 17%."
+    },
+    {
+      "id": "flamedrake",
+      "name": "Flamedrake Talisman",
+      "weight": 0.4,
+      "effect": "Reduces fire damage taken by 10%."
+    },
+    {
+      "id": "flamedrake+1",
+      "name": "Flamedrake Talisman +1",
+      "weight": 0.4,
+      "effect": "Reduces fire damage taken by 13%."
+    },
+    {
+      "id": "flamedrake+2",
+      "name": "Flamedrake Talisman +2",
+      "weight": 0.4,
+      "effect": "Reduces fire damage taken by 17%."
+    },
+    {
+      "id": "boltdrake",
+      "name": "Boltdrake Talisman",
+      "weight": 0.4,
+      "effect": "Reduces lightning damage taken by 10%."
+    },
+    {
+      "id": "boltdrake+1",
+      "name": "Boltdrake Talisman +1",
+      "weight": 0.4,
+      "effect": "Reduces lightning damage taken by 13%."
+    },
+    {
+      "id": "boltdrake+2",
+      "name": "Boltdrake Talisman +2",
+      "weight": 0.4,
+      "effect": "Reduces lightning damage taken by 17%."
+    },
+    {
+      "id": "haligdrake",
+      "name": "Haligdrake Talisman",
+      "weight": 0.4,
+      "effect": "Reduces holy damage taken by 10%."
+    },
+    {
+      "id": "haligdrake+1",
+      "name": "Haligdrake Talisman +1",
+      "weight": 0.4,
+      "effect": "Reduces holy damage taken by 13%."
+    },
+    {
+      "id": "haligdrake+2",
+      "name": "Haligdrake Talisman +2",
+      "weight": 0.4,
+      "effect": "Reduces holy damage taken by 17%."
+    },
+    {
+      "id": "moon-of-nokstella",
+      "name": "Moon of Nokstella",
+      "weight": 0.5,
+      "effect": "Increases memory slots by 2."
+    },
+    {
+      "id": "erdtree-favor",
+      "name": "Erdtree's Favor",
+      "weight": 0.6,
+      "effect": "Raises HP, Stamina, and Equip Load by 2%."
+    },
+    {
+      "id": "erdtree-favor+1",
+      "name": "Erdtree's Favor +1",
+      "weight": 0.6,
+      "effect": "Raises HP, Stamina, and Equip Load by 3%."
+    },
+    {
+      "id": "erdtree-favor+2",
+      "name": "Erdtree's Favor +2",
+      "weight": 0.6,
+      "effect": "Raises HP, Stamina, and Equip Load by 4%."
+    },
+    {
+      "id": "carian-filigreed",
+      "name": "Carian Filigreed Crest",
+      "weight": 0.4,
+      "effect": "Reduces FP consumed by skills by 25%."
+    },
+    {
+      "id": "primal-glintstone",
+      "name": "Primal Glintstone Blade",
+      "weight": 0.3,
+      "effect": "Reduces FP cost of sorceries and incantations by 25% but lowers maximum HP by 15%."
+    },
+    {
+      "id": "old-lords",
+      "name": "Old Lord's Talisman",
+      "weight": 0.5,
+      "effect": "Extends spell effect duration by 30%."
+    },
+    {
+      "id": "shabriri-woe",
+      "name": "Shabriri's Woe",
+      "weight": 0.3,
+      "effect": "Attracts enemies' aggression."
+    },
+    {
+      "id": "daedicars-woe",
+      "name": "Daedicar's Woe",
+      "weight": 0.3,
+      "effect": "Greatly attracts enemies' aggression. Increases damage taken."
+    },
+    {
+      "id": "sacrificial-twig",
+      "name": "Sacrificial Twig",
+      "weight": 0.1,
+      "effect": "Prevents rune loss upon death, but is consumed in the process."
+    },
+    {
+      "id": "crimson-hood",
+      "name": "Crimson Hood",
+      "weight": 0.3,
+      "effect": "Raises Vigor by 1."
+    },
+    {
+      "id": "crimson-hood",
+      "name": "Crimson Hood",
+      "weight": 0.3,
+      "effect": "Raises Vigor by 1."
+    },
+    {
+      "id": "companion-jar",
+      "name": "Companion Jar",
+      "weight": 0.5,
+      "effect": "Boosts potency of thrown jars and perfume bottles."
+    },
+    {
+      "id": "perfumers-talisman",
+      "name": "Perfumer's Talisman",
+      "weight": 0.3,
+      "effect": "Extends effect duration of perfumes."
+    },
+    {
+      "id": "ancestrals-spirit",
+      "name": "Ancestral Spirit's Horn",
+      "weight": 0.4,
+      "effect": "Restores FP upon defeating enemies."
+    },
+    {
+      "id": "twiggy-cracked-tear",
+      "name": "Twiggy Cracked Tear",
+      "weight": 0.1,
+      "effect": "Prevents rune loss on death. Effects last for 3 minutes."
+    }
+  ]
+}

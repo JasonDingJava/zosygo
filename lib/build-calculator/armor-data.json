@@ -1,0 +1,1152 @@
+{
+  "armorSets": [
+    {
+      "id": "vagabond-set",
+      "name": "Vagabond Set",
+      "totalWeight": 26.0,
+      "totalPoise": 33,
+      "pieces": {
+        "helm": {
+          "name": "Vagabond Knight Helm",
+          "weight": 4.8,
+          "poise": 6
+        },
+        "chest": {
+          "name": "Vagabond Knight Armor",
+          "weight": 11.5,
+          "poise": 14
+        },
+        "arms": {
+          "name": "Vagabond Knight Gauntlets",
+          "weight": 3.8,
+          "poise": 5
+        },
+        "legs": {
+          "name": "Vagabond Knight Greaves",
+          "weight": 5.9,
+          "poise": 8
+        }
+      }
+    },
+    {
+      "id": "hero-set",
+      "name": "Hero Set",
+      "totalWeight": 22.1,
+      "totalPoise": 28,
+      "pieces": {
+        "helm": {
+          "name": "Hero Helm",
+          "weight": 4.0,
+          "poise": 5
+        },
+        "chest": {
+          "name": "Hero Armor",
+          "weight": 9.8,
+          "poise": 12
+        },
+        "arms": {
+          "name": "Hero Gauntlets",
+          "weight": 3.2,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Hero Greaves",
+          "weight": 5.1,
+          "poise": 7
+        }
+      }
+    },
+    {
+      "id": "samurai-set",
+      "name": "Samurai Set",
+      "totalWeight": 18.7,
+      "totalPoise": 23,
+      "pieces": {
+        "helm": {
+          "name": "Land of Reeds Helm",
+          "weight": 3.5,
+          "poise": 4
+        },
+        "chest": {
+          "name": "Land of Reeds Armor",
+          "weight": 8.2,
+          "poise": 10
+        },
+        "arms": {
+          "name": "Land of Reeds Gauntlets",
+          "weight": 2.7,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Land of Reeds Greaves",
+          "weight": 4.3,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "confessor-set",
+      "name": "Confessor Set",
+      "totalWeight": 19.0,
+      "totalPoise": 22,
+      "pieces": {
+        "helm": {
+          "name": "Confessor Hood",
+          "weight": 3.2,
+          "poise": 3
+        },
+        "chest": {
+          "name": "Confessor Armor",
+          "weight": 8.5,
+          "poise": 10
+        },
+        "arms": {
+          "name": "Confessor Gauntlets",
+          "weight": 2.8,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Confessor Greaves",
+          "weight": 4.5,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "warrior-set",
+      "name": "Warrior Set",
+      "totalWeight": 20.6,
+      "totalPoise": 25,
+      "pieces": {
+        "helm": {
+          "name": "Warrior Helm",
+          "weight": 3.8,
+          "poise": 4
+        },
+        "chest": {
+          "name": "Warrior Armor",
+          "weight": 9.0,
+          "poise": 11
+        },
+        "arms": {
+          "name": "Warrior Gauntlets",
+          "weight": 3.0,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Warrior Greaves",
+          "weight": 4.8,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "bandit-set",
+      "name": "Bandit Set",
+      "totalWeight": 13.5,
+      "totalPoise": 13,
+      "pieces": {
+        "helm": {
+          "name": "Bandit Mask",
+          "weight": 2.0,
+          "poise": 1
+        },
+        "chest": {
+          "name": "Bandit Armor",
+          "weight": 6.0,
+          "poise": 6
+        },
+        "arms": {
+          "name": "Bandit Gauntlets",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "legs": {
+          "name": "Bandit Boots",
+          "weight": 3.5,
+          "poise": 4
+        }
+      }
+    },
+    {
+      "id": "astrologer-set",
+      "name": "Astrologer Set",
+      "totalWeight": 12.3,
+      "totalPoise": 11,
+      "pieces": {
+        "helm": {
+          "name": "Astrologer Hood",
+          "weight": 2.5,
+          "poise": 2
+        },
+        "chest": {
+          "name": "Astrologer Robe",
+          "weight": 5.0,
+          "poise": 5
+        },
+        "arms": {
+          "name": "Astrologer Gloves",
+          "weight": 1.8,
+          "poise": 1
+        },
+        "legs": {
+          "name": "Astrologer Trousers",
+          "weight": 3.0,
+          "poise": 3
+        }
+      }
+    },
+    {
+      "id": "prophet-set",
+      "name": "Prophet Set",
+      "totalWeight": 12.7,
+      "totalPoise": 11,
+      "pieces": {
+        "helm": {
+          "name": "Prophet Blindfold",
+          "weight": 2.0,
+          "poise": 1
+        },
+        "chest": {
+          "name": "Prophet Robe",
+          "weight": 5.5,
+          "poise": 5
+        },
+        "arms": {
+          "name": "Prophet Gauntlets",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "legs": {
+          "name": "Prophet Trousers",
+          "weight": 3.2,
+          "poise": 3
+        }
+      }
+    },
+    {
+      "id": "prisoner-set",
+      "name": "Prisoner Set",
+      "totalWeight": 14.0,
+      "totalPoise": 13,
+      "pieces": {
+        "helm": {
+          "name": "Prisoner Iron Mask",
+          "weight": 3.0,
+          "poise": 2
+        },
+        "chest": {
+          "name": "Prisoner Clothing",
+          "weight": 5.5,
+          "poise": 5
+        },
+        "arms": {
+          "name": "Prisoner Gauntlets",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "legs": {
+          "name": "Prisoner Trousers",
+          "weight": 3.5,
+          "poise": 4
+        }
+      }
+    },
+    {
+      "id": "wretch-set",
+      "name": "Wretch Set",
+      "totalWeight": 3.0,
+      "totalPoise": 3,
+      "pieces": {
+        "helm": {
+          "name": "None",
+          "weight": 0,
+          "poise": 0
+        },
+        "chest": {
+          "name": "Shabby Cloth",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "arms": {
+          "name": "None",
+          "weight": 0,
+          "poise": 0
+        },
+        "legs": {
+          "name": "Shabby Loincloth",
+          "weight": 1.0,
+          "poise": 1
+        }
+      }
+    },
+    {
+      "id": "radahn-set",
+      "name": "Radahn Set",
+      "totalWeight": 38.0,
+      "totalPoise": 56,
+      "pieces": {
+        "helm": {
+          "name": "Radahn's Helm",
+          "weight": 7.2,
+          "poise": 12
+        },
+        "chest": {
+          "name": "Radahn's Armor",
+          "weight": 16.5,
+          "poise": 22
+        },
+        "arms": {
+          "name": "Radahn's Gauntlets",
+          "weight": 5.5,
+          "poise": 8
+        },
+        "legs": {
+          "name": "Radahn's Greaves",
+          "weight": 8.8,
+          "poise": 14
+        }
+      }
+    },
+    {
+      "id": "malenia-set",
+      "name": "Malenia Set",
+      "totalWeight": 16.5,
+      "totalPoise": 19,
+      "pieces": {
+        "helm": {
+          "name": "Malenia's Winged Helm",
+          "weight": 3.0,
+          "poise": 3
+        },
+        "chest": {
+          "name": "Malenia's Armor",
+          "weight": 7.0,
+          "poise": 8
+        },
+        "arms": {
+          "name": "Malenia's Gauntlets",
+          "weight": 2.5,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Malenia's Greaves",
+          "weight": 4.0,
+          "poise": 5
+        }
+      }
+    },
+    {
+      "id": "bullgoat-set",
+      "name": "Bull-Goat Set",
+      "totalWeight": 41.5,
+      "totalPoise": 63,
+      "pieces": {
+        "helm": {
+          "name": "Bull-Goat Helm",
+          "weight": 8.0,
+          "poise": 14
+        },
+        "chest": {
+          "name": "Bull-Goat Armor",
+          "weight": 18.0,
+          "poise": 25
+        },
+        "arms": {
+          "name": "Bull-Goat Gauntlets",
+          "weight": 6.0,
+          "poise": 9
+        },
+        "legs": {
+          "name": "Bull-Goat Greaves",
+          "weight": 9.5,
+          "poise": 15
+        }
+      }
+    },
+    {
+      "id": "veterans-set",
+      "name": "Veteran's Set",
+      "totalWeight": 34.5,
+      "totalPoise": 49,
+      "pieces": {
+        "helm": {
+          "name": "Veteran's Helm",
+          "weight": 6.5,
+          "poise": 10
+        },
+        "chest": {
+          "name": "Veteran's Armor",
+          "weight": 15.0,
+          "poise": 20
+        },
+        "arms": {
+          "name": "Veteran's Gauntlets",
+          "weight": 5.0,
+          "poise": 7
+        },
+        "legs": {
+          "name": "Veteran's Greaves",
+          "weight": 8.0,
+          "poise": 12
+        }
+      }
+    },
+    {
+      "id": "crucible-axe-set",
+      "name": "Crucible Axe Set",
+      "totalWeight": 30.0,
+      "totalPoise": 41,
+      "pieces": {
+        "helm": {
+          "name": "Crucible Axe Helm",
+          "weight": 5.5,
+          "poise": 8
+        },
+        "chest": {
+          "name": "Crucible Axe Armor",
+          "weight": 13.0,
+          "poise": 17
+        },
+        "arms": {
+          "name": "Crucible Gauntlets",
+          "weight": 4.5,
+          "poise": 6
+        },
+        "legs": {
+          "name": "Crucible Greaves",
+          "weight": 7.0,
+          "poise": 10
+        }
+      }
+    },
+    {
+      "id": "tree-sentinel-set",
+      "name": "Tree Sentinel Set",
+      "totalWeight": 36.1,
+      "totalPoise": 53,
+      "pieces": {
+        "helm": {
+          "name": "Tree Sentinel Helm",
+          "weight": 6.8,
+          "poise": 11
+        },
+        "chest": {
+          "name": "Tree Sentinel Armor",
+          "weight": 15.8,
+          "poise": 21
+        },
+        "arms": {
+          "name": "Tree Sentinel Gauntlets",
+          "weight": 5.2,
+          "poise": 8
+        },
+        "legs": {
+          "name": "Tree Sentinel Greaves",
+          "weight": 8.3,
+          "poise": 13
+        }
+      }
+    },
+    {
+      "id": "banished-knight-set",
+      "name": "Banished Knight Set",
+      "totalWeight": 30.0,
+      "totalPoise": 41,
+      "pieces": {
+        "helm": {
+          "name": "Banished Knight Helm",
+          "weight": 5.5,
+          "poise": 8
+        },
+        "chest": {
+          "name": "Banished Knight Armor",
+          "weight": 13.0,
+          "poise": 17
+        },
+        "arms": {
+          "name": "Banished Knight Gauntlets",
+          "weight": 4.5,
+          "poise": 6
+        },
+        "legs": {
+          "name": "Banished Knight Greaves",
+          "weight": 7.0,
+          "poise": 10
+        }
+      }
+    },
+    {
+      "id": "scaled-set",
+      "name": "Scaled Set",
+      "totalWeight": 27.5,
+      "totalPoise": 36,
+      "pieces": {
+        "helm": {
+          "name": "Scaled Helm",
+          "weight": 5.0,
+          "poise": 7
+        },
+        "chest": {
+          "name": "Scaled Armor",
+          "weight": 12.0,
+          "poise": 15
+        },
+        "arms": {
+          "name": "Scaled Gauntlets",
+          "weight": 4.0,
+          "poise": 5
+        },
+        "legs": {
+          "name": "Scaled Greaves",
+          "weight": 6.5,
+          "poise": 9
+        }
+      }
+    },
+    {
+      "id": "nights-cavalry-set",
+      "name": "Night's Cavalry Set",
+      "totalWeight": 27.5,
+      "totalPoise": 36,
+      "pieces": {
+        "helm": {
+          "name": "Night's Cavalry Helm",
+          "weight": 5.0,
+          "poise": 7
+        },
+        "chest": {
+          "name": "Night's Cavalry Armor",
+          "weight": 12.0,
+          "poise": 15
+        },
+        "arms": {
+          "name": "Night's Cavalry Gauntlets",
+          "weight": 4.0,
+          "poise": 5
+        },
+        "legs": {
+          "name": "Night's Cavalry Greaves",
+          "weight": 6.5,
+          "poise": 9
+        }
+      }
+    },
+    {
+      "id": "royal-remains-set",
+      "name": "Royal Remains Set",
+      "totalWeight": 20.6,
+      "totalPoise": 26,
+      "pieces": {
+        "helm": {
+          "name": "Royal Remains Helm",
+          "weight": 3.8,
+          "poise": 5
+        },
+        "chest": {
+          "name": "Royal Remains Armor",
+          "weight": 9.0,
+          "poise": 11
+        },
+        "arms": {
+          "name": "Royal Remains Gauntlets",
+          "weight": 3.0,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Royal Remains Greaves",
+          "weight": 4.8,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "godskin-apostle-set",
+      "name": "Godskin Apostle Set",
+      "totalWeight": 16.5,
+      "totalPoise": 19,
+      "pieces": {
+        "helm": {
+          "name": "Godskin Apostle Hood",
+          "weight": 3.0,
+          "poise": 3
+        },
+        "chest": {
+          "name": "Godskin Apostle Robe",
+          "weight": 7.0,
+          "poise": 8
+        },
+        "arms": {
+          "name": "Godskin Apostle Gauntlets",
+          "weight": 2.5,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Godskin Apostle Trousers",
+          "weight": 4.0,
+          "poise": 5
+        }
+      }
+    },
+    {
+      "id": "godskin-noble-set",
+      "name": "Godskin Noble Set",
+      "totalWeight": 18.0,
+      "totalPoise": 21,
+      "pieces": {
+        "helm": {
+          "name": "Godskin Noble Hood",
+          "weight": 3.2,
+          "poise": 3
+        },
+        "chest": {
+          "name": "Godskin Noble Robe",
+          "weight": 7.8,
+          "poise": 9
+        },
+        "arms": {
+          "name": "Godskin Noble Bracelets",
+          "weight": 2.8,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Godskin Noble Trousers",
+          "weight": 4.2,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "black-knife-set",
+      "name": "Black Knife Set",
+      "totalWeight": 18.0,
+      "totalPoise": 20,
+      "pieces": {
+        "helm": {
+          "name": "Black Knife Hood",
+          "weight": 3.0,
+          "poise": 3
+        },
+        "chest": {
+          "name": "Black Knife Armor",
+          "weight": 7.5,
+          "poise": 8
+        },
+        "arms": {
+          "name": "Black Knife Gauntlets",
+          "weight": 2.5,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Black Knife Greaves",
+          "weight": 5.0,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "raging-wolf-set",
+      "name": "Raging Wolf Set",
+      "totalWeight": 24.5,
+      "totalPoise": 31,
+      "pieces": {
+        "helm": {
+          "name": "Raging Wolf Helm",
+          "weight": 4.5,
+          "poise": 6
+        },
+        "chest": {
+          "name": "Raging Wolf Armor",
+          "weight": 11.0,
+          "poise": 13
+        },
+        "arms": {
+          "name": "Raging Wolf Gauntlets",
+          "weight": 3.5,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Raging Wolf Greaves",
+          "weight": 5.5,
+          "poise": 8
+        }
+      }
+    },
+    {
+      "id": "white-mask-set",
+      "name": "White Mask Set",
+      "totalWeight": 8.0,
+      "totalPoise": 8,
+      "pieces": {
+        "helm": {
+          "name": "White Mask",
+          "weight": 2.0,
+          "poise": 1
+        },
+        "chest": {
+          "name": "War Surgeon Gown",
+          "weight": 3.0,
+          "poise": 3
+        },
+        "arms": {
+          "name": "War Surgeon Gloves",
+          "weight": 1.0,
+          "poise": 1
+        },
+        "legs": {
+          "name": "War Surgeon Trousers",
+          "weight": 2.0,
+          "poise": 3
+        }
+      }
+    },
+    {
+      "id": "cleanrot-set",
+      "name": "Cleanrot Set",
+      "totalWeight": 19.3,
+      "totalPoise": 23,
+      "pieces": {
+        "helm": {
+          "name": "Cleanrot Helm",
+          "weight": 3.5,
+          "poise": 4
+        },
+        "chest": {
+          "name": "Cleanrot Armor",
+          "weight": 8.5,
+          "poise": 10
+        },
+        "arms": {
+          "name": "Cleanrot Gauntlets",
+          "weight": 2.8,
+          "poise": 3
+        },
+        "legs": {
+          "name": "Cleanrot Greaves",
+          "weight": 4.5,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "godrick-knight-set",
+      "name": "Godrick Knight Set",
+      "totalWeight": 27.5,
+      "totalPoise": 36,
+      "pieces": {
+        "helm": {
+          "name": "Godrick Knight Helm",
+          "weight": 5.0,
+          "poise": 7
+        },
+        "chest": {
+          "name": "Godrick Knight Armor",
+          "weight": 12.0,
+          "poise": 15
+        },
+        "arms": {
+          "name": "Godrick Knight Gauntlets",
+          "weight": 4.0,
+          "poise": 5
+        },
+        "legs": {
+          "name": "Godrick Knight Greaves",
+          "weight": 6.5,
+          "poise": 9
+        }
+      }
+    },
+    {
+      "id": "moonlight-set",
+      "name": "Moonlight Set",
+      "totalWeight": 14.5,
+      "totalPoise": 15,
+      "pieces": {
+        "helm": {
+          "name": "Moonlight Crown",
+          "weight": 2.5,
+          "poise": 2
+        },
+        "chest": {
+          "name": "Moonlight Robe",
+          "weight": 6.0,
+          "poise": 6
+        },
+        "arms": {
+          "name": "Moonlight Bracelets",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "legs": {
+          "name": "Moonlight Trousers",
+          "weight": 4.0,
+          "poise": 5
+        }
+      }
+    },
+    {
+      "id": "carian-knight-set",
+      "name": "Carian Knight Set",
+      "totalWeight": 23.0,
+      "totalPoise": 28,
+      "pieces": {
+        "helm": {
+          "name": "Carian Knight Helm",
+          "weight": 4.2,
+          "poise": 5
+        },
+        "chest": {
+          "name": "Carian Knight Armor",
+          "weight": 10.0,
+          "poise": 12
+        },
+        "arms": {
+          "name": "Carian Knight Gauntlets",
+          "weight": 3.5,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Carian Knight Greaves",
+          "weight": 5.3,
+          "poise": 7
+        }
+      }
+    },
+    {
+      "id": "lionels-set",
+      "name": "Lionel's Set",
+      "totalWeight": 37.0,
+      "totalPoise": 55,
+      "pieces": {
+        "helm": {
+          "name": "Lionel's Helm",
+          "weight": 7.0,
+          "poise": 12
+        },
+        "chest": {
+          "name": "Lionel's Armor",
+          "weight": 16.0,
+          "poise": 22
+        },
+        "arms": {
+          "name": "Lionel's Gauntlets",
+          "weight": 5.5,
+          "poise": 8
+        },
+        "legs": {
+          "name": "Lionel's Greaves",
+          "weight": 8.5,
+          "poise": 13
+        }
+      }
+    },
+    {
+      "id": "fire-knight-set",
+      "name": "Fire Knight Set",
+      "totalWeight": 22.0,
+      "totalPoise": 27,
+      "pieces": {
+        "helm": {
+          "name": "Fire Knight Helm",
+          "weight": 4.0,
+          "poise": 5
+        },
+        "chest": {
+          "name": "Fire Knight Armor",
+          "weight": 9.5,
+          "poise": 12
+        },
+        "arms": {
+          "name": "Fire Knight Gauntlets",
+          "weight": 3.2,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Fire Knight Greaves",
+          "weight": 5.3,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "haligtree-knight-set",
+      "name": "Haligtree Knight Set",
+      "totalWeight": 28.5,
+      "totalPoise": 38,
+      "pieces": {
+        "helm": {
+          "name": "Haligtree Knight Helm",
+          "weight": 5.2,
+          "poise": 7
+        },
+        "chest": {
+          "name": "Haligtree Knight Armor",
+          "weight": 12.5,
+          "poise": 16
+        },
+        "arms": {
+          "name": "Haligtree Knight Gauntlets",
+          "weight": 4.2,
+          "poise": 6
+        },
+        "legs": {
+          "name": "Haligtree Knight Greaves",
+          "weight": 6.6,
+          "poise": 9
+        }
+      }
+    },
+    {
+      "id": "drake-knight-set",
+      "name": "Drake Knight Set",
+      "totalWeight": 25.0,
+      "totalPoise": 32,
+      "pieces": {
+        "helm": {
+          "name": "Drake Knight Helm",
+          "weight": 4.8,
+          "poise": 6
+        },
+        "chest": {
+          "name": "Drake Knight Armor",
+          "weight": 11.0,
+          "poise": 14
+        },
+        "arms": {
+          "name": "Drake Knight Gauntlets",
+          "weight": 3.8,
+          "poise": 5
+        },
+        "legs": {
+          "name": "Drake Knight Greaves",
+          "weight": 5.4,
+          "poise": 7
+        }
+      }
+    },
+    {
+      "id": "bloodhound-knight-set",
+      "name": "Bloodhound Knight Set",
+      "totalWeight": 24.0,
+      "totalPoise": 30,
+      "pieces": {
+        "helm": {
+          "name": "Bloodhound Knight Helm",
+          "weight": 4.5,
+          "poise": 6
+        },
+        "chest": {
+          "name": "Bloodhound Knight Armor",
+          "weight": 10.5,
+          "poise": 13
+        },
+        "arms": {
+          "name": "Bloodhound Knight Gauntlets",
+          "weight": 3.5,
+          "poise": 5
+        },
+        "legs": {
+          "name": "Bloodhound Knight Greaves",
+          "weight": 5.5,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "zamor-set",
+      "name": "Zamor Set",
+      "totalWeight": 21.0,
+      "totalPoise": 25,
+      "pieces": {
+        "helm": {
+          "name": "Zamor Mask",
+          "weight": 3.8,
+          "poise": 4
+        },
+        "chest": {
+          "name": "Zamor Armor",
+          "weight": 9.0,
+          "poise": 11
+        },
+        "arms": {
+          "name": "Zamor Bracelets",
+          "weight": 3.0,
+          "poise": 4
+        },
+        "legs": {
+          "name": "Zamor Greaves",
+          "weight": 5.2,
+          "poise": 6
+        }
+      }
+    },
+    {
+      "id": "fia-set",
+      "name": "Fia's Set",
+      "totalWeight": 5.5,
+      "totalPoise": 3,
+      "pieces": {
+        "helm": {
+          "name": "Fia's Hood",
+          "weight": 1.5,
+          "poise": 1
+        },
+        "chest": {
+          "name": "Fia's Robe",
+          "weight": 2.5,
+          "poise": 1
+        },
+        "arms": {
+          "name": "Fia's Bracelets",
+          "weight": 0.5,
+          "poise": 0
+        },
+        "legs": {
+          "name": "Fia's Trousers",
+          "weight": 1.0,
+          "poise": 1
+        }
+      }
+    },
+    {
+      "id": "nox-set",
+      "name": "Nox Set",
+      "totalWeight": 10.0,
+      "totalPoise": 10,
+      "pieces": {
+        "helm": {
+          "name": "Nox Mirror Helm",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "chest": {
+          "name": "Nox Swordstress Armor",
+          "weight": 4.0,
+          "poise": 4
+        },
+        "arms": {
+          "name": "Nox Bracelets",
+          "weight": 1.5,
+          "poise": 1
+        },
+        "legs": {
+          "name": "Nox Greaves",
+          "weight": 2.5,
+          "poise": 3
+        }
+      }
+    },
+    {
+      "id": "perfumer-set",
+      "name": "Perfumer Set",
+      "totalWeight": 11.0,
+      "totalPoise": 11,
+      "pieces": {
+        "helm": {
+          "name": "Perfumer Hood",
+          "weight": 2.0,
+          "poise": 2
+        },
+        "chest": {
+          "name": "Perfumer Robe",
+          "weight": 4.5,
+          "poise": 4
+        },
+        "arms": {
+          "name": "Perfumer Gloves",
+          "weight": 1.5,
+          "poise": 1
+        },
+        "legs": {
+          "name": "Perfumer Sarong",
+          "weight": 3.0,
+          "poise": 4
+        }
+      }
+    },
+    {
+      "id": "traveler-set",
+      "name": "Traveler's Set",
+      "totalWeight": 8.5,
+      "totalPoise": 7,
+      "pieces": {
+        "helm": {
+          "name": "Traveler's Hat",
+          "weight": 1.8,
+          "poise": 1
+        },
+        "chest": {
+          "name": "Traveler's Clothes",
+          "weight": 3.5,
+          "poise": 3
+        },
+        "arms": {
+          "name": "Traveler's Gloves",
+          "weight": 1.2,
+          "poise": 1
+        },
+        "legs": {
+          "name": "Traveler's Boots",
+          "weight": 2.0,
+          "poise": 2
+        }
+      }
+    },
+    {
+      "id": "page-set",
+      "name": "Page Set",
+      "totalWeight": 8.0,
+      "totalPoise": 7,
+      "pieces": {
+        "helm": {
+          "name": "Page Hood",
+          "weight": 1.5,
+          "poise": 1
+        },
+        "chest": {
+          "name": "Page Coat",
+          "weight": 3.5,
+          "poise": 3
+        },
+        "arms": {
+          "name": "None",
+          "weight": 0,
+          "poise": 0
+        },
+        "legs": {
+          "name": "Page Trousers",
+          "weight": 3.0,
+          "poise": 3
+        }
+      }
+    },
+    {
+      "id": "nomadic-set",
+      "name": "Nomadic Merchant's Set",
+      "totalWeight": 7.5,
+      "totalPoise": 6,
+      "pieces": {
+        "helm": {
+          "name": "Nomadic Merchant's Hood",
+          "weight": 1.5,
+          "poise": 1
+        },
+        "chest": {
+          "name": "Nomadic Merchant's Finery",
+          "weight": 3.0,
+          "poise": 2
+        },
+        "arms": {
+          "name": "None",
+          "weight": 0,
+          "poise": 0
+        },
+        "legs": {
+          "name": "Nomadic Merchant's Trousers",
+          "weight": 3.0,
+          "poise": 3
+        }
+      }
+    }
+  ]
+}
