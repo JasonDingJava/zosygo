@@ -42,14 +42,93 @@ for (const def of SOFT_CAP_DEFS) {
   SOFT_CAP_BY_KEY[def.key] = def.caps;
 }
 
-const PRESETS: Record<string, Partial<BuildStats>> = {
-  "Dex Samurai":{vigor:50,mind:15,endurance:25,strength:18,dexterity:60,intelligence:9,faith:9,arcane:10},
-  "Pure Strength":{vigor:60,mind:10,endurance:35,strength:80,dexterity:13,intelligence:9,faith:9,arcane:7},
-  "Bleed Build":{vigor:50,mind:15,endurance:30,strength:14,dexterity:50,intelligence:9,faith:9,arcane:60},
-  "Pure Mage":{vigor:40,mind:60,endurance:20,strength:12,dexterity:12,intelligence:80,faith:9,arcane:9},
-  "Faith Paladin":{vigor:55,mind:25,endurance:30,strength:50,dexterity:20,intelligence:9,faith:60,arcane:9},
-  "Quality Build":{vigor:55,mind:15,endurance:35,strength:60,dexterity:60,intelligence:9,faith:9,arcane:7},
-};
+interface PopularBuild {
+  name: string;
+  description: string;
+  class: string;
+  stats: Partial<BuildStats>;
+  weapons: string[];
+  armor: Record<string, string>;
+  talismans: string[];
+  spells: string[];
+  upgradeLevel: number;
+  twoHanding: boolean;
+}
+
+const POPULAR_BUILDS: PopularBuild[] = [
+  {
+    name: "Bleed Build",
+    description: "Dual-wield katanas with high Arcane for massive bleed buildup. Devastating vs most bosses.",
+    class: "samurai",
+    stats: {vigor:50,mind:15,endurance:30,strength:14,dexterity:50,intelligence:9,faith:9,arcane:60},
+    weapons: ["rivers-of-blood", "uchigatana", "moonveil"],
+    armor: {helm:"white-mask",chest:"raptors-black-feathers",arms:"samurai-arm",legs:"samurai-legs"},
+    talismans: ["lord-of-bloods-exultation", "shard-of-alexander", "millicents-prosthesis", "rotten-winged-sword-insignia"],
+    spells: [],
+    upgradeLevel: 25,
+    twoHanding: false,
+  },
+  {
+    name: "Moonveil Intelligence Build",
+    description: "Moonveil katana + spells hybrid. High INT for weapon art damage and powerful sorceries.",
+    class: "prisoner",
+    stats: {vigor:45,mind:25,endurance:20,strength:12,dexterity:25,intelligence:80,faith:9,arcane:8},
+    weapons: ["moonveil", "carian-regal-scepter", "dark-moon-greatsword"],
+    armor: {helm:"lukas-helm",chest:"lukas-armor",arms:"lukas-gauntlets",legs:"lukas-greaves"},
+    talismans: ["shard-of-alexander", "magic-scorpion-charm", "graven-school-talisman", "erdtrees-favor-plus-1"],
+    spells: ["carian-slicer", "adulas-moonblade", "night-comet", "terra-magica", "great-glintstone-shard"],
+    upgradeLevel: 25,
+    twoHanding: false,
+  },
+  {
+    name: "Strength Greatsword Build",
+    description: "Pure STR with colossal greatsword. Stagger enemies with charged heavies and jump attacks.",
+    class: "vagabond",
+    stats: {vigor:60,mind:10,endurance:35,strength:80,dexterity:13,intelligence:9,faith:9,arcane:7},
+    weapons: ["greatsword", "giants-crusher", "claymore"],
+    armor: {helm:"bull-goat-helm",chest:"bull-goat-armor",arms:"bull-goat-gauntlets",legs:"bull-goat-greaves"},
+    talismans: ["shard-of-alexander", "erdtrees-favor-plus-1", "great-jars-arsenal", "claw-talisman"],
+    spells: [],
+    upgradeLevel: 25,
+    twoHanding: true,
+  },
+  {
+    name: "Faith Blasphemous Blade",
+    description: "Blasphemous Blade weapon art heals on kill. Fire damage + Faith scaling. Great for PvE.",
+    class: "confessor",
+    stats: {vigor:55,mind:20,endurance:30,strength:22,dexterity:15,intelligence:9,faith:60,arcane:7},
+    weapons: ["blasphemous-blade", "sacred-relic-sword", "godslayers-seal"],
+    armor: {helm:"radahn-helm",chest:"radahn-armor",arms:"radahn-gauntlets",legs:"radahn-greaves"},
+    talismans: ["shard-of-alexander", "erdtrees-favor-plus-1", "fire-scorpion-charm", "carian-filigreed-crest"],
+    spells: ["golden-vow", "flame-grant-me-strength", "black-flame"],
+    upgradeLevel: 25,
+    twoHanding: false,
+  },
+  {
+    name: "Quality Build",
+    description: "Equal STR/DEX for maximum weapon flexibility. Use almost any weapon effectively.",
+    class: "vagabond",
+    stats: {vigor:55,mind:15,endurance:35,strength:60,dexterity:60,intelligence:9,faith:9,arcane:7},
+    weapons: ["claymore", "zweihander", "bastard-sword"],
+    armor: {helm:"knights-helm",chest:"knights-armor",arms:"knights-gauntlets",legs:"knights-greaves"},
+    talismans: ["erdtrees-favor-plus-1", "great-jars-arsenal", "claw-talisman", "green-turtle-talisman"],
+    spells: [],
+    upgradeLevel: 25,
+    twoHanding: false,
+  },
+  {
+    name: "Pure Mage",
+    description: "Glass cannon INT build. One-shot enemies with Comet Azur + Terra Magica combo.",
+    class: "astrologer",
+    stats: {vigor:40,mind:60,endurance:20,strength:12,dexterity:12,intelligence:80,faith:9,arcane:9},
+    weapons: ["carian-regal-scepter", "moonveil", "lorettas-greatbow"],
+    armor: {helm:"queens-crescent-crown",chest:"astrologer-robe",arms:"astrologer-gloves",legs:"astrologer-trousers"},
+    talismans: ["graven-school-talisman", "magic-scorpion-charm", "radagons-icon", "erdtrees-favor-plus-1"],
+    spells: ["comet-azur", "terra-magica", "stars-of-ruin", "carian-slicer", "adulas-moonblade", "rennalas-full-moon"],
+    upgradeLevel: 25,
+    twoHanding: false,
+  },
+];
 
 const CLASS_NAMES = Object.keys(STARTING_CLASSES).sort();
 
@@ -322,12 +401,26 @@ export default function EldenRingBuildCalculator() {
 
   const updateStat = (k: StatKey, v: number) => setStats(p => ({ ...p, [k]: Math.max(1, Math.min(99, v)) }));
   const toggleWeapon = (slug: string) => setSelWeapons(p => p.includes(slug) ? p.filter(x => x !== slug) : [...p, slug].slice(0, 4));
-  const applyPreset = (name: string) => {
-    const p = PRESETS[name];
-    if (p) setStats(prev => ({ ...prev, ...p }));
-    setSelWeapons([]);
-    setUpgradeLevel(15);
-  };
+  const applyPopularBuild = useCallback((build: PopularBuild) => {
+    if (build.stats) setStats(prev => ({ ...prev, ...build.stats }));
+    setSc(build.class);
+    setSelWeapons(build.weapons || []);
+    setUpgradeLevel(build.upgradeLevel || 15);
+    setTwoHanding(build.twoHanding || false);
+    setBuildName(build.name);
+    // Armor
+    const pieces: Partial<Record<ArmorSlot, ArmorPiece>> = {};
+    if (build.armor) {
+      for (const [slot, id] of Object.entries(build.armor)) {
+        if (ARMOR_PIECE_BY_ID[id]) pieces[slot as ArmorSlot] = ARMOR_PIECE_BY_ID[id];
+      }
+    }
+    setSelectedPieces(pieces);
+    // Talismans
+    setSelectedTalismans(build.talismans || []);
+    // Spells
+    setSelectedSpells(build.spells || []);
+  }, []);
 
   const toggleSpell = (id: string) => {
     setSelectedSpells(p => p.includes(id) ? p.filter(x => x !== id) : p.length >= 12 ? p : [...p, id]);
@@ -487,7 +580,26 @@ export default function EldenRingBuildCalculator() {
           <p className="mt-1 text-gray-400">Plan stats, pick weapons and armor, see exact Attack Rating.</p>
         </div>
 
-        {/* Quick Build Presets */}
+        {/* Popular Builds */}
+        <div className="mb-8">
+          <h2 className="mb-4 text-xl font-bold text-yellow-400">Popular Builds</h2>
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {POPULAR_BUILDS.map(function(build) { return (
+              <button key={build.name} onClick={function() { applyPopularBuild(build); }}
+                className="group rounded-lg border border-gray-800 bg-gray-900/60 p-4 text-left transition-all hover:border-yellow-700/40 hover:bg-gray-900">
+                <h3 className="font-semibold text-gray-200 group-hover:text-yellow-300">{build.name}</h3>
+                <p className="mt-1 text-xs text-gray-500 line-clamp-2">{build.description}</p>
+                <div className="mt-2 flex flex-wrap gap-1">
+                  {build.weapons.slice(0, 2).map(function(w) {
+                    var wp = ALL_WEAPONS[w];
+                    return wp ? <span key={w} className="rounded bg-gray-800 px-2 py-0.5 text-[10px] text-gray-400">{wp.name}</span> : null;
+                  })}
+                  {build.weapons.length > 2 ? <span className="rounded bg-gray-800 px-2 py-0.5 text-[10px] text-gray-500">+{build.weapons.length - 2} more</span> : null}
+                </div>
+              </button>
+            );})}
+          </div>
+        </div>
         {/* Build Name */}
         <div className="mb-4">
           <input type="text" value={buildName} onChange={e => setBuildName(e.target.value)}
@@ -495,15 +607,37 @@ export default function EldenRingBuildCalculator() {
             className="w-full max-w-xs rounded border border-gray-700 bg-gray-900 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:border-yellow-600 focus:outline-none" />
         </div>
 
-        <div className="mb-6 flex flex-wrap items-center gap-2">
-          <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Quick Builds</span>
-          {Object.keys(PRESETS).map(function(n) { return (
-            <button key={n} onClick={() => applyPreset(n)}
-              className="rounded border border-yellow-700/30 bg-yellow-900/10 px-3 py-1.5 text-xs text-yellow-300 hover:bg-yellow-900/30">{n}</button>
-          );})}
-          <div className="ml-auto">
+        <div className="mb-6 flex flex-wrap items-center justify-between">
+          <div className="flex items-center gap-2">
+            <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Actions</span>
             <button onClick={copyUrl}
-              className="rounded border border-blue-700/30 bg-blue-900/10 px-3 py-1.5 text-xs text-blue-300 hover:bg-blue-900/30">{copied ? "Copied!" : "Copy Build URL"}</button>
+              className="rounded border border-blue-700/30 bg-blue-900/10 px-3 py-1.5 text-xs text-blue-300 hover:bg-blue-900/30">{copied ? "Copied!" : "Share Build"}</button>
+            <button onClick={function() {
+              const url = prompt("Paste a build URL or code to load:");
+              if (url) {
+                try {
+                  var b64 = url.includes("?b=") ? url.split("?b=")[1].split("&")[0] : url;
+                  var json = JSON.parse(atob(b64));
+                  if (json.sc) setSc(json.sc);
+                  if (json.s) setStats(json.s);
+                  if (json.w) setSelWeapons(json.w);
+                  if (json.ul !== undefined) setUpgradeLevel(json.ul);
+                  if (json.th !== undefined) setTwoHanding(json.th);
+                  if (json.ap) {
+                    var pieces: Partial<Record<ArmorSlot, ArmorPiece>> = {};
+                    for (const slot of ARMOR_SLOTS) {
+                      var pid = json.ap[slot];
+                      if (pid && ARMOR_PIECE_BY_ID[pid]) pieces[slot] = ARMOR_PIECE_BY_ID[pid];
+                    }
+                    setSelectedPieces(pieces);
+                  }
+                  if (json.tl) setSelectedTalismans(json.tl);
+                  if (json.spl) setSelectedSpells(json.spl);
+                  if (json.bn) setBuildName(json.bn);
+                } catch { alert("Invalid build code"); }
+              }
+            }}
+              className="rounded border border-green-700/30 bg-green-900/10 px-3 py-1.5 text-xs text-green-300 hover:bg-green-900/30">Load Build</button>
           </div>
         </div>
 
