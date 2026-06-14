@@ -4,6 +4,7 @@
 
 import armorData from "./armor-data.json";
 import talismansData from "./talismans-data.json";
+import spellsData from "./spells-data.json";
 
 // ─── Types ───
 
@@ -123,6 +124,40 @@ function buildTalismanIndex() {
 }
 
 buildTalismanIndex();
+
+// ─── Spells ───
+
+export interface Spell {
+  id: string;
+  name: string;
+  cost: number;
+  slots: number;
+  requirements: Record<string, number>;
+  type: string;
+  category: string;
+}
+
+export const ALL_SPELLS_RECORD: Record<string, Spell> = {};
+export const ALL_SPELLS_LIST: Spell[] = [];
+
+function buildSpellIndex() {
+  const list = (spellsData as { spells: any[] }).spells;
+  for (const s of list) {
+    const entry: Spell = {
+      id: s.id,
+      name: s.name,
+      cost: s.cost,
+      slots: s.slots,
+      requirements: s.requirements,
+      type: s.type,
+      category: s.category,
+    };
+    ALL_SPELLS_RECORD[s.id] = entry;
+    ALL_SPELLS_LIST.push(entry);
+  }
+}
+
+buildSpellIndex();
 
 // ─── Equip Load helpers ───
 

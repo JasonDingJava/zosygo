@@ -1,0 +1,1037 @@
+{
+  "spells": [
+    {
+      "id": "glintstone-pebble",
+      "name": "Glintstone Pebble",
+      "cost": 7,
+      "slots": 1,
+      "requirements": {
+        "int": 10
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "swift-glintstone-shard",
+      "name": "Swift Glintstone Shard",
+      "cost": 5,
+      "slots": 1,
+      "requirements": {
+        "int": 10
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "glintstone-arc",
+      "name": "Glintstone Arc",
+      "cost": 8,
+      "slots": 1,
+      "requirements": {
+        "int": 14
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "great-glintstone-shard",
+      "name": "Great Glintstone Shard",
+      "cost": 11,
+      "slots": 1,
+      "requirements": {
+        "int": 17
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "glintstone-cometshard",
+      "name": "Glintstone Cometshard",
+      "cost": 19,
+      "slots": 1,
+      "requirements": {
+        "int": 30
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "comet",
+      "name": "Comet",
+      "cost": 38,
+      "slots": 2,
+      "requirements": {
+        "int": 52
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "stars-of-ruin",
+      "name": "Stars of Ruin",
+      "cost": 42,
+      "slots": 2,
+      "requirements": {
+        "int": 58
+      },
+      "type": "Sorcery",
+      "category": "Glintstone"
+    },
+    {
+      "id": "carian-slicer",
+      "name": "Carian Slicer",
+      "cost": 4,
+      "slots": 1,
+      "requirements": {
+        "int": 14
+      },
+      "type": "Sorcery",
+      "category": "Carian"
+    },
+    {
+      "id": "carian-greatsword",
+      "name": "Carian Greatsword",
+      "cost": 12,
+      "slots": 1,
+      "requirements": {
+        "int": 24
+      },
+      "type": "Sorcery",
+      "category": "Carian"
+    },
+    {
+      "id": "carian-piercer",
+      "name": "Carian Piercer",
+      "cost": 14,
+      "slots": 1,
+      "requirements": {
+        "int": 32
+      },
+      "type": "Sorcery",
+      "category": "Carian"
+    },
+    {
+      "id": "adulas-moonblade",
+      "name": "Adula's Moonblade",
+      "cost": 26,
+      "slots": 1,
+      "requirements": {
+        "int": 32
+      },
+      "type": "Sorcery",
+      "category": "Carian"
+    },
+    {
+      "id": "rennalas-full-moon",
+      "name": "Rennala's Full Moon",
+      "cost": 52,
+      "slots": 2,
+      "requirements": {
+        "int": 70
+      },
+      "type": "Sorcery",
+      "category": "Full Moon"
+    },
+    {
+      "id": "rannis-dark-moon",
+      "name": "Ranni's Dark Moon",
+      "cost": 62,
+      "slots": 2,
+      "requirements": {
+        "int": 68
+      },
+      "type": "Sorcery",
+      "category": "Full Moon"
+    },
+    {
+      "id": "glintblade-phalanx",
+      "name": "Glintblade Phalanx",
+      "cost": 16,
+      "slots": 1,
+      "requirements": {
+        "int": 22
+      },
+      "type": "Sorcery",
+      "category": "Glintblade"
+    },
+    {
+      "id": "carian-phalanx",
+      "name": "Carian Phalanx",
+      "cost": 30,
+      "slots": 1,
+      "requirements": {
+        "int": 40
+      },
+      "type": "Sorcery",
+      "category": "Glintblade"
+    },
+    {
+      "id": "great-glintblade-phalanx",
+      "name": "Great Glintblade Phalanx",
+      "cost": 44,
+      "slots": 2,
+      "requirements": {
+        "int": 56
+      },
+      "type": "Sorcery",
+      "category": "Glintblade"
+    },
+    {
+      "id": "glintstone-icecrag",
+      "name": "Glintstone Icecrag",
+      "cost": 11,
+      "slots": 1,
+      "requirements": {
+        "int": 19
+      },
+      "type": "Sorcery",
+      "category": "Cold"
+    },
+    {
+      "id": "freezing-mist",
+      "name": "Freezing Mist",
+      "cost": 15,
+      "slots": 1,
+      "requirements": {
+        "int": 24
+      },
+      "type": "Sorcery",
+      "category": "Cold"
+    },
+    {
+      "id": "zamor-ice-storm",
+      "name": "Zamor Ice Storm",
+      "cost": 20,
+      "slots": 1,
+      "requirements": {
+        "int": 29
+      },
+      "type": "Sorcery",
+      "category": "Cold"
+    },
+    {
+      "id": "night-comet",
+      "name": "Night Comet",
+      "cost": 21,
+      "slots": 1,
+      "requirements": {
+        "int": 38
+      },
+      "type": "Sorcery",
+      "category": "Night"
+    },
+    {
+      "id": "night-shard",
+      "name": "Night Shard",
+      "cost": 8,
+      "slots": 1,
+      "requirements": {
+        "int": 22
+      },
+      "type": "Sorcery",
+      "category": "Night"
+    },
+    {
+      "id": "ambush-shard",
+      "name": "Ambush Shard",
+      "cost": 15,
+      "slots": 1,
+      "requirements": {
+        "int": 29
+      },
+      "type": "Sorcery",
+      "category": "Night"
+    },
+    {
+      "id": "magma-shot",
+      "name": "Magma Shot",
+      "cost": 15,
+      "slots": 1,
+      "requirements": {
+        "int": 24,
+        "fai": 14
+      },
+      "type": "Sorcery",
+      "category": "Magma"
+    },
+    {
+      "id": "gelmirs-fury",
+      "name": "Gelmir's Fury",
+      "cost": 32,
+      "slots": 2,
+      "requirements": {
+        "int": 35,
+        "fai": 20
+      },
+      "type": "Sorcery",
+      "category": "Magma"
+    },
+    {
+      "id": "roiling-magma",
+      "name": "Roiling Magma",
+      "cost": 20,
+      "slots": 1,
+      "requirements": {
+        "int": 27,
+        "fai": 17
+      },
+      "type": "Sorcery",
+      "category": "Magma"
+    },
+    {
+      "id": "terra-magica",
+      "name": "Terra Magica",
+      "cost": 20,
+      "slots": 1,
+      "requirements": {
+        "int": 32
+      },
+      "type": "Sorcery",
+      "category": "Support"
+    },
+    {
+      "id": "lorettas-greatbow",
+      "name": "Loretta's Greatbow",
+      "cost": 22,
+      "slots": 1,
+      "requirements": {
+        "int": 26
+      },
+      "type": "Sorcery",
+      "category": "Loretta"
+    },
+    {
+      "id": "lorettas-mastery",
+      "name": "Loretta's Mastery",
+      "cost": 38,
+      "slots": 2,
+      "requirements": {
+        "int": 46
+      },
+      "type": "Sorcery",
+      "category": "Loretta"
+    },
+    {
+      "id": "comet-azur",
+      "name": "Comet Azur",
+      "cost": 60,
+      "slots": 3,
+      "requirements": {
+        "int": 60
+      },
+      "type": "Sorcery",
+      "category": "Primeval"
+    },
+    {
+      "id": "founding-rain-of-stars",
+      "name": "Founding Rain of Stars",
+      "cost": 55,
+      "slots": 3,
+      "requirements": {
+        "int": 52
+      },
+      "type": "Sorcery",
+      "category": "Primeval"
+    },
+    {
+      "id": "cannon-of-haima",
+      "name": "Cannon of Haima",
+      "cost": 25,
+      "slots": 2,
+      "requirements": {
+        "int": 38
+      },
+      "type": "Sorcery",
+      "category": "Haima"
+    },
+    {
+      "id": "gavel-of-haima",
+      "name": "Gavel of Haima",
+      "cost": 12,
+      "slots": 1,
+      "requirements": {
+        "int": 28
+      },
+      "type": "Sorcery",
+      "category": "Haima"
+    },
+    {
+      "id": "rock-sling",
+      "name": "Rock Sling",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "int": 18
+      },
+      "type": "Sorcery",
+      "category": "Gravity"
+    },
+    {
+      "id": "meteorite",
+      "name": "Meteorite",
+      "cost": 30,
+      "slots": 2,
+      "requirements": {
+        "int": 37
+      },
+      "type": "Sorcery",
+      "category": "Gravity"
+    },
+    {
+      "id": "meteorite-of-astel",
+      "name": "Meteorite of Astel",
+      "cost": 48,
+      "slots": 2,
+      "requirements": {
+        "int": 55
+      },
+      "type": "Sorcery",
+      "category": "Gravity"
+    },
+    {
+      "id": "gravity-well",
+      "name": "Gravity Well",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "int": 26
+      },
+      "type": "Sorcery",
+      "category": "Gravity"
+    },
+    {
+      "id": "crystal-barrage",
+      "name": "Crystal Barrage",
+      "cost": 16,
+      "slots": 1,
+      "requirements": {
+        "int": 25
+      },
+      "type": "Sorcery",
+      "category": "Crystal"
+    },
+    {
+      "id": "crystal-burst",
+      "name": "Crystal Burst",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "int": 28
+      },
+      "type": "Sorcery",
+      "category": "Crystal"
+    },
+    {
+      "id": "crystal-torrent",
+      "name": "Crystal Torrent",
+      "cost": 38,
+      "slots": 2,
+      "requirements": {
+        "int": 47
+      },
+      "type": "Sorcery",
+      "category": "Crystal"
+    },
+    {
+      "id": "scholars-armament",
+      "name": "Scholar's Armament",
+      "cost": 12,
+      "slots": 1,
+      "requirements": {
+        "int": 18
+      },
+      "type": "Sorcery",
+      "category": "Support"
+    },
+    {
+      "id": "scholars-shield",
+      "name": "Scholar's Shield",
+      "cost": 15,
+      "slots": 1,
+      "requirements": {
+        "int": 22
+      },
+      "type": "Sorcery",
+      "category": "Support"
+    },
+    {
+      "id": "frozen-armament",
+      "name": "Frozen Armament",
+      "cost": 14,
+      "slots": 1,
+      "requirements": {
+        "int": 22
+      },
+      "type": "Sorcery",
+      "category": "Cold"
+    },
+    {
+      "id": "catch-flame",
+      "name": "Catch Flame",
+      "cost": 8,
+      "slots": 1,
+      "requirements": {
+        "fai": 8
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "flame-sling",
+      "name": "Flame Sling",
+      "cost": 12,
+      "slots": 1,
+      "requirements": {
+        "fai": 10
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "flame-fell-them",
+      "name": "Flame, Fall Upon Them",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 16
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "black-flame",
+      "name": "Black Flame",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 20
+      },
+      "type": "Incantation",
+      "category": "Black Flame"
+    },
+    {
+      "id": "black-flame-blade",
+      "name": "Black Flame Blade",
+      "cost": 13,
+      "slots": 1,
+      "requirements": {
+        "fai": 15
+      },
+      "type": "Incantation",
+      "category": "Black Flame"
+    },
+    {
+      "id": "scouring-black-flame",
+      "name": "Scouring Black Flame",
+      "cost": 22,
+      "slots": 1,
+      "requirements": {
+        "fai": 27
+      },
+      "type": "Incantation",
+      "category": "Black Flame"
+    },
+    {
+      "id": "black-flame-ritual",
+      "name": "Black Flame Ritual",
+      "cost": 28,
+      "slots": 1,
+      "requirements": {
+        "fai": 42
+      },
+      "type": "Incantation",
+      "category": "Black Flame"
+    },
+    {
+      "id": "bloodflame-blade",
+      "name": "Bloodflame Blade",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 12,
+        "arc": 10
+      },
+      "type": "Incantation",
+      "category": "Blood"
+    },
+    {
+      "id": "bloodboon",
+      "name": "Bloodboon",
+      "cost": 16,
+      "slots": 1,
+      "requirements": {
+        "fai": 14,
+        "arc": 12
+      },
+      "type": "Incantation",
+      "category": "Blood"
+    },
+    {
+      "id": "swarm-of-flies",
+      "name": "Swarm of Flies",
+      "cost": 11,
+      "slots": 1,
+      "requirements": {
+        "fai": 16,
+        "arc": 13
+      },
+      "type": "Incantation",
+      "category": "Blood"
+    },
+    {
+      "id": "lightning-spear",
+      "name": "Lightning Spear",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 28
+      },
+      "type": "Incantation",
+      "category": "Dragon Cult"
+    },
+    {
+      "id": "honed-bolt",
+      "name": "Honed Bolt",
+      "cost": 22,
+      "slots": 1,
+      "requirements": {
+        "fai": 35
+      },
+      "type": "Incantation",
+      "category": "Dragon Cult"
+    },
+    {
+      "id": "ancient-dragons-lightning-strike",
+      "name": "Ancient Dragons' Lightning Strike",
+      "cost": 32,
+      "slots": 2,
+      "requirements": {
+        "fai": 46
+      },
+      "type": "Incantation",
+      "category": "Dragon Cult"
+    },
+    {
+      "id": "frozen-lightning-spear",
+      "name": "Frozen Lightning Spear",
+      "cost": 28,
+      "slots": 1,
+      "requirements": {
+        "fai": 45
+      },
+      "type": "Incantation",
+      "category": "Dragon Cult"
+    },
+    {
+      "id": "death-lightning",
+      "name": "Death Lightning",
+      "cost": 46,
+      "slots": 2,
+      "requirements": {
+        "fai": 47
+      },
+      "type": "Incantation",
+      "category": "Dragon Cult"
+    },
+    {
+      "id": "fortissaxs-lightning-spear",
+      "name": "Fortissax's Lightning Spear",
+      "cost": 35,
+      "slots": 2,
+      "requirements": {
+        "fai": 46
+      },
+      "type": "Incantation",
+      "category": "Dragon Cult"
+    },
+    {
+      "id": "dragonfire",
+      "name": "Dragonfire",
+      "cost": 24,
+      "slots": 1,
+      "requirements": {
+        "fai": 15,
+        "arc": 12
+      },
+      "type": "Incantation",
+      "category": "Dragon Communion"
+    },
+    {
+      "id": "dragonice",
+      "name": "Dragonice",
+      "cost": 24,
+      "slots": 1,
+      "requirements": {
+        "fai": 15,
+        "arc": 12
+      },
+      "type": "Incantation",
+      "category": "Dragon Communion"
+    },
+    {
+      "id": "dragonmaw",
+      "name": "Dragonmaw",
+      "cost": 36,
+      "slots": 2,
+      "requirements": {
+        "fai": 24,
+        "arc": 15
+      },
+      "type": "Incantation",
+      "category": "Dragon Communion"
+    },
+    {
+      "id": "dragonclaw",
+      "name": "Dragonclaw",
+      "cost": 28,
+      "slots": 1,
+      "requirements": {
+        "fai": 20,
+        "arc": 14
+      },
+      "type": "Incantation",
+      "category": "Dragon Communion"
+    },
+    {
+      "id": "aspects-of-the-crucible-breath",
+      "name": "Aspects of the Crucible: Breath",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 27
+      },
+      "type": "Incantation",
+      "category": "Crucible"
+    },
+    {
+      "id": "aspects-of-the-crucible-horns",
+      "name": "Aspects of the Crucible: Horns",
+      "cost": 16,
+      "slots": 1,
+      "requirements": {
+        "fai": 22
+      },
+      "type": "Incantation",
+      "category": "Crucible"
+    },
+    {
+      "id": "aspects-of-the-crucible-tail",
+      "name": "Aspects of the Crucible: Tail",
+      "cost": 14,
+      "slots": 1,
+      "requirements": {
+        "fai": 17
+      },
+      "type": "Incantation",
+      "category": "Crucible"
+    },
+    {
+      "id": "blessing-of-the-erdtree",
+      "name": "Blessing of the Erdtree",
+      "cost": 40,
+      "slots": 1,
+      "requirements": {
+        "fai": 50
+      },
+      "type": "Incantation",
+      "category": "Erdtree"
+    },
+    {
+      "id": "erdtree-heal",
+      "name": "Erdtree Heal",
+      "cost": 65,
+      "slots": 2,
+      "requirements": {
+        "fai": 50
+      },
+      "type": "Incantation",
+      "category": "Erdtree"
+    },
+    {
+      "id": "great-heal",
+      "name": "Great Heal",
+      "cost": 32,
+      "slots": 1,
+      "requirements": {
+        "fai": 25
+      },
+      "type": "Incantation",
+      "category": "Healing"
+    },
+    {
+      "id": "heal",
+      "name": "Heal",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 12
+      },
+      "type": "Incantation",
+      "category": "Healing"
+    },
+    {
+      "id": "urgent-heal",
+      "name": "Urgent Heal",
+      "cost": 10,
+      "slots": 1,
+      "requirements": {
+        "fai": 8
+      },
+      "type": "Incantation",
+      "category": "Healing"
+    },
+    {
+      "id": "lords-heal",
+      "name": "Lord's Heal",
+      "cost": 42,
+      "slots": 2,
+      "requirements": {
+        "fai": 35
+      },
+      "type": "Incantation",
+      "category": "Healing"
+    },
+    {
+      "id": "rejection",
+      "name": "Rejection",
+      "cost": 12,
+      "slots": 1,
+      "requirements": {
+        "fai": 12
+      },
+      "type": "Incantation",
+      "category": "Fundamentalist"
+    },
+    {
+      "id": "wrath-of-gold",
+      "name": "Wrath of Gold",
+      "cost": 25,
+      "slots": 1,
+      "requirements": {
+        "fai": 28
+      },
+      "type": "Incantation",
+      "category": "Fundamentalist"
+    },
+    {
+      "id": "litany-of-proper-death",
+      "name": "Litany of Proper Death",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 27
+      },
+      "type": "Incantation",
+      "category": "Fundamentalist"
+    },
+    {
+      "id": "discus-of-light",
+      "name": "Discus of Light",
+      "cost": 8,
+      "slots": 1,
+      "requirements": {
+        "fai": 18
+      },
+      "type": "Incantation",
+      "category": "Fundamentalist"
+    },
+    {
+      "id": "triple-rings-of-light",
+      "name": "Triple Rings of Light",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 23
+      },
+      "type": "Incantation",
+      "category": "Fundamentalist"
+    },
+    {
+      "id": "golden-vow",
+      "name": "Golden Vow",
+      "cost": 25,
+      "slots": 1,
+      "requirements": {
+        "fai": 25
+      },
+      "type": "Incantation",
+      "category": "Erdtree"
+    },
+    {
+      "id": "flame-grant-me-strength",
+      "name": "Flame, Grant Me Strength",
+      "cost": 14,
+      "slots": 1,
+      "requirements": {
+        "fai": 15
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "howl-of-sabriri",
+      "name": "Howl of Shabriri",
+      "cost": 16,
+      "slots": 1,
+      "requirements": {
+        "fai": 33
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "flame-protect-me",
+      "name": "Flame, Protect Me",
+      "cost": 18,
+      "slots": 1,
+      "requirements": {
+        "fai": 24
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "unendurable-frenzy",
+      "name": "Unendurable Frenzy",
+      "cost": 22,
+      "slots": 1,
+      "requirements": {
+        "fai": 24
+      },
+      "type": "Incantation",
+      "category": "Frenzied Flame"
+    },
+    {
+      "id": "inescapable-frenzy",
+      "name": "Inescapable Frenzy",
+      "cost": 14,
+      "slots": 1,
+      "requirements": {
+        "fai": 21
+      },
+      "type": "Incantation",
+      "category": "Frenzied Flame"
+    },
+    {
+      "id": "the-flame-of-frenzy",
+      "name": "The Flame of Frenzy",
+      "cost": 16,
+      "slots": 1,
+      "requirements": {
+        "fai": 16
+      },
+      "type": "Incantation",
+      "category": "Frenzied Flame"
+    },
+    {
+      "id": "poison-mist",
+      "name": "Poison Mist",
+      "cost": 10,
+      "slots": 1,
+      "requirements": {
+        "fai": 12
+      },
+      "type": "Incantation",
+      "category": "Dragon Communion"
+    },
+    {
+      "id": "poison-armament",
+      "name": "Poison Armament",
+      "cost": 10,
+      "slots": 1,
+      "requirements": {
+        "fai": 10
+      },
+      "type": "Incantation",
+      "category": "Dragon Communion"
+    },
+    {
+      "id": "stone-of-gurranq",
+      "name": "Stone of Gurranq",
+      "cost": 8,
+      "slots": 1,
+      "requirements": {
+        "fai": 13
+      },
+      "type": "Incantation",
+      "category": "Bestial"
+    },
+    {
+      "id": "bestial-sling",
+      "name": "Bestial Sling",
+      "cost": 6,
+      "slots": 1,
+      "requirements": {
+        "fai": 10
+      },
+      "type": "Incantation",
+      "category": "Bestial"
+    },
+    {
+      "id": "bestial-vitality",
+      "name": "Bestial Vitality",
+      "cost": 12,
+      "slots": 1,
+      "requirements": {
+        "fai": 12
+      },
+      "type": "Incantation",
+      "category": "Bestial"
+    },
+    {
+      "id": "beast-claw",
+      "name": "Beast Claw",
+      "cost": 14,
+      "slots": 1,
+      "requirements": {
+        "fai": 15
+      },
+      "type": "Incantation",
+      "category": "Bestial"
+    },
+    {
+      "id": "noble-presence",
+      "name": "Noble Presence",
+      "cost": 20,
+      "slots": 1,
+      "requirements": {
+        "fai": 25
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "giants-flame-take-thee",
+      "name": "Giantsflame Take Thee",
+      "cost": 32,
+      "slots": 2,
+      "requirements": {
+        "fai": 38
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "flame-of-the-fell-god",
+      "name": "Flame of the Fell God",
+      "cost": 42,
+      "slots": 2,
+      "requirements": {
+        "fai": 46
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    },
+    {
+      "id": "burn-o-flame",
+      "name": "Burn, O Flame!",
+      "cost": 36,
+      "slots": 2,
+      "requirements": {
+        "fai": 42
+      },
+      "type": "Incantation",
+      "category": "Fire Monk"
+    }
+  ]
+}

@@ -24,6 +24,7 @@ export interface BuildInput {
   upgradeLevel: number;
   selectedArmorSet?: string;
   selectedTalismans?: string[];
+  selectedSpells?: string[];
 }
 
 export interface WeaponARResult {
@@ -466,6 +467,9 @@ export function calculateBuild(input: BuildInput): BuildOutput {
   } else {
     totalWeight += 15; // default armor estimate
   }
+
+  // Spells weight (negligible, staff/seal counted as weapon)
+  // Spells themselves don't add weight in-game
 
   // Talismans weight
   if (input.selectedTalismans && input.selectedTalismans.length > 0) {

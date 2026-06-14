@@ -10,11 +10,14 @@ import {
   ARMOR_PIECE_BY_ID,
   ALL_TALISMANS_LIST,
   ALL_TALISMANS_RECORD,
+  ALL_SPELLS_LIST,
+  ALL_SPELLS_RECORD,
   EMPTY_PIECES,
   SOFT_CAP_DEFS,
   type ArmorSlot,
   type ArmorPiece,
   type Talisman,
+  type Spell,
 } from "@/lib/build-calculator/equipment";
 
 // ─── Types ───
@@ -314,6 +317,7 @@ export default function EldenRingBuildCalculator() {
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [selectedPieces, setSelectedPieces] = useState<Partial<Record<ArmorSlot, ArmorPiece>>>({});
   const [selectedTalismans, setSelectedTalismans] = useState<string[]>([]);
+  const [selectedSpells, setSelectedSpells] = useState<string[]>([]);
   const [buildName, setBuildName] = useState("");
 
   const updateStat = (k: StatKey, v: number) => setStats(p => ({ ...p, [k]: Math.max(1, Math.min(99, v)) }));
@@ -323,6 +327,10 @@ export default function EldenRingBuildCalculator() {
     if (p) setStats(prev => ({ ...prev, ...p }));
     setSelWeapons([]);
     setUpgradeLevel(15);
+  };
+
+  const toggleSpell = (id: string) => {
+    setSelectedSpells(p => p.includes(id) ? p.filter(x => x !== id) : p.length >= 12 ? p : [...p, id]);
   };
 
   const toggleTalisman = (id: string) => {
@@ -414,6 +422,7 @@ export default function EldenRingBuildCalculator() {
         setSelectedPieces(pieces);
       }
       if (json.tl) setSelectedTalismans(json.tl);
+      if (json.spl) setSelectedSpells(json.spl);
     } catch {}
   }, []);
 
@@ -423,6 +432,7 @@ export default function EldenRingBuildCalculator() {
       bn: buildName, sc, s: stats, w: selWeapons, ul: upgradeLevel, th: twoHanding,
       ap: Object.fromEntries(ARMOR_SLOTS.map(s => [s, selectedPieces[s]?.id || null])),
       tl: selectedTalismans,
+      spl: selectedSpells,
     };
     const b64 = btoa(JSON.stringify(data));
     setBuildUrl(window.location.origin + window.location.pathname + "?b=" + b64);
@@ -616,6 +626,49 @@ export default function EldenRingBuildCalculator() {
                       } ${!selected && selectedTalismans.length >= 4 ? "opacity-40" : ""}`}>
                       <div className="truncate font-medium">{t.name}</div>
                       <div className="text-[9px] text-gray-500">{t.weight}wt</div>
+                    </button>
+                  );
+                })}
+              </div>
+            </Section>
+            {/* Spells (12 slots) */}
+            <Section title={"Spells (" + selectedSpells.length + "/12)"}>
+              <div className="grid grid-cols-4 gap-1">
+                {[0,1,2,3,4,5,6,7,8,9,10,11].map(function(i) {
+                  var spellId: string | undefined = selectedSpells[i];
+                  var spell: (typeof ALL_SPELLS_RECORD)[string] | null = spellId ? ALL_SPELLS_RECORD[spellId] : null;
+                  return (
+                    <button key={i}
+                      onClick={function() {
+                        if (spellId) {
+                          setSelectedSpells(function(p) { return p.filter(function(x) { return x !== spellId; }); });
+                        }
+                      }}
+                      className={"rounded border px-1 py-2 text-center text-[10px] transition " + (spell
+                        ? "border-purple-700 bg-purple-900/20 text-purple-300"
+                        : "border-gray-800 text-gray-500 hover:border-gray-600")}>
+                      {spell ? (
+                        <>
+                          <div className="truncate font-medium">{spell.name}</div>
+                          <div className="text-[8px] text-gray-500">{spell.cost}FP</div>
+                        </>
+                      ) : (
+                        <span className="text-gray-600">Empty</span>
+                      )}
+                    </button>
+                  );
+                })}
+              </div>
+              {/* Spell picker */}
+              <div className="mt-2 max-h-48 overflow-y-auto space-y-0.5 rounded border border-gray-800">
+                {ALL_SPELLS_LIST.map(function(s) {
+                  var selected = selectedSpells.includes(s.id);
+                  return (
+                    <button key={s.id} onClick={function() { toggleSpell(s.id); }}
+                      disabled={!selected && selectedSpells.length >= 12}
+                      className={"flex w-full items-center justify-between px-3 py-1.5 text-xs transition " + (selected ? "bg-purple-900/20 text-purple-300" : "text-gray-400 hover:bg-gray-800") + (!selected && selectedSpells.length >= 12 ? " opacity-40" : "")}>
+                      <span className="truncate">{s.name}</span>
+                      <span className="ml-2 shrink-0 text-[10px] text-gray-500">{s.type === "Sorcery" ? "\ud83d\udd2e" : "\u2728"} {s.cost}FP</span>
                     </button>
                   );
                 })}
