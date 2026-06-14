@@ -282,7 +282,7 @@ export function generateGameMetadata(game: Game): Metadata {
       images,
     },
     robots: {
-      index: true,
+      index: game.slug === "elden-ring",
       follow: true,
     },
     other: Object.keys(other).length > 0 ? other : undefined,

@@ -76,6 +76,38 @@ export default function EldenRingBuildCalculator(){
     });
   }, [buildUrl]);
 
+  // Inject JSON-LD for SEO
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.type = "application/ld+json";
+    script.id = "calc-jsonld";
+    script.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebApplication",
+          name: "Elden Ring Build Calculator",
+          description: "Plan and optimize Elden Ring character builds. Real-time stat calculations, weapon AR comparisons, and soft cap analysis.",
+          url: "https://zosygo.com/elden-ring/tools/build-calculator",
+          applicationCategory: "GameApplication",
+          operatingSystem: "Web",
+          offers: { "@type": "Offer", price: "0" },
+        },
+        {
+          "@type": "FAQPage",
+          mainEntity: [
+            { "@type": "Question", name: "How does the Elden Ring Build Calculator work?", acceptedAnswer: { "@type": "Answer", text: "Select your starting class, adjust stat sliders (1-99), choose up to 3 weapons with upgrade levels, and see real-time HP, FP, Stamina, equip load, and Attack Rating results. The calculator uses game-accurate formulas with proper soft cap mechanics." } },
+            { "@type": "Question", name: "What weapons are supported?", acceptedAnswer: { "@type": "Answer", text: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more. Each weapon has exact scaling coefficients and stat requirements." } },
+            { "@type": "Question", name: "Is the stat calculation accurate to Elden Ring?", acceptedAnswer: { "@type": "Answer", text: "Yes. HP, FP, Stamina, and equip load follow Elden Ring's actual in-game formulas. Weapon Attack Rating uses correct scaling curves, upgrade levels, and soft cap mechanics." } },
+            { "@type": "Question", name: "Can I share my build?", acceptedAnswer: { "@type": "Answer", text: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." } },
+          ],
+        },
+      ],
+    });
+    document.head.appendChild(script);
+    return () => { const s = document.getElementById("calc-jsonld"); if (s) s.remove(); };
+  }, []);
+
   return <div className="min-h-screen bg-gray-950 text-gray-200">
     <div className="mx-auto max-w-7xl px-4 py-6">
       <div className="mb-6">
@@ -128,6 +160,121 @@ export default function EldenRingBuildCalculator(){
           </>):<Section title="Build Output"><div className="text-center text-sm text-gray-500">Adjust your stats to see build results</div></Section>}
         </div>
       </div>
+    </div>
+
+    {/* SEO Content below calculator */}
+    <div className="mx-auto max-w-4xl px-4 py-16">
+      <section className="border-t border-gray-800 pt-12">
+        <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Build Calculator?</h2>
+        <p className="mt-4 text-base leading-relaxed text-gray-400">
+          The Elden Ring Build Calculator is a free online tool that lets you plan and optimize your character build for Elden Ring.
+          It uses game-accurate formulas for stat calculations, weapon scaling, and equip load so you can experiment with different
+          builds without respeccing in-game. The calculator supports all 10 starting classes, 123 weapons, and proper soft cap mechanics.
+        </p>
+        <p className="mt-3 text-base leading-relaxed text-gray-400">
+          Whether you are building a Dexterity bleed build, a Moonveil Intelligence build, or a pure Strength tank,
+          the calculator gives you precise numbers for HP, FP, Stamina, equip load, and weapon Attack Rating with physical and elemental damage breakdowns.
+        </p>
+      </section>
+
+      <section className="mt-12 border-t border-gray-800 pt-12">
+        <h2 className="text-2xl font-bold text-white">How To Use This Calculator</h2>
+        <ol className="mt-6 space-y-4">
+          <li className="flex gap-3">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">1</span>
+            <div>
+              <h3 className="font-semibold text-white">Choose a Starting Class</h3>
+              <p className="mt-1 text-sm leading-relaxed text-gray-400">Select from Vagabond, Warrior, Hero, Bandit, Astrologer, Prophet, Samurai, Prisoner, Confessor, or Wretch.</p>
+            </div>
+          </li>
+          <li className="flex gap-3">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">2</span>
+            <div>
+              <h3 className="font-semibold text-white">Set Your Attributes</h3>
+              <p className="mt-1 text-sm leading-relaxed text-gray-400">Use the sliders to allocate Vigor, Mind, Endurance, Strength, Dexterity, Intelligence, Faith, and Arcane from 1 to 99. Watch for soft cap warnings.</p>
+            </div>
+          </li>
+          <li className="flex gap-3">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">3</span>
+            <div>
+              <h3 className="font-semibold text-white">Select Weapons</h3>
+              <p className="mt-1 text-sm leading-relaxed text-gray-400">Pick up to 3 weapons, set upgrade levels (+0 to +25), and toggle two-handing for the 1.5x Strength bonus.</p>
+            </div>
+          </li>
+          <li className="flex gap-3">
+            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">4</span>
+            <div>
+              <h3 className="font-semibold text-white">Review Results &amp; Share</h3>
+              <p className="mt-1 text-sm leading-relaxed text-gray-400">See real-time HP, FP, Stamina, equip load, roll type, weapon AR, and soft cap analysis. Share your build via URL.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section className="mt-12 border-t border-gray-800 pt-12">
+        <h2 className="text-2xl font-bold text-white">Recommended Builds</h2>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          <a href="/elden-ring/builds/elden-ring-pure-dex-bleed-build" className="group rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30">
+            <h3 className="font-semibold text-white group-hover:text-yellow-300">Pure Dexterity Bleed Build</h3>
+            <p className="mt-1 text-sm text-gray-500">High DPS bleed build using Rivers of Blood or Bloodhound's Fang. 60 Vigor, 80 Dexterity, 60 Arcane.</p>
+          </a>
+          <a href="/elden-ring/builds/moonveil-intelligence-build" className="group rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30">
+            <h3 className="font-semibold text-white group-hover:text-yellow-300">Moonveil Intelligence Build</h3>
+            <p className="mt-1 text-sm text-gray-500">Intelligence-based samurai build using Moonveil katana. 50 Vigor, 80 Intelligence, 20 Dexterity.</p>
+          </a>
+          <a href="/elden-ring/builds" className="group rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30 sm:col-span-2">
+            <h3 className="font-semibold text-white group-hover:text-yellow-300">All Elden Ring Builds →</h3>
+            <p className="mt-1 text-sm text-gray-500">Browse all builds including Strength, Faith, Arcane, and hybrid builds.</p>
+          </a>
+        </div>
+      </section>
+
+      <section className="mt-12 border-t border-gray-800 pt-12">
+        <h2 className="text-2xl font-bold text-white">Frequently Asked Questions</h2>
+        <div className="mt-6 space-y-4">
+          {[
+            { q: "How does the Elden Ring Build Calculator work?", a: "Select your starting class, adjust stat sliders (1-99), choose up to 3 weapons with upgrade levels, and see real-time HP, FP, Stamina, equip load, and Attack Rating results. The calculator uses game-accurate formulas with proper soft cap mechanics." },
+            { q: "What weapons are supported?", a: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more. Each weapon has exact scaling coefficients and stat requirements." },
+            { q: "Is the stat calculation accurate to Elden Ring?", a: "Yes. HP, FP, Stamina, and equip load follow Elden Ring's actual in-game formulas. Weapon Attack Rating uses correct scaling curves, upgrade levels, and soft cap mechanics." },
+            { q: "Can I share my build?", a: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." },
+            { q: "What is the best starting class?", a: "Vagabond is generally the best starting class for most builds due to its high Vigor and balanced stats. For pure casters, Astrologer or Prophet are better choices." },
+          ].map((item, i) => (
+            <details key={i} className="group rounded-sm border border-gray-800 bg-gray-900/50">
+              <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-yellow-300">
+                {item.q}
+                <svg className="h-4 w-4 shrink-0 text-gray-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div className="border-t border-gray-800 px-4 py-3">
+                <p className="text-sm leading-relaxed text-gray-400">{item.a}</p>
+              </div>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-12 border-t border-gray-800 pt-12">
+        <h2 className="text-xl font-bold text-white">Related Guides</h2>
+        <div className="mt-6 flex flex-wrap gap-3">
+          {[
+            { title: "Best Dexterity Build", href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build" },
+            { title: "Moonveil Intelligence Build", href: "/elden-ring/builds/moonveil-intelligence-build" },
+            { title: "Elden Ring Builds", href: "/elden-ring/builds" },
+            { title: "Elden Ring Bosses", href: "/elden-ring/bosses" },
+            { title: "Elden Ring Weapons", href: "/elden-ring/weapons" },
+            { title: "Elden Ring Tools", href: "/elden-ring/tools" },
+          ].map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-4 py-2.5 text-sm font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800"
+            >
+              {link.title}
+            </a>
+          ))}
+        </div>
+      </section>
     </div>
   </div>;
 }

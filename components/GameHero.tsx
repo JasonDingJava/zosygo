@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import type { Game } from "@/lib/games";
 
 interface GameHeroProps {
@@ -7,6 +8,7 @@ interface GameHeroProps {
 }
 
 export default function GameHero({ game, locale }: GameHeroProps) {
+  const isEldenRing = game.slug === "elden-ring";
   
   return (
     <section className="relative overflow-hidden border-b border-white/10">
@@ -87,19 +89,19 @@ export default function GameHero({ game, locale }: GameHeroProps) {
           <dl className="mt-10 grid grid-cols-2 gap-6 sm:grid-cols-4">
             <div>
               <dt className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                "Game Guide"
+                Developer
               </dt>
               <dd className="mt-1 text-sm font-medium text-white">{game.developer}</dd>
             </div>
             <div>
               <dt className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                "Game Guide"
+                Publisher
               </dt>
               <dd className="mt-1 text-sm font-medium text-white">{game.publisher}</dd>
             </div>
             <div>
               <dt className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                "Game Guide"
+                Release Date
               </dt>
               <dd className="mt-1 text-sm font-medium text-white">
                 {new Date(game.releaseDate).toLocaleDateString(locale || "en-US", {
@@ -111,13 +113,30 @@ export default function GameHero({ game, locale }: GameHeroProps) {
             </div>
             <div>
               <dt className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
-                "Game Guide"
+                Platforms
               </dt>
               <dd className="mt-1 text-sm font-medium text-white">
                 {game.platforms.join(", ")}
               </dd>
             </div>
           </dl>
+
+          {isEldenRing && (
+            <div className="mt-10 flex flex-col gap-3 sm:flex-row">
+              <Link
+                href="/elden-ring/tools/build-calculator"
+                className="inline-flex h-14 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-8 text-base font-bold uppercase tracking-wider text-black shadow-[0_0_40px_rgba(251,191,36,0.4)] transition-all hover:scale-[1.02] hover:shadow-[0_0_50px_rgba(251,191,36,0.6)]"
+              >
+                ⚔️ Build Calculator
+              </Link>
+              <Link
+                href="/elden-ring/tools"
+                className="inline-flex h-14 items-center justify-center rounded-sm border border-[#b8956a]/30 px-8 text-base font-semibold uppercase tracking-wider text-[#e8d5a3] transition-colors hover:border-[#c9a227]/50"
+              >
+                🛠 All Tools
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </section>
