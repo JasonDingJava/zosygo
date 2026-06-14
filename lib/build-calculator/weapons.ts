@@ -123,6 +123,11 @@ export function calculateWeaponAR(
   totalAR: number;
   physicalAR: number;
   elementalAR: number;
+  phys: number;
+  magic: number;
+  fire: number;
+  lightning: number;
+  holy: number;
   meetsRequirements: boolean;
   missingStats: string[];
 } {
@@ -141,6 +146,10 @@ export function calculateWeaponAR(
   let totalAR = 0;
   let physAR = 0;
   let elemAR = 0;
+  let magicAR = 0;
+  let fireAR = 0;
+  let lightningAR = 0;
+  let holyAR = 0;
 
   const damageTypes = [
     { index: 0, name: "phys" as const },
@@ -201,6 +210,10 @@ export function calculateWeaponAR(
     const finalAR = upgradedAtk * scalingMultiplier;
     totalAR += finalAR;
     if (dt.name === "phys") physAR += finalAR;
+    else if (dt.name === "magic") magicAR += finalAR;
+    else if (dt.name === "fire") fireAR += finalAR;
+    else if (dt.name === "lightning") lightningAR += finalAR;
+    else if (dt.name === "holy") holyAR += finalAR;
     else elemAR += finalAR;
   }
 
@@ -208,6 +221,11 @@ export function calculateWeaponAR(
     totalAR: Math.round(totalAR),
     physicalAR: Math.round(physAR),
     elementalAR: Math.round(elemAR),
+    phys: Math.round(physAR || 0),
+    magic: Math.round(magicAR || 0),
+    fire: Math.round(fireAR || 0),
+    lightning: Math.round(lightningAR || 0),
+    holy: Math.round(holyAR || 0),
     meetsRequirements: meetsReq,
     missingStats: missing,
   };

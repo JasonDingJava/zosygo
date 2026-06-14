@@ -33,6 +33,7 @@ export interface WeaponARResult {
   totalAR: number;
   physicalAR: number;
   elementalAR: number;
+  detailedAR: DetailedAR;
   meetsRequirements: boolean;
   missingStats: string[];
 }
@@ -49,6 +50,41 @@ export interface Suggestion {
   type: "stat" | "weapon" | "build";
   message: string;
   priority: "high" | "medium" | "low";
+}
+
+
+export interface DetailedAR {
+  phys: number;
+  magic: number;
+  fire: number;
+  lightning: number;
+  holy: number;
+  total: number;
+}
+
+export interface DefenseStats {
+  physicalNegation: number;
+  magicNegation: number;
+  fireNegation: number;
+  lightningNegation: number;
+  holyNegation: number;
+  baseDefense: {
+    physical: number;
+    magic: number;
+    fire: number;
+    lightning: number;
+    holy: number;
+  };
+}
+
+export interface DamageResult {
+  damageType: string;
+  rawAR: number;
+  negation: number;
+  afterNegation: number;
+  defense: number;
+  finalDamage: number;
+  totalDamage: number;
 }
 
 export interface BuildOutput {
@@ -288,6 +324,86 @@ export function calculateRuneLevel(startingClass: StartingClass, stats: BuildSta
 
 // ─── Main Build Function ───
 
+
+// ─── Damage Negation from Armor ───
+
+function getArmorNegation(armorPieces: Partial<Record<string, { piece: any }>>): {
+  phys: number; magic: number; fire: number; lightning: number; holy: number;
+} {
+  // Simplified: average negation from armor pieces
+  // In a full implementation, each armor piece has specific negation values
+  return { phys: 0, magic: 0, fire: 0, lightning: 0, holy: 0 };
+}
+
+// ─── Base Defense from Stats ───
+
+function getBaseDefense(stats: BuildStats): {
+  physical: number; magic: number; fire: number; lightning: number; holy: number;
+} {
+  // Elden Ring base defense scales with level and stats
+  // Physical: ~80 at lv1, scales up
+  // Elemental: 50-100 base, scales with specific stats
+  const level = Object.values(stats).reduce((a, b) => a + b, 0) - 79;
+  const base = Math.floor(80 + level * 0.5);
+  return {
+    physical: base,
+    magic: base + Math.floor(stats.intelligence * 0.2),
+    fire: base + Math.floor(stats.faith * 0.2),
+    lightning: base + Math.floor(stats.dexterity * 0.2),
+    holy: base + Math.floor(stats.faith * 0.15),
+  };
+}
+
+// ─── Elden Ring Defense Formula ───
+
+function applyDefense(rawDamage: number, defense: number): number {
+  if (defense <= 0) return rawDamage;
+  // Simplified formula matching game behavior
+  const ratio = rawDamage / defense;
+  if (ratio <= 0.125) return rawDamage * 0.1;
+  if (ratio <= 0.4) return rawDamage * 0.9;
+  if (ratio <= 1) return rawDamage * 0.5;
+  if (ratio <= 8) return rawDamage * 0.8;
+  return rawDamage * 0.9;
+}
+
+// ─── Calculate detailed damage ───
+
+export function calculateDamage(
+  weaponAR: { phys: number; magic: number; fire: number; lightning: number; holy: number },
+  negation: { phys: number; magic: number; fire: number; lightning: number; holy: number },
+  baseDefense: { physical: number; magic: number; fire: number; lightning: number; holy: number }
+): DamageResult[] {
+  const damageTypes: { key: string; ar: number; neg: number; def: number }[] = [
+    { key: "Physical", ar: weaponAR.phys, neg: negation.phys, def: baseDefense.physical },
+    { key: "Magic", ar: weaponAR.magic, neg: negation.magic, def: baseDefense.magic },
+    { key: "Fire", ar: weaponAR.fire, neg: negation.fire, def: baseDefense.fire },
+    { key: "Lightning", ar: weaponAR.lightning, neg: negation.lightning, def: baseDefense.lightning },
+    { key: "Holy", ar: weaponAR.holy, neg: negation.holy, def: baseDefense.holy },
+  ];
+
+  const results: DamageResult[] = [];
+  let totalDamage = 0;
+
+  for (const dt of damageTypes) {
+    if (dt.ar <= 0) continue;
+    const afterNegation = dt.ar * (1 - dt.neg / 100);
+    const finalDamage = Math.round(applyDefense(afterNegation, dt.def));
+    totalDamage += finalDamage;
+    results.push({
+      damageType: dt.key,
+      rawAR: Math.round(dt.ar),
+      negation: dt.neg,
+      afterNegation: Math.round(afterNegation * 10) / 10,
+      defense: dt.def,
+      finalDamage,
+      totalDamage,
+    });
+  }
+
+  return results;
+}
+
 export function calculateBuild(input: BuildInput): BuildOutput {
   const startingClass = STARTING_CLASSES[input.startingClass];
   if (!startingClass) {
@@ -330,6 +446,14 @@ export function calculateBuild(input: BuildInput): BuildOutput {
       totalAR: ar.totalAR,
       physicalAR: ar.physicalAR,
       elementalAR: ar.elementalAR,
+      detailedAR: {
+        phys: ar.phys,
+        magic: ar.magic,
+        fire: ar.fire,
+        lightning: ar.lightning,
+        holy: ar.holy,
+        total: ar.totalAR,
+      },
       meetsRequirements: ar.meetsRequirements,
       missingStats: ar.missingStats,
     });

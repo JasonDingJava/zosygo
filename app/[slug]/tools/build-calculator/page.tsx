@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import { ALL_WEAPONS, ALL_WEAPON_SLUGS, WEAPON_CATEGORY_NAMES } from "@/lib/build-calculator/weapons";
 import { STARTING_CLASSES } from "@/lib/build-calculator/classes";
-import { calculateBuild, type BuildStats, type BuildInput } from "@/lib/build-calculator/engine";
+import { calculateBuild, calculateDamage, type BuildStats, type BuildInput, type WeaponARResult } from "@/lib/build-calculator/engine";
 import {
   ARMOR_PIECES,
   ARMOR_PIECE_BY_ID,
@@ -137,10 +137,48 @@ function StatRow({stat,value,onChange,minVal}:{stat:StatKey;value:number;onChang
 
 
 
+function StatRows({ stats, baseStats, onStatChange }: {
+  stats: BuildStats;
+  baseStats: BuildStats | undefined;
+  onStatChange: (k: StatKey, v: number) => void;
+}) {
+  return (
+    <>
+      {(STAT_KEYS as readonly StatKey[]).map(function(k) {
+        return (
+          <StatRow key={k} stat={k} value={stats[k]} onChange={(v) => onStatChange(k, v)} minVal={baseStats ? baseStats[k] : 1} />
+        );
+      })}
+    </>
+  );
+}
+
+function ClassCards({ sc, onSelect }: { sc: string; onSelect: (n: string) => void }) {
+  return (
+    <>
+      {CLASS_NAMES.map(function(n) {
+        const cls = STARTING_CLASSES[n];
+        const isActive = sc === n;
+        return (
+          <button key={n} onClick={() => onSelect(n)}
+            className={`rounded border px-3 py-2 text-left text-xs transition ${
+              isActive
+                ? "border-yellow-600 bg-yellow-900/20 text-yellow-300"
+                : "border-gray-800 bg-gray-800/50 text-gray-400 hover:border-gray-600 hover:text-gray-200"
+            }`}>
+            <div className="font-semibold">{cls.name}</div>
+            <div className="mt-0.5 text-[10px] opacity-70">Lv {cls.runeLevel}</div>
+          </button>
+        );
+      })}
+    </>
+  );
+}
+
 function SoftCapWarnings({ warnings }: { warnings: Array<{ type: string; message: string }> }) {
   return (
     <div className="space-y-1.5">
-      {warnings.map((sw, i) => (
+      {warnings.map(function(sw, i) { return (
         <div key={i}
           className={`rounded px-3 py-2 text-xs ${
             sw.type === "warning" ? "bg-yellow-900/20 text-yellow-300" :
@@ -148,22 +186,22 @@ function SoftCapWarnings({ warnings }: { warnings: Array<{ type: string; message
           }`}>
           {sw.message}
         </div>
-      ))}
+      );})}
     </div>
   );
 }
 
-function WeaponCards({ weapons }: { weapons: Array<{ slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number }> }) {
+function WeaponCards({ weapons }: { weapons: Array<{ slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number; detailedAR?: { phys: number; magic: number; fire: number; lightning: number; holy: number } }> }) {
   return (
     <div className="space-y-3">
-      {weapons.map(w => (
+      {weapons.map(function(w) { return (
         <WeaponCard key={w.slug} w={w} />
-      ))}
+      );})}
     </div>
   );
 }
 
-function WeaponCard({ w }: { w: { slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number } }) {
+function WeaponCard({ w }: { w: { slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number; detailedAR?: { phys: number; magic: number; fire: number; lightning: number; holy: number } } }) {
   return (
     <div key={w.slug} className="rounded border border-gray-800 bg-gray-900/50 p-3">
       <div className="mb-2 flex items-center justify-between">
@@ -189,7 +227,80 @@ function WeaponCard({ w }: { w: { slug: string; name: string; type: string; meet
           <div className="text-[10px] text-gray-500">Elemental</div>
         </div>
       </div>
+      {w.detailedAR && (
+        <div className="mt-2 grid grid-cols-5 gap-1 text-center text-[10px]">
+          <div><span className="text-orange-300">{w.detailedAR.phys}</span><span className="text-gray-600"> phys</span></div>
+          <div><span className="text-blue-300">{w.detailedAR.magic}</span><span className="text-gray-600"> mag</span></div>
+          <div><span className="text-red-300">{w.detailedAR.fire}</span><span className="text-gray-600"> fire</span></div>
+          <div><span className="text-yellow-300">{w.detailedAR.lightning}</span><span className="text-gray-600"> ltn</span></div>
+          <div><span className="text-gray-300">{w.detailedAR.holy}</span><span className="text-gray-600"> holy</span></div>
+        </div>
+      )}
     </div>
+  );
+}
+
+
+function DamageCalculatorPanel({ weapons, stats, armorPieces, talismanIds }: {
+  weapons: WeaponARResult[];
+  stats: BuildStats;
+  armorPieces: Partial<Record<string, ArmorPiece>>;
+  talismanIds: string[];
+}) {
+  // Calculate base defense from stats
+  const level = Object.values(stats).reduce((a, b) => a + b, 0) - 79;
+  const base = Math.floor(80 + level * 0.5);
+  const baseDefense = {
+    physical: base,
+    magic: base + Math.floor(stats.intelligence * 0.2),
+    fire: base + Math.floor(stats.faith * 0.2),
+    lightning: base + Math.floor(stats.dexterity * 0.2),
+    holy: base + Math.floor(stats.faith * 0.15),
+  };
+
+  // Approximate negation (no armor data yet)
+  const negation = { phys: 0, magic: 0, fire: 0, lightning: 0, holy: 0 };
+
+  const allResults = weapons.map(w => {
+    if (!w.detailedAR) return { weapon: w.name, damages: [] };
+    return {
+      weapon: w.name,
+      damages: calculateDamage(w.detailedAR, negation, baseDefense),
+    };
+  });
+
+  return (
+    <Section title="Damage Calculator">
+      <div className="text-xs text-gray-400 mb-3">
+        Estimated damage vs base defenses. Actual damage varies by enemy.
+      </div>
+      {allResults.map(function(result, wi) { return (
+        <div key={wi} className="mb-3 last:mb-0">
+          <div className="text-sm font-semibold text-gray-200 mb-1.5">{result.weapon}</div>
+          {result.damages.length === 0 ? (
+            <div className="text-xs text-gray-500">No damage data</div>
+          ) : (
+            <div className="space-y-1">
+              {result.damages.map(function(d, di) { return (
+                <div key={di} className="flex items-center justify-between rounded bg-gray-800/40 px-3 py-1.5 text-xs">
+                  <div className="flex items-center gap-2">
+                    <span className="font-medium text-gray-200">{d.damageType}</span>
+                    <span className="text-gray-500">{d.rawAR} AR</span>
+                  </div>
+                  <span className="font-bold text-green-400">{d.finalDamage}</span>
+                </div>
+              );})}
+              <div className="flex items-center justify-between rounded bg-gray-800/60 px-3 py-1.5 text-sm font-bold">
+                <span className="text-gray-300">Total</span>
+                <span className="text-green-400">
+                  {result.damages.reduce((a, d) => a + d.finalDamage, 0)}
+                </span>
+              </div>
+            </div>
+          )}
+        </div>
+      );})}
+    </Section>
   );
 }
 
@@ -203,9 +314,10 @@ export default function EldenRingBuildCalculator() {
   const [categoryFilter, setCategoryFilter] = useState("all");
   const [selectedPieces, setSelectedPieces] = useState<Partial<Record<ArmorSlot, ArmorPiece>>>({});
   const [selectedTalismans, setSelectedTalismans] = useState<string[]>([]);
+  const [buildName, setBuildName] = useState("");
 
   const updateStat = (k: StatKey, v: number) => setStats(p => ({ ...p, [k]: Math.max(1, Math.min(99, v)) }));
-  const toggleWeapon = (slug: string) => setSelWeapons(p => p.includes(slug) ? p.filter(x => x !== slug) : [...p, slug].slice(0, 3));
+  const toggleWeapon = (slug: string) => setSelWeapons(p => p.includes(slug) ? p.filter(x => x !== slug) : [...p, slug].slice(0, 4));
   const applyPreset = (name: string) => {
     const p = PRESETS[name];
     if (p) setStats(prev => ({ ...prev, ...p }));
@@ -287,6 +399,7 @@ export default function EldenRingBuildCalculator() {
     if (!encoded) return;
     try {
       const json = JSON.parse(atob(encoded));
+      if (json.bn !== undefined) setBuildName(json.bn);
       if (json.sc) setSc(json.sc);
       if (json.s) setStats(json.s);
       if (json.w) setSelWeapons(json.w);
@@ -307,7 +420,7 @@ export default function EldenRingBuildCalculator() {
   const [buildUrl, setBuildUrl] = useState("");
   useEffect(() => {
     const data = {
-      sc, s: stats, w: selWeapons, ul: upgradeLevel, th: twoHanding,
+      bn: buildName, sc, s: stats, w: selWeapons, ul: upgradeLevel, th: twoHanding,
       ap: Object.fromEntries(ARMOR_SLOTS.map(s => [s, selectedPieces[s]?.id || null])),
       tl: selectedTalismans,
     };
@@ -360,17 +473,24 @@ export default function EldenRingBuildCalculator() {
       <div className="mx-auto max-w-7xl px-4 py-6">
         {/* Header */}
         <div className="mb-6">
-          <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator</h1>
+          <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
           <p className="mt-1 text-gray-400">Plan stats, pick weapons and armor, see exact Attack Rating.</p>
         </div>
 
         {/* Quick Build Presets */}
+        {/* Build Name */}
+        <div className="mb-4">
+          <input type="text" value={buildName} onChange={e => setBuildName(e.target.value)}
+            placeholder="Build name..."
+            className="w-full max-w-xs rounded border border-gray-700 bg-gray-900 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:border-yellow-600 focus:outline-none" />
+        </div>
+
         <div className="mb-6 flex flex-wrap items-center gap-2">
           <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Quick Builds</span>
-          {Object.keys(PRESETS).map(n => (
+          {Object.keys(PRESETS).map(function(n) { return (
             <button key={n} onClick={() => applyPreset(n)}
               className="rounded border border-yellow-700/30 bg-yellow-900/10 px-3 py-1.5 text-xs text-yellow-300 hover:bg-yellow-900/30">{n}</button>
-          ))}
+          );})}
           <div className="ml-auto">
             <button onClick={copyUrl}
               className="rounded border border-blue-700/30 bg-blue-900/10 px-3 py-1.5 text-xs text-blue-300 hover:bg-blue-900/30">{copied ? "Copied!" : "Copy Build URL"}</button>
@@ -386,30 +506,14 @@ export default function EldenRingBuildCalculator() {
             {/* Starting Class */}
             <Section title="Starting Class">
               <div className="grid grid-cols-2 gap-2">
-                {CLASS_NAMES.map(n => {
-                  const cls = STARTING_CLASSES[n];
-                  const isActive = sc === n;
-                  return (
-                    <button key={n} onClick={() => setSc(n)}
-                      className={`rounded border px-3 py-2 text-left text-xs transition ${
-                        isActive
-                          ? "border-yellow-600 bg-yellow-900/20 text-yellow-300"
-                          : "border-gray-800 bg-gray-800/50 text-gray-400 hover:border-gray-600 hover:text-gray-200"
-                      }`}>
-                      <div className="font-semibold">{cls.name}</div>
-                      <div className="mt-0.5 text-[10px] opacity-70">Lv {cls.runeLevel}</div>
-                    </button>
-                  );
-                })}
+                <ClassCards sc={sc} onSelect={setSc} />
               </div>
             </Section>
 
             {/* Attributes */}
             <Section title="Attributes">
               <div className="space-y-2.5">
-                {STAT_KEYS.map(k => (
-                  <StatRow key={k} stat={k} value={stats[k]} onChange={(v) => updateStat(k, v)} minVal={baseStats ? baseStats[k] : 1} />
-                ))}
+                <StatRows stats={stats} baseStats={baseStats} onStatChange={updateStat} />
               </div>
               {buildOutput && (
                 <div className="mt-3 rounded bg-gray-800/80 px-3 py-2 text-center text-sm">
@@ -433,30 +537,30 @@ export default function EldenRingBuildCalculator() {
             </Section>
 
             {/* Weapons */}
-            <Section title={`Weapons (${selWeapons.length}/3)`}>
+            <Section title={`Weapons (${selWeapons.length}/4)`}>
               <input type="text" value={searchQuery} onChange={e => setSearchQuery(e.target.value)}
                 placeholder="Search weapons..."
                 className="w-full rounded bg-gray-800 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:ring-1 focus:ring-yellow-500" />
               <div className="mt-2 flex flex-wrap gap-1.5">
                 <button onClick={() => setCategoryFilter("all")}
                   className={`rounded px-2 py-0.5 text-[10px] ${categoryFilter==="all" ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700"}`}>All</button>
-                {WEAPON_CATEGORY_NAMES.map(c => (
+                {WEAPON_CATEGORY_NAMES.map(function(c) { return (
                   <button key={c} onClick={() => setCategoryFilter(c)}
                     className={`rounded px-2 py-0.5 text-[10px] ${categoryFilter===c ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700"}`}>
                     {CI[c]||"⚔️"} {c}
                   </button>
-                ))}
+                );})}
               </div>
               <div className="mt-2 max-h-64 overflow-y-auto space-y-0.5 rounded border border-gray-800">
-                {filteredWeapons.map(slug => {
+                {filteredWeapons.map(function(slug) {
                   const w = ALL_WEAPONS[slug];
                   const selected = selWeapons.includes(slug);
                   return (
                     <button key={slug} onClick={() => toggleWeapon(slug)}
-                      disabled={!selected && selWeapons.length >= 3}
+                      disabled={!selected && selWeapons.length >= 4}
                       className={`flex w-full items-center justify-between px-3 py-1.5 text-xs transition ${
                         selected ? "bg-yellow-900/20 text-yellow-300" : "text-gray-400 hover:bg-gray-800"
-                      } ${!selected && selWeapons.length >= 3 ? "opacity-40" : ""}`}>
+                      } ${!selected && selWeapons.length >= 4 ? "opacity-40" : ""}`}>
                       <span className="truncate">{w.name}</span>
                       <span className="ml-2 shrink-0 text-[10px] text-gray-500">{w.somber ? "🌟" : "🔧"} {w.type}</span>
                     </button>
@@ -468,7 +572,7 @@ export default function EldenRingBuildCalculator() {
 
             {/* Armor (by slot) */}
             <Section title="Armor">
-              {ARMOR_SLOTS.map(slot => (
+              {ARMOR_SLOTS.map(function(slot) { return (
                 <div key={slot} className="mb-3 last:mb-0">
                   <div className="mb-1 flex items-center justify-between">
                     <span className="text-xs font-medium text-gray-400">{ARMOR_SLOT_LABELS[slot]}</span>
@@ -489,18 +593,18 @@ export default function EldenRingBuildCalculator() {
                     className="w-full rounded bg-gray-800 px-3 py-1.5 text-xs text-gray-200"
                   >
                     <option value="">None</option>
-                    {ARMOR_PIECES[slot].map(p => (
+                    {ARMOR_PIECES[slot].map(function(p) { return (
                       <option key={p.id} value={p.id}>{p.name} ({p.weight}wt)</option>
-                    ))}
+                    );})}
                   </select>
                 </div>
-              ))}
+              );})}
             </Section>
 
             {/* Talismans */}
             <Section title={`Talismans (${selectedTalismans.length}/4)`}>
               <div className="grid grid-cols-2 gap-1.5">
-                {ALL_TALISMANS_LIST.map(t => {
+                {ALL_TALISMANS_LIST.map(function(t) {
                   const selected = selectedTalismans.includes(t.id);
                   return (
                     <button key={t.id} onClick={() => toggleTalisman(t.id)}
@@ -566,7 +670,7 @@ export default function EldenRingBuildCalculator() {
                 </Section>
 
                 {/* Build Type */}
-                <Section title="Build Summary">
+                <Section title={buildName ? `Build Summary — ${buildName}` : "Build Summary"}>
                   <div className="rounded bg-yellow-900/10 border border-yellow-700/20 px-4 py-3 text-center">
                     <span className="text-xl font-bold text-yellow-300">{buildOutput.buildType}</span>
                     {!buildOutput.isViable && (
@@ -589,6 +693,16 @@ export default function EldenRingBuildCalculator() {
                     <WeaponCards weapons={buildOutput.weapons} />
                     )}
                   </Section>
+
+                {/* Damage Calculator */}
+                {buildOutput.weapons.length > 0 && buildOutput.weapons[0].detailedAR && (
+                  <DamageCalculatorPanel
+                    weapons={buildOutput.weapons}
+                    stats={stats}
+                    armorPieces={selectedPieces}
+                    talismanIds={selectedTalismans}
+                  />
+                )}
                 {/* Soft Cap Analysis */}
                   <Section title="Soft Cap Analysis">
                     <div className="space-y-1.5">
@@ -668,7 +782,7 @@ export default function EldenRingBuildCalculator() {
               { q: "Is the stat calculation accurate to Elden Ring?", a: "Yes. HP, FP, Stamina, and equip load follow Elden Ring's actual in-game formulas. Weapon Attack Rating uses correct scaling curves and soft cap mechanics." },
               { q: "Can I share my build?", a: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." },
               { q: "What is the best starting class?", a: "Vagabond is generally the best for most builds due to high Vigor and balanced stats. For pure casters, Astrologer or Prophet are better." },
-            ].map((item, i) => (
+            ].map(function(item, i) { return (
               <details key={i} className="group rounded-sm border border-gray-800 bg-gray-900/50">
                 <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-yellow-300">
                   {item.q}
@@ -676,7 +790,7 @@ export default function EldenRingBuildCalculator() {
                 </summary>
                 <div className="border-t border-gray-800 px-4 py-3"><p className="text-sm leading-relaxed text-gray-400">{item.a}</p></div>
               </details>
-            ))}
+            );})}
           </div>
         </section>
 
@@ -690,12 +804,12 @@ export default function EldenRingBuildCalculator() {
               { title: "Elden Ring Bosses", href: "/elden-ring/bosses" },
               { title: "Elden Ring Weapons", href: "/elden-ring/weapons" },
               { title: "Elden Ring Tools", href: "/elden-ring/tools" },
-            ].map(link => (
+            ].map(function(link) { return (
               <a key={link.href} href={link.href}
                 className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-4 py-2.5 text-sm font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">
                 {link.title}
               </a>
-            ))}
+            );})}
           </div>
         </section>
       </div>
