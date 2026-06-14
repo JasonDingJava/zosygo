@@ -61,14 +61,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" dir="ltr" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`} suppressHydrationWarning>
       <head>
         {/* Google AdSense auto-ads */}
-        {process.env.NEXT_PUBLIC_ADSENSE_ID && (
-          <Script
+        <Script
             async
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${process.env.NEXT_PUBLIC_ADSENSE_ID}`}
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6804860985615859"
             crossOrigin="anonymous"
             strategy="afterInteractive"
           />
-        )}
 
         {/* Google Analytics */}
         {gaId && (
