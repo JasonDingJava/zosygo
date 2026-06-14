@@ -398,6 +398,11 @@ export default function EldenRingBuildCalculator() {
   const [selectedTalismans, setSelectedTalismans] = useState<string[]>([]);
   const [selectedSpells, setSelectedSpells] = useState<string[]>([]);
   const [buildName, setBuildName] = useState("");
+  const [showTalismanPicker, setShowTalismanPicker] = useState(false);
+  const [talismanPickerSlot, setTalismanPickerSlot] = useState(0);
+  const [showSpellPicker, setShowSpellPicker] = useState(false);
+  const [showWeaponPicker, setShowWeaponPicker] = useState(false);
+  const [weaponPickerSlot, setWeaponPickerSlot] = useState(0);
 
   const updateStat = (k: StatKey, v: number) => setStats(p => ({ ...p, [k]: Math.max(1, Math.min(99, v)) }));
   const toggleWeapon = (slug: string) => setSelWeapons(p => p.includes(slug) ? p.filter(x => x !== slug) : [...p, slug].slice(0, 4));
@@ -977,6 +982,102 @@ export default function EldenRingBuildCalculator() {
             without respeccing in-game. Supports all 10 starting classes, 123 weapons, and proper soft cap mechanics.
           </p>
         </section>
+
+        {/* Talisman Picker Modal */}
+        {showTalismanPicker ? (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm" onClick={function() { setShowTalismanPicker(false); }}>
+            <div className="max-h-[80vh] w-full max-w-lg overflow-y-auto rounded-xl border border-gray-700 bg-gray-900 p-5 shadow-2xl" onClick={function(e) { e.stopPropagation(); }}>
+              <div className="mb-3 flex items-center justify-between">
+                <h3 className="text-sm font-bold text-gray-200">Select Talisman — Slot {talismanPickerSlot + 1}</h3>
+                <button onClick={function() { setShowTalismanPicker(false); }} className="text-xs text-gray-500 hover:text-gray-300">Close</button>
+              </div>
+              <div className="grid grid-cols-1 gap-1">
+                {ALL_TALISMANS_LIST.map(function(t, i) {
+                  var selected = selectedTalismans.includes(t.name);
+                  return (
+                    <button key={i} onClick={function() {
+                      var newTals = [...selectedTalismans];
+                      newTals[talismanPickerSlot] = t.name;
+                      setSelectedTalismans(newTals);
+                      setShowTalismanPicker(false);
+                    }}
+                      className={"flex items-center gap-3 rounded-lg px-3 py-2 text-left text-xs transition " + (selected ? "bg-yellow-900/20 text-yellow-300" : "text-gray-400 hover:bg-gray-800/80")}>
+                      <span className="text-yellow-500">{t.name}</span>
+                      {selected ? <span className="ml-auto text-[10px] text-yellow-500">selected</span> : null}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : null}
+
+        {/* Spell Picker Modal */}
+        {showSpellPicker ? (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm" onClick={function() { setShowSpellPicker(false); }}>
+            <div className="max-h-[80vh] w-full max-w-lg overflow-y-auto rounded-xl border border-gray-700 bg-gray-900 p-5 shadow-2xl" onClick={function(e) { e.stopPropagation(); }}>
+              <div className="mb-3 flex items-center justify-between">
+                <h3 className="text-sm font-bold text-gray-200">Select Spells ({selectedSpells.length}/12)</h3>
+                <button onClick={function() { setShowSpellPicker(false); }} className="text-xs text-gray-500 hover:text-gray-300">Done</button>
+              </div>
+              <div className="grid grid-cols-2 gap-1.5">
+                {ALL_SPELLS_LIST.map(function(sp) {
+                  var selected = selectedSpells.includes(sp.id);
+                  return (
+                    <button key={sp.id} onClick={function() {
+                      var newSpells = selectedSpells.filter(function(x) { return x !== sp.id; });
+                      if (!selected && newSpells.length < 12) newSpells.push(sp.id);
+                      setSelectedSpells(newSpells);
+                    }}
+                      className={"flex items-center justify-between rounded-lg px-3 py-2 text-xs transition " + (selected ? "bg-purple-900/20 text-purple-300" : "text-gray-400 hover:bg-gray-800/80")}>
+                      <span className="truncate">{sp.name}</span>
+                      <span className="ml-2 shrink-0 text-[10px] text-gray-500">{sp.type === "Sorcery" ? "\ud83d\udd2e" : "\u2728"} {sp.cost}FP</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : null}
+
+        {/* Weapon Picker Modal */}
+        {showWeaponPicker ? (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm" onClick={function() { setShowWeaponPicker(false); }}>
+            <div className="max-h-[80vh] w-full max-w-lg overflow-y-auto rounded-xl border border-gray-700 bg-gray-900 p-5 shadow-2xl" onClick={function(e) { e.stopPropagation(); }}>
+              <div className="mb-3 flex items-center justify-between">
+                <h3 className="text-sm font-bold text-gray-200">Select Weapon — Slot {weaponPickerSlot + 1}</h3>
+                <button onClick={function() { setShowWeaponPicker(false); }} className="text-xs text-gray-500 hover:text-gray-300">Close</button>
+              </div>
+              <input type="text" value={searchQuery} onChange={function(e) { setSearchQuery(e.target.value); }}
+                placeholder="Search weapons..."
+                className="mb-3 w-full rounded-lg border border-gray-700 bg-gray-800 px-3 py-2 text-xs text-gray-200 placeholder-gray-500 outline-none focus:border-yellow-600" />
+              <div className="max-h-[50vh] space-y-0.5 overflow-y-auto">
+                {ALL_WEAPON_SLUGS.filter(function(k) {
+                  var w = ALL_WEAPONS[k];
+                  if (!w) return false;
+                  if (categoryFilter !== "all" && w.type !== categoryFilter) return false;
+                  return searchQuery === "" || w.name.toLowerCase().includes(searchQuery.toLowerCase());
+                }).map(function(k) {
+                  var w = ALL_WEAPONS[k];
+                  var selected = selWeapons.includes(k);
+                  return (
+                    <button key={k} onClick={function() {
+                      var newW = [...selWeapons];
+                      // If same weapon tapped, clear it
+                      if (newW[weaponPickerSlot] === k) { newW[weaponPickerSlot] = ""; }
+                      else { newW[weaponPickerSlot] = k; }
+                      setSelWeapons(newW);
+                      setShowWeaponPicker(false);
+                    }}
+                      className={"flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-xs transition " + (selected ? "bg-yellow-900/20 text-yellow-300" : "text-gray-400 hover:bg-gray-800/80")}>
+                      <span className="truncate">{w.name}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : null}
 
         <section className="mt-12 border-t border-gray-800 pt-12">
           <h2 className="text-2xl font-bold text-white">How To Use This Calculator</h2>
