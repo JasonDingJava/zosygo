@@ -55,7 +55,6 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const gtmId = process.env.NEXT_PUBLIC_GTM_ID;
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
 
   return (
     <html lang="en" dir="ltr" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`} suppressHydrationWarning>
@@ -69,25 +68,21 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           />
 
         {/* Google Analytics */}
-        {gaId && (
-          <>
-            <Script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
-              strategy="afterInteractive"
-            />
-            <Script id="google-analytics" strategy="afterInteractive">
-              {`
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', '${gaId}', {
-                  page_path: window.location.pathname,
-                });
-              `}
-            </Script>
-          </>
-        )}
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-6W0J7EYBWW"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-6W0J7EYBWW', {
+              page_path: window.location.pathname,
+            });
+          `}
+        </Script>
 
         {/* Google Tag Manager */}
         {gtmId && (
