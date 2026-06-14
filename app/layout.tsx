@@ -1,5 +1,6 @@
 import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { generateSiteSchemaJsonLd } from "@/lib/seo";
@@ -128,6 +129,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Navbar />
           <main className="flex-1">{children}</main>
           <Footer />
+          <SpeedInsights />
       </body>
     </html>
   );
