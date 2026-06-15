@@ -1489,20 +1489,47 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
 
         <section className="mt-12 border-t border-gray-800 pt-12">
           <h2 className="text-xl font-bold text-white">Related Guides</h2>
-          <div className="mt-6 flex flex-wrap gap-3">
-            {[
-              { title: "Best Dexterity Build", href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build" },
-              { title: "Moonveil Intelligence Build", href: "/elden-ring/builds/moonveil-intelligence-build" },
-              { title: "Elden Ring Builds", href: "/elden-ring/builds" },
-              { title: "Elden Ring Bosses", href: "/elden-ring/bosses" },
-              { title: "Elden Ring Weapons", href: "/elden-ring/weapons" },
-              { title: "Elden Ring Tools", href: "/elden-ring/tools" },
-            ].map(function(link) { return (
-              <a key={link.href} href={link.href}
-                className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-4 py-2.5 text-sm font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">
-                {link.title}
-              </a>
-            );})}
+
+          {/* Weapon Guides */}
+          <div className="mt-6">
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500">Weapon Guides</h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                { title: "Moonveil Katana Guide", href: "/elden-ring/weapons/moonveil" },
+                { title: "Blasphemous Blade Guide", href: "/elden-ring/weapons/blasphemous-blade" },
+                { title: "Dark Moon Greatsword Guide", href: "/elden-ring/weapons/dark-moon-greatsword" },
+                { title: "River of Blood Guide", href: "/elden-ring/weapons/rivers-of-blood" },
+                { title: "Hand of Malenia Guide", href: "/elden-ring/weapons/hand-of-malenia" },
+                { title: "Sacred Relic Sword Guide", href: "/elden-ring/weapons/sacred-relic-sword" },
+                { title: "All Elden Ring Weapons", href: "/elden-ring/weapons" },
+              ].map(function(link) { return (
+                <a key={link.href} href={link.href}
+                  className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">
+                  {link.title}
+                </a>
+              );})}
+            </div>
+          </div>
+
+          {/* Stat Guides */}
+          <div className="mt-5">
+            <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500">Stat Guides</h3>
+            <div className="flex flex-wrap gap-2">
+              {[
+                { title: "Vigor Guide — HP Soft Caps", href: "/elden-ring/guides/vigor-soft-caps" },
+                { title: "Endurance Guide — Equip Load & Stamina", href: "/elden-ring/guides/endurance-equip-load" },
+                { title: "Strength Guide — Two-Handing & Scaling", href: "/elden-ring/guides/strength-scaling" },
+                { title: "Dexterity Guide — Cast Speed & Scaling", href: "/elden-ring/guides/dexterity-cast-speed" },
+                { title: "Intelligence Guide — Sorcery Scaling", href: "/elden-ring/guides/intelligence-sorcery" },
+                { title: "Faith Guide — Incantation Scaling", href: "/elden-ring/guides/faith-incantations" },
+                { title: "Arcane Guide — Bleed & Status Effects", href: "/elden-ring/guides/arcane-bleed" },
+              ].map(function(link) { return (
+                <a key={link.href} href={link.href}
+                  className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">
+                  {link.title}
+                </a>
+              );})}
+            </div>
           </div>
         </section>
 
