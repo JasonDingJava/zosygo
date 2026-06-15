@@ -177,7 +177,16 @@ export default async function ArticlePage({ params }: Props) {
             return (
               <div key={i} className={section.image ? "mb-10" : ""}>
                 {section.heading && <div className="mb-2" />}
-                <Tag className="text-white" id={section.heading.toLowerCase().replace(/\s+/g, "-")}>
+                <Tag
+                  className={
+                    section.level === 2
+                      ? "text-2xl font-bold text-white mt-10"
+                      : section.level === 3
+                      ? "text-lg font-semibold text-zinc-300 mt-6"
+                      : "text-white"
+                  }
+                  id={section.heading.toLowerCase().replace(/\s+/g, "-")}
+                >
                   {section.heading}
                 </Tag>
                 {section.image && (
@@ -193,8 +202,38 @@ export default async function ArticlePage({ params }: Props) {
                   </div>
                 )}
                 <p className="leading-relaxed text-zinc-400 whitespace-pre-line">
-                  {section.content}
+                  {section.content.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+                    part.startsWith("**") && part.endsWith("**")
+                      ? <strong key={i}>{part.slice(2, -2)}</strong>
+                      : part
+                  )}
                 </p>
+                {section.table && (
+                  <div className="mt-4 overflow-x-auto">
+                    <table className="w-full border-collapse text-sm">
+                      <thead>
+                        <tr className="border-b border-white/10">
+                          {section.table.headers.map((header, hi) => (
+                            <th key={hi} className="px-4 py-2 text-left font-semibold text-[#c9a227]">
+                              {header}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {section.table.rows.map((row, ri) => (
+                          <tr key={ri} className="border-b border-white/5 hover:bg-white/[0.02]">
+                            {row.map((cell, ci) => (
+                              <td key={ci} className="px-4 py-2 text-zinc-400">
+                                {cell}
+                              </td>
+                            ))}
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
               </div>
             );
           })}
