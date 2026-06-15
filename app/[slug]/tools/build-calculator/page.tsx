@@ -4,7 +4,7 @@ import { useState, useMemo, useEffect, useCallback } from "react";
 import { useSearchParams } from "next/navigation";
 import { ALL_WEAPONS, ALL_WEAPON_SLUGS, WEAPON_CATEGORY_NAMES } from "@/lib/build-calculator/weapons";
 import { STARTING_CLASSES } from "@/lib/build-calculator/classes";
-import { calculateBuild, calculateDamage, type BuildStats, type BuildInput, type WeaponARResult } from "@/lib/build-calculator/engine";
+import { calculateBuild, calculateDamage, type BuildStats, type BuildInput, type BuildOutput, type WeaponARResult } from "@/lib/build-calculator/engine";
 import {
   ARMOR_PIECES,
   ARMOR_PIECE_BY_ID,
@@ -575,6 +575,122 @@ export default function EldenRingBuildCalculator() {
     return () => { const el = document.getElementById("calc-jsonld"); if (el) el.remove(); };
   }, []);
 
+function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput | null; stats: BuildStats }) {
+  const [isOpen, setIsOpen] = useState(false);
+  if (!buildOutput) return null;
+  return (
+    <div className="fixed bottom-4 right-4 z-40">
+      {/* Toggle button - always visible */}
+      <button
+        onClick={function() { setIsOpen(!isOpen); }}
+        className="flex items-center gap-2 rounded-full bg-gradient-to-r from-yellow-500 to-amber-500 px-3 py-2 text-sm font-bold text-black shadow-lg transition-all hover:from-yellow-400 hover:to-amber-400 xl:from-gray-800 xl:to-gray-800 xl:text-gray-300 xl:hover:from-gray-700 xl:hover:to-gray-700"
+      >
+        <span>{isOpen ? "▼" : "▲"}</span>
+        <span>Build Summary</span>
+      </button>
+
+      {/* Panel */}
+      <div className={"absolute bottom-14 right-0 w-80 rounded-xl border border-gray-700 bg-gradient-to-b from-gray-900 to-gray-950 p-4 shadow-2xl transition-all " + (isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none")}>
+        <div className="mb-3 flex items-center justify-between border-b border-gray-800 pb-3">
+          <h3 className="flex items-center gap-2 text-sm font-bold text-yellow-400">
+            <span>📊</span>
+            <span>Build Summary</span>
+          </h3>
+        </div>
+        <div className="space-y-2 text-sm">
+          <div className="flex items-center justify-between rounded-md bg-gray-800/50 px-3 py-2">
+            <span className="text-gray-400">Rune Level</span>
+            <span className="font-bold text-white">{buildOutput.runeLevel}</span>
+          </div>
+          <div className="flex items-center justify-between rounded-md bg-gray-800/50 px-3 py-2">
+            <span className="text-gray-400">Class</span>
+            <span className="font-bold text-white">{buildOutput.buildType}</span>
+          </div>
+          <div className="flex items-center justify-between rounded-md bg-gray-800/50 px-3 py-2">
+            <span className="text-gray-400">Build Type</span>
+            <span className="font-bold text-yellow-300">{buildOutput.buildType}</span>
+          </div>
+
+          {/* Stats summary */}
+          <div className="border-t border-gray-800 pt-3 mt-2">
+            <span className="mb-2 block text-[11px] font-medium uppercase tracking-wider text-gray-500">Attributes</span>
+            <div className="grid grid-cols-4 gap-1.5">
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">VIG</div>
+                <div className="text-xs font-bold text-green-400">{stats.vigor}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">MND</div>
+                <div className="text-xs font-bold text-blue-400">{stats.mind}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">END</div>
+                <div className="text-xs font-bold text-purple-400">{stats.endurance}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">STR</div>
+                <div className="text-xs font-bold text-red-400">{stats.strength}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">DEX</div>
+                <div className="text-xs font-bold text-orange-400">{stats.dexterity}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">INT</div>
+                <div className="text-xs font-bold text-cyan-400">{stats.intelligence}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">FTH</div>
+                <div className="text-xs font-bold text-yellow-300">{stats.faith}</div>
+              </div>
+              <div className="rounded bg-gray-800/40 px-1.5 py-1 text-center">
+                <div className="text-[10px] text-gray-500">ARC</div>
+                <div className="text-xs font-bold text-pink-400">{stats.arcane}</div>
+              </div>
+            </div>
+          </div>
+
+          {/* HP/FP/STA card */}
+          <div className="grid grid-cols-3 gap-2 border-t border-gray-800 pt-3 mt-2">
+            <div className="rounded-md bg-gray-800/50 px-2 py-2 text-center">
+              <div className="text-[10px] text-gray-500">HP</div>
+              <div className="text-sm font-bold text-green-400">{buildOutput.totalHP}</div>
+            </div>
+            <div className="rounded-md bg-gray-800/50 px-2 py-2 text-center">
+              <div className="text-[10px] text-gray-500">FP</div>
+              <div className="text-sm font-bold text-blue-400">{buildOutput.totalFP}</div>
+            </div>
+            <div className="rounded-md bg-gray-800/50 px-2 py-2 text-center">
+              <div className="text-[10px] text-gray-500">STA</div>
+              <div className="text-sm font-bold text-purple-400">{buildOutput.totalStamina}</div>
+            </div>
+          </div>
+
+          {/* Equip Load */}
+          <div className="flex items-center justify-between rounded-md bg-gray-800/50 px-3 py-2">
+            <span className="text-gray-400">Equip Load</span>
+            <span className="font-bold text-white">{(buildOutput.equipLoad as any).current?.toFixed?.(1) || "—"}</span>
+          </div>
+
+          {/* Weapons */}
+          {buildOutput.weapons.length > 0 ? (
+            <div className="border-t border-gray-800 pt-3 mt-2">
+              <span className="mb-2 block text-[11px] font-medium uppercase tracking-wider text-gray-500">Weapons</span>
+              {buildOutput.weapons.slice(0, 3).map(function(w: any, i: number) { return (
+                <div key={i} className="flex items-center justify-between py-1.5">
+                  <span className="max-w-[160px] truncate text-gray-300">{w.name}</span>
+                  <span className="text-sm font-medium text-yellow-300">{w.ar ? w.ar.total + " AR" : "—"}</span>
+                </div>
+              );})}
+              {buildOutput.weapons.length > 3 ? <div className="pt-1 text-[11px] text-gray-500">+{buildOutput.weapons.length - 3} more</div> : null}
+            </div>
+          ) : null}
+
+        </div>
+      </div>
+    </div>
+  );
+}
   // ─── RENDER ───
   return (
     <div className="min-h-screen bg-gray-950 text-gray-200">
@@ -1158,6 +1274,8 @@ export default function EldenRingBuildCalculator() {
             );})}
           </div>
         </section>
+
+      <StickyBuildSummary buildOutput={buildOutput} stats={stats} />
       </div>
     </div>
   );
