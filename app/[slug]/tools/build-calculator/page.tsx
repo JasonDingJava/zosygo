@@ -957,7 +957,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               </label>
             </Section>
 
-            {/* Weapons */}
+            {/* Weapons — 4 slots + modal picker */}
             <Section title={`Weapons (${selWeapons.length}/4)`}>
               {/* Popular Weapons Quick-Select */}
               <div className="mb-2 flex flex-wrap gap-1.5">
@@ -977,36 +977,86 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                   );
                 })}
               </div>
-              <input type="text" value={searchQuery} onChange={e => setSearchQuery(e.target.value)}
-                placeholder="Search weapons..."
-                className="w-full rounded bg-gray-800 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:ring-1 focus:ring-yellow-500" />
-              <div className="mt-2 flex flex-wrap gap-1.5">
-                <button onClick={() => setCategoryFilter("all")}
-                  className={`rounded px-2 py-0.5 text-[10px] ${categoryFilter==="all" ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700"}`}>All</button>
-                {WEAPON_CATEGORY_NAMES.map(function(c) { return (
-                  <button key={c} onClick={() => setCategoryFilter(c)}
-                    className={`rounded px-2 py-0.5 text-[10px] ${categoryFilter===c ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700"}`}>
-                    {CI[c]||"⚔️"} {c}
-                  </button>
-                );})}
-              </div>
-              <div className="mt-2 max-h-64 overflow-y-auto space-y-0.5 rounded border border-gray-800">
-                {filteredWeapons.map(function(slug) {
-                  const w = ALL_WEAPONS[slug];
-                  const selected = selWeapons.includes(slug);
+              {/* 4 weapon slots */}
+              <div className="grid grid-cols-2 gap-2">
+                {[0,1,2,3].map(function(slotIdx) {
+                  var slug = selWeapons[slotIdx] || "";
+                  var w = slug ? ALL_WEAPONS[slug] : null;
+                  var arInfo = buildOutput ? buildOutput.weapons[slotIdx] : null;
                   return (
-                    <button key={slug} onClick={() => toggleWeapon(slug)}
-                      disabled={!selected && selWeapons.length >= 4}
-                      className={`flex w-full items-center justify-between px-3 py-1.5 text-xs transition ${
-                        selected ? "bg-yellow-900/20 text-yellow-300" : "text-gray-400 hover:bg-gray-800"
-                      } ${!selected && selWeapons.length >= 4 ? "opacity-40" : ""}`}>
-                      <span className="truncate">{w.name}</span>
-                      <span className="ml-2 shrink-0 text-[10px] text-gray-500">{w.somber ? "🌟" : "🔧"} {w.type}</span>
+                    <button key={slotIdx} onClick={function() {
+                      setWeaponPickerSlot(slotIdx);
+                      setShowWeaponPicker(true);
+                    }}
+                    className={"flex flex-col items-center justify-center rounded-lg border px-2 py-3 text-center text-xs transition " + (w
+                      ? "border-yellow-700/30 bg-yellow-900/10"
+                      : "border-gray-700/40 bg-gray-800/50 hover:border-gray-600 hover:bg-gray-800")}>
+                      {w ? (
+                        <>
+                          <span className="mb-0.5 truncate text-xs font-semibold text-yellow-200">{w.name}</span>
+                          {arInfo ? (
+                            <span className="text-[10px] text-gray-400">{arInfo.totalAR} AR</span>
+                          ) : null}
+                          <span className="mt-0.5 text-[9px] text-gray-600">{w.type}</span>
+                          {arInfo && !arInfo.meetsRequirements ? (
+                            <span className="mt-0.5 text-[9px] text-orange-400">⚠️ Missing stats</span>
+                          ) : null}
+                        </>
+                      ) : (
+                        <>
+                          <span className="text-lg leading-none text-gray-600">+</span>
+                          <span className="mt-1 text-[10px] text-gray-600">Empty Slot</span>
+                        </>
+                      )}
                     </button>
                   );
                 })}
-                {filteredWeapons.length === 0 && <div className="p-3 text-center text-xs text-gray-500">No weapons found</div>}
               </div>
+              {/* Weapon Picker Modal */}
+              {showWeaponPicker ? (
+                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm" onClick={function() { setShowWeaponPicker(false); }}>
+                  <div className="max-h-[80vh] w-full max-w-lg overflow-y-auto rounded-xl border border-gray-700 bg-gray-900 p-5 shadow-2xl" onClick={function(e) { e.stopPropagation(); }}>
+                    <div className="mb-3 flex items-center justify-between">
+                      <h3 className="text-sm font-bold text-gray-200">Select Weapon — Slot {weaponPickerSlot + 1}</h3>
+                      <button onClick={function() { setShowWeaponPicker(false); }} className="text-xs text-gray-500 hover:text-gray-300">Close</button>
+                    </div>
+                    <input type="text" value={searchQuery} onChange={function(e) { setSearchQuery(e.target.value); }}
+                      placeholder="Search weapons..."
+                      className="mb-3 w-full rounded-lg border border-gray-700 bg-gray-800 px-3 py-2 text-xs text-gray-200 placeholder-gray-500 outline-none focus:border-yellow-600" />
+                    <div className="mb-2 flex flex-wrap gap-1.5">
+                      <button onClick={function() { setCategoryFilter("all"); setSearchQuery(""); }}
+                        className={"rounded px-2 py-0.5 text-[10px] " + (categoryFilter==="all" ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700")}>All</button>
+                      {WEAPON_CATEGORY_NAMES.map(function(c) { return (
+                        <button key={c} onClick={function() { setCategoryFilter(c); setSearchQuery(""); }}
+                          className={"rounded px-2 py-0.5 text-[10px] " + (categoryFilter===c ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700")}>
+                          {CI[c]||"⚔️"} {c}
+                        </button>
+                      );})}
+                    </div>
+                    <div className="max-h-[50vh] space-y-0.5 overflow-y-auto">
+                      {filteredWeapons.map(function(slug) {
+                        var w = ALL_WEAPONS[slug];
+                        if (!w) return null;
+                        var selected = selWeapons.includes(slug);
+                        return (
+                          <button key={slug} onClick={function() {
+                            var newW = [...selWeapons];
+                            // If same weapon in this slot, clear it
+                            if (newW[weaponPickerSlot] === slug) { newW[weaponPickerSlot] = ""; }
+                            else { newW[weaponPickerSlot] = slug; }
+                            setSelWeapons(newW);
+                            setShowWeaponPicker(false);
+                          }}
+                            className={"flex w-full items-center justify-between rounded-lg px-3 py-2 text-left text-xs transition " + (selected ? "bg-yellow-900/20 text-yellow-300" : "text-gray-400 hover:bg-gray-800/80")}>
+                            <span className="truncate">{w.name}</span>
+                            <span className="ml-2 shrink-0 text-[10px] text-gray-500">{w.somber ? "🌟" : "🔧"} {w.type}</span>
+                          </button>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+              ) : null}
             </Section>
 
             {/* Armor (by slot) */}
