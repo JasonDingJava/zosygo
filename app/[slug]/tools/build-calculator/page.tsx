@@ -1212,18 +1212,42 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                 {/* Build Tips */}
                 <Section title="Build Tips">
                   <div className="space-y-3 text-xs text-gray-400">
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-yellow-300">🎯 Stat Prioritization</div>
-                      <p>Focus on hitting the first soft cap (40) for your primary damage stat before investing heavily in secondary stats. For example, a Dexterity build should prioritize DEX to 40 before pushing Vigor past 40.</p>
-                    </div>
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-yellow-300">🛡️ Vigor is King</div>
-                      <p>Aim for at least 40 Vigor by level 100 and 60 Vigor by level 150. The difference between 40 and 60 Vigor is roughly 400-500 HP, which can mean surviving an extra hit in PvP and late-game bosses.</p>
-                    </div>
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-yellow-300">⚖️ Endurance Balance</div>
-                      <p>25-30 Endurance is usually enough for most builds. Only go higher if you need heavier armor or weapons. Remember that equip load dictates your roll type — Medium Roll is the sweet spot for most players.</p>
-                    </div>
+                    {function() {
+                      var tips = [];
+                      var bt = buildOutput.buildType || "";
+                      // Primary damage stat tip
+                      if (bt.includes("STR")) {
+                        tips.push({ icon: "💪", title: "Strength Build", text: "Focus on hitting 54 STR for the two-handing soft cap (54 × 1.5 = 81). Heavy infusion gives the best STR scaling. Supplement with 20-30 END for heavy armor." });
+                      } else if (bt.includes("DEX")) {
+                        tips.push({ icon: "⚡", title: "Dexterity Build", text: "Aim for 60-80 DEX. Keen infusion maximizes DEX scaling. Don't forget 20-25 END — lighter armor means more room for talismans." });
+                      } else if (bt.includes("INT") || bt.includes("Magic") || bt.includes("Sorcery")) {
+                        tips.push({ icon: "🔮", title: "Intelligence Build", text: "80 INT is the endgame goal for staff scaling. You need at least 20 MND for sustained casting. Consider the Moonveil or Dark Moon Greatsword as backup weapons." });
+                      } else if (bt.includes("FTH") || bt.includes("Faith") || bt.includes("Incantation")) {
+                        tips.push({ icon: "🙏", title: "Faith Build", text: "80 FTH for max incantation scaling. Blasphemous Blade offers great sustain. Minimum 24 MND for extended fights." });
+                      } else if (bt.includes("ARC") || bt.includes("Arcane") || bt.includes("Bleed") || bt.includes("Blood")) {
+                        tips.push({ icon: "🩸", title: "Arcane Build", text: "80 ARC for max bleed buildup and Occult scaling. Rivers of Blood and Eleonora's Poleblade are top choices. Bleed damage scales off ARC." });
+                      } else if (bt.includes("Quality") || bt.includes("STR/DEX")) {
+                        tips.push({ icon: "⚔️", title: "Quality Build", text: "55 STR / 55 DEX is the sweet spot for quality infusion. Quality weapons like the Claymore and Knight's Greatsword shine at this stat spread." });
+                      } else {
+                        tips.push({ icon: "🎯", title: "Stat Prioritization", text: "Focus on hitting the first soft cap (40) for your primary damage stat before investing heavily in secondary stats." });
+                      }
+                      // Vigor check
+                      if (stats.vigor < 40) {
+                        tips.push({ icon: "🛡️", title: "Vigor Check", text: "You only have " + stats.vigor + " VIG. Aim for at least 40 by level 100 and 60 by level 150. Extra HP is the single best survival investment." });
+                      }
+                      // Endurance check
+                      if (stats.endurance < 20) {
+                        tips.push({ icon: "⚖️", title: "Endurance Low", text: stats.endurance + " END is very low. You need at least 20-25 END for medium armor and multiple weapon swings." });
+                      } else if (stats.endurance > 40) {
+                        tips.push({ icon: "🏋️", title: "High Endurance", text: stats.endurance + " END is a lot — make sure you're using heavy armor or weapons to justify it. Consider redistributing if you're light rolling." });
+                      }
+                      return tips.map(function(t, i) { return (
+                        <div key={i} className="rounded-md bg-gray-800/30 p-3">
+                          <div className="mb-1 font-semibold text-yellow-300">{t.icon} {t.title}</div>
+                          <p>{t.text}</p>
+                        </div>
+                      );});
+                    }()}
                   </div>
                 </Section>
 
