@@ -697,7 +697,24 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
       <div className="mx-auto max-w-7xl px-4 py-6">
         {/* Header */}
         <div className="mb-6">
-          <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
+          <div className="flex items-center justify-between">
+            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
+            <button
+              onClick={function() {
+                setStats({vigor:30,mind:12,endurance:20,strength:16,dexterity:14,intelligence:10,faith:10,arcane:8});
+                setSc("vagabond");
+                setSelWeapons([]);
+                setSelectedPieces({});
+                setSelectedTalismans([]);
+                setSelectedSpells([]);
+                setBuildName("");
+              }}
+              className="flex items-center gap-1.5 rounded-lg border border-red-700/30 bg-red-900/10 px-3 py-1.5 text-xs font-medium text-red-400 transition-all hover:bg-red-900/20 hover:text-red-300"
+            >
+              <span>↺</span>
+              <span>Reset Build</span>
+            </button>
+          </div>
           <p className="mt-1 text-gray-400">Plan stats, pick weapons and armor, see exact Attack Rating.</p>
         </div>
 
