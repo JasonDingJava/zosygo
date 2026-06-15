@@ -53,18 +53,6 @@ for (const slug of ALL_WEAPON_SLUGS) {
 }
 export const WEAPON_CATEGORY_NAMES = Object.keys(WEAPON_CATEGORIES).sort();
 
-// Debug: log custom weapon data
-if (typeof window !== 'undefined') {
-  for (const slug of ['blasphemous-blade', 'dark-moon-greatsword', 'marais-executioner-sword', 'ruins-greatsword', 'starscourge-greatsword', 'dragon-kings-cragblade']) {
-    const w = ALL_WEAPONS[slug];
-    if (w) {
-      console.log('[WEAPON DEBUG]', slug, w.name, 'req=', JSON.stringify(w.requirements), 'scaling=', JSON.stringify(w.scaling), 'reinforceTypeId=', w.reinforceTypeId);
-    } else {
-      console.log('[WEAPON DEBUG] MISSING:', slug);
-    }
-  }
-}
-
 // ─── Calc Correct Graphs (stat scaling curves) ───
 
 interface CalcCorrectEntry { maxVal: number; maxGrowVal: number; adjPt: number; }
