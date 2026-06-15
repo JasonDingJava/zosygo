@@ -1060,6 +1060,39 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     )}
                   </Section>
 
+                {/* Attribute Efficiency */}
+                <Section title="Attribute Efficiency">
+                  <div className="space-y-2">
+                    {[
+                      { key: "vigor", label: "Vigor", soft1: 40, soft2: 60, color: "text-red-400" },
+                      { key: "mind", label: "Mind", soft1: 38, soft2: 60, color: "text-blue-400" },
+                      { key: "endurance", label: "Endurance", soft1: 25, soft2: 50, color: "text-green-400" },
+                      { key: "strength", label: "Strength", soft1: 40, soft2: 80, color: "text-red-300" },
+                      { key: "dexterity", label: "Dexterity", soft1: 40, soft2: 80, color: "text-orange-300" },
+                      { key: "intelligence", label: "Intelligence", soft1: 40, soft2: 80, color: "text-cyan-300" },
+                      { key: "faith", label: "Faith", soft1: 40, soft2: 80, color: "text-yellow-300" },
+                      { key: "arcane", label: "Arcane", soft1: 40, soft2: 80, color: "text-pink-300" },
+                    ].map(function(a) {
+                      var val = stats[a.key as keyof BuildStats];
+                      var pct = Math.min(val / a.soft2, 1) * 100;
+                      var efficiency = val >= a.soft2 ? "Low (soft cap)" : val >= a.soft1 ? "Medium (soft cap approaching)" : "High (below soft cap)";
+                      var effColor = val >= a.soft2 ? "text-red-400" : val >= a.soft1 ? "text-yellow-400" : "text-green-400";
+                      return (
+                        <div key={a.key} className="flex items-center gap-3 rounded-md bg-gray-800/30 px-3 py-2">
+                          <span className={"w-8 text-xs font-bold " + a.color}>{a.label}</span>
+                          <div className="flex-1">
+                            <div className="h-2 w-full overflow-hidden rounded-full bg-gray-700">
+                              <div className={"h-full rounded-full transition-all " + (val >= a.soft2 ? "bg-red-500" : val >= a.soft1 ? "bg-yellow-500" : "bg-green-500")} style={{width: pct + "%"}}></div>
+                            </div>
+                          </div>
+                          <span className="w-6 text-right text-xs font-medium text-white">{val}</span>
+                          <span className={"w-24 text-right text-[10px] " + effColor}>{efficiency}</span>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </Section>
+
                 {/* Damage Calculator */}
                 {buildOutput.weapons.length > 0 && buildOutput.weapons[0].detailedAR && (
                   <DamageCalculatorPanel
