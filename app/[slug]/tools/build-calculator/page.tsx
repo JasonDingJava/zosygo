@@ -1209,7 +1209,65 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                   </div>
                 </Section>
 
-                {/* Damage Calculator */}
+                {/* Build Tips */}
+                <Section title="Build Tips">
+                  <div className="space-y-3 text-xs text-gray-400">
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-yellow-300">🎯 Stat Prioritization</div>
+                      <p>Focus on hitting the first soft cap (40) for your primary damage stat before investing heavily in secondary stats. For example, a Dexterity build should prioritize DEX to 40 before pushing Vigor past 40.</p>
+                    </div>
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-yellow-300">🛡️ Vigor is King</div>
+                      <p>Aim for at least 40 Vigor by level 100 and 60 Vigor by level 150. The difference between 40 and 60 Vigor is roughly 400-500 HP, which can mean surviving an extra hit in PvP and late-game bosses.</p>
+                    </div>
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-yellow-300">⚖️ Endurance Balance</div>
+                      <p>25-30 Endurance is usually enough for most builds. Only go higher if you need heavier armor or weapons. Remember that equip load dictates your roll type — Medium Roll is the sweet spot for most players.</p>
+                    </div>
+                  </div>
+                </Section>
+
+                {/* Attack Rating Guide */}
+                <Section title="Attack Rating Guide">
+                  <div className="space-y-2 text-xs text-gray-400">
+                    <p>Attack Rating (AR) is the base damage of your weapon before enemy defenses. Actual damage dealt depends on enemy resistances, your weapon's attack type (Standard, Strike, Slash, Pierce), and the enemy's specific damage negation.</p>
+                    <div className="mt-2 grid grid-cols-2 gap-2">
+                      <div className="rounded-md bg-gray-800/30 p-2.5">
+                        <div className="mb-0.5 font-semibold text-green-300">Physical AR</div>
+                        <p>Affected by STR/DEX scaling. Use heavy infusion for STR builds, keen for DEX builds, and quality for balanced STR/DEX.</p>
+                      </div>
+                      <div className="rounded-md bg-gray-800/30 p-2.5">
+                        <div className="mb-0.5 font-semibold text-blue-300">Elemental AR</div>
+                        <p>Magic/Fire/Lightning/Holy damage added to physical. Split damage types often deal less net damage due to double resistance checks.</p>
+                      </div>
+                    </div>
+                    <p className="mt-2">Tip: Two-handing multiplies your STR by 1.5x for weapon requirements and damage scaling. A character with 54 STR effectively has 81 STR when two-handing, hitting the STR soft cap.</p>
+                  </div>
+                </Section>
+
+                {/* Best Playstyles */}
+                <Section title="Best Playstyles">
+                  <div className="space-y-3 text-xs text-gray-400">
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-purple-300">⚔️ Quality Build (STR/DEX)</div>
+                      <p>50 VIG, 25 END, 55 STR, 55 DEX. Versatile, can use most weapons. Best paired with quality-infused weapons like the Claymore or Knight's Greatsword.</p>
+                    </div>
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-cyan-300">🔮 Intelligence Build</div>
+                      <p>50 VIG, 20 END, 80 INT. Use Moonveil, Dark Moon Greatsword, or Carian Regal Scepter. High damage output with sorceries but requires good spacing.</p>
+                    </div>
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-yellow-300">🔥 Faith Build</div>
+                      <p>50 VIG, 25 END, 80 FTH. Blasphemous Blade or Sacred Relic Sword. Excellent sustain with healing incantations and powerful AoE damage.</p>
+                    </div>
+                    <div className="rounded-md bg-gray-800/30 p-3">
+                      <div className="mb-1 font-semibold text-red-300">🩸 Arcane Build</div>
+                      <p>50 VIG, 20 END, 80 ARC. Rivers of Blood or Eleonora's Poleblade. Focus on bleed buildup — bleed procs deal percentage-based damage, making this build strong against bosses.</p>
+                    </div>
+                  </div>
+                </Section>
+
+                {/* Damage Calculator */}                {/* Damage Calculator */}
                 {buildOutput.weapons.length > 0 && buildOutput.weapons[0].detailedAR && (
                   <DamageCalculatorPanel
                     weapons={buildOutput.weapons}
