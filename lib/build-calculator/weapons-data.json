@@ -3929,5 +3929,191 @@
     "reinforceTypeId": "2200",
     "attackElementCorrectId": 10000,
     "calcCorrectGraphIds": {}
+  },
+  "starscourge-greatsword": {
+    "name": "Starscourge Greatsword",
+    "type": "Colossal Sword",
+    "somber": true,
+    "weight": 20.0,
+    "requirements": {
+      "str": 38,
+      "dex": 12,
+      "int": 15,
+      "fai": 0,
+      "arc": 0
+    },
+    "scaling": {
+      "str": 80,
+      "dex": 60,
+      "int": 60,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 129,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "calcCorrectGraphId": 0,
+    "reinforceTypeId": 0,
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "blasphemous-blade": {
+    "name": "Blasphemous Blade",
+    "type": "Greatsword",
+    "somber": true,
+    "weight": 10.5,
+    "requirements": {
+      "str": 22,
+      "dex": 15,
+      "int": 0,
+      "fai": 21,
+      "arc": 0
+    },
+    "scaling": {
+      "str": 60,
+      "dex": 60,
+      "int": 0,
+      "fai": 60,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 127,
+      "magic": 0,
+      "fire": 87,
+      "lightning": 0,
+      "holy": 0
+    },
+    "calcCorrectGraphId": 0,
+    "reinforceTypeId": 0,
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "dark-moon-greatsword": {
+    "name": "Dark Moon Greatsword",
+    "type": "Greatsword",
+    "somber": true,
+    "weight": 10.5,
+    "requirements": {
+      "str": 16,
+      "dex": 11,
+      "int": 38,
+      "fai": 0,
+      "arc": 0
+    },
+    "scaling": {
+      "str": 60,
+      "dex": 60,
+      "int": 80,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 113,
+      "magic": 77,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "calcCorrectGraphId": 0,
+    "reinforceTypeId": 0,
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "marais-executioners-sword": {
+    "name": "Marais Executioner's Sword",
+    "type": "Greatsword",
+    "somber": true,
+    "weight": 11.0,
+    "requirements": {
+      "str": 24,
+      "dex": 14,
+      "int": 0,
+      "fai": 0,
+      "arc": 23
+    },
+    "scaling": {
+      "str": 60,
+      "dex": 25,
+      "int": 0,
+      "fai": 0,
+      "arc": 60
+    },
+    "attack": {
+      "phys": 141,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "calcCorrectGraphId": 0,
+    "reinforceTypeId": 0,
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "ruins-greatsword": {
+    "name": "Ruins Greatsword",
+    "type": "Colossal Sword",
+    "somber": true,
+    "weight": 21.0,
+    "requirements": {
+      "str": 50,
+      "dex": 10,
+      "int": 16,
+      "fai": 0,
+      "arc": 0
+    },
+    "scaling": {
+      "str": 100,
+      "dex": 25,
+      "int": 60,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 140,
+      "magic": 90,
+      "fire": 0,
+      "lightning": 0,
+      "holy": 0
+    },
+    "calcCorrectGraphId": 0,
+    "reinforceTypeId": 0,
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
+  },
+  "dragon-kings-cragblade": {
+    "name": "Dragon King's Cragblade",
+    "type": "Heavy Thrusting Sword",
+    "somber": true,
+    "weight": 8.0,
+    "requirements": {
+      "str": 15,
+      "dex": 24,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "scaling": {
+      "str": 25,
+      "dex": 80,
+      "int": 0,
+      "fai": 0,
+      "arc": 0
+    },
+    "attack": {
+      "phys": 106,
+      "magic": 0,
+      "fire": 0,
+      "lightning": 86,
+      "holy": 0
+    },
+    "calcCorrectGraphId": 0,
+    "reinforceTypeId": 0,
+    "attackElementCorrectId": 10000,
+    "calcCorrectGraphIds": {}
   }
 }
