@@ -556,6 +556,48 @@ export default function EldenRingBuildCalculator() {
   }, [sc, stats, selWeapons, upgradeLevel, twoHanding, selectedPieces, selectedTalismans]);
 
   const [copied, setCopied] = useState(false);
+  const [savedBuilds, setSavedBuilds] = useState<{name: string; data: string}[]>([]);
+  const [showSavedBuilds, setShowSavedBuilds] = useState(false);
+
+  // Load saved builds from localStorage on mount
+  useEffect(function() {
+    try {
+      var saved = localStorage.getItem("er-builds");
+      if (saved) setSavedBuilds(JSON.parse(saved));
+    } catch(e) {}
+  }, []);
+
+  function saveBuild() {
+    if (!buildName.trim()) { alert("Give your build a name first"); return; }
+    var data = buildUrl.split("?b=")[1] || buildUrl;
+    var newBuilds = [{ name: buildName, data: data }, ...savedBuilds.filter(function(b) { return b.name !== buildName; })].slice(0, 20);
+    setSavedBuilds(newBuilds);
+    localStorage.setItem("er-builds", JSON.stringify(newBuilds));
+    alert("Build saved!");
+  }
+
+  function deleteSavedBuild(name: string) {
+    var newBuilds = savedBuilds.filter(function(b) { return b.name !== name; });
+    setSavedBuilds(newBuilds);
+    localStorage.setItem("er-builds", JSON.stringify(newBuilds));
+  }
+
+  function loadSavedBuild(data: string) {
+    try {
+      var json = JSON.parse(atob(data));
+      if (json.sc) setSc(json.sc);
+      if (json.s) setStats(json.s);
+      if (json.w) setSelWeapons(json.w);
+      if (json.ul !== undefined) setUpgradeLevel(json.ul);
+      if (json.th !== undefined) setTwoHanding(json.th);
+      if (json.ap) setSelectedPieces(json.ap);
+      if (json.t) setSelectedTalismans(json.t);
+      if (json.sp) setSelectedSpells(json.sp);
+      if (json.bn) setBuildName(json.bn);
+      setShowSavedBuilds(false);
+    } catch(e) { alert("Failed to load saved build"); }
+  }
+
   const copyUrl = useCallback(() => {
     navigator.clipboard.writeText(buildUrl).then(() => {
       setCopied(true);
@@ -827,6 +869,26 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
             <span className="text-xs font-semibold uppercase tracking-wider text-gray-500">Actions</span>
             <button onClick={copyUrl}
               className="rounded border border-blue-700/30 bg-blue-900/10 px-3 py-1.5 text-xs text-blue-300 hover:bg-blue-900/30">{copied ? "Copied!" : "Share Build"}</button>
+            <button onClick={saveBuild}
+              className="rounded border border-green-700/30 bg-green-900/10 px-3 py-1.5 text-xs text-green-300 hover:bg-green-900/30">Save</button>
+            <div className="relative">
+              <button onClick={function() { setShowSavedBuilds(!showSavedBuilds); }}
+                className="rounded border border-purple-700/30 bg-purple-900/10 px-3 py-1.5 text-xs text-purple-300 hover:bg-purple-900/30">Saved Builds ({savedBuilds.length})</button>
+              {showSavedBuilds ? (
+                <div className="absolute left-0 top-full z-30 mt-1 w-64 rounded-lg border border-gray-700 bg-gray-900 p-2 shadow-xl">
+                  {savedBuilds.length === 0 ? (
+                    <div className="py-4 text-center text-xs text-gray-500">No saved builds yet</div>
+                  ) : (
+                    savedBuilds.map(function(b, i) { return (
+                      <div key={i} className="flex items-center justify-between rounded px-2 py-1.5 hover:bg-gray-800">
+                        <button onClick={function() { loadSavedBuild(b.data); }} className="flex-1 text-left text-xs text-gray-300 hover:text-white">{b.name}</button>
+                        <button onClick={function() { deleteSavedBuild(b.name); }} className="ml-2 text-xs text-red-500 hover:text-red-400">✕</button>
+                      </div>
+                    );})
+                  )}
+                </div>
+              ) : null}
+            </div>
             <button onClick={function() {
               const url = prompt("Paste a build URL or code to load:");
               if (url) {
