@@ -130,6 +130,25 @@ const POPULAR_BUILDS: PopularBuild[] = [
   },
 ];
 
+const POPULAR_WEAPONS = [
+  { name: "Moonveil", slug: "moonveil", emoji: "🗡️" },
+  { name: "River of Blood", slug: "rivers-of-blood", emoji: "⚔️" },
+  { name: "Blasphemous Blade", slug: "blasphemous-blade", emoji: "🔥" },
+  { name: "Dark Moon Greatsword", slug: "dark-moon-greatsword", emoji: "❄️" },
+  { name: "Sacred Relic Sword", slug: "sacred-relic-sword", emoji: "⭐" },
+  { name: "Malenia's Hand", slug: "hand-of-malenia", emoji: "🌸" },
+  { name: "Starscourge Greatsword", slug: "starscourge-greatsword", emoji: "💫" },
+  { name: "Godslayer's Greatsword", slug: "godslayers-greatsword", emoji: "🌑" },
+  { name: "Sword of Night and Flame", slug: "sword-of-night-and-flame", emoji: "🌙" },
+  { name: "Morgott's Cursed Sword", slug: "morgotts-cursed-sword", emoji: "🔪" },
+  { name: "Eleonora's Poleblade", slug: "eleonoras-poleblade", emoji: "💉" },
+  { name: "Mohgwyn's Sacred Spear", slug: "mohgwyns-sacred-spear", emoji: "🩸" },
+  { name: "Dragon King's Cragblade", slug: "dragon-kings-cragblade", emoji: "⚡" },
+  { name: "Marais Executioner's Sword", slug: "marais-executioners-sword", emoji: "🌀" },
+  { name: "Bloodhound's Fang", slug: "bloodhounds-fang", emoji: "🐺" },
+  { name: "Uchigatana", slug: "uchigatana", emoji: "🇯🇵" },
+];
+
 const CLASS_NAMES = Object.keys(STARTING_CLASSES).sort();
 
 const CI: Record<string,string> = {
@@ -878,6 +897,24 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
 
             {/* Weapons */}
             <Section title={`Weapons (${selWeapons.length}/4)`}>
+              {/* Popular Weapons Quick-Select */}
+              <div className="mb-2 flex flex-wrap gap-1.5">
+                {POPULAR_WEAPONS.map(function(pw) {
+                  var isSelected = selWeapons.includes(pw.slug);
+                  return (
+                    <button key={pw.slug} onClick={function() {
+                      if (isSelected) {
+                        setSelWeapons(selWeapons.filter(function(s) { return s !== pw.slug; }));
+                      } else {
+                        setSelWeapons([...selWeapons, pw.slug].slice(0, 4));
+                      }
+                    }}
+                    className={"rounded-full px-2.5 py-1 text-[10px] font-medium transition-all " + (isSelected ? "bg-yellow-600 text-white" : "bg-gray-800 text-gray-400 hover:bg-gray-700 hover:text-gray-200")}>
+                      {pw.emoji} {pw.name}
+                    </button>
+                  );
+                })}
+              </div>
               <input type="text" value={searchQuery} onChange={e => setSearchQuery(e.target.value)}
                 placeholder="Search weapons..."
                 className="w-full rounded bg-gray-800 px-3 py-2 text-sm text-gray-200 placeholder-gray-500 focus:ring-1 focus:ring-yellow-500" />
