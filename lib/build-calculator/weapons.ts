@@ -55,7 +55,7 @@ export const WEAPON_CATEGORY_NAMES = Object.keys(WEAPON_CATEGORIES).sort();
 
 // ─── Calc Correct Graphs (stat scaling curves) ───
 
-type CalcCorrectEntry = [number, number, number];
+interface CalcCorrectEntry { maxVal: number; maxGrowVal: number; adjPt: number; }
 type CalcCorrectGraph = CalcCorrectEntry[];
 
 const calcCorrectGraphs = gameData.calcCorrectGraphs as unknown as Record<string, CalcCorrectGraph>;
@@ -81,11 +81,11 @@ function getCalcCorrectValue(graph: CalcCorrectGraph, statValue: number): number
   for (let i = 0; i < graph.length - 1; i++) {
     const seg = graph[i];
     const nextSeg = graph[i + 1];
-    const maxVal = seg[0];
-    const maxGrowVal = seg[1];
-    const adjPt = seg[2];
-    const nextMaxVal = nextSeg[0];
-    const nextMaxGrowVal = nextSeg[1];
+    const maxVal = seg.maxVal;
+    const maxGrowVal = seg.maxGrowVal;
+    const adjPt = seg.adjPt;
+    const nextMaxVal = nextSeg.maxVal;
+    const nextMaxGrowVal = nextSeg.maxGrowVal;
     if (statValue >= maxVal && statValue < nextMaxVal) {
       const t = (statValue - maxVal) / (nextMaxVal - maxVal);
       const val = maxGrowVal + t * (nextMaxGrowVal - maxGrowVal);
@@ -93,7 +93,7 @@ function getCalcCorrectValue(graph: CalcCorrectGraph, statValue: number): number
     }
   }
   const last = graph[graph.length - 1];
-  return last[1] * last[2];
+  return last.maxGrowVal * last.adjPt;
 }
 
 // ─── Get upgrade multipliers ───
