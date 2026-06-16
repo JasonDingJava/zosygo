@@ -216,7 +216,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build Guide (2026)" },
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
       { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
-      { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -251,7 +251,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
       { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
       { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Why Your Bleed Build Feels Weak" },
-      { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
 },
@@ -285,7 +285,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Guide" },
       { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Early Game" },
-      { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+      { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "Starscourge Radahn Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
 },
@@ -371,7 +371,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
-      { href: "/elden-ring/weapons", anchorText: "All Weapons" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
 },
@@ -499,7 +499,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick Boss Guide" },
       { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Guide" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Early Game" },
-      { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+      { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "Starscourge Radahn Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -2398,7 +2398,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick the Grafted Boss Guide" },
       { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-      { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+      { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
