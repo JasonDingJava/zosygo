@@ -140,11 +140,10 @@ const maleniaArticle: Article = {
     }
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia (2026 Guide)" },
     { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
-    { href: "/elden-ring/builds", anchorText: "Elden Ring Builds" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Malenia" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -291,10 +290,10 @@ const buildFeelsWeakArticle: Article = {
     }
   ],
   internalLinks: [
-    { href: "/elden-ring/builds", anchorText: "All Elden Ring Builds" },
-    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
-    { href: "/elden-ring/builds/build-planner-guide", anchorText: "Elden Ring Build Planner Guide" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
+    { href: "/elden-ring/builds/elden-ring-low-damage-explained", anchorText: "Low Damage Explained" },
+    { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
+    { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
@@ -586,10 +585,10 @@ const softCapsV2Article: Article = {
     }
   ],
   internalLinks: [
-    { href: "/elden-ring/builds", anchorText: "All Elden Ring Builds" },
-    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Original Soft Caps Guide" },
-    { href: "/elden-ring/builds/build-planner-guide", anchorText: "Elden Ring Build Planner Guide" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
+    { href: "/elden-ring/builds/elden-ring-low-damage-explained", anchorText: "Low Damage Explained" },
+    { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
+    { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
@@ -715,8 +714,11 @@ const article17: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/builds", anchorText: "All Build Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/builds/elden-ring-low-damage-explained", anchorText: "Low Damage Explained" },
+    { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
+    { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
+    { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -840,8 +842,11 @@ const article18: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/builds", anchorText: "All Build Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
+    { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
+    { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
+    { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -983,8 +988,11 @@ const article19: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/builds", anchorText: "All Build Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
+    { href: "/elden-ring/builds/elden-ring-low-damage-explained", anchorText: "Low Damage Explained" },
+    { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
+    { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -1150,8 +1158,10 @@ const article20: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/bosses/malenia-healing-mechanic-explained", anchorText: "Malenia Healing Mechanic Explained" },
+    { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "How to Beat Radahn" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -1342,8 +1352,11 @@ const article21: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "Starscourge Radahn Guide" },
+    { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
+    { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Radahn" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -1563,8 +1576,11 @@ const article22: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "How to Beat Radahn" },
+    { href: "/elden-ring/bosses/how-to-beat-maliketh-black-blade", anchorText: "How to Beat Maliketh" },
+    { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Mohg" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -1839,8 +1855,11 @@ const article23: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg" },
+    { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "How to Beat Radahn" },
+    { href: "/elden-ring/bosses/how-to-beat-messmer-the-impaler", anchorText: "How to Beat Messmer" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Maliketh" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 
@@ -1959,8 +1978,11 @@ const article24: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+    { href: "/elden-ring/bosses/how-to-beat-maliketh-black-blade", anchorText: "How to Beat Maliketh" },
+    { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg" },
+    { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for DLC" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
   ]
 };
 

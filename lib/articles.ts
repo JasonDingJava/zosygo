@@ -213,11 +213,11 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds", anchorText: "All Elden Ring Builds" },
       { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build Guide (2026)" },
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
+      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
       { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
-      { href: "/elden-ring", anchorText: "Elden Ring Game Hub" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
 {
@@ -248,11 +248,12 @@ export const articles: Article[] = [
     { heading: "Common Mistakes", level: 2, content: "(1) Not using Seppuku before boss fights. (2) Dual RoB instead of RoB + Seppuku Uchi. (3) No Dragoncrest Greatshield - one mistake kills. (4) No backup for bleed-immune bosses. (5) Spamming Corpse Piler instead of jump L1s - jump L1s stagger in 3-4 hits." }
   ],
   internalLinks: [
-    { href: "/elden-ring/builds", anchorText: "All Elden Ring Builds" },
-    { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
-    { href: "/elden-ring/bosses", anchorText: "All Elden Ring Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
-  ]
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+      { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
+      { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Why Your Bleed Build Feels Weak" },
+      { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
 },
 {
   slug: "godrick-the-grafted",
@@ -281,11 +282,12 @@ export const articles: Article[] = [
     { heading: "Common Mistakes", level: 2, content: "(1) Staying in front in phase 2 - get behind him. (2) Rolling through tornado - run away. (3) Not using Nepheli Loux. (4) Fighting before collecting Stormveil Golden Seeds. (5) Using holy damage." }
   ],
   internalLinks: [
-    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-    { href: "/elden-ring/bosses", anchorText: "All Elden Ring Boss Guides" },
-    { href: "/elden-ring/builds", anchorText: "Elden Ring Builds" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
-  ]
+      { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Guide" },
+      { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Early Game" },
+      { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
 },
 {
   slug: "rivers-of-blood",
@@ -315,11 +317,12 @@ export const articles: Article[] = [
     { heading: "Common Mistakes", level: 2, content: "(1) Only using Corpse Piler - L1 power-stance does more stance damage. (2) No Mind investment - 10 Mind = 2 Corpse Piler casts per flask. (3) Using RoB vs bleed-immune enemies - switch weapon. (4) Not using Seppuku offhand trick - put Seppuku on left-hand Uchigatana for +30 bleed to both weapons." }
   ],
   internalLinks: [
-    { href: "/elden-ring/weapons", anchorText: "All Weapons" },
-    { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
-    { href: "/elden-ring/bosses", anchorText: "All Elden Ring Boss Guides" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
-  ]
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+      { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
+      { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
+      { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Why Your Bleed Build Feels Weak" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
   },
 {
   slug: "best-dexterity-build",
@@ -365,11 +368,12 @@ export const articles: Article[] = [
     },
   ],
   internalLinks: [
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" },
-    { href: "/elden-ring", anchorText: "Elden Ring Hub" },
-    { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
-    { href: "/elden-ring/builds", anchorText: "All Elden Ring Builds" }
-  ]
+      { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+      { href: "/elden-ring/weapons", anchorText: "All Weapons" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
 },
 
   {
@@ -492,10 +496,11 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
+      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick Boss Guide" },
+      { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Early Game" },
       { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
-      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick the Grafted Boss Guide" },
-      { href: "/elden-ring/builds", anchorText: "Elden Ring Builds" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Bleed) ═══
@@ -581,9 +586,10 @@ export const articles: Article[] = [
       },
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Moonveil Intelligence Build Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
+      { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Why Your Bleed Build Feels Weak" },
+      { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Moonveil) ═══
@@ -814,9 +820,10 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/builds/moonveil-intelligence-build", anchorText: "Moonveil Intelligence Build" },
+      { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
+      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Intelligence) ═══
@@ -1052,9 +1059,10 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
+      { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
+      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Bleed Fix) ═══
@@ -1174,8 +1182,9 @@ export const articles: Article[] = [
     ],
     internalLinks: [
       { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
+      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Soft Caps) ═══
@@ -1504,9 +1513,10 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
+      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
+      { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Moonveil vs RoB) ═══
@@ -1649,8 +1659,9 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build Guide" },
-      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+      { href: "/elden-ring/builds/moonveil-intelligence-build", anchorText: "Moonveil Intelligence Build" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -1789,8 +1800,8 @@ export const articles: Article[] = [
     ],
     internalLinks: [
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
-      { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Best Builds Meta) ═══
@@ -1993,8 +2004,10 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
-      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+      { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -2134,8 +2147,9 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
-      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+      { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -2254,8 +2268,9 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
-      { href: "/elden-ring/builds/level-150-builds", anchorText: "Elden Ring Level 150 Builds" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+      { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+      { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -2380,9 +2395,10 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Original Godrick Boss Guide" },
-      { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide (2026)" },
-      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick the Grafted Boss Guide" },
+      { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+      { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -2500,9 +2516,9 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
-      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Elden Ring Build Planner Guide" },
-      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
+      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
@@ -2657,9 +2673,9 @@ export const articles: Article[] = [
     ],
     internalLinks: [
       { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
-      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick the Grafted Boss Guide" },
-      { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Boss Guide" },
-      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick Boss Guide" },
+      { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "How to Beat Radahn (2026)" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Radahn" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
