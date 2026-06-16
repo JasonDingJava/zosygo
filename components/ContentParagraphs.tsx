@@ -217,10 +217,26 @@ export default function ContentParagraphs({ content }: ContentParagraphsProps) {
   return <>{blocks}</>;
 }
 
-// Renders inline Markdown within a text string: **bold**, `code`
+// Renders inline Markdown within a text string: **bold**, `code`, ![alt](src)
 function renderInlineMarkdown(text: string): React.ReactNode {
-  // Split on **bold** patterns
-  const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`)/g);
+  // First handle image syntax: ![alt](src)
+  const imageMatch = text.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+  if (imageMatch) {
+    const [, alt, src] = imageMatch;
+    // Make src relative to public/ if it starts with /
+    const imgSrc = src.startsWith("/") ? src : `/images/articles/${src}`;
+    return (
+      <img
+        src={imgSrc}
+        alt={alt}
+        className="rounded-lg border border-white/10 my-6 w-full object-cover"
+        loading="lazy"
+      />
+    );
+  }
+
+  // Split on **bold** patterns and `code` and ![alt](src)
+  const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`|!\[[^\]]*\]\([^)]+\))/g);
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return <strong key={i}>{part.slice(2, -2)}</strong>;
@@ -233,6 +249,19 @@ function renderInlineMarkdown(text: string): React.ReactNode {
         >
           {part.slice(1, -1)}
         </code>
+      );
+    }
+    const nestedImg = part.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
+    if (nestedImg) {
+      const imgSrc = nestedImg[2].startsWith("/") ? nestedImg[2] : `/images/articles/${nestedImg[2]}`;
+      return (
+        <img
+          key={i}
+          src={imgSrc}
+          alt={nestedImg[1]}
+          className="rounded-lg border border-white/10 my-6 w-full object-cover"
+          loading="lazy"
+        />
       );
     }
     return part;

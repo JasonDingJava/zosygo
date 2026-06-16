@@ -58,7 +58,7 @@ export default function SearchResults() {
             type="text"
             value={input}
             onChange={(e) => setInput(e.target.value)}
-            placeholder="搜索文章..."
+            placeholder="Search articles..."
             className="w-full rounded-lg border border-zinc-700 bg-zinc-900 pl-10 pr-4 py-3 text-white placeholder-zinc-500 outline-none focus:border-[#c9a227] transition-colors"
           />
         </div>
@@ -82,9 +82,9 @@ export default function SearchResults() {
       <div className="mt-8">
         {searched && results.length === 0 && (
           <div className="py-12 text-center">
-            <p className="text-zinc-500">未找到匹配的文章</p>
+            <p className="text-zinc-500">No matching articles found</p>
             <p className="mt-2 text-sm text-zinc-600">
-              试试其他关键词
+              Try different keywords
             </p>
           </div>
         )}
@@ -92,7 +92,7 @@ export default function SearchResults() {
         {results.length > 0 && (
           <>
             <p className="mb-6 text-sm text-zinc-500">
-              {results.length >= 30 ? "30+ " : results.length} 条结果{gameFilter ? ` (${gameFilter})` : ""}
+              {results.length >= 30 ? "30+ " : results.length} results{gameFilter ? ` (${gameFilter})` : ""}
             </p>
             <div className="space-y-4">
               {results.map((result) => {

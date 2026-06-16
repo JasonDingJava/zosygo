@@ -59,7 +59,7 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "Moonveil has remained one of the strongest weapons in Elden Ring since launch.\n\nMany weapons have risen and fallen through patches, balance changes, and DLC updates.\n\nMoonveil survived them all.\n\nThe reason is simple:\n\nMoonveil combines four of the most valuable mechanics in the game:\n\n- Fast katana moveset\n- Bleed buildup\n- Intelligence scaling\n- Powerful ranged weapon skills\n\nMost weapons excel in one category.\n\nMoonveil excels in all four.\n\nThis guide explains how to build Moonveil correctly, which stats matter most, where players waste levels, and how to maximize damage without sacrificing survivability."
+          "Moonveil has remained one of the strongest weapons in Elden Ring since launch.\n\nMany weapons have risen and fallen through patches, balance changes, and DLC updates.\n\nMoonveil survived them all.\n\nThe reason is simple:\n\nMoonveil combines four of the most valuable mechanics in the game:\n\n- Fast katana moveset\n- Bleed buildup\n- Intelligence scaling\n- Powerful ranged weapon skills\n\nMost weapons excel in one category.\n\nMoonveil excels in all four.\n\nThis guide explains how to build Moonveil correctly, which stats matter most, where players waste levels, and how to maximize damage without sacrificing survivability.\n\n![Elden Ring screenshot](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
       },
       {
         heading: "Why Moonveil Is Still One of the Best Weapons",
@@ -138,7 +138,7 @@ export const articles: Article[] = [
         heading: "Carian Filigreed Crest",
         level: 3,
         content:
-          "Reduces FP consumption.\n\nIdeal for players who frequently use Transient Moonlight."
+          "Reduces FP consumption.\n\nIdeal for players who frequently use Transient Moonlight.\n\n![Elden Ring screenshot](/images/articles/u=1563453329,401002841&fm=253&app=138&f=JPEG.jpeg)"
       },
       {
         heading: "Best Spells for Moonveil Builds",
@@ -351,7 +351,7 @@ export const articles: Article[] = [
     {
       heading: "Early / Mid / Late Game Progression",
       level: 2,
-      content: "Early Game (Level 1–40): Use Uchigatana or basic curved swords. Focus on upgrading survivability first. Avoid over-farming damage stats. Mid Game (Level 40–90): Switch to Bloodhound's Fang. Start scaling Dexterity properly. Begin boss-focused gameplay. Late Game (Level 90+): Hybrid Dexterity builds become stronger. Combine bleed + skill-based weapons. Optimize talismans for damage output."
+      content: "Early Game (Level 1–40): Use Uchigatana or basic curved swords. Focus on upgrading survivability first. Avoid over-farming damage stats. Mid Game (Level 40–90): Switch to Bloodhound's Fang. Start scaling Dexterity properly. Begin boss-focused gameplay. Late Game (Level 90+): Hybrid Dexterity builds become stronger. Combine bleed + skill-based weapons. Optimize talismans for damage output.\n\n![Elden Ring screenshot](/images/articles/385136a80be6d8c324007b952a72aa34286431045.jpg@1192w.webp)"
     },
     {
       heading: "Strengths and Weaknesses",
@@ -2401,7 +2401,7 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "One of the biggest mistakes Elden Ring players make is spending runes without a leveling plan.\n\nA few levels might seem cheap at first, but by the time you reach the late game, every level costs hundreds of thousands of runes. Many players waste hours farming because they don\u2019t understand how rune requirements scale.\n\nThis guide explains how Elden Ring leveling works, how many runes you\u2019ll need for common milestones, and how to plan your character efficiently."
+          "One of the biggest mistakes Elden Ring players make is spending runes without a leveling plan.\n\nA few levels might seem cheap at first, but by the time you reach the late game, every level costs hundreds of thousands of runes. Many players waste hours farming because they don\u2019t understand how rune requirements scale.\n\nThis guide explains how Elden Ring leveling works, how many runes you\u2019ll need for common milestones, and how to plan your character efficiently.\n\n![Elden Ring screenshot](/images/articles/u=1904568550,1900617044&fm=253&fmt=auto&app=120&f=JPEG.webp)"
       },
       {
         heading: "Quick Answer",
@@ -2430,7 +2430,7 @@ export const articles: Article[] = [
         heading: "Level 50",
         level: 3,
         content:
-          "Ideal for:\n\n- Early game progression\n- Learning weapon movesets\n- Exploring Limgrave and Liurnia\n\nFocus on:\n\n- Vigor\n- Weapon requirements\n\nAvoid investing heavily into multiple damage stats."
+          "Ideal for:\n\n- Early game progression\n- Learning weapon movesets\n- Exploring Limgrave and Liurnia\n\nFocus on:\n\n- Vigor\n- Weapon requirements\n\nAvoid investing heavily into multiple damage stats.\n\n![Elden Ring screenshot](/images/articles/202cbf1646fbde075d5d60db094fd856.jpeg)"
       },
       {
         heading: "Level 100",
@@ -2466,7 +2466,7 @@ export const articles: Article[] = [
         heading: "Planning a Level 150 Build",
         level: 2,
         content:
-          "Before spending runes, answer three questions:\n\n## What weapon will I use?\n\nExamples:\n\n- Moonveil\n- Greatsword\n- Rivers of Blood\n- Dark Moon Greatsword\n\nYour weapon determines your scaling priorities.\n\n## What is my primary damage stat?\n\nChoose one:\n\n- Strength\n- Dexterity\n- Intelligence\n- Faith\n- Arcane\n\nAvoid spreading points everywhere.\n\n## Do I have enough survivability?\n\nAlways prioritize Vigor.\n\nMany late-game deaths occur because players chase damage while ignoring health."
+          "Before spending runes, answer three questions:\n\n## What weapon will I use?\n\nExamples:\n\n- Moonveil\n- Greatsword\n- Rivers of Blood\n- Dark Moon Greatsword\n\nYour weapon determines your scaling priorities.\n\n## What is my primary damage stat?\n\nChoose one:\n\n- Strength\n- Dexterity\n- Intelligence\n- Faith\n- Arcane\n\nAvoid spreading points everywhere.\n\n## Do I have enough survivability?\n\nAlways prioritize Vigor.\n\nMany late-game deaths occur because players chase damage while ignoring health.\n\n![Elden Ring screenshot](/images/articles/789b5ddd1f85e4943255577ecef05fe8a1075736.jpg)"
       },
       {
         heading: "Best Rune Farming Locations",

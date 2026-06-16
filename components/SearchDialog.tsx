@@ -99,7 +99,7 @@ export default function SearchDialog({ isOpen, onClose, gameSlug, gameName }: Se
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             onKeyDown={handleKeyDown}
-            placeholder={`搜索${gameName ? ` ${gameName}` : "所有游戏"}...`}
+            placeholder={`Search${gameName ? ` ${gameName}` : " all games"}...`}
             className="flex-1 bg-transparent text-white placeholder-zinc-500 outline-none text-base"
           />
           {query && (
@@ -157,27 +157,27 @@ export default function SearchDialog({ isOpen, onClose, gameSlug, gameName }: Se
                   className="block px-4 py-3 text-center text-sm text-[#c9a227] hover:bg-zinc-800 transition-colors border-t border-zinc-700"
                 >
                   {results.length >= 10
-                    ? `查看全部 "${query}" 的结果 →`
-                    : `搜索 "${query}" →`}
+                    ? `View all "${query}" results →`
+                    : `Search "${query}" →`}
                 </Link>
               )}
             </div>
           ) : query.trim().length >= 2 ? (
             <div className="px-4 py-8 text-center text-zinc-500">
-              <p>未找到匹配的文章</p>
+              <p>No matching articles found</p>
               {searchUrl && (
                 <Link
                   href={searchUrl}
                   onClick={onClose}
                   className="inline-block mt-2 text-sm text-[#c9a227] hover:underline"
                 >
-                  搜索 "{query}" →
+                  Search "{query}" →
                 </Link>
               )}
             </div>
           ) : (
             <div className="px-4 py-8 text-center text-zinc-600 text-sm">
-              输入至少 2 个字符开始搜索
+              Type at least 2 characters to search
             </div>
           )}
         </div>

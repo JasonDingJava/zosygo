@@ -64,7 +64,7 @@ export default function HomePage() {
     { id: "walkthroughs", title: "Walkthroughs", description: "Step-by-step guides through quests, missions, and main storylines." },
     { id: "builds", title: "Builds", description: "Min-maxed meta builds and creative setups for every playstyle." },
     { id: "bosses", title: "Bosses", description: "Detailed boss strategies, attack patterns, and phase guides." },
-    { id: "wiki", title: "Wiki", description: "Comprehensive reference for game mechanics, items, and lore." },
+    { id: "weapons", title: "Weapons", description: "Comprehensive reference for weapons, items, and game mechanics." },
   ];
 
   return (

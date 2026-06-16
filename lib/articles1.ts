@@ -594,6 +594,567 @@ const softCapsV2Article: Article = {
   ]
 };
 
-const extraArticles = [maleniaArticle, buildFeelsWeakArticle, softCapsV2Article];
+
+const article17: Article = {
+  slug: "elden-ring-damage-scaling-explained",
+  category: "builds",
+  gameSlug: "elden-ring",
+  difficulty: "beginner",
+  readTimeMinutes: 9,
+  order: 17,
+  title: "Elden Ring Damage Scaling Explained (2026) – Why Your Build Stops Working at High Level",
+  metaDescription: "A complete breakdown of how damage scaling actually works in Elden Ring, why leveling past soft caps feels useless, and how to fix weak endgame builds.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---\n\nMost Elden Ring players eventually hit the same problem:\n\nYou keep leveling up, but your damage barely improves.\n\nAt Level 80, your build feels strong.\n\nAt Level 120, it still feels fine.\n\nAt Level 150+, something changes:\n\n- Damage stops increasing meaningfully  \n- Bosses feel tankier  \n- New levels feel \"useless\"  \n- Builds feel weaker than expected  \n\nThis is not a bug.\n\nIt is how scaling actually works in Elden Ring.\n\nThe key system behind this is **damage scaling + soft caps + weapon dependency**.",
+      image: "intelligence-build-moonveil-weapon.png",
+      imageAlt: "Elden Ring damage scaling concept showing stat allocation and weapon scaling",
+    },
+    {
+      heading: "The Real Reason Your Build Feels Weak",
+      level: 2,
+      content:
+        "Most players think:\n\n> \"I just need more levels to do more damage.\"\n\nBut Elden Ring does not scale linearly.\n\nInstead, it uses three hidden rules:\n\n- Weapon upgrades matter more than stats\n- Stats have diminishing returns (soft caps)\n- Scaling efficiency varies by weapon type\n\nOnce you understand this, the entire game changes.",
+      image: "202cbf1646fbde075d5d60db094fd856.jpeg",
+      imageAlt: "Elden Ring level up screen showing stat investment and soft cap effects",
+    },
+    {
+      heading: "Rule #1: Weapon Upgrades Matter More Than Levels",
+      level: 2,
+      content:
+        "One of the biggest misconceptions is that leveling your character is the main source of damage.\n\nIt is not.\n\nIn most builds:\n\n- +0 → +10 weapon = massive damage increase  \n- +10 → +25 weapon = build-defining power spike  \n\nMeanwhile:\n\n- +10 Strength at high level = small gain\n\n### Simple truth:\n\n> A +25 weapon with mediocre stats beats a low-upgrade weapon with perfect stats.",
+      image: "soft-caps-vigor.png",
+      imageAlt: "Elden Ring vigor stat soft caps and damage scaling relationship",
+    },
+    {
+      heading: "Rule #2: Scaling Is Not Linear",
+      level: 2,
+      content:
+        "Every stat in Elden Ring has hidden efficiency zones.\n\nFor example:\n\n- Early levels = strong gains  \n- Mid levels = decent gains  \n- High levels = weak gains  \n\nThis is why builds \"feel strong early\" but \"stagnate late\".\n\nThe game is designed to reward optimization, not infinite scaling.",
+    },
+    {
+      heading: "Rule #3: Soft Caps Decide Your Real Power",
+      level: 2,
+      content:
+        "Soft caps are the turning point where leveling stops being efficient.\n\nOnce you pass them:\n\n- Damage per level drops sharply  \n- Survivability gains slow down  \n- Build improvement becomes minimal  \n\nThis is why Level 150 often feels weaker than expected.\n\nYou are investing points where they no longer matter much.",
+    },
+    {
+      heading: "The Most Important Soft Cap Zones",
+      level: 2,
+      content:
+        "### Vigor\n- 40 → good baseline  \n- 60 → optimal endgame zone  \n- 60+ → diminishing returns  \n\n### Damage Stats (Strength / Dexterity / Intelligence / Faith)\n- 20–55 → strong scaling zone  \n- 55–80 → reduced efficiency  \n- 80+ → minimal gains  \n\n### Arcane\n- 45–60 → strongest value range for status builds",
+    },
+    {
+      heading: "Why Level 150 Builds Often Feel Weak",
+      level: 2,
+      content:
+        "A typical weak endgame build looks like this:\n\n- Vigor: 35  \n- Damage stat: 80  \n- Endurance: low  \n- Weapon: not fully optimized  \n\nOn paper, this looks strong.\n\nIn practice, it fails because:\n\n- Too much investment beyond soft caps  \n- Not enough survivability  \n- Poor scaling efficiency balance  \n\nNow compare:\n\n### Optimized Build\n\n- Vigor: 60  \n- Damage stat: 60–70  \n- Proper weapon upgrade  \n- Balanced endurance  \n\nResult:\n\n> Higher real DPS over time + fewer deaths + more consistent fights",
+    },
+    {
+      heading: "Hidden Factor #1: Survivability = Damage",
+      level: 2,
+      content:
+        "This is often misunderstood.\n\nMore survivability means:\n\n- Fewer healing breaks  \n- More uptime in fights  \n- More consistent DPS output  \n\nA \"high damage build\" that dies often does less total damage than a balanced build.",
+    },
+    {
+      heading: "Hidden Factor #2: Talismans Matter More Than Extra Levels",
+      level: 2,
+      content:
+        "Talismans often provide:\n\n- Multiplicative damage boosts  \n- Survivability spikes  \n- Build-defining effects  \n\nExamples:\n\n- Shard of Alexander  \n- Rotten Winged Sword Insignia  \n- Dragoncrest Greatshield Talisman  \n\nIn many builds:\n\n> A good talisman setup = more power than 10–15 levels.",
+    },
+    {
+      heading: "Hidden Factor #3: Scaling Type Matters",
+      level: 2,
+      content:
+        "Not all weapons scale the same.\n\nSome weapons:\n\n- Scale heavily with one stat  \n- Others split scaling across multiple stats  \n- Some rely more on base damage than scaling  \n\nThis is why two Level 150 players can feel completely different in power.",
+    },
+    {
+      heading: "How to Fix a Weak Build (Practical Checklist)",
+      level: 2,
+      content:
+        "Before blaming the game, check this:\n\n### 1. Is your weapon fully upgraded?\nIf not, this is your biggest problem.",
+    },
+    {
+      heading: "2. Are you past soft caps?",
+      level: 3,
+      content:
+        "If yes, stop over-investing in that stat.",
+    },
+    {
+      heading: "3. Is your Vigor at least 50–60?",
+      level: 3,
+      content:
+        "If not, survivability is limiting your damage.",
+    },
+    {
+      heading: "4. Are your stats focused or scattered?",
+      level: 3,
+      content:
+        "Specialization usually wins.",
+    },
+    {
+      heading: "5. Are your talismans synergizing?",
+      level: 3,
+      content:
+        "Random talismans = weak scaling efficiency.",
+    },
+    {
+      heading: "Why High-Level Builds Don't Feel Like \"Endgame Power\"",
+      level: 2,
+      content:
+        "Players expect:\n\n> More levels = more power\n\nBut Elden Ring is built differently:\n\n> More optimization = more power\n\nThis is why:\n\n- Level 100 optimized build can beat Level 150 messy build  \n- \"Meta builds\" are efficient, not max-level  \n- Damage depends more on structure than raw numbers",
+    },
+    {
+      heading: "Final Verdict",
+      level: 2,
+      content:
+        "If your build feels weak in Elden Ring, the problem is rarely your level.\n\nIt is almost always:\n\n- Poor scaling efficiency  \n- Wrong stat distribution  \n- Ignoring soft caps  \n- Weak weapon optimization  \n\nOnce you understand how scaling actually works, leveling becomes secondary.\n\nThe strongest builds are not the highest level.\n\nThey are the most efficient within the system.\n\nAnd efficiency is what decides real power in Elden Ring.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds", anchorText: "All Build Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+const article18: Article = {
+  slug: "elden-ring-low-damage-explained",
+  category: "builds",
+  gameSlug: "elden-ring",
+  difficulty: "beginner",
+  readTimeMinutes: 9,
+  order: 18,
+  title: "Elden Ring Low Damage Explained (2026) – Why Your Build Feels Weak and How to Fix It",
+  metaDescription: "A complete breakdown of why your damage is low in Elden Ring, covering weapon scaling, soft caps, talismans, and stat mistakes that ruin endgame builds.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---",
+      image: "u=1904568550,1900617044&fm=253&fmt=auto&app=120&f=JPEG.webp",
+      imageAlt: "Elden Ring low damage build example showing stat screen",
+    },
+    {
+      heading: "Quick Answer (Featured Snippet)",
+      level: 2,
+      content:
+        "If your damage is low in Elden Ring, it is usually caused by:\n\n- Not upgrading your weapon fully  \n- Investing past soft caps (wasted stats)  \n- Using poor scaling weapons for your build  \n- Weak talisman synergy  \n- Low Vigor causing survival downtime  \n\nIn most cases, the issue is **not your level**, but **your build efficiency**.",
+      image: "build-planner-calc.png",
+      imageAlt: "Elden Ring build planner showing damage optimization",
+    },
+    {
+      heading: "Why Your Damage Feels Low in Elden Ring",
+      level: 2,
+      content:
+        "Many players reach mid or late game in Elden Ring and suddenly feel weaker instead of stronger.\n\nThis is confusing because they assume:\n\n> More levels = more damage\n\nBut Elden Ring does not scale that way.\n\nThe game uses a combination of:\n\n- Weapon upgrade scaling  \n- Stat soft caps  \n- Multiplicative buffs  \n- Hidden efficiency curves  \n\nOnce these systems are ignored, damage stagnates.",
+      image: "bloodhound-fang-stats-maxed.jpg",
+      imageAlt: "Elden Ring Bloodhound Fang maxed stats showing weapon scaling",
+    },
+    {
+      heading: "Reason #1: Your Weapon Is Doing Most of the Work (or Not Doing It)",
+      level: 2,
+      content:
+        "Weapon upgrades matter more than character level.\n\n### Damage impact comparison:\n\n| Upgrade Type | Damage Increase |\n|--------------|----------------|\n| +0 → +10 weapon | Massive increase |\n| +10 → +25 weapon | Endgame scaling core |\n| +10 STR | Small increase |\n\n> If your weapon is not fully upgraded, your build will always feel weak.",
+    },
+    {
+      heading: "Reason #2: You Are Past Soft Caps (Wasted Stats)",
+      level: 2,
+      content:
+        "Soft caps are where stat efficiency drops sharply.\n\n### Key Soft Caps\n\n| Stat | Early Cap | Hard Cap |\n|------|----------|----------|\n| Vigor | 40 | 60 |\n| STR / DEX / INT / FTH | 55 | 80 |\n| Arcane | 45 | 60 |\n\n### What happens after soft caps:\n\n- Damage gain per level drops significantly  \n- Build feels \"stuck\" even after leveling  \n\n> This is the #1 reason Level 120+ builds feel weak.",
+    },
+    {
+      heading: "Reason #3: Wrong Stat Distribution (Most Common Mistake)",
+      level: 2,
+      content:
+        "A typical weak endgame build:\n\n- Vigor: 30–40  \n- Damage stat: 80  \n- Endurance: low  \n\nThis looks strong on paper but performs poorly.\n\n### Why?\n\nBecause:\n\n- Too much investment past soft caps  \n- Not enough survivability  \n- No balanced scaling structure",
+    },
+    {
+      heading: "Better Endgame Build Example",
+      level: 2,
+      content:
+        "- Vigor: 55–60  \n- Main damage stat: 60–70  \n- Endurance: 20–30  \n- Weapon fully upgraded  \n\n> This build does **more real DPS over time**, not just burst damage.",
+    },
+    {
+      heading: "Reason #4: Talismans Are Doing Nothing for You",
+      level: 2,
+      content:
+        "Talismans are multiplicative power sources.\n\n### Strong talismans:\n\n- Shard of Alexander  \n- Rotten Winged Sword Insignia  \n- Dragoncrest Greatshield Talisman  \n- Lord of Blood's Exultation  \n\n### Weak builds often use:\n\n- Random defensive mix  \n- No synergy with weapon type  \n\n> This alone can reduce damage output by 20–40%.",
+    },
+    {
+      heading: "Reason #5: Survivability Is Hidden Damage",
+      level: 2,
+      content:
+        "Low Vigor = more healing = less DPS uptime.\n\n### Example:\n\n| Build Type | Result |\n|------------|--------|\n| High damage / low Vigor | Constant interruptions |\n| Balanced build (60 Vigor) | Stable DPS uptime |\n\n> Over time, the \"tankier\" build deals more total damage.",
+    },
+    {
+      heading: "Damage Fix Checklist (Fast Diagnosis)",
+      level: 2,
+      content:
+        "Before assuming your build is bad, check this:\n\n### 1. Is your weapon fully upgraded?\nIf not → this is your main problem.",
+    },
+    {
+      heading: "2. Are you over soft caps?",
+      level: 3,
+      content:
+        "If yes → you are wasting levels.",
+    },
+    {
+      heading: "3. Is your Vigor at least 50?",
+      level: 3,
+      content:
+        "If not → survivability is limiting DPS.",
+    },
+    {
+      heading: "4. Are your talismans synergized?",
+      level: 3,
+      content:
+        "If not → you are missing multiplicative damage.",
+    },
+    {
+      heading: "5. Is your build focused?",
+      level: 3,
+      content:
+        "Hybrid builds often underperform in endgame.",
+    },
+    {
+      heading: "Why Level 150 Feels Weak for Many Players",
+      level: 2,
+      content:
+        "At Level 150, most players expect:\n\n- Max damage  \n- Easy boss fights  \n- High scaling returns  \n\nBut what they actually get is:\n\n- Diminishing returns from stats  \n- Poor efficiency from hybrid builds  \n- Unoptimized talismans  \n\n> The problem is not the level cap.  \n> The problem is build structure.",
+    },
+    {
+      heading: "How to Actually Increase Damage",
+      level: 2,
+      content:
+        "There are only 4 real ways:\n\n### 1. Upgrade weapon fully\nMost important factor.\n\n### 2. Fix stat efficiency\nStay within soft caps.\n\n### 3. Optimize talismans\nUse multiplicative synergy.\n\n### 4. Improve uptime\nMore survival = more DPS.",
+    },
+    {
+      heading: "Final Verdict",
+      level: 2,
+      content:
+        "Low damage in Elden Ring is almost never a \"level problem\".\n\nIt is a **build efficiency problem**.\n\nOnce you understand:\n\n- Weapon scaling  \n- Soft caps  \n- Talisman synergy  \n- Survivability impact  \n\nYou will realize:\n\n> Strong builds are not higher level — they are better structured.\n\nAnd that is what actually defines damage in Elden Ring.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds", anchorText: "All Build Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+const article19: Article = {
+  slug: "elden-ring-build-mistakes",
+  category: "builds",
+  gameSlug: "elden-ring",
+  difficulty: "beginner",
+  readTimeMinutes: 9,
+  order: 19,
+  title: "Elden Ring Build Mistakes (2026) – 10 Reasons Your Character Feels Weak (And How to Fix Them)",
+  metaDescription: "A deep breakdown of the most common build mistakes in Elden Ring, including scaling errors, stat distribution issues, weapon upgrades, and optimization fixes.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---\n\nIf your character feels weak in Elden Ring, the problem is almost never \"not enough level\".\n\nIn most cases, players are making **fundamental build mistakes** that completely break damage scaling, survivability, or efficiency.\n\nThis guide breaks down the **10 most common build mistakes** and how to fix them.",
+      image: "u=3949170640,2849213860&fm=253&fmt=auto&app=120&f=JPEG.webp",
+      imageAlt: "Elden Ring build mistakes stat distribution example",
+    },
+    {
+      heading: "Quick Diagnosis (Featured Snippet Answer)",
+      level: 1,
+      content:
+        "Your build feels weak because of one or more of the following:\n\n- Weapon not fully upgraded  \n- Stats past soft caps  \n- Poor scaling weapon choice  \n- Weak talisman synergy  \n- Low Vigor causing downtime  \n- Hybrid builds with no focus  \n- Wrong infusion / affinity  \n- Ignoring buff stacking  \n- Poor stamina management  \n- No multiplicative damage setup  \n\n> In Elden Ring, **build structure matters more than level.**",
+      image: "u=3796080820,3234011768&fm=253&app=138&f=JPEG.jpeg",
+      imageAlt: "Elden Ring character screen showing poor build structure",
+    },
+    {
+      heading: "Mistake #1: Under-Upgraded Weapon (Biggest Damage Killer)",
+      level: 1,
+      content:
+        "Your weapon upgrade level is the single most important damage factor.\n\n### Damage reality:\n\n| Weapon Level | Impact |\n|--------------|--------|\n| +0 → +10 | Huge jump |\n| +10 → +25 | Core endgame scaling |\n| Stats alone | Minor impact |\n\n> If your weapon is not maxed, your build is fundamentally incomplete.",
+      image: "u=3832350217,2889219095&fm=253&app=138&f=JPEG.jpeg",
+      imageAlt: "Elden Ring weapon selection and scaling mismatch example",
+    },
+    {
+      heading: "Mistake #2: Ignoring Soft Caps",
+      level: 1,
+      content:
+        "Soft caps define where leveling stops being efficient.\n\n### Key soft caps:\n\n| Stat | Soft Cap |\n|------|----------|\n| Vigor | 40 / 60 |\n| STR / DEX / INT / FTH | 55 / 80 |\n| Arcane | 45 / 60 |\n\nAfter these points:\n\n- Damage growth slows dramatically  \n- Leveling becomes inefficient  \n\n> Most \"weak builds\" are actually **over-leveled in the wrong stats**.",
+    },
+    {
+      heading: "Mistake #3: Hybrid Builds With No Identity",
+      level: 1,
+      content:
+        "Example of weak build:\n\n- STR + DEX + INT all spread evenly  \n\nProblem:\n\n- No stat reaches effective scaling range  \n- No synergy with weapons  \n\n> Elden Ring rewards specialization, not balance.",
+    },
+    {
+      heading: "Mistake #4: Wrong Weapon for Your Stats",
+      level: 1,
+      content:
+        "A common issue:\n\n- High STR build using DEX weapon  \n- INT build using non-scaling weapon  \n\nResult:\n\n- Base damage only  \n- Scaling ignored  \n\n> Weapon choice must match stat identity.",
+    },
+    {
+      heading: "Mistake #5: Weak Talisman Setup",
+      level: 1,
+      content:
+        "Talismans are **multipliers**, not bonuses.\n\n### Strong synergy example:\n\n- Shard of Alexander  \n- Rotten Winged Sword Insignia  \n- Lord of Blood's Exultation  \n\n### Weak setup:\n\n- Random defense mix  \n- No synergy  \n\n> A bad talisman setup can reduce DPS by 30%+.",
+    },
+    {
+      heading: "Mistake #6: Low Vigor (Hidden DPS Loss)",
+      level: 1,
+      content:
+        "Low Vigor doesn't just make you fragile.\n\nIt reduces damage indirectly:\n\n- More healing interruptions  \n- Less uptime in boss fights  \n- More panic dodging  \n\n> Effective DPS drops even if stats are high.",
+    },
+    {
+      heading: "Mistake #7: Ignoring Buff Stacking",
+      level: 1,
+      content:
+        "Many players don't stack:\n\n- Physick buffs  \n- Weapon buffs  \n- Talismans  \n- Temporary boosts  \n\nProper stacking = massive burst difference.",
+    },
+    {
+      heading: "Mistake #8: Poor Endurance Management",
+      level: 1,
+      content:
+        "Endurance affects:\n\n- Armor load  \n- Stamina pool  \n\nLow stamina means:\n\n- Fewer attacks  \n- Less dodging  \n- Lower DPS uptime",
+    },
+    {
+      heading: "Mistake #9: Wrong Infusion / Affinity Choice",
+      level: 1,
+      content:
+        "Examples:\n\n- Bleed build without Arcane scaling  \n- STR build using quality infusion incorrectly  \n\n> Infusion mismatch destroys scaling efficiency.",
+    },
+    {
+      heading: "Mistake #10: No Build Direction",
+      level: 1,
+      content:
+        "Weak builds usually have:\n\n- Random weapons  \n- Random stats  \n- No core strategy  \n\nStrong builds always have:\n\n- Clear damage type  \n- Clear stat focus  \n- Clear synergy system",
+    },
+    {
+      heading: "How to Fix Any Weak Build (Universal Method)",
+      level: 1,
+      content:
+        "Follow this 5-step reset:\n\n## Step 1: Max your weapon\nThis is non-negotiable.",
+    },
+    {
+      heading: "Step 2: Identify your main damage stat",
+      level: 2,
+      content:
+        "Pick ONE primary scaling stat.",
+    },
+    {
+      heading: "Step 3: Respect soft caps",
+      level: 2,
+      content:
+        "Stop over-investing after efficiency drops.",
+    },
+    {
+      heading: "Step 4: Fix talisman synergy",
+      level: 2,
+      content:
+        "Choose multipliers, not random stats.",
+    },
+    {
+      heading: "Step 5: Increase Vigor to 50–60",
+      level: 2,
+      content:
+        "Stability = higher real DPS.",
+    },
+    {
+      heading: "Why Most Players Misunderstand Builds",
+      level: 1,
+      content:
+        "The biggest misconception is:\n\n> \"Higher level = stronger character\"\n\nBut Elden Ring does not work like that.\n\nIt works like this:\n\n> \"Better efficiency = stronger character\"\n\nThat means:\n\n- Better scaling  \n- Better synergy  \n- Better uptime  \n- Better structure",
+    },
+    {
+      heading: "Final Verdict",
+      level: 1,
+      content:
+        "Most weak builds in Elden Ring are not under-leveled.\n\nThey are **poorly structured systems**.\n\nOnce you fix:\n\n- Weapon upgrade path  \n- Stat efficiency  \n- Scaling identity  \n- Talisman synergy  \n\nYour damage increases instantly—without needing more levels.",
+    },
+    {
+      heading: "Conclusion",
+      level: 2,
+      content:
+        "A strong build is not about stats.\n\nIt is about **how efficiently every system works together**.\n\nAnd that is what truly defines power in Elden Ring.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds", anchorText: "All Build Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+const article20: Article = {
+  slug: "how-to-beat-malenia",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 10,
+  order: 20,
+  title: "How to Beat Malenia in Elden Ring (2026 Guide) – Every Attack, Weakness, and Punish Window Explained",
+  metaDescription: "Complete Malenia boss guide covering Phase 1, Phase 2, Waterfowl Dance, weaknesses, recommended builds, and every punish opportunity.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---",
+      image: "u=3301460746,907473116&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Malenia boss fight arena in Elphael Brace of the Haligtree",
+    },
+    {
+      heading: "Quick Answer",
+      level: 2,
+      content:
+        "If you're struggling against Malenia:\n\n- Stay at medium distance\n- Never panic roll backward\n- Save stamina for Waterfowl Dance\n- Punish only after specific combos\n- Prioritize survivability over damage\n\nMost deaths happen because players become greedy after dodging one attack.\n\nMalenia punishes greed more than any other boss in Elden Ring.",
+      image: "u=3415387228,3002342741&fm=253&app=138&f=JPEG.jpeg",
+      imageAlt: "Elden Ring combat preparation for Malenia boss encounter",
+    },
+    {
+      heading: "Recommended Level and Preparation",
+      level: 2,
+      content:
+        "| Category | Recommendation |\n|-----------|---------------|\n| Character Level | 120–150 |\n| Weapon Upgrade | +25 / +10 Somber |\n| Vigor | 55–60 |\n| Flask Charges | 12+ |\n| Spirit Ash | Mimic Tear or Tiche |\n\nBefore entering the arena:\n\n- Equip Bleed or Frost weapons\n- Bring high physical defense armor\n- Use a fully upgraded weapon\n- Avoid glass cannon builds",
+      image: "u=3987413922,1148627239&fm=253&fmt=auto&app=120&f=JPEG.webp",
+      imageAlt: "Elden Ring gameplay showing boss fight strategy and positioning",
+    },
+    {
+      heading: "Understanding Malenia's Biggest Advantage",
+      level: 2,
+      content:
+        "Most bosses punish mistakes with damage.\n\nMalenia punishes mistakes twice.\n\nFirst, she damages you.\n\nSecond, she heals herself.\n\nEven blocked attacks restore health.\n\nThis means every mistake extends the fight.",
+    },
+    {
+      heading: "Phase 1 Attack Breakdown",
+      level: 2,
+      content:
+        "### Basic Sword Combo\n\nMalenia slowly walks forward before attacking.\n\nThe combo may contain:\n\n- 2 hits\n- 3 hits\n- 4 hits\n\ndepending on distance.\n\n#### Punish Window\n\nAfter the final slash.\n\nOne jump attack or one weapon skill is usually safe.\n\nDo not overcommit.",
+    },
+    {
+      heading: "Dash Slash",
+      level: 3,
+      content:
+        "One of her fastest attacks.\n\n**Tell:**\n\n- Brief pause\n- Sudden forward movement\n\n#### Counter Strategy\n\nRoll toward her.\n\nRolling backward often gets clipped.",
+    },
+    {
+      heading: "Grab Attack",
+      level: 3,
+      content:
+        "One of Malenia's deadliest moves.\n\n**Tell:**\n\n- She lowers her stance\n- Left arm extends\n\n#### Counter Strategy\n\nRoll sideways.\n\nNever backward.\n\nIf grabbed, expect massive damage.",
+    },
+    {
+      heading: "Waterfowl Dance Explained",
+      level: 2,
+      content:
+        "This attack causes more player deaths than any other move in the fight.\n\n### Tell\n\nMalenia jumps into the air.\n\nShe briefly hovers.\n\nEverything pauses for about a second.\n\nThe moment you see this animation:\n\n- Stop attacking\n- Prepare to react",
+    },
+    {
+      heading: "First Flurry",
+      level: 3,
+      content:
+        "Sprint away immediately.\n\nDo not panic roll.\n\nDistance matters more than timing.",
+    },
+    {
+      heading: "Second Flurry",
+      level: 3,
+      content:
+        "Roll through Malenia.\n\nDo not roll away.",
+    },
+    {
+      heading: "Final Flurry",
+      level: 3,
+      content:
+        "Roll through the attack.\n\nThen move away and reset positioning.",
+    },
+    {
+      heading: "Phase 2 Begins",
+      level: 2,
+      content:
+        "When Malenia reaches zero HP, the fight enters Phase 2.\n\nShe transforms into Goddess of Rot.\n\nNew threats include:\n\n- Scarlet Rot\n- Larger AoE attacks\n- More aggression",
+    },
+    {
+      heading: "Scarlet Aeonia",
+      level: 2,
+      content:
+        "Phase 2 always begins with this move.\n\n### Counter Strategy\n\nSprint away immediately.\n\nDo not attack.\n\nDo not heal.\n\nAfter the flower explodes, you gain one of the largest punish windows in the fight.",
+    },
+    {
+      heading: "Clone Attack",
+      level: 2,
+      content:
+        "Malenia sends multiple phantom copies toward the player.\n\n### Counter Strategy\n\nKeep moving.\n\nRoll only when necessary.\n\nPanic rolling often causes more deaths than the attack itself.",
+    },
+    {
+      heading: "Best Damage Opportunities",
+      level: 2,
+      content:
+        "The safest damage windows are:\n\n1. After Scarlet Aeonia\n2. After grab recovery\n3. After long combo finishers\n4. After missed thrust attacks\n5. During stagger animations",
+    },
+    {
+      heading: "Best Builds Against Malenia",
+      level: 2,
+      content:
+        "### Bleed Builds\n\nAdvantages:\n\n- High percentage damage\n- Frequent staggers\n- Fast pressure\n\nExcellent for first clears.",
+    },
+    {
+      heading: "Frost Builds",
+      level: 3,
+      content:
+        "Advantages:\n\n- Burst damage\n- Defense reduction\n\nVery effective throughout both phases.",
+    },
+    {
+      heading: "Strength Builds",
+      level: 3,
+      content:
+        "Advantages:\n\n- Stance breaks\n- High stagger potential\n\nHarder to master, but extremely powerful.",
+    },
+    {
+      heading: "Common Mistakes",
+      level: 2,
+      content:
+        "### Greedy Attacking\n\nMost deaths happen because players attempt one extra hit.",
+    },
+    {
+      heading: "Healing At Close Range",
+      level: 3,
+      content:
+        "Always create space before healing.",
+    },
+    {
+      heading: "Rolling Backward",
+      level: 3,
+      content:
+        "Many attacks track backward movement.\n\nForward and diagonal rolls are safer.",
+    },
+    {
+      heading: "Ignoring Waterfowl Dance",
+      level: 3,
+      content:
+        "Every successful Malenia strategy begins with understanding Waterfowl Dance.",
+    },
+    {
+      heading: "Final Strategy",
+      level: 2,
+      content:
+        "Think of Malenia as a discipline test.\n\nMost bosses reward aggression.\n\nMalenia rewards patience.\n\nPlayers who defeat her consistently:\n\n- Wait for openings\n- Respect Waterfowl Dance\n- Preserve stamina\n- Avoid greed\n\nMaster these fundamentals and the fight becomes dramatically more manageable.",
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content:
+        "### What is Malenia weak to?\n\nBleed and Frost are generally her biggest weaknesses.\n\n### Can you stagger Malenia?\n\nYes. Heavy weapons and jump attacks can break her stance.\n\n### What level should I fight Malenia?\n\nMost players succeed between Level 120 and 150.\n\n### Is Malenia harder than DLC bosses?\n\nFor many players, yes.\n\n### What kills players most often?\n\nWaterfowl Dance and greedy attacks.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+const extraArticles = [maleniaArticle, buildFeelsWeakArticle, softCapsV2Article, article17, article18, article19, article20];
 
 export default extraArticles;
