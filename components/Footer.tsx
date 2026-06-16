@@ -88,6 +88,11 @@ export default function Footer({ games: propGames }: FooterProps) {
                   Terms of Service
                 </Link>
               </li>
+              <li>
+                <Link href="/disclaimer" className="text-sm text-zinc-500 transition-colors hover:text-white">
+                  Disclaimer
+                </Link>
+              </li>
             </ul>
           </div>
 
