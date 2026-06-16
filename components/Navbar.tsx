@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import type { Game } from "@/lib/games";
 import { getAllGames } from "@/lib/games";
+import SearchDialog from "./SearchDialog";
 
 interface NavbarProps {
   games?: Game[];
@@ -15,6 +16,7 @@ export default function Navbar({ games: propGames }: NavbarProps) {
   const pathname = usePathname();
     const [menuOpen, setMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   const locale = "en";
   const allGames = propGames ?? getAllGames();
@@ -114,7 +116,17 @@ export default function Navbar({ games: propGames }: NavbarProps) {
             )}
           </div>
 
-          
+          {/* Search button */}
+          <button
+            type="button"
+            onClick={() => setSearchOpen(true)}
+            className="p-2 text-zinc-400 hover:text-white transition-colors"
+            aria-label="Search"
+          >
+            <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </button>
         </div>
 
         <button
@@ -143,6 +155,12 @@ export default function Navbar({ games: propGames }: NavbarProps) {
           >
             Home
           </Link>
+          <button
+            onClick={() => { setMenuOpen(false); setSearchOpen(true); }}
+            className="block w-full text-left rounded-lg px-3 py-2 text-sm font-medium text-zinc-300 hover:bg-white/5"
+          >
+            Search
+          </button>
           <p className="mt-4 mb-2 px-3 text-xs font-semibold uppercase tracking-wider text-zinc-500">
             "Games"
           </p>
@@ -162,6 +180,13 @@ export default function Navbar({ games: propGames }: NavbarProps) {
           ))}
         </div>
       )}
+
+      <SearchDialog
+        isOpen={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        gameSlug={activeGame?.slug}
+        gameName={activeGame?.name}
+      />
     </header>
   );
 }

@@ -43,7 +43,7 @@ export interface Article extends ArticleBase {
   internalLinks: InternalLink[];
 }
 
-const articles: Article[] = [
+export const articles: Article[] = [
   // ═══ ELDEN RING — BUILDS ═══
   {
     slug: "moonveil-intelligence-build",
