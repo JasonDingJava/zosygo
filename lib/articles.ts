@@ -1,4 +1,5 @@
 // lib/articles.ts — Game article content definitions
+import extraArticles from "./articles1";
 
 export interface ArticleBase {
   slug: string;
@@ -23,7 +24,7 @@ export interface ArticleSectionTable {
 
 export interface ArticleSection {
   heading: string;
-  level: 1 | 2 | 3;
+  level: 1 | 2 | 3 | 4;
   content: string;
   image?: string;
   imageAlt?: string;
@@ -49,57 +50,173 @@ const articles: Article[] = [
     category: "builds",
     gameSlug: "elden-ring",
     difficulty: "intermediate",
-    readTimeMinutes: 9,
+    readTimeMinutes: 10,
     order: 1,
-    title: "Moonveil Intelligence Build — Best Elden Ring Samurai Mage Setup",
-    metaDescription:
-      "Should you use the Moonveil INT build? Full comparison vs Dark Moon Greatsword and Wing of Astel. Stat spreads, armor loadouts, progression path, and when this build falls short.",
+    title: "Moonveil Build Guide (2026) \u2013 Best Stats, Damage Breakpoints, and PvE/PvP Optimization",
+    metaDescription: "The ultimate Moonveil build guide for Elden Ring. Learn the best stats, Intelligence breakpoints, talismans, damage optimization, and PvE/PvP strategies.",
     sections: [
       {
-        heading: "Decision — Should You Use This Build?",
+        heading: "",
         level: 2,
         content:
-          "The Moonveil Intelligence build is Elden Ring\'s strongest hybrid option for players who want both melee pressure and ranged burst without the glass-cannon fragility of a pure mage. You should pick this build if: you like the katana moveset but want INT scaling; you want to delete bosses with Transient Moonlight from medium range; you value FP efficiency (the weapon art costs 16 FP vs 40+ for a comparable sorcery). You should NOT pick this build if: you prefer slow heavy weapons with poise trading; you want to use incantations instead of sorceries; you struggle with FP management and flask allocation; you are fighting Elden Beast or Radagon (both highly resistant to magic damage). The most common mistake is treating Moonveil as a primary melee weapon\u2014it fills the same role as a spell catalyst, not a main hand weapon. Your R1 is backup; Transient Moonlight is your primary attack."
+          "Moonveil has remained one of the strongest weapons in Elden Ring since launch.\n\nMany weapons have risen and fallen through patches, balance changes, and DLC updates.\n\nMoonveil survived them all.\n\nThe reason is simple:\n\nMoonveil combines four of the most valuable mechanics in the game:\n\n- Fast katana moveset\n- Bleed buildup\n- Intelligence scaling\n- Powerful ranged weapon skills\n\nMost weapons excel in one category.\n\nMoonveil excels in all four.\n\nThis guide explains how to build Moonveil correctly, which stats matter most, where players waste levels, and how to maximize damage without sacrificing survivability."
       },
       {
-        heading: "Stat Distribution vs Dark Moon Greatsword Build",
+        heading: "Why Moonveil Is Still One of the Best Weapons",
         level: 2,
         content:
-          "Moonveil build at RL 150: Vigor 50, Mind 30, Endurance 20, DEX 18, INT 70. Dark Moon Greatsword build (comparison): Vigor 50, Mind 25, Endurance 25, STR 16, DEX 20, INT 68. The key difference: Moonveil reaches 70 INT faster because it needs only 18 DEX and 12 STR, saving 8 points you can put into Mind. Dark Moon Greatsword deals about 10% more raw damage per charged R2 but costs 30% more FP per use. For most PvE encounters, Moonveil\'s faster attack speed and lower FP cost give higher DPS. Dark Moon only wins against magic-resistant enemies where its magic damage still connects while your sorceries bounce off.",
+          "Many players assume Moonveil is only popular because of its weapon skill.\n\nThat is only part of the story.\n\nMoonveil remains powerful because it solves multiple combat problems simultaneously.\n\nAdvantages include:\n\n- Excellent burst damage\n- Safe ranged attacks\n- Fast recovery animations\n- Strong posture damage\n- Reliable bleed buildup\n- Intelligence scaling for hybrid caster builds\n\nThis flexibility makes Moonveil effective against nearly every enemy type in the game.",
         image: "elden-ring-moonveil-stats.jpg",
-        imageAlt: ""
-    },
-      {
-        heading: "Weapon and Spell Synergy",
-        level: 2,
-        content:
-          "Your damage comes from three overlapping sources. 1) Transient Moonlight weapon art: 16 FP, 180% INT scaling, stance damage equal to a greatsword. Use the heavy input (horizontal slash) for groups and the light input (vertical slice) for single targets. 2) Carian Slicer: 8 FP, 240% INT scaling per second on dagger-speed swings. Use this for DPS windows during boss openings. 3) Night Comet: 26 FP, invisible to NPC dodgers\u2014essential for dungeons with sorcery-reading enemies. The synergy trap: players try to cast Terra Magicus + Comet Azur for one-shot kills. This wastes FP and misses 90% of the fight. Instead, weave Carian Slicer between Moonveil R2s for sustained DPS. For armor, aim for 51 poise using the Scale set + Bull-Goat Talisman, not the full Veteran set\u2014the extra equip load investment isn\'t worth the minimal defense gain.",
-        image: "elden-ring-moonveil-combat.jpg",
-        imageAlt: ""
-    },
-      {
-        heading: "Progression Path \u2014 When to Transition",
-        level: 2,
-        content:
-          "Early game (Level 25-50): Rush 18 DEX by Limgrave, then INT to 30. Cross the bridge to Caelid immediately to fight Magma Wyrm for Moonveil\u2014bring a bleed weapon and summon. Mid game (Level 50-90): INT to 50, Carian Regal Scepter, Shard of Alexander from Jar Alexander quest. Intelligence investment should outpace Vigor at this stage. Late game (Level 90-150): INT 70-80. This build peaks at 70 INT\u2014going to 80 gives only 5% more damage. Put remaining points into Mind for more weapon art casts. The build drops off after Malenia because endgame bosses (Godfrey, Radagon, Elden Beast) have high magic resistance. At that point, respec to a Cold-infused weapon build with INT/STR split, or accept the lower damage and focus on spell variety."
+        imageAlt: "Moonveil katana build showcase with Transient Moonlight skill"
       },
       {
-        heading: "Comparison vs Wing of Astel",
+        heading: "How to Get Moonveil",
         level: 2,
         content:
-          "Wing of Astel (also INT curved sword): Lower AR per hit (490 vs 580 at 70 INT) but costs 50% less FP per weapon art use. Wing of Astel excels in tight boss fights where you need sustained pressure over 90 seconds; Moonveil wins in fights under 60 seconds where burst matters more. Against Malenia, Wing of Astel\'s Nebula does 30% more stance damage. Against Mohg, Moonveil\'s range advantage lets you hit during his bloodflame pools. Trade-off summary: Moonveil for open world and invasions; Wing of Astel for boss fights where you go through 3+ FP flasks."
+          "Moonveil drops from the Magma Wyrm inside Gael Tunnel.\n\n## Location\n\nGael Tunnel, Caelid\n\n## Recommended Level\n\n50\u201370\n\n## Boss Reward\n\nMoonveil Katana\n\nThe fight can be challenging for melee characters because of the boss\u2019s fire attacks and aggressive movement.\n\nMagic users generally have an easier time maintaining distance and controlling the encounter."
       },
       {
-        heading: "Common Mistakes",
+        heading: "Moonveil Weapon Overview",
         level: 2,
         content:
-          "Most players mess up by: (1) using Moonveil R1 as primary attack\u2014it does 30% less DPS than two-handing and weapon-arting. (2) skipping Mind investment\u2014with 15 Mind you get 4 weapon art casts per flask; with 30 Mind you get 8 casts. (3) wearing light armor for the \'mage aesthetic\'\u2014Moonveil requires you to be close to use Transient Moonlight, and low poise means any hit staggers you out of the weapon art. (4) not using the backstep version of Transient Moonlight for closing gaps\u2014the R2 follow-up has better range and stun potential than the R1 version."
+          "| Attribute | Value |\n|------------|------------|\n| Weapon Type | Katana |\n| Damage Type | Physical + Magic |\n| Passive Effect | Bleed |\n| Skill | Transient Moonlight |\n| Primary Scaling | Intelligence |\n\nMoonveil\u2019s identity revolves around Transient Moonlight.\n\nThis weapon skill allows players to unleash powerful magic slashes capable of staggering enemies and dealing heavy burst damage from a safe distance."
+      },
+      {
+        heading: "Moonveil Damage Breakpoints Most Players Miss",
+        level: 2,
+        content:
+          "This is where most build guides stop.\n\nThey tell you to level Intelligence.\n\nThey rarely tell you how much Intelligence is actually worth.\n\nUnderstanding breakpoints is one of the easiest ways to improve your build."
+      },
+      {
+        heading: "Intelligence Scaling Efficiency",
+        level: 3,
+        content:
+          "| Intelligence | Efficiency |\n|-------------|------------|\n| 40 | Excellent |\n| 50 | Excellent |\n| 60 | Strong |\n| 70 | Good |\n| 80 | Diminishing Returns |\n\nMoonveil continues gaining damage up to 80 Intelligence.\n\nHowever, the value of each additional level gradually decreases.\n\nThis means that pushing Intelligence from 70 to 80 often provides less overall benefit than investing those levels elsewhere."
+      },
+      {
+        heading: "The Level 150 Optimization Problem",
+        level: 3,
+        content:
+          "Consider two builds.\n\n### Build A\n\n- Vigor 40\n- Intelligence 80\n\n### Build B\n\n- Vigor 60\n- Intelligence 70\n\nMost players assume Build A is stronger.\n\nIn practice, Build B often performs better against difficult bosses.\n\nWhy?\n\nBecause survivability increases damage uptime.\n\nDead players deal no damage.\n\nFor most players, Intelligence 70 is the optimal balance between offense and defense."
+      },
+      {
+        heading: "Best Moonveil Stats (Level 150)",
+        level: 2,
+        content:
+          "| Attribute | Value |\n|------------|------------|\n| Vigor | 60 |\n| Mind | 25 |\n| Endurance | 25 |\n| Strength | 12 |\n| Dexterity | 30 |\n| Intelligence | 70\u201380 |\n| Faith | Base |\n| Arcane | Base |\n\nThis setup provides:\n\n- Excellent survivability\n- High Moonveil damage\n- Comfortable FP management\n- Strong spellcasting support"
+      },
+      {
+        heading: "Why Dexterity Is Often Overrated",
+        level: 2,
+        content:
+          "One of the most common mistakes is investing too heavily into Dexterity.\n\nMoonveil is fundamentally an Intelligence weapon.\n\nAfter meeting weapon requirements:\n\n1. Reach 60 Vigor\n2. Reach 60\u201370 Intelligence\n3. Increase Mind if necessary\n4. Only then invest additional points into Dexterity\n\nThis progression path produces significantly better results for most players."
+      },
+      {
+        heading: "Best Talismans for Moonveil",
+        level: 2,
+        content: ""
+      },
+      {
+        heading: "Shard of Alexander",
+        level: 3,
+        content:
+          "The strongest overall talisman for Moonveil users.\n\nBenefits:\n\n- Increases weapon skill damage\n- Boosts Transient Moonlight performance\n\nEssential for maximizing burst damage."
+      },
+      {
+        heading: "Magic Scorpion Charm",
+        level: 3,
+        content:
+          "Increases magic damage output.\n\nExcellent for:\n\n- Weapon skill damage\n- Magic attacks\n- Sorcery synergy"
+      },
+      {
+        heading: "Dragoncrest Greatshield Talisman",
+        level: 3,
+        content:
+          "One of the best defensive talismans in the game.\n\nParticularly useful during:\n\n- DLC encounters\n- Late-game bosses\n- High-damage enemy fights"
+      },
+      {
+        heading: "Carian Filigreed Crest",
+        level: 3,
+        content:
+          "Reduces FP consumption.\n\nIdeal for players who frequently use Transient Moonlight."
+      },
+      {
+        heading: "Best Spells for Moonveil Builds",
+        level: 2,
+        content: ""
+      },
+      {
+        heading: "Night Comet",
+        level: 3,
+        content:
+          "One of the strongest PvE spells available.\n\nMany enemies struggle to react to it."
+      },
+      {
+        heading: "Terra Magica",
+        level: 3,
+        content:
+          "Provides a substantial magic damage boost.\n\nPerfect before major boss phases."
+      },
+      {
+        heading: "Comet",
+        level: 3,
+        content:
+          "Reliable ranged damage.\n\nExcellent for general progression."
+      },
+      {
+        heading: "Carian Slicer",
+        level: 3,
+        content:
+          "Extremely FP-efficient.\n\nIdeal for close-range combat situations."
+      },
+      {
+        heading: "Best Physick Tears",
+        level: 2,
+        content:
+          "## Magic-Shrouding Cracked Tear\n\nBoosts magic damage.\n\nDirectly improves Moonveil\u2019s primary damage output.\n\n## Intelligence-Knot Crystal Tear\n\nTemporarily increases Intelligence.\n\nUseful for boss fights and burst damage windows."
+      },
+      {
+        heading: "PvE Strategy",
+        level: 2,
+        content:
+          "Moonveil dominates PvE because it offers both safety and damage.\n\nGeneral approach:\n\n1. Open with buffs.\n2. Create spacing.\n3. Use Transient Moonlight.\n4. Break enemy posture.\n5. Execute critical attacks.\n\nMany bosses can be staggered repeatedly using this strategy."
+      },
+      {
+        heading: "PvP Strategy",
+        level: 2,
+        content:
+          "Moonveil remains dangerous in PvP because opponents must constantly respect its range.\n\nTips:\n\n- Do not spam weapon skills.\n- Mix normal attacks with Transient Moonlight.\n- Punish healing attempts.\n- Control spacing carefully.\n\nThe strongest Moonveil players are unpredictable.\n\nThe weakest players simply spam weapon skills."
+      },
+      {
+        heading: "Moonveil vs Rivers of Blood",
+        level: 2,
+        content:
+          "These are two of the most popular weapons in Elden Ring.\n\nHowever, they serve different purposes.\n\n| Category | Moonveil | Rivers of Blood |\n|-----------|-----------|-----------|\n| Burst Damage | Excellent | Excellent |\n| Range | Excellent | Average |\n| Bleed Damage | Moderate | Exceptional |\n| Boss Consistency | Excellent | Good |\n| PvP Pressure | Excellent | Excellent |\n| Build Flexibility | High | Moderate |\n\nChoose Moonveil if:\n\n- You enjoy Intelligence builds\n- You want ranged pressure\n- You prefer flexible gameplay\n\nChoose Rivers of Blood if:\n\n- You want maximum bleed damage\n- You enjoy aggressive melee combat"
+      },
+      {
+        heading: "Common Moonveil Build Mistakes",
+        level: 2,
+        content:
+          "## Ignoring Vigor\n\nDamage means nothing if you die in two hits.\n\nAlways prioritize survivability.\n\n## Chasing 80 Intelligence Too Early\n\nMany players rush to 80 Intelligence while neglecting Vigor.\n\nThis creates an inefficient build.\n\n## Spamming Weapon Skills\n\nTransient Moonlight is powerful.\n\nIt is also predictable.\n\nExperienced opponents will punish repetitive usage.\n\n## Neglecting Sorceries\n\nMoonveil becomes significantly stronger when combined with Intelligence spells.\n\nTreat it as part of a complete build, not a standalone weapon."
+      },
+      {
+        heading: "Frequently Asked Questions",
+        level: 2,
+        content:
+          "## Is Moonveil still worth using in 2026?\n\nYes.\n\nMoonveil remains one of the strongest Intelligence weapons in the game.\n\n## Is 80 Intelligence necessary?\n\nNo.\n\nMost players achieve excellent results at 60\u201370 Intelligence.\n\n## What level is best for Moonveil builds?\n\nLevel 150 provides the best balance between survivability and damage.\n\n## Is Moonveil better than Dark Moon Greatsword?\n\nMoonveil offers greater flexibility and ease of use.\n\nDark Moon Greatsword generally has higher peak damage in fully optimized builds.\n\n## Is Moonveil good for beginners?\n\nAbsolutely.\n\nIts combination of range, bleed, and Intelligence scaling makes it one of the most beginner-friendly weapons in Elden Ring."
+      },
+      {
+        heading: "Final Verdict",
+        level: 2,
+        content:
+          "Moonveil remains one of the safest and most effective weapons in Elden Ring.\n\nIts unique combination of Intelligence scaling, bleed buildup, ranged pressure, and strong posture damage allows it to excel in both PvE and PvP.\n\nMost players do not need more damage.\n\nThey need better optimization.\n\nFocus on:\n\n- 60 Vigor\n- 70\u201380 Intelligence\n- Efficient talismans\n- Proper spell support\n\nWhen built correctly, Moonveil remains a top-tier weapon capable of carrying players through every major challenge Elden Ring has to offer."
       }
     ],
     internalLinks: [
       { href: "/elden-ring/builds", anchorText: "All Elden Ring Builds" },
+      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build Guide (2026)" },
+      { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
       { href: "/elden-ring/weapons", anchorText: "All Elden Ring Weapons" },
-      { href: "/elden-ring/bosses", anchorText: "All Elden Ring Boss Guides" },
       { href: "/elden-ring", anchorText: "Elden Ring Game Hub" }
     ]
   },
@@ -256,79 +373,128 @@ const articles: Article[] = [
 },
 
   {
-    slug: "margit-guide",
+        slug: "margit-guide",
     category: "bosses",
     gameSlug: "elden-ring",
     difficulty: "beginner",
-    readTimeMinutes: 10,
-    order: 1,
-    title: "How to Beat Margit the Fell Omen in Elden Ring (2026 Complete Guide)",
-    metaDescription: "Learn how to beat Margit the Fell Omen in Elden Ring. Discover recommended level, weaknesses, attack patterns, and best beginner strategies.",
+    readTimeMinutes: 8,
+    order: 3,
+    title: "Margit Boss Guide (2026) \u2013 How to Beat Margit Easily in Elden Ring",
+    metaDescription: "Complete Margit boss guide. Learn attack patterns, phase breakdown, summon strategy, and the easiest way to defeat Margit in Elden Ring.",
     sections: [
       {
         heading: "",
         level: 2,
-        content: "Margit the Fell Omen is one of the first major bosses you encounter in Elden Ring, blocking your path to Stormveil Castle. While he is a tough fight for beginners, understanding his delayed attack patterns and coming prepared at the right level makes him manageable.\n\nThis guide covers recommended levels, weaknesses, attack patterns, and the best strategies to defeat Margit efficiently.",
+        content:
+          "Margit, the Fell Omen is the first major skill check in Elden Ring.\n\nMany players reach this fight underleveled, under-geared, and unfamiliar with boss timing systems.\n\nThis is intentional.\n\nMargit is designed to punish panic rolling, over-aggression, and poorly optimized early builds.\n\nThis guide breaks down Margit\u2019s attacks, explains his patterns, and shows the safest way to beat him consistently.",
         image: "margit-boss-fight.jpg",
-        imageAlt: "Margit the Fell Omen boss fight in Elden Ring outside Stormveil Castle",
+        imageAlt: "Margit the Fell Omen boss fight in Stormveil Castle Elden Ring"
       },
       {
-        heading: "Quick Answer",
+        heading: "Why Margit Feels So Hard",
         level: 2,
-        content: "Margit the Fell Omen is easiest to defeat at Level 20\u201330 with a +2 to +3 weapon. Use Spirit Ashes, avoid panic rolling, and punish after his delayed attacks. Bleed weapons such as Bloodhound\u2019s Fang and Uchigatana are highly effective.\n\nCategory Recommendation:\nRecommended Level 20\u201330\nWeapon Upgrade +2 to +3\nBest Damage Type Bleed\nSpirit Ashes Recommended\nOptional Item Margit\u2019s Shackle\nDifficulty Medium"
+        content:
+          "Margit is not difficult because of raw damage.\n\nHe is difficult because of:\n\n- Delayed attacks\n- Variable timing\n- Fast mix-ups\n- Punishing healing windows\n- Aggressive AI tracking\n\nMost early players fail because they roll too early or panic when attacks are delayed."
       },
       {
-        heading: "What Level Should You Be for Margit?",
+        heading: "Recommended Level for Margit",
         level: 2,
-        content: "Most players should be Level 20\u201330 before attempting Margit.\n\nIf the fight feels too hard, you are likely under-leveled.\n\nRecommended Exploration Areas:\nLimgrave\nWeeping Peninsula\nMurkwater Cave\nMistwood\n\nThese areas provide runes and upgrade materials.\n\nRecommended Stats:\nVigor: 20+\nMain Damage Stat: 20+\nEndurance: 12\u201315\n\nVigor is more important than damage early game."
+        content:
+          "## Level Range: 20\u201330\n\nAt this level you should have:\n\n- Vigor 20+\n- Upgraded weapon (+3 to +5)\n- Basic flasks upgraded\n\nIf you are below Level 20, the fight becomes significantly harder."
       },
       {
-        heading: "Margit\u2019s Weaknesses",
+        heading: "Margit Attack Patterns",
         level: 2,
-        content: "Margit has no major elemental weakness, but he is vulnerable to:\n\nBleed damage\nJump attacks\nStagger damage\nSpirit Ash distractions\n\nBest Early Weapons Against Margit:\n\nBloodhound\u2019s Fang:\nHigh base damage\nStrong weapon skill\nBleed buildup\nExcellent reach\n\nUchigatana:\nFast attacks\nEasy bleed application\nBeginner friendly\n\nClaymore:\nStrong stagger\nSafe jump attacks",
-        image: "margit-location.jpg",
-        imageAlt: "Stormveil Castle entrance where Margit the Fell Omen is encountered in Elden Ring",
+        content: ""
       },
       {
-        heading: "Margit\u2019s Attack Patterns",
-        level: 2,
-        content: "Understanding timing is more important than damage.\n\nStaff Combo:\nMargit delays attacks to punish panic rolling.\n\nStrategy:\nWait for swing\nRoll into attack\nPunish once\n\nJump Slam:\nHe jumps and slams the ground.\n\nStrategy:\nRoll toward him at last moment\nUse jump attack after dodge\n\nHoly Dagger Throw:\nHe summons floating daggers during pressure phases.\n\nStrategy:\nMove sideways\nDo not heal immediately"
+        heading: "1. Delayed Staff Combo",
+        level: 3,
+        content:
+          "Margit holds his staff before attacking.\n\nThis is a trap.\n\nMost players roll too early.\n\n### Counter:\nWait for the actual swing, not the wind-up."
       },
       {
-        heading: "Best Strategy for Beginners",
-        level: 2,
-        content: "Step 1 \u2014 Summon Spirit Ashes\nCreates distraction and reduces pressure.\n\nStep 2 \u2014 Play Patiently\nDo not attack after every dodge.\n\nStep 3 \u2014 Use Safe Hits Only\nOne safe hit is better than three risky hits.\n\nStep 4 \u2014 Use Jump Attacks\nHelps build stagger quickly."
+        heading: "2. Jump Slam Attack",
+        level: 3,
+        content:
+          "Margit jumps high and slams down.\n\nHigh damage but slow recovery.\n\n### Counter:\nRoll sideways, punish immediately after landing."
       },
       {
-        heading: "Margit\u2019s Shackle Location",
-        level: 2,
-        content: "Margit\u2019s Shackle is sold by Patches in Murkwater Cave.\n\nEffects:\nTemporarily stuns Margit\nCan be used twice in Phase 1\nCreates free damage windows",
-        image: "margit-shackle.jpg",
-        imageAlt: "Patches the NPC in Murkwater Cave who sells Margit\u2019s Shackle in Elden Ring",
+        heading: "3. Magic Daggers",
+        level: 3,
+        content:
+          "Margit throws multiple magic projectiles.\n\nOften used after distance is created.\n\n### Counter:\nKeep moving diagonally, do not roll backward."
       },
       {
-        heading: "Phase Two Guide",
+        heading: "4. Multi-Hit Combo",
+        level: 3,
+        content:
+          "One of Margit\u2019s most dangerous patterns.\n\nHe chains several delayed attacks together.\n\n### Counter:\nDo not panic roll. Wait for full combo end."
+      },
+      {
+        heading: "Best Strategy to Beat Margit",
         level: 2,
-        content: "At ~60% HP, Margit gains:\n\nHoly hammer attacks\nLonger combos\nFaster aggression\n\nStrategy:\nStay patient\nDo not panic roll\nFocus on safe punish windows"
+        content: ""
+      },
+      {
+        heading: "Step 1: Use Spirit Summons",
+        level: 3,
+        content:
+          "Recommended summons:\n\n- Lone Wolf Ashes\n- Jellyfish\n\nThey distract Margit and create attack windows."
+      },
+      {
+        heading: "Step 2: Play Defensive Early",
+        level: 3,
+        content:
+          "Do not rush damage.\n\nFocus on:\n\n- Learning timings\n- Observing combos\n- Punishing after attacks"
+      },
+      {
+        heading: "Step 3: Punish After Big Attacks",
+        level: 3,
+        content:
+          "Best punish windows:\n\n- After jump slam\n- After long combo finish\n- After dagger throw recovery"
+      },
+      {
+        heading: "Step 4: Avoid Greed",
+        level: 3,
+        content:
+          "Most deaths happen because players try to hit 2\u20133 extra attacks.\n\nMargit punishes greed heavily."
+      },
+      {
+        heading: "Best Weapons Against Margit",
+        level: 2,
+        content:
+          "Early game strong options:\n\n- Uchigatana\n- Bloodhound\u2019s Fang\n- Lordsworn\u2019s Straight Sword\n- Claymore\n\nFast weapons are safer than heavy weapons."
+      },
+      {
+        heading: "Best Tips for Beginners",
+        level: 2,
+        content:
+          "## 1. Do not panic roll\n\nTiming matters more than speed.\n\n## 2. Upgrade weapon before leveling damage stats\n\nWeapon upgrade gives more damage than early stat scaling.\n\n## 3. Stay close but not too close\n\nMid-range is safest position."
       },
       {
         heading: "Common Mistakes",
         level: 2,
-        content: "Rolling Too Early:\nMargit punishes panic rolling heavily.\n\nIgnoring Vigor:\nSurvivability is more important than damage.\n\nFighting Under-Leveled:\nExploration is intended in Elden Ring.\n\nGreedy Attacks:\nOne hit is often optimal."
+        content:
+          "## Healing at bad timing\n\nMargit will punish flask usage if used after predictable attacks.\n\n## Rolling too early\n\nThis is the #1 reason players die.\n\n## Over-aggression\n\nMargit is designed to punish rushing."
       },
       {
-        heading: "Rewards",
+        heading: "Final Verdict",
         level: 2,
-        content: "Defeating Margit grants:\n\nTalisman Pouch\nAccess to Stormveil Castle\nStory progression"
+        content:
+          "Margit is not just a boss.\n\nHe is a tutorial for Elden Ring\u2019s combat system.\n\nOnce you learn Margit\u2019s timing patterns, every boss after him becomes significantly easier.\n\nIf you struggle, the issue is not damage.\n\nIt is timing discipline."
       },
       {
-        heading: "Frequently Asked Questions",
+        heading: "Next Step",
         level: 2,
-        content: "What level should I be for Margit?\nLevel 20\u201330 is recommended.\n\nWhat is Margit\u2019s weakness?\nBleed, stagger, and Spirit Ashes.\n\nCan I skip Margit?\nYou can explore first, but he must be defeated to progress.\n\nIs Bloodhound\u2019s Fang good?\nYes, it is one of the best early-game weapons."
-      },
+        content:
+          "After defeating Margit, your next priority should be:\n\n- Upgrade weapon to +6 or higher\n- Increase Vigor to 25\u201330\n- Explore Liurnia region for stronger upgrades"
+      }
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build in Elden Ring" },
+      { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick the Grafted Boss Guide" },
+      { href: "/elden-ring/builds", anchorText: "Elden Ring Builds" },
       { href: "/elden-ring", anchorText: "Elden Ring Hub" }
     ]
   },
@@ -2093,6 +2259,412 @@ const articles: Article[] = [
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
   },
+// ═══ ELDEN RING — BOSSES (Godrick Phase 2) ═══
+  {
+    slug: "godrick-phase-2-guide",
+    category: "bosses",
+    gameSlug: "elden-ring",
+    difficulty: "intermediate",
+    readTimeMinutes: 10,
+    order: 11,
+    title: "Godrick Boss Guide (2026) \u2013 Why You Keep Dying and How to Beat Phase 2 Consistently",
+    metaDescription: "A deep breakdown of Godrick the Grafted. Learn why players fail Phase 2, how his transition works, and the safest strategy to beat him in Elden Ring.",
+    sections: [
+      {
+        heading: "",
+        level: 2,
+        content:
+          "Godrick the Grafted is not difficult because of raw damage.\n\nHe is difficult because he introduces the first **true phase transition system** in Elden Ring.\n\nMost players actually survive Phase 1 easily.\n\nThey fail in Phase 2 for one reason:\n\n> They do not understand how Godrick\u2019s behavior changes after the cutscene transition.\n\nThis guide focuses on that exact problem.",
+        image: "godrick-boss-arena.jpg",
+        imageAlt: "Godrick the Grafted boss arena in Stormveil Castle Elden Ring"
+      },
+      {
+        heading: "Why Players Actually Die to Godrick",
+        level: 2,
+        content:
+          "Most deaths are NOT caused by mechanics difficulty.\n\nThey are caused by expectation failure.\n\nPlayers assume:\n\n- Phase 2 = Phase 1 but stronger\n\nThis is incorrect.\n\nGodrick completely changes his combat rhythm after the transition."
+      },
+      {
+        heading: "The Real Problem: Rhythm Disruption",
+        level: 3,
+        content:
+          "Phase 1 teaches you:\n\n- Slow wind-ups\n- Predictable combos\n- Clear punish windows\n\nPhase 2 breaks all of this.\n\nIt introduces:\n\n- Faster chaining\n- Fire-based area control\n- Extended combo strings\n- Reduced punish windows\n\nThe fight becomes less about reaction and more about **pattern recognition under pressure**."
+      },
+      {
+        heading: "Phase 1 \u2013 Learning Phase (Do Not Rush)",
+        level: 2,
+        content:
+          "Phase 1 is intentionally slow.\n\nGodrick is testing:\n\n- Your spacing\n- Your panic rolls\n- Your greed control\n\n## Safe Strategy\n\n- Stay mid-range\n- Bait axe swings\n- Punish after heavy attacks only\n\nDo NOT try to burst him quickly.\n\nPhase 1 rewards patience, not damage."
+      },
+      {
+        heading: "Phase 2 Transition \u2013 The Real Difficulty Spike",
+        level: 2,
+        content:
+          "When Godrick reaches ~60% HP, the cutscene triggers.\n\nHe gains the dragon arm.\n\nThis is not a cosmetic change.\n\nIt completely modifies his fight logic.",
+        image: "godrick-phase2-fire.jpg",
+        imageAlt: "Godrick Phase 2 fire breath attack with grafted dragon arm"
+      },
+      {
+        heading: "What Actually Changes",
+        level: 3,
+        content:
+          "## 1. Fire Coverage Zones\n\nHe now creates lingering fire on the ground.\n\nThis removes safe standing positions.\n\n## 2. Extended Combo Chains\n\nInstead of 2\u20133 hit combos, he can chain up to 5\u20136 attacks.\n\n## 3. Delayed Follow-ups\n\nHe intentionally pauses between attacks to bait panic rolls."
+      },
+      {
+        heading: "The Biggest Mistake in Phase 2",
+        level: 2,
+        content:
+          "Most players lose here:\n\n> They continue playing Phase 1 style.\n\nThat means:\n\n- Trying to punish every attack\n- Rolling too early\n- Staying too close constantly\n\nPhase 2 punishes this heavily."
+      },
+      {
+        heading: "How to Beat Phase 2 Consistently",
+        level: 2,
+        content:
+          "You need a rule change:\n\n## Phase 2 Rule: \u201CSurvive first, punish second\u201D\n\nThis means:\n\n- Stop chasing damage\n- Focus on spacing resets\n- Only punish guaranteed recovery frames"
+      },
+      {
+        heading: "Safe Punish Windows",
+        level: 3,
+        content:
+          "You only attack after:\n\n- Dragon slam recovery\n- Fire breath end lag\n- Full combo completion\n\nAnything else is high risk."
+      },
+      {
+        heading: "Spirit Ashes Strategy (Highly Recommended)",
+        level: 2,
+        content:
+          "Godrick Phase 2 becomes significantly easier if pressure is split.\n\nRecommended summons:\n\n- Lone Wolf Ashes\n- Jellyfish\n\nWhy this matters:\n\nThey break targeting priority, which reduces combo chaining frequency."
+      },
+      {
+        heading: "Best Positioning Strategy",
+        level: 2,
+        content:
+          "Never stay directly in front of him in Phase 2.\n\nOptimal positioning:\n\n- Diagonal mid-range\n- Slightly behind his weapon arm\n\nThis reduces fire zone exposure."
+      },
+      {
+        heading: "Weapon Strategy (Important Insight)",
+        level: 2,
+        content:
+          "Fast weapons outperform heavy weapons in this fight.\n\nWhy:\n\n- More punish flexibility\n- Easier spacing correction\n- Lower commitment per attack\n\nRecommended:\n\n- Straight swords\n- Katanas\n- Light greatswords\n\nAvoid:\n\n- Ultra heavy weapons (too slow for Phase 2 recovery windows)"
+      },
+      {
+        heading: "Why You Feel Phase 2 Is \u201CUnfair\u201D",
+        level: 2,
+        content:
+          "It is not unfair.\n\nIt is unfamiliar.\n\nThe game is teaching:\n\n> Not every boss can be solved with aggression.\n\nGodrick is the first true \u201Cdiscipline check\u201D."
+      },
+      {
+        heading: "Advanced Insight: Why Some Players Beat Him Easily",
+        level: 2,
+        content:
+          "Experienced players do NOT:\n\n- Over-roll\n- Over-attack\n- Chase damage\n\nThey:\n\n- Wait for forced recovery windows\n- Reset spacing constantly\n- Treat Phase 2 like survival puzzle, not DPS race"
+      },
+      {
+        heading: "Common Mistakes",
+        level: 2,
+        content:
+          "## 1. Rolling too early\n\nPhase 2 attacks are delayed to punish this.\n\n## 2. Healing greedily\n\nHealing during unsafe windows leads to chain hits.\n\n## 3. Ignoring fire zones\n\nFire is not damage\u2014it is **space control**."
+      },
+      {
+        heading: "Final Strategy Summary",
+        level: 2,
+        content:
+          "To beat Godrick consistently:\n\n- Treat Phase 1 as warm-up\n- Do not rush damage\n- Learn Phase 2 spacing rules\n- Only punish guaranteed recovery windows\n- Play defensively until Phase 2 is stabilized"
+      },
+      {
+        heading: "Final Verdict",
+        level: 2,
+        content:
+          "Godrick is not a difficulty spike in raw stats.\n\nHe is a **system introduction boss**.\n\nHe teaches the most important Elden Ring lesson:\n\n> Boss fights are not about attacking more. They are about attacking correctly.\n\nOnce you understand Godrick, most early-game bosses become significantly easier.",
+        image: "godrick-combat-action.jpg",
+        imageAlt: "Godrick the Grafted combat action showing safe positioning strategy"
+      }
+    ],
+    internalLinks: [
+      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Original Godrick Boss Guide" },
+      { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide (2026)" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
+  },
+// ═══ ELDEN RING — BUILDS (Rune Level Calculator) ═══
+  {
+    slug: "rune-level-calculator",
+    category: "builds",
+    gameSlug: "elden-ring",
+    difficulty: "beginner",
+    readTimeMinutes: 9,
+    order: 14,
+    title: "Elden Ring Rune Level Calculator \u2013 How Many Runes Do You Need to Reach Level 150?",
+    metaDescription: "Calculate how many runes you need in Elden Ring. Learn rune requirements by level, efficient leveling strategies, and how to optimize your build progression.",
+    sections: [
+      {
+        heading: "",
+        level: 2,
+        content:
+          "One of the biggest mistakes Elden Ring players make is spending runes without a leveling plan.\n\nA few levels might seem cheap at first, but by the time you reach the late game, every level costs hundreds of thousands of runes. Many players waste hours farming because they don\u2019t understand how rune requirements scale.\n\nThis guide explains how Elden Ring leveling works, how many runes you\u2019ll need for common milestones, and how to plan your character efficiently."
+      },
+      {
+        heading: "Quick Answer",
+        level: 2,
+        content:
+          "If your goal is a standard endgame build:\n\n- Level 100 = Mid-to-late game\n- Level 125 = Traditional PvP meta\n- Level 150 = Most popular endgame build level\n- Level 200 = High-level PvE builds\n\nThe total rune investment required increases dramatically as levels rise.\n\nThe difference between Level 100 and Level 150 is much larger than most players expect."
+      },
+      {
+        heading: "Why Rune Costs Increase So Fast",
+        level: 2,
+        content:
+          "Elden Ring uses a scaling formula for level costs.\n\nEarly levels are extremely cheap.\n\nFor example:\n\n- Level 10 may require only a few thousand runes\n- Level 50 requires significantly more\n- Level 100 requires tens of thousands per level\n- Level 150 can require well over one hundred thousand runes per level\n\nThis exponential scaling is designed to slow progression and encourage players to make meaningful build decisions."
+      },
+      {
+        heading: "Why Most Players Waste Runes",
+        level: 2,
+        content:
+          "Many players level randomly.\n\nA typical example:\n\n- Strength\n- Dexterity\n- Intelligence\n- Faith\n\nAll leveled together.\n\nThe result:\n\n- Poor weapon scaling\n- Weak survivability\n- Inefficient stat distribution\n\nThe problem isn\u2019t lack of levels.\n\nThe problem is lack of planning."
+      },
+      {
+        heading: "Recommended Level Targets",
+        level: 2,
+        content: ""
+      },
+      {
+        heading: "Level 50",
+        level: 3,
+        content:
+          "Ideal for:\n\n- Early game progression\n- Learning weapon movesets\n- Exploring Limgrave and Liurnia\n\nFocus on:\n\n- Vigor\n- Weapon requirements\n\nAvoid investing heavily into multiple damage stats."
+      },
+      {
+        heading: "Level 100",
+        level: 3,
+        content:
+          "Ideal for:\n\n- Mid-game completion\n- Most legacy dungeons\n- First serious build planning\n\nRecommended priorities:\n\n- Vigor 40+\n- Main damage stat 40\u201350"
+      },
+      {
+        heading: "Level 125",
+        level: 3,
+        content:
+          "Traditionally considered the PvP meta level.\n\nBenefits:\n\n- Efficient builds\n- Strong specialization\n- Competitive matchmaking\n\nMany veteran players stop here."
+      },
+      {
+        heading: "Level 150",
+        level: 3,
+        content:
+          "The most common endgame benchmark.\n\nBenefits:\n\n- 60 Vigor\n- Optimized damage stats\n- Comfortable Endurance\n- Flexible hybrid builds\n\nMost modern build guides are designed around Level 150."
+      },
+      {
+        heading: "How Many Levels Do You Actually Need?",
+        level: 2,
+        content:
+          "Many players assume:\n\n> Higher level = stronger character.\n\nThis is not always true.\n\nA well-optimized Level 150 build often outperforms a poorly planned Level 250 build.\n\nWhy?\n\nBecause scaling efficiency matters more than raw levels.\n\nA character with:\n\n- 60 Vigor\n- 60 Strength\n\nis usually stronger than a character with:\n\n- 40 Vigor\n- 80 Strength\n- Random extra stats"
+      },
+      {
+        heading: "The Importance of Soft Caps",
+        level: 2,
+        content:
+          "Soft caps determine when a stat begins providing reduced returns.\n\nImportant examples:\n\n| Stat | Recommended Target |\n|--------|--------|\n| Vigor | 60 |\n| Strength | 55\u201380 |\n| Dexterity | 55\u201380 |\n| Intelligence | 60\u201380 |\n| Faith | 50\u201380 |\n| Arcane | 45\u201360 |\n\nUnderstanding these breakpoints helps prevent wasted levels."
+      },
+      {
+        heading: "Planning a Level 150 Build",
+        level: 2,
+        content:
+          "Before spending runes, answer three questions:\n\n## What weapon will I use?\n\nExamples:\n\n- Moonveil\n- Greatsword\n- Rivers of Blood\n- Dark Moon Greatsword\n\nYour weapon determines your scaling priorities.\n\n## What is my primary damage stat?\n\nChoose one:\n\n- Strength\n- Dexterity\n- Intelligence\n- Faith\n- Arcane\n\nAvoid spreading points everywhere.\n\n## Do I have enough survivability?\n\nAlways prioritize Vigor.\n\nMany late-game deaths occur because players chase damage while ignoring health."
+      },
+      {
+        heading: "Best Rune Farming Locations",
+        level: 2,
+        content:
+          "If you\u2019re trying to reach Level 150 efficiently, focus on high-yield farming routes.\n\nGood farming locations share three characteristics:\n\n- Fast enemy kills\n- Safe resets\n- High rune rewards\n\nThe exact best location depends on your progression stage and build."
+      },
+      {
+        heading: "Should You Level Beyond 150?",
+        level: 2,
+        content:
+          "For PvE:\n\nYes, if you enjoy continued progression.\n\nFor build optimization:\n\nUsually unnecessary.\n\nLevel 150 already allows most builds to reach their strongest form.\n\nAdditional levels often provide diminishing returns."
+      },
+      {
+        heading: "Build Planning vs Rune Grinding",
+        level: 2,
+        content:
+          "Many players spend hours farming.\n\nA better approach is optimizing first.\n\nAn efficient build can gain more power from proper stat allocation than from dozens of extra levels.\n\nBefore farming another million runes, make sure your current build is actually optimized."
+      },
+      {
+        heading: "Frequently Asked Questions",
+        level: 2,
+        content:
+          "## What is the best level for Elden Ring?\n\nFor most players, Level 150 is the ideal balance between power and efficiency.\n\n## Is Level 200 too high?\n\nNot for PvE, but it reduces build specialization and can affect matchmaking ranges.\n\n## Should I prioritize damage or Vigor?\n\nVigor first.\n\nA dead character deals no damage.\n\n## What is the most important stat in Elden Ring?\n\nFor most builds, Vigor provides the highest overall value until 60.\n\n## How can I avoid wasting levels?\n\nPlan your build before spending runes and understand soft caps."
+      },
+      {
+        heading: "Final Verdict",
+        level: 2,
+        content:
+          "Rune management is one of the most overlooked systems in Elden Ring.\n\nMany players spend countless hours farming additional levels when their real problem is inefficient stat allocation.\n\nThe strongest characters are not necessarily the highest-level characters.\n\nThey are the players who understand:\n\n- soft caps\n- stat efficiency\n- weapon scaling\n- build planning\n\nBefore investing more runes, take the time to calculate your ideal build and make every level count."
+      }
+    ],
+    internalLinks: [
+      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
+      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Elden Ring Build Planner Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
+  },
+// ═══ ELDEN RING — BOSSES (Radahn) ═══
+  {
+    slug: "starscourge-radahn-guide",
+    category: "bosses",
+    gameSlug: "elden-ring",
+    difficulty: "intermediate",
+    readTimeMinutes: 12,
+    order: 14,
+    title: "Starscourge Radahn Boss Guide (2026) \u2013 Why Most Players Fail and the Exact Way to Defeat Him",
+    metaDescription: "A deep mechanics breakdown of Radahn in Elden Ring. Learn why players struggle, how summons actually affect the fight, and the safest winning strategy.",
+    sections: [
+      {
+        heading: "",
+        level: 2,
+        content:
+          "Radahn is one of the most misunderstood bosses in Elden Ring.\n\nMost players assume this fight is about damage output or level.\n\nIt is not.\n\nRadahn is a **battlefield control boss**, not a DPS check.\n\nThe real difficulty comes from understanding how his aggression interacts with summons, spacing, and arena pressure.\n\nOnce you understand that system, the fight becomes dramatically easier.",
+        image: "radahn-boss-fight.jpg",
+        imageAlt: "Starscourge Radahn boss fight in Elden Ring showing the battlefield arena with summons"
+      },
+      {
+        heading: "Why Players Actually Lose to Radahn",
+        level: 2,
+        content:
+          "Most deaths fall into three categories:\n\n## 1. Fighting Radahn directly\n\nPlayers try to duel him like a normal boss.\n\nThis is the biggest mistake.\n\nRadahn is designed to punish 1v1 behavior early in the fight.\n\n## 2. Ignoring summons\n\nSummons are not optional in this fight.\n\nThey are part of the intended difficulty balance.\n\nIgnoring them makes the fight significantly harder.\n\n## 3. Staying at mid-range too long\n\nRadahn\u2019s projectile phase is strongest at medium distance.\n\nThis is the \u201Cdanger zone\u201D."
+      },
+      {
+        heading: "The Real Mechanic: Aggro Rotation System",
+        level: 2,
+        content:
+          "Radahn does not target players randomly.\n\nHe rotates aggression between:\n\n- Player\n- Summons\n- Movement triggers in the arena\n\nThis creates a hidden system:\n\n> If summons are active, Radahn becomes less predictable but less focused on you.\n\n> If summons die early, Radahn becomes extremely aggressive toward the player.\n\nUnderstanding this is the key to consistent wins."
+      },
+      {
+        heading: "Phase Structure Breakdown",
+        level: 2,
+        content: ""
+      },
+      {
+        heading: "Phase 1 \u2013 Arrow Pressure Phase",
+        level: 3,
+        content:
+          "Radahn opens with long-range arrow attacks.\n\nThis phase is not about damage.\n\nIt is about movement survival.\n\n### Key Rule:\n\nDo NOT try to approach directly.\n\nInstead:\n\n- Use horse mobility\n- Use terrain to break line of sight\n- Summon NPC allies immediately",
+        image: "radahn-arrow-phase.webp",
+        imageAlt: "Radahn phase 1 arrow rain attack showing safe positioning behind terrain"
+      },
+      {
+        heading: "Phase 2 \u2013 Battlefield Engagement",
+        level: 3,
+        content:
+          "Once summons engage him, Radahn enters melee combat mode.\n\nThis is the \u201Creal fight\u201D.\n\n### What changes:\n\n- Increased melee aggression\n- Large AoE attacks\n- Fast repositioning jumps"
+      },
+      {
+        heading: "Phase 3 \u2013 Meteor Transition",
+        level: 3,
+        content:
+          "Radahn disappears and returns as a meteor.\n\nThis is the hardest spike in the fight.\n\nMost players die here due to panic positioning.",
+        image: "radahn-meteor.webp",
+        imageAlt: "Radahn meteor phase transition showing the impact zone approach strategy"
+      },
+      {
+        heading: "How to Actually Win the Fight",
+        level: 2,
+        content: "This is the optimized strategy used by consistent players:"
+      },
+      {
+        heading: "Step 1: Do NOT fight alone",
+        level: 3,
+        content:
+          "Immediately summon all available NPC allies.\n\nThey serve three purposes:\n\n- Split aggro\n- Create damage windows\n- Force Radahn into movement loops"
+      },
+      {
+        heading: "Step 2: Use hit-and-reset pattern",
+        level: 3,
+        content:
+          "Do not commit to long combos.\n\nInstead:\n\n- Approach\n- Deal 1\u20132 hits\n- Retreat\n- Reset positioning\n\nRadahn punishes extended aggression."
+      },
+      {
+        heading: "Step 3: Let summons \u201Cstabilize\u201D aggro",
+        level: 3,
+        content:
+          "If summons are alive:\n\nRadahn\u2019s behavior becomes predictable in short bursts.\n\nThis is your safest damage window."
+      },
+      {
+        heading: "Step 4: Prepare for meteor phase",
+        level: 3,
+        content:
+          "When Radahn disappears:\n\n- Stop chasing\n- Look for meteor impact zone\n- Move diagonally (not backward)\n\nThis avoids instant knockback death."
+      },
+      {
+        heading: "Why Some Players Think Radahn Is Easy",
+        level: 2,
+        content:
+          "Players who understand summon timing experience a completely different fight.\n\nThey are not fighting Radahn directly.\n\nThey are managing:\n\n- Aggro distribution\n- Summon rotation\n- Safe DPS windows\n\nThis is why difficulty opinions vary so much."
+      },
+      {
+        heading: "Best Weapon Strategy",
+        level: 2,
+        content:
+          "Radahn is not resistant to damage.\n\nBut he punishes slow commitment.\n\nBest weapon types:\n\n- Fast katanas\n- Light greatswords\n- Magic hybrid builds\n\nAvoid:\n\n- Ultra slow weapons (risk during phase transitions)",
+        image: "radahn-arena-movement.webp",
+        imageAlt: "Radahn arena mobility strategy showing horse combat and spacing"
+      },
+      {
+        heading: "Biggest Mistakes Players Make",
+        level: 2,
+        content: ""
+      },
+      {
+        heading: "1. Treating it like a duel",
+        level: 3,
+        content:
+          "This is not a duel fight."
+      },
+      {
+        heading: "2. Ignoring arena mobility",
+        level: 3,
+        content:
+          "Horse movement is essential early."
+      },
+      {
+        heading: "3. Overcommitting damage",
+        level: 3,
+        content:
+          "Radahn punishes greed heavily."
+      },
+      {
+        heading: "4. Panicking during meteor phase",
+        level: 3,
+        content:
+          "Most deaths happen from bad repositioning, not damage."
+      },
+      {
+        heading: "Advanced Insight: Why Radahn Feels Random",
+        level: 2,
+        content:
+          "Radahn appears chaotic because:\n\n- Multiple NPCs generate overlapping aggro triggers\n- His AI recalculates target priority constantly\n- Projectile and melee phases overlap\n\nTo untrained players, this feels like randomness.\n\nTo experienced players, it is a **rotation system**."
+      },
+      {
+        heading: "Final Strategy Summary",
+        level: 2,
+        content:
+          "To consistently beat Radahn:\n\n- Treat summons as core mechanics, not optional help\n- Avoid direct dueling mindset\n- Play hit-and-reset damage style\n- Prioritize survival during transition phases\n- Understand aggro distribution"
+      },
+      {
+        heading: "Final Verdict",
+        level: 2,
+        content:
+          "Radahn is not a DPS test.\n\nHe is a **system understanding test**.\n\nOnce you stop treating him like a normal boss and start treating him as a battlefield control encounter, the fight becomes significantly more manageable.\n\nThe difference between a hard fight and an easy one is not level.\n\nIt is understanding how the system is designed to be played."
+      }
+    ],
+    internalLinks: [
+      { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
+      { href: "/elden-ring/bosses/godrick-the-grafted", anchorText: "Godrick the Grafted Boss Guide" },
+      { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Boss Guide" },
+      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    ]
+  },
+
+  ...extraArticles,
 ];
 
 export function getArticlesForGame(

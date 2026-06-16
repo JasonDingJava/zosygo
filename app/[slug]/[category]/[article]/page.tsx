@@ -6,6 +6,7 @@ import { getLocalizedGame, getLocalizedGames } from "@/lib/getLocalizedGames";
 import { getGameSlugs, CATEGORIES } from "@/lib/games";
 import { getArticleBySlug, getArticlesForGame } from "@/lib/articles";
 import { generateBreadcrumbJsonLd } from "@/lib/seo";
+import ContentParagraphs from "@/components/ContentParagraphs";
 
 type Props = {
   params: Promise<{
@@ -201,13 +202,7 @@ export default async function ArticlePage({ params }: Props) {
                     />
                   </div>
                 )}
-                <p className="leading-relaxed text-zinc-400 whitespace-pre-line">
-                  {section.content.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
-                    part.startsWith("**") && part.endsWith("**")
-                      ? <strong key={i}>{part.slice(2, -2)}</strong>
-                      : part
-                  )}
-                </p>
+                <ContentParagraphs content={section.content} />
                 {section.table && (
                   <div className="mt-4 overflow-x-auto">
                     <table className="w-full border-collapse text-sm">
