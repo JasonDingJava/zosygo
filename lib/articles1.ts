@@ -1155,6 +1155,815 @@ const article20: Article = {
   ]
 };
 
-const extraArticles = [maleniaArticle, buildFeelsWeakArticle, softCapsV2Article, article17, article18, article19, article20];
+
+const article21: Article = {
+  slug: "how-to-beat-starscourge-radahn",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 10,
+  order: 21,
+  title: "How to Beat Starscourge Radahn in Elden Ring (2026 Guide) – Festival Strategy, Weaknesses, and Phase Breakdown",
+  metaDescription: "Complete Starscourge Radahn guide covering Festival mechanics, best summons, weaknesses, Phase 1 and Phase 2 strategies, rewards, and common mistakes.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---",
+    },
+    {
+      heading: "Quick Answer",
+      level: 2,
+      content:
+        "If you are struggling against Radahn:\n\n- Summon every available NPC\n- Stay mounted whenever possible\n- Use Scarlet Rot if available\n- Avoid fighting directly in Phase 2\n- Re-summon allies throughout the battle\n\nThe fight becomes significantly easier once you treat it like a battlefield instead of a traditional boss duel.",
+      image: "u=2174566074,2385001868&fm=253&app=138&f=JPEG.jpeg",
+      imageAlt: "Elden Ring Starscourge Radahn boss fight in Caelid Wailing Dunes",
+    },
+    {
+      heading: "Where to Find Radahn",
+      level: 2,
+      content:
+        "Radahn is located in:\n\n**Redmane Castle, Caelid**\n\nThe fight becomes available after the Radahn Festival begins.\n\nOnce the festival starts:\n\n- Speak to the announcer\n- Use the lift\n- Activate the portal\n- Enter the Wailing Dunes\n\nThis transports you to one of the largest boss arenas in Elden Ring.",
+      image: "u=2766246958,169596608&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Radahn Festival with NPC summons in Redmane Castle",
+    },
+    {
+      heading: "Recommended Level",
+      level: 2,
+      content:
+        "| Category | Recommendation |\n|-----------|---------------|\n| Character Level | 60–80 |\n| Weapon Upgrade | +12 to +18 |\n| Vigor | 30+ |\n| Flask Charges | 8+ |\n| Mount | Required |\n\nPlayers can defeat Radahn earlier, but this range provides the most consistent experience.",
+      image: "u=4080150195,2786421708&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Radahn Phase 2 meteor crash attack strategy",
+    },
+    {
+      heading: "Radahn's Weaknesses",
+      level: 2,
+      content:
+        "### Scarlet Rot\n\nScarlet Rot is Radahn's biggest weakness.\n\nEven a single successful application can remove a large percentage of his health.\n\nPopular choices include:\n\n- Rotten Breath\n- Ekzykes's Decay\n- Rot Pots\n\nMany players defeat Radahn almost entirely through Rot damage.",
+    },
+    {
+      heading: "Bleed",
+      level: 3,
+      content:
+        "Bleed performs well due to Radahn's large health pool.\n\nRecommended weapons include:\n\n- Bloodhound's Fang\n- Uchigatana\n- Nagakiba",
+    },
+    {
+      heading: "Summons",
+      level: 3,
+      content:
+        "Unlike most bosses, Radahn is designed around NPC summons.\n\nIgnoring them makes the fight dramatically harder.",
+    },
+    {
+      heading: "Understanding the Festival Mechanic",
+      level: 2,
+      content:
+        "The battlefield contains multiple summon signs.\n\nThese signs allow you to call warriors into the battle.\n\nImportant NPCs include:\n\n- Blaidd\n- Alexander\n- Okina\n- Patches\n- Lionel\n\nThe key mechanic many players miss:\n\n**Summons can be called again after they die.**\n\nThis means the festival never truly ends.\n\nYour allies can continuously pressure Radahn throughout the fight.",
+    },
+    {
+      heading: "Phase 1 Strategy",
+      level: 2,
+      content:
+        "Phase 1 begins at extreme range.\n\nRadahn immediately starts firing enormous gravity arrows.\n\nMost first-time players die before reaching him.",
+    },
+    {
+      heading: "Dodging the Opening Arrows",
+      level: 3,
+      content:
+        "There are three options:\n\n#### Option 1: Use Terrain\n\nWeapon piles and debris can block arrows.\n\nThis is the safest method.\n\n#### Option 2: Dodge on Foot\n\nRoll at the last moment.\n\nRequires timing but is reliable.\n\n#### Option 3: Mounted Approach\n\nPossible but less forgiving.\n\nMistakes often result in death.",
+    },
+    {
+      heading: "Closing the Distance",
+      level: 3,
+      content:
+        "As you advance:\n\n- Activate every summon sign\n- Allow NPCs to engage first\n- Avoid rushing ahead\n\nYour goal is reaching melee range with maximum support.",
+    },
+    {
+      heading: "Radahn's Melee Attacks",
+      level: 3,
+      content:
+        "Once engaged, Radahn uses massive sweeping attacks.\n\nCommon attacks include:\n\n- Double sword sweep\n- Spinning combo\n- Gravity slam\n\nMost attacks have long windups.\n\nWatch his shoulders rather than the weapons themselves.",
+    },
+    {
+      heading: "Best Punish Windows",
+      level: 3,
+      content:
+        "The safest opportunities occur after:\n\n- Gravity slam recovery\n- Long spinning combo finish\n- Missed leap attacks\n\nDo not stay in front of Radahn for extended periods.\n\nHis follow-up attacks are extremely dangerous.",
+    },
+    {
+      heading: "The Phase 2 Transition",
+      level: 2,
+      content:
+        "At roughly 50% health:\n\nRadahn suddenly disappears.\n\nMany players think the fight has bugged.\n\nIt has not.\n\nHe is preparing one of the most iconic attacks in Elden Ring.",
+    },
+    {
+      heading: "Meteor Crash Explained",
+      level: 3,
+      content:
+        "After disappearing:\n\nRadahn launches himself into the sky.\n\nSeconds later he returns as a living meteor.\n\nThis attack can instantly kill many builds.",
+    },
+    {
+      heading: "How to Survive",
+      level: 3,
+      content:
+        "The moment Radahn leaves:\n\n- Get on Torrent\n- Sprint continuously\n- Watch the sky\n\nDo not stop moving.\n\nThe impact zone tracks your position.\n\nConstant movement makes the attack easy to avoid.",
+    },
+    {
+      heading: "Phase 2 Strategy",
+      level: 2,
+      content:
+        "Phase 2 introduces:\n\n- Stronger gravity magic\n- Faster aggression\n- Larger AoE attacks\n\nMany players try to fight aggressively here.\n\nThat is usually a mistake.",
+    },
+    {
+      heading: "Safer Strategy",
+      level: 3,
+      content:
+        "Continue using summons.\n\nAllow NPCs to distract Radahn.\n\nAttack only when opportunities appear.\n\nThis dramatically reduces risk.",
+    },
+    {
+      heading: "Best Builds Against Radahn",
+      level: 2,
+      content:
+        "### Strength Builds\n\nAdvantages:\n\n- High stagger potential\n- Excellent posture damage\n\nStrong but requires confidence in melee.",
+    },
+    {
+      heading: "Bleed Builds",
+      level: 3,
+      content:
+        "Advantages:\n\n- Fast health removal\n- Consistent damage\n\nOne of the easiest approaches.",
+    },
+    {
+      heading: "Faith Builds",
+      level: 3,
+      content:
+        "Advantages:\n\n- Rot access\n- Ranged options\n- Strong support tools\n\nExcellent for newer players.",
+    },
+    {
+      heading: "Common Mistakes",
+      level: 2,
+      content:
+        "### Ignoring Summons\n\nThis is the biggest mistake.\n\nThe fight was designed around them.",
+    },
+    {
+      heading: "Fighting Alone",
+      level: 3,
+      content:
+        "Trying to duel Radahn often makes the encounter harder than necessary.",
+    },
+    {
+      heading: "Staying Stationary During Meteor Crash",
+      level: 3,
+      content:
+        "Standing still almost guarantees death.",
+    },
+    {
+      heading: "Forgetting To Re-Summon NPCs",
+      level: 3,
+      content:
+        "Dead allies can be summoned again.\n\nMany players never realize this.",
+    },
+    {
+      heading: "Rewards",
+      level: 2,
+      content:
+        "Defeating Radahn grants:\n\n- Remembrance of the Starscourge\n- Large number of Runes\n- Progression toward Nokron\n\nMost importantly:\n\nA falling star crashes into Limgrave.\n\nThis event unlocks access to one of Elden Ring's most important areas.",
+    },
+    {
+      heading: "Why Radahn Is One of Elden Ring's Best Bosses",
+      level: 2,
+      content:
+        "Radahn is not remembered because he is the hardest boss.\n\nHe is remembered because the fight feels like a war.\n\nThe combination of:\n\n- Massive battlefield\n- Dozens of warriors\n- Gravity magic\n- Meteor attacks\n- Epic soundtrack\n\ncreates one of the most cinematic encounters in modern gaming.",
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content:
+        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+const article22: Article = {
+  slug: "how-to-beat-mohg-lord-of-blood",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 10,
+  order: 22,
+  title: "How to Beat Mohg, Lord of Blood in Elden Ring (2026 Guide) – Nihil Counter, Weaknesses, and Phase 2 Strategy",
+  metaDescription: "Complete Mohg boss guide covering Nihil, Purifying Crystal Tear, weaknesses, best builds, Phase 2 mechanics, and common mistakes.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---",
+    },
+    {
+      heading: "Quick Answer",
+      level: 2,
+      content:
+        "If you're struggling against Mohg:\n\n- Use Purifying Crystal Tear\n- Bring Bleed or Frost damage\n- Save healing flasks for Nihil\n- Stay close during Phase 2\n- Avoid panic rolling through bloodflame\n\nMost deaths happen because players don't understand Nihil or underestimate bloodflame area control.",
+      image: "u=4193108178,2266110672&fm=253&app=138&f=JPEG.jpeg",
+      imageAlt: "Elden Ring Mohg Lord of Blood boss fight in Mohgwyn Palace",
+    },
+    {
+      heading: "Where to Find Mohg",
+      level: 2,
+      content:
+        "Mohg, Lord of Blood is located in:\n\n**Mohgwyn Palace**\n\nThere are two main ways to reach the area.\n\n### Option 1: White Mask Varre Questline\n\nThe fastest method.\n\nCompleting Varre's quest grants access to:\n\n- Pureblood Knight's Medal\n\nThis teleports you directly to Mohgwyn Palace.",
+      image: "u=412340321,4085897314&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Mohg Phase 1 bloodflame attacks and trident combat",
+    },
+    {
+      heading: "Option 2: Consecrated Snowfield Portal",
+      level: 3,
+      content:
+        "Late-game route.\n\nRequires:\n\n- Secret Haligtree Medallion\n- Consecrated Snowfield access\n\nA hidden portal transports players to Mohgwyn Palace.",
+      image: "u=4229126849,996013759&fm=253&app=138&f=JPEG.jpeg",
+      imageAlt: "Elden Ring Mohg Phase 2 Nihil ritual and winged form strategy",
+    },
+    {
+      heading: "Recommended Level",
+      level: 2,
+      content:
+        "| Category | Recommendation |\n|-----------|---------------|\n| Character Level | 100–130 |\n| Weapon Upgrade | +20 to +25 |\n| Vigor | 50+ |\n| Flask Charges | 10+ |\n| Purifying Crystal Tear | Strongly Recommended |\n\nMohg hits extremely hard.\n\nUnderleveled players often die during Phase 2 before learning the mechanics.",
+    },
+    {
+      heading: "Mohg's Biggest Weaknesses",
+      level: 2,
+      content:
+        "### Bleed\n\nIronically, Mohg is vulnerable to Bleed.\n\nRecommended weapons:\n\n- Rivers of Blood\n- Bloodhound's Fang\n- Nagakiba\n\nBleed allows players to shorten the fight dramatically.",
+    },
+    {
+      heading: "Frost",
+      level: 3,
+      content:
+        "Frostbite works exceptionally well.\n\nAdvantages:\n\n- Percentage damage\n- Temporary defense reduction\n\nThis remains one of the safest approaches.",
+    },
+    {
+      heading: "Spirit Ashes",
+      level: 3,
+      content:
+        "Popular choices:\n\n- Mimic Tear\n- Black Knife Tiche\n\nBoth create valuable openings throughout the fight.",
+    },
+    {
+      heading: "Understanding Bloodflame",
+      level: 2,
+      content:
+        "Bloodflame is Mohg's signature mechanic.\n\nMany attacks leave burning blood on the ground.\n\nThis causes:\n\n- Fire damage\n- Bleed buildup\n- Area denial\n\nThe longer the fight lasts, the more dangerous the arena becomes.\n\nYour positioning matters just as much as your dodging.",
+    },
+    {
+      heading: "Phase 1 Strategy",
+      level: 2,
+      content:
+        "Phase 1 focuses on blood magic and trident attacks.\n\nMost attacks are slower than they appear.\n\nPlayers who panic often get hit more frequently than those who stay calm.",
+    },
+    {
+      heading: "Blood Slash Combo",
+      level: 3,
+      content:
+        "One of Mohg's most common attacks.\n\n#### Tell\n\n- Trident raised\n- Delayed swing\n\n#### Counter\n\nRoll slightly later than expected.\n\nMohg uses many delayed attacks designed to punish early dodges.",
+    },
+    {
+      heading: "Blood Claw",
+      level: 3,
+      content:
+        "Mohg slashes through the air, creating blood explosions.\n\n#### Counter\n\nRoll through the claw itself.\n\nMany players focus on the projectile and get caught by the explosion.",
+    },
+    {
+      heading: "Blood Toss",
+      level: 3,
+      content:
+        "Mohg throws bloodflame across the arena.\n\n#### Counter\n\nMaintain awareness of where blood pools land.\n\nPositioning mistakes become much more dangerous later.",
+    },
+    {
+      heading: "The Three Rings Mechanic",
+      level: 2,
+      content:
+        "During Phase 1, Mohg may mark the player with blood rings.\n\nThese appear in sequence:\n\n- Tres\n- Duo\n- Unus\n\nMany players don't understand their purpose.\n\nThese marks are preparing for Nihil.",
+    },
+    {
+      heading: "What Is Nihil?",
+      level: 2,
+      content:
+        "Nihil is Mohg's most famous mechanic.\n\nAt roughly 50% health:\n\nMohg begins a ritual.\n\nHe chants:\n\n**\"Nihil.\"**\n\nThree times.\n\nEach chant:\n\n- Damages the player\n- Heals Mohg\n- Applies blood loss pressure\n\nThis attack cannot be rolled.\n\nIt cannot be blocked.\n\nMost first-time players die here.",
+    },
+    {
+      heading: "How to Counter Nihil",
+      level: 2,
+      content:
+        "The easiest solution is:\n\n### Purifying Crystal Tear\n\nThis item is specifically designed to counter Nihil.\n\nWhen mixed into your Flask of Wondrous Physick:\n\n- Nihil damage becomes manageable\n- Blood buildup is reduced\n- The transition becomes much safer\n\nWithout this item, Mohg becomes significantly harder.",
+    },
+    {
+      heading: "How to Get Purifying Crystal Tear",
+      level: 3,
+      content:
+        "Obtained from:\n\n**Eleonora, Violet Bloody Finger**\n\nLocation:\n\nSecond Church of Marika\n\nAltus Plateau\n\nThis is one of the most valuable preparations for the fight.",
+    },
+    {
+      heading: "Surviving Nihil Without the Tear",
+      level: 3,
+      content:
+        "If you don't have Purifying Crystal Tear:\n\n- Enter the transition with full health\n- Spam healing flasks during the ritual\n- Accept that Mohg will heal significantly\n\nThe fight remains possible but becomes much less forgiving.",
+    },
+    {
+      heading: "Phase 2 Begins",
+      level: 2,
+      content:
+        "After Nihil, everything changes.\n\nMohg gains:\n\n- Wings\n- Faster movement\n- More bloodflame attacks\n- Larger area control\n\nThis is where most attempts fail.",
+    },
+    {
+      heading: "The Biggest Phase 2 Mistake",
+      level: 3,
+      content:
+        "Most players create distance.\n\nThis feels logical.\n\nIt is also wrong.\n\nMohg's bloodflame attacks become more dangerous at range.",
+    },
+    {
+      heading: "Why Staying Close Is Safer",
+      level: 3,
+      content:
+        "At close range:\n\n- Attacks become easier to read\n- Bloodflame spreads less effectively\n- Punish opportunities increase\n\nMany experienced players stay aggressively near Mohg throughout Phase 2.",
+    },
+    {
+      heading: "Best Damage Windows",
+      level: 3,
+      content:
+        "The safest opportunities occur after:\n\n#### Wing Slam\n\nLarge recovery animation.",
+    },
+    {
+      heading: "Blood Explosion Finishers",
+      level: 4,
+      content:
+        "Several attacks leave Mohg briefly vulnerable.",
+    },
+    {
+      heading: "Trident Thrust Recovery",
+      level: 4,
+      content:
+        "One of the easiest punish windows in the fight.",
+    },
+    {
+      heading: "Arena Management",
+      level: 2,
+      content:
+        "The real challenge of Phase 2 is not Mohg himself.\n\nIt's the arena.\n\nBloodflame gradually restricts movement.\n\nGood players constantly reposition.\n\nBad players get trapped.\n\nAlways fight toward clean sections of the arena.",
+    },
+    {
+      heading: "Common Mistakes",
+      level: 2,
+      content:
+        "### Ignoring Purifying Crystal Tear\n\nThis is the single biggest mistake.\n\nThe item exists specifically for this encounter.",
+    },
+    {
+      heading: "Healing During Combos",
+      level: 3,
+      content:
+        "Mohg punishes panic healing aggressively.",
+    },
+    {
+      heading: "Rolling Too Early",
+      level: 3,
+      content:
+        "Many attacks are delayed.\n\nPatience is essential.",
+    },
+    {
+      heading: "Fighting At Long Range",
+      level: 3,
+      content:
+        "Phase 2 becomes significantly harder when Mohg controls the battlefield.",
+    },
+    {
+      heading: "Standing In Bloodflame",
+      level: 3,
+      content:
+        "Even small positioning errors add up over time.",
+    },
+    {
+      heading: "Rewards",
+      level: 2,
+      content:
+        "Defeating Mohg grants:\n\n- Remembrance of the Blood Lord\n- Large Rune reward\n- Progression toward one of the game's most important story locations\n\nMohg also guards access to content closely connected to Miquella's storyline.",
+    },
+    {
+      heading: "Why Mohg Is One of Elden Ring's Best Bosses",
+      level: 2,
+      content:
+        "Mohg succeeds because he forces players to prepare.\n\nMost bosses test reflexes.\n\nMohg tests knowledge.\n\nPlayers who understand:\n\n- Nihil\n- Bloodflame\n- Arena control\n- Purifying Crystal Tear\n\noften defeat him quickly.\n\nPlayers who ignore those mechanics struggle regardless of level.",
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content:
+        "### What level should I fight Mohg?\n\nMost players succeed between Level 100 and 130.\n\n### Is Mohg weak to Bleed?\n\nYes. Bleed performs extremely well against Mohg.\n\n### What does Nihil do?\n\nNihil damages the player, heals Mohg, and applies blood loss pressure.\n\n### Do I need Purifying Crystal Tear?\n\nNo, but it makes the fight dramatically easier.\n\n### Is Mohg harder than Radahn?\n\nFor many players, yes. Nihil and bloodflame mechanics create a much steeper learning curve.\n\n### Can Spirit Ashes help?\n\nAbsolutely. Mimic Tear and Black Knife Tiche are particularly effective.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+
+const article23: Article = {
+  slug: "how-to-beat-maliketh-black-blade",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 10,
+  order: 23,
+  title: "How to Beat Maliketh, the Black Blade in Elden Ring (2026 Guide) – Destined Death Explained, Best Strategy, and Every Punish Window",
+  metaDescription: "Complete Maliketh boss guide covering Beast Clergyman, Destined Death, Blasphemous Claw, weaknesses, attack breakdowns, and Phase 2 survival strategies.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---",
+    },
+    {
+      heading: "Quick Answer",
+      level: 2,
+      content:
+        "If you're struggling against Maliketh:\n\n- Stay aggressive in Phase 2\n- Fight close instead of far away\n- Use pillars for positioning\n- Learn Destined Death attacks\n- Use Blasphemous Claw if available\n\nMost players die because they create distance.\n\nCounterintuitively, Maliketh becomes easier when you're closer to him.",
+      image: "u=3358615771,1066161144&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Maliketh the Black Blade boss fight in Crumbling Farum Azula",
+    },
+    {
+      heading: "Boss Overview",
+      level: 2,
+      content:
+        "| Category | Details |\n|-----------|----------|\n| Location | Crumbling Farum Azula |\n| Boss Type | Mandatory Story Boss |\n| Recommended Level | 120–150 |\n| Weapon Upgrade | +25 / +10 Somber |\n| Weakness | Bleed, Frost |\n| Special Mechanic | Destined Death |\n| Optional Counter | Blasphemous Claw |",
+      image: "u=3891078662,661951665&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Beast Clergyman Phase 1 combat against Maliketh",
+    },
+    {
+      heading: "Why Maliketh Is So Difficult",
+      level: 2,
+      content:
+        "Most Elden Ring bosses follow a familiar pattern:\n\n- Dodge attack\n- Counterattack\n- Heal if necessary\n\nMaliketh breaks that rhythm.\n\nHis attacks apply:\n\n### Destined Death\n\nThis effect does two things:\n\n1. Immediately reduces health\n2. Continues draining health afterward\n\nMany players survive the initial hit but die moments later.\n\nThis is why Maliketh often feels unfair.\n\nIn reality, the mechanic simply punishes mistakes harder than any previous boss.",
+      image: "u=658320079,408270614&fm=253&fmt=auto&app=138&f=JPEG.webp",
+      imageAlt: "Elden Ring Maliketh Phase 2 Destined Death attacks and strategy",
+    },
+    {
+      heading: "Preparation Checklist",
+      level: 2,
+      content:
+        "Before entering the arena:\n\n### Recommended Vigor\n\nAt least:\n\n**55–60 Vigor**\n\nBelow that, many Destined Death combinations become lethal.",
+    },
+    {
+      heading: "Best Spirit Ashes",
+      level: 3,
+      content:
+        "#### Mimic Tear\n\nStill one of the safest options.\n\n#### Black Knife Tiche\n\nExcellent mobility.\n\nCan keep pressure on Maliketh throughout Phase 2.",
+    },
+    {
+      heading: "Best Damage Types",
+      level: 3,
+      content:
+        "#### Bleed\n\nVery effective.\n\nMaliketh has relatively low health compared to many late-game bosses.\n\nBleed removes large portions quickly.",
+    },
+    {
+      heading: "Frost",
+      level: 4,
+      content:
+        "Strong burst damage.\n\nAlso creates additional stagger opportunities.",
+    },
+    {
+      heading: "Phase 1: Beast Clergyman",
+      level: 2,
+      content:
+        "Many players focus entirely on Maliketh.\n\nThat is a mistake.\n\nPhase 1 kills almost as many players.",
+    },
+    {
+      heading: "Understanding Beast Clergyman",
+      level: 3,
+      content:
+        "Unlike Phase 2:\n\n- Extremely aggressive\n- Fast recovery animations\n- Constant pressure\n\nHowever:\n\nMost attacks have predictable endings.\n\nLearning those endings is the key.",
+    },
+    {
+      heading: "Best Opportunity #1: Beast Claw",
+      level: 3,
+      content:
+        "One of the most common attacks.\n\n#### Tell\n\nHe drags his dagger along the ground.\n\nA shockwave follows.\n\n#### Counter\n\nRoll through the shockwave.\n\nDo not retreat.",
+    },
+    {
+      heading: "Punish Rating",
+      level: 4,
+      content:
+        "★★★★☆\n\nOne or two attacks are usually safe.",
+    },
+    {
+      heading: "Best Opportunity #2: Boulder Throw",
+      level: 3,
+      content:
+        "Beast Clergyman grabs debris.\n\n#### Counter\n\nSprint sideways.\n\nAfter the throw:\n\nHe briefly pauses.",
+    },
+    {
+      heading: "Punish Rating",
+      level: 4,
+      content:
+        "★★★★★\n\nOne of the safest openings in Phase 1.",
+    },
+    {
+      heading: "Best Opportunity #3: Dagger Combo Finish",
+      level: 3,
+      content:
+        "Many combos end with a noticeable recovery.\n\nWatch for:\n\n- Final slam\n- Final swipe\n\nDo not attack during the combo.\n\nAttack after it ends.",
+    },
+    {
+      heading: "Phase Transition",
+      level: 2,
+      content:
+        "At roughly 50% health:\n\nThe fight changes dramatically.\n\nThis is one of the most cinematic transitions in Elden Ring.\n\nThe Beast Clergyman reveals his true identity:\n\n**Maliketh, the Black Blade.**\n\nThe real fight begins.",
+    },
+    {
+      heading: "Phase 2: Understanding Maliketh",
+      level: 2,
+      content:
+        "Most players immediately make a critical mistake.\n\nThey retreat.\n\nThis feels natural.\n\nIt is also why they die.",
+    },
+    {
+      heading: "Why Distance Gets You Killed",
+      level: 3,
+      content:
+        "At long range Maliketh gains access to:\n\n- Projectile slashes\n- Leap attacks\n- Arena-crossing movement\n- Destined Death waves\n\nThese attacks are far more dangerous than his close-range options.",
+    },
+    {
+      heading: "The Secret Strategy",
+      level: 3,
+      content:
+        "Stay near him.\n\nNot underneath him.\n\nNot far away.\n\nNear him.\n\nThis reduces the frequency of his most dangerous attacks.",
+    },
+    {
+      heading: "Destined Death Explained",
+      level: 3,
+      content:
+        "Certain attacks leave:\n\n- Black-and-red energy trails\n- Lingering damage\n- Maximum health reduction\n\nThese attacks define the entire fight.\n\nWhen you see black-red energy:\n\nPrioritize survival.\n\nDamage comes second.",
+    },
+    {
+      heading: "The Most Dangerous Attack",
+      level: 3,
+      content:
+        "#### Destined Death Explosion\n\nTell:\n\nMaliketh leaps into the air.\n\nThe sword glows.\n\nMultiple slashes explode outward.",
+    },
+    {
+      heading: "Counter Strategy",
+      level: 4,
+      content:
+        "Roll toward the attack.\n\nNot away.\n\nRolling backward often keeps you inside the damage zone.",
+    },
+    {
+      heading: "The Most Important Punish Window",
+      level: 3,
+      content:
+        "#### Grounded Sword Slam\n\nAfter several aerial attacks:\n\nMaliketh crashes into the ground.\n\nThis creates one of the longest recovery animations in the fight.",
+    },
+    {
+      heading: "Punish Rating",
+      level: 4,
+      content:
+        "★★★★★\n\nHeavy attacks are often safe here.\n\nThis is where most successful runs gain damage.",
+    },
+    {
+      heading: "Blasphemous Claw Explained",
+      level: 3,
+      content:
+        "One of the least understood items in Elden Ring.\n\nObtained from:\n\n**Recusant Bernahl's invasion questline**",
+    },
+    {
+      heading: "What It Does",
+      level: 4,
+      content:
+        "Blasphemous Claw can parry specific Destined Death attacks.\n\nWhen successful:\n\n- Maliketh is staggered\n- Massive punish window appears",
+    },
+    {
+      heading: "When To Use It",
+      level: 4,
+      content:
+        "Look for:\n\n- Golden glow\n- Overhead Destined Death attacks\n\nTiming matters.\n\nPractice is required.",
+    },
+    {
+      heading: "Is Blasphemous Claw Required?",
+      level: 4,
+      content:
+        "No.\n\nMany players defeat Maliketh without it.\n\nHowever:\n\nLearning the item makes the fight significantly easier.",
+    },
+    {
+      heading: "Arena Positioning Guide",
+      level: 3,
+      content:
+        "The arena contains large stone pillars.\n\nThese pillars are incredibly important.",
+    },
+    {
+      heading: "What Pillars Do",
+      level: 4,
+      content:
+        "They can:\n\n- Block projectiles\n- Interrupt movement\n- Create healing opportunities\n\nMany successful players use pillars constantly.",
+    },
+    {
+      heading: "Healing Strategy",
+      level: 4,
+      content:
+        "Do not heal immediately after taking damage.\n\nThis is a common trap.\n\nInstead:\n\n1. Create distance\n2. Move behind a pillar\n3. Heal safely\n\nPanic healing usually leads to another hit.",
+    },
+    {
+      heading: "Common Mistakes",
+      level: 2,
+      content:
+        "### Rolling Backward\n\nOne of the biggest causes of death.\n\nMany attacks punish retreating.",
+    },
+    {
+      heading: "Fighting At Maximum Range",
+      level: 3,
+      content:
+        "Triggers Maliketh's most dangerous moves.",
+    },
+    {
+      heading: "Ignoring Pillars",
+      level: 3,
+      content:
+        "The arena was designed around them.\n\nUse them.",
+    },
+    {
+      heading: "Greedy Punishes",
+      level: 3,
+      content:
+        "Many openings look larger than they actually are.\n\nTake one safe hit.\n\nNot three risky ones.",
+    },
+    {
+      heading: "Panic During Destined Death",
+      level: 3,
+      content:
+        "The health drain effect causes players to rush.\n\nStay calm.\n\nFocus on positioning.",
+    },
+    {
+      heading: "Best Builds Against Maliketh",
+      level: 2,
+      content:
+        "### Bleed Builds\n\nAdvantages:\n\n- Fast health removal\n- Shortens Phase 2\n\nExcellent choice.",
+    },
+    {
+      heading: "Strength Builds",
+      level: 3,
+      content:
+        "Advantages:\n\n- Large stagger damage\n- Strong punish windows\n\nWorks well if timing is solid.",
+    },
+    {
+      heading: "Frost Builds",
+      level: 3,
+      content:
+        "Advantages:\n\n- Burst damage\n- Consistent pressure\n\nOne of the strongest overall approaches.",
+    },
+    {
+      heading: "Rewards",
+      level: 2,
+      content:
+        "Defeating Maliketh grants:\n\n- Remembrance of the Black Blade\n- Massive Rune reward\n- Story progression toward the final section of Elden Ring\n\nMore importantly:\n\nThe world itself changes after this fight.\n\nFew bosses have greater narrative significance.",
+    },
+    {
+      heading: "Why Maliketh Is One of Elden Ring's Best Bosses",
+      level: 2,
+      content:
+        "Many bosses test:\n\n- Damage output\n- Build quality\n- Patience\n\nMaliketh tests mastery.\n\nHe forces players to understand:\n\n- Positioning\n- Timing\n- Arena usage\n- Risk management\n\nEvery mistake matters.\n\nEvery opening matters.\n\nAnd that is exactly why the fight remains one of the most memorable encounters in Elden Ring.",
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content:
+        "### What level should I fight Maliketh?\n\nMost players succeed between Level 120 and 150.\n\n### Is Maliketh weak to Bleed?\n\nYes. Bleed is one of the most effective damage types against him.\n\n### What does Destined Death do?\n\nIt deals damage, drains health over time, and reduces maximum HP temporarily.\n\n### Is Blasphemous Claw worth using?\n\nAbsolutely. It creates some of the largest punish windows in the fight.\n\n### Why do I keep dying in Phase 2?\n\nMost players stay too far away. Maliketh's ranged attacks are often more dangerous than his melee attacks.\n\n### Is Maliketh harder than Mohg?\n\nFor many players, yes. His speed and Destined Death mechanics create a much smaller margin for error.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+
+const article24: Article = {
+  slug: "how-to-beat-messmer-the-impaler",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 8,
+  order: 24,
+  title: "How to Beat Messmer the Impaler in Elden Ring DLC (2026 Guide)",
+  metaDescription: "Complete Messmer boss guide covering serpent phase mechanics, fire attacks, DLC arena strategy, weaknesses, and punish windows.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "---",
+    },
+    {
+      heading: "Quick Answer",
+      level: 2,
+      content:
+        "To beat Messmer:\n\n- Stay close to limit fire projectile spam\n- Learn serpent phase timing\n- Use Frost or Bleed damage\n- Punish after flame dash recovery\n- Avoid healing in open space",
+      image: "u=2668367525,768214399&fm=253&fmt=auto&app=120&f=JPEG.webp",
+      imageAlt: "Elden Ring Messmer the Impaler boss fight in Shadow of the Erdtree DLC",
+    },
+    {
+      heading: "Boss Overview",
+      level: 2,
+      content:
+        "Messmer has two core identities:\n\n### Human Form\n- Fast melee combos\n- Fire-infused spear attacks\n- High mobility\n\n### Serpent Form\n- Large AoE fire attacks\n- Extended hitboxes\n- Arena pressure control",
+      image: "u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp",
+      imageAlt: "Elden Ring DLC Messmer serpent form fire attacks and arena strategy",
+    },
+    {
+      heading: "Phase 1 Strategy",
+      level: 2,
+      content:
+        "### Spear Combo\n\nMessmer uses delayed thrust attacks.\n\n**Counter:**\n- Roll slightly later than expected\n- Punish after final stab",
+      image: "u=2047388663,2032917454&fm=225&app=113&f=JPEG.jpeg",
+      imageAlt: "Elden Ring Shadow of the Erdtree Messmer Phase 2 combat positioning",
+    },
+    {
+      heading: "Fire Dash",
+      level: 3,
+      content:
+        "One of his most dangerous openers.\n\n**Counter:**\n- Roll diagonally toward him\n- Avoid rolling backward",
+    },
+    {
+      heading: "Flame Zones",
+      level: 3,
+      content:
+        "Messmer creates fire zones on the ground.\n\n**Rule:**\n- Do not heal inside fire zones\n- Reposition before recovery",
+    },
+    {
+      heading: "Phase Transition: Serpent Form",
+      level: 2,
+      content:
+        "Messmer transforms into a serpent-like entity.\n\nArena becomes significantly more dangerous.",
+    },
+    {
+      heading: "Phase 2 Strategy",
+      level: 2,
+      content:
+        "### Core Problem\n\nFire coverage increases dramatically.\n\nAt long range:\n\n- Projectile spam increases\n- Visibility decreases\n- Reaction time is reduced",
+    },
+    {
+      heading: "Best Strategy",
+      level: 3,
+      content:
+        "Stay mid-range:\n\n- Close enough to force melee\n- Far enough to react to flame bursts",
+    },
+    {
+      heading: "Serpent Bite Attack",
+      level: 3,
+      content:
+        "Massive forward lunge.\n\n**Counter:**\n- Roll into the attack\n- Punish during recovery",
+    },
+    {
+      heading: "Fire Explosion Combo",
+      level: 3,
+      content:
+        "Multiple delayed explosions.\n\n**Counter:**\n- Do not panic roll early\n- Wait for full sequence end",
+    },
+    {
+      heading: "Best Damage Windows",
+      level: 2,
+      content:
+        "- After serpent slam recovery\n- After flame dash miss\n- After combo ender explosion",
+    },
+    {
+      heading: "Best Damage Types",
+      level: 2,
+      content:
+        "### Frost\n\n- Strong burst + control\n\n### Bleed\n\n- Effective due to repeated hits",
+    },
+    {
+      heading: "Common Mistakes",
+      level: 2,
+      content:
+        "- Fighting at maximum distance\n- Healing inside fire zones\n- Panic rolling serpent attacks\n- Ignoring delayed timing mechanics",
+    },
+    {
+      heading: "Rewards",
+      level: 2,
+      content:
+        "Defeating Messmer grants:\n\n- Major DLC progression\n- Unique remembrance item\n- Access to deeper Shadow of the Erdtree zones",
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content:
+        "### Is Messmer harder than Malenia?\n\nFor many players, yes due to fire zoning and serpent phase complexity.\n\n### What level should I fight Messmer?\n\nDLC recommended scaling level applies (high endgame level).\n\n### What is Messmer weak to?\n\nFrost and Bleed are most effective.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses", anchorText: "All Boss Guides" },
+    { href: "/elden-ring", anchorText: "Elden Ring Hub" }
+  ]
+};
+
+const extraArticles = [maleniaArticle, buildFeelsWeakArticle, softCapsV2Article, article17, article18, article19, article20, article21, article22, article23, article24];
 
 export default extraArticles;
