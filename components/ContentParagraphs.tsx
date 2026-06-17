@@ -235,8 +235,8 @@ function renderInlineMarkdown(text: string): React.ReactNode {
     );
   }
 
-  // Split on **bold** patterns and `code` and ![alt](src)
-  const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`|!\[[^\]]*\]\([^)]+\))/g);
+  // Split on **bold**, `code`, ![alt](src), and [text](url)
+  const parts = text.split(/(\*\*[^*]+\*\*|`[^`]+`|!\[[^\]]*\]\([^)]+\)|\[[^\]]+\]\([^)]+\))/g);
   return parts.map((part, i) => {
     if (part.startsWith("**") && part.endsWith("**")) {
       return <strong key={i}>{part.slice(2, -2)}</strong>;
@@ -249,6 +249,22 @@ function renderInlineMarkdown(text: string): React.ReactNode {
         >
           {part.slice(1, -1)}
         </code>
+      );
+    }
+    // [text](url) link syntax
+    const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (linkMatch) {
+      const [, linkText, linkHref] = linkMatch;
+      return (
+        <a
+          key={i}
+          href={linkHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#c9a227] hover:text-[#dbb83a] underline underline-offset-2 transition-colors"
+        >
+          {linkText}
+        </a>
       );
     }
     const nestedImg = part.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);

@@ -288,7 +288,7 @@ const buildFeelsWeakArticle: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "If your Elden Ring build feels weak at Level 150, the problem is usually not your level.\n\nIt is your optimization.\n\nMost players gain more power by:\n\n- Increasing Vigor\n- Improving weapon upgrades\n- Choosing better talismans\n- Specializing their stats\n- Understanding scaling\n\nbefore investing additional levels into damage.\n\nThe strongest builds are not always the highest level.\n\nThey are the most efficient.\n\nIf your build feels weak, stop asking how to gain more levels.\n\nStart asking how to gain more value from the levels you already have."
+        "If your Elden Ring build feels weak at Level 150, the problem is usually not your level.\n\nIt is your optimization.\n\nMost players gain more power by:\n\n- Increasing Vigor\n- Improving weapon upgrades\n- Choosing better talismans\n- Specializing their stats\n- Understanding scaling\n\nbefore investing additional levels into damage.\n\nThe strongest builds are not always the highest level.\n\nThey are the most efficient.\n\nIf your build feels weak, stop asking how to gain more levels.\n\nStart asking how to gain more value from the levels you already have. The [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) can show you exactly where your stat points are being wasted."
     }
   ],
   internalLinks: [
@@ -870,7 +870,7 @@ const article19: Article = {
       heading: "",
       level: 2,
       content:
-        "---\n\nIf your character feels weak in Elden Ring, the problem is almost never \"not enough level\".\n\nIn most cases, players are making **fundamental build mistakes** that completely break damage scaling, survivability, or efficiency.\n\nThis guide breaks down the **10 most common build mistakes** and how to fix them.",
+        "---\n\nIf your character feels weak in Elden Ring, the problem is almost never \"not enough level\".\n\nIn most cases, players are making **fundamental build mistakes** that completely break damage scaling, survivability, or efficiency.\n\nThis guide breaks down the **10 most common build mistakes** and how to fix them. Test your current build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to identify inefficiencies before making changes.",
       image: "u=3949170640,2849213860&fm=253&fmt=auto&app=120&f=JPEG.webp",
       imageAlt: "Elden Ring build mistakes stat distribution example",
     },
@@ -984,7 +984,7 @@ const article19: Article = {
       heading: "Final Verdict",
       level: 1,
       content:
-        "Most weak builds in Elden Ring are not under-leveled.\n\nThey are **poorly structured systems**.\n\nOnce you fix:\n\n- Weapon upgrade path  \n- Stat efficiency  \n- Scaling identity  \n- Talisman synergy  \n\nYour damage increases instantly—without needing more levels.",
+        "Most weak builds in Elden Ring are not under-leveled.\n\nThey are **poorly structured systems**.\n\nOnce you fix:\n\n- Weapon upgrade path  \n- Stat efficiency  \n- Scaling identity  \n- Talisman synergy  \n\nYour damage increases instantly—without needing more levels. The [Stat Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) can help you find the optimal stat distribution for any build.",
     },
     {
       heading: "Conclusion",
@@ -1114,7 +1114,7 @@ const article20: Article = {
       heading: "Best Builds Against Malenia",
       level: 2,
       content:
-        "### Bleed Builds\n\nAdvantages:\n\n- High percentage damage\n- Frequent staggers\n- Fast pressure\n\nExcellent for first clears.",
+        "### Bleed Builds\n\nAdvantages:\n\n- High percentage damage\n- Frequent staggers\n- Fast pressure\n\nExcellent for first clears. Fine-tune your build against Malenia with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right stat balance makes a huge difference in this fight.",
     },
     {
       heading: "Frost Builds",
@@ -1833,7 +1833,7 @@ const article23: Article = {
       heading: "Best Builds Against Maliketh",
       level: 2,
       content:
-        "### Bleed Builds\n\nAdvantages:\n\n- Fast health removal\n- Shortens Phase 2\n\nExcellent choice.",
+        "### Bleed Builds\n\nAdvantages:\n\n- Fast health removal\n- Shortens Phase 2\n\nExcellent choice. Test your build against Maliketh's Phase 2 speed with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — survivability matters as much as damage in this fight.",
     },
     {
       heading: "Strength Builds",
