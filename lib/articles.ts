@@ -1,5 +1,8 @@
 // lib/articles.ts — Game article content definitions
 import extraArticles from "./articles1";
+import articles2Articles from "./articles2";
+import articles3Articles from "./articles3";
+import articles4Articles from "./articles4";
 
 export interface ArticleBase {
   slug: string;
@@ -44,6 +47,7 @@ export interface Article extends ArticleBase {
 }
 
 export const articles: Article[] = [
+  ...articles4Articles,
   // ═══ ELDEN RING — BUILDS ═══
   {
     slug: "moonveil-intelligence-build",
@@ -66,7 +70,7 @@ export const articles: Article[] = [
         level: 2,
         content:
           "Many players assume Moonveil is only popular because of its weapon skill.\n\nThat is only part of the story.\n\nMoonveil remains powerful because it solves multiple combat problems simultaneously.\n\nAdvantages include:\n\n- Excellent burst damage\n- Safe ranged attacks\n- Fast recovery animations\n- Strong posture damage\n- Reliable bleed buildup\n- Intelligence scaling for hybrid caster builds\n\nThis flexibility makes Moonveil effective against nearly every enemy type in the game.",
-        image: "elden-ring-moonveil-stats.jpg",
+        image: "moonveil-build-moonveil-weapon.png",
         imageAlt: "Moonveil katana build showcase with Transient Moonlight skill"
       },
       {
@@ -2705,6 +2709,8 @@ export const articles: Article[] = [
   },
 
   ...extraArticles,
+  ...articles2Articles,
+  ...articles3Articles,
 ];
 
 export function getArticlesForGame(

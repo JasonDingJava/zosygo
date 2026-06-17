@@ -1575,12 +1575,13 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500">Weapon Guides</h3>
             <div className="flex flex-wrap gap-2">
               {[
-                { title: "Moonveil Katana Guide", href: "/elden-ring/weapons/moonveil" },
-                { title: "Blasphemous Blade Guide", href: "/elden-ring/weapons/blasphemous-blade" },
-                { title: "Dark Moon Greatsword Guide", href: "/elden-ring/weapons/dark-moon-greatsword" },
-                { title: "River of Blood Guide", href: "/elden-ring/weapons/rivers-of-blood" },
-                { title: "Hand of Malenia Guide", href: "/elden-ring/weapons/hand-of-malenia" },
-                { title: "Sacred Relic Sword Guide", href: "/elden-ring/weapons/sacred-relic-sword" },
+                { title: "Moonveil Katana Guide", href: "/elden-ring/weapons/moonveil-katana-explained" },
+                { title: "Blasphemous Blade Guide", href: "/elden-ring/weapons/blasphemous-blade-explained" },
+                { title: "Dark Moon Greatsword Guide", href: "/elden-ring/weapons/dark-moon-greatsword-explained" },
+                { title: "River of Blood Guide", href: "/elden-ring/weapons/rivers-of-blood-explained" },
+                { title: "Nagakiba Guide", href: "/elden-ring/weapons/nagakiba-explained" },
+                { title: "Bleed Explained", href: "/elden-ring/weapons/bleed-explained" },
+                { title: "Status Effects Explained", href: "/elden-ring/weapons/status-effects-explained" },
                 { title: "All Elden Ring Weapons", href: "/elden-ring/weapons" },
               ].map(function(link) { return (
                 <a key={link.href} href={link.href}
@@ -1596,13 +1597,13 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
             <h3 className="mb-3 text-sm font-semibold uppercase tracking-wider text-gray-500">Stat Guides</h3>
             <div className="flex flex-wrap gap-2">
               {[
-                { title: "Vigor Guide — HP Soft Caps", href: "/elden-ring/guides/vigor-soft-caps" },
-                { title: "Endurance Guide — Equip Load & Stamina", href: "/elden-ring/guides/endurance-equip-load" },
-                { title: "Strength Guide — Two-Handing & Scaling", href: "/elden-ring/guides/strength-scaling" },
-                { title: "Dexterity Guide — Cast Speed & Scaling", href: "/elden-ring/guides/dexterity-cast-speed" },
-                { title: "Intelligence Guide — Sorcery Scaling", href: "/elden-ring/guides/intelligence-sorcery" },
-                { title: "Faith Guide — Incantation Scaling", href: "/elden-ring/guides/faith-incantations" },
-                { title: "Arcane Guide — Bleed & Status Effects", href: "/elden-ring/guides/arcane-bleed" },
+                { title: "Soft Caps Explained", href: "/elden-ring/weapons/soft-caps-explained" },
+                { title: "Weapon Scaling Guide", href: "/elden-ring/walkthroughs/weapon-scaling-guide" },
+                { title: "Poise Explained", href: "/elden-ring/walkthroughs/poise-explained" },
+                { title: "Stance Break Explained", href: "/elden-ring/walkthroughs/stance-break-explained" },
+                { title: "Bleed Explained", href: "/elden-ring/weapons/bleed-explained" },
+                { title: "Status Effects Explained", href: "/elden-ring/weapons/status-effects-explained" },
+                { title: "Best Dexterity Build", href: "/elden-ring/builds/best-dexterity-build" },
               ].map(function(link) { return (
                 <a key={link.href} href={link.href}
                   className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">

@@ -8,7 +8,9 @@ interface ContentParagraphsProps {
 
 export default function ContentParagraphs({ content }: ContentParagraphsProps) {
   // Split content into lines to detect blocks
-  const lines = content.split("\n");
+  // Normalize literal \\n sequences to actual newlines, then split
+  const normalized = content.replace(/\\n/g, "\n");
+  const lines = normalized.split("\n");
   const blocks: React.ReactNode[] = [];
   let currentTable: { headers: string[]; rows: string[][] } | null = null;
   let inTable = false;

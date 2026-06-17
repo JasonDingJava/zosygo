@@ -2,11 +2,45 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import fs from "fs";
+import path from "path";
 import { getLocalizedGame, getLocalizedGames } from "@/lib/getLocalizedGames";
 import { getGameSlugs, CATEGORIES } from "@/lib/games";
 import { getArticleBySlug, getArticlesForGame } from "@/lib/articles";
 import { generateBreadcrumbJsonLd } from "@/lib/seo";
 import ContentParagraphs from "@/components/ContentParagraphs";
+
+// Deterministic random selection based on article slug
+function pickRandomImages(articleSlug: string, count: number): string[] {
+  // Use article slug as seed for deterministic selection
+  let hash = 0;
+  for (let i = 0; i < articleSlug.length; i++) {
+    const chr = articleSlug.charCodeAt(i);
+    hash = ((hash << 5) - hash) + chr;
+    hash |= 0;
+  }
+
+  const imageDir = path.join(process.cwd(), "public", "images", "articles");
+  let files: string[] = [];
+  try {
+    files = fs.readdirSync(imageDir).filter(f => f.match(/\.(jpg|jpeg|png|gif|webp)$/i));
+  } catch {
+    return [];
+  }
+
+  if (files.length === 0) return [];
+
+  // Fisher-Yates shuffle seeded with the hash
+  const shuffled = [...files];
+  let seed = Math.abs(hash);
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    seed = (seed * 16807) % 2147483647;
+    const j = seed % (i + 1);
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+
+  return shuffled.slice(0, Math.min(count, shuffled.length));
+}
 
 type Props = {
   params: Promise<{
@@ -86,6 +120,16 @@ export default async function ArticlePage({ params }: Props) {
   const otherArticles = getArticlesForGame(slug).filter(
     (a) => a.slug !== article.slug
   );
+
+  // Pick 3 random images for articles without manually set images
+  const randomImages = pickRandomImages(article.slug, 3);
+  // Sections that get random images: first, middle, and ~2/3
+  const sectionCount = article.sections.length;
+  const randomImageSectionIndices = [
+    0,
+    Math.floor(sectionCount / 2),
+    Math.floor(sectionCount * 2 / 3),
+  ].filter((idx, pos, arr) => arr.indexOf(idx) === pos); // deduplicate
 
   const siteUrl = "https://zosygo.com";
   const catLabel = category.charAt(0).toUpperCase() + category.slice(1);
@@ -175,8 +219,12 @@ export default async function ArticlePage({ params }: Props) {
         <article className="prose prose-invert prose-zinc max-w-none">
           {article.sections.map((section, i) => {
             const Tag = section.level === 1 ? "h1" : section.level === 2 ? "h2" : "h3";
+            // Show a random image if this section doesn't have a manual image
+            // and its index is in the randomImageSectionIndices list
+            const randomImgIndex = randomImageSectionIndices.indexOf(i);
+            const showRandomImage = randomImgIndex !== -1 && !section.image;
             return (
-              <div key={i} className={section.image ? "mb-10" : ""}>
+              <div key={i} className={section.image || showRandomImage ? "mb-10" : ""}>
                 {section.heading && <div className="mb-2" />}
                 <Tag
                   className={
@@ -195,6 +243,18 @@ export default async function ArticlePage({ params }: Props) {
                     <Image
                       src={`/images/articles/${section.image}`}
                       alt={section.imageAlt || section.heading}
+                      fill
+                      className="object-cover"
+                      sizes="(max-width: 768px) 100vw, 896px"
+                      loading="lazy"
+                    />
+                  </div>
+                )}
+                {showRandomImage && randomImages.length > randomImgIndex && (
+                  <div className="relative mt-4 mb-6 aspect-video w-full overflow-hidden rounded-sm border border-white/10">
+                    <Image
+                      src={`/images/articles/${randomImages[randomImgIndex]}`}
+                      alt={`${article.title} screenshot ${randomImgIndex + 1}`}
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 100vw, 896px"

@@ -758,8 +758,8 @@ const article18: Article = {
       level: 2,
       content:
         "Many players reach mid or late game in Elden Ring and suddenly feel weaker instead of stronger.\n\nThis is confusing because they assume:\n\n> More levels = more damage\n\nBut Elden Ring does not scale that way.\n\nThe game uses a combination of:\n\n- Weapon upgrade scaling  \n- Stat soft caps  \n- Multiplicative buffs  \n- Hidden efficiency curves  \n\nOnce these systems are ignored, damage stagnates.",
-      image: "bloodhound-fang-stats-maxed.jpg",
-      imageAlt: "Elden Ring Bloodhound Fang maxed stats showing weapon scaling",
+      image: "bloodhound-fang-stats.jpg",
+      imageAlt: "Elden Ring Bloodhound Fang stats screen showing weapon scaling",
     },
     {
       heading: "Reason #1: Your Weapon Is Doing Most of the Work (or Not Doing It)",
@@ -1999,6 +1999,219 @@ const article24: Article = {
   ]
 };
 
-const extraArticles = [maleniaArticle, buildFeelsWeakArticle, softCapsV2Article, article17, article18, article19, article20, article21, article22, article23, article24];
+const article25: Article = {
+  slug: "how-to-beat-godfrey",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 9,
+  order: 25,
+  title: "How to Beat Godfrey, First Elden Lord in Elden Ring (2026 Guide)",
+  metaDescription: "Complete Godfrey boss guide covering Phase 1 axe attacks, Hoarah Loux wrestling mechanics, stomp counters, weaknesses, and best strategies.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content: "Godfrey, First Elden Lord, is one of the most important boss fights in Elden Ring.\n\nUnlike many late-game bosses that rely on magic, status effects, or complex gimmicks, Godfrey tests a player's understanding of core combat mechanics.\n\nPositioning, timing, jump dodges, and patience matter far more than raw damage.\n\nMany players enter the fight expecting a traditional knight battle.\n\nInstead, they encounter two completely different bosses in a single encounter.\n\nThe first half is a disciplined warrior wielding a massive axe.\n\nThe second half transforms into Hoarah Loux, a savage grappler capable of killing players in seconds.\n\nUnderstanding this transition is the key to victory."
+    },
+    {
+      heading: "Quick Answer",
+      level: 2,
+      content: "If you're struggling against Godfrey:\n\n* Jump over ground stomps instead of rolling\n* Stay near him during Phase 1\n* Avoid panic rolling during Phase 2\n* Watch for grab attack animations\n* Punish after stomp recovery and combo finishers\n\nMost deaths happen because players treat Hoarah Loux like a normal boss.\n\nHe is not."
+    },
+    {
+      heading: "Boss Overview",
+      level: 2,
+      content: "| Category | Details |\n| ----------------- | ----------------------- |\n| Location | Leyndell, Ashen Capital |\n| Boss Type | Mandatory Story Boss |\n| Recommended Level | 120–140 |\n| Recommended Vigor | 50–60 |\n| Weaknesses | Bleed, Frost |\n| Phases | Godfrey / Hoarah Loux |\n\nGodfrey serves as one of the final skill checks before the end of Elden Ring."
+    },
+    {
+      heading: "Recommended Preparation",
+      level: 2,
+      content: "Before entering the arena:\n\n### Vigor\n\nAim for at least:\n\n* 50 Vigor minimum\n* 60 Vigor recommended\n\nSeveral Phase 2 attacks can instantly punish low-health builds.\n\n### Spirit Ashes\n\nStrong options include:\n\n* Mimic Tear\n* Black Knife Tiche\n\nBoth perform well due to Godfrey's large hitbox.\n\n### Damage Types\n\nThe most effective options are:\n\n* Bleed\n* Frostbite\n\nThese help shorten the dangerous second phase."
+    },
+    {
+      heading: "Understanding Godfrey's Design",
+      level: 2,
+      content: "Many bosses punish panic.\n\nGodfrey punishes hesitation.\n\nThe fight constantly asks one question:\n\nCan you recognize the difference between a roll mechanic and a jump mechanic?\n\nThis becomes especially important against his stomp attacks."
+    },
+    {
+      heading: "Phase 1: Godfrey, First Elden Lord",
+      level: 2,
+      content: "The first phase focuses on:\n\n* Axe attacks\n* Ground shockwaves\n* Area control\n* Delayed timing\n\nMany players dodge too early.\n\nGodfrey is designed to punish that habit."
+    },
+    {
+      heading: "Ground Stomp",
+      level: 3,
+      content: "This is the defining attack of Phase 1.\n\nGodfrey stomps the ground and creates a shockwave.\n\n#### Best Counter\n\nJump.\n\nDo not roll.\n\nJumping avoids the shockwave and often creates a free attack opportunity.\n\n#### Common Mistake\n\nMany players repeatedly roll backward.\n\nThis wastes stamina and often results in additional damage."
+    },
+    {
+      heading: "Axe Slam",
+      level: 3,
+      content: "Godfrey raises his axe high before striking.\n\n#### Best Counter\n\nWait for the downward motion before rolling.\n\nThe attack is intentionally delayed.\n\n#### Punish Window\n\nAfter the slam, Godfrey remains vulnerable briefly.\n\nThis is one of the safest damage opportunities in Phase 1."
+    },
+    {
+      heading: "Multi-Stomp Combo",
+      level: 3,
+      content: "As the fight progresses, Godfrey chains several stomps together.\n\n#### Best Counter\n\nFocus on rhythm.\n\nMost players fail because they react to the first stomp and lose timing on the following attacks."
+    },
+    {
+      heading: "Phase Transition",
+      level: 2,
+      content: "At approximately 50% health, Godfrey abandons his identity as the First Elden Lord.\n\nThe lion Serosh is removed.\n\nThe fight changes completely.\n\nGodfrey becomes Hoarah Loux.\n\nThis is one of the most dramatic transitions in Elden Ring."
+    },
+    {
+      heading: "Phase 2: Hoarah Loux",
+      level: 2,
+      content: "Everything changes.\n\nThe axe disappears.\n\nThe aggression increases dramatically.\n\nHoarah Loux relies on:\n\n* Grabs\n* Rush attacks\n* Area pressure\n* Chain combos\n\nPlayers who succeeded in Phase 1 often die immediately after the transition."
+    },
+    {
+      heading: "Understanding Hoarah Loux Grab Attacks",
+      level: 2,
+      content: "Grab attacks define Phase 2.\n\nThey deal massive damage and frequently kill players outright."
+    },
+    {
+      heading: "Single Grab",
+      level: 3,
+      content: "Hoarah Loux lunges forward.\n\n#### Best Counter\n\nRoll toward his side.\n\nRolling backward often fails because of the attack's reach."
+    },
+    {
+      heading: "Leap Grab",
+      level: 3,
+      content: "One of the most dangerous attacks in the encounter.\n\n#### Tell\n\nHoarah Loux crouches before launching forward.\n\n#### Best Counter\n\nWait.\n\nRoll at the last possible moment.\n\nEarly rolls are heavily punished."
+    },
+    {
+      heading: "Earthshaker Attacks",
+      level: 2,
+      content: "Several attacks create arena-wide shockwaves.\n\n### Best Counter\n\nJump whenever possible.\n\nMany players continue rolling because that worked against earlier bosses.\n\nJumping is often the intended solution."
+    },
+    {
+      heading: "Positioning Strategy",
+      level: 2,
+      content: "Positioning is more important than damage output.\n\n### Phase 1\n\nStay close.\n\nMid-range often triggers additional stomp attacks.\n\n### Phase 2\n\nRemain near Hoarah Loux.\n\nCreating too much distance encourages aggressive gap-closing attacks."
+    },
+    {
+      heading: "Best Damage Windows",
+      level: 2,
+      content: "The safest opportunities occur after:\n\n### Axe Slam Recovery\n\nReliable throughout Phase 1.\n\n### Stomp Recovery\n\nEspecially effective when using jump attacks.\n\n### Grab Misses\n\nLarge punish windows exist after failed grabs in Phase 2.\n\n### Earthshaker Recovery\n\nSeveral seconds of vulnerability can appear after large area attacks."
+    },
+    {
+      heading: "Best Builds Against Godfrey",
+      level: 2,
+      content: "### Bleed Builds\n\nAdvantages:\n\n* Fast damage\n* Excellent Phase 2 performance\n\nRecommended for aggressive players.\n\n### Frost Builds\n\nAdvantages:\n\n* Burst damage\n* Defensive reduction\n\nConsistently effective throughout the fight.\n\n### Strength Builds\n\nAdvantages:\n\n* High stagger potential\n* Strong jump attacks\n\nParticularly useful during stomp punish windows.\n\nFine-tune your Godfrey build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference in Phase 2."
+    },
+    {
+      heading: "Common Mistakes",
+      level: 2,
+      content: "### Rolling Instead of Jumping\n\nThe most common mistake in the fight.\n\nMany shockwaves are intended to be jumped.\n\n### Panic Rolling\n\nGodfrey uses delayed attacks specifically to punish panic rolls.\n\n### Fighting at Long Range\n\nDistance often triggers more dangerous attacks.\n\n### Overcommitting Damage\n\nOne extra attack frequently results in losing an entire attempt."
+    },
+    {
+      heading: "Rewards",
+      level: 2,
+      content: "Defeating Godfrey grants:\n\n* Remembrance of Hoarah Loux\n* Large Rune reward\n* Access to the final sequence of Elden Ring\n\nThis victory marks the beginning of the game's endgame climax."
+    },
+    {
+      heading: "Why Godfrey Is One of Elden Ring's Best Bosses",
+      level: 2,
+      content: "Godfrey succeeds because he rewards mastery of Elden Ring's combat system.\n\nThe fight tests:\n\n* Timing\n* Positioning\n* Jump mechanics\n* Discipline\n\nUnlike bosses that rely on overwhelming spectacle, Godfrey focuses on pure gameplay fundamentals.\n\nPlayers who learn those fundamentals often discover that the fight becomes surprisingly fair."
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic."
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses/how-to-beat-maliketh-black-blade", anchorText: "Maliketh vs Godfrey: Endgame Boss Comparison" },
+    { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Malenia vs Godfrey: Difficulty Comparison" },
+    { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Godfrey" },
+    { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+  ]
+};
+
+
+const article26: Article = {
+  slug: "why-morgott-feels-so-hard",
+  category: "bosses",
+  gameSlug: "elden-ring",
+  difficulty: "beginner",
+  readTimeMinutes: 8,
+  order: 26,
+  title: "Why Morgott Feels So Hard in Elden Ring (And Why You Keep Dodging Too Early)",
+  metaDescription: "Struggling against Morgott? Learn why Morgott's delayed attacks, roll catches, and combo extensions make him one of Elden Ring's most misunderstood bosses.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content: "Many Elden Ring players reach Morgott, the Omen King expecting a familiar fight.\n\nAfter all, they've already defeated Margit.\n\nThe weapon looks similar.\n\nThe arena is similar.\n\nThe animations look familiar.\n\nYet many players suddenly find themselves dying repeatedly.\n\nWhat's happening?\n\nThe answer is surprisingly simple.\n\nMorgott is not a damage check.\n\nHe's a timing check.\n\nMost players lose to Morgott because they react too quickly."
+    },
+    {
+      heading: "The Real Reason Morgott Feels Unfair",
+      level: 2,
+      content: "When players describe Morgott as unfair, they usually point to one thing:\n\n> \"I dodged that.\"\n\nIn reality, they didn't dodge too late.\n\nThey dodged too early.\n\nUnlike many bosses in Elden Ring, Morgott frequently delays his attacks after beginning an animation.\n\nThis creates a mismatch between what players expect and what actually happens.\n\nYour eyes see movement.\n\nYour brain expects impact.\n\nThe impact comes later."
+    },
+    {
+      heading: "Morgott Is Designed to Punish Muscle Memory",
+      level: 2,
+      content: "By the time players reach Leyndell, they have already defeated dozens of bosses.\n\nA habit begins to form.\n\nThe moment a boss moves:\n\n* Roll\n* Roll again\n* Attack\n\nThis works surprisingly well against many early encounters.\n\nMorgott exists specifically to break that habit.\n\nSeveral of his strongest attacks contain intentional pauses.\n\nThe pause is not visual flair.\n\nThe pause is the attack."
+    },
+    {
+      heading: "Understanding Delayed Attacks",
+      level: 2,
+      content: "Most action games teach players to react immediately.\n\nMorgott reverses this expectation.\n\n### What New Players See\n\nSword raised.\n\nRoll.\n\nGet hit.\n\n### What Experienced Players See\n\nSword raised.\n\nWait.\n\nWait.\n\nRoll.\n\nNo damage.\n\nThe difference is often less than half a second.\n\nYet that half second determines the entire fight."
+    },
+    {
+      heading: "The Hidden Trap Behind Morgott's Combos",
+      level: 2,
+      content: "Another reason players struggle is that Morgott rarely commits to predictable combo lengths.\n\nMany bosses have:\n\n* Three attacks\n* Recovery\n* Punish window\n\nMorgott often has:\n\n* Three attacks\n* Possible fourth attack\n* Possible holy weapon summon\n* Possible dagger throw\n\nThis uncertainty causes hesitation.\n\nPlayers attack too soon.\n\nMorgott punishes them immediately."
+    },
+    {
+      heading: "Why Panic Rolling Fails Against Morgott",
+      level: 2,
+      content: "Panic rolling works against some enemies.\n\nIt performs terribly against Morgott.\n\n### The Problem\n\nMost players roll backward repeatedly.\n\nMorgott's attacks are specifically designed to catch retreating movement.\n\nSeveral weapon swings extend farther than expected.\n\nHis holy weapons also cover surprising distances.\n\n### Better Strategy\n\nInstead of retreating constantly:\n\n* Stay close\n* Roll through attacks\n* Circle toward his left side\n\nThis reduces the number of dangerous follow-up attacks you will see."
+    },
+    {
+      heading: "The Mistake Nearly Everyone Makes",
+      level: 2,
+      content: "The biggest mistake is trying to maximize damage.\n\nPlayers finally survive a combo.\n\nThey see an opening.\n\nThey attempt:\n\n* Light attack\n* Light attack\n* Jump attack\n\nThen Morgott starts another sequence.\n\nThe punishment is immediate.\n\nThe fight becomes dramatically easier when you accept a simple rule:\n\nOne safe hit is better than three risky hits."
+    },
+    {
+      heading: "Why Morgott Punishes Healing",
+      level: 2,
+      content: "Many bosses allow healing after distance is created.\n\nMorgott often does not.\n\nThe moment players back away to drink a Flask, Morgott can respond with:\n\n* Holy daggers\n* Gap closers\n* Extended pressure\n\nThis creates the illusion that the boss is reading inputs.\n\nIn reality, he is simply designed to punish predictable behavior.\n\n### Safer Healing Windows\n\nThe best healing opportunities occur:\n\n* After long combo finishers\n* After missed leap attacks\n* During large recovery animations\n\nNever heal simply because you created distance.\n\nHeal because you created time."
+    },
+    {
+      heading: "The Mental Shift That Makes Morgott Easy",
+      level: 2,
+      content: "Most players approach Morgott like a reaction test.\n\nIt is actually a patience test.\n\nThe goal is not:\n\n\"How quickly can I respond?\"\n\nThe goal is:\n\n\"Can I wait long enough to respond correctly?\"\n\nOnce players understand this distinction, the fight changes completely.\n\nThe same attacks that felt impossible suddenly become readable.\n\nThe same combos become predictable.\n\nThe same boss becomes manageable."
+    },
+    {
+      heading: "Best Builds Against Morgott",
+      level: 2,
+      content: "Although timing matters most, some builds perform particularly well.\n\n### Bleed Builds\n\nBleed remains one of the strongest options.\n\nAdvantages include:\n\n* Fast phase progression\n* Consistent damage\n* Shorter exposure to dangerous combos\n\n### Frost Builds\n\nFrost provides:\n\n* Burst damage\n* Additional survivability through defense reduction\n\n### Strength Builds\n\nHeavy weapons perform surprisingly well because Morgott offers several clear punish windows after full combo sequences.\n\nFine-tune your Morgott build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference against his delayed attacks."
+    },
+    {
+      heading: "What Morgott Teaches About Elden Ring",
+      level: 2,
+      content: "Morgott represents a turning point in Elden Ring's design.\n\nBefore Morgott, many encounters can be overcome through aggression.\n\nAfter Morgott, patience becomes essential.\n\nThe fight teaches:\n\n* Delayed reactions\n* Observation\n* Positioning\n* Discipline\n\nThese skills remain valuable throughout the rest of the game.\n\nPlayers who master Morgott often find later bosses significantly easier to understand."
+    },
+    {
+      heading: "FAQ",
+      level: 2,
+      content: "### Why do I keep getting hit by Morgott?\n\nMost players roll too early rather than too late.\n\n### Is Morgott harder than Margit?\n\nYes. Morgott has longer combos, more weapon variations, and stronger punishments.\n\n### What is Morgott's biggest weakness?\n\nBleed and Frost builds perform particularly well.\n\n### Should I stay close or far away?\n\nClose to medium range is generally safer than long range.\n\n### What is the most important lesson for this fight?\n\nStop reacting to movement.\n\nStart reacting to impact."
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick vs Morgott: Boss Comparison" },
+    { href: "/elden-ring/bosses/margit-guide", anchorText: "How to Beat Margit the Fell Omen" },
+    { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "How to Beat Starscourge Radahn" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Morgott" },
+    { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+  ]
+};
+
+const extraArticles = [maleniaArticle, buildFeelsWeakArticle, softCapsV2Article, article17, article18, article19, article20, article21, article22, article23, article24, article25, article26];
 
 export default extraArticles;
