@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Zosygo — Game Guides Hub
+
+SEO-optimized gaming guides site built with Next.js. Covers **Elden Ring** walkthroughs, boss strategies, builds, weapons, and tools.
+
+## Tech Stack
+
+- **Next.js** (App Router, Turbopack)
+- **TypeScript**
+- **Tailwind CSS**
+- **Google AdSense**
+
+## Project Structure
+
+```
+app/
+├── [slug]/                      # Game routes (elden-ring/)
+│   ├── [category]/[article]/    # Article pages (builds/bosses/weapons/walkthroughs)
+│   ├── tools/build-calculator/  # Interactive build calculator
+│   └── page.tsx                 # Game landing page
+lib/
+├── articles.ts                  # Main article export (imports articles1-4)
+├── articles1.ts                 # Articles 1-12
+├── articles2.ts                 # Articles 27-36
+├── articles3.ts                 # Articles 37-46
+└── articles4.ts                 # Articles 47+
+components/
+├── ContentParagraphs.tsx        # Article content renderer (markdown links, tables, line breaks)
+└── ...
+```
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Key Links
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Page | URL |
+|------|-----|
+| Home | [zosygo.com](https://zosygo.com) |
+| Elden Ring Hub | [zosygo.com/elden-ring](https://zosygo.com/elden-ring) |
+| Build Calculator | [zosygo.com/elden-ring/tools/build-calculator](https://zosygo.com/elden-ring/tools/build-calculator) |
+| Builds | [zosygo.com/elden-ring/builds](https://zosygo.com/elden-ring/builds) |
+| Bosses | [zosygo.com/elden-ring/bosses](https://zosygo.com/elden-ring/bosses) |
+| Weapons | [zosygo.com/elden-ring/weapons](https://zosygo.com/elden-ring/weapons) |
+| Walkthroughs | [zosygo.com/elden-ring/walkthroughs](https://zosygo.com/elden-ring/walkthroughs) |
+| All Tools | [zosygo.com/tools](https://zosygo.com/tools) |
 
-## Learn More
+## Deployed on Vercel
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Push to `main` → auto deploys.
