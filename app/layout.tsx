@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zosygo.com"),
+  metadataBase: new URL("https://www.zosygo.com"),
   title: {
     default: "Zosygo — Game Guides Hub",
     template: "%s | Zosygo",
@@ -27,8 +27,8 @@ export const metadata: Metadata = {
   description: "Zosygo is your game guides hub and game wiki for walkthroughs, meta builds, boss strategies, and complete coverage of Elden Ring, GTA 6, Cyberpunk 2077, and more.",
   keywords: ["game guides hub", "game wiki", "walkthroughs", "boss strategies", "game builds", "Elden Ring guide", "GTA 6 guide", "Cyberpunk 2077 guide", "Zosygo"],
   alternates: {
-    canonical: "https://zosygo.com",
-    languages: { "x-default": "https://zosygo.com" },
+    canonical: "https://www.zosygo.com",
+    languages: { "x-default": "https://www.zosygo.com" },
   },
   openGraph: {
     title: "Zosygo — Game Guides Hub",
@@ -36,13 +36,13 @@ export const metadata: Metadata = {
     siteName: "Zosygo",
     locale: "en_US",
     type: "website",
-    images: [{ url: "https://zosygo.com/images/og-default.jpg" }],
+    images: [{ url: "https://www.zosygo.com/images/og-default.jpg" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Zosygo — Game Guides Hub",
     description: "Zosygo is your game guides hub and game wiki for walkthroughs, meta builds, boss strategies, and complete coverage of Elden Ring, GTA 6, Cyberpunk 2077, and more.",
-    images: [{ url: "https://zosygo.com/images/og-default.jpg" }],
+    images: [{ url: "https://www.zosygo.com/images/og-default.jpg" }],
   },
   robots: {
     index: true,

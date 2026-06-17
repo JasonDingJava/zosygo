@@ -5,7 +5,7 @@ import { getAllGames } from "./games";
 // ─── Configuration ──────────────────────────────────────────────────────────
 
 const SITE_NAME = "Zosygo";
-const SITE_URL = "https://zosygo.com";
+const SITE_URL = "https://www.zosygo.com";
 const SITE_DEFAULT_IMAGE = `${SITE_URL}/images/og-default.jpg`;
 
 export function getSiteUrl(path = ""): string {

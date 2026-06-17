@@ -35,12 +35,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title,
     description,
     alternates: {
-      canonical: `https://zosygo.com/${slug}/${category}`,
+      canonical: `https://www.zosygo.com/${slug}/${category}`,
     },
     openGraph: {
       title,
       description,
-      url: `https://zosygo.com/${slug}/${category}`,
+      url: `https://www.zosygo.com/${slug}/${category}`,
       siteName: "Zosygo",
       locale: "en_US",
       type: "website",
@@ -84,7 +84,7 @@ export default async function CategoryPage({ params }: Props) {
   const articles = getArticlesForGame(slug, category);
   const hasArticles = articles.length > 0;
 
-  const siteUrl = "https://zosygo.com";
+  const siteUrl = "https://www.zosygo.com";
   const breadcrumb = [
     { name: "Zosygo", url: siteUrl },
     { name: game.name, url: `${siteUrl}/${slug}` },

@@ -38,7 +38,7 @@ const SITE_FAQ = [
 export default function HomePage() {
   const game = ELDEN_RING;
   const otherGames = getAllGames().filter(g => g.slug !== "elden-ring");
-  const homeUrl = "https://zosygo.com";
+  const homeUrl = "https://www.zosygo.com";
 
   const jsonLdSchemas: any[] = [
     generateHomeJsonLd([game]),

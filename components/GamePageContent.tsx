@@ -26,12 +26,12 @@ export default function GamePageContent({
 
 
 
-  const gameUrl = `https://zosygo.com/${game.slug}`;
+  const gameUrl = `https://www.zosygo.com/${game.slug}`;
 
   const jsonLdSchemas: any[] = [
     generateGameJsonLd(game),
     generateBreadcrumbJsonLd([
-      { name: "Zosygo", url: "https://zosygo.com" },
+      { name: "Zosygo", url: "https://www.zosygo.com" },
       { name: game.name, url: gameUrl },
     ]),
   ];

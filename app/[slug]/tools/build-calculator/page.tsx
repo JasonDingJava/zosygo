@@ -618,7 +618,7 @@ export default function EldenRingBuildCalculator() {
           "@type": "WebApplication",
           name: "Elden Ring Build Calculator",
           description: "Plan and optimize Elden Ring character builds. Real-time stat calculations, weapon AR comparisons, and soft cap analysis.",
-          url: "https://zosygo.com/elden-ring/tools/build-calculator",
+          url: "https://www.zosygo.com/elden-ring/tools/build-calculator",
           applicationCategory: "GameApplication",
           operatingSystem: "Web",
           offers: { "@type": "Offer", price: "0" },

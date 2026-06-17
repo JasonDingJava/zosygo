@@ -86,12 +86,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${article.title} | Zosygo`,
     description: article.metaDescription,
     alternates: {
-      canonical: `https://zosygo.com/${slug}/${article.category}/${article.slug}`,
+      canonical: `https://www.zosygo.com/${slug}/${article.category}/${article.slug}`,
     },
     openGraph: {
       title: article.title,
       description: article.metaDescription,
-      url: `https://zosygo.com/${slug}/${article.category}/${article.slug}`,
+      url: `https://www.zosygo.com/${slug}/${article.category}/${article.slug}`,
       siteName: "Zosygo",
       locale: "en_US",
       type: "article",
@@ -131,7 +131,7 @@ export default async function ArticlePage({ params }: Props) {
     Math.floor(sectionCount * 2 / 3),
   ].filter((idx, pos, arr) => arr.indexOf(idx) === pos); // deduplicate
 
-  const siteUrl = "https://zosygo.com";
+  const siteUrl = "https://www.zosygo.com";
   const catLabel = category.charAt(0).toUpperCase() + category.slice(1);
   const breadcrumb = [
     { name: "Zosygo", url: `${siteUrl}/` },

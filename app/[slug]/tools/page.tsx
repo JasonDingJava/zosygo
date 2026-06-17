@@ -90,13 +90,13 @@ export default function ToolsPage({ params }: { params: Promise<{ slug: string }
           "@type": "WebPage",
           name: "Elden Ring Tools",
           description: "Free Elden Ring tools including Build Calculator, weapon guides, and boss strategy resources.",
-          url: "https://zosygo.com/elden-ring/tools",
+          url: "https://www.zosygo.com/elden-ring/tools",
           breadcrumb: {
             "@type": "BreadcrumbList",
             itemListElement: [
-              { "@type": "ListItem", position: 1, name: "Home", item: "https://zosygo.com" },
-              { "@type": "ListItem", position: 2, name: "Elden Ring", item: "https://zosygo.com/elden-ring" },
-              { "@type": "ListItem", position: 3, name: "Tools", item: "https://zosygo.com/elden-ring/tools" },
+              { "@type": "ListItem", position: 1, name: "Home", item: "https://www.zosygo.com" },
+              { "@type": "ListItem", position: 2, name: "Elden Ring", item: "https://www.zosygo.com/elden-ring" },
+              { "@type": "ListItem", position: 3, name: "Tools", item: "https://www.zosygo.com/elden-ring/tools" },
             ],
           },
         },

@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://zosygo.com/sitemap.xml",
+    sitemap: "https://www.zosygo.com/sitemap.xml",
   };
 }

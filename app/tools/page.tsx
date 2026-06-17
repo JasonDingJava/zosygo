@@ -25,8 +25,8 @@ export default function ToolsHubPage() {
 
   const jsonLdSchemas = [
     generateBreadcrumbJsonLd([
-      { name: "Zosygo", url: "https://zosygo.com" },
-      { name: "Game Tools", url: "https://zosygo.com/tools" },
+      { name: "Zosygo", url: "https://www.zosygo.com" },
+      { name: "Game Tools", url: "https://www.zosygo.com/tools" },
     ]),
   ];
 
