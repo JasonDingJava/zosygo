@@ -45,6 +45,18 @@ export const ALL_WEAPON_SLUGS = Object.keys(ALL_WEAPONS).sort(
 );
 
 // Weapon type categories
+export const TYPE_NAME_MAP: Record<string, string> = {
+  Type13: "Katana",
+  Type15: "Thrusting Sword",
+  Type17: "Axe",
+  Type21: "Hammer",
+  Type23: "Great Hammer",
+  Type24: "Flail",
+  Type28: "Great Spear",
+  Type61: "Sacred Seal",
+  Type87: "Torch",
+};
+
 export const WEAPON_CATEGORIES: Record<string, string[]> = {};
 for (const slug of ALL_WEAPON_SLUGS) {
   const w = ALL_WEAPONS[slug];
@@ -189,7 +201,7 @@ export function calculateWeaponAR(
           if (!scalingFactor) continue;
 
           const upgScalingMult = getUpgradeScalingMult(weapon.reinforceTypeId, upgradeLevel, attrKey);
-          const effectiveScaling = scalingFactor * upgScalingMult;
+          const effectiveScaling = (scalingFactor / 100) * upgScalingMult;
 
           const statValue = attrKey === "str" ? effectiveStr : stats[attrKey as keyof typeof stats];
 

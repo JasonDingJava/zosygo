@@ -850,7 +850,7 @@ const article50: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What does Bleed do in Elden Ring?\n\nBleed applies Hemorrhage, causing a large burst of damage when buildup reaches its threshold.\n\n### Does Arcane increase Bleed?\n\nYes, but only on weapons that scale with Arcane.\n\n### What is the best bleed weapon?\n\nPopular choices include Rivers of Blood, Nagakiba, Reduvia, and Eleonora's Poleblade.\n\n### Is Blood or Occult better?\n\nBlood generally provides faster buildup, while Occult often provides higher late-game damage.\n\n### Is Bleed still strong after patches?\n\nYes. Bleed remains one of the strongest status effects in Elden Ring and Shadow of the Erdtree.",
+        "### What does Bleed do in Elden Ring?\n\nBleed applies Hemorrhage, causing a large burst of damage when buildup reaches its threshold.\n\n### Does Arcane increase Bleed?\n\nYes, but only on weapons that scale with Arcane.\n\n### What is the best bleed weapon?\n\nPopular choices include Rivers of Blood, Nagakiba, Reduvia, and Eleonora's Poleblade.\n\n### Is Blood or Occult better?\n\nBlood generally provides faster buildup, while Occult often provides higher late-game damage.\n\n### Is Bleed still strong after patches?\n\nYes. Bleed remains one of the strongest status effects in Elden Ring and Shadow of the Erdtree.\n\nCompare the raw damage of different bleed weapons side by side with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -860,6 +860,7 @@ const article50: Article = {
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
     { href: "/elden-ring/builds/best-arcane-build", anchorText: "Best Arcane Build" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ],
 };
 
@@ -1160,7 +1161,7 @@ const article51: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is the strongest status effect in Elden Ring?\n\nBleed is generally considered the strongest due to percentage-based damage.\n\n### Does Arcane affect all status effects?\n\nNo. It mainly affects Bleed and some Poison/Madness setups.\n\n### Can status effects stack?\n\nYes. Multiple different statuses can be applied simultaneously.\n\n### Is Frost better than Bleed?\n\nThey serve different roles. Bleed is burst damage, Frost is debuff + burst hybrid.\n\n### Are status effects good in DLC?\n\nYes, but they require better optimization due to higher enemy resistance.",
+        "### What is the strongest status effect in Elden Ring?\n\nBleed is generally considered the strongest due to percentage-based damage.\n\n### Does Arcane affect all status effects?\n\nNo. It mainly affects Bleed and some Poison/Madness setups.\n\n### Can status effects stack?\n\nYes. Multiple different statuses can be applied simultaneously.\n\n### Is Frost better than Bleed?\n\nThey serve different roles. Bleed is burst damage, Frost is debuff + burst hybrid.\n\n### Are status effects good in DLC?\n\nYes, but they require better optimization due to higher enemy resistance.\n\nSee how each status effect weapon's Attack Rating compares with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1169,6 +1170,7 @@ const article51: Article = {
     { href: "/elden-ring/weapons/dark-moon-greatsword-explained", anchorText: "Dark Moon Greatsword Guide" },
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
     { href: "/elden-ring/builds/best-arcane-build", anchorText: "Best Arcane Build" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
   ],
 };

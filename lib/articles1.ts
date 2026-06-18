@@ -315,7 +315,7 @@ const softCapsV2Article: Article = {
       heading: "",
       level: 2,
       content:
-        "One of the biggest mistakes Elden Ring players make is assuming that more stats always mean more power.\n\nThe logic seems obvious:\n\n- More Strength should mean more damage\n- More Intelligence should mean stronger spells\n- More Vigor should mean better survivability\n\nWhile technically true, Elden Ring uses a hidden system called **soft caps**.\n\nOnce you pass these points, additional stat investment becomes less efficient.\n\nFor many players, this is the reason their Level 150 build feels weaker than expected."
+        "One of the biggest mistakes Elden Ring players make is assuming that more stats always mean more power.\n\nThe logic seems obvious:\n\n- More Strength should mean more damage\n- More Intelligence should mean stronger spells\n- More Vigor should mean better survivability\n\nWhile technically true, Elden Ring uses a hidden system called **soft caps**.\n\nOnce you pass these points, additional stat investment becomes less efficient.\n\nFor many players, this is the reason their Level 150 build feels weaker than expected.\n\nSee how different stat allocations affect your weapon's damage with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
     },
     {
       heading: "What Is a Soft Cap?",
@@ -593,10 +593,10 @@ const softCapsV2Article: Article = {
     { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Soft Caps vs Malenia" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Compare Weapon AR" },
   ]
 };
-
 
 const article17: Article = {
   slug: "elden-ring-damage-scaling-explained",

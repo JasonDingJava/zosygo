@@ -626,7 +626,7 @@ const article31: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Blasphemous Blade good for the entire game?\n\nYes. It remains strong from mid game through end game.\n\n### Do I need Faith for Blasphemous Blade?\n\nYes. Faith significantly improves skill effectiveness.\n\n### Is Blasphemous Blade better than Bloodhound's Fang?\n\nThey serve different roles. Blasphemous Blade is sustain-focused, Bloodhound's Fang is mobility-focused.\n\n### Why is Blasphemous Blade so popular?\n\nBecause it combines damage, healing, and safety into one weapon.\n\n### Is it worth upgrading?\n\nYes. It scales very well with investment.",
+        "### Is Blasphemous Blade good for the entire game?\n\nYes. It remains strong from mid game through end game.\n\n### Do I need Faith for Blasphemous Blade?\n\nYes. Faith significantly improves skill effectiveness.\n\n### Is Blasphemous Blade better than Bloodhound's Fang?\n\nThey serve different roles. Blasphemous Blade is sustain-focused, Bloodhound's Fang is mobility-focused.\n\n### Why is Blasphemous Blade so popular?\n\nBecause it combines damage, healing, and safety into one weapon.\n\n### Is it worth upgrading?\n\nYes. It scales very well with investment.\n\nCompare Blasphemous Blade's raw damage against other greatswords with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -636,6 +636,7 @@ const article31: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Faith/Strength Builds" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ]
 };
 
@@ -762,7 +763,7 @@ const article32: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Rivers of Blood still good after nerfs?\n\nYes. It remains one of the strongest bleed weapons in PvE.\n\n### Do I need Arcane for Rivers of Blood?\n\nYes. Arcane significantly improves bleed performance.\n\n### Is Rivers of Blood better than Moonveil?\n\nThey serve different roles. Rivers of Blood is bleed pressure, Moonveil is magic burst.\n\n### Why do people say it is overpowered?\n\nBecause Corpse Piler stacks bleed extremely quickly.\n\n### Is it good for bosses?\n\nYes. It excels against high HP bosses due to bleed scaling.",
+        "### Is Rivers of Blood still good after nerfs?\n\nYes. It remains one of the strongest bleed weapons in PvE.\n\n### Do I need Arcane for Rivers of Blood?\n\nYes. Arcane significantly improves bleed performance.\n\n### Is Rivers of Blood better than Moonveil?\n\nThey serve different roles. Rivers of Blood is bleed pressure, Moonveil is magic burst.\n\n### Why do people say it is overpowered?\n\nBecause Corpse Piler stacks bleed extremely quickly.\n\n### Is it good for bosses?\n\nYes. It excels against high HP bosses due to bleed scaling.\n\nSee how Rivers of Blood's damage compares to other katanas at different upgrade levels with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -771,6 +772,7 @@ const article32: Article = {
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
     { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Rivers of Blood vs Malenia" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
   ]
 };
@@ -892,7 +894,7 @@ const article33: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Moonveil still good in 2026?\n\nYes. It remains one of the strongest Intelligence weapons in the game.\n\n### Do I need Intelligence for Moonveil?\n\nYes. Intelligence significantly increases its magic damage output.\n\n### Is Moonveil better than Rivers of Blood?\n\nThey serve different roles. Moonveil is magic burst, Rivers of Blood is bleed stacking.\n\n### Where do I get Moonveil?\n\nIt is dropped by the Magma Wyrm boss in Gael Tunnel.\n\n### Why is Moonveil so popular?\n\nBecause it gives Intelligence builds fast, reliable burst damage without casting delay.",
+        "### Is Moonveil still good in 2026?\n\nYes. It remains one of the strongest Intelligence weapons in the game.\n\n### Do I need Intelligence for Moonveil?\n\nYes. Intelligence significantly increases its magic damage output.\n\n### Is Moonveil better than Rivers of Blood?\n\nThey serve different roles. Moonveil is magic burst, Rivers of Blood is bleed stacking.\n\n### Where do I get Moonveil?\n\nIt is dropped by the Magma Wyrm boss in Gael Tunnel.\n\n### Why is Moonveil so popular?\n\nBecause it gives Intelligence builds fast, reliable burst damage without casting delay.\n\nCheck Moonveil's magic damage breakdown against other Intelligence weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -900,6 +902,7 @@ const article33: Article = {
     { href: "/elden-ring/weapons/bloodhounds-fang-explained", anchorText: "Moonveil vs Bloodhound's Fang" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Builds" },
     { href: "/elden-ring/bosses/rennala-explained-hidden-mechanics", anchorText: "Moonveil vs Rennala" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/bosses/how-to-beat-godfrey", anchorText: "Moonveil vs Godfrey" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
   ]
@@ -1028,13 +1031,14 @@ const article34: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Dark Moon Greatsword good in late game?\n\nYes. It scales extremely well into endgame content.\n\n### Do I need Intelligence for this weapon?\n\nYes. Intelligence is its primary scaling stat.\n\n### Is it better than Moonveil?\n\nThey serve different roles. Moonveil is fast burst, Dark Moon Greatsword is charged ranged scaling.\n\n### How do I get Dark Moon Greatsword?\n\nIt is obtained after completing Ranni's questline.\n\n### Why is it so popular?\n\nBecause it combines Frostbite, ranged pressure, and Intelligence scaling into one weapon system.",
+        "### Is Dark Moon Greatsword good in late game?\n\nYes. It scales extremely well into endgame content.\n\n### Do I need Intelligence for this weapon?\n\nYes. Intelligence is its primary scaling stat.\n\n### Is it better than Moonveil?\n\nThey serve different roles. Moonveil is fast burst, Dark Moon Greatsword is charged ranged scaling.\n\n### How do I get Dark Moon Greatsword?\n\nIt is obtained after completing Ranni's questline.\n\n### Why is it so popular?\n\nBecause it combines Frostbite, ranged pressure, and Intelligence scaling into one weapon system.\n\nSee how Dark Moon Greatsword's frostbite damage stacks up against other Intelligence greatswords with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
     { href: "/elden-ring/weapons/moonveil-katana-explained", anchorText: "Moonveil vs Dark Moon Greatsword" },
     { href: "/elden-ring/weapons/bloodhounds-fang-explained", anchorText: "Bloodhound's Fang vs Dark Moon Greatsword" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Builds" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/bosses/how-to-beat-fire-giant", anchorText: "Best Weapons for Fire Giant" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
@@ -1170,12 +1174,13 @@ const article35: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Nagakiba better than Uchigatana?\n\nIn most PvE situations, yes, due to longer range.\n\n### Is Nagakiba good for bleed builds?\n\nYes, especially with Arcane infusion or Seppuku.\n\n### Can Nagakiba carry the entire game?\n\nYes. It remains viable from early to late game.\n\n### Is Nagakiba good in PvP?\n\nYes. Its range advantage is extremely valuable in duels.\n\n### Why is Nagakiba so popular?\n\nBecause it combines katana speed with extended reach consistency.",
+        "### Is Nagakiba better than Uchigatana?\n\nIn most PvE situations, yes, due to longer range.\n\n### Is Nagakiba good for bleed builds?\n\nYes, especially with Arcane infusion or Seppuku.\n\n### Can Nagakiba carry the entire game?\n\nYes. It remains viable from early to late game.\n\n### Is Nagakiba good in PvP?\n\nYes. Its range advantage is extremely valuable in duels.\n\n### Why is Nagakiba so popular?\n\nBecause it combines katana speed with extended reach consistency.\n\nCompare Nagakiba's damage output with different infusions using the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
     { href: "/elden-ring/weapons/rivers-of-blood-explained", anchorText: "Nagakiba vs Rivers of Blood" },
     { href: "/elden-ring/weapons/moonveil-katana-explained", anchorText: "Nagakiba vs Moonveil" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Builds" },
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Builds" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Nagakiba vs Malenia" },

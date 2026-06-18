@@ -858,7 +858,7 @@ const article42: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is weapon scaling in Elden Ring?\n\nWeapon scaling determines how much bonus damage a weapon gains from your attributes.\n\n### Is S scaling always better than A scaling?\n\nNo. Base damage, weapon type, and upgrade level still matter.\n\n### What is the best scaling stat?\n\nThere is no universal best stat. The correct stat depends on the weapon.\n\n### Does upgrading increase scaling?\n\nYes. Upgrading usually improves both base damage and scaling values.\n\n### Should I level stats or upgrade weapons first?\n\nIn most cases, upgrading weapons provides larger damage increases than leveling attributes.",
+        "### What is weapon scaling in Elden Ring?\n\nWeapon scaling determines how much bonus damage a weapon gains from your attributes.\n\n### Is S scaling always better than A scaling?\n\nNo. Base damage, weapon type, and upgrade level still matter.\n\n### What is the best scaling stat?\n\nThere is no universal best stat. The correct stat depends on the weapon.\n\n### Does upgrading increase scaling?\n\nYes. Upgrading usually improves both base damage and scaling values.\n\n### Should I level stats or upgrade weapons first?\n\nIn most cases, upgrading weapons provides larger damage increases than leveling attributes.\n\nSee the exact damage numbers for each weapon and scaling combination with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -868,6 +868,7 @@ const article42: Article = {
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Scaling" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ],
 };
 

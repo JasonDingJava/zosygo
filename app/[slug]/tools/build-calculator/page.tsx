@@ -1583,6 +1583,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                 { title: "Bleed Explained", href: "/elden-ring/weapons/bleed-explained" },
                 { title: "Status Effects Explained", href: "/elden-ring/weapons/status-effects-explained" },
                 { title: "All Elden Ring Weapons", href: "/elden-ring/weapons" },
+                { title: "Weapon AR Calculator", href: "/elden-ring/tools/weapon-ar-calculator" },
               ].map(function(link) { return (
                 <a key={link.href} href={link.href}
                   className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">
@@ -1604,6 +1605,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                 { title: "Bleed Explained", href: "/elden-ring/weapons/bleed-explained" },
                 { title: "Status Effects Explained", href: "/elden-ring/weapons/status-effects-explained" },
                 { title: "Best Dexterity Build", href: "/elden-ring/builds/best-dexterity-build" },
+                { title: "Weapon AR Calculator", href: "/elden-ring/tools/weapon-ar-calculator" },
               ].map(function(link) { return (
                 <a key={link.href} href={link.href}
                   className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">

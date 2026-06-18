@@ -17,6 +17,12 @@ const GAME_TOOLS: Record<string, { name: string; description: string; href: stri
       href: "/elden-ring/tools/build-calculator",
       icon: "⚔️",
     },
+    {
+      name: "Weapon AR Calculator",
+      description: "Compare Attack Rating across all 123 weapons. Adjust stats, upgrade level, and see scaling breakdown instantly.",
+      href: "/elden-ring/tools/weapon-ar-calculator",
+      icon: "🗡️",
+    },
   ],
 };
 

@@ -12,10 +12,10 @@ const GAME_TOOLS: Record<string, { name: string; description: string; href: stri
       icon: "⚔️",
     },
     {
-      name: "Weapon Finder",
-      description: "Find weapons by stat requirements, damage type, and scaling. Coming soon.",
-      href: "#",
-      icon: "🔍",
+      name: "Weapon AR Calculator",
+      description: "Compare Attack Rating across all weapons. Set stats, upgrade level, and see scaling breakdown.",
+      href: "/elden-ring/tools/weapon-ar-calculator",
+      icon: "⚔️",
     },
     {
       name: "Boss Weakness Finder",
@@ -49,11 +49,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const FAQ = [
   {
     q: "What Elden Ring tools are available?",
-    a: "Currently the Elden Ring Build Calculator is live. Weapon Finder and Boss Weakness Finder are coming soon. The Build Calculator supports 123 weapons, all starting classes, and game-accurate stat calculations.",
+    a: "Two tools are live: the Elden Ring Build Calculator for full character planning (stats, weapons, armor, talismans) and the Weapon AR Calculator for comparing 123 weapons' Attack Rating side by side. More tools coming soon.",
   },
   {
     q: "Is the Elden Ring Build Calculator accurate?",
-    a: "Yes. The calculator uses game-accurate formulas for HP, FP, Stamina, equip load, and weapon Attack Rating. Soft caps and stat scaling match Elden Ring's actual in-game calculations.",
+    a: "Yes. The Build Calculator uses game-accurate formulas for HP, FP, Stamina, equip load, and weapon Attack Rating. The Weapon AR Calculator uses the same engine for weapon damage calculations. Soft caps and stat scaling match Elden Ring's actual in-game calculations.",
   },
   {
     q: "How do I use the Build Calculator?",
@@ -66,6 +66,7 @@ const FAQ = [
 ];
 
 const RELATED_GUIDES = [
+  { title: "Weapon AR Calculator", href: "/elden-ring/tools/weapon-ar-calculator" },
   { title: "Best Dexterity Build", href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build" },
   { title: "Moonveil Intelligence Build", href: "/elden-ring/builds/moonveil-intelligence-build" },
   { title: "Elden Ring Builds", href: "/elden-ring/builds" },
