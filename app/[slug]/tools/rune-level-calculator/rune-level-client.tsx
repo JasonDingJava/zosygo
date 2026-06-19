@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useCallback } from "react";
 
 // ─── Rune cost table ───
 
@@ -41,6 +41,7 @@ const FARMING_METHODS = [
 ];
 
 const TARGET_PRESETS = [125, 150, 200];
+const TARGET_PRESETS_FULL = [50, 100, 125, 150, 200, 300, 713];
 const MILESTONES = [100, 125, 150, 200];
 
 // ─── Section ───
@@ -60,6 +61,10 @@ export default function RuneLevelClient() {
   const [currentLevel, setCurrentLevel] = useState(80);
   const [targetLevel, setTargetLevel] = useState(150);
   const [farmingIndex, setFarmingIndex] = useState(0);
+  const [copied, setCopied] = useState(false);
+
+  const costToNext = useMemo(() => (currentLevel >= MAX_LEVEL ? 0 : costForLevel(currentLevel)), [currentLevel]);
+  const costToMax = useMemo(() => (currentLevel >= MAX_LEVEL ? 0 : totalCost(currentLevel, MAX_LEVEL)), [currentLevel]);
 
   const costToTarget = useMemo(
     () => (targetLevel <= currentLevel ? 0 : totalCost(currentLevel, targetLevel)),
@@ -74,6 +79,32 @@ export default function RuneLevelClient() {
       })),
     [currentLevel],
   );
+
+  const costCurveData = useMemo(() => {
+    const points: { level: number; cost: number }[] = [];
+    for (let lv = 1; lv <= MAX_LEVEL; lv += 5) points.push({ level: lv, cost: costForLevel(lv) });
+    return points;
+  }, []);
+
+  const maxPerLevel = Math.max(...costCurveData.map((p) => p.cost), 1);
+  const progressPct = (currentLevel / MAX_LEVEL) * 100;
+
+  const shareUrl = useMemo(() => {
+    const params = new URLSearchParams();
+    if (currentLevel !== 80) params.set("current", String(currentLevel));
+    if (targetLevel !== 150) params.set("target", String(targetLevel));
+    const qs = params.toString();
+    const base = "https://www.zosygo.com/elden-ring/tools/rune-level-calculator";
+    return qs ? `${base}?${qs}` : base;
+  }, [currentLevel, targetLevel]);
+
+  const handleCopy = useCallback(async () => {
+    try {
+      await navigator.clipboard.writeText(shareUrl);
+    } catch {}
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  }, [shareUrl]);
 
   const farmingMethod = FARMING_METHODS[farmingIndex];
   const farmingRuns = farmingMethod ? Math.ceil(costToTarget / farmingMethod.runesPerRun) : 0;
@@ -125,37 +156,101 @@ export default function RuneLevelClient() {
         </Section>
       </div>
 
-      {/* ═══ Result + Quick Targets ═══ */}
-      <div className="mb-6 grid gap-4 sm:grid-cols-5">
-        <div className="col-span-3 rounded-lg border border-gray-800 bg-gray-900/60 p-4 text-center">
-          <div className="text-xs text-gray-500">Required Runes</div>
-          <div className="mt-1 text-3xl font-bold text-yellow-400">
+      {/* ═══ Progress Bar ═══ */}
+      <Section title="Level Progress" className="mb-6">
+        <div className="flex items-center gap-3">
+          <span className="text-xs text-gray-500">Lv 1</span>
+          <div className="h-3 flex-1 overflow-hidden rounded-full bg-gray-800">
+            <div
+              className="h-full rounded-full bg-gradient-to-r from-green-500 via-yellow-500 to-purple-500 transition-all"
+              style={{ width: `${progressPct}%` }}
+            />
+          </div>
+          <span className="text-xs text-gray-500">Lv 713</span>
+        </div>
+        <div className="mt-1 text-center text-xs text-gray-600">Current: Level {currentLevel}</div>
+      </Section>
+
+      {/* ═══ Results Grid ═══ */}
+      <div className="mb-6 grid gap-4 sm:grid-cols-3">
+        <div className="rounded-lg border border-gray-800 bg-gray-900/60 p-4 text-center">
+          <div className="text-xs text-gray-500">Runes to Next Level</div>
+          <div className="mt-1 text-xl font-bold text-green-400">{currentLevel >= MAX_LEVEL ? "MAX" : fmtRunes(costToNext)}</div>
+          <div className="mt-0.5 text-[10px] text-gray-600">
+            Level {currentLevel} → {currentLevel + 1}
+          </div>
+        </div>
+        <div className="rounded-lg border border-gray-800 bg-gray-900/60 p-4 text-center">
+          <div className="text-xs text-gray-500">Runes to Target</div>
+          <div className="mt-1 text-2xl font-bold text-yellow-400">
             {targetLevel <= currentLevel ? "—" : fmtRunes(costToTarget)}
           </div>
-          <div className="mt-0.5 text-xs text-gray-600">
+          <div className="mt-0.5 text-[10px] text-gray-600">
             Level {currentLevel} → {targetLevel}
           </div>
         </div>
+        <div className="rounded-lg border border-gray-800 bg-gray-900/60 p-4 text-center">
+          <div className="text-xs text-gray-500">Runes to Max (713)</div>
+          <div className="mt-1 text-xl font-bold text-purple-400">{currentLevel >= MAX_LEVEL ? "MAX" : fmtRunes(costToMax)}</div>
+          <div className="mt-0.5 text-[10px] text-gray-600">{((currentLevel / MAX_LEVEL) * 100).toFixed(1)}% complete</div>
+        </div>
+      </div>
 
-        <div className="col-span-2 flex flex-col gap-2">
-          {TARGET_PRESETS.map((t) => (
+      {/* ═══ Quick Targets ═══ */}
+      <Section title="Quick Targets" className="mb-6">
+        <div className="flex flex-wrap gap-2">
+          {TARGET_PRESETS_FULL.map((t) => (
             <button
               key={t}
               onClick={() => setTargetLevel(t)}
-              className={`rounded border px-3 py-2 text-center text-sm font-semibold transition ${
+              className={`rounded border px-3 py-1.5 text-xs transition ${
                 targetLevel === t
                   ? "border-yellow-600 bg-yellow-900/20 text-yellow-300"
                   : "border-gray-800 bg-gray-800/50 text-gray-400 hover:border-gray-600 hover:text-gray-200"
               }`}
             >
-              RL{t}
-              <span className="ml-2 opacity-60 text-xs">
-                {currentLevel >= t ? "✓" : fmtRunes(totalCost(currentLevel, t))}
+              Lv {t}{" "}
+              <span className="ml-1 opacity-60">
+                {currentLevel >= t ? "✓" : `(${fmtRunes(totalCost(currentLevel, t))})`}
               </span>
             </button>
           ))}
         </div>
-      </div>
+      </Section>
+
+      {/* ═══ Cost Curve Chart ═══ */}
+      <Section title="Cost Per Level Curve" className="mb-6">
+        <div className="relative h-48 w-full">
+          <div className="absolute -left-1 top-0 text-[10px] text-gray-600">{fmtRunes(maxPerLevel)}</div>
+          <div className="absolute -left-1 bottom-0 text-[10px] text-gray-600">0</div>
+          <div className="ml-12 flex h-full items-end gap-px">
+            {costCurveData.map((point, i) => {
+              const h = (point.cost / maxPerLevel) * 100;
+              const isCurrentRange = point.level >= currentLevel && point.level < targetLevel;
+              return (
+                <div
+                  key={i}
+                  className="flex-1 rounded-t transition-all"
+                  style={{
+                    height: `${Math.max(h, 0.5)}%`,
+                    backgroundColor: isCurrentRange ? "rgb(250 204 21 / 0.6)" : "rgb(75 85 99 / 0.4)",
+                  }}
+                  title={`Level ${point.level}: ${fmtRunes(point.cost)} runes`}
+                />
+              );
+            })}
+          </div>
+        </div>
+        <div className="mt-2 flex justify-between text-[10px] text-gray-600">
+          <span>Level 1</span>
+          <span>Level 713</span>
+        </div>
+        <div className="mt-1 text-center text-xs text-gray-600">
+          <span className="inline-block h-2 w-2 rounded-sm bg-yellow-400/60" /> Selected range ({currentLevel} →{" "}
+          {targetLevel})
+          <span className="ml-3 inline-block h-2 w-2 rounded-sm bg-gray-600/40" /> Other levels
+        </div>
+      </Section>
 
       {/* ═══ Milestones ═══ */}
       <Section title="Level Milestones" className="mb-6">
@@ -276,6 +371,24 @@ export default function RuneLevelClient() {
           >
             Open Build Calculator →
           </a>
+        </div>
+      </Section>
+
+      {/* ═══ URL Share ═══ */}
+      <Section title="Share Build" className="mb-6">
+        <div className="flex items-center gap-2">
+          <input
+            type="text"
+            readOnly
+            value={shareUrl}
+            className="flex-1 rounded bg-gray-800 px-3 py-2 text-xs text-gray-400 outline-none"
+          />
+          <button
+            onClick={handleCopy}
+            className="shrink-0 rounded bg-yellow-700 px-4 py-2 text-xs font-semibold text-yellow-200 transition hover:bg-yellow-600"
+          >
+            {copied ? "Copied!" : "Copy URL"}
+          </button>
         </div>
       </Section>
 
