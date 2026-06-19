@@ -250,7 +250,7 @@ export const articles: Article[] = [
     { heading: "Weapon Loadout and Talisman Synergy", level: 2, content: "Left hand Rivers of Blood +10, Right hand Uchigatana +25 with Seppuku (Blood affinity). Seppuku adds 30 bleed buildup per weapon for 60s. White Mask +10% attack on bleed proc. Lord of Blood's Exultation +20% attack for 20s after bleed. Stack: 1.1 x 1.2 = 32% increase. Talismans: Lord of Blood's Exultation, Shard of Alexander, Claw Talisman, Dragoncrest Greatshield. Rotational priority: Seppuku > jump L1 > Corpse Piler when bleed procs." },
     { heading: "Progression Path", level: 2, content: "Early (1-40): Samurai start, dual Uchigatanas with Bloody Slash. Focus VGR 25, DEX 30. Mid (40-80): Yura questline for RoB, farm White Mask at Mohgwyn. DEX 40, VGR 35. Late (80-150): DEX 55, ARC 45. Carry Cold-infused Zweihander +25 for Radagon/Elden Beast." },
     { heading: "Three-Way Comparison", level: 2, content: "Bleed build: 3500 DPS vs bleedable bosses. Bloodhound: 2400 DPS consistent. Moonveil: 2800 DPS with range safety. Malenia kill times: bleed 18s, Moonveil 60-80s, Bloodhound 90+s. First playthrough pick: Bloodhound. Boss rush pick: bleed." },
-    { heading: "Common Mistakes", level: 2, content: "(1) Not using Seppuku before boss fights. (2) Dual RoB instead of RoB + Seppuku Uchi. (3) No Dragoncrest Greatshield - one mistake kills. (4) No backup for bleed-immune bosses. (5) Spamming Corpse Piler instead of jump L1s - jump L1s stagger in 3-4 hits. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)." }
+    { heading: "Common Mistakes", level: 2, content: "(1) Not using Seppuku before boss fights. (2) Dual RoB instead of RoB + Seppuku Uchi. (3) No Dragoncrest Greatshield - one mistake kills. (4) No backup for bleed-immune bosses. (5) Spamming Corpse Piler instead of jump L1s - jump L1s stagger in 3-4 hits." }
   ],
   internalLinks: [
       { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
@@ -286,7 +286,7 @@ export const articles: Article[] = [
     },
     { heading: "Phase 2 - The Grafted Dragon", level: 2, content: "At 60% HP he grafts dragon head. New moves: (1) Fire breath cone - sprint BEHIND him. (2) Dragon bite lunge - roll INTO it. (3) Fire tornado - run to max range, dont punish. (4) Ground fire lines - stand between lines. Key: stay behind him always in phase 2. Punish only after fire breath and bite lunge." },
     { heading: "Recommended Builds vs Godrick", level: 2, content: "Best: Large Club (strike damage), Bloodhound's Fang (bleed), Claymore with Lightning. Worst: holy weapons. Best summons: Nepheli Loux (sign outside fog gate). Best spells: Lightning Spear, Rock Sling. Use Dragoncrest Shield +1 for fire resist in phase 2." },
-    { heading: "Common Mistakes", level: 2, content: "(1) Staying in front in phase 2 - get behind him. (2) Rolling through tornado - run away. (3) Not using Nepheli Loux. (4) Fighting before collecting Stormveil Golden Seeds. (5) Using holy damage. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)." }
+    { heading: "Common Mistakes", level: 2, content: "(1) Staying in front in phase 2 - get behind him. (2) Rolling through tornado - run away. (3) Not using Nepheli Loux. (4) Fighting before collecting Stormveil Golden Seeds. (5) Using holy damage." }
   ],
   internalLinks: [
       { href: "/elden-ring/bosses/godrick-phase-2-guide", anchorText: "Godrick Phase 2 Guide" },
@@ -499,7 +499,7 @@ export const articles: Article[] = [
         heading: "Next Step",
         level: 2,
         content:
-          "After Margit, your immediate priorities should be exploring Stormveil Castle and then the Liurnia region beyond. Aim to upgrade your weapon to +6 or higher, push Vigor to 25-30, and stock up on upgrade materials. The difficulty curve steepens after the first major boss, so proper preparation makes a significant difference. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+          "After Margit, your immediate priorities should be exploring Stormveil Castle and then the Liurnia region beyond. Aim to upgrade your weapon to +6 or higher, push Vigor to 25-30, and stock up on upgrade materials. The difficulty curve steepens after the first major boss, so proper preparation makes a significant difference."
       }
     ],
     internalLinks: [
@@ -590,7 +590,7 @@ export const articles: Article[] = [
       {
         heading: "Frequently Asked Questions",
         level: 2,
-        content: "**Is Bleed still strong in 2026?** Yes. Bleed remains one of the strongest PvE builds in Elden Ring, particularly against high-HP bosses.\n\n**What is the best Bleed weapon?** Rivers of Blood for burst damage, Nagakiba for reach and flexibility, Blood Uchigatana for early game.\n\n**Should I use Arcane or Dexterity first?** Dexterity first for weapon requirements and early damage, then Arcane for bleed scaling.\n\n**Is Bleed better than Strength builds?** Bleed has higher burst damage against bleedable bosses. Strength builds offer better stagger and consistency against bleed-resistant enemies. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "**Is Bleed still strong in 2026?** Yes. Bleed remains one of the strongest PvE builds in Elden Ring, particularly against high-HP bosses.\n\n**What is the best Bleed weapon?** Rivers of Blood for burst damage, Nagakiba for reach and flexibility, Blood Uchigatana for early game.\n\n**Should I use Arcane or Dexterity first?** Dexterity first for weapon requirements and early damage, then Arcane for bleed scaling.\n\n**Is Bleed better than Strength builds?** Bleed has higher burst damage against bleedable bosses. Strength builds offer better stagger and consistency against bleed-resistant enemies. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check rune costs for your target level, and see how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
       },
     ],
     internalLinks: [
@@ -1066,7 +1066,7 @@ export const articles: Article[] = [
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "Intelligence builds remain one of the strongest archetypes in Elden Ring.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the optimal level for your build.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost for your Intelligence build."
       }
     ],
     internalLinks: [
@@ -1523,7 +1523,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "Soft caps are one of the most important systems in Elden Ring.\n\nPlayers who understand them build stronger characters, waste fewer levels, and perform better against difficult bosses.\n\nBefore investing additional levels into Strength, Dexterity, Intelligence, Faith, or Arcane, ask a simple question:\n\n**Am I still getting meaningful value from this stat?**\n\nThe strongest builds are not created by maximizing a single attribute.\n\nThey are created by understanding exactly where each level provides the greatest return. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "Soft caps are one of the most important systems in Elden Ring.\n\nPlayers who understand them build stronger characters, waste fewer levels, and perform better against difficult bosses.\n\nBefore investing additional levels into Strength, Dexterity, Intelligence, Faith, or Arcane, ask a simple question:\n\n**Am I still getting meaningful value from this stat?**\n\nThe strongest builds are not created by maximizing a single attribute.\n\nThey are created by understanding exactly where each level provides the greatest return."
       }
     ],
     internalLinks: [
@@ -1812,7 +1812,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them.\n\nA build planner is the fastest way to:\n\n- fix weak builds\n- optimize damage\n- improve survivability\n- prepare for DLC content\n\n---\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them.\n\nA build planner is the fastest way to:\n\n- fix weak builds\n- optimize damage\n- improve survivability\n- prepare for DLC content\n\n---\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for each phase of your build."
       }
     ],
     internalLinks: [
@@ -2414,7 +2414,7 @@ export const articles: Article[] = [
         heading: "Final Verdict",
         level: 2,
         content:
-          "Godrick is not a difficulty spike in raw stats.\n\nHe is a **system introduction boss**.\n\nHe teaches the most important Elden Ring lesson:\n\n> Boss fights are not about attacking more. They are about attacking correctly.\n\nOnce you understand Godrick, most early-game bosses become significantly easier. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+          "Godrick is not a difficulty spike in raw stats.\n\nHe is a **system introduction boss**.\n\nHe teaches the most important Elden Ring lesson:\n\n> Boss fights are not about attacking more. They are about attacking correctly.\n\nOnce you understand Godrick, most early-game bosses become significantly easier.",
         image: "godrick-combat-action.jpg",
         imageAlt: "Godrick the Grafted combat action showing safe positioning strategy"
       }
@@ -2538,7 +2538,7 @@ export const articles: Article[] = [
         heading: "Final Verdict",
         level: 2,
         content:
-          "Rune management is one of the most overlooked systems in Elden Ring.\n\nMany players spend countless hours farming additional levels when their real problem is inefficient stat allocation.\n\nThe strongest characters are not necessarily the highest-level characters.\n\nThey are the players who understand:\n\n- soft caps\n- stat efficiency\n- weapon scaling\n- build planning\n\nBefore investing more runes, take the time to calculate your ideal build and make every level count. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+          "Rune management is one of the most overlooked systems in Elden Ring.\n\nMany players spend countless hours farming additional levels when their real problem is inefficient stat allocation.\n\nThe strongest characters are not necessarily the highest-level characters.\n\nThey are the players who understand:\n\n- soft caps\n- stat efficiency\n- weapon scaling\n- build planning\n\nBefore investing more runes, take the time to calculate your ideal build and make every level count."
       }
     ],
     internalLinks: [

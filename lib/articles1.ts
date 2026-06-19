@@ -990,7 +990,7 @@ const article19: Article = {
       heading: "Conclusion",
       level: 2,
       content:
-        "A strong build is not about stats.\n\nIt is about **how efficiently every system works together**.\n\nAnd that is what truly defines power in Elden Ring. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "A strong build is not about stats.\n\nIt is about **how efficiently every system works together**.\n\nAnd that is what truly defines power in Elden Ring.",
     },
   ],
   internalLinks: [
@@ -1162,7 +1162,7 @@ const article20: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is Malenia weak to?\n\nBleed and Frost are generally her biggest weaknesses.\n\n### Can you stagger Malenia?\n\nYes. Heavy weapons and jump attacks can break her stance.\n\n### What level should I fight Malenia?\n\nMost players succeed between Level 120 and 150.\n\n### Is Malenia harder than DLC bosses?\n\nFor many players, yes.\n\n### What kills players most often?\n\nWaterfowl Dance and greedy attacks. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What is Malenia weak to?\n\nBleed and Frost are generally her biggest weaknesses.\n\n### Can you stagger Malenia?\n\nYes. Heavy weapons and jump attacks can break her stance.\n\n### What level should I fight Malenia?\n\nMost players succeed between Level 120 and 150.\n\n### Is Malenia harder than DLC bosses?\n\nFor many players, yes.\n\n### What kills players most often?\n\nWaterfowl Dance and greedy attacks. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the recommended level for Malenia.",
     },
   ],
   internalLinks: [
@@ -1358,7 +1358,7 @@ const article21: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City.",
     },
   ],
   internalLinks: [
@@ -1583,7 +1583,7 @@ const article22: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I fight Mohg?\n\nMost players succeed between Level 100 and 130.\n\n### Is Mohg weak to Bleed?\n\nYes. Bleed performs extremely well against Mohg.\n\n### What does Nihil do?\n\nNihil damages the player, heals Mohg, and applies blood loss pressure.\n\n### Do I need Purifying Crystal Tear?\n\nNo, but it makes the fight dramatically easier.\n\n### Is Mohg harder than Radahn?\n\nFor many players, yes. Nihil and bloodflame mechanics create a much steeper learning curve.\n\n### Can Spirit Ashes help?\n\nAbsolutely. Mimic Tear and Black Knife Tiche are particularly effective. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What level should I fight Mohg?\n\nMost players succeed between Level 100 and 130.\n\n### Is Mohg weak to Bleed?\n\nYes. Bleed performs extremely well against Mohg.\n\n### What does Nihil do?\n\nNihil damages the player, heals Mohg, and applies blood loss pressure.\n\n### Do I need Purifying Crystal Tear?\n\nNo, but it makes the fight dramatically easier.\n\n### Is Mohg harder than Radahn?\n\nFor many players, yes. Nihil and bloodflame mechanics create a much steeper learning curve.\n\n### Can Spirit Ashes help?\n\nAbsolutely. Mimic Tear and Black Knife Tiche are particularly effective. Check the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see how many runes you need to reach the recommended level for Mohg.",
     },
   ],
   internalLinks: [
@@ -1863,7 +1863,7 @@ const article23: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I fight Maliketh?\n\nMost players succeed between Level 120 and 150.\n\n### Is Maliketh weak to Bleed?\n\nYes. Bleed is one of the most effective damage types against him.\n\n### What does Destined Death do?\n\nIt deals damage, drains health over time, and reduces maximum HP temporarily.\n\n### Is Blasphemous Claw worth using?\n\nAbsolutely. It creates some of the largest punish windows in the fight.\n\n### Why do I keep dying in Phase 2?\n\nMost players stay too far away. Maliketh's ranged attacks are often more dangerous than his melee attacks.\n\n### Is Maliketh harder than Mohg?\n\nFor many players, yes. His speed and Destined Death mechanics create a much smaller margin for error. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What level should I fight Maliketh?\n\nMost players succeed between Level 120 and 150.\n\n### Is Maliketh weak to Bleed?\n\nYes. Bleed is one of the most effective damage types against him.\n\n### What does Destined Death do?\n\nIt deals damage, drains health over time, and reduces maximum HP temporarily.\n\n### Is Blasphemous Claw worth using?\n\nAbsolutely. It creates some of the largest punish windows in the fight.\n\n### Why do I keep dying in Phase 2?\n\nMost players stay too far away. Maliketh's ranged attacks are often more dangerous than his melee attacks.\n\n### Is Maliketh harder than Mohg?\n\nFor many players, yes. His speed and Destined Death mechanics create a much smaller margin for error. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost to reach the recommended level for Maliketh.",
     },
   ],
   internalLinks: [
@@ -2117,7 +2117,7 @@ const article25: Article = {
     {
       heading: "FAQ",
       level: 2,
-      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). Check the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see how many runes you need to reach the recommended level for Godfrey."
     },
   ],
   internalLinks: [

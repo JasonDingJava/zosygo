@@ -130,7 +130,7 @@ const article27: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Fire Giant?\\n\\nMost players succeed between Level 100 and 120.\\n\\n### What is Fire Giant weak to?\\n\\nBleed and Frost are among the strongest damage types.\\n\\n### Should I use Torrent?\\n\\nYes. Torrent dramatically improves mobility and positioning.\\n\\n### Where should I attack Fire Giant?\\n\\nAttack the injured left leg during Phase 1 and the hands during Phase 2.\\n\\n### Why does Phase 2 take so long?\\n\\nMost players continue attacking low-value targets instead of exploiting hand damage windows.\\n\\n### Is Fire Giant one of the hardest bosses in Elden Ring?\\n\\nMechanically, not usually. Most difficulty comes from positioning mistakes and weak spot misunderstanding. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What level should I be for Fire Giant?\\n\\nMost players succeed between Level 100 and 120.\\n\\n### What is Fire Giant weak to?\\n\\nBleed and Frost are among the strongest damage types.\\n\\n### Should I use Torrent?\\n\\nYes. Torrent dramatically improves mobility and positioning.\\n\\n### Where should I attack Fire Giant?\\n\\nAttack the injured left leg during Phase 1 and the hands during Phase 2.\\n\\n### Why does Phase 2 take so long?\\n\\nMost players continue attacking low-value targets instead of exploiting hand damage windows.\\n\\n### Is Fire Giant one of the hardest bosses in Elden Ring?\\n\\nMechanically, not usually. Most difficulty comes from positioning mistakes and weak spot misunderstanding.",
     },
   ],
   internalLinks: [
@@ -242,7 +242,7 @@ const article28: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Why can't I damage Rennala in Phase One?\n\nHer barrier must be broken first by defeating the correct glowing students.\n\n### How do I know which students are correct?\n\nLook for golden light, golden projectiles, and unique singing effects.\n\n### Is Rennala weak to Bleed?\n\nYes. Bleed performs very well throughout the encounter.\n\n### Should I fight Rennala's summons?\n\nUsually no. Maintaining pressure on Rennala is often more effective.\n\n### Why do Intelligence builds struggle against Rennala?\n\nRennala has strong magical resistance, making many spells less effective than usual.\n\n### What is the most important tip for this fight?\n\nUnderstand the mechanic first. Damage comes second. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Why can't I damage Rennala in Phase One?\n\nHer barrier must be broken first by defeating the correct glowing students.\n\n### How do I know which students are correct?\n\nLook for golden light, golden projectiles, and unique singing effects.\n\n### Is Rennala weak to Bleed?\n\nYes. Bleed performs very well throughout the encounter.\n\n### Should I fight Rennala's summons?\n\nUsually no. Maintaining pressure on Rennala is often more effective.\n\n### Why do Intelligence builds struggle against Rennala?\n\nRennala has strong magical resistance, making many spells less effective than usual.\n\n### What is the most important tip for this fight?\n\nUnderstand the mechanic first. Damage comes second.",
     },
   ],
   internalLinks: [
@@ -366,7 +366,7 @@ const article29: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Do I need Serpent-Hunter to beat Rykard?\n\nYes. It is the intended weapon for this encounter.\n\n### Why is Rykard so easy for some players?\n\nBecause they immediately use Serpent-Hunter correctly.\n\n### Can I use magic or other weapons?\n\nYou can, but they are significantly less effective.\n\n### Is Phase 2 harder than Phase 1?\n\nNot necessarily. Phase 2 is more chaotic visually, but mechanically similar.\n\n### What is the most important tip for Rykard?\n\nStop treating it like a normal boss fight. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Do I need Serpent-Hunter to beat Rykard?\n\nYes. It is the intended weapon for this encounter.\n\n### Why is Rykard so easy for some players?\n\nBecause they immediately use Serpent-Hunter correctly.\n\n### Can I use magic or other weapons?\n\nYou can, but they are significantly less effective.\n\n### Is Phase 2 harder than Phase 1?\n\nNot necessarily. Phase 2 is more chaotic visually, but mechanically similar.\n\n### What is the most important tip for Rykard?\n\nStop treating it like a normal boss fight.",
     },
   ],
   internalLinks: [

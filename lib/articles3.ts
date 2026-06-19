@@ -378,7 +378,7 @@ const article39: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Bolt of Gransax good in Elden Ring?\n\nYes. It is one of the strongest lightning burst weapons.\n\n### Do I need Faith for Bolt of Gransax?\n\nYes. Faith increases lightning damage scaling.\n\n### Is it better than Dragon Incantations?\n\nIt is faster and more consistent, but less flexible.\n\n### Can Bolt of Gransax carry the game?\n\nYes. It remains strong in mid to late game content.\n\n### Why is it so powerful?\n\nBecause it combines extreme range with high burst lightning damage. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Is Bolt of Gransax good in Elden Ring?\n\nYes. It is one of the strongest lightning burst weapons.\n\n### Do I need Faith for Bolt of Gransax?\n\nYes. Faith increases lightning damage scaling.\n\n### Is it better than Dragon Incantations?\n\nIt is faster and more consistent, but less flexible.\n\n### Can Bolt of Gransax carry the game?\n\nYes. It remains strong in mid to late game content.\n\n### Why is it so powerful?\n\nBecause it combines extreme range with high burst lightning damage.",
     },
   ],
   internalLinks: [
@@ -496,7 +496,7 @@ const article40: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control.",
     },
   ],
   internalLinks: [
@@ -632,7 +632,7 @@ const article41: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is stance break in Elden Ring?\n\nIt is when enemy posture is fully depleted, causing a stagger and critical hit window.\n\n### How do you break stance faster?\n\nUse jump attacks, charged heavies, and high posture damage weapons.\n\n### What weapons are best for stance break?\n\nGreatswords, colossal weapons, and strike weapons.\n\n### Is stance break important in PvE?\n\nYes. It is one of the strongest combat mechanics in PvE.\n\n### Can all enemies be stance broken?\n\nMost enemies can, but some bosses have higher thresholds. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What is stance break in Elden Ring?\n\nIt is when enemy posture is fully depleted, causing a stagger and critical hit window.\n\n### How do you break stance faster?\n\nUse jump attacks, charged heavies, and high posture damage weapons.\n\n### What weapons are best for stance break?\n\nGreatswords, colossal weapons, and strike weapons.\n\n### Is stance break important in PvE?\n\nYes. It is one of the strongest combat mechanics in PvE.\n\n### Can all enemies be stance broken?\n\nMost enemies can, but some bosses have higher thresholds.",
     },
   ],
   internalLinks: [
@@ -1829,7 +1829,7 @@ const article46: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Liurnia?\n\nMost players are comfortable between levels 35 and 50.\n\n### Do I need to defeat the dragon for the Academy Key?\n\nNo. The key can be collected without fighting the dragon.\n\n### Should I do Caria Manor before Rennala?\n\nEither order works, but exploring Caria Manor early offers valuable rewards and quest progression.\n\n### What does defeating Rennala unlock?\n\nRennala unlocks character respec using Larval Tears.\n\n### Is Liurnia optional?\n\nNo. Raya Lucaria Academy and Rennala are part of the main progression path for most playthroughs. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What level should I be for Liurnia?\n\nMost players are comfortable between levels 35 and 50.\n\n### Do I need to defeat the dragon for the Academy Key?\n\nNo. The key can be collected without fighting the dragon.\n\n### Should I do Caria Manor before Rennala?\n\nEither order works, but exploring Caria Manor early offers valuable rewards and quest progression.\n\n### What does defeating Rennala unlock?\n\nRennala unlocks character respec using Larval Tears.\n\n### Is Liurnia optional?\n\nNo. Raya Lucaria Academy and Rennala are part of the main progression path for most playthroughs.",
     },
   ],
   internalLinks: [
