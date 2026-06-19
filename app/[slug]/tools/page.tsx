@@ -18,6 +18,12 @@ const GAME_TOOLS: Record<string, { name: string; description: string; href: stri
       icon: "⚔️",
     },
     {
+      name: "Rune Level Calculator",
+      description: "Calculate runes needed for any level range from 1 to 713. See cost curves, farming estimates, and preset level targets.",
+      href: "/elden-ring/tools/rune-level-calculator",
+      icon: "💀",
+    },
+    {
       name: "Boss Weakness Finder",
       description: "Search boss weaknesses, resistances, and strategy recommendations. Coming soon.",
       href: "#",
@@ -49,7 +55,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const FAQ = [
   {
     q: "What Elden Ring tools are available?",
-    a: "Two tools are live: the Elden Ring Build Calculator for full character planning (stats, weapons, armor, talismans) and the Weapon AR Calculator for comparing 123 weapons' Attack Rating side by side. More tools coming soon.",
+    a: "Three tools are live: the Elden Ring Build Calculator for full character planning, the Weapon AR Calculator for comparing 123 weapons' Attack Rating, and the Rune Level Calculator for planning rune costs from level 1 to 713. More tools coming soon.",
   },
   {
     q: "Is the Elden Ring Build Calculator accurate?",
@@ -66,6 +72,7 @@ const FAQ = [
 ];
 
 const RELATED_GUIDES = [
+  { title: "Rune Level Calculator", href: "/elden-ring/tools/rune-level-calculator" },
   { title: "Weapon AR Calculator", href: "/elden-ring/tools/weapon-ar-calculator" },
   { title: "Best Dexterity Build", href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build" },
   { title: "Moonveil Intelligence Build", href: "/elden-ring/builds/moonveil-intelligence-build" },
