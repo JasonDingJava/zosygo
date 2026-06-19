@@ -243,7 +243,7 @@ export const articles: Article[] = [
     {
       heading: "Stat Distribution vs Bloodhound's Fang Build",
       level: 2,
-      content: "Bleed build at RL 150: Vigor 50, Mind 12, Endurance 30, STR 18, DEX 55, ARC 45. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to find out how many runes you need to reach this setup. Bloodhound build: Vigor 50, Endurance 30, STR 50, DEX 60. Bleed build needs only 18 STR for RoB (12 + 2-handing), freeing 30+ points for Arcane. Bloodhound needs 40 STR. Trade-off: Bloodhound deals 700-800 AR per R1. Bleed deals 450-550 per L1 but procs 15% max HP every 4 hits. Against 10k HP bosses, bleed adds 1700 damage per proc = 30-50% higher DPS. Against bleed-immune, Bloodhound does 60% more raw damage. Compare your own numbers using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+      content: "Bleed build at RL 150: Vigor 50, Mind 12, Endurance 30, STR 18, DEX 55, ARC 45. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to find out how many runes you need to reach this setup. Bloodhound build: Vigor 50, Endurance 30, STR 50, DEX 60. Bleed build needs only 18 STR for RoB (12 + 2-handing), freeing 30+ points for Arcane. Bloodhound needs 40 STR. Trade-off: Bloodhound deals 700-800 AR per R1. Bleed deals 450-550 per L1 but procs 15% max HP every 4 hits. Against 10k HP bosses, bleed adds 1700 damage per proc = 30-50% higher DPS. Against bleed-immune, Bloodhound does 60% more raw da",
       image: "elden-ring-pure-dex-bleed-stats.jpg",
       imageAlt: ""
     },
@@ -357,7 +357,7 @@ export const articles: Article[] = [
     {
       heading: "Stat Priority for Dexterity Build",
       level: 2,
-      content: "Recommended stats: Vigor: 40 (survival priority), Dexterity: 40–60 (main damage scaling), Endurance: 15–25 (stamina + equip load), Mind: optional (for weapon skills). Key rule: Do NOT over-invest in Dexterity early. Vigor matters more in early game. Optimize your stat efficiency with the [Stat Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to avoid wasted levels."
+      content: "Recommended stats: Vigor: 40 (survival priority), Dexterity: 40–60 (main damage scaling), Endurance: 15–25 (stamina + equip load), Mind: optional (for weapon skills). Key rule: Do NOT over-invest in Dexterity early. Vigor matters more in early game. Optimize your stat efficiency by testing different stat distributions."
     },
     {
       heading: "Early / Mid / Late Game Progression",
@@ -536,7 +536,7 @@ export const articles: Article[] = [
       {
         heading: "Best Bleed Build Stats (Level 150)",
         level: 2,
-        content: "Vigor (60): Mandatory for late-game survival. Most bosses can kill low-Vigor builds in 2-3 hits.\n\nDexterity (50): Improves weapon scaling and overall damage output.\n\nArcane (45): Core stat for Bleed builds. Faster bleed buildup, higher status damage, better synergy with bleed weapons. Optimize your stat efficiency with the [Stat Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        content: "Vigor (60): Mandatory for late-game survival. Most bosses can kill low-Vigor builds in 2-3 hits.\n\nDexterity (50): Improves weapon scaling and overall damage output.\n\nArcane (45): Core stat for Bleed builds. Faster bleed buildup, higher status damage, better synergy with bleed weapons. Optimize your stat efficiency through proper stat distribution.",
         table: {
           headers: ["Attribute", "Value"],
           rows: [
@@ -1066,7 +1066,7 @@ export const articles: Article[] = [
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the optimal level for your build.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost for your Intelligence build."
+        content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the optimal level for your build.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost for your Intelligence build."
       }
     ],
     internalLinks: [
@@ -1189,7 +1189,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "Most weak Bleed builds fail because of poor optimization, not because Bleed is weak.\n\nEven in 2026, Bleed remains one of the strongest archetypes in Elden Ring.\n\nThe players who get the best results focus on:\n\n- Proper Vigor\n- Efficient Arcane investment\n- Strong talisman synergy\n- Correct weapon selection\n\nInstead of blindly copying stats from random guides.\n\nIf you're unsure whether your build is optimized, use the [Build Setup Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to compare different stat allocations and identify wasted levels before spending a Larval Tear."
+        content: "Most weak Bleed builds fail because of poor optimization, not because Bleed is weak.\n\nEven in 2026, Bleed remains one of the strongest archetypes in Elden Ring.\n\nThe players who get the best results focus on:\n\n- Proper Vigor\n- Efficient Arcane investment\n- Strong talisman synergy\n- Correct weapon selection\n\nInstead of blindly copying stats from random guides.\n\nIf you're unsure whether your build is optimized, use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to compare different stat allocations and identify wasted levels before spending a Larval Tear."
       }
     ],
     internalLinks: [
@@ -1668,7 +1668,7 @@ export const articles: Article[] = [
       {
         heading: "Build Calculator Tip",
         level: 2,
-        content: "Instead of guessing which weapon is better, you can test both setups using the [Damage Comparison Tool](https://www.zosygo.com/elden-ring/tools/build-calculator):\n\n- Compare stat efficiency\n- Test damage scaling\n- Optimize Vigor vs damage investment\n- See real DPS differences\n\n👉 This is the fastest way to decide your build before committing a Larval Tear. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        content: "Instead of guessing which weapon is better, you can test both setups using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator):\n\n- Compare stat efficiency\n- Test damage scaling\n- Optimize Vigor vs damage investment\n- See real DPS differences\n\n👉 This is the fastest way to decide your build before committing a Larval Tear. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
         image: "moonveil-vs-rivers-shard-of-alexander.png",
         imageAlt: "Shard of Alexander talisman from Elden Ring"
       }
@@ -1697,7 +1697,7 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "Most Elden Ring players make the same mistake:\n\nThey level up randomly without understanding how their stats actually scale.\n\nThis leads to weak damage, poor survivability, and wasted levels at endgame.\n\nA **build planner** solves this problem by letting you simulate your character before spending a single rune. Use the [Stat Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different builds before committing levels."
+        content: "Most Elden Ring players make the same mistake:\n\nThey level up randomly without understanding how their stats actually scale.\n\nThis leads to weak damage, poor survivability, and wasted levels at endgame.\n\nA **build planner** solves this problem by letting you simulate your character before spending a single rune. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different builds before committing levels."
       },
       {
         heading: "What Is a Build Planner in Elden Ring?",
@@ -2012,7 +2012,7 @@ export const articles: Article[] = [
       {
         heading: "Use a Build Calculator (Important)",
         level: 2,
-        content: "Instead of guessing:\n\n- Test stat scaling\n- Compare weapons\n- Optimize damage efficiency\n- Avoid wasted levels\n\nThe [Build Setup Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) lets you simulate your character before committing Larval Tears.\n\n👉 This is the fastest way to fix weak builds.",
+        content: "Instead of guessing:\n\n- Test stat scaling\n- Compare weapons\n- Optimize damage efficiency\n- Avoid wasted levels\n\nThe [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) lets you simulate your character before committing Larval Tears.\n\n👉 This is the fastest way to fix weak builds.",
         image: "best-builds-defense.png",
         imageAlt: "Dragoncrest Greatshield Talisman representing defense and build optimization from Elden Ring"
       },
@@ -2282,7 +2282,7 @@ export const articles: Article[] = [
       {
         heading: "Use a Build Calculator (Recommended)",
         level: 2,
-        content: "Instead of guessing stats:\n\n- test scaling efficiency\n- compare weapons\n- optimize Vigor vs damage\n- avoid wasted levels\n\nThis is the fastest way to improve any Level 150 build. Try the [Stat Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to find the optimal stat allocation for your build."
+        content: "Instead of guessing stats:\n\n- test scaling efficiency\n- compare weapons\n- optimize Vigor vs damage\n- avoid wasted levels\n\nThis is the fastest way to improve any Level 150 build. Try the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to find the optimal stat allocation for your build."
       },
       {
         heading: "Final Verdict",

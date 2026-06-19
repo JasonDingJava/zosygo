@@ -984,7 +984,7 @@ const article19: Article = {
       heading: "Final Verdict",
       level: 1,
       content:
-        "Most weak builds in Elden Ring are not under-leveled.\n\nThey are **poorly structured systems**.\n\nOnce you fix:\n\n- Weapon upgrade path  \n- Stat efficiency  \n- Scaling identity  \n- Talisman synergy  \n\nYour damage increases instantly—without needing more levels. The [Stat Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) can help you find the optimal stat distribution for any build.",
+        "Most weak builds in Elden Ring are not under-leveled.\n\nThey are **poorly structured systems**.\n\nOnce you fix:\n\n- Weapon upgrade path  \n- Stat efficiency  \n- Scaling identity  \n- Talisman synergy  \n\nYour damage increases instantly—without needing more levels can help you find the optimal stat distribution for any build.",
     },
     {
       heading: "Conclusion",
