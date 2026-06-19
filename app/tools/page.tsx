@@ -23,6 +23,12 @@ const GAME_TOOLS: Record<string, { name: string; description: string; href: stri
       href: "/elden-ring/tools/weapon-ar-calculator",
       icon: "🗡️",
     },
+    {
+      name: "Rune Level Calculator",
+      description: "Calculate runes needed for any level range from 1 to 713. Interactive cost curve, farming time estimates, and preset targets.",
+      href: "/elden-ring/tools/rune-level-calculator",
+      icon: "💀",
+    },
   ],
 };
 
