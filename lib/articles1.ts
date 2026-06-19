@@ -136,7 +136,7 @@ const maleniaArticle: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "Many players focus entirely on Waterfowl Dance when discussing Malenia.\n\nWhile the attack is dangerous, it is her healing mechanic that defines the fight.\n\nUnderstanding how healing works changes the entire encounter.\n\nPlayers who defeat Malenia consistently are not always dealing more damage than everyone else.\n\nThey are simply giving her fewer chances to recover.\n\nMaster that principle, and the fight becomes significantly easier to understand, practice, and eventually conquer."
+        "Many players focus entirely on Waterfowl Dance when discussing Malenia.\n\nWhile the attack is dangerous, it is her healing mechanic that defines the fight.\n\nUnderstanding how healing works changes the entire encounter.\n\nPlayers who defeat Malenia consistently are not always dealing more damage than everyone else.\n\nThey are simply giving her fewer chances to recover.\n\nMaster that principle, and the fight becomes significantly easier to understand, practice, and eventually conquer. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
     }
   ],
   internalLinks: [
@@ -288,7 +288,7 @@ const buildFeelsWeakArticle: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "If your Elden Ring build feels weak at Level 150, the problem is usually not your level.\n\nIt is your optimization.\n\nMost players gain more power by:\n\n- Increasing Vigor\n- Improving weapon upgrades\n- Choosing better talismans\n- Specializing their stats\n- Understanding scaling\n\nbefore investing additional levels into damage.\n\nThe strongest builds are not always the highest level.\n\nThey are the most efficient.\n\nIf your build feels weak, stop asking how to gain more levels.\n\nStart asking how to gain more value from the levels you already have. The [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) can show you exactly where your stat points are being wasted."
+        "If your Elden Ring build feels weak at Level 150, the problem is usually not your level.\n\nIt is your optimization.\n\nMost players gain more power by:\n\n- Increasing Vigor\n- Improving weapon upgrades\n- Choosing better talismans\n- Specializing their stats\n- Understanding scaling\n\nbefore investing additional levels into damage.\n\nThe strongest builds are not always the highest level.\n\nThey are the most efficient.\n\nIf your build feels weak, stop asking how to gain more levels.\n\nStart asking how to gain more value from the levels you already have. The [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) can show you exactly where your stat points are being wasted. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
     }
   ],
   internalLinks: [
@@ -714,7 +714,7 @@ const article17: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "If your build feels weak in Elden Ring, the problem is rarely your level.\n\nIt is almost always:\n\n- Poor scaling efficiency  \n- Wrong stat distribution  \n- Ignoring soft caps  \n- Weak weapon optimization  \n\nOnce you understand how scaling actually works, leveling becomes secondary.\n\nThe strongest builds are not the highest level.\n\nThey are the most efficient within the system.\n\nAnd efficiency is what decides real power in Elden Ring.",
+        "If your build feels weak in Elden Ring, the problem is rarely your level.\n\nIt is almost always:\n\n- Poor scaling efficiency  \n- Wrong stat distribution  \n- Ignoring soft caps  \n- Weak weapon optimization  \n\nOnce you understand how scaling actually works, leveling becomes secondary.\n\nThe strongest builds are not the highest level.\n\nThey are the most efficient within the system.\n\nAnd efficiency is what decides real power in Elden Ring. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -837,7 +837,7 @@ const article18: Article = {
       heading: "How to Actually Increase Damage",
       level: 2,
       content:
-        "There are only 4 real ways:\n\n### 1. Upgrade weapon fully\nMost important factor.\n\n### 2. Fix stat efficiency\nStay within soft caps.\n\n### 3. Optimize talismans\nUse multiplicative synergy.\n\n### 4. Improve uptime\nMore survival = more DPS.",
+        "There are only 4 real ways:\n\n### 1. Upgrade weapon fully\nMost important factor.\n\n### 2. Fix stat efficiency\nStay within soft caps.\n\n### 3. Optimize talismans\nUse multiplicative synergy.\n\n### 4. Improve uptime\nMore survival = more DPS. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
     {
       heading: "Final Verdict",
@@ -990,7 +990,7 @@ const article19: Article = {
       heading: "Conclusion",
       level: 2,
       content:
-        "A strong build is not about stats.\n\nIt is about **how efficiently every system works together**.\n\nAnd that is what truly defines power in Elden Ring.",
+        "A strong build is not about stats.\n\nIt is about **how efficiently every system works together**.\n\nAnd that is what truly defines power in Elden Ring. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1162,7 +1162,7 @@ const article20: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is Malenia weak to?\n\nBleed and Frost are generally her biggest weaknesses.\n\n### Can you stagger Malenia?\n\nYes. Heavy weapons and jump attacks can break her stance.\n\n### What level should I fight Malenia?\n\nMost players succeed between Level 120 and 150.\n\n### Is Malenia harder than DLC bosses?\n\nFor many players, yes.\n\n### What kills players most often?\n\nWaterfowl Dance and greedy attacks.",
+        "### What is Malenia weak to?\n\nBleed and Frost are generally her biggest weaknesses.\n\n### Can you stagger Malenia?\n\nYes. Heavy weapons and jump attacks can break her stance.\n\n### What level should I fight Malenia?\n\nMost players succeed between Level 120 and 150.\n\n### Is Malenia harder than DLC bosses?\n\nFor many players, yes.\n\n### What kills players most often?\n\nWaterfowl Dance and greedy attacks. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1358,7 +1358,7 @@ const article21: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City.",
+        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1583,7 +1583,7 @@ const article22: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I fight Mohg?\n\nMost players succeed between Level 100 and 130.\n\n### Is Mohg weak to Bleed?\n\nYes. Bleed performs extremely well against Mohg.\n\n### What does Nihil do?\n\nNihil damages the player, heals Mohg, and applies blood loss pressure.\n\n### Do I need Purifying Crystal Tear?\n\nNo, but it makes the fight dramatically easier.\n\n### Is Mohg harder than Radahn?\n\nFor many players, yes. Nihil and bloodflame mechanics create a much steeper learning curve.\n\n### Can Spirit Ashes help?\n\nAbsolutely. Mimic Tear and Black Knife Tiche are particularly effective.",
+        "### What level should I fight Mohg?\n\nMost players succeed between Level 100 and 130.\n\n### Is Mohg weak to Bleed?\n\nYes. Bleed performs extremely well against Mohg.\n\n### What does Nihil do?\n\nNihil damages the player, heals Mohg, and applies blood loss pressure.\n\n### Do I need Purifying Crystal Tear?\n\nNo, but it makes the fight dramatically easier.\n\n### Is Mohg harder than Radahn?\n\nFor many players, yes. Nihil and bloodflame mechanics create a much steeper learning curve.\n\n### Can Spirit Ashes help?\n\nAbsolutely. Mimic Tear and Black Knife Tiche are particularly effective. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1863,7 +1863,7 @@ const article23: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I fight Maliketh?\n\nMost players succeed between Level 120 and 150.\n\n### Is Maliketh weak to Bleed?\n\nYes. Bleed is one of the most effective damage types against him.\n\n### What does Destined Death do?\n\nIt deals damage, drains health over time, and reduces maximum HP temporarily.\n\n### Is Blasphemous Claw worth using?\n\nAbsolutely. It creates some of the largest punish windows in the fight.\n\n### Why do I keep dying in Phase 2?\n\nMost players stay too far away. Maliketh's ranged attacks are often more dangerous than his melee attacks.\n\n### Is Maliketh harder than Mohg?\n\nFor many players, yes. His speed and Destined Death mechanics create a much smaller margin for error.",
+        "### What level should I fight Maliketh?\n\nMost players succeed between Level 120 and 150.\n\n### Is Maliketh weak to Bleed?\n\nYes. Bleed is one of the most effective damage types against him.\n\n### What does Destined Death do?\n\nIt deals damage, drains health over time, and reduces maximum HP temporarily.\n\n### Is Blasphemous Claw worth using?\n\nAbsolutely. It creates some of the largest punish windows in the fight.\n\n### Why do I keep dying in Phase 2?\n\nMost players stay too far away. Maliketh's ranged attacks are often more dangerous than his melee attacks.\n\n### Is Maliketh harder than Mohg?\n\nFor many players, yes. His speed and Destined Death mechanics create a much smaller margin for error. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1987,7 +1987,7 @@ const article24: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Messmer harder than Malenia?\n\nFor many players, yes due to fire zoning and serpent phase complexity.\n\n### What level should I fight Messmer?\n\nDLC recommended scaling level applies (high endgame level).\n\n### What is Messmer weak to?\n\nFrost and Bleed are most effective.",
+        "### Is Messmer harder than Malenia?\n\nFor many players, yes due to fire zoning and serpent phase complexity.\n\n### What level should I fight Messmer?\n\nDLC recommended scaling level applies (high endgame level).\n\n### What is Messmer weak to?\n\nFrost and Bleed are most effective. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -2117,7 +2117,7 @@ const article25: Article = {
     {
       heading: "FAQ",
       level: 2,
-      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic."
+      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
     },
   ],
   internalLinks: [
@@ -2199,7 +2199,7 @@ const article26: Article = {
     {
       heading: "FAQ",
       level: 2,
-      content: "### Why do I keep getting hit by Morgott?\n\nMost players roll too early rather than too late.\n\n### Is Morgott harder than Margit?\n\nYes. Morgott has longer combos, more weapon variations, and stronger punishments.\n\n### What is Morgott's biggest weakness?\n\nBleed and Frost builds perform particularly well.\n\n### Should I stay close or far away?\n\nClose to medium range is generally safer than long range.\n\n### What is the most important lesson for this fight?\n\nStop reacting to movement.\n\nStart reacting to impact."
+      content: "### Why do I keep getting hit by Morgott?\n\nMost players roll too early rather than too late.\n\n### Is Morgott harder than Margit?\n\nYes. Morgott has longer combos, more weapon variations, and stronger punishments.\n\n### What is Morgott's biggest weakness?\n\nBleed and Frost builds perform particularly well.\n\n### Should I stay close or far away?\n\nClose to medium range is generally safer than long range.\n\n### What is the most important lesson for this fight?\n\nStop reacting to movement.\n\nStart reacting to impact. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
     },
   ],
   internalLinks: [

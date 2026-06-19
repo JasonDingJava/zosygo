@@ -118,7 +118,7 @@ const article37: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Reduvia good in Elden Ring?\\n\\nYes. It is one of the best early Arcane weapons.\\n\\n### Do I need Arcane for Reduvia?\\n\\nYes. Arcane is its primary scaling stat.\\n\\n### Is Reduvia better than Uchigatana?\\n\\nIn early game bleed application, yes. Uchigatana is more balanced overall.\\n\\n### Can Reduvia carry the game?\\n\\nIt can carry early to mid game, but may require upgrades or hybrid builds later.\\n\\n### Why is Reduvia strong?\\n\\nBecause it combines ranged pressure with fast bleed buildup.",
+        "### Is Reduvia good in Elden Ring?\\n\\nYes. It is one of the best early Arcane weapons.\\n\\n### Do I need Arcane for Reduvia?\\n\\nYes. Arcane is its primary scaling stat.\\n\\n### Is Reduvia better than Uchigatana?\\n\\nIn early game bleed application, yes. Uchigatana is more balanced overall.\\n\\n### Can Reduvia carry the game?\\n\\nIt can carry early to mid game, but may require upgrades or hybrid builds later.\\n\\n### Why is Reduvia strong?\\n\\nBecause it combines ranged pressure with fast bleed buildup. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -248,7 +248,7 @@ const article38: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Eleonora's Poleblade good in Elden Ring?\n\nYes. It is one of the strongest Arcane bleed weapons.\n\n### Do I need Arcane for Eleonora's Poleblade?\n\nYes. Arcane is essential for its bleed scaling.\n\n### Is it better than Rivers of Blood?\n\nThey serve different roles: Rivers is ranged pressure, Eleonora is melee burst.\n\n### Can Eleonora's Poleblade carry the game?\n\nYes. It remains strong from mid to late game.\n\n### Why is it so strong?\n\nBecause it combines multi-hit attacks with Arcane bleed scaling.",
+        "### Is Eleonora's Poleblade good in Elden Ring?\n\nYes. It is one of the strongest Arcane bleed weapons.\n\n### Do I need Arcane for Eleonora's Poleblade?\n\nYes. Arcane is essential for its bleed scaling.\n\n### Is it better than Rivers of Blood?\n\nThey serve different roles: Rivers is ranged pressure, Eleonora is melee burst.\n\n### Can Eleonora's Poleblade carry the game?\n\nYes. It remains strong from mid to late game.\n\n### Why is it so strong?\n\nBecause it combines multi-hit attacks with Arcane bleed scaling. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -378,7 +378,7 @@ const article39: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Bolt of Gransax good in Elden Ring?\n\nYes. It is one of the strongest lightning burst weapons.\n\n### Do I need Faith for Bolt of Gransax?\n\nYes. Faith increases lightning damage scaling.\n\n### Is it better than Dragon Incantations?\n\nIt is faster and more consistent, but less flexible.\n\n### Can Bolt of Gransax carry the game?\n\nYes. It remains strong in mid to late game content.\n\n### Why is it so powerful?\n\nBecause it combines extreme range with high burst lightning damage.",
+        "### Is Bolt of Gransax good in Elden Ring?\n\nYes. It is one of the strongest lightning burst weapons.\n\n### Do I need Faith for Bolt of Gransax?\n\nYes. Faith increases lightning damage scaling.\n\n### Is it better than Dragon Incantations?\n\nIt is faster and more consistent, but less flexible.\n\n### Can Bolt of Gransax carry the game?\n\nYes. It remains strong in mid to late game content.\n\n### Why is it so powerful?\n\nBecause it combines extreme range with high burst lightning damage. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -496,7 +496,7 @@ const article40: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control.",
+        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -632,7 +632,7 @@ const article41: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is stance break in Elden Ring?\n\nIt is when enemy posture is fully depleted, causing a stagger and critical hit window.\n\n### How do you break stance faster?\n\nUse jump attacks, charged heavies, and high posture damage weapons.\n\n### What weapons are best for stance break?\n\nGreatswords, colossal weapons, and strike weapons.\n\n### Is stance break important in PvE?\n\nYes. It is one of the strongest combat mechanics in PvE.\n\n### Can all enemies be stance broken?\n\nMost enemies can, but some bosses have higher thresholds.",
+        "### What is stance break in Elden Ring?\n\nIt is when enemy posture is fully depleted, causing a stagger and critical hit window.\n\n### How do you break stance faster?\n\nUse jump attacks, charged heavies, and high posture damage weapons.\n\n### What weapons are best for stance break?\n\nGreatswords, colossal weapons, and strike weapons.\n\n### Is stance break important in PvE?\n\nYes. It is one of the strongest combat mechanics in PvE.\n\n### Can all enemies be stance broken?\n\nMost enemies can, but some bosses have higher thresholds. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1145,7 +1145,7 @@ const article43: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What do Ashes of War do in Elden Ring?\n\nThey add weapon skills and allow affinity changes that modify scaling and damage.\n\n### Can Ashes of War increase damage?\n\nYes. Proper affinity selection can dramatically increase weapon performance.\n\n### What is the best Ash of War?\n\nThere is no universal best option. Lion's Claw, Unsheathe, Giant Hunt, and Flaming Strike are among the strongest PvE choices.\n\n### What is the best affinity?\n\nThe best affinity depends on your primary attribute and build strategy.\n\n### Are Ashes of War more important than weapons?\n\nIn many cases, yes. The correct Ash of War can completely transform a weapon's effectiveness.",
+        "### What do Ashes of War do in Elden Ring?\n\nThey add weapon skills and allow affinity changes that modify scaling and damage.\n\n### Can Ashes of War increase damage?\n\nYes. Proper affinity selection can dramatically increase weapon performance.\n\n### What is the best Ash of War?\n\nThere is no universal best option. Lion's Claw, Unsheathe, Giant Hunt, and Flaming Strike are among the strongest PvE choices.\n\n### What is the best affinity?\n\nThe best affinity depends on your primary attribute and build strategy.\n\n### Are Ashes of War more important than weapons?\n\nIn many cases, yes. The correct Ash of War can completely transform a weapon's effectiveness. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1389,7 +1389,7 @@ const article44: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is the best rune farm in Elden Ring?\n\nMohgwyn Palace remains the best overall farming location.\n\n### What is the fastest rune farming method?\n\nSacred Relic Sword farming at Palace Approach Ledge-Road is generally the fastest.\n\n### Is the Gold Scarab worth using?\n\nYes. It significantly increases rune income.\n\n### When should I start farming runes?\n\nWhenever progression slows or your build requires additional levels.\n\n### Can rune farming make the game easier?\n\nYes. Higher levels and better equipment dramatically improve survivability and damage.",
+        "### What is the best rune farm in Elden Ring?\n\nMohgwyn Palace remains the best overall farming location.\n\n### What is the fastest rune farming method?\n\nSacred Relic Sword farming at Palace Approach Ledge-Road is generally the fastest.\n\n### Is the Gold Scarab worth using?\n\nYes. It significantly increases rune income.\n\n### When should I start farming runes?\n\nWhenever progression slows or your build requires additional levels.\n\n### Can rune farming make the game easier?\n\nYes. Higher levels and better equipment dramatically improve survivability and damage. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1615,7 +1615,7 @@ const article45: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What should I do first in Elden Ring?\n\nReach Gatefront Ruins, unlock Torrent, and begin collecting upgrades before challenging major bosses.\n\n### Should I fight Margit immediately?\n\nNo. Exploring Weeping Peninsula first is generally more efficient.\n\n### What level should I be for Margit?\n\nLevel 25–35 is comfortable for most builds.\n\n### What is the best early-game weapon?\n\nBloodhound's Fang is one of the strongest long-term weapons available early.\n\n### Is exploring more important than leveling?\n\nYes. Exploration provides weapon upgrades, Flask improvements, and equipment that often matter more than character levels.",
+        "### What should I do first in Elden Ring?\n\nReach Gatefront Ruins, unlock Torrent, and begin collecting upgrades before challenging major bosses.\n\n### Should I fight Margit immediately?\n\nNo. Exploring Weeping Peninsula first is generally more efficient.\n\n### What level should I be for Margit?\n\nLevel 25–35 is comfortable for most builds.\n\n### What is the best early-game weapon?\n\nBloodhound's Fang is one of the strongest long-term weapons available early.\n\n### Is exploring more important than leveling?\n\nYes. Exploration provides weapon upgrades, Flask improvements, and equipment that often matter more than character levels. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1829,7 +1829,7 @@ const article46: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Liurnia?\n\nMost players are comfortable between levels 35 and 50.\n\n### Do I need to defeat the dragon for the Academy Key?\n\nNo. The key can be collected without fighting the dragon.\n\n### Should I do Caria Manor before Rennala?\n\nEither order works, but exploring Caria Manor early offers valuable rewards and quest progression.\n\n### What does defeating Rennala unlock?\n\nRennala unlocks character respec using Larval Tears.\n\n### Is Liurnia optional?\n\nNo. Raya Lucaria Academy and Rennala are part of the main progression path for most playthroughs.",
+        "### What level should I be for Liurnia?\n\nMost players are comfortable between levels 35 and 50.\n\n### Do I need to defeat the dragon for the Academy Key?\n\nNo. The key can be collected without fighting the dragon.\n\n### Should I do Caria Manor before Rennala?\n\nEither order works, but exploring Caria Manor early offers valuable rewards and quest progression.\n\n### What does defeating Rennala unlock?\n\nRennala unlocks character respec using Larval Tears.\n\n### Is Liurnia optional?\n\nNo. Raya Lucaria Academy and Rennala are part of the main progression path for most playthroughs. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [

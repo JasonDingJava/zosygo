@@ -190,7 +190,7 @@ const article47: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Altus Plateau?\\n\\nMost players are comfortable between levels 60 and 80.\\n\\n### Should I use the Grand Lift of Dectus?\\n\\nYes, if you already possess both medallion halves. Otherwise, the Ruin-Strewn Precipice route works well.\\n\\n### Is Volcano Manor required?\\n\\nNo, but it contains valuable rewards, lore, and questlines.\\n\\n### What should I do before Leyndell?\\n\\nUpgrade your weapon, collect Flask upgrades, and complete major Altus Plateau content.\\n\\n### Is Altus Plateau optional?\\n\\nNo. Progress through Altus Plateau is required for reaching Leyndell and continuing the main story.",
+        "### What level should I be for Altus Plateau?\\n\\nMost players are comfortable between levels 60 and 80.\\n\\n### Should I use the Grand Lift of Dectus?\\n\\nYes, if you already possess both medallion halves. Otherwise, the Ruin-Strewn Precipice route works well.\\n\\n### Is Volcano Manor required?\\n\\nNo, but it contains valuable rewards, lore, and questlines.\\n\\n### What should I do before Leyndell?\\n\\nUpgrade your weapon, collect Flask upgrades, and complete major Altus Plateau content.\\n\\n### Is Altus Plateau optional?\\n\\nNo. Progress through Altus Plateau is required for reaching Leyndell and continuing the main story. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -392,7 +392,7 @@ const article48: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for the Mountaintops of the Giants?\n\nMost players are comfortable between levels 100 and 120.\n\n### Is Castle Sol required?\n\nNo, but it is highly recommended because it contains the Haligtree Secret Medallion.\n\n### What weapon level should I have before Fire Giant?\n\nA standard weapon should ideally be between +20 and +24.\n\n### Should I explore before fighting Fire Giant?\n\nYes. The region contains valuable upgrades that make the encounter significantly easier.\n\n### What comes after the Mountaintops?\n\nAfter the Forge of the Giants, progression eventually leads to Crumbling Farum Azula and the final stages of the game.",
+        "### What level should I be for the Mountaintops of the Giants?\n\nMost players are comfortable between levels 100 and 120.\n\n### Is Castle Sol required?\n\nNo, but it is highly recommended because it contains the Haligtree Secret Medallion.\n\n### What weapon level should I have before Fire Giant?\n\nA standard weapon should ideally be between +20 and +24.\n\n### Should I explore before fighting Fire Giant?\n\nYes. The region contains valuable upgrades that make the encounter significantly easier.\n\n### What comes after the Mountaintops?\n\nAfter the Forge of the Giants, progression eventually leads to Crumbling Farum Azula and the final stages of the game. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -588,7 +588,7 @@ const article49: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Shadow of the Erdtree?\n\nMost players enter comfortably between levels 125 and 175.\n\n### What is more important: level or Scadutree Blessing?\n\nScadutree Blessings are often more impactful than additional character levels.\n\n### Should I fight Rellana immediately?\n\nNo. Collecting several blessing levels first is highly recommended.\n\n### Is Belurat optional?\n\nTechnically yes, but it contains valuable rewards and progression resources.\n\n### What is the most important DLC mechanic?\n\nScadutree Blessings. Understanding this system makes the entire expansion significantly easier.",
+        "### What level should I be for Shadow of the Erdtree?\n\nMost players enter comfortably between levels 125 and 175.\n\n### What is more important: level or Scadutree Blessing?\n\nScadutree Blessings are often more impactful than additional character levels.\n\n### Should I fight Rellana immediately?\n\nNo. Collecting several blessing levels first is highly recommended.\n\n### Is Belurat optional?\n\nTechnically yes, but it contains valuable rewards and progression resources.\n\n### What is the most important DLC mechanic?\n\nScadutree Blessings. Understanding this system makes the entire expansion significantly easier. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
