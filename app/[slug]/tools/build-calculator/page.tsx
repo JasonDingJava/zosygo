@@ -629,6 +629,7 @@ export default function EldenRingBuildCalculator() {
             { "@type": "Question", name: "How does the Elden Ring Build Calculator work?", acceptedAnswer: { "@type": "Answer", text: "Select your starting class, adjust stats (1-99), choose up to 3 weapons with upgrade levels, and see real-time HP, FP, Stamina, equip load, and Attack Rating results." } },
             { "@type": "Question", name: "What weapons are supported?", acceptedAnswer: { "@type": "Answer", text: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more." } },
             { "@type": "Question", name: "Can I share my build?", acceptedAnswer: { "@type": "Answer", text: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." } },
+            { "@type": "Question", name: "Can I use this as an Elden Ring respec calculator?", acceptedAnswer: { "@type": "Answer", text: "Yes. Before using a Larval Tear at Rennala, plan your new stat distribution here. Adjust stats, check equip load and weapon requirements, then respec with confidence." } },
           ],
         },
       ],
@@ -1555,6 +1556,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               { q: "Is the stat calculation accurate to Elden Ring?", a: "Yes. HP, FP, Stamina, and equip load follow Elden Ring's actual in-game formulas. Weapon Attack Rating uses correct scaling curves and soft cap mechanics." },
               { q: "Can I share my build?", a: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." },
               { q: "What is the best starting class?", a: "Vagabond is generally the best for most builds due to high Vigor and balanced stats. For pure casters, Astrologer or Prophet are better." },
+              { q: "Can I use this as an Elden Ring respec calculator?", a: "Yes. Before using a Larval Tear at Rennala, you can plan your respec in this calculator. Adjust stats to your new target distribution, check the equip load and weapon requirements, then confirm everything works before spending the Larval Tear in-game." },
             ].map(function(item, i) { return (
               <details key={i} className="group rounded-sm border border-gray-800 bg-gray-900/50">
                 <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-yellow-300">

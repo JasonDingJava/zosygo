@@ -477,6 +477,31 @@ export default function RuneLevelClient() {
             This is not practical for normal play — most players stop between 125 and 200.
           </p>
         </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-gray-200">How many runes per level at level 100?</h3>
+          <p className="mt-1 text-sm text-gray-500">
+            At level 100, each level costs roughly 52,000 runes. Going from level 100 to level 101 is 52,606 runes.
+            The cost increases by about 600-800 runes per level at this stage.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-gray-200">What is the Elden Ring rune cost formula?</h3>
+          <p className="mt-1 text-sm text-gray-500">
+            The game uses a tiered formula where cost = round(0.02x³ + 3.06x² + 105.6x - 895) where x is your current level.
+            This calculator uses the exact same formula from the game data, so the numbers match what you see in-game.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-gray-200">How long does it take to reach level 150 from a new game?</h3>
+          <p className="mt-1 text-sm text-gray-500">
+            With efficient rune farming at Mohgwyn Palace, reaching level 150 from level 1 takes about
+            200-250 runs (approximately 3-4 hours of dedicated farming). Without farming, it typically
+            takes 40-60 hours of natural progression through the game.
+          </p>
+        </div>
       </div>
 
       {/* ═══ Related Articles ═══ */}
