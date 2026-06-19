@@ -245,6 +245,15 @@ export default function HomePage() {
                     </div>
                   </div>
                 </Link>
+                <Link href="/elden-ring/tools/rune-level-calculator" className="group block rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4 transition-all hover:border-[#c9a227]/30 hover:bg-[#12121a]">
+                  <div className="flex items-center gap-3">
+                    <span className="text-xl">💀</span>
+                    <div>
+                      <span className="text-base font-semibold text-[#e8d5a3] group-hover:text-white">Rune Level Calculator</span>
+                      <p className="mt-0.5 text-sm text-zinc-500">Calculate runes needed for any level range from 1 to 713. Interactive cost curve, farming time estimates, and preset level targets.</p>
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
 
