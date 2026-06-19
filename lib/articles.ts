@@ -208,7 +208,7 @@ export const articles: Article[] = [
         heading: "Frequently Asked Questions",
         level: 2,
         content:
-          "**Is Moonveil still worth using in 2026?** Yes — it has survived every balance patch and remains one of the best Intelligence-scaling weapons in the game.\n\n**Is 80 Intelligence necessary?** No. 60-70 Intelligence is enough for most content. The last 10 points provide diminishing returns and are better spent on Vigor or Mind.\n\n**What level is best for Moonveil builds?** RL 150 offers the best balance between damage output and survivability. This is also the most active level range for co-op and PvP.\n\n**Moonveil vs Dark Moon Greatsword?** Moonveil is more flexible and easier to use. Dark Moon Greatsword has higher peak damage in optimized builds but requires more setup and commitment to each attack.\n\n**Is Moonveil beginner-friendly?** Yes — the combination of ranged attacks, bleed buildup, and straightforward stat scaling makes it one of the easiest top-tier weapons to pick up."
+          "**Is Moonveil still worth using in 2026?** Yes — it has survived every balance patch and remains one of the best Intelligence-scaling weapons in the game.\n\n**Is 80 Intelligence necessary?** No. 60-70 Intelligence is enough for most content. The last 10 points provide diminishing returns and are better spent on Vigor or Mind.\n\n**What level is best for Moonveil builds?** RL 150 offers the best balance between damage output and survivability. This is also the most active level range for co-op and PvP. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check how many runes you need to reach 150 from your current level.\n\n**Moonveil vs Dark Moon Greatsword?** Moonveil is more flexible and easier to use. Dark Moon Greatsword has higher peak damage in optimized builds but requires more setup and commitment to each attack.\n\n**Is Moonveil beginner-friendly?** Yes — the combination of ranged attacks, bleed buildup, and straightforward stat scaling makes it one of the easiest top-tier weapons to pick up."
       },
       {
         heading: "Final Verdict",
@@ -243,7 +243,7 @@ export const articles: Article[] = [
     {
       heading: "Stat Distribution vs Bloodhound's Fang Build",
       level: 2,
-      content: "Bleed build at RL 150: Vigor 50, Mind 12, Endurance 30, STR 18, DEX 55, ARC 45. Bloodhound build: Vigor 50, Endurance 30, STR 50, DEX 60. Bleed build needs only 18 STR for RoB (12 + 2-handing), freeing 30+ points for Arcane. Bloodhound needs 40 STR. Trade-off: Bloodhound deals 700-800 AR per R1. Bleed deals 450-550 per L1 but procs 15% max HP every 4 hits. Against 10k HP bosses, bleed adds 1700 damage per proc = 30-50% higher DPS. Against bleed-immune, Bloodhound does 60% more raw damage. Compare your own numbers using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+      content: "Bleed build at RL 150: Vigor 50, Mind 12, Endurance 30, STR 18, DEX 55, ARC 45. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to find out how many runes you need to reach this setup. Bloodhound build: Vigor 50, Endurance 30, STR 50, DEX 60. Bleed build needs only 18 STR for RoB (12 + 2-handing), freeing 30+ points for Arcane. Bloodhound needs 40 STR. Trade-off: Bloodhound deals 700-800 AR per R1. Bleed deals 450-550 per L1 but procs 15% max HP every 4 hits. Against 10k HP bosses, bleed adds 1700 damage per proc = 30-50% higher DPS. Against bleed-immune, Bloodhound does 60% more raw damage. Compare your own numbers using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
       image: "elden-ring-pure-dex-bleed-stats.jpg",
       imageAlt: ""
     },
@@ -412,8 +412,7 @@ export const articles: Article[] = [
         heading: "Recommended Level for Margit",
         level: 2,
         content:
-          "The recommended level for Margit is 20-30, but level alone is less important than your weapon upgrade and Vigor. Aim for Vigor 20+, a weapon upgraded to +3 or +4, and at least 3-4 flask charges. If you're below level 20 or using a base-level weapon, the fight will take much longer and leave less room for error. Exploring Limgrave and the Weeping Peninsula first — clearing a few dungeons and upgrading your weapon — will make a bigger difference than grinding runes for levels."
-      },
+          "The recommended level for Margit is 20-30, but level alone is less important than your weapon upgrade and Vigor. Aim for Vigor 20+, a weapon upgraded to +3 or +4, and at least 3-4 flask charges. If you're below level 20 or using a base-level weapon, the fight will take much longer and leave less room for error. Exploring Limgrave and the Weeping Peninsula first — clearing a few dungeons and upgrading your weapon — will make a bigger difference than grinding runes for levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check the exact rune cost to reach this level."      },
       {
         heading: "Margit Attack Patterns",
         level: 2,
@@ -1140,7 +1139,7 @@ export const articles: Article[] = [
       {
         heading: "Mistake #5: Poor Stat Distribution",
         level: 2,
-        content: "Many players spread points everywhere.\n\nExample:\n\n- Strength 25\n- Dexterity 25\n- Arcane 25\n- Faith 20\n\nThis creates a weak hybrid build.\n\nA stronger level 150 Bleed setup would look like:",
+        content: "Many players spread points everywhere.\n\nExample:\n\n- Strength 25\n- Dexterity 25\n- Arcane 25\n- Faith 20\n\nThis creates a weak hybrid build.\n\nA stronger level 150 Bleed setup would look like. Check the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for your build:",
         table: {
           headers: ["Attribute", "Value"],
           rows: [
@@ -1217,7 +1216,7 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "If you've ever wondered why adding 10 more levels to a stat barely increases your damage, you're running into one of Elden Ring's most important systems:\n\n**Soft Caps.**\n\nUnderstanding soft caps is the difference between creating a powerful build and wasting dozens of levels.\n\nMany players reach level 150 and still have weaker builds than level 120 characters simply because their stats are distributed inefficiently.\n\nThis guide explains exactly how Elden Ring soft caps work and how to use them when planning your build."
+        content: "If you've ever wondered why adding 10 more levels to a stat barely increases your damage, you're running into one of Elden Ring's most important systems:\n\n**Soft Caps.**\n\nUnderstanding soft caps is the difference between creating a powerful build and wasting dozens of levels.\n\nMany players reach level 150 and still have weaker builds than level 120 characters simply because their stats are distributed inefficiently. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check how many runes you need to reach 150.\n\nThis guide explains exactly how Elden Ring soft caps work and how to use them when planning your build."
       },
       {
         heading: "Quick Answer",
@@ -1844,7 +1843,7 @@ export const articles: Article[] = [
       {
         heading: "Quick Answer: What Makes a Strong Build?",
         level: 2,
-        content: "A strong Elden Ring build always follows 4 rules:\n\n- High survivability (Vigor 55–60)\n- Efficient stat scaling (no wasted levels)\n- Weapon + stat synergy\n- Correct damage type for content\n\nIf any one of these is missing, your build will feel weak even at level 150."
+        content: "A strong Elden Ring build always follows 4 rules:\n\n- High survivability (Vigor 55–60)\n- Efficient stat scaling (no wasted levels)\n- Weapon + stat synergy\n- Correct damage type for content\n\nIf any one of these is missing, your build will feel weak even at level 150. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see how many runes you need to reach endgame levels."
       },
       {
         heading: "The 3 Types of Builds in Elden Ring",
@@ -2192,7 +2191,7 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "Level 150 is the **standard endgame build point** in Elden Ring.\n\nAt this stage, players are no longer experimenting.\n\nThey are optimizing.\n\nThe difference between a strong Level 150 build and a weak one is not weapon choice — it is **stat efficiency and scaling balance**.\n\nThis guide gives you the most effective Level 150 builds for 2026."
+        content: "Level 150 is the **standard endgame build point** in Elden Ring.\n\nAt this stage, players are no longer experimenting.\n\nThey are optimizing.\n\nThe difference between a strong Level 150 build and a weak one is not weapon choice — it is **stat efficiency and scaling balance**.\n\nThis guide gives you the most effective Level 150 builds for 2026. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to get there."
       },
       {
         heading: "What Makes a Good Level 150 Build?",
@@ -2491,7 +2490,7 @@ export const articles: Article[] = [
         heading: "Level 150",
         level: 3,
         content:
-          "The most common endgame benchmark. At this level you can hit 60 Vigor, optimized damage stats, comfortable Endurance, and flexible hybrid builds. Most modern build guides are designed around Level 150."
+          "The most common endgame benchmark. At this level you can hit 60 Vigor, optimized damage stats, comfortable Endurance, and flexible hybrid builds. Most modern build guides are designed around Level 150. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check the rune cost from your current level."
       },
       {
         heading: "How Many Levels Do You Actually Need?",
@@ -2515,7 +2514,7 @@ export const articles: Article[] = [
         heading: "Best Rune Farming Locations",
         level: 2,
         content:
-          "If you\u2019re trying to reach Level 150 efficiently, focus on high-yield farming routes.\n\nGood farming locations share three characteristics:\n\n- Fast enemy kills\n- Safe resets\n- High rune rewards\n\nThe exact best location depends on your progression stage and build."
+          "If you\u2019re trying to reach Level 150 efficiently, focus on high-yield farming routes.\n\nUse the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to find out exactly how many runes you need, then pick the right farming spot. Good farming locations share three characteristics:\n\n- Fast enemy kills\n- Safe resets\n- High rune rewards\n\nThe exact best location depends on your progression stage and build."
       },
       {
         heading: "Should You Level Beyond 150?",

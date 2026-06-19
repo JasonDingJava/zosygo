@@ -478,6 +478,70 @@ export default function RuneLevelClient() {
           </p>
         </div>
       </div>
+
+      {/* ═══ Related Articles ═══ */}
+      <div className="mt-8 space-y-4 border-t border-gray-800 pt-8">
+        <h2 className="text-lg font-bold text-gray-100">Related Guides</h2>
+        <ul className="space-y-2 text-sm">
+          <li>
+            <a
+              href="/elden-ring/builds/rune-level-calculator"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              How Many Runes to Reach Level 150? — Full Cost Breakdown
+            </a>
+          </li>
+          <li>
+            <a
+              href="/elden-ring/builds/level-150-builds"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              Best Level 150 Builds (2026)
+            </a>
+          </li>
+          <li>
+            <a
+              href="/elden-ring/builds/moonveil-intelligence-build"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              Moonveil Intelligence Build Guide — Optimized for RL 150
+            </a>
+          </li>
+          <li>
+            <a
+              href="/elden-ring/builds/best-bleed-build"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              Best Bleed Builds in Elden Ring
+            </a>
+          </li>
+          <li>
+            <a
+              href="/elden-ring/builds/soft-caps-guide"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              Elden Ring Soft Caps Guide
+            </a>
+          </li>
+          <li>
+            <a
+              href="/elden-ring/builds/starting-class-guide"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              Best Starting Class Guide — Which Class Saves You Levels
+            </a>
+          </li>
+          <li>
+            <a
+              href="/elden-ring/builds/build-optimization"
+              className="text-blue-400 hover:text-blue-300"
+            >
+              How to Fix a Weak Build in Elden Ring
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+
   );
 }

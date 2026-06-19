@@ -10,7 +10,7 @@ const article52: Article = {
   order: 52,
   title: "Elden Ring Best Starting Class Guide (2026): Which Class Should You Pick?",
   metaDescription:
-    "Complete Elden Ring starting class guide for 2026. Compare all 10 classes with stat efficiency math, best picks for each build, and which class saves you wasted levels at RL 150.",
+    "Complete Elden Ring starting class guide for 2026. Compare all 10 classes with stat efficiency math, best picks for each build, and which class saves you wasted levels at RL 150. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan your leveling path.",
   sections: [
     {
       heading: "",
@@ -34,8 +34,7 @@ const article52: Article = {
       heading: "The Stat Efficiency Problem Explained",
       level: 2,
       content:
-        "Here\u2019s the key insight most starting class guides miss:\n\n**Optimal starting class is about minimizing wasted points, not maximizing starting stats.**\n\nEvery class has \u201cdumped\u201d stats \u2014 points in attributes you won\u2019t use. The Wretch technically has the most total points (80), but its even spread means most builds waste more points than they save.\n\n**Example:** A pure Strength build at RL 150 needs:\n- 60 Vigor, 25 Mind, 30 Endurance, 80 Strength\n- 15 Dexterity (minimum for most str weapons)\n- Base Intelligence, Faith, Arcane\n\n**Best class for pure Strength:** Hero (7 Int, 8 Fth, 11 Arc \u2192 9 points \u201cwasted\u201d in unusable stats)\n**Worst class for pure Strength:** Astrologer (16 Int you\u2019ll never use = 7 points wasted vs Hero)\n\nThat 7-point difference at RL 150 means you either lose damage or HP. In PvP, that\u2019s a loss.",
-    },
+        "Here\u2019s the key insight most starting class guides miss:\n\n**Optimal starting class is about minimizing wasted points, not maximizing starting stats.**\n\nEvery class has \u201cdumped\u201d stats \u2014 points in attributes you won\u2019t use. The Wretch technically has the most total points (80), but its even spread means most builds waste more points than they save.\n\n**Example:** A pure Strength build at RL 150 needs:\n- 60 Vigor, 25 Mind, 30 Endurance, 80 Strength\n- 15 Dexterity (minimum for most str weapons)\n- Base Intelligence, Faith, Arcane\n\n**Best class for pure Strength:** Hero (7 Int, 8 Fth, 11 Arc \u2192 9 points \u201cwasted\u201d in unusable stats)\n**Worst class for pure Strength:** Astrologer (16 Int you\u2019ll never use = 7 points wasted vs Hero)\n\nThat 7-point difference at RL 150 means you either lose damage or HP. In PvP, that\u2019s a loss. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach your target build."    },
     {
       heading: "The 10 Starting Classes: Quick Reference Table",
       level: 2,

@@ -426,7 +426,7 @@ const article49: Article = {
       heading: "Why the DLC Route Matters More Than Character Level",
       level: 2,
       content:
-        "In the base game, character level is the primary measure of power.\n\nIn Shadow of the Erdtree, Scadutree Blessings become equally important.\n\nA level 200 character with low blessing levels can struggle.\n\nA level 150 character with optimized blessings often performs much better.\n\nThis fundamentally changes progression.\n\nThe goal is not rushing bosses.\n\nThe goal is increasing blessing levels before major encounters.",
+        "In the base game, character level is the primary measure of power.\n\nIn Shadow of the Erdtree, Scadutree Blessings become equally important.\n\nA level 200 character with low blessing levels can struggle.\n\nA level 150 character with optimized blessings often performs much better. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach level 150.\n\nThis fundamentally changes progression.\n\nThe goal is not rushing bosses.\n\nThe goal is increasing blessing levels before major encounters.",
     },
     {
       heading: "Recommended Requirements Before Entering the DLC",
