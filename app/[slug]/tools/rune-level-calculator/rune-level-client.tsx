@@ -129,6 +129,31 @@ export default function RuneLevelClient() {
         <p className="mt-1 text-sm text-gray-400">
           Calculate runes needed for any level range, estimate farming time, and view the complete cost curve from level 1 to 713.
         </p>
+
+        {/* Quick guide */}
+        <div className="mt-4 grid gap-3 rounded-lg border border-gray-800 bg-gray-900/80 p-4 sm:grid-cols-3">
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-yellow-700 text-xs font-bold text-yellow-200">1</span>
+            <div>
+              <div className="text-xs font-semibold text-gray-300">Set Your Current Level</div>
+              <div className="mt-0.5 text-[11px] text-gray-500">Use the +/- buttons or type directly.</div>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-yellow-700 text-xs font-bold text-yellow-200">2</span>
+            <div>
+              <div className="text-xs font-semibold text-gray-300">Choose a Target Level</div>
+              <div className="mt-0.5 text-[11px] text-gray-500">Click a Quick Target button or type a custom level.</div>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-yellow-700 text-xs font-bold text-yellow-200">3</span>
+            <div>
+              <div className="text-xs font-semibold text-gray-300">Read Your Results</div>
+              <div className="mt-0.5 text-[11px] text-gray-500">Rune cost, farming time, and cost curve update instantly.</div>
+            </div>
+          </div>
+        </div>
       </div>
 
       {/* Input Section */}
