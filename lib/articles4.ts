@@ -588,7 +588,7 @@ const article49: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Shadow of the Erdtree?\n\nMost players enter comfortably between levels 125 and 175.\n\n### What is more important: level or Scadutree Blessing?\n\nScadutree Blessings are often more impactful than additional character levels.\n\n### Should I fight Rellana immediately?\n\nNo. Collecting several blessing levels first is highly recommended.\n\n### Is Belurat optional?\n\nTechnically yes, but it contains valuable rewards and progression resources.\n\n### What is the most important DLC mechanic?\n\nScadutree Blessings. Understanding this system makes the entire expansion significantly easier. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What level should I be for Shadow of the Erdtree?\n\nMost players enter comfortably between levels 125 and 175.\n\n### What is more important: level or Scadutree Blessing?\n\nScadutree Blessings are often more impactful than additional character levels.\n\n### Should I fight Rellana immediately?\n\nNo. Collecting several blessing levels first is highly recommended.\n\n### Is Belurat optional?\n\nTechnically yes, but it contains valuable rewards and progression resources.\n\n### What is the most important DLC mechanic?\n\nScadutree Blessings. Understanding this system makes the entire expansion significantly easier. Before going in, check which DLC weapons deal the most damage with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [

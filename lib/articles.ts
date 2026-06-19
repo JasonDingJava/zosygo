@@ -826,7 +826,7 @@ export const articles: Article[] = [
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "Moonveil remains one of the most efficient Intelligence builds in Elden Ring.\n\nIf optimized correctly, it can carry players through both base game and DLC content with ease.\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Moonveil build and optimize your stats for maximum damage. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "Moonveil remains one of the most efficient Intelligence builds in Elden Ring.\n\nIf optimized correctly, it can carry players through both base game and DLC content with ease.\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Moonveil build and optimize your stats for maximum damage."
       }
     ],
     internalLinks: [
@@ -1066,7 +1066,7 @@ export const articles: Article[] = [
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the optimal level for your build.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost for your Intelligence build."
+        content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the optimal level for your build.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost for your Intelligence build."
       }
     ],
     internalLinks: [
@@ -1189,7 +1189,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "Most weak Bleed builds fail because of poor optimization, not because Bleed is weak.\n\nEven in 2026, Bleed remains one of the strongest archetypes in Elden Ring.\n\nThe players who get the best results focus on:\n\n- Proper Vigor\n- Efficient Arcane investment\n- Strong talisman synergy\n- Correct weapon selection\n\nInstead of blindly copying stats from random guides.\n\nIf you're unsure whether your build is optimized, use the [Build Setup Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to compare different stat allocations and identify wasted levels before spending a Larval Tear. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "Most weak Bleed builds fail because of poor optimization, not because Bleed is weak.\n\nEven in 2026, Bleed remains one of the strongest archetypes in Elden Ring.\n\nThe players who get the best results focus on:\n\n- Proper Vigor\n- Efficient Arcane investment\n- Strong talisman synergy\n- Correct weapon selection\n\nInstead of blindly copying stats from random guides.\n\nIf you're unsure whether your build is optimized, use the [Build Setup Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to compare different stat allocations and identify wasted levels before spending a Larval Tear."
       }
     ],
     internalLinks: [
@@ -2012,7 +2012,7 @@ export const articles: Article[] = [
       {
         heading: "Use a Build Calculator (Important)",
         level: 2,
-        content: "Instead of guessing:\n\n- Test stat scaling\n- Compare weapons\n- Optimize damage efficiency\n- Avoid wasted levels\n\nThe [Build Setup Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) lets you simulate your character before committing Larval Tears.\n\n👉 This is the fastest way to fix weak builds. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        content: "Instead of guessing:\n\n- Test stat scaling\n- Compare weapons\n- Optimize damage efficiency\n- Avoid wasted levels\n\nThe [Build Setup Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) lets you simulate your character before committing Larval Tears.\n\n👉 This is the fastest way to fix weak builds.",
         image: "best-builds-defense.png",
         imageAlt: "Dragoncrest Greatshield Talisman representing defense and build optimization from Elden Ring"
       },
@@ -2157,7 +2157,7 @@ export const articles: Article[] = [
       {
         heading: "How to Use This Tier List",
         level: 2,
-        content: "Instead of blindly copying builds:\n\n1. Pick a tier (S / A / B)\n2. Choose build type\n3. Match it to your playstyle\n4. [Optimize using a build calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n\nThis prevents wasted levels and respecs. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        content: "Instead of blindly copying builds:\n\n1. Pick a tier (S / A / B)\n2. Choose build type\n3. Match it to your playstyle\n4. [Optimize using a build calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n\nThis prevents wasted levels and respecs.",
         image: "tier-list-defense.png",
         imageAlt: "Dragoncrest Greatshield Talisman representing defensive optimization from Elden Ring"
       },
@@ -2287,7 +2287,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "Level 150 is where Elden Ring builds are truly defined.\n\nThe strongest players are not those with the highest stats — but those who:\n\n- avoid wasted levels\n- hit soft caps correctly\n- match weapons to scaling\n- optimize survivability first\n\nIf your Level 150 build feels weak, it is almost always a stat efficiency problem — not a weapon problem. Compare AR values across different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "Level 150 is where Elden Ring builds are truly defined.\n\nThe strongest players are not those with the highest stats — but those who:\n\n- avoid wasted levels\n- hit soft caps correctly\n- match weapons to scaling\n- optimize survivability first\n\nIf your Level 150 build feels weak, it is almost always a stat efficiency problem — not a weapon problem. Compare your weapon's AR against other popular choices at that level with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
       }
     ],
     internalLinks: [
