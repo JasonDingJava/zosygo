@@ -318,7 +318,7 @@ const article39: Article = {
       heading: "How Ancient Lightning Spear Actually Works",
       level: 2,
       content:
-        "This skill is often misunderstood as a simple projectile.\n\nIt is actually a charged lightning strike system.\n\n### Activation Phase\n\nThe player channels lightning energy into the spear.\n\n### Release Phase\n\nA long-range lightning bolt is fired forward.\n\n### Effect\n\n* High lightning damage\n* Long travel distance\n* Strong boss punish capability\n\nThe skill is designed for precision timing, not spam.",
+        "This skill is often misunderstood as a simple projectile.\n\nIt is actually a charged lightning strike system.\n\n### Activation Phase\n\nThe player channels lightning energy into the spear.\n\n### Release Phase\n\nA long-range lightning bolt is fired forward.\n\n### Effect\n\n* High lightning damage\n* Long travel distance\n* Strong boss punish capability\n\nThe skill is designed for precision timing, not spam. Compare Bolt of Gransax's lightning damage against other Dexterity spears with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
     {
       heading: "Best Way To Use Bolt of Gransax",
@@ -496,7 +496,7 @@ const article40: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control.",
+        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control. Compare the damage and poise break potential of different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -858,7 +858,7 @@ const article42: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is weapon scaling in Elden Ring?\n\nWeapon scaling determines how much bonus damage a weapon gains from your attributes.\n\n### Is S scaling always better than A scaling?\n\nNo. Base damage, weapon type, and upgrade level still matter.\n\n### What is the best scaling stat?\n\nThere is no universal best stat. The correct stat depends on the weapon.\n\n### Does upgrading increase scaling?\n\nYes. Upgrading usually improves both base damage and scaling values.\n\n### Should I level stats or upgrade weapons first?\n\nIn most cases, upgrading weapons provides larger damage increases than leveling attributes.\n\nSee the exact damage numbers for each weapon and scaling combination with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What is weapon scaling in Elden Ring?\n\nWeapon scaling determines how much bonus damage a weapon gains from your attributes.\n\n### Is S scaling always better than A scaling?\n\nNo. Base damage, weapon type, and upgrade level still matter.\n\n### What is the best scaling stat?\n\nThere is no universal best stat. The correct stat depends on the weapon.\n\n### Does upgrading increase scaling?\n\nYes. Upgrading usually improves both base damage and scaling values.\n\n### Should I level stats or upgrade weapons first?\n\nIn most cases, upgrading weapons provides larger damage increases than leveling attributes.\n\nSee the exact damage numbers for each weapon and scaling combination with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). See how different weapons' damage per hit affects stance break efficiency with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
@@ -1359,7 +1359,7 @@ const article44: Article = {
       heading: "Over-Leveling One Character",
       level: 3,
       content:
-        "Sometimes weapon upgrades provide more value than additional levels.",
+        "Sometimes weapon upgrades provide more value than additional levels. Check how much damage your weapon gains per upgrade level with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
     {
       heading: "Rune Farming vs Boss Progression",

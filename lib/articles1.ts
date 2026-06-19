@@ -757,7 +757,7 @@ const article18: Article = {
       heading: "Why Your Damage Feels Low in Elden Ring",
       level: 2,
       content:
-        "Many players reach mid or late game in Elden Ring and suddenly feel weaker instead of stronger.\n\nThis is confusing because they assume:\n\n> More levels = more damage\n\nBut Elden Ring does not scale that way.\n\nThe game uses a combination of:\n\n- Weapon upgrade scaling  \n- Stat soft caps  \n- Multiplicative buffs  \n- Hidden efficiency curves  \n\nOnce these systems are ignored, damage stagnates.",
+        "Many players reach mid or late game in Elden Ring and suddenly feel weaker instead of stronger.\n\nThis is confusing because they assume:\n\n> More levels = more damage\n\nBut Elden Ring does not scale that way.\n\nThe game uses a combination of:\n\n- Weapon upgrade scaling  \n- Stat soft caps  \n- Multiplicative buffs  \n- Hidden efficiency curves  \n\nOnce these systems are ignored, damage stagnates. See how much damage your weapon gains per upgrade level with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
       image: "bloodhound-fang-stats.jpg",
       imageAlt: "Elden Ring Bloodhound Fang stats screen showing weapon scaling",
     },
@@ -906,7 +906,7 @@ const article19: Article = {
       heading: "Mistake #4: Wrong Weapon for Your Stats",
       level: 1,
       content:
-        "A common issue:\n\n- High STR build using DEX weapon  \n- INT build using non-scaling weapon  \n\nResult:\n\n- Base damage only  \n- Scaling ignored  \n\n> Weapon choice must match stat identity.",
+        "A common issue:\n\n- High STR build using DEX weapon  \n- INT build using non-scaling weapon  \n\nResult:\n\n- Base damage only  \n- Scaling ignored  \n\n> Weapon choice must match stat identity. Check your weapon's AR against common alternatives with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
     {
       heading: "Mistake #5: Weak Talisman Setup",

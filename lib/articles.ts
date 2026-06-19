@@ -247,7 +247,7 @@ export const articles: Article[] = [
       image: "elden-ring-pure-dex-bleed-stats.jpg",
       imageAlt: ""
     },
-    { heading: "Weapon Loadout and Talisman Synergy", level: 2, content: "Left hand Rivers of Blood +10, Right hand Uchigatana +25 with Seppuku (Blood affinity). Seppuku adds 30 bleed buildup per weapon for 60s. White Mask +10% attack on bleed proc. Lord of Blood's Exultation +20% attack for 20s after bleed. Stack: 1.1 x 1.2 = 32% increase. Talismans: Lord of Blood's Exultation, Shard of Alexander, Claw Talisman, Dragoncrest Greatshield. Rotational priority: Seppuku > jump L1 > Corpse Piler when bleed procs." },
+    { heading: "Weapon Loadout and Talisman Synergy", level: 2, content: "Left hand Rivers of Blood +10, Right hand Uchigatana +25 with Seppuku (Blood affinity). Seppuku adds 30 bleed buildup per weapon for 60s. White Mask +10% attack on bleed proc. Lord of Blood's Exultation +20% attack for 20s after bleed. Stack: 1.1 x 1.2 = 32% increase. Talismans: Lord of Blood's Exultation, Shard of Alexander, Claw Talisman, Dragoncrest Greatshield. Rotational priority: Seppuku > jump L1 > Corpse Piler when bleed procs. Compare the bleed damage of different katanas and daggers with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)." },
     { heading: "Progression Path", level: 2, content: "Early (1-40): Samurai start, dual Uchigatanas with Bloody Slash. Focus VGR 25, DEX 30. Mid (40-80): Yura questline for RoB, farm White Mask at Mohgwyn. DEX 40, VGR 35. Late (80-150): DEX 55, ARC 45. Carry Cold-infused Zweihander +25 for Radagon/Elden Beast." },
     { heading: "Three-Way Comparison", level: 2, content: "Bleed build: 3500 DPS vs bleedable bosses. Bloodhound: 2400 DPS consistent. Moonveil: 2800 DPS with range safety. Malenia kill times: bleed 18s, Moonveil 60-80s, Bloodhound 90+s. First playthrough pick: Bloodhound. Boss rush pick: bleed." },
     { heading: "Common Mistakes", level: 2, content: "(1) Not using Seppuku before boss fights. (2) Dual RoB instead of RoB + Seppuku Uchi. (3) No Dragoncrest Greatshield - one mistake kills. (4) No backup for bleed-immune bosses. (5) Spamming Corpse Piler instead of jump L1s - jump L1s stagger in 3-4 hits." }
@@ -372,7 +372,7 @@ export const articles: Article[] = [
     {
       heading: "Dexterity vs Strength Build",
       level: 2,
-      content: "In Elden Ring builds: Dexterity: Faster gameplay, Higher mobility, Lower defense. Strength: Slower attacks, Higher poise, Burst damage + stagger. Conclusion: Dexterity is better for skill-based players, Strength is better for tank-style players. "
+      content: "In Elden Ring builds: Dexterity: Faster gameplay, Higher mobility, Lower defense. Strength: Slower attacks, Higher poise, Burst damage + stagger. Conclusion: Dexterity is better for skill-based players, Strength is better for tank-style players. Compare the actual damage numbers for fast Dexterity weapons vs slow Strength weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). "
     },
   ],
   internalLinks: [
@@ -1812,7 +1812,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them.\n\nA build planner is the fastest way to:\n\n- fix weak builds\n- optimize damage\n- improve survivability\n- prepare for DLC content\n\n---\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for each phase of your build."
+        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them.\n\nA build planner is the fastest way to:\n\n- fix weak builds\n- optimize damage\n- improve survivability\n- prepare for DLC content\n\n---\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for each phase of your build. Check how much damage your weapons gain at each soft cap with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
       }
     ],
     internalLinks: [
@@ -2384,7 +2384,7 @@ export const articles: Article[] = [
         heading: "Weapon Strategy (Important Insight)",
         level: 2,
         content:
-          "Fast weapons outperform heavy weapons in this fight.\n\nWhy:\n\n- More punish flexibility\n- Easier spacing correction\n- Lower commitment per attack\n\nRecommended:\n\n- Straight swords\n- Katanas\n- Light greatswords\n\nAvoid:\n\n- Ultra heavy weapons (too slow for Phase 2 recovery windows)"
+          "Fast weapons outperform heavy weapons in this fight. Check the actual damage difference between fast and slow weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).\n\nWhy:\n\n- More punish flexibility\n- Easier spacing correction\n- Lower commitment per attack\n\nRecommended:\n\n- Straight swords\n- Katanas\n- Light greatswords\n\nAvoid:\n\n- Ultra heavy weapons (too slow for Phase 2 recovery windows)"
       },
       {
         heading: "Why You Feel Phase 2 Is \u201CUnfair\u201D",
