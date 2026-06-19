@@ -159,27 +159,31 @@ export default function RuneLevelClient() {
       {/* Input Section */}
       <div className="mb-6 grid gap-4 sm:grid-cols-2">
         <Section title="Current Level">
-          <div className="flex items-center gap-3">
-            <button onClick={() => setCurrentLevel((p) => Math.max(1, p - 1))} disabled={currentLevel <= 1}
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded bg-gray-800 text-sm text-gray-400 transition hover:bg-gray-700 disabled:opacity-30">−</button>
-            <input type="number" value={currentLevel}
-              onChange={(e) => setCurrentLevel(clampLevel(parseInt(e.target.value, 10) || 1, false))}
-              min={1} max={MAX_LEVEL - 1}
-              className="w-full rounded bg-gray-800 px-3 py-2 text-center text-lg font-bold text-yellow-400 outline-none focus:ring-2 focus:ring-yellow-600" />
-            <button onClick={() => setCurrentLevel((p) => Math.min(MAX_LEVEL - 1, p + 1))} disabled={currentLevel >= MAX_LEVEL - 1}
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded bg-gray-800 text-sm text-gray-400 transition hover:bg-gray-700 disabled:opacity-30">+</button>
+          <div>
+            <div className="mb-2 flex items-center justify-between">
+              <span className="text-2xl font-bold text-yellow-400">{currentLevel}</span>
+            </div>
+            <input type="range" min={1} max={MAX_LEVEL - 1} value={currentLevel}
+              onChange={(e) => setCurrentLevel(parseInt(e.target.value, 10))}
+              className="w-full accent-yellow-500" />
+            <div className="mt-1 flex justify-between text-[10px] text-gray-600">
+              <span>Lv 1</span>
+              <span>Lv {MAX_LEVEL - 1}</span>
+            </div>
           </div>
         </Section>
         <Section title="Target Level">
-          <div className="flex items-center gap-3">
-            <button onClick={() => setTargetLevel((p) => Math.max(2, p - 1))} disabled={targetLevel <= 2}
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded bg-gray-800 text-sm text-gray-400 transition hover:bg-gray-700 disabled:opacity-30">−</button>
-            <input type="number" value={targetLevel}
-              onChange={(e) => setTargetLevel(clampLevel(parseInt(e.target.value, 10) || 150, true))}
-              min={2} max={MAX_LEVEL}
-              className="w-full rounded bg-gray-800 px-3 py-2 text-center text-lg font-bold text-yellow-400 outline-none focus:ring-2 focus:ring-yellow-600" />
-            <button onClick={() => setTargetLevel((p) => Math.min(MAX_LEVEL, p + 1))} disabled={targetLevel >= MAX_LEVEL}
-              className="flex h-9 w-9 shrink-0 items-center justify-center rounded bg-gray-800 text-sm text-gray-400 transition hover:bg-gray-700 disabled:opacity-30">+</button>
+          <div>
+            <div className="mb-2 flex items-center justify-between">
+              <span className="text-2xl font-bold text-yellow-400">{targetLevel}</span>
+            </div>
+            <input type="range" min={2} max={MAX_LEVEL} value={targetLevel}
+              onChange={(e) => setTargetLevel(parseInt(e.target.value, 10))}
+              className="w-full accent-yellow-500" />
+            <div className="mt-1 flex justify-between text-[10px] text-gray-600">
+              <span>Lv 2</span>
+              <span>Lv {MAX_LEVEL}</span>
+            </div>
           </div>
         </Section>
       </div>
