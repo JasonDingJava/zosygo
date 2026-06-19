@@ -36,6 +36,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "daily",
     priority: 1.0,
   });
+  entries.push({
+    url: `${SITE_URL}/elden-ring/tools/rune-level-calculator`,
+    lastModified: new Date(),
+    changeFrequency: "daily",
+    priority: 1.0,
+  });
 
   // ── hub_page: /elden-ring ──
   // priority 0.95, weekly
