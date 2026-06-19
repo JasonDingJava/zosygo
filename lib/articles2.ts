@@ -242,7 +242,7 @@ const article28: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Why can't I damage Rennala in Phase One?\n\nHer barrier must be broken first by defeating the correct glowing students.\n\n### How do I know which students are correct?\n\nLook for golden light, golden projectiles, and unique singing effects.\n\n### Is Rennala weak to Bleed?\n\nYes. Bleed performs very well throughout the encounter.\n\n### Should I fight Rennala's summons?\n\nUsually no. Maintaining pressure on Rennala is often more effective.\n\n### Why do Intelligence builds struggle against Rennala?\n\nRennala has strong magical resistance, making many spells less effective than usual.\n\n### What is the most important tip for this fight?\n\nUnderstand the mechanic first. Damage comes second.",
+        "### Why can't I damage Rennala in Phase One?\n\nHer barrier must be broken first by defeating the correct glowing students.\n\n### How do I know which students are correct?\n\nLook for golden light, golden projectiles, and unique singing effects.\n\n### Is Rennala weak to Bleed?\n\nYes. Bleed performs very well throughout the encounter.\n\n### Should I fight Rennala's summons?\n\nUsually no. Maintaining pressure on Rennala is often more effective.\n\n### Why do Intelligence builds struggle against Rennala?\n\nRennala has strong magical resistance, making many spells less effective than usual.\n\n### What is the most important tip for this fight?\n\nUnderstand the mechanic first. Damage comes second. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your respec before visiting Rennala.",
     },
   ],
   internalLinks: [

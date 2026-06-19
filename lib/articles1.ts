@@ -584,7 +584,7 @@ const softCapsV2Article: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "Soft caps are one of the most important hidden systems in Elden Ring.\n\nThey explain why:\n\n- More levels don\u2019t always mean more power\n- High-level builds can still feel weak\n- Optimization matters more than grinding\n\nThe strongest builds are not the ones with the highest stats.\n\nThey are the ones that understand when stats stop being efficient.\n\nMaster soft caps, and every future build becomes significantly stronger."
+        "Soft caps are one of the most important hidden systems in Elden Ring.\n\nThey explain why:\n\n- More levels don\u2019t always mean more power\n- High-level builds can still feel weak\n- Optimization matters more than grinding\n\nThe strongest builds are not the ones with the highest stats.\n\nThey are the ones that understand when stats stop being efficient.\n\nMaster soft caps, and every future build becomes significantly stronger. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat allocation against the soft caps."
     }
   ],
   internalLinks: [
@@ -672,7 +672,7 @@ const article17: Article = {
       heading: "Hidden Factor #3: Scaling Type Matters",
       level: 2,
       content:
-        "Not all weapons scale the same.\n\nSome weapons:\n\n- Scale heavily with one stat  \n- Others split scaling across multiple stats  \n- Some rely more on base damage than scaling  \n\nThis is why two Level 150 players can feel completely different in power.",
+        "Not all weapons scale the same.\n\nSome weapons:\n\n- Scale heavily with one stat  \n- Others split scaling across multiple stats  \n- Some rely more on base damage than scaling  \n\nThis is why two Level 150 players can feel completely different in power. Simulate different stat allocations to see their impact on damage with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
     {
       heading: "How to Fix a Weak Build (Practical Checklist)",
@@ -831,7 +831,7 @@ const article18: Article = {
       heading: "Why Level 150 Feels Weak for Many Players",
       level: 2,
       content:
-        "At Level 150, most players expect:\n\n- Max damage  \n- Easy boss fights  \n- High scaling returns  \n\nBut what they actually get is:\n\n- Diminishing returns from stats  \n- Poor efficiency from hybrid builds  \n- Unoptimized talismans  \n\n> The problem is not the level cap.  \n> The problem is build structure.",
+        "At Level 150, most players expect:\n\n- Max damage  \n- Easy boss fights  \n- High scaling returns  \n\nBut what they actually get is:\n\n- Diminishing returns from stats  \n- Poor efficiency from hybrid builds  \n- Unoptimized talismans  \n\n> The problem is not the level cap.  \n> The problem is build structure. Run your own numbers through the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to find where your build is wasting damage.",
     },
     {
       heading: "How to Actually Increase Damage",
@@ -1358,7 +1358,7 @@ const article21: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City.",
+        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City. Check if your build is ready for Radahn with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
   ],
   internalLinks: [

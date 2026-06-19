@@ -1383,7 +1383,7 @@ const article44: Article = {
       heading: "What Rune Farming Teaches Players",
       level: 2,
       content:
-        "Rune farming highlights a core Elden Ring principle:\n\nProgress is not only about skill.\n\nIt is also about efficiency.\n\nPlayers who understand efficient rune generation gain access to:\n\n* Better builds\n* More experimentation\n* Faster progression\n\nWithout increasing difficulty.",
+        "Rune farming highlights a core Elden Ring principle:\n\nProgress is not only about skill.\n\nIt is also about efficiency.\n\nPlayers who understand efficient rune generation gain access to:\n\n* Better builds\n* More experimentation\n* Faster progression\n\nWithout increasing difficulty. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how each level improves your character before you farm.",
     },
     {
       heading: "FAQ",
@@ -1609,7 +1609,7 @@ const article45: Article = {
       heading: "Why This Route Works",
       level: 2,
       content:
-        "The route focuses on the three resources that matter most:\n\n### Survivability\n\n* Vigor\n* Flask upgrades\n\n### Damage\n\n* Weapon upgrades\n* Build specialization\n\n### Efficiency\n\n* Exploration\n* Resource collection\n* Smart progression\n\nMost early-game difficulty disappears once these systems are optimized.",
+        "The route focuses on the three resources that matter most:\n\n### Survivability\n\n* Vigor\n* Flask upgrades\n\n### Damage\n\n* Weapon upgrades\n* Build specialization\n\n### Efficiency\n\n* Exploration\n* Resource collection\n* Smart progression\n\nMost early-game difficulty disappears once these systems are optimized. Plan your early game stat priority with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
     {
       heading: "FAQ",
