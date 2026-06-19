@@ -1812,7 +1812,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for each phase of your build. Check how much damage your weapons gain at each soft cap with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how much damage you gain from each stat point."
+        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for each phase of your build. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how much damage you gain from each stat point."
       }
     ],
     internalLinks: [
