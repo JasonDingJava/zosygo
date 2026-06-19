@@ -238,7 +238,7 @@ export const articles: Article[] = [
     {
       heading: "Decision - Should You Use This Build?",
       level: 2,
-      content: "The Pure DEX Bleed build is Elden Ring's highest burst-damage setup against bleedable bosses but the most binary build in the game. Pick this if: you want to delete bosses in under 30 seconds (Malenia in 18s, Mohg in 12s); you enjoy aggressive jump attack pressure. Do NOT pick this if: fighting bleed-immune bosses (Elden Beast, Radagon, Gargoyles, Crystalians, Rennala phase 1 - about 20% of bosses); you prefer safe ranged play. Bloodhound's Fang is a better all-rounder for first playthroughs. Moonveil is better for hybrid ranged/melee. Test your stat distribution with the [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears."
+      content: "The Pure DEX Bleed build is Elden Ring's highest burst-damage setup against bleedable bosses, but it's also the most binary build in the game. Pick this if you want to delete bosses in under 30 seconds (Malenia in 18s, Mohg in 12s) and enjoy aggressive jump attack pressure. Do NOT pick this if you're fighting bleed-immune bosses (Elden Beast, Radagon, Gargoyles, Crystalians, Rennala phase 1 — about 20% of bosses) or prefer safe ranged play. Bloodhound's Fang is a better all-rounder for first playthroughs, and Moonveil is better for hybrid ranged/melee. Test your stat distribution with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears."
     },
     {
       heading: "Stat Distribution vs Bloodhound's Fang Build",
@@ -275,7 +275,7 @@ export const articles: Article[] = [
     {
       heading: "Decision - Should You Fight Godrick First?",
       level: 2,
-      content: "Godrick is easier than Margit but blocks access to Liurnia. Fight at level 35+ with +5 weapon. Below 30? Explore Weeping Peninsula first. Difficulty: 6/10. Weak to strike damage, bleed, and lightning. Resists holy (40% resistance). Margit tests dodge timing; Godrick tests positioning."
+      content: "Godrick is easier than Margit but blocks access to Liurnia. Fight him at level 35+ with a +5 weapon. Below 30? Explore Weeping Peninsula first. Difficulty: 6/10. Weak to strike damage, bleed, and lightning. Resists holy (40% resistance). The key difference: Margit tests dodge timing, while Godrick tests positioning."
     },
     {
       heading: "Phase 1 Attack Patterns (100% to 60% HP)",
@@ -309,7 +309,7 @@ export const articles: Article[] = [
     {
       heading: "Decision - Should You Use Rivers of Blood?",
       level: 2,
-      content: "RoB is the highest-DPS weapon against bleedable targets but a specialist. Use if: melting bosses under 20s, you have Arcane investment, fighting bleedable bosses (Malenia, Mohg, Godfrey). Do NOT use if: fighting bleed-immune bosses (Elden Beast, Radagon, gargoyles, Rennala); you want PvP weapon (Corpse Piler is easy to dodge post-nerf). Moonveil is better for range. Hand of Malenia has higher potential but harder to land."
+      content: "RoB is the highest-DPS weapon against bleedable targets, but it's a specialist weapon. Use it if you want to melt bosses under 20s, have Arcane investment, and are fighting bleedable bosses (Malenia, Mohg, Godfrey). Do NOT use it against bleed-immune bosses (Elden Beast, Radagon, gargoyles, Rennala) or in PvP where Corpse Piler is easy to dodge post-nerf. Moonveil is better for range. Hand of Malenia has higher potential but is harder to land consistently."
     },
     {
       heading: "Corpse Piler - Timing and Positioning",
@@ -527,12 +527,12 @@ export const articles: Article[] = [
       {
         heading: "Why Bleed Builds Are So Strong",
         level: 2,
-        content: "Bleed builds work differently from standard damage builds. Instead of relying only on attack rating, they trigger Hemorrhage, which deals a large percentage of enemy HP instantly.\n\nKey Advantages:\n- Extremely high boss damage\n- Fast weapon attack speed\n- Strong performance throughout the entire game\n- Excellent scaling into New Game Plus\n- Effective against most DLC bosses\n\nHow Bleed Works:\nWhen you build up enough Bleed status on an enemy, a Hemorrhage explosion triggers that deals percentage-based max HP damage and resets the bleed buildup meter. This makes Bleed one of the strongest scaling mechanics in the game. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different Arcane and Dexterity balances and find your optimal bleed buildup rate."
+        content: "Bleed builds work differently from standard damage builds. Instead of relying only on attack rating, they trigger Hemorrhage — a proc that deals a large percentage of enemy HP instantly, scaling with Arcane. This makes Bleed one of the strongest damage mechanics in the game, particularly against high-HP bosses where percentage-based damage outperforms raw AR by a significant margin.\n\n**Key advantages:** extremely high boss DPS, fast attack speed, strong performance across the entire game, excellent scaling into New Game Plus, and effectiveness against most DLC bosses. The trade-off is that bleed-resistant enemies (Elden Beast, Radagon, gargoyles) will force you to switch strategies.\n\n**How it works:** each hit builds up the bleed status meter. Once full, a Hemorrhage explosion triggers, dealing percentage-based max HP damage and resetting the meter. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different Arcane and Dexterity balances and find your optimal bleed buildup rate."
       },
       {
         heading: "Best Starting Class for Bleed Build",
         level: 2,
-        content: "Samurai (Best Choice):\nThe Samurai is the most efficient starting class for Bleed builds. It provides the Uchigatana with innate Bleed, strong Dexterity scaling, and smooth early-game progression.\n\nAlternative Classes:\n- Vagabond (more survivability)\n- Warrior (dual-wield focus)\n- Bandit (Arcane-focused variation)"
+        content: "The Samurai is the most efficient starting class for Bleed builds. It provides the Uchigatana with innate Bleed, strong Dexterity scaling, and smooth early-game progression. Alternative options: Vagabond (more survivability), Warrior (dual-wield focus), or Bandit (Arcane-focused variation)."
       },
       {
         heading: "Best Bleed Build Stats (Level 150)",
@@ -555,21 +555,21 @@ export const articles: Article[] = [
       {
         heading: "Best Weapons for Bleed Build",
         level: 2,
-        content: "Rivers of Blood:\nOne of the strongest weapons in Elden Ring. Extremely fast bleed buildup, powerful weapon skill (Corpse Piler), and high PvE damage output. Requires mid-to-late game access and is less flexible than other katanas.\n\nNagakiba:\nA flexible and high-reach alternative with very long weapon range, flexible Ash of War options, and strong Dexterity scaling. Slightly lower burst damage than Rivers of Blood.\n\nBlood Uchigatana:\nBest early-game Bleed weapon. Available very early, easy to upgrade, and has reliable bleed buildup.",
+        content: "**Rivers of Blood:** One of the strongest weapons in Elden Ring. Extremely fast bleed buildup, powerful Corpse Piler weapon skill, and high PvE damage output. The downside is that it requires mid-to-late game access and is less flexible than other katanas.\n\n**Nagakiba:** A flexible alternative with very long reach, customizable Ash of War options, and strong Dexterity scaling. Slightly lower burst damage than Rivers of Blood.\n\n**Blood Uchigatana:** The best early-game Bleed weapon. Available very early, easy to upgrade, and has reliable bleed buildup.",
         image: "bleed-build-rivers-of-blood.png",
         imageAlt: "Rivers of Blood katana from Elden Ring"
       },
       {
         heading: "Best Talismans for Bleed Build",
         level: 2,
-        content: "Lord of Blood's Exultation:\nEssential for all Bleed builds. Increases attack power when Bleed occurs nearby.\n\nShard of Alexander:\nBoosts weapon skill damage. Excellent synergy with Rivers of Blood.\n\nRotten Winged Sword Insignia:\nIncreases attack power with consecutive hits. Ideal for fast melee builds.\n\nDragoncrest Greatshield Talisman:\nProvides strong physical damage reduction. Recommended for DLC bosses.",
+        content: "**Lord of Blood's Exultation:** Essential for all Bleed builds. Increases attack power by 20% for 20 seconds whenever bleed procs nearby.\n\n**Shard of Alexander:** Boosts weapon skill damage by 15%. Excellent synergy with Rivers of Blood's Corpse Piler.\n\n**Rotten Winged Sword Insignia:** Increases attack power with consecutive hits, up to 13% after four hits. Ideal for fast melee builds that stack hits quickly.\n\n**Dragoncrest Greatshield Talisman:** Provides 20% physical damage reduction. Strongly recommended for DLC bosses.",
         image: "bleed-build-lord-of-bloods-exultation.png",
         imageAlt: "Lord of Blood's Exultation talisman"
       },
       {
         heading: "Best Armor for Bleed Build",
         level: 2,
-        content: "White Mask:\nBest helmet for Bleed builds. Boosts attack after Bleed procs. Strong synergy with talismans.\n\nRaptor's Black Feathers:\nEnhances jump attack builds.\n\nMedium Armor Setup:\nAlways maintain Medium Roll for mobility.",
+        content: "**White Mask:** Best helmet for Bleed builds. Boosts attack by 10% for 20 seconds after bleed procs. Strong synergy with Lord of Blood's Exultation.\n\n**Raptor's Black Feathers:** Enhances jump attack damage by 10%. Useful if you're using jump attack loops.\n\n**Medium Armor Setup:** Always maintain Medium Roll for mobility. Mix and match pieces for the best poise-to-weight ratio.",
         image: "bleed-build-white-mask.webp",
         imageAlt: "White Mask helmet from Elden Ring"
       },
@@ -591,7 +591,7 @@ export const articles: Article[] = [
       {
         heading: "Frequently Asked Questions",
         level: 2,
-        content: "Is Bleed still strong in 2026?\nYes. Bleed remains one of the strongest PvE builds in Elden Ring.\n\nWhat is the best Bleed weapon?\nRivers of Blood, Nagakiba, and Blood Uchigatana.\n\nShould I use Arcane or Dexterity first?\nDexterity first, then Arcane for scaling.\n\nIs Bleed better than Strength builds?\nBleed has higher burst damage, Strength has better stagger and stability."
+        content: "**Is Bleed still strong in 2026?** Yes. Bleed remains one of the strongest PvE builds in Elden Ring, particularly against high-HP bosses.\n\n**What is the best Bleed weapon?** Rivers of Blood for burst damage, Nagakiba for reach and flexibility, Blood Uchigatana for early game.\n\n**Should I use Arcane or Dexterity first?** Dexterity first for weapon requirements and early damage, then Arcane for bleed scaling.\n\n**Is Bleed better than Strength builds?** Bleed has higher burst damage against bleedable bosses. Strength builds offer better stagger and consistency against bleed-resistant enemies."
       },
     ],
     internalLinks: [
@@ -618,12 +618,12 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "Moonveil is one of the strongest Intelligence-based weapons in Elden Ring. With its powerful weapon skill **Transient Moonlight**, it remains a top-tier choice for both PvE and PvP even in 2026.\n\nThis guide explains the **best Moonveil build in Elden Ring**, including stats, weapons, talismans, armor, and leveling path."
+        content: "Moonveil is one of the strongest Intelligence-based weapons in Elden Ring. Its weapon skill, Transient Moonlight, combines burst damage, range, and stagger pressure in a way that few other weapons can match, which is why it remains a top-tier choice for both PvE and PvP even in 2026. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path."
       },
       {
         heading: "Why Moonveil Is So Strong",
         level: 2,
-        content: "Moonveil combines:\n\n- Fast katana attacks\n- Strong Intelligence scaling\n- High burst damage weapon skill\n- Safe ranged pressure via magic projectiles\n\nThis makes it one of the most efficient hybrid builds in the game."
+        content: "Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill, and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game — capable of fighting effectively at range, in melee, and everything in between."
       },
       {
         heading: "Best Starting Class for Moonveil Build",
@@ -633,7 +633,7 @@ export const articles: Article[] = [
       {
         heading: "Samurai (Recommended)",
         level: 3,
-        content: "Samurai is the best starting class because it provides:\n\n- Uchigatana (strong early weapon)\n- Good Dexterity scaling\n- Smooth transition into Moonveil build"
+        content: "Samurai is the best starting class because it provides the Uchigatana as a strong early weapon, good Dexterity scaling, and a smooth transition into the Moonveil build."
       },
       {
         heading: "Alternative Class",
@@ -643,7 +643,7 @@ export const articles: Article[] = [
       {
         heading: "Prisoner",
         level: 3,
-        content: "Best for Intelligence builds because:\n\n- Starts with Intelligence scaling\n- Balanced Dex + Int setup\n- Faster access to magic scaling"
+        content: "Best for Intelligence builds because it starts with Intelligence scaling, a balanced Dex + Int setup, and faster access to magic scaling."
       },
       {
         heading: "Best Moonveil Build Stats (Level 150)",
@@ -686,7 +686,7 @@ export const articles: Article[] = [
       {
         heading: "Moonveil Katana (Core Weapon)",
         level: 3,
-        content: "Strengths:\n\n- Extremely high weapon skill damage\n- Fast casting animation\n- Strong PvE + PvP performance\n\nWeaknesses:\n\n- Requires Intelligence investment\n- Less effective without FP",
+        content: "**Strengths:** extremely high weapon skill damage, fast casting animation, and strong performance in both PvE and PvP. **Weaknesses:** requires Intelligence investment and becomes less effective without FP to fuel Transient Moonlight.",
         image: "moonveil-build-moonveil-weapon.png",
         imageAlt: "Moonveil Katana from Elden Ring"
       },
@@ -2473,25 +2473,25 @@ export const articles: Article[] = [
         heading: "Level 50",
         level: 3,
         content:
-          "Ideal for:\n\n- Early game progression\n- Learning weapon movesets\n- Exploring Limgrave and Liurnia\n\nFocus on:\n\n- Vigor\n- Weapon requirements\n\nAvoid investing heavily into multiple damage stats.\n\n![Elden Ring screenshot](/images/articles/202cbf1646fbde075d5d60db094fd856.jpeg)"
+          "Covers early game progression, learning weapon movesets, and exploring Limgrave and Liurnia. Focus on Vigor and meeting weapon requirements, and avoid investing heavily into multiple damage stats at this stage.\n\n![Elden Ring screenshot](/images/articles/202cbf1646fbde075d5d60db094fd856.jpeg)"
       },
       {
         heading: "Level 100",
         level: 3,
         content:
-          "Ideal for:\n\n- Mid-game completion\n- Most legacy dungeons\n- First serious build planning\n\nRecommended priorities:\n\n- Vigor 40+\n- Main damage stat 40\u201350"
+          "Suitable for mid-game completion, most legacy dungeons, and first serious build planning. Recommended priorities at this stage: Vigor 40+ and main damage stat at 40-50."
       },
       {
         heading: "Level 125",
         level: 3,
         content:
-          "Traditionally considered the PvP meta level.\n\nBenefits:\n\n- Efficient builds\n- Strong specialization\n- Competitive matchmaking\n\nMany veteran players stop here."
+          "Traditionally considered the PvP meta level because it allows efficient builds with strong specialization and competitive matchmaking. Many veteran players stop here."
       },
       {
         heading: "Level 150",
         level: 3,
         content:
-          "The most common endgame benchmark.\n\nBenefits:\n\n- 60 Vigor\n- Optimized damage stats\n- Comfortable Endurance\n- Flexible hybrid builds\n\nMost modern build guides are designed around Level 150."
+          "The most common endgame benchmark. At this level you can hit 60 Vigor, optimized damage stats, comfortable Endurance, and flexible hybrid builds. Most modern build guides are designed around Level 150."
       },
       {
         heading: "How Many Levels Do You Actually Need?",

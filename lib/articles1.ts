@@ -2052,7 +2052,7 @@ const article25: Article = {
     {
       heading: "Multi-Stomp Combo",
       level: 3,
-      content: "As the fight progresses, Godfrey chains several stomps together.\n\n#### Best Counter\n\nFocus on rhythm.\n\nMost players fail because they react to the first stomp and lose timing on the following attacks."
+      content: "As the fight progresses, Godfrey chains several stomps together.\n\n#### Best Counter\n\nFocus on rhythm.\n\nThe usual mistake is they react to the first stomp and lose timing on the following attacks."
     },
     {
       heading: "Phase Transition",
