@@ -374,6 +374,48 @@ export default function RuneLevelClient() {
         </div>
       </Section>
 
+      {/* ═══ SEO Content ═══ */}
+      <div className="mt-8 space-y-6 border-t border-gray-800 pt-8">
+        <h2 className="text-lg font-bold text-gray-100">What Is the Elden Ring Rune Level Calculator?</h2>
+        <p className="text-sm leading-relaxed text-gray-400">
+          The Elden Ring Rune Level Calculator is a free online tool that tells you exactly how many runes you need
+          to reach any level from 1 to 713. It uses the game's official rune cost formula to calculate the exact
+          number of runes required for each level, so you can plan your character's progression without wasting
+          time farming blindly.
+        </p>
+
+        <h2 className="text-lg font-bold text-gray-100">What Can You Do With It?</h2>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>Calculate runes needed from your current level to any target level.</li>
+          <li>See the cost per level across the entire 1–713 curve.</li>
+          <li>Estimate how many farming runs you need with different farming methods.</li>
+          <li>Check rune costs for popular PvP and PvE level targets (125, 150, 200).</li>
+          <li>Share your exact level range via URL with one click.</li>
+        </ul>
+
+        <h2 className="text-lg font-bold text-gray-100">How to Use the Rune Level Calculator</h2>
+        <ol className="list-decimal space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>
+            <strong className="text-gray-300">Set your current level</strong> — Drag the Current Level slider
+            to match your character's level in-game.
+          </li>
+          <li>
+            <strong className="text-gray-300">Choose a target level</strong> — Drag the Target Level slider,
+            or click one of the Quick Target buttons (RL125, RL150, RL200) for popular breakpoints.
+          </li>
+          <li>
+            <strong className="text-gray-300">Read your results</strong> — The Required Runes card shows the
+            total cost. The Milestones table breaks down costs for multiple targets at once.
+          </li>
+          <li>
+            <strong className="text-gray-300">Estimate farming time</strong> — Pick a farming method and see
+            exactly how many runs you need.
+          </li>
+        </ol>
+      </div>
+
+      {/* ═══ FAQ ═══ */}
+
       {/* ═══ URL Share ═══ */}
       <Section title="Share Build" className="mb-6">
         <div className="flex items-center gap-2">
