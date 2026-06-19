@@ -42,6 +42,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "daily",
     priority: 1.0,
   });
+  // Article entries
+  entries.push({
+    url: `${SITE_URL}/elden-ring/walkthroughs/how-many-runes-to-reach-level-150`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  });
 
   // ── hub_page: /elden-ring ──
   // priority 0.95, weekly
