@@ -117,6 +117,23 @@ export default function RuneLevelClient() {
         Calculate how many runes you need to reach any level. Plan your build from early game to max level.
       </p>
 
+      {/* ═══ URL Share (top) ═══ */}
+      <div className="mt-4 flex items-center gap-2 rounded-lg border border-gray-800 bg-gray-900/40 p-3">
+        <span className="text-xs text-gray-500">Share:</span>
+        <input
+          type="text"
+          readOnly
+          value={shareUrl}
+          className="flex-1 rounded bg-gray-800 px-3 py-1.5 text-xs text-gray-400 outline-none"
+        />
+        <button
+          onClick={handleCopy}
+          className="shrink-0 rounded bg-yellow-700 px-3 py-1.5 text-xs font-semibold text-yellow-200 transition hover:bg-yellow-600"
+        >
+          {copied ? "Copied!" : "Copy"}
+        </button>
+      </div>
+
       {/* ═══ Level Input ═══ */}
       <div className="mb-6 mt-6 grid gap-4 sm:grid-cols-2">
         <Section title="Current Level">
@@ -415,24 +432,6 @@ export default function RuneLevelClient() {
       </div>
 
       {/* ═══ FAQ ═══ */}
-
-      {/* ═══ URL Share ═══ */}
-      <Section title="Share Build" className="mb-6">
-        <div className="flex items-center gap-2">
-          <input
-            type="text"
-            readOnly
-            value={shareUrl}
-            className="flex-1 rounded bg-gray-800 px-3 py-2 text-xs text-gray-400 outline-none"
-          />
-          <button
-            onClick={handleCopy}
-            className="shrink-0 rounded bg-yellow-700 px-4 py-2 text-xs font-semibold text-yellow-200 transition hover:bg-yellow-600"
-          >
-            {copied ? "Copied!" : "Copy URL"}
-          </button>
-        </div>
-      </Section>
 
       {/* ═══ FAQ ═══ */}
       <div className="mt-8 space-y-6 border-t border-gray-800 pt-8">
