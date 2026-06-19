@@ -381,6 +381,9 @@ export default function RuneLevelClient() {
             <p className="mt-1 text-xs text-gray-500">
               Set Vigor, Endurance, Strength, Dexterity, Intelligence — see exact damage and defense numbers.
             </p>
+            <p className="mt-1 text-xs text-gray-500">
+              Also compare weapon damage with the <a href="/elden-ring/tools/weapon-ar-calculator" className="text-yellow-400 underline underline-offset-2 hover:text-yellow-300">Weapon AR Calculator</a>.
+            </p>
           </div>
           <a
             href="/elden-ring/tools/build-calculator"
