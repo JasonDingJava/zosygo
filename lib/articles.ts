@@ -64,13 +64,13 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "Moonveil has remained one of the strongest weapons in Elden Ring since launch.\n\nMany weapons have risen and fallen through patches, balance changes, and DLC updates.\n\nMoonveil survived them all.\n\nThe reason is simple:\n\nMoonveil combines four of the most valuable mechanics in the game:\n\n- Fast katana moveset\n- Bleed buildup\n- Intelligence scaling\n- Powerful ranged weapon skills\n\nMost weapons excel in one category.\n\nMoonveil excels in all four.\n\nThis guide explains how to build Moonveil correctly, which stats matter most, where players waste levels, and how to maximize damage using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) without sacrificing survivability.\n\n![Elden Ring screenshot](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
+          "Moonveil has stayed relevant through every major patch and DLC release because it combines four mechanics that most weapons only get one or two of: a fast katana moveset, bleed buildup, Intelligence scaling, and a ranged weapon skill that deals serious posture damage. Other top-tier weapons got nerfed or outclassed by new additions, but Moonveil kept showing up in build discussions because that combination is hard to beat.\n\nThis guide covers the stat breakpoints that actually matter, the talisman setup that maximizes Transient Moonlight, and the common leveling mistakes that waste 10-15 stat points on a typical RL 150 build. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions before spending Larval Tears.\n\n![Elden Ring screenshot](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
       },
       {
         heading: "Why Moonveil Is Still One of the Best Weapons",
         level: 2,
         content:
-          "Many players assume Moonveil is only popular because of its weapon skill.\n\nThat is only part of the story.\n\nMoonveil remains powerful because it solves multiple combat problems simultaneously.\n\nAdvantages include:\n\n- Excellent burst damage\n- Safe ranged attacks\n- Fast recovery animations\n- Strong posture damage\n- Reliable bleed buildup\n- Intelligence scaling for hybrid caster builds\n\nThis flexibility makes Moonveil effective against nearly every enemy type in the game.",
+          "Transient Moonlight is the reason most players pick up Moonveil, but it's not the only reason the weapon stays viable. You get burst damage from the skill, a safe ranged option, fast recovery animations so you're not locked in place, posture damage that opens bosses for crits, and bleed buildup that chips percentage-based HP. Plus Intelligence scaling means you can run sorceries without splitting your stats awkwardly. That combination is hard to replace with any single weapon.",
         image: "moonveil-build-moonveil-weapon.png",
         imageAlt: "Moonveil katana build showcase with Transient Moonlight skill"
       },
@@ -78,19 +78,19 @@ export const articles: Article[] = [
         heading: "How to Get Moonveil",
         level: 2,
         content:
-          "Moonveil drops from the Magma Wyrm inside Gael Tunnel.\n\n## Location\n\nGael Tunnel, Caelid\n\n## Recommended Level\n\n50\u201370\n\n## Boss Reward\n\nMoonveil Katana\n\nThe fight can be challenging for melee characters because of the boss\u2019s fire attacks and aggressive movement.\n\nMagic users generally have an easier time maintaining distance and controlling the encounter."
+          "Moonveil drops from the Magma Wyrm boss in Gael Tunnel, on the Caelid side of the border with Limgrave. You'll want to be at least level 50-70 before attempting the fight — the Wyrm's fire attacks and lava pools can one-shot underleveled characters, and the confined tunnel space makes it hard to create distance. Melee builds should watch for the lingering lava AoE. Sorcery users have a noticeably easier time here since they can punish from range while the Wyrm cycles through its slow attack patterns."
       },
       {
         heading: "Moonveil Weapon Overview",
         level: 2,
         content:
-          "| Attribute | Value |\n|------------|------------|\n| Weapon Type | Katana |\n| Damage Type | Physical + Magic |\n| Passive Effect | Bleed |\n| Skill | Transient Moonlight |\n| Primary Scaling | Intelligence |\n\nMoonveil\u2019s identity revolves around Transient Moonlight.\n\nThis weapon skill allows players to unleash powerful magic slashes capable of staggering enemies and dealing heavy burst damage from a safe distance."
+          "| Attribute | Value |\n|------------|------------|\n| Weapon Type | Katana |\n| Damage Type | Physical + Magic |\n| Passive Effect | Bleed (45) |\n| Skill | Transient Moonlight (16 FP) |\n| Primary Scaling | Intelligence |\n| Weight | 6.5 |\n\nTransient Moonlight has two variants: a horizontal slash (L2 > R1) that covers a wide arc for groups and mobile enemies, and an overhead vertical slash (L2 > R2) that deals higher stagger damage to single targets. Both fire a magic projectile reaching about two-thirds of a standard sorcery's range."
       },
       {
         heading: "Moonveil Damage Breakpoints Most Players Miss",
         level: 2,
         content:
-          "This is where most build guides stop.\n\nThey tell you to level Intelligence.\n\nThey rarely tell you how much Intelligence is actually worth.\n\nUnderstanding breakpoints is one of the easiest ways to improve your build."
+          "Most build guides tell you to level Intelligence and stop there. They don't explain where the returns drop off, which means a lot of players end up at 80 Intelligence with 40 Vigor, wondering why they die in two hits. Understanding the actual value of each stat point makes a bigger difference than chasing a high number on the stat screen."
       },
       {
         heading: "Intelligence Scaling Efficiency",
@@ -102,19 +102,19 @@ export const articles: Article[] = [
         heading: "The Level 150 Optimization Problem",
         level: 3,
         content:
-          "Consider two builds.\n\n### Build A\n\n- Vigor 40\n- Intelligence 80\n\n### Build B\n\n- Vigor 60\n- Intelligence 70\n\nMost players assume Build A is stronger.\n\nIn practice, Build B often performs better against difficult bosses.\n\nWhy?\n\nBecause survivability increases damage uptime.\n\nDead players deal no damage.\n\nFor most players, Intelligence 70 is the optimal balance between offense and defense."
+          "Build A runs 40 Vigor and 80 Intelligence. Build B runs 60 Vigor and 70 Intelligence. On paper Build A has higher damage numbers, but Build B wins more fights because you survive hits that would flatten Build A, which means more time actually dealing damage. The community consensus for endgame content is 60 Vigor as the baseline, and Moonveil's damage at 70 Intelligence is close enough to the 80 cap that the extra survivability is almost always worth the trade."
       },
       {
         heading: "Best Moonveil Stats (Level 150)",
         level: 2,
         content:
-          "| Attribute | Value |\n|------------|------------|\n| Vigor | 60 |\n| Mind | 25 |\n| Endurance | 25 |\n| Strength | 12 |\n| Dexterity | 30 |\n| Intelligence | 70\u201380 |\n| Faith | Base |\n| Arcane | Base |\n\nThis setup provides:\n\n- Excellent survivability\n- High Moonveil damage\n- Comfortable FP management\n- Strong spellcasting support"
+          "| Attribute | Value | Notes |\n|------------|------------|-------|\n| Vigor | 60 | Endgame baseline |\n| Mind | 25 | 6 Transient Moonlight casts per flask |\n| Endurance | 25 | Covers medium armor + Moonveil + staff |\n| Strength | 12 | Minimum requirement |\n| Dexterity | 30 | Cast speed + weapon requirement |\n| Intelligence | 70\u201380 | 70 is the sweet spot |\n| Faith | Base | Not needed |\n| Arcane | Base | Not needed |\n\nThe key takeaway: 60 Vigor is the floor for comfortable endgame play. Push Intelligence to 70, then decide whether the extra 10 points are better spent on Mind, Endurance, or pushing to 80. Most players get more value from the former."
       },
       {
         heading: "Why Dexterity Is Often Overrated",
         level: 2,
         content:
-          "One of the most common mistakes is investing too heavily into Dexterity.\n\nMoonveil is fundamentally an Intelligence weapon.\n\nAfter meeting weapon requirements:\n\n1. Reach 60 Vigor\n2. Reach 60\u201370 Intelligence\n3. Increase Mind if necessary\n4. Only then invest additional points into Dexterity\n\nThis progression path produces significantly better results for most players."
+          "A common trap is investing heavily in Dexterity because Moonveil has DEX scaling listed. The issue is that Moonveil's damage is overwhelmingly tied to Intelligence — the magic portion scales almost entirely off INT, and Transient Moonlight is INT-weighted too. DEX gives a small physical damage bump and slightly faster cast speeds, but the returns are mediocre compared to what you get from pushing Vigor or Intelligence. The priority order that works best: 60 Vigor first, then 70 Intelligence, then Mind if you're running low on FP, and only after those are covered should you consider adding DEX."
       },
       {
         heading: "Best Talismans for Moonveil",
@@ -125,25 +125,25 @@ export const articles: Article[] = [
         heading: "Shard of Alexander",
         level: 3,
         content:
-          "The strongest overall talisman for Moonveil users.\n\nBenefits:\n\n- Increases weapon skill damage\n- Boosts Transient Moonlight performance\n\nEssential for maximizing burst damage."
+          "Boosts Transient Moonlight damage by 15%. If you're building around Moonveil's weapon skill, this is the first talisman slot you fill. The damage increase applies to both the melee hit and the projectile, so it boosts your entire burst combo."
       },
       {
         heading: "Magic Scorpion Charm",
         level: 3,
         content:
-          "Increases magic damage output.\n\nExcellent for:\n\n- Weapon skill damage\n- Magic attacks\n- Sorcery synergy"
+          "A 12% magic damage boost that applies to Moonveil's weapon skill and any sorceries you're running. The trade-off is reduced damage negation, so it works best when you're confident in your dodging. Pair it with Dragoncrest Greatshield Talisman to offset the defense penalty."
       },
       {
         heading: "Dragoncrest Greatshield Talisman",
         level: 3,
         content:
-          "One of the best defensive talismans in the game.\n\nParticularly useful during:\n\n- DLC encounters\n- Late-game bosses\n- High-damage enemy fights"
+          "A 20% physical damage reduction that makes a noticeable difference in late-game and DLC fights where bosses hit hard. This is the defensive counterpart to Magic Scorpion Charm — running both gives you damage and survivability in one package."
       },
       {
         heading: "Carian Filigreed Crest",
         level: 3,
         content:
-          "Reduces FP consumption.\n\nIdeal for players who frequently use Transient Moonlight.\n\n![Elden Ring screenshot](/images/articles/u=1563453329,401002841&fm=253&app=138&f=JPEG.jpeg)"
+          "Cuts FP cost of weapon skills by 25%. If you're chugging blue flasks more than red ones, this talisman extends your combat uptime significantly. It's a quality-of-life pick that becomes more valuable the more aggressively you use Transient Moonlight.\n\n![Elden Ring screenshot](/images/articles/u=1563453329,401002841&fm=253&app=138&f=JPEG.jpeg)"
       },
       {
         heading: "Best Spells for Moonveil Builds",
@@ -154,67 +154,67 @@ export const articles: Article[] = [
         heading: "Night Comet",
         level: 3,
         content:
-          "One of the strongest PvE spells available.\n\nMany enemies struggle to react to it."
+          "A top-tier PvE spell because enemies — including bosses — don't try to dodge it. Unlike Glintstone Pebble or Comet, which trigger enemy evasion AI, Night Comet's projectile is invisible to most enemies. This means you land consistent damage without the spell whiffing due to erratic movement."
       },
       {
         heading: "Terra Magica",
         level: 3,
         content:
-          "Provides a substantial magic damage boost.\n\nPerfect before major boss phases."
+          "A 35% magic damage buff that stacks with other boosts. The catch is you have to stay within the sigil, which limits mobility. Best used during boss phase transitions or when a summon is holding aggro."
       },
       {
         heading: "Comet",
         level: 3,
         content:
-          "Reliable ranged damage.\n\nExcellent for general progression."
+          "High-damage single-target projectile that works well as a general-purpose ranged option. More expensive FP-wise than Night Comet, but hits harder when it lands."
       },
       {
         heading: "Carian Slicer",
         level: 3,
         content:
-          "Extremely FP-efficient.\n\nIdeal for close-range combat situations."
+          "Extremely FP-efficient melee-range spell that out-damages most weapons per FP spent. Useful as a backup option when enemies close the gap and you don't want to switch off your staff."
       },
       {
         heading: "Best Physick Tears",
         level: 2,
         content:
-          "## Magic-Shrouding Cracked Tear\n\nBoosts magic damage.\n\nDirectly improves Moonveil\u2019s primary damage output.\n\n## Intelligence-Knot Crystal Tear\n\nTemporarily increases Intelligence.\n\nUseful for boss fights and burst damage windows."
+          "**Magic-Shrouding Cracked Tear:** Boosts magic damage by roughly 20% for three minutes. Directly improves Transient Moonlight and sorcery damage.\n\n**Intelligence-Knot Crystal Tear:** Temporarily adds 10 Intelligence. Useful for meeting spell requirements or pushing past a damage breakpoint during a boss fight. Stack both in the Physick for a significant burst window."
       },
       {
         heading: "PvE Strategy",
         level: 2,
         content:
-          "Moonveil dominates PvE because it offers both safety and damage.\n\nGeneral approach:\n\n1. Open with buffs.\n2. Create spacing.\n3. Use Transient Moonlight.\n4. Break enemy posture.\n5. Execute critical attacks.\n\nMany bosses can be staggered repeatedly using this strategy."
+          "Moonveil's PvE strength is that it lets you fight at a distance without sacrificing damage. The general loop: open with Physick and any self-buffs, create spacing with sprint or a dodge, hit with Transient Moonlight until the enemy's stance breaks, then close in for a critical attack. Many bosses that are weak to stagger — Crucible Knights, Tree Sentinels, even some endgame bosses — can be locked into this cycle. The key is not overcommitting: one or two Transient Moonlight hits, then reposition."
       },
       {
         heading: "PvP Strategy",
         level: 2,
         content:
-          "Moonveil remains dangerous in PvP because opponents must constantly respect its range.\n\nTips:\n\n- Do not spam weapon skills.\n- Mix normal attacks with Transient Moonlight.\n- Punish healing attempts.\n- Control spacing carefully.\n\nThe strongest Moonveil players are unpredictable.\n\nThe weakest players simply spam weapon skills."
+          "In PvP, Moonveil's threat comes from the fact that opponents have to respect the range of Transient Moonlight while also watching for normal katana attacks. The worst Moonveil players spam the weapon skill — it's predictable and easy to punish with a single roll and counter-attack. The best ones mix in running attacks, jumping attacks, and regular R1s, only using Transient Moonlight when they see an opening like a missed attack or a healing attempt. Spacing control is everything: stay just outside their melee range but inside your projectile range, and punish whiffed attacks."
       },
       {
         heading: "Moonveil vs Rivers of Blood",
         level: 2,
         content:
-          "These are two of the most popular weapons in Elden Ring.\n\nHowever, they serve different purposes.\n\n| Category | Moonveil | Rivers of Blood |\n|-----------|-----------|-----------|\n| Burst Damage | Excellent | Excellent |\n| Range | Excellent | Average |\n| Bleed Damage | Moderate | Exceptional |\n| Boss Consistency | Excellent | Good |\n| PvP Pressure | Excellent | Excellent |\n| Build Flexibility | High | Moderate |\n\nChoose Moonveil if:\n\n- You enjoy Intelligence builds\n- You want ranged pressure\n- You prefer flexible gameplay\n\nChoose Rivers of Blood if:\n\n- You want maximum bleed damage\n- You enjoy aggressive melee combat"
+          "Moonveil and Rivers of Blood are often compared because they're both katanas with powerful weapon skills, but they serve different roles. Moonveil is better at range and works well with hybrid caster builds. Rivers of Blood deals higher raw damage against bleedable bosses and procs status effects faster.\n\n| Category | Moonveil | Rivers of Blood |\n|-----------|-----------|-----------|\n| Burst Damage | Excellent | Excellent |\n| Range | Excellent | Average |\n| Bleed Damage | Moderate | Exceptional |\n| Boss Consistency | Excellent | Good |\n| PvP Pressure | Excellent | Excellent |\n| Build Flexibility | High | Moderate |\n\nPick Moonveil if you want ranged pressure and flexibility to swap between melee and sorcery. Pick Rivers of Blood if you want maximum bleed procs and aggressive close-range pressure."
       },
       {
         heading: "Common Moonveil Build Mistakes",
         level: 2,
         content:
-          "## Ignoring Vigor\n\nDamage means nothing if you die in two hits.\n\nAlways prioritize survivability.\n\n## Chasing 80 Intelligence Too Early\n\nMany players rush to 80 Intelligence while neglecting Vigor.\n\nThis creates an inefficient build.\n\n## Spamming Weapon Skills\n\nTransient Moonlight is powerful.\n\nIt is also predictable.\n\nExperienced opponents will punish repetitive usage.\n\n## Neglecting Sorceries\n\nMoonveil becomes significantly stronger when combined with Intelligence spells.\n\nTreat it as part of a complete build, not a standalone weapon."
+          "**Ignoring Vigor.** This is the most common mistake across all Elden Ring builds, not just Moonveil. Damage means nothing if you die in two hits. 60 Vigor should be the goal for endgame.\n\n**Chasing 80 Intelligence too early.** Rushing 80 INT while leaving Vigor at 40 creates a fragile build that falls apart against any hard-hitting boss. The extra damage from 70 to 80 INT is modest compared to the survivability gain from 40 to 60 Vigor.\n\n**Spamming Transient Moonlight.** The weapon skill is powerful but predictable. In PvE, spamming it leaves you open during recovery. In PvP, experienced opponents will roll through it and punish. Mix in normal attacks to stay unpredictable.\n\n**Neglecting sorceries.** Moonveil is part of a build, not the whole build. Running a staff in the off-hand with a few key spells — Night Comet, Terra Magica, Carian Slicer — dramatically increases your effective damage output."
       },
       {
         heading: "Frequently Asked Questions",
         level: 2,
         content:
-          "## Is Moonveil still worth using in 2026?\n\nYes.\n\nMoonveil remains one of the strongest Intelligence weapons in the game.\n\n## Is 80 Intelligence necessary?\n\nNo.\n\nMost players achieve excellent results at 60\u201370 Intelligence.\n\n## What level is best for Moonveil builds?\n\nLevel 150 provides the best balance between survivability and damage.\n\n## Is Moonveil better than Dark Moon Greatsword?\n\nMoonveil offers greater flexibility and ease of use.\n\nDark Moon Greatsword generally has higher peak damage in fully optimized builds.\n\n## Is Moonveil good for beginners?\n\nAbsolutely.\n\nIts combination of range, bleed, and Intelligence scaling makes it one of the most beginner-friendly weapons in Elden Ring."
+          "**Is Moonveil still worth using in 2026?** Yes — it has survived every balance patch and remains one of the best Intelligence-scaling weapons in the game.\n\n**Is 80 Intelligence necessary?** No. 60-70 Intelligence is enough for most content. The last 10 points provide diminishing returns and are better spent on Vigor or Mind.\n\n**What level is best for Moonveil builds?** RL 150 offers the best balance between damage output and survivability. This is also the most active level range for co-op and PvP.\n\n**Moonveil vs Dark Moon Greatsword?** Moonveil is more flexible and easier to use. Dark Moon Greatsword has higher peak damage in optimized builds but requires more setup and commitment to each attack.\n\n**Is Moonveil beginner-friendly?** Yes — the combination of ranged attacks, bleed buildup, and straightforward stat scaling makes it one of the easiest top-tier weapons to pick up."
       },
       {
         heading: "Final Verdict",
         level: 2,
         content:
-          "Moonveil remains one of the safest and most effective weapons in Elden Ring.\n\nIts unique combination of Intelligence scaling, bleed buildup, ranged pressure, and strong posture damage allows it to excel in both PvE and PvP.\n\nMost players do not need more damage.\n\nThey need better optimization.\n\nFocus on:\n\n- 60 Vigor\n- 70\u201380 Intelligence\n- Efficient talismans\n- Proper spell support\n\nWhen built correctly, Moonveil remains a top-tier weapon capable of carrying players through every major challenge Elden Ring has to offer."
+          "Moonveil is not the flashiest or hardest-hitting weapon in Elden Ring, but it is one of the most consistent. The combination of Intelligence scaling, bleed buildup, ranged pressure, and posture damage covers more situations than almost any other single weapon. Most players struggling with Moonveil don't need more damage — they need better stat allocation and a proper talisman setup. Nail the fundamentals — 60 Vigor, 70 Intelligence, the right talismans, and a few supporting sorceries — and Moonveil will carry you through every major boss in the game."
       }
     ],
     internalLinks: [
@@ -398,7 +398,7 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "Margit, the Fell Omen is the first major skill check in Elden Ring.\n\nMany players reach this fight underleveled, under-geared, and unfamiliar with boss timing systems.\n\nThis is intentional.\n\nMargit is designed to punish panic rolling, over-aggression, and poorly optimized early builds.\n\nThis guide breaks down Margit\u2019s attacks, explains his patterns, and shows the safest way to beat him consistently.",
+          "Margit, the Fell Omen is the first boss in Elden Ring that forces players to learn the game's combat system properly. Most players who hit a wall here are not underleveled — they're approaching the fight with the wrong mindset. Margit is specifically designed to punish panic rolling, over-aggression, and poorly optimized early builds. His attack patterns have variable delays that throw off muscle memory from other action games.\n\nThis guide breaks down each of his attacks, explains the timing differences that trip most players up, and lays out a strategy that works consistently regardless of your starting class.",
         image: "margit-boss-fight.jpg",
         imageAlt: "Margit the Fell Omen boss fight in Stormveil Castle Elden Ring"
       },
@@ -406,13 +406,13 @@ export const articles: Article[] = [
         heading: "Why Margit Feels So Hard",
         level: 2,
         content:
-          "Margit is not difficult because of raw damage.\n\nHe is difficult because of:\n\n- Delayed attacks\n- Variable timing\n- Fast mix-ups\n- Punishing healing windows\n- Aggressive AI tracking\n\nMost early players fail because they roll too early or panic when attacks are delayed."
+          "Margit's raw damage output is not what makes him hard. What makes him difficult is that his attack timings are intentionally inconsistent. Some attacks swing immediately after the wind-up, others hold for a full second before releasing. This variable timing is what catches players who rely on reflex rolling. He also aggressively tracks the player's position, meaning strafing or running away doesn't create safe distance the way it does against most early-game enemies. Healing windows are tight — if you chug a flask after the wrong attack, you will eat a hammer to the face before the animation finishes."
       },
       {
         heading: "Recommended Level for Margit",
         level: 2,
         content:
-          "## Level Range: 20\u201330\n\nAt this level you should have:\n\n- Vigor 20+\n- Upgraded weapon (+3 to +5)\n- Basic flasks upgraded\n\nIf you are below Level 20, the fight becomes significantly harder."
+          "The recommended level for Margit is 20-30, but level alone is less important than your weapon upgrade and Vigor. Aim for Vigor 20+, a weapon upgraded to +3 or +4, and at least 3-4 flask charges. If you're below level 20 or using a base-level weapon, the fight will take much longer and leave less room for error. Exploring Limgrave and the Weeping Peninsula first — clearing a few dungeons and upgrading your weapon — will make a bigger difference than grinding runes for levels."
       },
       {
         heading: "Margit Attack Patterns",
@@ -423,25 +423,25 @@ export const articles: Article[] = [
         heading: "1. Delayed Staff Combo",
         level: 3,
         content:
-          "Margit holds his staff before attacking.\n\nThis is a trap.\n\nMost players roll too early.\n\n### Counter:\nWait for the actual swing, not the wind-up."
+          "Margit raises his staff and holds it for a beat before swinging. This is the attack that catches the most new players — the natural instinct is to roll as soon as the arm moves, which puts you in recovery right when the swing connects. The counter is to watch the staff, not the arm. Roll when the staff starts moving forward, not when Margit starts his wind-up."
       },
       {
         heading: "2. Jump Slam Attack",
         level: 3,
         content:
-          "Margit jumps high and slams down.\n\nHigh damage but slow recovery.\n\n### Counter:\nRoll sideways, punish immediately after landing."
+          "Margit leaps into the air and crashes down with his hammer. The damage is high but the recovery is slow — this is one of your best punish windows. Roll sideways (not backward, the AoE catches backward rolls) and you have time for one or two attacks before Margit recovers."
       },
       {
         heading: "3. Magic Daggers",
         level: 3,
         content:
-          "Margit throws multiple magic projectiles.\n\nOften used after distance is created.\n\n### Counter:\nKeep moving diagonally, do not roll backward."
+          "Margit conjures and throws a spread of magic daggers, typically when you create distance. The projectiles track slightly, so rolling backward often gets you hit by the follow-up daggers. Move diagonally forward and the spread will miss. This also closes distance for a punish."
       },
       {
         heading: "4. Multi-Hit Combo",
         level: 3,
         content:
-          "One of Margit\u2019s most dangerous patterns.\n\nHe chains several delayed attacks together.\n\n### Counter:\nDo not panic roll. Wait for full combo end."
+          "Margit's most dangerous attack chain. He strings together 3-4 delayed swings with different timings, and panic rolling will get you caught by the next hit every time. The correct response is to roll each individual swing on reaction, or better yet, create distance and let the combo finish. There is a clear pause after the final hit — that's your punish window."
       },
       {
         heading: "Best Strategy to Beat Margit",
@@ -452,55 +452,55 @@ export const articles: Article[] = [
         heading: "Step 1: Use Spirit Summons",
         level: 3,
         content:
-          "Recommended summons:\n\n- Lone Wolf Ashes\n- Jellyfish\n\nThey distract Margit and create attack windows."
+          "The Lone Wolf Ashes or the Jellyfish Spirit Ash are both excellent for this fight. The wolves provide multiple targets that split Margit's attention, giving you windows to heal or attack safely. The jellyfish is tankier and applies poison over time, which chips Margit's HP while you focus on dodging. Either option significantly reduces the difficulty of the fight."
       },
       {
         heading: "Step 2: Play Defensive Early",
         level: 3,
         content:
-          "Do not rush damage.\n\nFocus on:\n\n- Learning timings\n- Observing combos\n- Punishing after attacks"
+          "For the first 30-60 seconds of the fight, focus on survival rather than damage. Use this time to learn his timing patterns — which attacks have delays, which combos leave him open, and which moves are safe to heal after. Once you have a read on his patterns, you can start punishing confidently."
       },
       {
         heading: "Step 3: Punish After Big Attacks",
         level: 3,
         content:
-          "Best punish windows:\n\n- After jump slam\n- After long combo finish\n- After dagger throw recovery"
+          "The safest windows to attack are after the jump slam (he stays down for a full second), after the multi-hit combo finishes (clear pause before his next move), and after the magic dagger throw (he stands still briefly during the recovery). Limit yourself to one or two hits per punish — Margit recovers faster than you expect, and greed is the most common cause of death in this fight."
       },
       {
         heading: "Step 4: Avoid Greed",
         level: 3,
         content:
-          "Most deaths happen because players try to hit 2\u20133 extra attacks.\n\nMargit punishes greed heavily."
+          "This is the single most important rule for Margit. Most deaths in this fight happen not because the player didn't know what to do, but because they got one or two extra hits in and got caught by Margit's recovery attack. Hit once or twice and reset. The fight takes longer this way, but you will win consistently."
       },
       {
         heading: "Best Weapons Against Margit",
         level: 2,
         content:
-          "Early game strong options:\n\n- Uchigatana\n- Bloodhound\u2019s Fang\n- Lordsworn\u2019s Straight Sword\n- Claymore\n\nFast weapons are safer than heavy weapons."
+          "Fast weapons perform better here because Margit's punish windows are short. The Uchigatana (Samurai starter) and Bloodhound's Fang are top picks because they combine speed with bleed buildup. The Lordsworn's Straight Sword and Claymore are solid alternatives. Slow weapons like great hammers or colossal swords leave you vulnerable during recovery and make it harder to land hits in the tight punish windows."
       },
       {
         heading: "Best Tips for Beginners",
         level: 2,
         content:
-          "## 1. Do not panic roll\n\nTiming matters more than speed.\n\n## 2. Upgrade weapon before leveling damage stats\n\nWeapon upgrade gives more damage than early stat scaling.\n\n## 3. Stay close but not too close\n\nMid-range is safest position."
+          "**Do not panic roll.** Margit's delays are designed to catch early rolls. Wait until you see the swing start before pressing dodge.\n\n**Upgrade your weapon before leveling damage stats.** At this stage of the game, a weapon upgrade gives more damage per resource spent than stat points. A +4 weapon outperforms a +0 weapon even with 10 fewer points in your damage stat.\n\n**Stay at mid-range.** Too close and you can't react to his attacks. Too far and he spams magic daggers. The sweet spot is just outside his melee reach but close enough to close in for a punish after his big attacks."
       },
       {
         heading: "Common Mistakes",
         level: 2,
         content:
-          "## Healing at bad timing\n\nMargit will punish flask usage if used after predictable attacks.\n\n## Rolling too early\n\nThis is the #1 reason players die.\n\n## Over-aggression\n\nMargit is designed to punish rushing."
+          "**Healing at the wrong time.** Margit aggressively punishes flask usage. Only heal during confirmed safe windows — after the jump slam, after a long combo ends, or when a spirit summon has aggro.\n\n**Rolling too early.** This is the #1 reason players lose to Margit. His delayed attacks are specifically designed to punish early rolls. Train yourself to wait for the actual swing.\n\n**Over-aggression.** Margit is designed to punish players who chase damage. One or two hits per opening is enough. Trying to squeeze in a third attack is how you get flattened."
       },
       {
         heading: "Final Verdict",
         level: 2,
         content:
-          "Margit is not just a boss.\n\nHe is a tutorial for Elden Ring\u2019s combat system.\n\nOnce you learn Margit\u2019s timing patterns, every boss after him becomes significantly easier.\n\nIf you struggle, the issue is not damage.\n\nIt is timing discipline."
+          "Margit functions as a skill check for Elden Ring's combat system. The delayed attacks, tight punish windows, and aggressive tracking are mechanics that carry through the entire game. Players who learn to read his timing and control their aggression will find every boss after him more manageable. If you are struggling, the issue is almost never your damage output — it's timing discipline. Slow down, watch the swings, and only attack during confirmed windows."
       },
       {
         heading: "Next Step",
         level: 2,
         content:
-          "After defeating Margit, your next priority should be:\n\n- Upgrade weapon to +6 or higher\n- Increase Vigor to 25\u201330\n- Explore Liurnia region for stronger upgrades"
+          "After Margit, your immediate priorities should be exploring Stormveil Castle and then the Liurnia region beyond. Aim to upgrade your weapon to +6 or higher, push Vigor to 25-30, and stock up on upgrade materials. The difficulty curve steepens after the first major boss, so proper preparation makes a significant difference."
       }
     ],
     internalLinks: [
