@@ -372,7 +372,7 @@ export const articles: Article[] = [
     {
       heading: "Dexterity vs Strength Build",
       level: 2,
-      content: "In Elden Ring builds: Dexterity: Faster gameplay, Higher mobility, Lower defense. Strength: Slower attacks, Higher poise, Burst damage + stagger. Conclusion: Dexterity is better for skill-based players, Strength is better for tank-style players. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+      content: "In Elden Ring builds: Dexterity: Faster gameplay, Higher mobility, Lower defense. Strength: Slower attacks, Higher poise, Burst damage + stagger. Conclusion: Dexterity is better for skill-based players, Strength is better for tank-style players. "
     },
   ],
   internalLinks: [
@@ -2695,7 +2695,7 @@ export const articles: Article[] = [
         heading: "Final Verdict",
         level: 2,
         content:
-          "Radahn is not a DPS test.\n\nHe is a **system understanding test**.\n\nOnce you stop treating him like a normal boss and start treating him as a battlefield control encounter, the fight becomes significantly more manageable.\n\nThe difference between a hard fight and an easy one is not level.\n\nIt is understanding how the system is designed to be played. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+          "Radahn is not a DPS test.\n\nHe is a **system understanding test**.\n\nOnce you stop treating him like a normal boss and start treating him as a battlefield control encounter, the fight becomes significantly more manageable.\n\nThe difference between a hard fight and an easy one is not level.\n\nIt is understanding how the system is designed to be played. "
       }
     ],
     internalLinks: [

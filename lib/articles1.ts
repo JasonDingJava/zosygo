@@ -136,7 +136,7 @@ const maleniaArticle: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "Many players focus entirely on Waterfowl Dance when discussing Malenia.\n\nWhile the attack is dangerous, it is her healing mechanic that defines the fight.\n\nUnderstanding how healing works changes the entire encounter.\n\nPlayers who defeat Malenia consistently are not always dealing more damage than everyone else.\n\nThey are simply giving her fewer chances to recover.\n\nMaster that principle, and the fight becomes significantly easier to understand, practice, and eventually conquer. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        "Many players focus entirely on Waterfowl Dance when discussing Malenia.\n\nWhile the attack is dangerous, it is her healing mechanic that defines the fight.\n\nUnderstanding how healing works changes the entire encounter.\n\nPlayers who defeat Malenia consistently are not always dealing more damage than everyone else.\n\nThey are simply giving her fewer chances to recover.\n\nMaster that principle, and the fight becomes significantly easier to understand, practice, and eventually conquer. "
     }
   ],
   internalLinks: [
@@ -288,7 +288,7 @@ const buildFeelsWeakArticle: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "If your Elden Ring build feels weak at Level 150, the problem is usually not your level.\n\nIt is your optimization.\n\nMost players gain more power by:\n\n- Increasing Vigor\n- Improving weapon upgrades\n- Choosing better talismans\n- Specializing their stats\n- Understanding scaling\n\nbefore investing additional levels into damage.\n\nThe strongest builds are not always the highest level.\n\nThey are the most efficient.\n\nIf your build feels weak, stop asking how to gain more levels.\n\nStart asking how to gain more value from the levels you already have. The [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) can show you exactly where your stat points are being wasted. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        "If your Elden Ring build feels weak at Level 150, the problem is usually not your level.\n\nIt is your optimization.\n\nMost players gain more power by:\n\n- Increasing Vigor\n- Improving weapon upgrades\n- Choosing better talismans\n- Specializing their stats\n- Understanding scaling\n\nbefore investing additional levels into damage.\n\nThe strongest builds are not always the highest level.\n\nThey are the most efficient.\n\nIf your build feels weak, stop asking how to gain more levels.\n\nStart asking how to gain more value from the levels you already have. The [Damage Optimization Tool](https://www.zosygo.com/elden-ring/tools/build-calculator) can show you exactly where your stat points are being wasted. "
     }
   ],
   internalLinks: [
@@ -714,7 +714,7 @@ const article17: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "If your build feels weak in Elden Ring, the problem is rarely your level.\n\nIt is almost always:\n\n- Poor scaling efficiency  \n- Wrong stat distribution  \n- Ignoring soft caps  \n- Weak weapon optimization  \n\nOnce you understand how scaling actually works, leveling becomes secondary.\n\nThe strongest builds are not the highest level.\n\nThey are the most efficient within the system.\n\nAnd efficiency is what decides real power in Elden Ring. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "If your build feels weak in Elden Ring, the problem is rarely your level.\n\nIt is almost always:\n\n- Poor scaling efficiency  \n- Wrong stat distribution  \n- Ignoring soft caps  \n- Weak weapon optimization  \n\nOnce you understand how scaling actually works, leveling becomes secondary.\n\nThe strongest builds are not the highest level.\n\nThey are the most efficient within the system.\n\nAnd efficiency is what decides real power in Elden Ring. Check how different stat allocations affect your weapon's damage output with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). ",
     },
   ],
   internalLinks: [
@@ -837,7 +837,7 @@ const article18: Article = {
       heading: "How to Actually Increase Damage",
       level: 2,
       content:
-        "There are only 4 real ways:\n\n### 1. Upgrade weapon fully\nMost important factor.\n\n### 2. Fix stat efficiency\nStay within soft caps.\n\n### 3. Optimize talismans\nUse multiplicative synergy.\n\n### 4. Improve uptime\nMore survival = more DPS. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "There are only 4 real ways:\n\n### 1. Upgrade weapon fully\nMost important factor.\n\n### 2. Fix stat efficiency\nStay within soft caps.\n\n### 3. Optimize talismans\nUse multiplicative synergy.\n\n### 4. Improve uptime\nMore survival = more DPS. ",
     },
     {
       heading: "Final Verdict",
@@ -1987,7 +1987,7 @@ const article24: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Messmer harder than Malenia?\n\nFor many players, yes due to fire zoning and serpent phase complexity.\n\n### What level should I fight Messmer?\n\nDLC recommended scaling level applies (high endgame level).\n\n### What is Messmer weak to?\n\nFrost and Bleed are most effective. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Is Messmer harder than Malenia?\n\nFor many players, yes due to fire zoning and serpent phase complexity.\n\n### What level should I fight Messmer?\n\nDLC recommended scaling level applies (high endgame level).\n\n### What is Messmer weak to?\n\nFrost and Bleed are most effective. ",
     },
   ],
   internalLinks: [
@@ -2117,7 +2117,7 @@ const article25: Article = {
     {
       heading: "FAQ",
       level: 2,
-      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic. Compare the exact Attack Rating of different weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). Check the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see how many runes you need to reach the recommended level for Godfrey."
+      content: "### What level should I fight Godfrey?\n\nMost players succeed between Level 120 and 140.\n\n### Is Godfrey weak to Bleed?\n\nYes. Bleed remains one of the strongest damage types against him.\n\n### Should I roll or jump over stomps?\n\nJumping is usually the safer and more effective option.\n\n### Is Hoarah Loux harder than Godfrey?\n\nFor most players, yes. The grab attacks and aggression create a much smaller margin for error.\n\n### What is the biggest mistake against Godfrey?\n\nTreating every shockwave as a roll mechanic instead of a jump mechanic.  Check the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see how many runes you need to reach the recommended level for Godfrey."
     },
   ],
   internalLinks: [
@@ -2199,7 +2199,7 @@ const article26: Article = {
     {
       heading: "FAQ",
       level: 2,
-      content: "### Why do I keep getting hit by Morgott?\n\nMost players roll too early rather than too late.\n\n### Is Morgott harder than Margit?\n\nYes. Morgott has longer combos, more weapon variations, and stronger punishments.\n\n### What is Morgott's biggest weakness?\n\nBleed and Frost builds perform particularly well.\n\n### Should I stay close or far away?\n\nClose to medium range is generally safer than long range.\n\n### What is the most important lesson for this fight?\n\nStop reacting to movement.\n\nStart reacting to impact. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+      content: "### Why do I keep getting hit by Morgott?\n\nMost players roll too early rather than too late.\n\n### Is Morgott harder than Margit?\n\nYes. Morgott has longer combos, more weapon variations, and stronger punishments.\n\n### What is Morgott's biggest weakness?\n\nBleed and Frost builds perform particularly well.\n\n### Should I stay close or far away?\n\nClose to medium range is generally safer than long range.\n\n### What is the most important lesson for this fight?\n\nStop reacting to movement.\n\nStart reacting to impact. "
     },
   ],
   internalLinks: [

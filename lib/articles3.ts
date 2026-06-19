@@ -1145,7 +1145,7 @@ const article43: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What do Ashes of War do in Elden Ring?\n\nThey add weapon skills and allow affinity changes that modify scaling and damage.\n\n### Can Ashes of War increase damage?\n\nYes. Proper affinity selection can dramatically increase weapon performance.\n\n### What is the best Ash of War?\n\nThere is no universal best option. Lion's Claw, Unsheathe, Giant Hunt, and Flaming Strike are among the strongest PvE choices.\n\n### What is the best affinity?\n\nThe best affinity depends on your primary attribute and build strategy.\n\n### Are Ashes of War more important than weapons?\n\nIn many cases, yes. The correct Ash of War can completely transform a weapon's effectiveness. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What do Ashes of War do in Elden Ring?\n\nThey add weapon skills and allow affinity changes that modify scaling and damage.\n\n### Can Ashes of War increase damage?\n\nYes. Proper affinity selection can dramatically increase weapon performance.\n\n### What is the best Ash of War?\n\nThere is no universal best option. Lion's Claw, Unsheathe, Giant Hunt, and Flaming Strike are among the strongest PvE choices.\n\n### What is the best affinity?\n\nThe best affinity depends on your primary attribute and build strategy.\n\n### Are Ashes of War more important than weapons?\n\nIn many cases, yes. The correct Ash of War can completely transform a weapon's effectiveness. ",
     },
   ],
   internalLinks: [
@@ -1389,7 +1389,7 @@ const article44: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is the best rune farm in Elden Ring?\n\nMohgwyn Palace remains the best overall farming location.\n\n### What is the fastest rune farming method?\n\nSacred Relic Sword farming at Palace Approach Ledge-Road is generally the fastest.\n\n### Is the Gold Scarab worth using?\n\nYes. It significantly increases rune income.\n\n### When should I start farming runes?\n\nWhenever progression slows or your build requires additional levels.\n\n### Can rune farming make the game easier?\n\nYes. Higher levels and better equipment dramatically improve survivability and damage. Test different weapons and see their actual Attack Rating with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What is the best rune farm in Elden Ring?\n\nMohgwyn Palace remains the best overall farming location.\n\n### What is the fastest rune farming method?\n\nSacred Relic Sword farming at Palace Approach Ledge-Road is generally the fastest.\n\n### Is the Gold Scarab worth using?\n\nYes. It significantly increases rune income.\n\n### When should I start farming runes?\n\nWhenever progression slows or your build requires additional levels.\n\n### Can rune farming make the game easier?\n\nYes. Higher levels and better equipment dramatically improve survivability and damage. ",
     },
   ],
   internalLinks: [
@@ -1615,7 +1615,7 @@ const article45: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What should I do first in Elden Ring?\n\nReach Gatefront Ruins, unlock Torrent, and begin collecting upgrades before challenging major bosses.\n\n### Should I fight Margit immediately?\n\nNo. Exploring Weeping Peninsula first is generally more efficient.\n\n### What level should I be for Margit?\n\nLevel 25–35 is comfortable for most builds.\n\n### What is the best early-game weapon?\n\nBloodhound's Fang is one of the strongest long-term weapons available early.\n\n### Is exploring more important than leveling?\n\nYes. Exploration provides weapon upgrades, Flask improvements, and equipment that often matter more than character levels. Verify your weapon's damage potential with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### What should I do first in Elden Ring?\n\nReach Gatefront Ruins, unlock Torrent, and begin collecting upgrades before challenging major bosses.\n\n### Should I fight Margit immediately?\n\nNo. Exploring Weeping Peninsula first is generally more efficient.\n\n### What level should I be for Margit?\n\nLevel 25–35 is comfortable for most builds.\n\n### What is the best early-game weapon?\n\nBloodhound's Fang is one of the strongest long-term weapons available early.\n\n### Is exploring more important than leveling?\n\nYes. Exploration provides weapon upgrades, Flask improvements, and equipment that often matter more than character levels. ",
     },
   ],
   internalLinks: [
