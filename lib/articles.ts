@@ -4,6 +4,8 @@ import articles2Articles from "./articles2";
 import articles3Articles from "./articles3";
 import articles4Articles from "./articles4";
 import articles5Articles from "./articles5";
+import articles6Articles from "./articles6";
+import articles7Articles from "./articles7";
 
 export interface ArticleBase {
   slug: string;
@@ -2712,6 +2714,8 @@ export const articles: Article[] = [
   ...articles2Articles,
   ...articles3Articles,
   ...articles5Articles,
+  ...articles6Articles,
+  ...articles7Articles,
 ];
 
 export function getArticlesForGame(
