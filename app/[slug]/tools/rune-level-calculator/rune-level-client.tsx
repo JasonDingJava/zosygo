@@ -112,7 +112,7 @@ export default function RuneLevelClient() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
-      <h1 className="text-2xl font-bold text-gray-100">Elden Ring Rune Level Calculator</h1>
+      <h1 className="text-2xl font-bold text-gray-100">Elden Ring Rune Level Calculator – How Many Runes to Reach Any Level</h1>
       <p className="mt-1 text-sm text-gray-400">
         Calculate how many runes you need to reach any level. Plan your build from early game to max level.
       </p>
@@ -399,7 +399,9 @@ export default function RuneLevelClient() {
         <h2 className="text-lg font-bold text-gray-100">What Is the Elden Ring Rune Level Calculator?</h2>
         <p className="text-sm leading-relaxed text-gray-400">
           The Elden Ring Rune Level Calculator is a free online tool that tells you exactly how many runes you need
-          to reach any level from 1 to 713. It uses the game's official rune cost formula to calculate the exact
+          to reach any level from 1 to 713. Use it as a Level Up Calculator to check the cost for your next level, a Rune Cost Calculator
+          to plan a level range, or a Character Level Planner to see the total runes required from start to your target level.
+          It uses the game's official rune cost formula to calculate the exact
           number of runes required for each level, so you can plan your character's progression without wasting
           time farming blindly.
         </p>
@@ -468,8 +470,22 @@ export default function RuneLevelClient() {
           <h3 className="text-sm font-semibold text-gray-200">What is the best rune farm in Elden Ring?</h3>
           <p className="mt-1 text-sm text-gray-500">
             Mohgwyn Palace is the best rune farming location. Use the Sacred Relic Sword or
-            Wave of Gold to clear Albinaurics in one swing for 40,000–60,000 runes per run.
+            Wave of Gold to clear Albinaurics in one swing for 40,000\u201360,000 runes per run.
             You can access this area early via Varre's quest.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-gray-200">How many runes do I need for level 150?</h3>
+          <p className="mt-1 text-sm text-gray-500">
+            From level 1, you need approximately 12.5 million runes to reach level 150. From level 100, you need about 8.7 million more. Use the calculator above to get the exact number for your current level.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="text-sm font-semibold text-gray-200">What is the fastest rune farming method?</h3>
+          <p className="mt-1 text-sm text-gray-500">
+            The fastest method is using Sacred Relic Sword's Wave of Gold at Palace Approach Ledge-Road: about 60,000 runes per 25-second run. Early-game: Mohgwyn bird (17,500 per 15s) or Greyoll's Dragon (75,000 once).
           </p>
         </div>
 

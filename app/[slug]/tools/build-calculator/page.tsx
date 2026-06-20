@@ -616,8 +616,8 @@ export default function EldenRingBuildCalculator() {
       "@graph": [
         {
           "@type": "WebApplication",
-          name: "Elden Ring Build Calculator",
-          description: "Plan and optimize Elden Ring character builds. Real-time stat calculations, weapon AR comparisons, and soft cap analysis.",
+          name: "Elden Ring Build Calculator & Stat Optimizer",
+          description: "Plan and optimize Elden Ring character builds. Real-time stat calculations, weapon AR comparisons, and soft cap analysis. Use as Build Planner, Stat Optimizer, and Damage Calculator.",
           url: "https://www.zosygo.com/elden-ring/tools/build-calculator",
           applicationCategory: "GameApplication",
           operatingSystem: "Web",
@@ -630,6 +630,9 @@ export default function EldenRingBuildCalculator() {
             { "@type": "Question", name: "What weapons are supported?", acceptedAnswer: { "@type": "Answer", text: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more." } },
             { "@type": "Question", name: "Can I share my build?", acceptedAnswer: { "@type": "Answer", text: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." } },
             { "@type": "Question", name: "Can I use this as an Elden Ring respec calculator?", acceptedAnswer: { "@type": "Answer", text: "Yes. Before using a Larval Tear at Rennala, plan your new stat distribution here. Adjust stats, check equip load and weapon requirements, then respec with confidence." } },
+            { "@type": "Question", name: "What is a stat optimizer in Elden Ring?", acceptedAnswer: { "@type": "Answer", text: "A stat optimizer helps you allocate your rune levels efficiently by showing soft caps, stat breakpoints, and tradeoffs between different attributes. This tool highlights soft caps and warns you when stats exceed efficient thresholds." } },
+            { "@type": "Question", name: "How do soft caps affect builds?", acceptedAnswer: { "@type": "Answer", text: "Soft caps reduce the benefit of leveling a stat beyond certain thresholds. For example, Vigor soft caps at 40 and 60, Strength at 20 and 55. Going past these gives diminishing returns, which a stat optimizer helps you avoid." } },
+            { "@type": "Question", name: "What is the best level 150 build?", acceptedAnswer: { "@type": "Answer", text: "Popular level 150 builds include Quality (50/50 STR/DEX), Pure Intelligence (80 INT with Moonveil or Dark Moon Greatsword), and Bleed (60 ARC with Rivers of Blood or Eleonora\u2019s Poleblade). The best build depends on your playstyle." } },
           ],
         },
       ],
@@ -761,7 +764,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
         {/* Header */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
+            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator &amp; Stat Optimizer{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
             <button
               onClick={function() {
                 setStats({vigor:30,mind:12,endurance:20,strength:16,dexterity:14,intelligence:10,faith:10,arcane:8});
@@ -778,7 +781,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               <span>Reset Build</span>
             </button>
           </div>
-          <p className="mt-1 text-gray-400">Plan stats, pick weapons and armor, see exact Attack Rating.</p>
+          <p className="mt-1 text-gray-400">Build Planner, Stat Optimizer, Damage Calculator, and Meta Build tool — all in one. Plan stats, pick weapons and armor, see exact Attack Rating.</p>
         </div>
 
         {/* Popular Builds */}
@@ -1432,9 +1435,11 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
       {/* ────── SEO CONTENT ────── */}
       <div className="mx-auto max-w-4xl px-4 py-16 border-t border-gray-800">
         <section className="pt-8">
-          <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Build Calculator?</h2>
+          <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Build Calculator &amp; Stat Optimizer?</h2>
           <p className="mt-4 text-base leading-relaxed text-gray-400">
-            The Elden Ring Build Calculator is a free online tool that lets you plan and optimize your character build.
+            The Elden Ring Build Calculator &amp; Stat Optimizer is a free online tool that lets you plan and optimize your character build.
+            Use it as a Build Planner to design your stat distribution, a Damage Calculator to compare weapon Attack Rating, or a Meta Build
+            analyzer to see which builds perform best at your target level.
             It uses game-accurate formulas for stat calculations, weapon scaling, and equip load so you can experiment
             without respeccing in-game. Supports all 10 starting classes, 123 weapons, and proper soft cap mechanics.
           </p>
@@ -1553,10 +1558,13 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
             {[
               { q: "How does the Elden Ring Build Calculator work?", a: "Select your starting class, adjust stats with +/- buttons, choose up to 3 weapons with upgrade levels, pick armor pieces and talismans, and see real-time HP, FP, Stamina, equip load, and Attack Rating results." },
               { q: "What weapons are supported?", a: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more." },
-              { q: "Is the stat calculation accurate to Elden Ring?", a: "Yes. HP, FP, Stamina, and equip load follow Elden Ring's actual in-game formulas. Weapon Attack Rating uses correct scaling curves and soft cap mechanics." },
+              { q: "Is the stat calculation accurate to Elden Ring?", a: "Yes. HP, FP, Stamina, and equip load follow Elden Ring\u2019s actual in-game formulas. Weapon Attack Rating uses correct scaling curves and soft cap mechanics." },
               { q: "Can I share my build?", a: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." },
               { q: "What is the best starting class?", a: "Vagabond is generally the best for most builds due to high Vigor and balanced stats. For pure casters, Astrologer or Prophet are better." },
               { q: "Can I use this as an Elden Ring respec calculator?", a: "Yes. Before using a Larval Tear at Rennala, you can plan your respec in this calculator. Adjust stats to your new target distribution, check the equip load and weapon requirements, then confirm everything works before spending the Larval Tear in-game." },
+              { q: "What is a stat optimizer in Elden Ring?", a: "A stat optimizer helps you allocate your rune levels efficiently by showing soft caps, stat breakpoints, and tradeoffs between different attributes. This tool highlights soft caps and warns you when stats exceed efficient thresholds." },
+              { q: "How do soft caps affect builds?", a: "Soft caps reduce the benefit of leveling a stat beyond certain thresholds. For example, Vigor soft caps at 40 and 60, Strength at 20 and 55. Going past these gives diminishing returns, which a stat optimizer helps you avoid." },
+              { q: "What is the best level 150 build?", a: "Popular level 150 builds include Quality (50/50 STR/DEX), Pure Intelligence (80 INT with Moonveil or Dark Moon Greatsword), and Bleed (60 ARC with Rivers of Blood or Eleonora\u2019s Poleblade). The best build depends on your playstyle." },
             ].map(function(item, i) { return (
               <details key={i} className="group rounded-sm border border-gray-800 bg-gray-900/50">
                 <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-yellow-300">

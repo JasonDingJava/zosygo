@@ -5,6 +5,17 @@ import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { searchArticles, SearchResult } from "@/lib/search";
 
+function highlightText(text: string, query: string) {
+  if (!query.trim()) return text;
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const parts = text.split(new RegExp(`(${escaped})`, "gi"));
+  return parts.map((part, i) =>
+    part.toLowerCase() === query.toLowerCase()
+      ? <mark key={i} className="bg-[#c9a227]/30 text-[#c9a227] rounded px-0.5">{part}</mark>
+      : part
+  );
+}
+
 export default function SearchResults() {
   const searchParams = useSearchParams();
   const q = searchParams.get("q") || "";
@@ -112,8 +123,8 @@ export default function SearchResults() {
                         {article.gameSlug}
                       </span>
                     </div>
-                    <h3 className="text-base font-semibold text-white">{article.title}</h3>
-                    <p className="mt-1 text-sm text-zinc-500 line-clamp-2">{article.metaDescription}</p>
+                    <h3 className="text-base font-semibold text-white">{highlightText(article.title, q)}</h3>
+                    <p className="mt-1 text-sm text-zinc-500 line-clamp-2">{highlightText(article.metaDescription, q)}</p>
                   </Link>
                 );
               })}

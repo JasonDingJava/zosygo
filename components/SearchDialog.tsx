@@ -5,6 +5,17 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { searchArticles, SearchResult } from "@/lib/search";
 
+function highlightText(text: string, query: string) {
+  if (!query.trim()) return text;
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const parts = text.split(new RegExp(`(${escaped})`, "gi"));
+  return parts.map((part, i) =>
+    part.toLowerCase() === query.toLowerCase()
+      ? <mark key={i} className="bg-[#c9a227]/30 text-[#c9a227] rounded px-0.5">{part}</mark>
+      : part
+  );
+}
+
 interface SearchDialogProps {
   isOpen: boolean;
   onClose: () => void;
@@ -139,8 +150,8 @@ export default function SearchDialog({ isOpen, onClose, gameSlug, gameName }: Se
                       {catLabel}
                     </span>
                     <div className="min-w-0 flex-1">
-                      <div className="text-sm text-white truncate">{article.title}</div>
-                      <div className="text-xs text-zinc-500 truncate mt-0.5">{article.metaDescription}</div>
+                      <div className="text-sm text-white truncate">{highlightText(article.title, query)}</div>
+                      <div className="text-xs text-zinc-500 truncate mt-0.5">{highlightText(article.metaDescription, query)}</div>
                     </div>
                     <svg className="w-4 h-4 text-zinc-600 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
