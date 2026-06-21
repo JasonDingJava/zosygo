@@ -1015,7 +1015,180 @@ const buildMakerArticle: Article = {
   ],
 };
 
-const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle, statOptimizerArticle, buildMakerArticle];
+const scalingExplainedArticle: Article = {
+  readTimeMinutes: 9,
+  order: 1,
+  slug: "elden-ring-damage-scaling-explained",
+  category: "builds",
+  gameSlug: "elden-ring",
+  title: "Elden Ring Damage Scaling Explained (2026) – Why Your Build Stops Scaling at High Level",
+  metaDescription:
+    "Complete guide to Elden Ring damage scaling in 2026. Understand why high-level builds stop gaining damage, how soft caps work, and how to optimize stat allocation efficiently. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your scaling efficiency.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "Most Elden Ring players eventually hit the same frustrating wall.\n\nYou keep leveling.\n\nYou keep upgrading weapons.\n\nYet your damage barely increases.\n\nAt Level 150, 200, or even 250, each new level seems to provide less value than before.\n\nThis is not a bug.\n\nIt is a core part of Elden Ring's damage scaling system.\n\nUnderstanding how scaling works is the difference between a build that feels overpowered and one that wastes dozens of levels for almost no benefit.",
+    },
+    {
+      level: 2,
+      heading: "⚡ Quick Answer – Why Damage Scaling Stops",
+      content:
+        "If your damage gains have slowed dramatically, the most likely reason is that you have reached a soft cap.\n\n### Key Soft Caps (2026)\n\n* Vigor → 60\n* Strength → 55–60\n* Dexterity → 55–60\n* Intelligence → 55–60\n* Faith → 55–60\n* Arcane → 45–50 (Bleed Builds)\n\nOnce you move beyond these ranges, every additional level provides significantly less damage than before.",
+    },
+    {
+      level: 2,
+      heading: "What Is Damage Scaling in Elden Ring?",
+      content:
+        "Damage scaling is the relationship between your weapon and your attributes.\n\nEvery weapon gains Attack Rating (AR) from specific stats.\n\nFor example:\n\n* Greatsword → Strength scaling\n* Moonveil → Intelligence scaling\n* Rivers of Blood → Arcane and Dexterity scaling\n* Blasphemous Blade → Faith scaling\n\nThe better the scaling and the higher the relevant stat, the more damage the weapon produces.\n\nHowever, scaling is not linear.\n\nEach level becomes less efficient over time.",
+    },
+    {
+      level: 2,
+      heading: "Why High-Level Characters Often Feel Weak",
+      content:
+        "Many players assume:\n\n\"More levels = more damage.\"\n\nThis is only partially true.\n\nImagine two players:\n\n### Player A\n\n* Level 150\n* Vigor 60\n* Strength 60\n* Proper weapon scaling\n\n### Player B\n\n* Level 250\n* Vigor 60\n* Strength 99\n* Random points spread everywhere else\n\nPlayer A often performs almost as well as Player B.\n\nSometimes even better.\n\nWhy?\n\nBecause Player A invested levels efficiently.\n\nPlayer B invested beyond the point of meaningful returns.",
+    },
+    {
+      level: 2,
+      heading: "Understanding Diminishing Returns",
+      content:
+        "Diminishing returns are the hidden reason most builds stop scaling.\n\n### Early Levels\n\nExample:\n\n* Strength 20 → 30\n\nYou gain substantial Attack Rating.\n\n---\n\n### Mid Levels\n\nExample:\n\n* Strength 40 → 50\n\nYou still gain solid damage increases.\n\n---\n\n### Late Levels\n\nExample:\n\n* Strength 80 → 90\n\nYou may gain only a fraction of the damage you gained earlier.\n\nThis is where many players waste levels.",
+    },
+    {
+      level: 2,
+      heading: "The Three Damage Scaling Zones",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Zone 1 – High Efficiency",
+      content:
+        "Generally:\n\n* 20–40 Strength\n* 20–40 Dexterity\n* 20–50 Intelligence\n\nEvery level provides excellent value.",
+    },
+    {
+      level: 3,
+      heading: "Zone 2 – Optimal Scaling",
+      content:
+        "Generally:\n\n* 40–60 Strength\n* 40–60 Dexterity\n* 40–60 Intelligence\n\nThis is where most endgame builds should focus.\n\nYou gain strong returns without excessive investment.",
+    },
+    {
+      level: 3,
+      heading: "Zone 3 – Diminishing Returns",
+      content:
+        "Generally:\n\n* 60–99 Strength\n* 60–99 Dexterity\n* 60–99 Intelligence\n\nDamage still increases.\n\nHowever, efficiency drops dramatically.\n\nMost optimized builds avoid spending large numbers of points here.",
+    },
+    {
+      level: 2,
+      heading: "Why Strength Builds Scale Differently",
+      content:
+        "Strength has one major advantage.\n\nTwo-handing a weapon increases effective Strength by 50%.\n\nThis means:\n\n* 40 Strength behaves like 60 Strength\n* 54 Strength behaves like 81 Strength\n\nBecause of this mechanic, Strength builds often achieve excellent damage without investing all the way to 80 or 99.\n\nThis is one reason why optimized Strength builds remain popular in 2026.",
+    },
+    {
+      level: 2,
+      heading: "Why Arcane Builds Hit Their Soft Cap Earlier",
+      content:
+        "Arcane builds rely heavily on status buildup.\n\nUnlike raw physical damage, bleed effectiveness reaches peak efficiency sooner.\n\nFor most bleed setups:\n\n* Arcane 45–50 provides maximum efficiency\n* Beyond 50, gains become increasingly small\n\nThis is why many meta bleed builds stop investing heavily into Arcane after reaching this range.",
+    },
+    {
+      level: 2,
+      heading: "The Biggest Scaling Mistake Players Make",
+      content:
+        "The most common mistake is chasing damage stats endlessly.\n\nExample:\n\n* Strength 80\n* Dexterity 80\n* Intelligence 60\n\nThis looks powerful.\n\nIn reality:\n\n* Huge level investment\n* Poor efficiency\n* Lower survivability\n* Limited practical damage increase\n\nThose points often provide more value when invested elsewhere.",
+    },
+    {
+      level: 2,
+      heading: "Where Your Extra Levels Should Go Instead",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Vigor",
+      content:
+        "Improves survivability.\n\nMore survivability means more opportunities to deal damage.",
+    },
+    {
+      level: 3,
+      heading: "Endurance",
+      content:
+        "Allows:\n\n* Heavier armor\n* Larger weapons\n* More stamina\n\nThese benefits often outperform tiny scaling gains.",
+    },
+    {
+      level: 3,
+      heading: "Mind",
+      content:
+        "For spellcasters and weapon skill users.\n\nAdditional FP frequently provides more practical damage than pushing Intelligence from 80 to 90.",
+    },
+    {
+      level: 2,
+      heading: "How to Tell If Your Build Is Wasting Levels",
+      content:
+        "Ask yourself:\n\n### Are you above 60 in multiple damage stats?\n\nIf yes, you may be losing efficiency.\n\n---\n\n### Does each level feel insignificant?\n\nThis usually indicates diminishing returns.\n\n---\n\n### Are bosses taking roughly the same amount of time to kill?\n\nAnother sign that your scaling gains have slowed dramatically.",
+    },
+    {
+      level: 2,
+      heading: "How to Optimize Damage Scaling",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Step 1",
+      content:
+        "Reach survivability targets first.\n\n* Vigor 55–60",
+    },
+    {
+      level: 3,
+      heading: "Step 2",
+      content:
+        "Choose one primary damage stat.\n\n* Strength\n* Dexterity\n* Intelligence\n* Faith\n* Arcane",
+    },
+    {
+      level: 3,
+      heading: "Step 3",
+      content:
+        "Push that stat toward its optimal scaling range.\n\nUsually:\n\n* 55–60",
+    },
+    {
+      level: 3,
+      heading: "Step 4",
+      content: "Match your weapon scaling to your chosen stat.",
+    },
+    {
+      level: 3,
+      heading: "Step 5",
+      content: "Invest remaining points into utility and survivability.",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content:
+        "To optimize your character further, continue with:\n\n* Elden Ring Stat Optimizer Guide\n* Elden Ring Build Maker Explained\n* Elden Ring Strength Soft Cap Explained\n* Elden Ring Weapon Scaling Guide\n* Elden Ring Best Builds Guide",
+    },
+    {
+      level: 2,
+      heading: "Final Verdict",
+      content:
+        "Your build is not broken.\n\nYour scaling has simply reached the point of diminishing returns.\n\nThe strongest Elden Ring characters are not the highest-level characters.\n\nThey are the most efficient characters.\n\nFocus on:\n\n* Soft caps\n* Weapon synergy\n* Efficient stat allocation\n* Survivability\n\nMaster these systems, and your damage output will improve far more than simply grinding additional levels.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds/elden-ring-stat-optimizer-guide", anchorText: "Elden Ring Stat Optimizer Guide" },
+    { href: "/elden-ring/builds/elden-ring-build-maker-explained", anchorText: "Elden Ring Build Maker Explained" },
+    { href: "/elden-ring/builds/strength-soft-cap-explained", anchorText: "Elden Ring Strength Soft Cap Explained" },
+    { href: "/elden-ring/builds/weapon-scaling-guide", anchorText: "Elden Ring Weapon Scaling Guide" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+  ],
+  keyTakeaways: [
+    { label: "🎯 Core Insight", value: "High level ≠ high damage — efficiency matters more" },
+    { label: "📊 Soft Caps", value: "STR/DEX/INT/FAI 55–60, Vigor 60, ARC 45–50" },
+    { label: "⚔️ Strength Advantage", value: "Two-handing: 40 STR = 60 STR effective, 54 = 81" },
+    { label: "🔢 3 Scaling Zones", value: "Zone 1 High (20–40), Zone 2 Optimal (40–60), Zone 3 Diminishing (60+)" },
+    { label: "❌ Biggest Mistake", value: "Chasing multiple damage stats past 60 — wastes levels" },
+    { label: "📈 Better Investment", value: "After soft caps: Vigor, Endurance, or Mind over more damage stats" },
+  ],
+};
+
+const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle, statOptimizerArticle, buildMakerArticle, scalingExplainedArticle];
 
 export default softcapsArticles2;
 
