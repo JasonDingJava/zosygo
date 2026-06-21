@@ -203,9 +203,9 @@ export default async function ArticlePage({ params }: Props) {
           </h1>
           <p className="mt-4 text-base leading-relaxed text-zinc-400">
             {(() => {
-              // Parse markdown links in metaDescription
+              // Parse markdown links in metaDescription: [text](url)
               const text = article.metaDescription;
-              const parts = text.split(/(\[([^\]]+)\]\(([^)]+)\))/g);
+              const parts = text.split(/(\[[^\]]+\]\([^)]+\))/g);
               if (parts.length <= 1) return text;
               const result: React.ReactNode[] = [];
               for (let i = 0; i < parts.length; i++) {
