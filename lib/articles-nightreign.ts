@@ -528,6 +528,254 @@ const nightreignBossesGuide: Article = {
 };
 
 
-const nightreignArticles: Article[] = [bestNightreignBuilds, nightreignBossesGuide];
+
+const nightreignBestWeaponsGuide: Article = {
+  readTimeMinutes: 8,
+  order: 1,
+  slug: "nightreign-best-weapons-guide",
+  category: "weapons",
+  gameSlug: "nightreign",
+  title: "Elden Ring Nightreign Best Weapons Guide (2026) – Top Weapons for Every Class",
+  metaDescription:
+    "Complete Elden Ring Nightreign best weapons guide for 2026. Top weapons for every class including Wylder, Duchess, Recluse, Guardian, Raider, Executor, Ironeye, and Revenant with weapon tier list.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "Choosing the right weapon in Elden Ring Nightreign matters more than choosing the right relic.\n\nMany players focus entirely on rarity, but the strongest weapons are the ones that match your class, playstyle, and expedition goals.\n\nA weapon that dominates on Wylder may feel terrible on Duchess. Likewise, a powerful magic weapon can become useless if your build lacks the proper scaling and relic support.\n\nThis guide ranks the best weapons for every class in Nightreign, explains why they work, and helps you avoid common weapon selection mistakes.",
+    },
+    {
+      level: 2,
+      heading: "⚡ Quick Summary",
+      content:
+        "▸ 🥇 Best Overall Weapon Type: Colossal Weapons\n\n▸ ⚔️ Best Solo Weapon: Greatsword-Class Weapons\n\n▸ 🗡️ Best DPS Weapon: Fast Critical Weapons\n\n▸ 🔮 Best Magic Weapon: Intelligence Scaling Catalysts\n\n▸ 🩸 Best Status Weapon: Bleed-Oriented Blades\n\n▸ 🛡️ Best Beginner Weapon: High-Stagger Strength Weapons",
+    },
+    {
+      level: 2,
+      heading: "What Makes a Weapon Strong in Nightreign?",
+      content:
+        "Unlike traditional Elden Ring progression, Nightreign emphasizes expedition consistency.\n\nThe best weapons provide:\n\n* Reliable damage\n* Strong scaling\n* Good survivability\n* Efficient boss performance\n* Synergy with relics\n\nRaw attack power alone is not enough.\n\nA slightly weaker weapon with better synergy often performs better across an entire run.",
+    },
+    {
+      level: 2,
+      heading: "Weapon Tier List (2026 Meta)",
+      content:
+        "### S Tier\n\n* Colossal Weapons\n* Greatswords\n* Critical-Based Daggers\n* High-End Intelligence Catalysts\n\n### A Tier\n\n* Curved Swords\n* Katanas\n* Halberds\n* Bleed Weapons\n\n### B Tier\n\n* Spears\n* Axes\n* Standard Straight Swords\n\n### C Tier\n\n* Low-Scaling Utility Weapons\n\nMost players should focus on S Tier and A Tier options whenever possible.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Wylder",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Colossal Weapons\n\nWhy they dominate:\n\n* Massive stagger damage\n* Excellent boss control\n* Strong scaling\n* Reliable expedition performance\n\nWylder naturally excels at creating stagger opportunities.\n\nThis allows heavy weapons to outperform faster alternatives.",
+    },
+    {
+      level: 3,
+      heading: "Alternative Choice",
+      content:
+        "### Greatswords\n\nBenefits:\n\n* Better mobility\n* Lower stamina cost\n* Easier for beginners\n\nMany players actually clear expeditions faster with Greatswords due to improved consistency.",
+    },
+    {
+      level: 3,
+      heading: "Avoid",
+      content:
+        "* Low-stagger weapons\n* Fast weapons without scaling support\n\nThese fail to utilize Wylder's strengths.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Duchess",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Critical-Focused Daggers\n\nThe Duchess specializes in:\n\n* Mobility\n* Burst damage\n* Critical opportunities\n\nDaggers complement all three.",
+    },
+    {
+      level: 3,
+      heading: "Why It Works",
+      content:
+        "Benefits include:\n\n* Fast attack chains\n* High critical damage\n* Excellent repositioning\n\nWhen played correctly, Duchess can eliminate elite enemies faster than any other class.",
+    },
+    {
+      level: 3,
+      heading: "Alternative Choice",
+      content:
+        "### Curved Swords\n\nAdvantages:\n\n* Better reach\n* Consistent DPS\n* Safer attack windows",
+    },
+    {
+      level: 3,
+      heading: "Avoid",
+      content:
+        "* Colossal Weapons\n* Slow heavy weapons\n\nThese reduce mobility and weaken the Duchess playstyle.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Recluse",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Intelligence Scaling Catalysts\n\nThe Recluse excels through:\n\n* Safe ranged damage\n* Spell amplification\n* Consistent boss pressure\n\nCatalysts maximize these advantages.",
+    },
+    {
+      level: 3,
+      heading: "Why It Works",
+      content:
+        "Benefits:\n\n* Excellent scaling\n* Strong relic interaction\n* Safe positioning\n\nMost difficult Nightlords become significantly easier when ranged pressure is maintained.",
+    },
+    {
+      level: 3,
+      heading: "Alternative Choice",
+      content:
+        "### Magic Hybrid Weapons\n\nUseful when:\n\n* Resources are limited\n* Close combat becomes unavoidable",
+    },
+    {
+      level: 3,
+      heading: "Avoid",
+      content: "Pure melee weapons without Intelligence scaling.\n\nThese undermine the class's primary strengths.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Guardian",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Greatshields and Heavy Weapons\n\nThe Guardian succeeds by:\n\n* Controlling enemy aggression\n* Absorbing pressure\n* Protecting teammates\n\nHeavy defensive setups work extremely well.",
+    },
+    {
+      level: 3,
+      heading: "Why It Works",
+      content:
+        "Benefits:\n\n* Survivability\n* Stability\n* Consistency\n\nThis makes Guardian one of the safest classes for beginners.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Raider",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Heavy Strength Weapons\n\nRaider thrives on aggression.\n\nIdeal weapon characteristics:\n\n* High damage\n* Strong scaling\n* Excellent stagger",
+    },
+    {
+      level: 3,
+      heading: "Why It Works",
+      content:
+        "Raider naturally creates pressure through aggressive play.\n\nHeavy weapons maximize that advantage.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Executor",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Bleed Weapons\n\nExecutor is one of the strongest status-focused classes.\n\nBleed weapons provide:\n\n* High burst damage\n* Excellent boss performance\n* Strong relic synergy",
+    },
+    {
+      level: 3,
+      heading: "Why It Works",
+      content:
+        "Long encounters favor status effects.\n\nThe higher the boss health pool, the stronger bleed becomes.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Ironeye",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Precision Ranged Weapons\n\nIroneye performs best when:\n\n* Maintaining distance\n* Targeting weak points\n* Supporting teammates",
+    },
+    {
+      level: 3,
+      heading: "Why It Works",
+      content:
+        "Benefits:\n\n* Safe damage output\n* Consistent positioning\n* Reliable expedition value",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Revenant",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Recommended Weapon Type",
+      content:
+        "### Support-Oriented Hybrid Weapons\n\nThe Revenant relies heavily on utility.\n\nIdeal weapons provide:\n\n* Survivability\n* Consistent scaling\n* Utility effects\n\nRaw damage is often less important.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapon Traits to Prioritize",
+      content:
+        "Regardless of class, look for:\n\n### High Scaling\n\nWeapons should benefit strongly from your primary stat.\n\n---\n\n### Stagger Potential\n\nStagger creates free damage opportunities.\n\n---\n\n### Relic Synergy\n\nThe best weapons amplify relic bonuses.\n\n---\n\n### Consistency\n\nAvoid weapons that depend on extremely specific situations.",
+    },
+    {
+      level: 2,
+      heading: "Best Weapons for Boss Fights",
+      content:
+        "The strongest boss weapons typically provide:\n\n### High Stagger\n\nExamples:\n\n* Colossal weapons\n* Greatswords\n\n---\n\n### Burst Damage\n\nExamples:\n\n* Critical weapons\n* Bleed setups\n\n---\n\n### Safe Damage\n\nExamples:\n\n* Magic catalysts\n* Ranged weapons",
+    },
+    {
+      level: 2,
+      heading: "Common Weapon Mistakes",
+      content:
+        "### Mistake #1\n\nChoosing weapons based solely on rarity.\n\n---\n\n### Mistake #2\n\nIgnoring class synergy.\n\n---\n\n### Mistake #3\n\nPrioritizing damage over consistency.\n\n---\n\n### Mistake #4\n\nBuilding around weapons instead of the expedition.",
+    },
+    {
+      level: 2,
+      heading: "How to Choose the Right Weapon",
+      content:
+        "Ask yourself:\n\n### Do you play solo?\n\nChoose high-stagger weapons.\n\n---\n\n### Do you prefer mobility?\n\nChoose critical-focused weapons.\n\n---\n\n### Do you enjoy ranged combat?\n\nChoose Intelligence-scaling weapons.\n\n---\n\n### Do you want maximum survivability?\n\nChoose defensive heavy weapons.\n\n---\n\n### Do you want the fastest boss kills?\n\nChoose bleed or critical builds.",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content:
+        "Continue optimizing your Nightreign character with:\n\n* Nightreign Best Builds Guide\n* Nightreign Weapon Tier List\n* Nightreign Classes Explained\n* Nightreign Relics Guide\n* Nightreign Bosses Guide\n* Nightreign Beginner Guide\n* Nightreign Progression Guide",
+    },
+    {
+      level: 2,
+      heading: "Final Verdict",
+      content:
+        "The strongest weapons in Elden Ring Nightreign are not necessarily the rarest weapons.\n\nThey are the weapons that best complement your class and relic setup.\n\nFor most players:\n\n* Wylder performs best with Colossal Weapons.\n* Duchess excels with Critical Weapons.\n* Recluse dominates with Intelligence Scaling Catalysts.\n* Executor shines with Bleed Weapons.\n\nMaster weapon synergy, and your expedition success rate will improve dramatically—often more than any single relic upgrade.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/nightreign/builds/nightreign-best-builds-guide", anchorText: "Nightreign Best Builds Guide" },
+    { href: "/elden-ring/nightreign/weapons/nightreign-weapon-tier-list", anchorText: "Nightreign Weapon Tier List" },
+    { href: "/elden-ring/nightreign/builds/nightreign-classes-explained", anchorText: "Nightreign Classes Explained" },
+    { href: "/elden-ring/nightreign/bosses/nightreign-bosses-guide", anchorText: "Nightreign Bosses Guide" },
+    { href: "/elden-ring/nightreign/bosses/nightreign-progression-guide", anchorText: "Nightreign Progression Guide" },
+  ],
+  keyTakeaways: [
+    { label: "🥇 Best Overall", value: "Colossal Weapons — stagger, boss control, consistent" },
+    { label: "⚔️ Best Solo", value: "Greatswords — mobility + stagger balance" },
+    { label: "🗡️ Best DPS", value: "Critical Daggers (Duchess) — fastest elite enemy kills" },
+    { label: "🔮 Best Magic", value: "INT Catalysts (Recluse) — safe ranged damage" },
+    { label: "🩸 Best Status", value: "Bleed Weapons (Executor) — scales with boss HP" },
+    { label: "🛡️ Best Beginner", value: "High-Stagger STR Weapons — forgiving, consistent" },
+  ],
+};
+
+const nightreignArticles: Article[] = [bestNightreignBuilds, nightreignBossesGuide, nightreignBestWeaponsGuide];
 
 export default nightreignArticles;
