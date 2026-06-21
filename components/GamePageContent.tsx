@@ -89,18 +89,15 @@ export default function GamePageContent({
               >
                 ⚔️ Build Calculator
               </Link>
+              <Link
+                href={`/${game.slug}/nightreign`}
+                className="shrink-0 rounded-sm bg-gradient-to-r from-purple-500 to-rose-500 px-4 py-2 text-sm font-extrabold uppercase tracking-wider text-white shadow-[0_0_20px_rgba(168,85,247,0.4)] transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(168,85,247,0.6)]"
+              >
+                🌙 Nightreign
+              </Link>
             </>
           )}
-          {/* Category links */}
-          {CATEGORIES.map((cat) => (
-            <Link
-              key={cat}
-              href={`/${game.slug}/${cat}`}
-              className="shrink-0 rounded-sm px-3 py-1.5 text-xs font-semibold uppercase tracking-wider text-zinc-400 transition-colors hover:bg-white/5 hover:text-[#e8d5a3]"
-            >
-              {cat}
-            </Link>
-          ))}
+
         </div>
       </nav>
 
@@ -162,25 +159,46 @@ export default function GamePageContent({
               ))}
               {/* Tool card - only for Elden Ring for now */}
               {game.slug === "elden-ring" && (
-                <div className="col-span-2">
-                  <Link
-                    href={`/${game.slug}/tools/build-calculator`}
-                    className="group flex items-center gap-4 rounded-sm border border-amber-600/40 bg-gradient-to-r from-amber-900/30 to-yellow-900/20 p-5 transition-all hover:border-amber-500/60 hover:from-amber-900/40 hover:to-yellow-900/30"
-                  >
-                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-amber-500/20 text-2xl">
-                      ⚔️
-                    </div>
-                    <div className="flex-1">
-                      <h3 className="text-lg font-bold text-amber-400 group-hover:text-amber-300">Elden Ring Build Calculator</h3>
-                      <p className="mt-1 text-sm text-zinc-400">
-                        Calculate optimal builds with real-time stats, weapon scaling, and smart attribute suggestions. Compare weapons, check soft caps, and find your perfect build.
-                      </p>
-                    </div>
-                    <div className="shrink-0 text-amber-500 group-hover:translate-x-1 transition-transform">
-                      &rarr;
-                    </div>
-                  </Link>
-                </div>
+                <>
+                  <div className="col-span-2">
+                    <Link
+                      href={`/${game.slug}/nightreign`}
+                      className="group flex items-center gap-4 rounded-sm border border-purple-600/40 bg-gradient-to-r from-purple-900/30 to-rose-900/20 p-5 transition-all hover:border-purple-500/60 hover:from-purple-900/40 hover:to-rose-900/30"
+                    >
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-purple-500/20 text-2xl">
+                        🌙
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-bold text-purple-400 group-hover:text-purple-300">Elden Ring: Nightreign</h3>
+                        <p className="mt-1 text-sm text-zinc-400">
+                          The standalone co-op survival game set in a fractured Lands Between. Character builds, boss guides, weapons, and walkthroughs for the 3-player roguelite experience.
+                        </p>
+                      </div>
+                      <div className="shrink-0 text-purple-500 group-hover:translate-x-1 transition-transform">
+                        &rarr;
+                      </div>
+                    </Link>
+                  </div>
+                  <div className="col-span-2">
+                    <Link
+                      href={`/${game.slug}/tools/build-calculator`}
+                      className="group flex items-center gap-4 rounded-sm border border-amber-600/40 bg-gradient-to-r from-amber-900/30 to-yellow-900/20 p-5 transition-all hover:border-amber-500/60 hover:from-amber-900/40 hover:to-yellow-900/30"
+                    >
+                      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-amber-500/20 text-2xl">
+                        ⚔️
+                      </div>
+                      <div className="flex-1">
+                        <h3 className="text-lg font-bold text-amber-400 group-hover:text-amber-300">Elden Ring Build Calculator</h3>
+                        <p className="mt-1 text-sm text-zinc-400">
+                          Calculate optimal builds with real-time stats, weapon scaling, and smart attribute suggestions. Compare weapons, check soft caps, and find your perfect build.
+                        </p>
+                      </div>
+                      <div className="shrink-0 text-amber-500 group-hover:translate-x-1 transition-transform">
+                        &rarr;
+                      </div>
+                    </Link>
+                  </div>
+                </>
               )}
             </div>
 
