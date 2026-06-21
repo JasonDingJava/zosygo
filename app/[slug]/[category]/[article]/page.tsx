@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
 import fs from "fs";
 import path from "path";
 import { getLocalizedGame, getLocalizedGames } from "@/lib/getLocalizedGames";
@@ -201,7 +202,25 @@ export default async function ArticlePage({ params }: Props) {
             {article.title}
           </h1>
           <p className="mt-4 text-base leading-relaxed text-zinc-400">
-            {article.metaDescription}
+            {(() => {
+              // Parse markdown links in metaDescription
+              const text = article.metaDescription;
+              const parts = text.split(/(\[([^\]]+)\]\(([^)]+)\))/g);
+              if (parts.length <= 1) return text;
+              const result: React.ReactNode[] = [];
+              for (let i = 0; i < parts.length; i++) {
+                const part = parts[i];
+                const linkMatch = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+                if (linkMatch) {
+                  result.push(
+                    <a key={i} href={linkMatch[2]} target="_blank" rel="noopener noreferrer" className="text-[#c9a227] hover:text-[#dbb83a] underline underline-offset-2 transition-colors">{linkMatch[1]}</a>
+                  );
+                } else {
+                  result.push(<React.Fragment key={i}>{part}</React.Fragment>);
+                }
+              }
+              return result;
+            })()}
           </p>
 
           {article.keyTakeaways && article.keyTakeaways.length > 0 && (
