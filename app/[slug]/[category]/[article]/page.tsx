@@ -203,25 +203,20 @@ export default async function ArticlePage({ params }: Props) {
         <div className="relative mx-auto max-w-4xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8">
           <nav aria-label="Breadcrumb" className="mb-8">
             <ol className="flex flex-wrap items-center gap-2 text-xs uppercase tracking-[0.2em] text-zinc-600">
-              <li>
-                <Link href={`/`} className="text-[#b8956a]/80 hover:text-[#c9a227]">
-                  Zosygo
-                </Link>
-              </li>
-              <li aria-hidden className="text-zinc-700">/</li>
-              <li>
-                <Link href={`/${slug}`} className="text-[#b8956a]/80 hover:text-[#c9a227]">
-                  {game.name}
-                </Link>
-              </li>
-              <li aria-hidden className="text-zinc-700">/</li>
-              <li>
-                <Link href={`/${slug}/${category}`} className="text-[#b8956a]/80 hover:text-[#c9a227]">
-                  {catLabel}
-                </Link>
-              </li>
-              <li aria-hidden className="text-zinc-700">/</li>
-              <li className="line-clamp-1 max-w-[200px] text-zinc-500">{article.title}</li>
+              {breadcrumb.map((crumb, ci) => (
+                <React.Fragment key={ci}>
+                  {ci > 0 && <li aria-hidden className="text-zinc-700">/</li>}
+                  <li>
+                    {ci < breadcrumb.length - 1 ? (
+                      <Link href={crumb.url} className="text-[#b8956a]/80 hover:text-[#c9a227]">
+                        {crumb.name}
+                      </Link>
+                    ) : (
+                      <span className="line-clamp-1 max-w-[200px] text-zinc-500">{crumb.name}</span>
+                    )}
+                  </li>
+                </React.Fragment>
+              ))}
             </ol>
           </nav>
 
