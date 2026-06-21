@@ -50,6 +50,26 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   });
 
+  // ── nightreign_hub: /elden-ring/nightreign ──
+  // priority 0.9, weekly
+  entries.push({
+    url: `${SITE_URL}/elden-ring/nightreign`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  });
+
+  // ── nightreign_category: /elden-ring/nightreign/(builds|bosses|weapons|walkthroughs) ──
+  // priority 0.8, weekly
+  for (const category of ["builds", "weapons", "bosses", "walkthroughs"] as const) {
+    entries.push({
+      url: `${SITE_URL}/elden-ring/nightreign/${category}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    });
+  }
+
   // ── hub_page: /elden-ring ──
   // priority 0.95, weekly
   entries.push({
@@ -85,9 +105,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // priority 0.8, weekly
   const articleSlugs = getAllArticleSlugs();
   const eldenRingArticles = articleSlugs.filter((a) => a.gameSlug === "elden-ring");
+  const nightreignArticles = articleSlugs.filter((a) => a.gameSlug === "nightreign");
   for (const { slug, gameSlug, category } of eldenRingArticles) {
     entries.push({
       url: `${SITE_URL}/${gameSlug}/${category}/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.8,
+    });
+  }
+
+  // ── nightreign_article: /elden-ring/nightreign/[category]/[slug] ──
+  // priority 0.8, weekly
+  for (const { slug, gameSlug, category } of nightreignArticles) {
+    entries.push({
+      url: `${SITE_URL}/elden-ring/nightreign/${category}/${slug}`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
