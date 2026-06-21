@@ -820,7 +820,202 @@ const statOptimizerArticle: Article = {
   ],
 };
 
-const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle, statOptimizerArticle];
+const buildMakerArticle: Article = {
+  readTimeMinutes: 8,
+  order: 1,
+  slug: "elden-ring-build-maker-explained",
+  category: "builds",
+  gameSlug: "elden-ring",
+  title: "Elden Ring Build Maker Explained (2026) – How to Plan the Perfect Character Build",
+  metaDescription:
+    "Complete Elden Ring Build Maker guide for 2026. Learn how to plan stat allocation, avoid wasted levels, and build optimized characters using the 5 core build principles. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your build before leveling.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "If your Elden Ring character feels weak, unbalanced, or inconsistent, the problem is usually not your weapon.\n\nIt is your build planning.\n\nA \"Build Maker\" mindset is what separates random leveling from optimized characters that dominate PvE and PvP content.",
+    },
+    {
+      level: 2,
+      heading: "⚡ Quick Answer – How a Build Maker Works",
+      content:
+        "A proper Elden Ring Build Maker is based on 5 core decisions:\n\n- Choose ONE main damage stat\n- Set Vigor first (survivability baseline)\n- Match weapon scaling to your stat\n- Respect soft caps (efficiency limits)\n- Optimize Endurance for equip load\n\n### 🧠 Core Build Targets (2026 Meta)\n\n- Vigor → 55–60 (mandatory survivability range)\n- Main Damage Stat → 55–60 (STR / DEX / INT / FAI)\n- Arcane → 45–50 (bleed-focused builds)\n- Endurance → Medium roll requirement only",
+    },
+    {
+      level: 2,
+      heading: "🧠 What Is an Elden Ring Build Maker?",
+      content:
+        "A Build Maker is not a weapon guide.\n\nIt is a planning system that helps you:\n\n- Design stat allocation before leveling\n- Avoid wasted levels\n- Match weapons to scaling\n- Build around efficiency instead of raw level\n\nMost players fail because they build reactively instead of planning.",
+    },
+    {
+      level: 2,
+      heading: "📊 Why Most Players Build Characters Wrong",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "❌ Mistake 1: Leveling without structure",
+      content:
+        "Players randomly increase stats based on immediate needs.\n\nResult:\n- Weak scaling\n- No clear build identity\n- Poor late-game performance",
+    },
+    {
+      level: 3,
+      heading: "❌ Mistake 2: Splitting damage stats",
+      content:
+        "Example:\n- STR + DEX + INT together\n\nResult:\n- No stat reaches efficiency zone\n- Overall damage stays low",
+    },
+    {
+      level: 3,
+      heading: "❌ Mistake 3: Ignoring Vigor",
+      content:
+        "Low survivability leads to:\n\n- One-shot deaths\n- Poor boss consistency\n- Low DPS uptime",
+    },
+    {
+      level: 2,
+      heading: "🧱 Core Principles of Build Making",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "✔ Principle 1: Build Around ONE Identity",
+      content:
+        "Every strong build has one direction:\n\n- Strength = heavy stagger builds\n- Dexterity = fast DPS builds\n- Intelligence = ranged burst builds\n- Arcane = status effect builds\n\nIf a build has no identity, it will always feel weak.",
+    },
+    {
+      level: 3,
+      heading: "✔ Principle 2: Vigor Comes First",
+      content:
+        "Before damage optimization, survivability must be stable.\n\nRecommended progression:\n\n- Early game: 30–40 Vigor\n- Mid game: 40–55 Vigor\n- Late game: 55–60 Vigor",
+    },
+    {
+      level: 3,
+      heading: "✔ Principle 3: Soft Caps Define Efficiency",
+      content:
+        "Soft caps are where stat efficiency drops.\n\nKey values:\n\n- Vigor → 60\n- STR / DEX / INT / FAI → 55–60\n- Arcane → 45–50\n\nBeyond these values, each level gives reduced returns.",
+    },
+    {
+      level: 3,
+      heading: "✔ Principle 4: Weapon Must Match Stat",
+      content:
+        "A build is only effective if weapon and stats align.\n\nExamples:\n\n- Strength → Colossal weapons\n- Dexterity → Katanas / curved swords\n- Intelligence → Moonveil / sorcery builds\n- Arcane → Rivers of Blood / bleed builds",
+    },
+    {
+      level: 2,
+      heading: "⚔️ Two-Hand Scaling Advantage (Critical Mechanic)",
+      content:
+        "Two-handing a weapon increases Strength by 50%.\n\nThis means:\n\n- 40 STR → behaves like 60 STR\n- 54 STR → reaches optimal scaling zone early\n- You can invest extra points into Vigor or Endurance\n\nThis mechanic is one of the most important optimization tools in the game.",
+    },
+    {
+      level: 2,
+      heading: "🧪 Build Maker Templates (2026 Meta)",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "🥇 Strength Build Template",
+      content:
+        "- Vigor: 60\n- STR: 60–80\n- Endurance: 25–35\n\nFocus:\n- High stagger damage\n- Heavy weapon dominance\n- PvE boss control",
+    },
+    {
+      level: 3,
+      heading: "🥇 Dexterity Build Template",
+      content:
+        "- Vigor: 55–60\n- DEX: 50–70\n- Endurance: moderate\n\nFocus:\n- Fast attacks\n- Consistent DPS\n- High mobility combat",
+    },
+    {
+      level: 3,
+      heading: "🥇 Intelligence Build Template",
+      content:
+        "- Vigor: 55–60\n- INT: 60–80\n- Mind: 25–35\n\nFocus:\n- Long-range burst damage\n- Safe spell casting\n- High scaling late game",
+    },
+    {
+      level: 3,
+      heading: "🥇 Arcane Build Template",
+      content:
+        "- Vigor: 60\n- ARC: 45–50\n- DEX: optional\n\nFocus:\n- Bleed / status effects\n- Rapid boss melting\n- PvP pressure builds",
+    },
+    {
+      level: 2,
+      heading: "❌ Common Build Maker Mistakes",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Mistake 1: No planning before leveling",
+      content: "Fix:\nPlan stat distribution before investing levels.",
+    },
+    {
+      level: 3,
+      heading: "Mistake 2: Hybrid stat confusion",
+      content: "Mixing multiple damage stats reduces scaling efficiency.",
+    },
+    {
+      level: 3,
+      heading: "Mistake 3: Ignoring equip load",
+      content: "Heavy roll builds reduce survivability and reaction speed.",
+    },
+    {
+      level: 2,
+      heading: "📈 Step-by-Step Build Maker Process",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Step 1 – Define Build Identity",
+      content: "Choose ONE direction: STR / DEX / INT / ARC",
+    },
+    {
+      level: 3,
+      heading: "Step 2 – Set Vigor Baseline",
+      content: "Reach at least 55 before focusing damage stats.",
+    },
+    {
+      level: 3,
+      heading: "Step 3 – Select Weapon First or Stat First",
+      content: "Both must match scaling direction.",
+    },
+    {
+      level: 3,
+      heading: "Step 4 – Apply Soft Cap Limits",
+      content: "Stop leveling stats beyond efficiency zones.",
+    },
+    {
+      level: 3,
+      heading: "Step 5 – Adjust Endurance",
+      content: "Only enough for:\n- Medium roll\n- Weapon requirements",
+    },
+    {
+      level: 2,
+      heading: "🔗 Related Guides (Recommended Next Reads)",
+      content:
+        "To improve your build further, read:\n\n- Elden Ring Best Builds Guide (2026)\n- Elden Ring Stat Optimizer Guide\n- Elden Ring Strength Soft Cap Explained\n- Elden Ring Weapon Scaling System Guide\n- Elden Ring Build Calculator Tool",
+    },
+    {
+      level: 2,
+      heading: "🧾 Final Summary",
+      content:
+        "An Elden Ring Build Maker is not about copying builds.\n\nIt is about understanding systems:\n\n- Stat efficiency\n- Soft caps\n- Weapon synergy\n- Build identity\n\nOnce you plan your character correctly, every build becomes significantly stronger—even at lower levels.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide (2026)" },
+    { href: "/elden-ring/builds/elden-ring-stat-optimizer-guide", anchorText: "Elden Ring Stat Optimizer Guide" },
+    { href: "/elden-ring/builds/strength-soft-cap-explained", anchorText: "Elden Ring Strength Soft Cap Explained" },
+    { href: "/elden-ring/builds/weapon-scaling-guide", anchorText: "Elden Ring Weapon Scaling System Guide" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator Tool" },
+  ],
+  keyTakeaways: [
+    { label: "🎯 Core Principle", value: "Build around ONE identity: STR, DEX, INT, or ARC" },
+    { label: "📊 Soft Caps", value: "Vigor 60, STR/DEX/INT/FAI 55–60, ARC 45–50" },
+    { label: "⚔️ Two-Hand Scaling", value: "40 STR two-handed = 60 STR, saves 20 levels" },
+    { label: "🛡️ Build Templates", value: "4 templates: STR (stagger), DEX (speed), INT (burst), ARC (bleed)" },
+    { label: "❌ 3 Common Mistakes", value: "No planning, split stats, ignoring equip load" },
+    { label: "📈 5-Step Process", value: "Identity → Vigor → Weapon → Soft Cap → Endurance" },
+  ],
+};
+
+const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle, statOptimizerArticle, buildMakerArticle];
 
 export default softcapsArticles2;
 
