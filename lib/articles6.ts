@@ -546,5 +546,95 @@ const arcArticle: Article = {
 
 const softcapsArticles: Article[] = [vigorArticle, enduranceArticle, intArticle, dexArticle, arcArticle];
 
-export default softcapsArticles;
+// ═══ ELDEN RING — BUILDS (Strength Soft Caps) ═══
+const strengthArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Soft Caps", value: "25 (early), 55 (main/efficiency), 80 (hard cap)" },
+    { label: "📊 PvE Meta", value: "STR 40-60 — best balance of damage and investment" },
+    { label: "🎯 PvP Meta", value: "STR 50-70 — optimized for arena builds" },
+    { label: "⚔️ Two-Hand Bonus", value: "+50% effective STR — 40 STR counts as 60" },
+    { label: "🛡️ Best Build", value: "Colossal Weapons (60-80 STR) or Quality Hybrid (40-55 STR)" },
+    { label: "💡 Key Rule", value: "Two-handing reduces required STR investment — save points for Vigor" },
+  ],
+  slug: "strength-soft-cap-explained",
+  category: "builds",
+  gameSlug: "elden-ring",
+  difficulty: "beginner",
+  readTimeMinutes: 7,
+  order: 59,
+  title:
+    "Elden Ring Strength Soft Cap Explained (2026) – Heavy Builds & Two-Hand Scaling Guide",
+  metaDescription:
+    "Complete Elden Ring Strength soft cap guide for 2026. Understand heavy build scaling breakpoints, optimal STR for PvE and PvP at level 150, and how two-handing affects your investment. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your strength build.",
+  sections: [
+    {
+      level: 2,
+      heading: "",
+      content:
+        "If you only need the optimal Strength values:\n\n- **25 STR** → Early soft cap (early-game efficiency)\n- **55 STR** → Main soft cap (best overall scaling efficiency)\n- **80 STR** → Hard cap (diminishing returns)\n\n### Recommended Strength Ranges\n\n- **PvE Builds:** 40–60 STR\n- **PvP Builds:** 50–70 STR\n- **Pure Heavy Builds:** 60–80 STR\n\n### Core Rule\n✔ Two-handing a weapon gives **+50% effective Strength**",
+    },
+    {
+      level: 2,
+      heading: "What Is Strength Soft Cap in Elden Ring?",
+      content:
+        "The Strength Soft Cap is the point where each additional Strength point gives reduced damage scaling.\n\nBefore the soft cap:\n- Large damage increase per level\n\nAfter the soft cap:\n- Reduced scaling efficiency\n\nThis is why optimized builds stop at specific STR breakpoints instead of maxing out.",
+    },
+    {
+      level: 2,
+      heading: "Strength Soft Cap Breakpoints Explained",
+      content:
+        "### 🟢 25 Strength – Early Game Soft Cap\n\nAt 25 Strength:\n- Strong early-game scaling\n- Works well for hybrid builds\n- Efficient weapon usage begins here\n\n👉 Not recommended for late game builds\n\n### 🟡 55 Strength – Main Soft Cap (Best Efficiency)\n\nAt 55 Strength:\n- Maximum efficiency per stat point\n- Best balance of damage and investment\n- Ideal for most PvE builds\n\n👉 This is the most important breakpoint in the game\n\n### 🔴 80 Strength – Hard Cap\n\nAt 80 Strength:\n- Very low stat efficiency\n- Mostly for min-max builds\n- Not optimal for meta PvP",
+    },
+    {
+      level: 2,
+      heading: "Two-Hand Scaling Explained (Very Important)",
+      content:
+        "When you two-hand a weapon, your Strength is multiplied by 1.5×.\n\n### Example:\n\n- 40 STR → counts as 60 STR\n- 54 STR → effectively reaches soft cap zone\n\n### Why this matters:\n\n✔ You reach soft caps earlier\n✔ You save stat points\n✔ You can invest more into Vigor or Endurance\n\n👉 This is why Strength builds feel extremely strong early game.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate two-handed scaling for your specific weapon.",
+    },
+    {
+      level: 2,
+      heading: "Best Strength Builds (2026 Meta Tier List)",
+      content:
+        "### 🥇 S Tier – Colossal Weapon Build\n\n- STR: 60–80\n- Weapons: Greatsword, Giant-Crusher\n- Playstyle: high burst, slow attacks\n\n✔ Highest poise damage\n✔ Excellent boss stagger potential\n\n### 🥇 S Tier – Quality Strength Hybrid\n\n- STR: 40–55\n- DEX: 30–45\n- Weapons: Claymore, Greatswords\n\n✔ Balanced speed and damage\n✔ Strong PvE flexibility\n\n### 🥈 A Tier – Tank Strength Build\n\n- STR: 55–60\n- High Endurance + heavy armor\n\n✔ Extremely safe\n✔ Beginner-friendly playstyle",
+    },
+    {
+      level: 2,
+      heading: "Core Strength Build Rules",
+      content:
+        "✔ Do NOT split damage stats too much\n✔ Always prioritize Vigor (55–60 recommended)\n✔ Two-handing reduces required STR investment\n✔ Stop at soft caps unless min-maxing",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content:
+        "To fully optimize your build, read:\n\n- [Elden Ring Vigor Soft Cap Explained](https://www.zosygo.com/elden-ring/builds/vigor-soft-cap-explained)\n- [Elden Ring Endurance Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/endurance-soft-cap-explained)\n- [Best Strength Builds Tier List 2026](https://www.zosygo.com/elden-ring/builds/best-builds-guide)\n- [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n- [Elden Ring Weapon Scaling Explained](https://www.zosygo.com/elden-ring/builds/elden-ring-damage-scaling-explained)",
+    },
+    {
+      level: 2,
+      heading: "Build Optimization Tool",
+      content:
+        "Want to test your Strength build?\n\nUse our Build Calculator to:\n\n- Simulate two-handed scaling\n- Compare weapon AR values\n- Find optimal stat distribution\n\n👉 Avoid wasted levels and optimize damage output",
+    },
+    {
+      level: 2,
+      heading: "Final Summary",
+      content:
+        "Strength scaling in Elden Ring is defined by efficiency breakpoints:\n\n- 25 STR → early efficiency\n- 55 STR → optimal scaling zone\n- 80 STR → diminishing returns zone\n\nMost meta builds stay between **40–60 STR** due to optimal scaling and two-hand mechanics.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
+    { href: "/elden-ring/builds/vigor-soft-cap-explained", anchorText: "Vigor Soft Cap Guide" },
+    { href: "/elden-ring/builds/endurance-soft-cap-explained", anchorText: "Endurance Soft Cap Guide" },
+    { href: "/elden-ring/builds/dexterity-soft-cap-explained", anchorText: "Dexterity Soft Cap Guide" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
+    { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+  ],
+};
+
+const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle];
+
+export default softcapsArticles2;
 
