@@ -53,7 +53,6 @@ type Props = {
 };
 
 export function generateStaticParams() {
-  const slugs = getGameSlugs();
   const params: {
     locale: string;
     slug: string;
@@ -61,16 +60,14 @@ export function generateStaticParams() {
     article: string;
   }[] = [];
   for (const locale of ["en"]) {
-    for (const gameSlug of slugs) {
-      const articles = getArticlesForGame(gameSlug);
-      for (const article of articles) {
-        params.push({
-          locale,
-          slug: gameSlug,
-          category: article.category,
-          article: article.slug,
-        });
-      }
+    const articles = getArticlesForGame("nightreign");
+    for (const article of articles) {
+      params.push({
+        locale,
+        slug: "elden-ring",
+        category: article.category,
+        article: article.slug,
+      });
     }
   }
   return params;
@@ -78,12 +75,9 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug, article: articleSlug } = await params;
-  const game = await getLocalizedGame(slug, "en");
+  const game = await getLocalizedGame("elden-ring", "en");
   if (!game) return {};
-  let article = getArticleBySlug(articleSlug, slug);
-  if (!article && slug === "elden-ring") {
-    article = getArticleBySlug(articleSlug, "nightreign");
-  }
+  let article = getArticleBySlug(articleSlug, "nightreign");
   if (!article) return {};
 
   const isNightreign = article.gameSlug === "nightreign";
@@ -121,15 +115,11 @@ export default async function ArticlePage({ params }: Props) {
   const game = await getLocalizedGame(slug, "en");
   if (!game) notFound();
 
-  let article = getArticleBySlug(articleSlug, slug);
-  if (!article && slug === "elden-ring") {
-    // Also check Nightreign articles under /elden-ring/nightreign/
-    article = getArticleBySlug(articleSlug, "nightreign");
-  }
+  let article = getArticleBySlug(articleSlug, "nightreign");
   if (!article) notFound();
 
-  const isNightreign = article.gameSlug === "nightreign";
-  const nightreignPrefix = isNightreign ? "/nightreign" : "";
+  const isNightreign = true;
+  const nightreignPrefix = "/nightreign";
 
   const otherArticles = getArticlesForGame(slug).filter(
     (a) => a.slug !== article.slug
