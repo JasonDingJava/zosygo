@@ -72,6 +72,16 @@ export function generateStaticParams() {
         });
       }
     }
+    // Also generate params for Nightreign articles under /elden-ring/ path
+    const nightreignArticles = getArticlesForGame("nightreign");
+    for (const article of nightreignArticles) {
+      params.push({
+        locale,
+        slug: "elden-ring",
+        category: article.category,
+        article: article.slug,
+      });
+    }
   }
   return params;
 }
@@ -80,7 +90,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug, article: articleSlug } = await params;
   const game = await getLocalizedGame(slug, "en");
   if (!game) return {};
-  const article = getArticleBySlug(articleSlug, slug);
+  let article = getArticleBySlug(articleSlug, slug);
+  if (!article && slug === "elden-ring") {
+    article = getArticleBySlug(articleSlug, "nightreign");
+  }
   if (!article) return {};
 
   return {
@@ -115,12 +128,22 @@ export default async function ArticlePage({ params }: Props) {
   const game = await getLocalizedGame(slug, "en");
   if (!game) notFound();
 
-  const article = getArticleBySlug(articleSlug, slug);
+  let article = getArticleBySlug(articleSlug, slug);
+  if (!article && slug === "elden-ring") {
+    // Also check Nightreign articles under /elden-ring/nightreign/
+    article = getArticleBySlug(articleSlug, "nightreign");
+  }
   if (!article) notFound();
 
   const otherArticles = getArticlesForGame(slug).filter(
     (a) => a.slug !== article.slug
   );
+  // If this is a Nightreign article under elden-ring slug, also include Nightreign articles
+  if (otherArticles.length === 0 && article.gameSlug === "nightreign") {
+    otherArticles.push(...getArticlesForGame("nightreign").filter(
+      (a) => a.slug !== article.slug
+    ));
+  }
 
   // Pick 3 random images for articles without manually set images
   const randomImages = pickRandomImages(article.slug, 3);

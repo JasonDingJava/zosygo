@@ -6,6 +6,7 @@ import articles4Articles from "./articles4";
 import articles5Articles from "./articles5";
 import articles6Articles from "./articles6";
 import articles7Articles from "./articles7";
+import nightreignArticles from "./articles-nightreign";
 
 export interface ArticleBase {
   slug: string;
@@ -2738,6 +2739,7 @@ export const articles: Article[] = [
   ...articles5Articles,
   ...articles6Articles,
   ...articles7Articles,
+  ...nightreignArticles,
 ];
 
 export function getArticlesForGame(
