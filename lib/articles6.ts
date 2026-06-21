@@ -1188,7 +1188,142 @@ const scalingExplainedArticle: Article = {
   ],
 };
 
-const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle, statOptimizerArticle, buildMakerArticle, scalingExplainedArticle];
+const vigorVsEnduranceArticle: Article = {
+  readTimeMinutes: 8,
+  order: 1,
+  slug: "elden-ring-vigor-soft-cap-vs-endurance",
+  category: "builds",
+  gameSlug: "elden-ring",
+  title: "Elden Ring Vigor Soft Cap vs Endurance – Which Stat Matters More in 2026 Builds?",
+  metaDescription:
+    "Complete comparison of Elden Ring Vigor vs Endurance for 2026 builds. Learn soft caps, when to prioritize each stat, and how to decide where your next levels should go. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stat allocation.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "One of the biggest mistakes Elden Ring players make is treating Vigor and Endurance as equal priorities.\n\nThey are not.\n\nEvery build eventually reaches a point where you must decide:\n\nShould your next levels go into Vigor or Endurance?\n\nThe answer determines whether your character survives difficult bosses, maintains damage uptime, or struggles through the late game.\n\nIn this guide, we'll compare Vigor and Endurance directly, explain their soft caps, and show which stat provides more value at every stage of progression.",
+    },
+    {
+      level: 2,
+      heading: "⚡ Quick Answer – Vigor vs Endurance",
+      content:
+        "For nearly every PvE build in 2026:\n\n### Prioritize Vigor Before Endurance\n\nRecommended order:\n\n1. Reach 55–60 Vigor\n2. Meet weapon requirements\n3. Add Endurance as needed\n4. Stop when you can comfortably medium roll\n\n### General Rule\n\n* Vigor = Survival\n* Endurance = Comfort\n\nIf forced to choose, Vigor almost always provides more value.",
+    },
+    {
+      level: 2,
+      heading: "What Does Vigor Actually Do?",
+      content:
+        "Vigor increases your maximum HP.\n\nThis directly affects:\n\n* Survivability\n* Boss consistency\n* Healing efficiency\n* Mistake tolerance\n\nEvery point invested into Vigor allows you to survive larger attacks and recover from mistakes.\n\nFor most players, Vigor is the strongest defensive stat in Elden Ring.",
+    },
+    {
+      level: 2,
+      heading: "What Does Endurance Actually Do?",
+      content:
+        "Endurance affects two systems:\n\n### Stamina\n\nMore stamina allows:\n\n* Additional attacks\n* More rolls\n* Longer sprinting\n\n### Equip Load\n\nHigher equip load allows:\n\n* Heavier armor\n* Larger weapons\n* More flexibility\n\nUnlike Vigor, Endurance rarely prevents death directly.\n\nInstead, it improves overall build comfort.",
+    },
+    {
+      level: 2,
+      heading: "Understanding the Vigor Soft Cap",
+      content:
+        "Vigor provides exceptional value early and mid game.\n\n### Vigor Scaling Overview\n\n* 20–40 Vigor = Excellent gains\n* 40–60 Vigor = Strong gains\n* 60+ Vigor = Significant diminishing returns\n\nThis is why most optimized builds stop around 60 Vigor.\n\nThe HP gains beyond this point become increasingly inefficient.",
+    },
+    {
+      level: 2,
+      heading: "Understanding Endurance Soft Caps",
+      content:
+        "Endurance behaves differently.\n\nIts value depends heavily on your equipment.\n\n### Typical Endurance Ranges\n\n* 15–20 = Light builds\n* 20–30 = Most standard builds\n* 30–40 = Heavy weapon builds\n* 40+ = Specialized setups\n\nUnlike Vigor, Endurance does not have one universally optimal value.\n\nIts usefulness depends entirely on your loadout.",
+    },
+    {
+      level: 2,
+      heading: "Why Vigor Usually Wins",
+      content:
+        "Imagine two level 150 characters.\n\n### Character A\n\n* Vigor: 60\n* Endurance: 20\n\n### Character B\n\n* Vigor: 40\n* Endurance: 40\n\nMost players assume Character B is stronger.\n\nIn reality:\n\nCharacter A survives significantly more boss attacks.\n\nThis creates:\n\n* More healing opportunities\n* More attack windows\n* Higher overall DPS uptime\n\nDead characters deal zero damage.\n\nThis is why Vigor almost always provides better value.",
+    },
+    {
+      level: 2,
+      heading: "The Hidden DPS Benefit of Vigor",
+      content:
+        "Many players think Vigor is only a defensive stat.\n\nThat is incorrect.\n\nHigher survivability increases:\n\n* Time spent attacking\n* Aggressive play opportunities\n* Learning efficiency during boss fights\n\nA player surviving one extra combo often deals more damage than a player who invested heavily into Endurance.",
+    },
+    {
+      level: 2,
+      heading: "When Endurance Becomes More Important",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Heavy Strength Builds",
+      content:
+        "Examples:\n\n* Greatsword\n* Giant-Crusher\n* Dual Colossal Weapons\n\nThese setups require:\n\n* High stamina\n* Higher equip load\n\nAdditional Endurance may provide more value than extra Vigor after reaching survivability goals.",
+    },
+    {
+      level: 3,
+      heading: "Heavy Armor Builds",
+      content:
+        "If adding Endurance allows:\n\n* Medium rolling\n* Better armor\n* Improved poise\n\nThe investment can be worthwhile.",
+    },
+    {
+      level: 3,
+      heading: "PvP Builds",
+      content:
+        "Certain PvP setups rely heavily on:\n\n* Roll management\n* Stamina pressure\n* Chase-down potential\n\nIn these situations, Endurance becomes more valuable than it is in PvE.",
+    },
+    {
+      level: 2,
+      heading: "The Biggest Mistake Players Make",
+      content:
+        "Many players invest into Endurance too early.\n\nExample:\n\n* Vigor 30\n* Endurance 35\n\nThis creates a character that:\n\n* Has plenty of stamina\n* Wears heavy armor\n* Still dies in two hits\n\nThe build feels tanky.\n\nBut it is actually fragile.",
+    },
+    {
+      level: 2,
+      heading: "Recommended Vigor and Endurance Targets",
+      content:
+        "### Strength Builds\n\n* Vigor: 60\n* Endurance: 25–35\n\n---\n\n### Dexterity Builds\n\n* Vigor: 55–60\n* Endurance: 20–25\n\n---\n\n### Intelligence Builds\n\n* Vigor: 55–60\n* Endurance: 15–20\n\n---\n\n### Faith Builds\n\n* Vigor: 55–60\n* Endurance: 20–25\n\n---\n\n### Arcane Builds\n\n* Vigor: 60\n* Endurance: 20–25",
+    },
+    {
+      level: 2,
+      heading: "How to Decide Your Next Level",
+      content:
+        "Ask yourself:\n\n### Are you dying too quickly?\n\nChoose Vigor.\n\n---\n\n### Are you fat rolling?\n\nChoose Endurance.\n\n---\n\n### Are you running out of stamina constantly?\n\nChoose Endurance.\n\n---\n\n### Are bosses killing you in one combo?\n\nChoose Vigor.",
+    },
+    {
+      level: 2,
+      heading: "Vigor vs Endurance at Common Rune Levels",
+      content:
+        "### Level 80\n\nPriority:\n\n* Vigor\n\nMost characters still need survivability.\n\n---\n\n### Level 125\n\nPriority:\n\n* Mostly Vigor\n* Moderate Endurance\n\nThis is where most optimized builds stabilize.\n\n---\n\n### Level 150+\n\nPriority:\n\n* Build-dependent\n\nOnce Vigor reaches 60, additional Endurance becomes more attractive.",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content:
+        "To optimize your build further, continue with:\n\n* Elden Ring Strength Soft Cap Explained\n* Elden Ring Stat Optimizer Guide\n* Elden Ring Damage Scaling Explained\n* Elden Ring Build Maker Explained\n* Elden Ring Best Builds Guide",
+    },
+    {
+      level: 2,
+      heading: "Final Verdict",
+      content:
+        "For almost every build in Elden Ring, Vigor matters more than Endurance.\n\nVigor directly increases survivability, consistency, and overall combat performance.\n\nEndurance is important, but only after your survivability foundation is established.\n\nA simple rule works for nearly every build:\n\n### Reach 55–60 Vigor First\n\nThen invest into Endurance only as needed for stamina and equip load.\n\nIf you're unsure where your next levels should go, choose Vigor.\n\nMost of the time, it is the correct answer.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds/strength-soft-cap-explained", anchorText: "Elden Ring Strength Soft Cap Explained" },
+    { href: "/elden-ring/builds/elden-ring-stat-optimizer-guide", anchorText: "Elden Ring Stat Optimizer Guide" },
+    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Elden Ring Damage Scaling Explained" },
+    { href: "/elden-ring/builds/elden-ring-build-maker-explained", anchorText: "Elden Ring Build Maker Explained" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Elden Ring Best Builds Guide" },
+  ],
+  keyTakeaways: [
+    { label: "🎯 Core Rule", value: "Vigor first (55–60), Endurance second — survival before comfort" },
+    { label: "📊 Vigor Soft Cap", value: "20–40 excellent, 40–60 strong, 60+ diminishing returns" },
+    { label: "🛡️ Endurance Role", value: "Stamina + equip load — value depends on weapon/armor loadout" },
+    { label: "💡 Hidden DPS", value: "Vigor increases attack uptime — surviving longer = more damage" },
+    { label: "❌ Common Mistake", value: "Endurance too early (Vigor 30 + END 35) — fragile despite heavy armor" },
+    { label: "📈 Decision Guide", value: "Dying fast → Vigor. Fat rolling → Endurance. Unsure → Vigor." },
+  ],
+};
+
+const softcapsArticles2: Article[] = [...softcapsArticles, strengthArticle, statOptimizerArticle, buildMakerArticle, scalingExplainedArticle, vigorVsEnduranceArticle];
 
 export default softcapsArticles2;
 
