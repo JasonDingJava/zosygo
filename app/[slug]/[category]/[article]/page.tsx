@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import Image from "next/image";
 import React from "react";
 import fs from "fs";
@@ -127,6 +128,11 @@ export default async function ArticlePage({ params }: Props) {
     article = getArticleBySlug(articleSlug, "nightreign");
   }
   if (!article) notFound();
+
+  // Redirect Nightreign articles to correct path
+  if (article.gameSlug === "nightreign" && slug === "elden-ring") {
+    redirect(`/elden-ring/nightreign/${article.category}/${article.slug}`);
+  }
 
   const isNightreign = article.gameSlug === "nightreign";
   const nightreignPrefix = isNightreign ? "/nightreign" : "";
