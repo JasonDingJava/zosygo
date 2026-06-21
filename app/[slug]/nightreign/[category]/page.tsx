@@ -266,20 +266,6 @@ export default async function NightreignCategoryPage({ params }: Props) {
         </div>
       </section>
 
-      {/* Category Introduction */}
-      <section className="border-t border-[#b8956a]/10 bg-[#0a0a12]">
-        <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-white sm:text-3xl">
-            About Nightreign {catLabel}
-          </h2>
-          <div className="mt-6 space-y-4 text-base leading-relaxed text-zinc-400">
-            {catData.content.split("\n").map((p, i) => (
-              <p key={i}>{p}</p>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Articles Grid */}
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {articles.length > 0 ? (
@@ -325,6 +311,20 @@ export default async function NightreignCategoryPage({ params }: Props) {
               </div>
             </Link>
           ))}
+        </div>
+      </section>
+
+      {/* Category Introduction (placed below articles) */}
+      <section className="border-t border-[#b8956a]/10 bg-[#0a0a12]">
+        <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
+          <h2 className="text-2xl font-bold text-white sm:text-3xl">
+            About Nightreign {catLabel}
+          </h2>
+          <div className="mt-6 space-y-4 text-base leading-relaxed text-zinc-400">
+            {catData.content.split("\n").map((p, i) => (
+              <p key={i}>{p}</p>
+            ))}
+          </div>
         </div>
       </section>
 
