@@ -222,6 +222,312 @@ const bestNightreignBuilds: Article = {
   ],
 };
 
-const nightreignArticles: Article[] = [bestNightreignBuilds];
+const nightreignBossesGuide: Article = {
+  readTimeMinutes: 9,
+  order: 1,
+  slug: "nightreign-bosses-guide",
+  category: "bosses",
+  gameSlug: "nightreign",
+  title: "Elden Ring Nightreign Bosses Guide (2026) – All Nightlords Ranked by Difficulty",
+  metaDescription:
+    "Complete Elden Ring Nightreign bosses guide for 2026. All 9 Nightlords ranked by difficulty with strategies, recommended builds, team compositions, and tips for solo and co-op play.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "The Nightlords are the ultimate challenge in Elden Ring Nightreign.\n\nUnlike traditional Elden Ring bosses, Nightlords are designed around expedition mechanics, team coordination, relic optimization, and build synergy. A boss that feels manageable with the right team can become a nightmare when approached with the wrong composition.\n\nThis guide ranks every Nightlord by difficulty, explains what makes each encounter dangerous, and helps you prepare for the toughest fights in Nightreign.",
+    },
+    {
+      level: 2,
+      heading: "⚡ Quick Summary",
+      content:
+        "▸ 👑 Hardest Nightlord: Libra, Creature of Night\n\n▸ ⚔️ Most Aggressive Boss: Fulghor, Champion of Nightglow\n\n▸ 🐺 Most Punishing for Solo Players: Gladius, Beast of Night\n\n▸ 🔥 Easiest Nightlord: Adel, Baron of Night\n\n▸ 🛡️ Best Beginner Build Against Nightlords: Wylder Strength Build\n\n▸ 👥 Best Team Composition: Wylder + Duchess + Recluse",
+    },
+    {
+      level: 2,
+      heading: "Nightlord Difficulty Ranking (2026)",
+      content:
+        "### S Tier – Extremely Difficult\n\n1. Libra, Creature of Night\n2. Fulghor, Champion of Nightglow\n3. Gladius, Beast of Night\n\n### A Tier – Challenging\n\n4. Maris, Fathom of Night\n5. Caligo, Miasma of Night\n6. Gnoster, Wisdom of Night\n\n### B Tier – Moderate Difficulty\n\n7. Heolstor, Nightlord\n8. Sentient Pest, Nightlord Variant\n\n### C Tier – Beginner-Friendly\n\n9. Adel, Baron of Night",
+    },
+    {
+      level: 2,
+      heading: "🥇 #1 Libra, Creature of Night",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Why Libra Is the Hardest Boss",
+      content:
+        "Libra is widely considered the most difficult Nightlord because the fight punishes mistakes more than any other encounter.\n\nPlayers struggle with:\n\n* Massive area attacks\n* Delayed attack timings\n* Unpredictable movement patterns\n* Heavy team coordination requirements\n\nUnlike other bosses, Libra forces players to react instead of memorizing attack patterns.",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "10/10",
+    },
+    {
+      level: 3,
+      heading: "Biggest Challenge",
+      content:
+        "The fight becomes significantly harder during later phases when attack chains overlap.\n\nMany groups fail because they panic after surviving the first major phase.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content:
+        "* Maintain spacing\n* Prioritize survivability relics\n* Save burst damage for phase transitions\n* Avoid overcommitting to long attack animations",
+    },
+    {
+      level: 2,
+      heading: "🥈 #2 Fulghor, Champion of Nightglow",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Why Players Struggle",
+      content:
+        "Fulghor is one of the most aggressive bosses in Nightreign.\n\nThe fight allows very little downtime.\n\nCommon issues include:\n\n* Relentless melee pressure\n* Rapid combo chains\n* Punishing recovery windows\n* Difficult positioning requirements",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "9.5/10",
+    },
+    {
+      level: 3,
+      heading: "Biggest Challenge",
+      content:
+        "Players often underestimate stamina management.\n\nDodging correctly matters more than maximizing damage.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content:
+        "* Prioritize medium roll mobility\n* Maintain stamina reserves\n* Avoid panic rolling\n* Focus on consistency instead of greed",
+    },
+    {
+      level: 2,
+      heading: "🥉 #3 Gladius, Beast of Night",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Why Gladius Is So Dangerous",
+      content:
+        "Gladius punishes solo players harder than almost any other Nightlord.\n\nThe encounter combines:\n\n* High mobility\n* Fast attack sequences\n* Difficult targeting\n* Constant pressure",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "9/10",
+    },
+    {
+      level: 3,
+      heading: "Biggest Challenge",
+      content:
+        "Tracking movement patterns.\n\nMany deaths occur because players lose visual control of the boss during aggressive transitions.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content:
+        "* Stay near medium range\n* Avoid corner positioning\n* Use stagger-focused builds whenever possible",
+    },
+    {
+      level: 2,
+      heading: "#4 Maris, Fathom of Night",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "8.5/10",
+    },
+    {
+      level: 3,
+      heading: "Why It Is Difficult",
+      content:
+        "Maris focuses on area control and battlefield management.\n\nThe encounter becomes dangerous when players lose positioning discipline.",
+    },
+    {
+      level: 3,
+      heading: "Common Mistakes",
+      content:
+        "* Fighting inside hazardous zones\n* Ignoring environmental pressure\n* Chasing damage opportunities",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content: "Patience wins this fight.\n\nControl positioning first and damage second.",
+    },
+    {
+      level: 2,
+      heading: "#5 Caligo, Miasma of Night",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "8/10",
+    },
+    {
+      level: 3,
+      heading: "Why Players Struggle",
+      content:
+        "Caligo introduces persistent pressure through battlefield hazards.\n\nMany players focus entirely on the boss and ignore the environment.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content:
+        "* Prioritize mobility\n* Maintain situational awareness\n* Save defensive tools for dangerous phases",
+    },
+    {
+      level: 2,
+      heading: "#6 Gnoster, Wisdom of Night",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "7.5/10",
+    },
+    {
+      level: 3,
+      heading: "Strengths",
+      content:
+        "Gnoster relies heavily on mechanics and positioning.\n\nThe fight becomes manageable once patterns are learned.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content: "Focus on consistency.\n\nMost deaths result from impatience rather than difficulty.",
+    },
+    {
+      level: 2,
+      heading: "#7 Heolstor, Nightlord",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "7/10",
+    },
+    {
+      level: 3,
+      heading: "Why It Ranks Lower",
+      content:
+        "While intimidating initially, Heolstor becomes much easier once players understand attack timings.\n\nThe boss rewards observation and disciplined movement.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content: "Learn the rhythm.\n\nThe encounter becomes significantly easier after several attempts.",
+    },
+    {
+      level: 2,
+      heading: "#8 Sentient Pest, Nightlord Variant",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "6.5/10",
+    },
+    {
+      level: 3,
+      heading: "Why It Is Easier",
+      content:
+        "The mechanics are relatively straightforward compared to higher-ranked Nightlords.\n\nMost builds can handle the encounter without major adjustments.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content: "Maintain pressure and avoid unnecessary risks.",
+    },
+    {
+      level: 2,
+      heading: "#9 Adel, Baron of Night",
+      content: "",
+    },
+    {
+      level: 3,
+      heading: "Difficulty Rating",
+      content: "5/10",
+    },
+    {
+      level: 3,
+      heading: "Why It Is the Easiest Nightlord",
+      content:
+        "Adel serves as an excellent introduction to Nightlord mechanics.\n\nThe fight is forgiving and allows players to learn expedition fundamentals.",
+    },
+    {
+      level: 3,
+      heading: "Recommended Strategy",
+      content: "Focus on learning mechanics rather than maximizing damage.",
+    },
+    {
+      level: 2,
+      heading: "Which Nightlord Is Hardest for Solo Players?",
+      content:
+        "### Winner: Gladius\n\nReasons:\n\n* Extreme mobility\n* High pressure\n* Limited recovery windows\n* Difficult tracking\n\nSolo players often struggle to maintain control throughout the encounter.",
+    },
+    {
+      level: 2,
+      heading: "Which Nightlord Is Hardest for Teams?",
+      content:
+        "### Winner: Libra\n\nReasons:\n\n* Team-wide pressure\n* Punishing mistakes\n* Complex positioning requirements\n* Difficult phase transitions\n\nEven experienced groups frequently wipe during later stages.",
+    },
+    {
+      level: 2,
+      heading: "Best Builds for Nightlord Bosses",
+      content:
+        "### Wylder Strength Build\n\nBest for:\n\n* Survivability\n* Stagger damage\n* Solo progression\n\n---\n\n### Duchess Critical Build\n\nBest for:\n\n* Burst windows\n* Team damage\n* Fast boss clears\n\n---\n\n### Recluse Sorcery Build\n\nBest for:\n\n* Safe ranged damage\n* Consistent pressure\n* Learning encounters",
+    },
+    {
+      level: 2,
+      heading: "Most Common Nightlord Mistakes",
+      content:
+        "### Mistake #1\n\nPrioritizing damage over survival.\n\n---\n\n### Mistake #2\n\nIgnoring relic synergy.\n\n---\n\n### Mistake #3\n\nUsing the same strategy for every boss.\n\n---\n\n### Mistake #4\n\nOvercommitting during safe phases.",
+    },
+    {
+      level: 2,
+      heading: "How to Prepare for Endgame Nightlords",
+      content:
+        "Before challenging the hardest bosses, ensure you have:\n\n* Optimized relic setup\n* Build specialization\n* Strong weapon scaling\n* Team coordination plan\n* Expedition experience\n\nPreparation matters more than raw player level.",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content:
+        "Continue your Nightreign progression with:\n\n* Nightreign Best Builds Guide\n* Nightreign Classes Explained\n* Nightreign Best Weapons Guide\n* Nightreign Weapon Tier List\n* Nightreign Relics Guide\n* Nightreign Progression Guide\n* Nightreign Beginner Guide",
+    },
+    {
+      level: 2,
+      heading: "Final Verdict",
+      content:
+        "The hardest Nightlord in Elden Ring Nightreign remains Libra due to its combination of unpredictable mechanics, devastating attacks, and heavy coordination requirements.\n\nHowever, every Nightlord presents unique challenges.\n\nPlayers who focus on build optimization, relic synergy, and encounter-specific strategies will consistently outperform players who rely solely on mechanical skill.\n\nMaster the Nightlords, and you master Nightreign itself.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/nightreign/builds/nightreign-best-builds-guide", anchorText: "Nightreign Best Builds Guide" },
+    { href: "/elden-ring/nightreign/builds/nightreign-classes-explained", anchorText: "Nightreign Classes Explained" },
+    { href: "/elden-ring/nightreign/weapons/nightreign-best-weapons-guide", anchorText: "Nightreign Best Weapons Guide" },
+    { href: "/elden-ring/nightreign/weapons/nightreign-weapon-tier-list", anchorText: "Nightreign Weapon Tier List" },
+    { href: "/elden-ring/nightreign/bosses/nightreign-progression-guide", anchorText: "Nightreign Progression Guide" },
+  ],
+  keyTakeaways: [
+    { label: "👑 Hardest Boss", value: "Libra (10/10) — unpredictable patterns, team coordination critical" },
+    { label: "⚔️ Most Aggressive", value: "Fulghor (9.5/10) — relentless pressure, stamina management key" },
+    { label: "🐺 Toughest Solo", value: "Gladius (9/10) — extreme mobility, punishing for solo players" },
+    { label: "🔥 Easiest", value: "Adel (5/10) — forgiving, great for learning mechanics" },
+    { label: "👥 Best Team Comp", value: "Wylder (stagger) + Duchess (burst) + Recluse (ranged)" },
+    { label: "❌ #1 Mistake", value: "Prioritizing damage over survival — dead players deal 0 DPS" },
+  ],
+};
+
+
+const nightreignArticles: Article[] = [bestNightreignBuilds, nightreignBossesGuide];
 
 export default nightreignArticles;
