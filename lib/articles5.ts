@@ -2,6 +2,14 @@ import type { Article } from "./articles";
 
 // ═══ ELDEN RING — WALKTHROUGHS ═══
 const article52: Article = {
+  keyTakeaways: [
+    { label: "🎯 Best For New Players", value: "Vagabond — best starting HP, best shield, flexible into most builds" },
+    { label: "🎯 Best For Mages", value: "Astrologer (pure INT), Prisoner (INT/DEX spellblade)" },
+    { label: "🎯 Best For Melee", value: "Hero (pure STR), Samurai (DEX bleed), Confessor (STR/FAI)" },
+    { label: "💡 Core Truth", value: "Optimal class = minimize wasted stats, not maximize starting stats" },
+    { label: "📊 PvP Meta", value: "Samurai is most versatile for RL 125-150 — efficient stat distribution" },
+    { label: "⚠️ Common Mistake", value: "Picking for starting gear — 3-8 wasted points by endgame" },
+  ],
   slug: "best-starting-class-guide",
   category: "walkthroughs",
   gameSlug: "elden-ring",

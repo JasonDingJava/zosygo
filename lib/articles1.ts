@@ -10,6 +10,14 @@ const maleniaArticle: Article = {
   order: 15,
   title: "Why Malenia Heals When She Hits You (2026) \u2013 The Mechanic Most Players Misunderstand",
   metaDescription: "A deep explanation of Malenia\u2019s healing mechanic in Elden Ring. Learn why she heals, how her recovery system works, and the best ways to reduce her sustain.",
+  keyTakeaways: [
+    { label: "\uD83E\uDE78 Healing Trigger", value: "Malenia heals on every hit that connects \u2014 not based on damage dealt" },
+    { label: "\uD83D\uDEE1\uFE0F Blocking Still Heals", value: "Blocking with a shield prevents damage but still triggers her healing" },
+    { label: "\uD83D\uDC7B Summons Can Backfire", value: "Spirit Ashes give Malenia more targets \u2014 more hits = more healing" },
+    { label: "\uD83C\uDFAF Best Strategy", value: "Prioritize dodging over blocking \u2014 dodging prevents both damage and healing" },
+    { label: "\u26A0\uFE0F Waterfowl Dance Myth", value: "Her healing mechanic often has a bigger impact on long fights than Waterfowl" },
+    { label: "\uD83D\uDCC8 Consistency > Damage", value: "Reducing hits taken is more impactful than increasing damage output" },
+  ],
   sections: [
     {
       heading: "",
@@ -150,6 +158,14 @@ const maleniaArticle: Article = {
 };
 
 const buildFeelsWeakArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Mistake #1", value: "Vigor too low — Vigor 60 > INT 80 in practical fights" },
+    { label: "📊 Mistake #2", value: "Chasing damage soft caps too early — 70 vs 80 is often <5% gain" },
+    { label: "⚔️ Mistake #3", value: "Weapon under-upgraded — weapon upgrades > character levels" },
+    { label: "🧩 Mistake #4", value: "No build identity — splitting stats 4 ways always underperforms" },
+    { label: "📋 Mistake #5", value: "Copying endgame builds too early — mid-game needs different priorities" },
+    { label: "💡 Core Truth", value: "A properly optimized Lv 100 beats a poorly optimized Lv 150" },
+  ],
   slug: "why-your-build-feels-weak",
   category: "builds",
   gameSlug: "elden-ring",
@@ -302,6 +318,14 @@ const buildFeelsWeakArticle: Article = {
 };
 
 const softCapsV2Article: Article = {
+  keyTakeaways: [
+    { label: "🎯 Vigor Soft Cap", value: "40 (first cap) → 60 (hard cap) — never go above 60" },
+    { label: "⚔️ STR/DEX Soft Cap", value: "55 (first cap) → 80 (second cap) — 55-60 is best efficiency" },
+    { label: "🔮 INT/FAI Soft Cap", value: "60 (first cap) → 80 (second cap) — 60 is optimal for most builds" },
+    { label: "🩸 ARC Soft Cap", value: "45 (bleed buildup cap) — past 45, <2 bleed per level" },
+    { label: "💡 Key Insight", value: "Optimized Lv 100 > poorly optimized Lv 150 — efficiency matters" },
+    { label: "📊 Stat Value Rule", value: "Before soft cap: strong returns. After: diminishing — invest elsewhere" },
+  ],
   slug: "soft-caps-explained-2026",
   category: "builds",
   gameSlug: "elden-ring",
@@ -599,6 +623,14 @@ const softCapsV2Article: Article = {
 };
 
 const article17: Article = {
+  keyTakeaways: [
+    { label: "⚔️ Rule #1", value: "Weapon upgrades matter more than character levels — +25 > +10 STR" },
+    { label: "📉 Rule #2", value: "Scaling is not linear — early levels strong, late levels weak (diminishing)" },
+    { label: "🎯 Rule #3", value: "Scaling efficiency varies by weapon type — match weapon to your stat" },
+    { label: "💡 Key Insight", value: "A +25 weapon with mediocre stats beats a +0 with perfect stats" },
+    { label: "📊 Soft Cap Reality", value: "Lv 80 feels strong, Lv 150+ damage plateaus — optimization > grinding" },
+    { label: "🛠️ Fix", value: "Upgrade weapon first, THEN optimize stats — not the reverse" },
+  ],
   slug: "elden-ring-damage-scaling-explained",
   category: "builds",
   gameSlug: "elden-ring",
@@ -728,6 +760,14 @@ const article17: Article = {
 };
 
 const article18: Article = {
+  keyTakeaways: [
+    { label: "🎯 Quick Answer", value: "Low damage = weak weapon upgrade + past soft caps + wrong talisman synergy" },
+    { label: "⚔️ Fix #1", value: "Upgrade your weapon fully — weapon levels > character levels" },
+    { label: "📊 Fix #2", value: "Check soft caps — Vigor 60, STR/DEX 55-60, INT/FAI 60, ARC 45" },
+    { label: "🛡️ Fix #3", value: "Use multiplicative buffs — talismans + physick + armor sets stack" },
+    { label: "🎮 Fix #4", value: "Match weapon affinity to your stat — Heavy for STR, Keen for DEX" },
+    { label: "💡 Core Rule", value: "Problem is rarely your level — it's almost always build efficiency" },
+  ],
   slug: "elden-ring-low-damage-explained",
   category: "builds",
   gameSlug: "elden-ring",
@@ -857,6 +897,14 @@ const article18: Article = {
 };
 
 const article19: Article = {
+  keyTakeaways: [
+    { label: "🎯 Mistake #1", value: "Under-upgraded weapon — weapon level > character level for damage" },
+    { label: "📊 Mistake #2", value: "Stats past soft caps — wasted levels that don't improve DPS" },
+    { label: "🩸 Mistake #3", value: "Low Vigor — dead players deal 0 damage (target 55-60)" },
+    { label: "⚔️ Mistake #4", value: "No build identity — hybrid builds with 4 stats spread always underperform" },
+    { label: "🛡️ Mistake #5", value: "Wrong weapon affinity — Heavy for STR, Keen for DEX, Magic for INT" },
+    { label: "💡 Core Rule", value: "Build structure matters more than level — 10 fixes in article" },
+  ],
   slug: "elden-ring-build-mistakes",
   category: "builds",
   gameSlug: "elden-ring",
@@ -1005,6 +1053,14 @@ const article19: Article = {
 };
 
 const article20: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 120-150, Vigor 55-60, +25/+10 weapon, 12+ flasks" },
+    { label: "⚔️ Best Weapons", value: "Bleed or Frost — Rivers of Blood, Hand of Malenia, Frost Pots" },
+    { label: "🛡️ Best Spirit Ash", value: "Mimic Tear +10 or Black Knife Tiche +10" },
+    { label: "💡 Core Strategy", value: "Medium distance, never panic roll backward, save stamina for Waterfowl" },
+    { label: "⚠️ Key Warning", value: "She heals on hit (even blocked) — don't trade hits, dodge instead" },
+    { label: "🎮 Punish Rule", value: "One jump attack or weapon skill per combo — greed is #1 death cause" },
+  ],
   slug: "how-to-beat-malenia",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -1177,6 +1233,14 @@ const article20: Article = {
 
 
 const article21: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 60-80, Vigor 30+, weapon +12 to +18, 8+ flasks" },
+    { label: "⚔️ Key Strategy", value: "Summon ALL NPCs, stay mounted, re-summon when they die" },
+    { label: "🩸 Best Damage Type", value: "Scarlet Rot (best), Bleed — Rot makes Phase 2 much shorter" },
+    { label: "💡 Phase 1", value: "Stay on Torrent, hit-and-run, let NPCs tank" },
+    { label: "💡 Phase 2", value: "Don't fight directly — run, dodge meteor, let NPCs rebuild" },
+    { label: "⚠️ Key Warning", value: "Treat it as a battlefield, not a duel — re-summon is the core mechanic" },
+  ],
   slug: "how-to-beat-starscourge-radahn",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -1372,6 +1436,14 @@ const article21: Article = {
 };
 
 const article22: Article = {
+  keyTakeaways: [
+    { label: "🎯 Must-Have Item", value: "Purifying Crystal Tear — nullifies Nihil's damage" },
+    { label: "⚔️ Best Damage", value: "Bleed or Frost — Mohg is weak to both (ironically)" },
+    { label: "🛡️ Recommended", value: "Level 80-100, Vigor 40+, weapon +15/+18" },
+    { label: "💡 Phase 1", value: "Stay close, dodge through bloodflame, punish after spear thrust" },
+    { label: "💡 Phase 2", value: "Stay close (don't create distance), avoid bloodflame pools on ground" },
+    { label: "⚠️ Common Mistake", value: "Forgetting Purifying Tear, panic rolling through bloodflame" },
+  ],
   slug: "how-to-beat-mohg-lord-of-blood",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -1598,6 +1670,14 @@ const article22: Article = {
 
 
 const article23: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 100-130, Vigor 50+, weapon +20/+24" },
+    { label: "⚔️ Key Item", value: "Blasphemous Claw — parries Destined Death attacks in Phase 2" },
+    { label: "💡 Phase 1 (Beast Clergyman)", value: "Stay close, dodge left on his melee combos, punish after charge" },
+    { label: "💡 Phase 2 (Maliketh)", value: "Counterintuitive — stay CLOSE, not far. Roll INTO attacks" },
+    { label: "⚠️ Destined Death", value: "Reduces max HP by 50% — use Blasphemous Claw to counter" },
+    { label: "🛡️ Best Strategy", value: "Use pillars for positioning, be aggressive, avoid creating distance" },
+  ],
   slug: "how-to-beat-maliketh-black-blade",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -1878,6 +1958,14 @@ const article23: Article = {
 
 
 const article24: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 130-150 (DLC boss), Vigor 55+, weapon fully upgraded" },
+    { label: "⚔️ Best Damage", value: "Frost or Bleed — fire-resistant, don't use fire weapons" },
+    { label: "💡 Phase 1 (Human)", value: "Stay close to limit fire projectiles, punish after flame dash" },
+    { label: "🐍 Phase 2 (Serpent)", value: "Watch for large AoE fire attacks, extended hitboxes" },
+    { label: "⚠️ Key Warning", value: "Never heal in open space — wait for punish windows" },
+    { label: "🎮 Best Builds", value: "Frost builds and high-damage-per-hit weapons work best" },
+  ],
   slug: "how-to-beat-messmer-the-impaler",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -2000,6 +2088,14 @@ const article24: Article = {
 };
 
 const article25: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 120-140, Vigor 50-60, Bleed or Frost weapons" },
+    { label: "⚔️ Phase 1 (Godfrey)", value: "Stay near him, jump over stomps instead of rolling" },
+    { label: "🦍 Phase 2 (Hoarah Loux)", value: "No panic rolling — watch for grab animations, punish after stomps" },
+    { label: "💡 Core Strategy", value: "Positioning > damage — tests core combat mechanics, not gimmicks" },
+    { label: "🛡️ Best Spirit Ash", value: "Mimic Tear or Black Knife Tiche — Godfrey's large hitbox helps" },
+    { label: "⚠️ Common Mistake", value: "Treating Hoarah Loux like a normal boss — he's a grappler, not a knight" },
+  ],
   slug: "how-to-beat-godfrey",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -2132,6 +2228,14 @@ const article25: Article = {
 
 
 const article26: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Problem", value: "You're dodging too EARLY — Morgott delays attacks to punish reflex rolls" },
+    { label: "💡 Key Insight", value: "Morgott is a timing check, not a damage check" },
+    { label: "🎮 How to Beat", value: "Watch the weapon, not the wind-up. Wait, then roll at the last moment" },
+    { label: "⚠️ Why He's Hard", value: "Breaks muscle memory from earlier bosses — designed to punish habits" },
+    { label: "🛡️ Recommended", value: "Level 80-100, Vigor 35+, weapon +15/+18" },
+    { label: "📊 Stat Check", value: "Delayed attacks + roll catching + combo extensions = death for impatient" },
+  ],
   slug: "why-morgott-feels-so-hard",
   category: "bosses",
   gameSlug: "elden-ring",

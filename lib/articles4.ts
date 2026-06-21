@@ -2,6 +2,14 @@ import type { Article } from "./articles";
 
 // ═══ ELDEN RING — WALKTHROUGHS ═══
 const article47: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 60-80, weapon +12 to +18, Vigor 35-40" },
+    { label: "🗺️ Two Access Routes", value: "Grand Lift of Dectus (medallion halves) or Ruin-Strewn Precipice (cave)" },
+    { label: "🎯 First Thing", value: "Get Altus Plateau map fragment from the Highway Lookout Tower" },
+    { label: "🔥 Volcano Manor", value: "Join immediately for Rya's quest + access to Rykard" },
+    { label: "🛡️ Key Rewards", value: "Sacred Relic Sword (Elden Beast), Legendary Talismans, Smithing Stone 7-8" },
+    { label: "⚠️ Common Mistake", value: "Rushing Leyndell without clearing Altus content first" },
+  ],
   slug: "altus-plateau-walkthrough",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -204,6 +212,14 @@ const article47: Article = {
 };
 
 const article48: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 100-120, weapon +20 to +24, Vigor 40-60" },
+    { label: "🗺️ First Steps", value: "Get map fragments, explore Castle Sol (Haligtree Medallion half)" },
+    { label: "🔥 Fire Giant Prep", value: "Bleed/Frost weapons, stay on Torrent, attack the injured leg" },
+    { label: "🛡️ Key Rewards", value: "Ancient Dragon Smithing Stone, Haligtree Medallion, Legendary Armaments" },
+    { label: "💡 Optional Content", value: "Consecrated Snowfield + Haligtree (Malenia) — hardest optional zone" },
+    { label: "⚠️ Difficulty Spike", value: "Enemy health doubles — upgrade weapons before exploring" },
+  ],
   slug: "mountaintops-of-the-giants-walkthrough",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -406,6 +422,14 @@ const article48: Article = {
 };
 
 const article49: Article = {
+  keyTakeaways: [
+    { label: "🎯 Requirements", value: "Level 125-175, weapon +24/+10, Vigor 50-60, Starscourge Radahn + Mohg dead" },
+    { label: "💡 Core Truth", value: "Scadutree Blessings > character level — DLC has its own progression system" },
+    { label: "🗺️ First Priority", value: "Collect early Scadutree Fragments in Gravesite Plain BEFORE Castle Ensis" },
+    { label: "🎯 Best Route", value: "Gravesite Plain → Castle Ensis → Scadu Altus → Shadow Keep → Rauh" },
+    { label: "🛡️ Key System", value: "Scadutree Blessing = +attack +defense per level, Revered Spirit Ash for summons" },
+    { label: "⚠️ Common Mistake", value: "Rushing bosses at low blessing level — exploration is the real progression" },
+  ],
   slug: "shadow-of-the-erdtree-dlc-route",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -602,6 +626,14 @@ const article49: Article = {
 };
 
 const article50: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Mechanic", value: "Bleed = hemorrhage burst that deals % max HP damage + ignores defense" },
+    { label: "⚔️ How It Works", value: "Each hit builds bleed meter → when full, triggers % HP burst + meter resets" },
+    { label: "📊 Why It's Strong", value: "Scales with enemy HP — stronger enemies = more bleed value" },
+    { label: "🛡️ Best Weapons", value: "Rivers of Blood, Eleonora's Poleblade, Blood Nagakiba, Reduvia" },
+    { label: "💡 Best Arcane Breakpoint", value: "ARC 45 (max bleed buildup), then invest in DEX or VIG" },
+    { label: "⚠️ Weakness", value: "Bleed-resistant enemies (DLC bosses, undead, skeletons) — need backup" },
+  ],
   slug: "bleed-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -865,6 +897,14 @@ const article50: Article = {
 };
 
 const article51: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core System", value: "Status effects build hidden meter → triggers effect → resets and repeats" },
+    { label: "🩸 Bleed", value: "% HP burst — strongest vs high-HP bosses, scales with attack speed" },
+    { label: "❄️ Frost", value: "-20% defense debuff + burst damage — +crit damage with Frozen Armament" },
+    { label: "⚠️ Scarlet Rot", value: "% HP DoT — best for large/slow bosses, Ekzykes Decay is instant proc" },
+    { label: "📊 Other Statuses", value: "Poison (DoT), Sleep (trivializes Godskin), Madness (PvP), Death Blight (PvP)" },
+    { label: "💡 Key Rule", value: "Status effects scale with hit frequency, not single attack power" },
+  ],
   slug: "status-effects-explained",
   category: "weapons",
   gameSlug: "elden-ring",

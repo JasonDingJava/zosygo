@@ -2,6 +2,14 @@ import type { Article } from "./articles";
 
 // ═══ ELDEN RING — BOSSES (Fire Giant) ═══
 const article27: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 100-120, Vigor 45-60, Bleed/Frost weapons" },
+    { label: "⚔️ Phase 1 Strategy", value: "Attack the injured LEFT leg — it's the weak spot" },
+    { label: "⚔️ Phase 2 Strategy", value: "Attack his HANDS — stay behind him during fire attacks" },
+    { label: "🛡️ Core Rule", value: "Stay mounted on Torrent whenever possible" },
+    { label: "💡 Key Insight", value: "Fire Giant is not hard because of damage — it's hard because of camera" },
+    { label: "⚠️ Common Mistake", value: "Chasing damage instead of positioning — survival > DPS" },
+  ],
   slug: "how-to-beat-fire-giant",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -144,6 +152,14 @@ const article27: Article = {
 };
 
 const article28: Article = {
+  keyTakeaways: [
+    { label: "💡 Core Truth", value: "Rennala is a mechanic puzzle disguised as a boss — direct damage is NOT the answer" },
+    { label: "🎯 Phase 1", value: "Find the glowing student (gold aura) — kill it to break Rennala's shield" },
+    { label: "⚔️ Phase 1 Punish", value: "3-4 hits on Rennala after shield breaks before barrier reforms" },
+    { label: "🎯 Phase 2", value: "Summon spirits are the real threat — kill them first, then focus Rennala" },
+    { label: "🛡️ Best Strategy", value: "Aggressive melee in Phase 2 — she has low poise and staggers easily" },
+    { label: "⚠️ Common Mistake", value: "Chasing Rennala during Phase 2 while spirits attack — kill adds first" },
+  ],
   slug: "rennala-explained-hidden-mechanics",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -256,6 +272,14 @@ const article28: Article = {
 };
 
 const article29: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Rule", value: "Pick up the Serpent-Hunter spear — don't try to use your normal weapon" },
+    { label: "⚔️ Best Strategy", value: "Charge heavy attacks (not light spam) — stay at medium range" },
+    { label: "💡 Why It Works", value: "Rykard is a gimmick weapon fight, not a standard boss" },
+    { label: "🛡️ Phase 1", value: "Serpent phase — charged heavies stagger easily, focus the snake head" },
+    { label: "🔥 Phase 2", value: "Avoid lava pressure zones, weapon skill has super armor for trading" },
+    { label: "🎯 Recommended", value: "Level 70-90, Serpent-Hunter +7 or higher" },
+  ],
   slug: "rykard-lord-of-blasphemy-explained",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -380,6 +404,14 @@ const article29: Article = {
 };
 
 const article30: Article = {
+  keyTakeaways: [
+    { label: "🎯 Best Weapon", value: "One of the strongest early-game weapons — stays viable into late game" },
+    { label: "⚔️ Why It's Strong", value: "High base damage + built-in mobility + bleed pressure" },
+    { label: "💡 Weapon Skill", value: "Bloodhound's Finesse — major damage + backstep dodge, follow-up attack hits hard" },
+    { label: "📊 Scaling", value: "Quality (STR/DEX C/C), best at +6 to +10, buffable with grease/spells" },
+    { label: "🛡️ Upgrade Path", value: "Use Somber Smithing Stones — much cheaper than regular upgrade" },
+    { label: "🎯 Best For", value: "Quality builds, early-game progression, bleed hybrid setups" },
+  ],
   slug: "bloodhounds-fang-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -504,6 +536,14 @@ const article30: Article = {
 };
 
 const article31: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Best", value: "Best PvE survival weapon — heals on kill + on skill hit" },
+    { label: "⚔️ Weapon Skill (Taker's Flames)", value: "Fire wave AOE — massive damage + HP recovery per enemy hit" },
+    { label: "📊 Best Build", value: "FAI/STR hybrid — Faith 45-60, STR 30-40" },
+    { label: "🛡️ Healing System", value: "4% HP per kill + skill hit heals — reduces flask dependency" },
+    { label: "💡 Best For", value: "Boss fights, exploration, DLC — sustained healing through damage" },
+    { label: "🎯 Upgrade", value: "Somber Smithing Stones, buffable with Flame Grant Me Strength" },
+  ],
   slug: "blasphemous-blade-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -641,6 +681,14 @@ const article31: Article = {
 };
 
 const article32: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's OP", value: "Bleed system accelerator — Corpse Piler stacks bleed in 2-3 hits" },
+    { label: "⚔️ Weapon Skill (Corpse Piler)", value: "Multi-hit ranged slash — procs bleed faster than any other weapon" },
+    { label: "📊 Best Build", value: "Arcane 45-60, Dexterity 40-50, Vigor 60" },
+    { label: "🛡️ Key Talisman", value: "Lord of Blood's Exultation (+20% attack on bleed proc) — mandatory" },
+    { label: "💡 Best For", value: "Boss melting, PvP aggression, bleedable enemies" },
+    { label: "⚠️ Weakness", value: "Weak against bleed-resistant enemies (many DLC bosses)" },
+  ],
   slug: "rivers-of-blood-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -778,6 +826,14 @@ const article32: Article = {
 };
 
 const article33: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Strong", value: "Changes how INT builds fight — instant magic burst without casting time" },
+    { label: "⚔️ Weapon Skill (Transient Moonlight)", value: "Fast ranged magic slash — heavy hits for 1,000+ at 60 INT" },
+    { label: "📊 Best Build", value: "INT 60, DEX 25-30, Vigor 55-60 — Samurai or Prisoner start" },
+    { label: "🛡️ Key Talismans", value: "Shard of Alexander, Magic Scorpion Charm, Godfrey Icon" },
+    { label: "💡 Best For", value: "INT builds wanting melee safety + ranged burst" },
+    { label: "⚠️ Weakness", value: "Magic-resistant enemies — use physical backup weapon" },
+  ],
   slug: "moonveil-katana-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -909,6 +965,14 @@ const article33: Article = {
 };
 
 const article34: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Strong", value: "Ranged magic beam + Frostbite on every charged attack" },
+    { label: "⚔️ Weapon Skill (Moonlight Greatsword)", value: "Charged heavy fires beams for 800-1,200 damage at 60 INT" },
+    { label: "📊 Best Build", value: "INT 60-80, STR 30-40, Vigor 60 — Ranni's quest reward" },
+    { label: "🛡️ Frostbite System", value: "Each charged attack builds frost + debuffs enemy defense by 20%" },
+    { label: "💡 Best For", value: "INT greatsword builds, late-game PvE, bosses weak to frost" },
+    { label: "⚠️ Weakness", value: "Slow startup — timing-reliant, less effective against fast bosses" },
+  ],
   slug: "dark-moon-greatsword-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -1046,6 +1110,14 @@ const article34: Article = {
 };
 
 const article35: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Unique", value: "Longest katana reach — range becomes a defensive stat" },
+    { label: "⚔️ Key Advantage", value: "Katana speed + spear-like range + bleed = excellent spacing control" },
+    { label: "📊 Best Build", value: "DEX 50-80, ARC 45 (if bleed), Keen or Occult infusion" },
+    { label: "🛡️ Best Infusions", value: "Keen (pure DEX), Occult (bleed/ARC) — flexible AoW slot" },
+    { label: "💡 Best For", value: "Spacing-focused players, DEX builds, bleed builds" },
+    { label: "⚠️ Weakness", value: "Lower raw damage per hit vs. Uchigatana — range trades for DPS" },
+  ],
   slug: "nagakiba-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -1189,6 +1261,14 @@ const article35: Article = {
 };
 
 const article36: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Best", value: "Foundation of STR builds — highest poise damage per hit" },
+    { label: "⚔️ Core Strategy", value: "Jump attacks are king — stagger most enemies in 2-3 hits" },
+    { label: "📊 Best Build", value: "STR 60-80, END 30-40 (for equip load), Vigor 60" },
+    { label: "🛡️ Best Infusion", value: "Heavy infusion (S scaling at 80 STR) — buffable with grease/spells" },
+    { label: "💡 Best For", value: "Poise breaking, jump attack spam, PvE dominance" },
+    { label: "⚠️ Weakness", value: "Slow attacks — requires good spacing, punished by fast enemies" },
+  ],
   slug: "greatsword-explained",
   category: "weapons",
   gameSlug: "elden-ring",

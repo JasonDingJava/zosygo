@@ -2,6 +2,14 @@ import type { Article } from "./articles";
 
 // ═══ ELDEN RING — WEAPONS (Reduvia Dagger) ═══
 const article37: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Strong", value: "Bleed projectile system — not a melee dagger, ranged bleed pressure" },
+    { label: "⚔️ Weapon Skill (Reduvia Blood Blade)", value: "Fires bleed projectiles — safe ranged pressure + bleed buildup" },
+    { label: "📊 Best Build", value: "ARC 45-60, DEX 20-30, Vigor 50-60" },
+    { label: "🛡️ Best Early Weapon", value: "Obtainable immediately in Limgrave — carries through mid game" },
+    { label: "💡 Best For", value: "Bleed builds, early game, safe ranged poke" },
+    { label: "⚠️ Weakness", value: "Low raw damage, falls off late game vs bosses" },
+  ],
   slug: "reduvia-dagger-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -132,6 +140,14 @@ const article37: Article = {
 };
 
 const article38: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Strong", value: "Multi-hit bleed engine — fastest bleed-triggering weapon in the game" },
+    { label: "⚔️ Weapon Skill (Bloodblade Dance)", value: "Rapid slashes + backflip — burst + mobility in one" },
+    { label: "📊 Best Build", value: "ARC 45-60, DEX 30-40, Vigor 50-60" },
+    { label: "🛡️ Best For", value: "Aggressive bleed stacking, PvE boss melting, PvP pressure" },
+    { label: "💡 Key Talisman", value: "Lord of Blood's Exultation, Shard of Alexander, Millicent's Prosthesis" },
+    { label: "⚠️ Weakness", value: "Animation commitment — punishable if mistimed" },
+  ],
   slug: "eleonoras-poleblade-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -262,6 +278,14 @@ const article38: Article = {
 };
 
 const article39: Article = {
+  keyTakeaways: [
+    { label: "🎯 Why It's Unique", value: "Long-range lightning artillery disguised as a spear" },
+    { label: "⚔️ Weapon Skill (Ancient Lightning Spear)", value: "Charged lightning throw — insane range + burst damage" },
+    { label: "📊 Best Build", value: "DEX 50-60, FAI 25-30, Vigor 55-60" },
+    { label: "🛡️ Best For", value: "Safe ranged burst, PvE boss punish windows, PvP sniping" },
+    { label: "💡 Key Talisman", value: "Godfrey Icon (charged attacks), Shard of Alexander" },
+    { label: "⚠️ Weakness", value: "Charged skill leaves you vulnerable — bad for aggressive fights" },
+  ],
   slug: "bolt-of-gransax-explained",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -392,6 +416,14 @@ const article39: Article = {
 };
 
 const article40: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Definition", value: "Poise = stagger resistance during attack animations, NOT damage reduction" },
+    { label: "⚔️ Hyper Armor", value: "Poise only matters during active attack frames (hyper armor window)" },
+    { label: "📊 Key Numbers", value: "51 poise = light weapon trades, 61 = medium, 100+ = colossal trades" },
+    { label: "🛡️ Best Armor", value: "Bull-Goat set (100 poise), or mix pieces for 51/61 breakpoints" },
+    { label: "💡 Bull-Goat Talisman", value: "+33% poise — enables breakpoints with lighter armor" },
+    { label: "⚠️ Common Myth", value: "Poise does NOT reduce damage — only prevents stagger" },
+  ],
   slug: "poise-explained",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -510,6 +542,14 @@ const article40: Article = {
 };
 
 const article41: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Definition", value: "Stance break = fill hidden posture bar → boss staggers → crit window" },
+    { label: "⚔️ Best Posture Damage", value: "Jump attacks > charged heavies > heavy attacks > light attacks" },
+    { label: "📊 Weapon Ranking", value: "Colossal > Greatsword > Hammer > Straight Sword > Katana" },
+    { label: "🛡️ Cragblade AoW", value: "+15% posture damage for 40 seconds — best buff for stance breaking" },
+    { label: "💡 Key Insight", value: "Stance break is cumulative — doesn't reset between breaks per enemy" },
+    { label: "🎯 Best For", value: "STR builds, colossal weapons, charged heavy spam builds" },
+  ],
   slug: "stance-break-explained",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -646,6 +686,14 @@ const article41: Article = {
 };
 
 const article42: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Truth", value: "S scaling doesn't guarantee max damage — base AR + scaling grade = real damage" },
+    { label: "📊 Scaling Grade Impact", value: "S=140% multiplier, A=100%, B=75%, C=60%, D=45%, E=25%" },
+    { label: "⚔️ Infusion Guide", value: "Heavy=STR, Keen=DEX, Magic/Int=INT, Sacred/Flame=FAI, Occult=ARC" },
+    { label: "💡 Soft Cap Rule", value: "Never invest past 80 in any damage stat — diminishing returns hard" },
+    { label: "🔧 Split Damage", value: "Weapons with split damage types (physical+elemental) go through 2 defenses" },
+    { label: "📈 Key Insight", value: "A Lv100 optimized build beats Lv150 wasted stat spread every time" },
+  ],
   slug: "weapon-scaling-guide",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -873,6 +921,14 @@ const article42: Article = {
 };
 
 const article43: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Truth", value: "AoW adds weapon skill + changes affinity/scaling — transforms weapon identity" },
+    { label: "⚔️ Best AoW for STR", value: "Cragblade (+posture damage), Lion's Claw (stagger), Giant Hunt (range)" },
+    { label: "⚔️ Best AoW for DEX", value: "Unsheathe (burst), Bloodhound Step (mobility), Sword Dance (pressure)" },
+    { label: "🔮 Best AoW for INT", value: "Chilling Mist (frost), Carian Grandeur (magic burst)" },
+    { label: "🛡️ Best AoW for ARC", value: "Seppuku (bleed buff), Blood Blade (ranged bleed)" },
+    { label: "📊 Key Rule", value: "Your weapon matters. Your Ash of War often matters MORE" },
+  ],
   slug: "ashes-of-war-guide",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -1159,6 +1215,14 @@ const article43: Article = {
 };
 
 const article44: Article = {
+  keyTakeaways: [
+    { label: "🎯 Early Game", value: "Trolls in Limgrave (1K/troll), Caelid Beast Sanctum (1K/knight)" },
+    { label: "🎯 Mid Game", value: "Windmill Village (30K/hr), Leyndell soldiers (50K/hr)" },
+    { label: "🎯 Late Game (Best)", value: "Mohgwyn Palace Albinaurics — 100K-1M+/hr with Sacred Relic Sword" },
+    { label: "🛡️ Golden Scarab", value: "+20% runes — equip BEFORE farming, Abandoned Cave" },
+    { label: "💡 Best Weapon", value: "Sacred Relic Sword weapon skill (Wave of Gold) — fastest farm clear" },
+    { label: "📊 Optimization", value: "Use Gold-Pickled Fowl Foot (+30%) + Golden Scarab (+20%) = +50% total" },
+  ],
   slug: "rune-farming-guide",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -1403,6 +1467,14 @@ const article44: Article = {
 };
 
 const article45: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 25-35 before Margit, Vigor 20+, weapon +3 to +5" },
+    { label: "🗺️ Step 1", value: "Go SOUTH to Weeping Peninsula first, NOT north toward Stormveil" },
+    { label: "🛡️ Priority Order", value: "Flask charges > weapon upgrades > Vigor > damage stats" },
+    { label: "💡 Best Early Weapon", value: "Bloodhound's Fang, Uchigatana, or Reduvia — all viable through late game" },
+    { label: "⚠️ Biggest Mistake", value: "Fighting Tree Sentinel or Margit without preparation" },
+    { label: "📊 Milestones", value: "6-8 Flask charges, 2-4 Sacred Tears, 3-4 Golden Seeds before Stormveil" },
+  ],
   slug: "best-early-game-route",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -1629,6 +1701,14 @@ const article45: Article = {
 };
 
 const article46: Article = {
+  keyTakeaways: [
+    { label: "🎯 Recommended", value: "Level 35-50, weapon +5 to +8, Vigor 20-30, Flask 6-8" },
+    { label: "🗺️ First Thing", value: "Get the Academy Gate Key from the dragon by Temple Quarter" },
+    { label: "🎓 Raya Lucaria", value: "Best done mid-Liurnia — explore the lake and Caria Manor first" },
+    { label: "💡 Key Rewards", value: "Respec access (Rennala), Moonveil Katana (Gael Tunnel), Sorcery vendors" },
+    { label: "🛡️ Best Side Content", value: "Caria Manor (Royal Greatsword, Loretta), Carian Study Hall (Godskin Noble)" },
+    { label: "⚠️ Common Mistake", value: "Rushing Raya Lucaria without exploring south Liurnia first" },
+  ],
   slug: "liurnia-walkthrough",
   category: "walkthroughs",
   gameSlug: "elden-ring",
@@ -1844,6 +1924,14 @@ const article46: Article = {
 
 
 const article47: Article = {
+  keyTakeaways: [
+    { label: "🎯 Total Cost", value: "~6.8-7 million runes from starting class to Level 150" },
+    { label: "📊 Key Milestones", value: "Lv 100 = ~2M, Lv 125 = ~4.5M, Lv 150 = ~6.8M" },
+    { label: "💡 From Lv 100 to 150", value: "~4.8M runes — biggest farming gap" },
+    { label: "🎯 Why Lv 150", value: "Best for PvE, DLC, and build flexibility — hit soft caps comfortably" },
+    { label: "⚔️ Lv 125 vs 150", value: "125 = PvP duels (specialized), 150 = PvE/DLC (versatile)" },
+    { label: "📈 Fastest Farm", value: "Mohgwyn Palace Albinaurics — ~1M/hr with Sacred Relic Sword" },
+  ],
   slug: "how-many-runes-to-reach-level-150",
   category: "walkthroughs",
   gameSlug: "elden-ring",

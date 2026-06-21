@@ -47,12 +47,21 @@ export interface Article extends ArticleBase {
   metaDescription: string;
   sections: ArticleSection[];
   internalLinks: InternalLink[];
+  keyTakeaways?: { label: string; value: string }[];
 }
 
 export const articles: Article[] = [
   ...articles4Articles,
   // ═══ ELDEN RING — BUILDS ═══
   {
+    keyTakeaways: [
+      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 55–60, Mind 20–25, Endurance 20, Dexterity 50, Intelligence 60" },
+      { label: "⚔️ Weapon Skill", value: "Transient Moonlight — horizontal (L2+R1) for groups, vertical (L2+R2) for stagger" },
+      { label: "📊 Int Scaling", value: "40=Excellent, 50=Excellent, 60=Strong, 70=Good, 80=Diminishing" },
+      { label: "🛡️ Best Starting Class", value: "Samurai — saves levels on Dexterity for Intelligence" },
+      { label: "💡 Key Insight", value: "Push Vigor 55–60 before chasing Int 80 — survivability matters more" },
+      { label: "🎮 Best Talismans", value: "Magic Scorpion, Shard of Alexander, Graven-Mass, Dragoncrest Greatshield" },
+    ],
     slug: "moonveil-intelligence-build",
     category: "builds",
     gameSlug: "elden-ring",
@@ -228,6 +237,14 @@ export const articles: Article[] = [
     ]
   },
 {
+  keyTakeaways: [
+    { label: "🎯 Core Stats (Lv 150)", value: "Vigor 50, Mind 12, Endurance 30, STR 18, DEX 55, ARC 45" },
+    { label: "⚔️ Weapon Setup", value: "RoB+10 (left) + Uchigatana+25 Blood+Seppuku (right) — jump L1 > Corpse Piler" },
+    { label: "💀 Boss Kill Times", value: "Malenia 18s, Mohg 12s — highest burst vs bleedable bosses" },
+    { label: "⚠️ Weakness", value: "20% of bosses immune to bleed (Elden Beast, Radagon, Crystalians)" },
+    { label: "🛡️ Key Talismans", value: "Lord of Blood's Exultation, Shard of Alexander, Claw Talisman" },
+    { label: "📊 Comparison", value: "3500 DPS bleed > 2800 Moonveil > 2400 Bloodhound (vs bleedable)" },
+  ],
   slug: "elden-ring-pure-dex-bleed-build",
   category: "builds",
   gameSlug: "elden-ring",
@@ -265,6 +282,14 @@ export const articles: Article[] = [
     ]
 },
 {
+  keyTakeaways: [
+    { label: "🎯 Recommended Level", value: "35+ with +5 weapon — easier than Margit" },
+    { label: "⚔️ Weaknesses", value: "Strike damage, bleed, lightning — resists holy (40%)" },
+    { label: "🛡️ Phase 1 Key Move", value: "Shockwave stomp — JUMP to avoid, don't roll" },
+    { label: "🐉 Phase 2 Strategy", value: "Stay behind him always — punish after fire breath and bite lunge" },
+    { label: "🎮 Best Summon", value: "Nepheli Loux (sign outside fog gate) — staggers reliably" },
+    { label: "❌ Common Mistake", value: "Standing in front during phase 2 — get behind or sprint through" },
+  ],
   slug: "godrick-the-grafted",
   category: "bosses",
   gameSlug: "elden-ring",
@@ -299,6 +324,14 @@ export const articles: Article[] = [
     ]
 },
 {
+  keyTakeaways: [
+    { label: "⚔️ Corpse Piler Variants", value: "L2+R1 = horizontal slash (groups), L2+R2 = vertical (single target, stagger)" },
+    { label: "🎯 Core Stat", value: "Arcane 45 (hard cap), Dexterity 50, Vigor 55" },
+    { label: "💀 Boss Kill Times", value: "Malenia ~20s, Mohg ~15s — specialist vs bleedable bosses" },
+    { label: "⚠️ Do NOT Use Against", value: "Elden Beast, Radagon, gargoyles, Rennala — bleed immunity" },
+    { label: "🛡️ Key Setup", value: "Lord of Blood's Exultation + White Mask = 32% attack boost on bleed" },
+    { label: "📊 Comparison", value: "RoB > Moonveil vs bleedable, Moonveil > RoB vs immune and in PvP" },
+  ],
   slug: "rivers-of-blood",
   category: "weapons",
   gameSlug: "elden-ring",
@@ -335,6 +368,14 @@ export const articles: Article[] = [
     ]
   },
 {
+  keyTakeaways: [
+    { label: "🎯 Core Stats", value: "Vigor 40 (priority), Dexterity 40–60, Endurance 15–25" },
+    { label: "⚔️ Best Weapon", value: "Bloodhound's Fang — best early-mid game, bleed + mobility skill" },
+    { label: "🛡️ Key Rule", value: "Do NOT over-invest DEX early — Vigor matters more in early game" },
+    { label: "📊 Progression", value: "Level 1-40: Uchigatana. 40-90: Bloodhound's Fang. 90+: Hybrid builds" },
+    { label: "⚡ Strengths", value: "Fast attacks, high DPS, bleed synergy, beginner-friendly" },
+    { label: "⚠️ Weakness", value: "Low poise — punished heavily if hit, needs good dodging" },
+  ],
   slug: "best-dexterity-build",
   category: "builds",
   gameSlug: "elden-ring",
@@ -387,7 +428,15 @@ export const articles: Article[] = [
 },
 
   {
-        slug: "margit-guide",
+        keyTakeaways: [
+      { label: "🎯 Recommended Level", value: "20-30, Vigor 20+, weapon +3/+4, 3-4 flask charges" },
+      { label: "⚠️ Why He's Hard", value: "Variable delay on attacks — punishes panic rolling and over-aggression" },
+      { label: "💡 Key Strategy", value: "Don't roll on reflex — watch the weapon, not the wind-up" },
+      { label: "🦉 Healing Rule", value: "Only heal during his long recovery windows — don't chug after a short combo" },
+      { label: "🩸 Weaknesses", value: "Strike damage, bleed — Sorcerers with Rock Sling have easier time" },
+      { label: "🎮 Best Summon", value: "Sorcerer Rogier (sign before fog gate) or Lone Wolf Ashes" },
+    ],
+    slug: "margit-guide",
     category: "bosses",
     gameSlug: "elden-ring",
     difficulty: "beginner",
@@ -515,6 +564,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Bleed) ═══
   {
+    keyTakeaways: [
+      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 60, Dexterity 50, Arcane 45, STR 18, Faith 15" },
+      { label: "⚔️ Best Weapons", value: "Rivers of Blood (late), Nagakiba (flexible), Uchigatana (early)" },
+      { label: "🩸 How Bleed Works", value: "% max HP damage on proc — Arcane 45 caps buildup speed" },
+      { label: "🎮 Best Starting Class", value: "Samurai — Uchigatana + DEX scaling from the start" },
+      { label: "🛡️ Top Talismans", value: "Lord of Blood's Exultation, Shard of Alexander, Claw" },
+      { label: "⚠️ Weakness", value: "Bleed-immune bosses (Elden Beast, Radagon) — keep backup" },
+    ],
     slug: "best-bleed-build",
     category: "builds",
     gameSlug: "elden-ring",
@@ -615,6 +672,14 @@ export const articles: Article[] = [
     title: "Moonveil Build Elden Ring (2026 Guide) – Best Intelligence Katana Build",
     metaDescription:
       "Complete Moonveil build guide for Elden Ring 2026. Best Intelligence katana build with optimal stats (Lv 150), talismans, armor, and leveling path.",
+    keyTakeaways: [
+      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 55–60, Mind 25, Endurance 20–25, Dex 25, Intelligence 60" },
+      { label: "⚔️ Primary Weapon", value: "Moonveil Katana +10 — Transient Moonlight weapon skill" },
+      { label: "🛡️ Top Talismans", value: "Magic Scorpion Charm, Shard of Alexander, Graven-Mass Talisman" },
+      { label: "🎮 Best Starting Class", value: "Samurai (recommended) or Prisoner (INT-focused)" },
+      { label: "💡 Playstyle", value: "Hybrid melee + ranged magic — Transient Moonlight for burst" },
+      { label: "📊 Early Game Tip", value: "Meteorite Staff for sorcery scaling before upgrading to Carian Regal" },
+    ],
     sections: [
       {
         heading: "",
@@ -841,6 +906,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Intelligence) ═══
   {
+    keyTakeaways: [
+      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 55–60, Mind 25–30, INT 60–80, DEX 18–25" },
+      { label: "⚔️ Best Weapons", value: "Moonveil (hybrid), Carian Regal Scepter (all-around), Lusat's (burst)" },
+      { label: "🎮 Best Starting Class", value: "Prisoner (balanced INT/DEX) or Astrologer (pure mage)" },
+      { label: "⚡ Top Sorceries", value: "Comet Azur (one-shot), Rock Sling (stagger), Night Comet (invisible)" },
+      { label: "🛡️ Key Talismans", value: "Graven-Mass, Magic Scorpion, Radagon Icon, Dragoncrest Greatshield" },
+      { label: "💡 Playstyle", value: "Ranged burst mage with hybrid melee option via Moonveil" },
+    ],
     slug: "best-intelligence-build",
     category: "builds",
     gameSlug: "elden-ring",
@@ -1081,6 +1154,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Bleed Fix) ═══
   {
+    keyTakeaways: [
+      { label: "🎯 Mistake #1", value: "Too much Arcane, not enough Vigor — Vigor 50-60 > Arcane 60" },
+      { label: "📊 Mistake #2", value: "Wrong stat priority — ARC 45 is cap, past that invest in DEX or VIG" },
+      { label: "⚔️ Mistake #3", value: "Wrong weapon scaling — Blood infusion uses ARC, Keen uses DEX" },
+      { label: "🛡️ Mistake #4", value: "Missing Lord of Blood's Exultation — +20% attack on bleed proc" },
+      { label: "💡 Core Truth", value: "Bleed = normal weapon damage + hemorrhage. If base damage is low, you feel weak" },
+      { label: "🩸 Fix", value: "More Vigor = more attack uptime = more bleed procs = more damage" },
+    ],
     slug: "why-your-bleed-build-feels-weak",
     category: "builds",
     gameSlug: "elden-ring",
@@ -1205,6 +1286,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Soft Caps) ═══
   {
+    keyTakeaways: [
+      { label: "🎯 Vigor", value: "60 hard cap — never go past 60, diminishing returns after 40" },
+      { label: "⚔️ STR/DEX", value: "55 first cap (best efficiency), 80 second cap" },
+      { label: "🔮 INT/FAI", value: "60 first cap, 80 second cap — 60 is optimal for most builds" },
+      { label: "🩸 ARC", value: "45 for bleed buildup, 60 for weapon scaling" },
+      { label: "💡 Mind/End", value: "Mind 20-30 (comfortable FP), Endurance 25-35 (equip load + stamina)" },
+      { label: "📊 Key Rule", value: "A well-optimized Lv 120 beats a poorly distributed Lv 150" },
+    ],
     slug: "soft-caps-explained",
     category: "builds",
     gameSlug: "elden-ring",
@@ -1538,6 +1627,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Moonveil vs RoB) ═══
   {
+    keyTakeaways: [
+      { label: "⚔️ Moonveil", value: "Safer, consistent, better PvE — Transient Moonlight has ranged burst" },
+      { label: "🩸 Rivers of Blood", value: "Higher burst, stronger PvP — Corpse Piler shreds bleedable bosses" },
+      { label: "📊 PvE Winner", value: "Moonveil — more versatile against all enemy types" },
+      { label: "⚡ PvP Winner", value: "Rivers of Blood — Corpse Piler pressure is harder to counter" },
+      { label: "🎯 Stat Split", value: "Moonveil: INT 60, DEX 25. RoB: ARC 45, DEX 50" },
+      { label: "💡 Verdict", value: "No single 'best' — depends on playstyle and enemy matchup" },
+    ],
     slug: "moonveil-vs-rivers-of-blood",
     category: "builds",
     gameSlug: "elden-ring",
@@ -1686,6 +1783,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Build Planner) ═══
   {
+    keyTakeaways: [
+      { label: "🎯 What It Does", value: "Simulate character stats before spending runes — avoid wasted levels" },
+      { label: "💡 Key Insight", value: "Most players over-invest in damage — Vigor and synergy matter more" },
+      { label: "📊 Best Use", value: "Test weapon scaling, optimize stat balance, avoid Larval Tear waste" },
+      { label: "⚔️ Planner Steps", value: "Pick weapon → set stat target → check scaling → adjust Vigor first" },
+      { label: "🛡️ Priority Order", value: "Vigor > weapon upgrade > damage stat > endurance > mind" },
+      { label: "🛠️ Best Tool", value: "Use the Zosygo Build Calculator — test before committing" },
+    ],
     slug: "build-planner-guide",
     category: "builds",
     gameSlug: "elden-ring",
@@ -1836,6 +1941,14 @@ export const articles: Article[] = [
     title: "Elden Ring Best Builds Guide (2026) – Ultimate Meta Builds, Stats & Optimization",
     metaDescription:
       "Complete Elden Ring builds guide for 2026. Learn best builds, stat optimization, soft caps, weapons, and how to create overpowered PvE & PvP characters.",
+    keyTakeaways: [
+      { label: "🥇 S Tier Build #1", value: "Bleed Arcane — Arcane 45–50, Dex 40–50, Rivers of Blood" },
+      { label: "🥇 S Tier Build #2", value: "Strength Colossal — STR 60–80, Greatsword/Giant-Crusher" },
+      { label: "🥇 S Tier Build #3", value: "Intelligence Sorcery — INT 60–80, Moonveil/Dark Moon GS" },
+      { label: "🩸 Core Rule #1", value: "Vigor 55–60 — survivability before damage" },
+      { label: "🎯 Core Rule #2", value: "Pick ONE damage stat — don't split scaling" },
+      { label: "📊 Soft Cap Reference", value: "Vigor 60, STR/DEX/INT/FAI 55–60 (best efficiency), ARC 45–50" },
+    ],
     sections: [
       {
         heading: "",
@@ -2036,6 +2149,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Tier List) ═══
   {
+    keyTakeaways: [
+      { label: "🥇 S Tier", value: "Bleed Arcane (extreme burst), Strength Colossal (stagger), Intelligence Mage (safe range)" },
+      { label: "🥈 A Tier", value: "Dexterity Katanas (fast, skill-dependent), Faith Hybrid (versatile, stat-heavy)" },
+      { label: "🥉 B Tier", value: "Quality Builds (balanced but outdated meta)" },
+      { label: "💡 Ranking Criteria", value: "PvE + PvP + scaling efficiency + ease of use + DLC viability" },
+      { label: "🎯 Best PvE", value: "Bleed Arcane — highest boss DPS vs bleedable enemies" },
+      { label: "🎯 Best PvP", value: "Strength Colossal or Bleed Arcane — both have strong pressure" },
+    ],
     slug: "build-tier-list",
     category: "builds",
     gameSlug: "elden-ring",
@@ -2180,6 +2301,14 @@ export const articles: Article[] = [
   },
   // ═══ ELDEN RING — BUILDS (Level 150) ═══
   {
+    keyTakeaways: [
+      { label: "🥇 S Tier #1", value: "Bleed Arcane — Vigor 60, DEX 45, ARC 45-50, Rivers of Blood" },
+      { label: "🥇 S Tier #2", value: "Strength Colossal — Vigor 60, END 30+, STR 60-80, Giant-Crusher" },
+      { label: "🥇 S Tier #3", value: "Intelligence Mage — Vigor 60, INT 60-80, Carian Regal Scepter" },
+      { label: "🎯 3 Conditions", value: "60 Vigor, one main scaling stat, no wasted secondaries" },
+      { label: "💡 Best For", value: "Bleed = fastest kills, STR = most stable, INT = safest" },
+      { label: "📊 Level Range", value: "125 (PvP meta), 150 (PvE standard), 200+ (NG+)" },
+    ],
     slug: "level-150-builds",
     category: "builds",
     gameSlug: "elden-ring",
@@ -2303,6 +2432,14 @@ export const articles: Article[] = [
   },
 // ═══ ELDEN RING — BOSSES (Godrick Phase 2) ═══
   {
+    keyTakeaways: [
+      { label: "💡 Why Phase 2 Is Hard", value: "Not stronger — completely different rhythm. Phase 2 breaks Phase 1 muscle memory" },
+      { label: "⚔️ Phase 2 Changes", value: "Faster combos, fire area control, extended strings, reduced punish windows" },
+      { label: "🛡️ Core Strategy", value: "Stay behind him — most fire attacks are frontal cones" },
+      { label: "🔥 Fire Breath Counter", value: "Sprint BEHIND him, don't roll backward — fire has lingering hitbox" },
+      { label: "🎮 Best Punish", value: "After fire breath and dragon bite lunge — these have longest recovery" },
+      { label: "🎯 Recommended", value: "Level 35+, +5 weapon, strike damage, lightning, bleed" },
+    ],
     slug: "godrick-phase-2-guide",
     category: "bosses",
     gameSlug: "elden-ring",
@@ -2432,6 +2569,14 @@ export const articles: Article[] = [
   },
 // ═══ ELDEN RING — BUILDS (Rune Level Calculator) ═══
   {
+    keyTakeaways: [
+      { label: "🎯 Rune Cost Lv 150", value: "~3.7M total runes — from Lv 1 to 150" },
+      { label: "📊 Milestones", value: "Lv 100 = mid-late, 125 = PvP meta, 150 = PvE endgame, 200 = NG+" },
+      { label: "💡 Efficient Leveling", value: "Early: explore Limgrave/Weeping. Mid: Mohgwyn Palace farm. Late: Palace Approach" },
+      { label: "⚠️ Key Rule", value: "Don't overfarm early — weapon upgrades matter more than levels" },
+      { label: "🛡️ Golden Scarab", value: "+20% runes — equip before farming, found in Abandoned Cave" },
+      { label: "📈 Cost Curve", value: "Each level costs ~50-100K+ past 100 — plan your build before you level" },
+    ],
     slug: "rune-level-calculator",
     category: "builds",
     gameSlug: "elden-ring",
@@ -2553,6 +2698,14 @@ export const articles: Article[] = [
   },
 // ═══ ELDEN RING — BOSSES (Radahn) ═══
   {
+    keyTakeaways: [
+      { label: "💡 Core Truth", value: "Radahn is a battlefield control boss, not a DPS check" },
+      { label: "🎯 Biggest Mistake", value: "Fighting him 1v1 — summons are part of the intended balance" },
+      { label: "⚔️ Key Mechanic", value: "Aggro rotation — summons reduce Radahn's focus on you" },
+      { label: "📊 Phase 1", value: "Stay mounted, resummon NPCs constantly, Scarlet Rot is best" },
+      { label: "💡 Phase 2 (Meteor)", value: "Run/dodge when meteor hits ground — resummon all NPCs" },
+      { label: "🎯 Recommended", value: "Level 60-80, Vigor 30+, weapon +12 to +18" },
+    ],
     slug: "starscourge-radahn-guide",
     category: "bosses",
     gameSlug: "elden-ring",

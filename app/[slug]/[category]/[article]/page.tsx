@@ -204,6 +204,28 @@ export default async function ArticlePage({ params }: Props) {
             {article.metaDescription}
           </p>
 
+          {article.keyTakeaways && article.keyTakeaways.length > 0 && (
+            <div className="mt-8 rounded-md border border-[#c9a227]/30 bg-gradient-to-br from-[#1a1508] to-[#12121a] p-6 shadow-[0_0_30px_rgba(201,162,39,0.08)]">
+              <div className="mb-4 flex items-center gap-2">
+                <span className="text-xl">⚡</span>
+                <h2 className="text-base font-bold uppercase tracking-widest text-[#c9a227]">
+                  Quick Summary
+                </h2>
+              </div>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {article.keyTakeaways.map((item, i) => (
+                  <div key={i} className="flex items-start gap-2.5 border-b border-white/5 pb-3 last:border-0 sm:border-b-0 sm:pb-0">
+                    <span className="mt-0.5 shrink-0 text-sm text-[#c9a227]">▸</span>
+                    <div>
+                      <span className="text-sm font-bold text-white">{item.label}:</span>
+                      <span className="ml-1 text-sm leading-relaxed text-zinc-400">{item.value}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-zinc-500">
             <span>{article.readTimeMinutes} min read</span>
             <span className="h-1 w-1 rounded-full bg-zinc-700" />

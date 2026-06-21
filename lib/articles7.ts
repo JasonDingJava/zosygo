@@ -2,6 +2,14 @@ import type { Article } from "./articles";
 
 // ═══ ELDEN RING — WEAPONS (Moonveil) ═══
 const article58: Article = {
+  keyTakeaways: [
+    { label: "🎯 Core Split", value: "INT scales the skill (Transient Moonlight), DEX scales melee damage" },
+    { label: "📊 PvE Build", value: "INT 50-70, DEX 30-50, Vigor 50-60" },
+    { label: "🎯 PvP Build", value: "INT 60-80, DEX 40-60 — focus on skill burst" },
+    { label: "💡 Key Insight", value: "Skill damage >> melee damage — Transient Moonlight is the main DPS" },
+    { label: "🛡️ Best Talismans", value: "Shard of Alexander, Magic Scorpion Charm, Godfrey Icon" },
+    { label: "📊 Rule of Thumb", value: "Weapon upgrade level (+10) matters more than raw stats" },
+  ],
   slug: "moonveil-scaling-explained",
   category: "weapons",
   gameSlug: "elden-ring",

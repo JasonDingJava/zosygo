@@ -2,6 +2,14 @@ import type { Article } from "./articles";
 
 // ═══ ELDEN RING — BUILDS (Vigor Soft Caps) ═══
 const vigorArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Soft Caps", value: "40 (first), 60 (second/hard), 99 (absolute max)" },
+    { label: "📊 HP Efficiency", value: "1-40 = very high, 40-60 = moderate, 60+ = low" },
+    { label: "🎯 PvE Recommended", value: "50-60 Vigor — 60 is the meta sweet spot" },
+    { label: "🎯 PvP Recommended", value: "50-60 for arena, some go 40-45 for damage" },
+    { label: "🛡️ New Player", value: "40-50 Vigor — prevents one-shots, easier learning" },
+    { label: "💡 Key Rule", value: "After 60 Vigor, invest in damage stats for better overall performance" },
+  ],
   slug: "vigor-soft-cap-explained",
   category: "builds",
   gameSlug: "elden-ring",
@@ -92,6 +100,14 @@ const vigorArticle: Article = {
 };
 
 const enduranceArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Soft Caps", value: "25 (first), 40 (meta zone), 50 (heavy build)" },
+    { label: "📊 What It Affects", value: "Stamina + Equip Load — consistency, not raw damage" },
+    { label: "🎯 Early Game", value: "20-25 END is sufficient for most builds" },
+    { label: "🎯 PvE Meta", value: "25-35 END — comfortable stamina + medium armor" },
+    { label: "🛡️ Heavy Builds", value: "40-50 END for colossal weapons + heavy armor" },
+    { label: "💡 Key Insight", value: "More stamina = more attacks per window = more DPS uptime" },
+  ],
   slug: "endurance-soft-cap-explained",
   category: "builds",
   gameSlug: "elden-ring",
@@ -190,6 +206,14 @@ const enduranceArticle: Article = {
 
 // ═══ ELDEN RING — BUILDS (Intelligence Soft Caps) ═══
 const intArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Soft Caps", value: "20-50 (best efficiency), 50-80 (meta), 80+ (diminishing)" },
+    { label: "📊 PvE Meta", value: "INT 60-80 — comfortable damage + weapon scaling" },
+    { label: "🎯 PvP Meta", value: "INT 60-70 — burst build, high damage per FP" },
+    { label: "🛡️ Staff Matters", value: "Staff choice often matters as much as raw INT level" },
+    { label: "⚔️ Weopon Scaling", value: "Moonveil and DMGS scale well to 80 INT" },
+    { label: "💡 Key Rule", value: "INT 80 hard cap — never go past 80 in any build" },
+  ],
   slug: "intelligence-soft-cap-explained",
   category: "builds",
   gameSlug: "elden-ring",
@@ -295,6 +319,14 @@ const intArticle: Article = {
 
 // ═══ ELDEN RING — BUILDS (Dexterity Soft Caps) ═══
 const dexArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Soft Caps", value: "20-50 (best efficiency), 50-80 (meta), 80+ (diminishing)" },
+    { label: "📊 PvE Meta", value: "DEX 50-80 — katanas, curved swords, spears scale well" },
+    { label: "🎯 PvP Meta", value: "DEX 80 — maximizes weapon AR for optimized burst" },
+    { label: "💡 Key Breakpoint", value: "40 DEX = strong mid-game, 80 DEX = peak scaling" },
+    { label: "⚔️ Best Weapons", value: "Katanas, curved swords, spears — all scale well with DEX" },
+    { label: "📊 Key Insight", value: "DEX improves DPS frequency and fluidity, not just hit strength" },
+  ],
   slug: "dexterity-soft-cap-explained",
   category: "builds",
   gameSlug: "elden-ring",
@@ -400,6 +432,14 @@ const dexArticle: Article = {
 
 // ═══ ELDEN RING — BUILDS (Arcane Soft Caps) ═══
 const arcArticle: Article = {
+  keyTakeaways: [
+    { label: "🎯 Soft Caps", value: "20-45 (entry), 45-60 (peak bleed), 60-80 (high optimization)" },
+    { label: "📊 Key Breakpoints", value: "45 ARC = first meaningful threshold, 60 ARC = meta target" },
+    { label: "🎯 PvE Meta", value: "ARC 45-60 — peak status effect scaling" },
+    { label: "🎯 PvP Meta", value: "ARC 60-80 — high pressure, sustained bleed procs" },
+    { label: "💡 Important", value: "ARC only increases bleed on weapons with Arcane scaling" },
+    { label: "🛡️ Best Weapons", value: "Rivers of Blood, Eleonora's Poleblade, Blood Nagakiba" },
+  ],
   slug: "arcane-soft-cap-explained",
   category: "builds",
   gameSlug: "elden-ring",
