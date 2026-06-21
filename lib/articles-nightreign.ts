@@ -776,6 +776,179 @@ const nightreignBestWeaponsGuide: Article = {
   ],
 };
 
-const nightreignArticles: Article[] = [bestNightreignBuilds, nightreignBossesGuide, nightreignBestWeaponsGuide];
+
+const nightreignBeginnerGuide: Article = {
+  readTimeMinutes: 8,
+  order: 1,
+  slug: "nightreign-beginner-guide",
+  category: "walkthroughs",
+  gameSlug: "nightreign",
+  title: "Elden Ring Nightreign Beginner Guide (2026) – 15 Essential Tips Before Your First Expedition",
+  metaDescription:
+    "Complete Elden Ring Nightreign beginner guide for 2026. 15 essential tips for new players including best classes, expedition mechanics, relic optimization, boss strategies, and common mistakes.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content:
+        "Starting your first expedition in Elden Ring Nightreign can feel overwhelming.\n\nUnlike traditional Elden Ring, Nightreign is built around fast-paced expeditions, random loot, team synergy, and Nightlord boss encounters. Many experienced Elden Ring players fail their first few runs simply because they approach Nightreign the wrong way.\n\nThe good news?\n\nMost beginner mistakes are easy to avoid.\n\nThis guide covers 15 essential tips every new player should know before entering their first expedition.",
+    },
+    {
+      level: 2,
+      heading: "⚡ Quick Summary",
+      content:
+        "▸ 🥇 Most Important Tip: Prioritize survival over damage early\n\n▸ ⚔️ Best Beginner Class: Wylder\n\n▸ 🛡️ Biggest Mistake: Fighting everything you see\n\n▸ 🎯 Fastest Way to Improve: Learn expedition routes\n\n▸ 👥 Best Team Setup: Frontline + DPS + Ranged Support\n\n▸ 🔥 Most Overlooked Skill: Efficient resource management",
+    },
+    {
+      level: 2,
+      heading: "What Makes Nightreign Different From Elden Ring?",
+      content:
+        "Many players assume Nightreign is simply co-op Elden Ring.\n\nIt is not.\n\nNightreign focuses on:\n\n* Expedition survival\n* Randomized progression\n* Team coordination\n* Relic optimization\n* Nightlord boss encounters\n\nSuccess depends on decision-making just as much as combat skill.",
+    },
+    {
+      level: 2,
+      heading: "Tip #1 – Choose a Beginner-Friendly Class",
+      content:
+        "Your first class matters.\n\nSome classes require extensive game knowledge.\n\nFor beginners, the safest choices are:\n\n### Best Beginner Classes\n\n1. Wylder\n2. Guardian\n3. Recluse\n\nThese classes offer strong survivability and forgiving gameplay.",
+    },
+    {
+      level: 2,
+      heading: "Tip #2 – Survival Matters More Than Damage",
+      content:
+        "New players often chase damage upgrades.\n\nThis is a mistake.\n\nDead players contribute no damage.\n\nPrioritize:\n\n* Survivability relics\n* Defensive upgrades\n* Safe positioning\n\nThe fastest way to clear expeditions is staying alive.",
+    },
+    {
+      level: 2,
+      heading: "Tip #3 – Learn the Expedition Timer",
+      content:
+        "The timer is one of the most important mechanics in Nightreign.\n\nMany failed runs occur because players:\n\n* Explore too slowly\n* Waste time fighting unnecessary enemies\n* Miss key objectives\n\nAlways remain aware of expedition pacing.",
+    },
+    {
+      level: 2,
+      heading: "Tip #4 – Do Not Fight Every Enemy",
+      content:
+        "This is one of the biggest beginner traps.\n\nYou are not required to clear every encounter.\n\nSometimes the best decision is to:\n\n* Skip enemies\n* Move toward objectives\n* Preserve resources\n\nEfficient runs outperform aggressive runs.",
+    },
+    {
+      level: 2,
+      heading: "Tip #5 – Prioritize Weapon Upgrades Early",
+      content:
+        "Your weapon contributes more damage than almost any other upgrade.\n\nDuring the early expedition phase:\n\n### Focus On\n\n* Better weapon quality\n* Strong scaling\n* Class synergy\n\nA good weapon can carry an entire run.",
+    },
+    {
+      level: 2,
+      heading: "Tip #6 – Learn Which Relics Actually Matter",
+      content:
+        "Not all relics are equal.\n\nThe strongest relics typically improve:\n\n* Survivability\n* Cooldown efficiency\n* Damage consistency\n* Resource management\n\nAvoid choosing relics simply because they appear rare.",
+    },
+    {
+      level: 2,
+      heading: "Tip #7 – Build Around Your Class",
+      content:
+        "Every class has strengths.\n\n### Wylder\n\n* Stagger\n* Survivability\n\n### Duchess\n\n* Mobility\n* Critical damage\n\n### Recluse\n\n* Ranged pressure\n* Spell damage\n\n### Guardian\n\n* Defense\n* Team support\n\nTrying to force a class into a role it was not designed for often leads to weak builds.",
+    },
+    {
+      level: 2,
+      heading: "Tip #8 – Positioning Wins Boss Fights",
+      content:
+        "Many players focus entirely on dodging.\n\nPositioning is even more important.\n\nGood positioning allows:\n\n* Easier healing\n* Better damage uptime\n* Safer boss management\n\nMost Nightlord encounters become dramatically easier with proper spacing.",
+    },
+    {
+      level: 2,
+      heading: "Tip #9 – Save Resources for Important Encounters",
+      content:
+        "Do not waste valuable resources on minor fights.\n\nExamples include:\n\n* Healing items\n* Powerful abilities\n* High-impact consumables\n\nAlways think ahead.\n\nNightlords are far more dangerous than standard encounters.",
+    },
+    {
+      level: 2,
+      heading: "Tip #10 – Learn Team Roles",
+      content:
+        "Nightreign rewards specialization.\n\nA strong team typically includes:\n\n### Frontline\n\nAbsorbs pressure.\n\n### Damage Dealer\n\nProvides burst damage.\n\n### Support/Ranged\n\nMaintains safe pressure.\n\nBalanced teams outperform teams composed entirely of damage dealers.",
+    },
+    {
+      level: 2,
+      heading: "Tip #11 – Medium Roll Is Usually Best",
+      content:
+        "Many beginners unknowingly overload their characters.\n\nThis creates:\n\n* Slower dodges\n* Poor mobility\n* Increased deaths\n\nMaintain a medium roll whenever possible.\n\nMobility is one of the strongest defensive tools in the game.",
+    },
+    {
+      level: 2,
+      heading: "Tip #12 – Stagger Is Extremely Valuable",
+      content:
+        "Stagger creates free damage opportunities.\n\nBenefits include:\n\n* Interrupting enemies\n* Creating safe attack windows\n* Reducing incoming pressure\n\nWeapons with strong stagger potential remain among the strongest options in Nightreign.",
+    },
+    {
+      level: 2,
+      heading: "Tip #13 – Do Not Ignore Defensive Relics",
+      content:
+        "Many players choose pure damage relics.\n\nThis often backfires.\n\nDefensive relics can provide:\n\n* More healing opportunities\n* Better consistency\n* Greater expedition success rates\n\nA balanced build usually outperforms a glass cannon build.",
+    },
+    {
+      level: 2,
+      heading: "Tip #14 – Learn Nightlord Mechanics Instead of Brute Forcing",
+      content:
+        "When a boss defeats you repeatedly, do not immediately change builds.\n\nInstead:\n\n### Ask Yourself\n\n* What attack killed me?\n* What mechanic am I missing?\n* Was my positioning poor?\n\nUnderstanding mechanics improves results far faster than grinding.",
+    },
+    {
+      level: 2,
+      heading: "Tip #15 – Focus on Consistency, Not Perfect Runs",
+      content:
+        "Many beginners reset runs searching for perfect loot.\n\nThis is inefficient.\n\nConsistent progression comes from:\n\n* Good decision-making\n* Strong fundamentals\n* Reliable execution\n\nThe best players succeed even with average loot.",
+    },
+    {
+      level: 2,
+      heading: "Common Beginner Mistakes",
+      content:
+        "### Mistake #1\n\nIgnoring survivability.\n\n---\n\n### Mistake #2\n\nOvervaluing rarity.\n\n---\n\n### Mistake #3\n\nFighting unnecessary enemies.\n\n---\n\n### Mistake #4\n\nPoor team coordination.\n\n---\n\n### Mistake #5\n\nUsing the wrong weapon for your class.",
+    },
+    {
+      level: 2,
+      heading: "Best Beginner Build",
+      content:
+        "For most new players:\n\n### Recommended Build\n\nWylder Strength Build\n\nWhy it works:\n\n* Excellent survivability\n* Strong stagger damage\n* Simple gameplay loop\n* Effective against Nightlords\n\nThis build remains one of the safest choices in the game.",
+    },
+    {
+      level: 2,
+      heading: "Best Beginner Weapon Types",
+      content:
+        "Focus on:\n\n### Greatswords\n\nBalanced and reliable.\n\n---\n\n### Colossal Weapons\n\nExcellent stagger potential.\n\n---\n\n### Intelligence Catalysts\n\nSafe ranged damage for magic-focused players.",
+    },
+    {
+      level: 2,
+      heading: "What Should You Learn Next?",
+      content:
+        "Once you understand expedition fundamentals, your next priorities should be:\n\n1. Build optimization\n2. Weapon selection\n3. Relic synergy\n4. Boss mechanics\n5. Team composition\n\nThese systems become increasingly important during late-game content.",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content:
+        "Continue improving your Nightreign knowledge with:\n\n* Nightreign Best Builds Guide\n* Nightreign Best Weapons Guide\n* Nightreign Weapon Tier List\n* Nightreign Classes Explained\n* Nightreign Relics Guide\n* Nightreign Bosses Guide\n* Nightreign Progression Guide",
+    },
+    {
+      level: 2,
+      heading: "Final Verdict",
+      content:
+        "Nightreign rewards smart decisions more than raw aggression.\n\nThe players who succeed are not necessarily the ones with the highest damage.\n\nThey are the ones who:\n\n* Manage resources efficiently\n* Understand their class\n* Build around strengths\n* Learn boss mechanics\n* Prioritize consistency\n\nMaster these 15 tips before your first expedition, and you'll avoid the mistakes that cause most beginners to fail.",
+    },
+  ],
+  internalLinks: [
+    { href: "/elden-ring/nightreign/builds/nightreign-best-builds-guide", anchorText: "Nightreign Best Builds Guide" },
+    { href: "/elden-ring/nightreign/weapons/nightreign-best-weapons-guide", anchorText: "Nightreign Best Weapons Guide" },
+    { href: "/elden-ring/nightreign/weapons/nightreign-weapon-tier-list", anchorText: "Nightreign Weapon Tier List" },
+    { href: "/elden-ring/nightreign/builds/nightreign-classes-explained", anchorText: "Nightreign Classes Explained" },
+    { href: "/elden-ring/nightreign/bosses/nightreign-bosses-guide", anchorText: "Nightreign Bosses Guide" },
+  ],
+  keyTakeaways: [
+    { label: "🥇 Most Important Tip", value: "Survival > Damage early — dead players deal 0 DPS" },
+    { label: "⚔️ Best Beginner Class", value: "Wylder — survivability + simple gameplay" },
+    { label: "🛡️ Biggest Mistake", value: "Fighting every enemy — skip when possible" },
+    { label: "🎯 Fastest Improvement", value: "Learn expedition routes and timer management" },
+    { label: "👥 Best Team Setup", value: "Frontline (Wylder) + DPS (Duchess) + Ranged (Recluse)" },
+    { label: "🔥 Most Overlooked", value: "Efficient resource management — save for Nightlords" },
+  ],
+};
+
+const nightreignArticles: Article[] = [bestNightreignBuilds, nightreignBossesGuide, nightreignBestWeaponsGuide, nightreignBeginnerGuide];
 
 export default nightreignArticles;
