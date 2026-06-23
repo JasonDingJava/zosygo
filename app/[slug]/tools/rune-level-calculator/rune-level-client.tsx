@@ -148,6 +148,7 @@ export default function RuneLevelClient() {
             onChange={(e) => setCurrentLevel(parseInt(e.target.value, 10))}
             className="w-full accent-yellow-500"
             onTouchMove={function(e) { e.preventDefault(); }}
+            style={{ touchAction: 'none' }}
           />
           <div className="mt-1 flex justify-between text-[10px] text-gray-600">
             <span>Lv 1</span>
@@ -167,6 +168,7 @@ export default function RuneLevelClient() {
             onChange={(e) => setTargetLevel(parseInt(e.target.value, 10))}
             className="w-full accent-yellow-500"
             onTouchMove={function(e) { e.preventDefault(); }}
+            style={{ touchAction: 'none' }}
           />
           <div className="mt-1 flex justify-between text-[10px] text-gray-600">
             <span>Lv 2</span>
