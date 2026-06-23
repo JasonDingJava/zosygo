@@ -213,14 +213,16 @@ function StatRow({stat,value,onChange,minVal}:{stat:StatKey;value:number;onChang
           max={99}
           value={value}
           onChange={e => onChange(parseInt(e.target.value))}
-          className="mt-1 w-full h-1.5 appearance-none rounded-full cursor-pointer bg-gray-800 touch-action-none
+          className="mt-1 w-full h-1.5 appearance-none rounded-full cursor-pointer bg-gray-800
             [&::-webkit-slider-thumb]:appearance-none
             [&::-webkit-slider-thumb]:h-0
             [&::-webkit-slider-thumb]:w-0
             [&::-moz-range-thumb]:appearance-none
             [&::-moz-range-thumb]:h-0
             [&::-moz-range-thumb]:w-0"
+          onTouchMove={function(e) { e.preventDefault(); }}
           style={{
+            touchAction: 'none',
             background: `linear-gradient(to right,
               ${value >= (caps[3] || 999) ? '#a855f7' : value >= (caps[2] || 999) ? '#a855f7' : value >= (caps[1] || 999) ? '#eab308' : value >= (caps[0] || 999) ? '#3b82f6' : '#22c55e'}
               0%,
@@ -976,7 +978,8 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
             <Section title={`Upgrade Level (+${upgradeLevel})`}>
               <input type="range" min={0} max={25} value={upgradeLevel}
                 onChange={e => setUpgradeLevel(parseInt(e.target.value))}
-                className="w-full h-1.5 appearance-none rounded bg-gray-700 accent-yellow-500 cursor-pointer touch-action-none" />
+                className="w-full h-1.5 appearance-none rounded bg-gray-700 accent-yellow-500 cursor-pointer"
+                onTouchMove={function(e) { e.preventDefault(); }} />
               <div className="mt-1 flex justify-between text-[10px] text-gray-500"><span>+0</span><span>+25</span></div>
               <label className="mt-2 flex items-center gap-2 cursor-pointer">
                 <input type="checkbox" checked={twoHanding} onChange={e => setTwoHanding(e.target.checked)}

@@ -49,7 +49,8 @@ function StatSlider({ def, value, onChange }: { def: typeof STAT_DEFS[number]; v
           <span className="font-mono text-sm font-bold text-[#e8d5a3]">{value}</span>
         </div>
         <input type="range" min={1} max={99} value={value} onChange={(e) => onChange(Number(e.target.value))}
-          className="mt-1 h-1.5 w-full cursor-pointer appearance-none rounded-full bg-zinc-800 accent-amber-500 touch-action-none [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-amber-400 [&::-webkit-slider-thumb]:shadow-[0_0_6px_rgba(251,191,36,0.5)]" />
+          className="mt-1 h-1.5 w-full cursor-pointer appearance-none rounded-full bg-zinc-800 accent-amber-500 [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-amber-400 [&::-webkit-slider-thumb]:shadow-[0_0_6px_rgba(251,191,36,0.5)]"
+          onTouchMove={function(e) { e.preventDefault(); }} />
       </div>
       <div className="flex flex-col gap-0.5">
         <button onClick={() => onChange(Math.min(value + 1, 99))} className="flex h-5 w-5 items-center justify-center rounded-sm bg-zinc-800 text-xs text-zinc-400 hover:bg-zinc-700 hover:text-white">+</button>
@@ -162,7 +163,8 @@ export default function WeaponARPage() {
             <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-[#c9a227]">Upgrade Level</h2>
             <div className="flex items-center gap-3">
               <input type="range" min={0} max={25} value={upgradeLevel} onChange={(e) => setUpgradeLevel(Number(e.target.value))}
-                className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-zinc-800 accent-amber-500 touch-action-none [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-amber-400" />
+                className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-zinc-800 accent-amber-500 [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-amber-400"
+                onTouchMove={function(e) { e.preventDefault(); }} />
               <span className="w-10 text-right font-mono text-sm font-bold text-[#e8d5a3]">+{upgradeLevel}</span>
             </div>
             <label className="mt-3 flex items-center gap-2">
