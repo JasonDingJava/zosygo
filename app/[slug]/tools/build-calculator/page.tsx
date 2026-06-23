@@ -192,15 +192,6 @@ function StatRow({stat,value,onChange,minVal}:{stat:StatKey;value:number;onChang
   const canDec = value > minVal;
   const canInc = value < 99;
 
-  // Bar color: green → blue → yellow → purple based on soft caps
-  let barColor = "bg-green-500";
-  if (caps.length > 0) {
-    if (caps[3] && value >= caps[3]) barColor = "bg-purple-500";
-    else if (caps[2] && value >= caps[2]) barColor = "bg-purple-500";
-    else if (caps[1] && value >= caps[1]) barColor = "bg-yellow-500";
-    else if (caps[0] && value >= caps[0]) barColor = "bg-blue-500";
-  }
-
   return (
     <div className="flex items-center gap-1.5">
       <button
@@ -215,10 +206,31 @@ function StatRow({stat,value,onChange,minVal}:{stat:StatKey;value:number;onChang
           </span>
           <span className="tabular-nums font-bold text-yellow-400">{value}</span>
         </div>
-        <div className="mt-0.5 h-1.5 w-full overflow-hidden rounded-full bg-gray-800">
-          <div className={`h-full rounded-full transition-all ${barColor}`}
-            style={{ width: `${(value / 99) * 100}%` }} />
-        </div>
+        {/* Range slider — progress bar IS the slider */}
+        <input
+          type="range"
+          min={minVal}
+          max={99}
+          value={value}
+          onChange={e => onChange(parseInt(e.target.value))}
+          className="mt-1 w-full h-1.5 appearance-none rounded-full cursor-pointer bg-gray-800
+            [&::-webkit-slider-thumb]:appearance-none
+            [&::-webkit-slider-thumb]:h-0
+            [&::-webkit-slider-thumb]:w-0
+            [&::-moz-range-thumb]:appearance-none
+            [&::-moz-range-thumb]:h-0
+            [&::-moz-range-thumb]:w-0"
+          style={{
+            background: `linear-gradient(to right,
+              ${value >= (caps[3] || 999) ? '#a855f7' : value >= (caps[2] || 999) ? '#a855f7' : value >= (caps[1] || 999) ? '#eab308' : value >= (caps[0] || 999) ? '#3b82f6' : '#22c55e'}
+              0%,
+              ${value >= (caps[3] || 999) ? '#a855f7' : value >= (caps[2] || 999) ? '#a855f7' : value >= (caps[1] || 999) ? '#eab308' : value >= (caps[0] || 999) ? '#3b82f6' : '#22c55e'}
+              ${(value / 99) * 100}%,
+              #1f2937 ${(value / 99) * 100}%,
+              #1f2937 100%
+            )`
+          }}
+        />
         <div className="mt-[1px] flex justify-between text-[9px] text-gray-600">
           {caps[0] ? <span>sc{caps[0]}</span> : <span />}
           {caps[1] ? <span>sc{caps[1]}</span> : <span />}
@@ -423,6 +435,7 @@ export default function EldenRingBuildCalculator() {
   const [showSpellPicker, setShowSpellPicker] = useState(false);
   const [showWeaponPicker, setShowWeaponPicker] = useState(false);
   const [weaponPickerSlot, setWeaponPickerSlot] = useState(0);
+  const [showPopularBuilds, setShowPopularBuilds] = useState(false);
 
   const updateStat = (k: StatKey, v: number) => setStats(p => ({ ...p, [k]: Math.max(1, Math.min(99, v)) }));
   const toggleWeapon = (slug: string) => setSelWeapons(p => p.includes(slug) ? p.filter(x => x !== slug) : [...p, slug].slice(0, 4));
@@ -784,10 +797,19 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
           <p className="mt-1 text-gray-400">Build Planner, Stat Optimizer, Damage Calculator, and Meta Build tool — all in one. Plan stats, pick weapons and armor, see exact Attack Rating.</p>
         </div>
 
-        {/* Popular Builds */}
-        <div className="mb-8">
-          <h2 className="mb-4 text-xl font-bold text-yellow-400">Popular Builds</h2>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Popular Builds — collapsible, default collapsed */}
+        <div className="mb-8 rounded-lg border border-gray-800 bg-gray-900/30 overflow-hidden">
+          <button
+            onClick={function() { setShowPopularBuilds(!showPopularBuilds); }}
+            className="flex w-full items-center justify-between px-5 py-3.5 text-left transition hover:bg-gray-800/40"
+          >
+            <h2 className="text-xl font-bold text-yellow-400">Popular Builds</h2>
+            <svg className={"h-5 w-5 text-gray-500 transition-transform duration-200 " + (showPopularBuilds ? "rotate-180" : "")} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+          <div className={"transition-all duration-300 overflow-hidden " + (showPopularBuilds ? "max-h-[3000px] opacity-100" : "max-h-0 opacity-0")}>
+            <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 p-5 pt-0">
             {POPULAR_BUILDS.map(function(build) { return (
               <button key={build.name} onClick={function() { applyPopularBuild(build); }}
                 className="group relative overflow-hidden rounded-xl border border-gray-800 bg-gradient-to-br from-gray-900 to-gray-950 p-5 text-left transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-yellow-900/20">
@@ -860,6 +882,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                 <div className="absolute bottom-3 right-3 text-xs text-yellow-600 opacity-0 transition-opacity group-hover:opacity-100">Load Build \u2192</div>
               </button>
             );})}
+            </div>
           </div>
         </div>
         {/* Build Name */}
