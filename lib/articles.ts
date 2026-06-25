@@ -1376,12 +1376,12 @@ export const articles: Article[] = [
       {
         heading: "Mind Soft Caps",
         level: 2,
-        content: "Mind increases FP."
+        content: "Mind increases FP and determines how often you can cast spells or use weapon skills. Beyond the main soft cap at 50, there are several useful breakpoints worth knowing."
       },
       {
-        heading: "First Soft Cap: 50",
+        heading: "Key Mind Breakpoints",
         level: 3,
-        content: "FP gains begin slowing significantly."
+        content: "- **20 Mind**: A good baseline for melee builds — provides enough FP for weapon skills and emergency casts\n- **38 Mind**: The threshold where a fully upgraded Cerulean Flask +12 restores exactly 220 FP — optimal efficiency for flask-to-FP ratio\n- **50 Mind**: First major soft cap — FP gains begin slowing significantly\n- **60 Mind**: Second soft cap — beyond this, FP returns become minimal"
       },
       {
         heading: "Recommended Mind Levels",
@@ -1895,6 +1895,12 @@ export const articles: Article[] = [
         heading: "How to Use a Build Planner Effectively",
         level: 2,
         content: "To get the best results:\n\n1. Start at your target level (e.g. 150)\n2. Allocate Vigor first\n3. Choose your main damage stat\n4. Test weapon scaling\n5. Adjust Endurance for equip load\n6. Fine-tune Mind for FP usage"
+      },
+      {
+        heading: "PvE vs PvP: Different Stat Priorities",
+        level: 2,
+        content:
+          "PvE and PvP builds share the same soft caps, but their priorities differ significantly.\n\n### PvE Priority Order\n\n1. **Vigor** — survivability against hard-hitting bosses\n2. **Primary Damage Stat** — maximize boss kill speed\n3. **Endurance** — equip load for armor + weapon\n4. **Secondary Damage Stat** — weapon requirements or hybrid options\n5. **Mind** — FP for weapon skills and occasional casts\n\nPvE rewards flexibility. You can afford slightly lower peak damage because you can control engagements and use summons or spirit ashes. A typical PvE build at Level 150: Vigor 60, primary damage stat 80, Endurance 30, and whatever minimums are needed for your secondary stat.\n\n### PvP Priority Order\n\n1. **Vigor** — 60 is mandatory; you will get hit\n2. **Primary Damage Stat** — maximize burst potential\n3. **Endurance** — poise breakpoints for trading hits\n4. **Mind** — enough FP for 3\u20134 weapon art uses per fight\n5. **Everything Else** — every extra point has a specific purpose\n\nPvP rewards efficiency. Every wasted stat point is a disadvantage against an optimized opponent. Many PvP builds stop at exactly 60 Vigor, hit a specific poise breakpoint (51 or 101 poise), and dump the rest into damage. There is no room for hybrid spreading at Level 125\u2013150.\n\n### The Key Difference\n\n| Aspect | PvE | PvP |\n| ------ | --- | --- |\n| Target Level | 150\u2013200 | 125\u2013150 |\n| Vigor Priority | 60 | 60 (mandatory) |\n| Damage Stats | Push to 80 | Push to 60\u201380 |\n| Endurance | Enough for fashion | Poise breakpoints (51 or 101) |\n| Hybrid Builds | Viable | Risky |\n| Stat Efficiency | Flexible | Critical |\n\nUnderstanding these differences is the difference between a build that feels great in PvE but gets crushed in PvP, or vice versa."
       },
       {
         heading: "Build Planner vs Build Guide",
@@ -2484,6 +2490,12 @@ export const articles: Article[] = [
         heading: "Recommended Level Targets",
         level: 2,
         content: ""
+      },
+      {
+        heading: "Example Rune Calculations for Common Milestones",
+        level: 2,
+        content:
+          "Here is what the rune costs actually look like for the most common progression targets:\n\n| Milestone | Approximate Total Runes (Lv 1 → Target) |\n| --------- | ---------------------------------------- |\n| Level 1 → 100 | ~3.5M |\n| Level 100 → 150 | ~3.3M (additional) |\n| Level 1 → 150 | ~6.8M |\n| Level 150 → 200 | ~110M (additional) |\n| Level 1 → 200 | ~170–180M |\n\nThe Level 100 → 150 gap is one of the largest power increases for most builds — this is where you typically reach 60 Vigor and hit your primary damage stat soft caps. The Level 150 → 200 gap, however, costs **10 times more** than everything before Level 150 combined. That is why dedicated farming becomes essential beyond 150.\n\nUse the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check the exact remaining cost from your current level."
       },
       {
         heading: "Level 50",

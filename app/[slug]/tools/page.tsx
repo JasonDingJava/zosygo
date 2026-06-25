@@ -184,6 +184,7 @@ export default function ToolsPage({ params }: { params: Promise<{ slug: string }
             );
           })}
                               <a href="/elden-ring/walkthroughs/how-many-runes-to-reach-level-150" className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">How Many Runes to Reach Level 150</a>
+                              <a href="/elden-ring/walkthroughs/how-many-runes-to-reach-level-200" className="rounded-sm border border-yellow-700/20 bg-gray-900/50 px-3 py-1.5 text-xs font-medium text-yellow-300 transition-all hover:border-yellow-600/40 hover:bg-gray-800">How Many Runes to Reach Level 200</a>
 </div>
 
         {/* SEO Content — Elden Ring only */}

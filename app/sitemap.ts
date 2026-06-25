@@ -49,6 +49,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "weekly",
     priority: 0.9,
   });
+  entries.push({
+    url: `${SITE_URL}/elden-ring/walkthroughs/how-many-runes-to-reach-level-200`,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 0.9,
+  });
 
   // ── nightreign_hub: /elden-ring/nightreign ──
   // priority 0.9, weekly
