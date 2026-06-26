@@ -13,8 +13,8 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
     verificationTokensTable: schema.verificationTokens,
   }),
   providers: [
-    Google,
-    GitHub,
+    Google({ allowDangerousEmailAccountLinking: true }),
+    GitHub({ allowDangerousEmailAccountLinking: true }),
   ],
   pages: {
     signIn: "/auth/signin",
