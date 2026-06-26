@@ -67,6 +67,15 @@ const baseGames: GameBase[] = [
     ogImage: "/images/elden-ring-og.jpg",
   },
   {
+    slug: "path-of-exile-2",
+    releaseDate: "2026",
+    accentColor: "#a0a0a0",
+    accentGlow: "rgba(160, 160, 160, 0.35)",
+    heroImage: "/images/poe2-hero.jpg",
+    image: "/images/poe2-card.jpg",
+    ogImage: "/images/poe2-og.jpg",
+  },
+  {
     slug: "gta6",
     releaseDate: "2026-05-26",
     accentColor: "#ff006e",
@@ -623,6 +632,53 @@ const fallbackData: Record<string, GameData> = {
         question: "What is the best weapon for beginners in MH Wilds?",
         answer:
           "The Sword and Shield offers a good balance of mobility, defense, and damage. The Longsword is also beginner-friendly with its forgiving counter mechanics.",
+      },
+    ],
+  },
+  "path-of-exile-2": {
+    name: "Path of Exile 2",
+    tagline: "Survive the darkness. Shape the endgame.",
+    description:
+      "The next generation of action RPGs from Grinding Gear Games. Build guides, boss strategies, endgame atlas, and everything Wraeclast.",
+    longDescription:
+      "Path of Exile 2 is the next-generation action RPG from Grinding Gear Games, building on the deep skill gem system, passive tree, and endgame atlas that defined the genre. Zosygo covers ascendancy builds, boss mechanics, atlas strategies, unique items, and economy guides for Wraeclast's deadliest challenges.",
+    developer: "Grinding Gear Games",
+    publisher: "Grinding Gear Games",
+    genres: ["Action RPG", "Hack and Slash", "Dark Fantasy"],
+    platforms: ["PC", "PlayStation 5", "Xbox Series X|S"],
+    keywords: [
+      "Path of Exile 2 guide",
+      "PoE 2 builds",
+      "PoE 2 boss guide",
+      "Wraeclast",
+      "Grinding Gear Games",
+      "PoE 2 endgame atlas",
+    ],
+    faq: [
+      {
+        question: "What is Path of Exile 2?",
+        answer:
+          "Path of Exile 2 is the next-generation action RPG from Grinding Gear Games. It features a new seven-act campaign, 12 character classes (6 new ascendancies per class), revamped skill gem system, and a shared endgame atlas with the original Path of Exile.",
+      },
+      {
+        question: "When is Path of Exile 2 releasing?",
+        answer:
+          "Path of Exile 2 entered Early Access on December 6, 2024. The full 1.0 release is expected in 2026, after ExileCon 2026 (November 7-8).",
+      },
+      {
+        question: "What platforms is Path of Exile 2 available on?",
+        answer:
+          "Path of Exile 2 is available on PC (Windows), PlayStation 5, and Xbox Series X|S. Cross-play and cross-progression are supported across all platforms.",
+      },
+      {
+        question: "Is Path of Exile 2 free to play?",
+        answer:
+          "Yes, Path of Exile 2 is free to play with cosmetic microtransactions. The Early Access requires a supporter pack purchase, but the full 1.0 release will be free.",
+      },
+      {
+        question: "How is PoE 2 different from PoE 1?",
+        answer:
+          "PoE 2 features a new campaign, revamped gem system (support gems socket directly into skill gems), improved graphics engine, new character classes, WASD movement support, and a dodge roll mechanic. Both games share the same endgame atlas system.",
       },
     ],
   },

@@ -237,6 +237,8 @@ export function generateGameMetadata(game: Game): Metadata {
     "gta6": "GTA 6 News, Guides & Leaks — Grand Theft Auto VI Coverage",
     "cyberpunk2077":
       "Cyberpunk 2077 Builds, Phantom Liberty Guides & Walkthroughs",
+    "path-of-exile-2":
+      "Path of Exile 2 Builds, Boss Guides & Endgame Atlas — PoE 2 Wiki",
   };
 
   const title = titleTemplates[game.slug]

@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { generateSiteSchemaJsonLd } from "@/lib/seo";
+import NextAuthProvider from "@/components/auth/NextAuthProvider";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -118,9 +119,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </noscript>
         )}
 
-          <Navbar />
-          <main className="flex-1">{children}</main>
-          <Footer />
+          <NextAuthProvider>
+            <Navbar />
+            <main className="flex-1">{children}</main>
+            <Footer />
+          </NextAuthProvider>
       </body>
     </html>
   );
