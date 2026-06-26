@@ -1,4 +1,4 @@
-import { pgTable, text, timestamp, uuid, boolean } from "drizzle-orm/pg-core";
+import { pgTable, text, timestamp, uuid, integer } from "drizzle-orm/pg-core";
 
 export const users = pgTable("user", {
   id: uuid("id").defaultRandom().primaryKey(),
@@ -20,7 +20,7 @@ export const accounts = pgTable("account", {
   providerAccountId: text("providerAccountId").notNull(),
   refresh_token: text("refresh_token"),
   access_token: text("access_token"),
-  expires_at: timestamp("expires_at", { mode: "date" }),
+  expires_at: integer("expires_at"),
   token_type: text("token_type").$type<"bearer" | "mac" | "id_token" | string>(),
   scope: text("scope"),
   id_token: text("id_token"),
