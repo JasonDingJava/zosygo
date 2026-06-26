@@ -49,3 +49,16 @@ export const verificationTokens = pgTable(
     pk: primaryKey({ columns: [table.identifier, table.token] }),
   })
 );
+
+export const savedConfigs = pgTable("saved_config", {
+  id: uuid("id").defaultRandom().primaryKey(),
+  userId: uuid("userId")
+    .notNull()
+    .references(() => users.id, { onDelete: "cascade" }),
+  gameSlug: text("gameSlug").notNull(),
+  toolSlug: text("toolSlug").notNull(),
+  name: text("name").notNull(),
+  data: text("data").notNull(),
+  createdAt: timestamp("createdAt").defaultNow().notNull(),
+  updatedAt: timestamp("updatedAt").defaultNow().notNull(),
+});
