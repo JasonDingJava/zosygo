@@ -51,7 +51,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description,
     },
     robots: {
-      index: slug === "elden-ring",
+      index: true,
       follow: true,
     },
   };

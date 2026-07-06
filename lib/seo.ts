@@ -284,7 +284,7 @@ export function generateGameMetadata(game: Game): Metadata {
       images,
     },
     robots: {
-      index: game.slug === "elden-ring",
+      index: true,
       follow: true,
     },
     other: Object.keys(other).length > 0 ? other : undefined,

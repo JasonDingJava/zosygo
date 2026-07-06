@@ -13,7 +13,7 @@ import { generateBreadcrumbJsonLd } from "@/lib/seo";
 import ContentParagraphs from "@/components/ContentParagraphs";
 
 // Deterministic random selection based on article slug
-function pickRandomImages(articleSlug: string, count: number): string[] {
+function pickRandomImages(articleSlug: string, count: number, gameSlug?: string): string[] {
   // Use article slug as seed for deterministic selection
   let hash = 0;
   for (let i = 0; i < articleSlug.length; i++) {
@@ -22,12 +22,19 @@ function pickRandomImages(articleSlug: string, count: number): string[] {
     hash |= 0;
   }
 
-  const imageDir = path.join(process.cwd(), "public", "images", "articles");
+  // Try game-specific directory first, then fall back to articles/
+  const dirsToTry = gameSlug
+    ? [path.join(process.cwd(), "public", "images", gameSlug), path.join(process.cwd(), "public", "images", "articles")]
+    : [path.join(process.cwd(), "public", "images", "articles")];
+
   let files: string[] = [];
-  try {
-    files = fs.readdirSync(imageDir).filter(f => f.match(/\.(jpg|jpeg|png|gif|webp)$/i));
-  } catch {
-    return [];
+  for (const dir of dirsToTry) {
+    try {
+      files = fs.readdirSync(dir).filter(f => f.match(/\.(jpg|jpeg|png|gif|webp)$/i));
+      if (files.length > 0) break;
+    } catch {
+      continue;
+    }
   }
 
   if (files.length === 0) return [];
@@ -42,6 +49,15 @@ function pickRandomImages(articleSlug: string, count: number): string[] {
   }
 
   return shuffled.slice(0, Math.min(count, shuffled.length));
+}
+
+// Determine which images directory to use for a given game
+function getImageDir(gameSlug: string): string {
+  const gameDir = path.join(process.cwd(), "public", "images", gameSlug);
+  if (fs.existsSync(gameDir)) {
+    return `/images/${gameSlug}`;
+  }
+  return "/images/articles";
 }
 
 type Props = {
@@ -110,7 +126,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: article.metaDescription,
     },
     robots: {
-      index: slug === "elden-ring",
+      index: true,
       follow: true,
     },
   };
@@ -148,7 +164,8 @@ export default async function ArticlePage({ params }: Props) {
   }
 
   // Pick 3 random images for articles without manually set images
-  const randomImages = pickRandomImages(article.slug, 3);
+  const imageBaseDir = getImageDir(article.gameSlug);
+  const randomImages = pickRandomImages(article.slug, 3, article.gameSlug);
   // Sections that get random images: first, middle, and ~2/3
   const sectionCount = article.sections.length;
   const randomImageSectionIndices = [
@@ -304,7 +321,7 @@ export default async function ArticlePage({ params }: Props) {
                 {section.image && (
                   <div className="relative mt-4 mb-6 aspect-video w-full overflow-hidden rounded-sm border border-white/10">
                     <Image
-                      src={`/images/articles/${section.image}`}
+                      src={`${imageBaseDir}/${section.image}`}
                       alt={section.imageAlt || section.heading}
                       fill
                       className="object-cover"
@@ -316,7 +333,7 @@ export default async function ArticlePage({ params }: Props) {
                 {showRandomImage && randomImages.length > randomImgIndex && (
                   <div className="relative mt-4 mb-6 aspect-video w-full overflow-hidden rounded-sm border border-white/10">
                     <Image
-                      src={`/images/articles/${randomImages[randomImgIndex]}`}
+                      src={`${imageBaseDir}/${randomImages[randomImgIndex]}`}
                       alt={`${article.title} screenshot ${randomImgIndex + 1}`}
                       fill
                       className="object-cover"
