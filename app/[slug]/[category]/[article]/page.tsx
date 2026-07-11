@@ -284,6 +284,24 @@ export default async function ArticlePage({ params }: Props) {
             </div>
           )}
 
+          {/* Build Calculator CTA — only on Elden Ring build/weapon articles */}
+          {slug === "elden-ring" && (category === "builds" || category === "weapons") && (
+            <section className="mt-8 rounded-sm border border-[#c9a227]/20 bg-gradient-to-r from-[#0a0a0f] to-[#1a1508] p-5">
+              <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+                <div>
+                  <h3 className="text-base font-bold text-white">⚔️ Try the Elden Ring Build Calculator</h3>
+                  <p className="mt-1 text-sm text-zinc-400">Plan your perfect build with real-time stat calculations and weapon AR comparisons.</p>
+                </div>
+                <Link
+                  href="/elden-ring/tools/build-calculator"
+                  className="inline-flex h-10 shrink-0 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-6 text-sm font-bold uppercase tracking-wider text-black shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]"
+                >
+                  Open Calculator
+                </Link>
+              </div>
+            </section>
+          )}
+
           <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-zinc-500">
             <span>{article.readTimeMinutes} min read</span>
             <span className="h-1 w-1 rounded-full bg-zinc-700" />
@@ -390,24 +408,6 @@ export default async function ArticlePage({ params }: Props) {
                 </li>
               ))}
             </ul>
-          </section>
-        )}
-
-        {/* Build Calculator CTA — only on Elden Ring build/weapon articles */}
-        {slug === "elden-ring" && (category === "builds" || category === "weapons") && (
-          <section className="mt-6 rounded-sm border border-[#c9a227]/20 bg-gradient-to-r from-[#0a0a0f] to-[#1a1508] p-6">
-            <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-              <div>
-                <h3 className="text-base font-bold text-white">⚔️ Try the Elden Ring Build Calculator</h3>
-                <p className="mt-1 text-sm text-zinc-400">Plan your perfect build with real-time stat calculations and weapon AR comparisons.</p>
-              </div>
-              <Link
-                href="/elden-ring/tools/build-calculator"
-                className="inline-flex h-10 shrink-0 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-6 text-sm font-bold uppercase tracking-wider text-black shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]"
-              >
-                Open Calculator
-              </Link>
-            </div>
           </section>
         )}
       </section>
