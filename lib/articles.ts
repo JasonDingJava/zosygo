@@ -2205,11 +2205,11 @@ export const articles: Article[] = [
     metaDescription:
       "Complete Elden Ring build tier list for 2026. Ranked strongest builds with scores, damage ratings, and DLC performance. Bleed Arcane 9.5, Strength 9.4, Intelligence 9.2, Dexterity 8.0, Faith 7.8, Quality 6.5.",
     keyTakeaways: [
-      { label: "\U0001f3c6 Top Build (PvE)", value: "Bleed Arcane \u2014 Score 9.5/10 \u2014 highest boss DPS vs bleedable enemies" },
-      { label: "\U0001f3c6 Top Build (DLC)", value: "Strength Colossal \u2014 Score 9.4/10 \u2014 stagger dominance vs tough DLC bosses" },
-      { label: "\U0001f3c6 Top Build (PvP)", value: "Bleed Arcane / Dexterity Katanas \u2014 fastest pressure and roll-catch" },
-      { label: "\U0001f522 Ranking Criteria", value: "PvE 35% + DLC 25% + PvP 20% + Stat Efficiency 15% + Ease of Use 5%" },
-      { label: "\U0001f4a1 Best for Beginners", value: "Strength Colossal \u2014 high survivability, easy playstyle" },
+      { label: "🏆 Top Build (PvE)", value: "Bleed Arcane \u2014 Score 9.5/10 \u2014 highest boss DPS vs bleedable enemies" },
+      { label: "🏆 Top Build (DLC)", value: "Strength Colossal \u2014 Score 9.4/10 \u2014 stagger dominance vs tough DLC bosses" },
+      { label: "🏆 Top Build (PvP)", value: "Bleed Arcane / Dexterity Katanas \u2014 fastest pressure and roll-catch" },
+      { label: "🔢 Ranking Criteria", value: "PvE 35% + DLC 25% + PvP 20% + Stat Efficiency 15% + Ease of Use 5%" },
+      { label: "💡 Best for Beginners", value: "Strength Colossal \u2014 high survivability, easy playstyle" },
     ],
     sections: [
       {
@@ -2249,7 +2249,7 @@ export const articles: Article[] = [
         }
       },
       {
-        heading: "\U0001f3c6 S Tier Builds (Meta Dominators)",
+        heading: "🏆 S Tier Builds (Meta Dominators)",
         level: 2,
         content: ""
       },
@@ -2269,7 +2269,7 @@ export const articles: Article[] = [
         content: "The safest ranged build. Keep distance and spam powerful sorceries. Excellent for first playthroughs.\n\n**Damage:** ★★★★☆ (9/10)\n**Boss DPS:** ★★★★☆ (9/10)\n**Ease of Use:** ★★★★★ (10/10)\n**PvP:** ★★★★☆ (8/10)\n**DLC:** ★★★★☆ (8/10)\n\n**Best Weapons:**\n- Moonveil Katana\n- Dark Moon Greatsword\n- Carian Regal Scepter\n\n**Weak Against:** Magic-resistant enemies, aggressive PvP opponents\n\n**Core Stats (Lv 150):** Vigor 60, Intelligence 60–80, Mind 25, Dexterity 20–25\n\n**👉 [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build) | [Moonveil Build Guide](https://www.zosygo.com/elden-ring/builds/best-moonveil-build)**"
       },
       {
-        heading: "\U0001f948 A Tier Builds (Strong & Reliable)",
+        heading: "🥈 A Tier Builds (Strong & Reliable)",
         level: 2,
         content: ""
       },
@@ -2284,7 +2284,7 @@ export const articles: Article[] = [
         content: "Versatile but stat-hungry. Incantations offer healing, buffs, and damage, but spreading stats thin hurts efficiency.\n\n**Damage:** ★★★★☆ (7/10)\n**Boss DPS:** ★★★★☆ (7/10)\n**Ease of Use:** ★★★★☆ (8/10)\n**PvP:** ★★★★☆ (8/10)\n**DLC:** ★★★★☆ (8/10)\n\n**Best Weapons:**\n- Blasphemous Blade\n- Sacred Relic Sword\n- Erdtree Seal\n\n**Core Stats (Lv 150):** Vigor 50–60, Faith 50–60, Mind 25, Strength/Dexterity to weapon requirement\n\n**👉 [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build)**"
       },
       {
-        heading: "\U0001f7e3 B Tier Builds (Niche / Outdated)",
+        heading: "🟣 B Tier Builds (Niche / Outdated)",
         level: 2,
         content: ""
       },
