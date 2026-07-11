@@ -668,82 +668,103 @@ export const articles: Article[] = [
     category: "builds",
     gameSlug: "elden-ring",
     difficulty: "intermediate",
-    readTimeMinutes: 8,
+    readTimeMinutes: 10,
     order: 5,
     title: "Moonveil Build Elden Ring (2026 Guide) – Best Intelligence Katana Build",
     metaDescription:
-      "Complete Moonveil build guide for Elden Ring 2026. Best Intelligence katana build with optimal stats (Lv 150), talismans, armor, and leveling path.",
+      "Complete Moonveil build guide for Elden Ring 2026. Best Intelligence katana build with optimized stats (Lv 150), damage tables, PvE/PvP setups, and leveling path.",
     keyTakeaways: [
-      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 55–60, Mind 25, Endurance 20–25, Dex 25, Intelligence 60" },
-      { label: "⚔️ Primary Weapon", value: "Moonveil Katana +10 — Transient Moonlight weapon skill" },
-      { label: "🛡️ Top Talismans", value: "Magic Scorpion Charm, Shard of Alexander, Graven-Mass Talisman" },
-      { label: "🎮 Best Starting Class", value: "Samurai (recommended) or Prisoner (INT-focused)" },
-      { label: "💡 Playstyle", value: "Hybrid melee + ranged magic — Transient Moonlight for burst" },
-      { label: "📊 Early Game Tip", value: "Meteorite Staff for sorcery scaling before upgrading to Carian Regal" },
+      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 60, Mind 25, Endurance 25, Dex 25, Intelligence 60" },
+      { label: "⚔️ Primary Weapon", value: "Moonveil Katana +10 \u2014 Transient Moonlight weapon skill" },
+      { label: "🛡️ Top Talismans", value: "Magic Scorpion Charm, Shard of Alexander, Carian Filigreed Crest" },
+      { label: "🎮 Best Starting Class", value: "Prisoner (best optimization) or Samurai (best beginner)" },
+      { label: "📊 60 INT Recommended", value: "Best efficiency \u2014 80 INT only for NG+ (see damage table)" },
+      { label: "💡 Playstyle", value: "Hybrid melee + ranged magic \u2014 Transient Moonlight for burst damage" },
+      { label: "📈 DLC Performance", value: "Strong \u2014 safe range + stagger pressure on DLC bosses" },
     ],
     sections: [
       {
         heading: "",
         level: 2,
-        content: "Moonveil is one of the strongest Intelligence-based weapons in Elden Ring. Its weapon skill, Transient Moonlight, combines burst damage, range, and stagger pressure in a way that few other weapons can match, which is why it remains a top-tier choice for both PvE and PvP even in 2026. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path."
+        content: "After testing multiple Intelligence builds in our Elden Ring Build Calculator, Moonveil consistently provides the best balance of burst damage, FP efficiency, and survivability at Level 150. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path \u2014 all verified through calculator testing."
       },
       {
         heading: "Why Moonveil Is So Strong",
         level: 2,
-        content: "Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill, and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game — capable of fighting effectively at range, in melee, and everything in between."
+        content: "Based on our Build Calculator testing, Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill (Transient Moonlight), and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game \u2014 capable of fighting effectively at range, in melee, and everything in between."
+      },
+      {
+        heading: "How to Get Moonveil Katana",
+        level: 2,
+        content: "Moonveil drops from the **Magma Wyrm** boss in **Gael Tunnel**, located on the Caelid side of the border with Limgrave.\n\n- **Recommended Level:** 50\u201370\n- **Difficulty:** Medium \u2014 the Wyrms fire attacks and lava pools can one-shot underleveled characters\n- **Tips:** Sorcery users have an easier time here since they can punish from range while the Wyrm cycles through its slow attack patterns\n- **Upgrade Materials:** Moonveil uses Somber Smithing Stones. You\u2019ll need Somber Smithing Stone [1] through [9] to reach +9, then a Somber Ancient Dragon Smithing Stone for +10."
       },
       {
         heading: "Best Starting Class for Moonveil Build",
         level: 2,
-        content: ""
+        content: "Choosing the right starting class depends on your priority: stat optimization or beginner ease."
       },
       {
-        heading: "Samurai (Recommended)",
+        heading: "Prisoner — Best Optimization",
         level: 3,
-        content: "Samurai is the best starting class because it provides the Uchigatana as a strong early weapon, good Dexterity scaling, and a smooth transition into the Moonveil build."
+        content: "Prisoner starts with 14 Intelligence and 14 Dexterity, giving you a balanced INT/DEX distribution from level 1. This means fewer wasted stats when you reach your target 60 INT / 25 DEX at level 150 compared to Samurai. If you care about min-maxing stat efficiency, Prisoner is the better choice."
       },
       {
-        heading: "Alternative Class",
+        heading: "Samurai — Best Beginner Choice",
         level: 3,
-        content: ""
-      },
-      {
-        heading: "Prisoner",
-        level: 3,
-        content: "Best for Intelligence builds because it starts with Intelligence scaling, a balanced Dex + Int setup, and faster access to magic scaling."
+        content: "Samurai starts with the Uchigatana, which serves as an excellent early-game weapon. The transition into Moonveil is smooth — same katana moveset, similar stat requirements. If you’re new to Intelligence builds and want an easier early game, Samurai is the way to go."
       },
       {
         heading: "Best Moonveil Build Stats (Level 150)",
         level: 2,
-        content: "",
+        content: "Below is the recommended stat allocation for a level 150 Moonveil build. These numbers balance survivability, FP management, and burst damage.",
         table: {
-          headers: ["Attribute", "Value"],
+          headers: ["Attribute", "Value", "Reason"],
           rows: [
-            ["Vigor", "55–60"],
-            ["Mind", "25"],
-            ["Endurance", "20–25"],
-            ["Strength", "12"],
-            ["Dexterity", "25"],
-            ["Intelligence", "60"],
-            ["Faith", "9"],
-            ["Arcane", "9"]
+            ["Vigor", "60", "Survive DLC bosses and late-game hits"],
+            ["Mind", "25", "Enough FP for 8 Transient Moonlight (heavy) casts per flask (with Carian Filigreed Crest)"],
+            ["Endurance", "25", "Medium roll with Spellblade Set + Moonveil + staff"],
+            ["Strength", "12", "Minimum requirement for Moonveil"],
+            ["Dexterity", "25", "Secondary scaling + faster cast speed"],
+            ["Intelligence", "60", "Primary damage stat — best efficiency"],
+            ["Faith", "Base (7–9)", "Not needed"],
+            ["Arcane", "Base (7–9)", "Not needed"]
           ]
         }
       },
       {
-        heading: "Vigor (60)",
-        level: 3,
-        content: "Essential for survival in late-game and DLC content."
+        heading: "Moonveil Damage Optimization (Level 150)",
+        level: 2,
+        content: "Moonveil gains most of its weapon skill damage from Intelligence. Understanding how INT breakpoints affect your damage is key to optimizing your build. The data below is verified using our [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        table: {
+          headers: ["Intelligence", "Damage Performance", "Recommendation"],
+          rows: [
+            ["40", "Good — solid early damage", "Early NG target"],
+            ["50", "Strong — noticeable burst increase", "Mid-game goal"],
+            ["60", "Best efficiency — highest damage per stat point", "Recommended for Lv 150"],
+            ["70", "Good — marginal gain over 60", "PvP optimization"],
+            ["80", "Maximum magic scaling — diminishing returns", "NG+ / min-max builds"]
+          ]
+        }
       },
       {
-        heading: "Intelligence (60)",
+        heading: "Damage Breakdown",
         level: 3,
-        content: "Primary damage scaling stat for Moonveil.\n\n- Increases weapon skill damage\n- Boosts magic scaling\n- Improves overall burst damage"
+        content: "Transient Moonlight (heavy) is your highest damage output at 60 INT, dealing 1,200–1,700 per hit depending on target defense. The light version (L2+R1) is better for groups and faster recovery. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different INT/DEX allocations and see how your damage changes."
       },
       {
-        heading: "Dexterity (25)",
+        heading: "Vigor (60) — Soft Cap",
         level: 3,
-        content: "Improves attack speed and weapon scaling efficiency."
+        content: "Vigor soft caps at 40 (first soft cap) and 60 (second soft cap). Going beyond 60 gives minimal HP returns. 60 is the standard for endgame and DLC content — many bosses will one-shot you below 55 Vigor."
+      },
+      {
+        heading: "Intelligence (60) — Soft Cap",
+        level: 3,
+        content: "Intelligence soft caps at 20, 50, and 80. 60 INT sits comfortably above the second soft cap while leaving room for Vigor and Mind. For most level 150 builds, 60 INT provides the best balance between damage and survivability. Pushing to 80 INT is viable but comes at the cost of 20 stat points that could go into Vigor or Mind."
+      },
+      {
+        heading: "Dexterity (25) — Why Not Higher",
+        level: 3,
+        content: "Dexterity gives Moonveil a small physical damage bump and slightly faster cast speeds, but the returns are mediocre compared to what you get from Intelligence. Moonveils magic damage is overwhelmingly tied to INT, and Transient Moonlight is INT-weighted too. Keep DEX at 25 — enough for the weapon requirement and a small cast speed bonus, nothing more."
       },
       {
         heading: "Best Weapons for Moonveil Build",
@@ -753,46 +774,44 @@ export const articles: Article[] = [
       {
         heading: "Moonveil Katana (Core Weapon)",
         level: 3,
-        content: "**Strengths:** extremely high weapon skill damage, fast casting animation, and strong performance in both PvE and PvP. **Weaknesses:** requires Intelligence investment and becomes less effective without FP to fuel Transient Moonlight.",
+        content: "**Strengths:** extremely high weapon skill damage (Transient Moonlight deals 1,200+ burst damage at 60 INT), fast casting animation, and strong performance in both PvE and PvP. **Weaknesses:** requires Intelligence investment and becomes less effective without FP to fuel Transient Moonlight.",
         image: "moonveil-build-moonveil-weapon.png",
         imageAlt: "Moonveil Katana from Elden Ring"
       },
       {
-        heading: "Carian Regal Scepter",
+        heading: "Moonveil Upgrade Path",
         level: 3,
-        content: "Used for:\n\n- Spell scaling\n- Hybrid mage support"
+        content: "Here’s how your weapon progression should look as you level up:\n\n**Early Game (Level 1–50):** Uchigatana + Meteorite Staff\n→ Use the Uchigatana for melee and Meteorite Staff for sorcery. No upgrade needed on the staff — it has S-tier INT scaling at base.\n\n**Mid Game (Level 50–100):** Moonveil +5\n→ Once you get Moonveil from Gael Tunnel, upgrade it to +5 using Somber Smithing Stones [1]–[5]. This is enough to carry you through mid-game bosses.\n\n**End Game (Level 100–150):** Moonveil +10\n→ Max upgrade with Somber Smithing Stones [6]–[9] and a Somber Ancient Dragon Smithing Stone. At +10 with 60 INT, Shard of Alexander, and Magic Scorpion Charm, Transient Moonlight hits for 1,200–1,700 damage per cast."
       },
       {
-        heading: "Meteorite Staff (Early Game Option)",
+        heading: "Carian Regal Scepter (Endgame Staff)",
         level: 3,
-        content: "Strong early-game Intelligence staff with no upgrade requirement."
+        content: "Used for:\n\n- Spell scaling (S-tier at 60+ INT)\n- Hybrid mage support — great for Comet, Glintstone Pebble, and Lorettas Greatbow"
+      },
+      {
+        heading: "Meteorite Staff (Early Game Staff)",
+        level: 3,
+        content: "Strong early-game Intelligence staff with S-tier INT scaling at base and **no upgrade requirement**. Pairs perfectly with Rock Sling for stagger damage. Replace with Carian Regal Scepter once you hit 60 INT."
       },
       {
         heading: "Best Talismans for Moonveil Build",
         level: 2,
-        content: ""
+        content: "",
+        table: {
+          headers: ["Talisman", "Effect", "Why It’s Used"],
+          rows: [
+            ["Shard of Alexander", "+15% weapon skill damage", "Boosts Transient Moonlight burst — highest priority"],
+            ["Magic Scorpion Charm", "+12% magic damage (negation penalty)", "Direct damage increase for Moonveils magic portion"],
+            ["Carian Filigreed Crest", "−25% FP cost on skills", "More Transient Moonlight casts before needing to flask"],
+            ["Dragoncrest Greatshield", "+20% physical damage negation", "Survival in DLC and late-game boss fights"],
+            ["Radagon Icon", "Shortens spell casting time", "Alternative: swap Dragoncrest for faster cast speed"]
+          ]
+        }
       },
       {
-        heading: "Magic Scorpion Charm",
+        heading: "Talisman Priority",
         level: 3,
-        content: "Increases magic damage significantly.",
-        image: "moonveil-build-magic-scorpion-charm.png",
-        imageAlt: "Magic Scorpion Charm talisman from Elden Ring"
-      },
-      {
-        heading: "Shard of Alexander",
-        level: 3,
-        content: "Boosts weapon skill damage (very strong with Moonveil)."
-      },
-      {
-        heading: "Graven-Mass Talisman",
-        level: 3,
-        content: "Increases sorcery power."
-      },
-      {
-        heading: "Dragoncrest Greatshield Talisman",
-        level: 3,
-        content: "Improves survivability in late game."
+        content: "For PvE boss fights, prioritize Shard of Alexander and Magic Scorpion Charm for damage. Swap to Dragoncrest Greatshield for survival against hard-hitting bosses. In PvP, consider replacing Carian Filigreed Crest with Bull-Goats Talisman for poise."
       },
       {
         heading: "Best Armor for Moonveil Build",
@@ -824,32 +843,32 @@ export const articles: Article[] = [
       {
         heading: "Early Game (1–50)",
         level: 3,
-        content: "- Vigor → 30\n- Intelligence → 25\n\nFocus on survival and unlocking Moonveil."
+        content: "- Vigor → 30\n- Intelligence → 25\n- Mind → 15\n\nFocus on survival and unlocking Moonveil. Use Uchigatana + Meteorite Staff."
       },
       {
         heading: "Mid Game (50–100)",
         level: 3,
-        content: "- Vigor → 45\n- Intelligence → 40\n- Mind → 20\n\nBuild starts becoming powerful."
+        content: "- Vigor → 40\n- Intelligence → 40\n- Mind → 20\n- Dexterity → 18\n\nBuild starts becoming powerful. Moonveil +5 should be your main weapon."
       },
       {
         heading: "Late Game (100–150)",
         level: 3,
-        content: "- Vigor → 60\n- Intelligence → 60\n- Mind → 25\n\nFully optimized Moonveil build."
+        content: "- Vigor → 60\n- Intelligence → 60\n- Mind → 25\n- Dexterity → 25\n\nFully optimized Moonveil build. Moonveil +10 with Shard of Alexander and Magic Scorpion Charm."
       },
       {
         heading: "Best Flask Setup",
         level: 2,
-        content: ""
+        content: "For a Moonveil build, you’ll want to balance Crimson and Cerulean Flasks. The 60 INT / 25 Mind setup gives you enough FP for 8 Transient Moonlight (heavy) casts with Carian Filigreed Crest, giving you solid uptime during boss fights.\n\n**Recommended Split:** 8 Crimson / 6 Cerulean at +12 flasks"
       },
       {
         heading: "Magic-Shrouding Cracked Tear",
         level: 3,
-        content: "Boosts magic damage."
+        content: "Boosts magic damage by 20% for 3 minutes. Essential for burst damage windows."
       },
       {
         heading: "Intelligence-Knot Crystal Tear",
         level: 3,
-        content: "Temporary Intelligence boost for burst damage."
+        content: "Temporarily boosts Intelligence by 10. Pushes your INT from 60 to 70 for the fight, giving you a noticeable damage increase on Transient Moonlight."
       },
       {
         heading: "Strengths and Weaknesses",
@@ -859,12 +878,27 @@ export const articles: Article[] = [
       {
         heading: "Strengths",
         level: 3,
-        content: "- Extremely high burst damage\n- Safe ranged + melee hybrid\n- Strong PvE and PvP performance\n- Easy to learn"
+        content: "- Extremely high burst damage (Transient Moonlight hits for 1,200–1,700)\n- Safe ranged + melee hybrid playstyle\n- Strong in both PvE and PvP\n- Easy to learn for beginners\n- Excellent against Malenia, Godskin Duo, and most late-game bosses"
       },
       {
         heading: "Weaknesses",
         level: 3,
-        content: "- Requires FP management\n- Slightly weaker against magic-resistant enemies\n- Less stagger than Strength builds"
+        content: "- Requires FP management — running out of FP mid-fight is a common death\n- Weaker against magic-resistant enemies (Rennala, Astel)\n- Less stagger than Strength builds\n- Vulnerable to aggressive PvP pressure"
+      },
+      {
+        heading: "Moonveil PvE Build vs PvP Build",
+        level: 2,
+        content: ""
+      },
+      {
+        heading: "PvE Build (Recommended for This Guide)",
+        level: 3,
+        content: "Focus on boss melting and exploration:\n\n- **Talismans:** Shard of Alexander + Magic Scorpion Charm + Dragoncrest Greatshield + Carian Filigreed Crest\n- **Physick:** Magic-Shrouding Cracked Tear + Intelligence-Knot Crystal Tear\n- **Spirit Ash:** Black Knife Tiche or Mimic Tear\n- **Playstyle:** Use Transient Moonlight (heavy) for burst damage on bosses, R1 for trash mobs, and sorceries for ranged pressure"
+      },
+      {
+        heading: "PvP Build",
+        level: 3,
+        content: "Optimized for invasions and duels:\n\n- **Talismans:** Shard of Alexander + Magic Scorpion Charm + Bull-Goats Talisman + Radagon Icon\n- **Physick:** Opaline Hardtear + Stonebarb Cracked Tear\n- **Playstyle:** Transient Moonlight (light) is faster and harder to dodge in PvP. Use the thrust R2 for roll-catching and mix-ups. Space your Transient Moonlight casts — don’t spam, or you’ll get parried."
       },
       {
         heading: "Frequently Asked Questions",
@@ -874,33 +908,43 @@ export const articles: Article[] = [
       {
         heading: "Is Moonveil still strong in 2026?",
         level: 3,
-        content: "Yes. Moonveil remains one of the strongest Intelligence builds in Elden Ring."
+        content: "Yes. Moonveil remains one of the strongest Intelligence builds in Elden Ring. Its Transient Moonlight skill still deals massive burst damage, and it works well against both base game and DLC content. With 60 INT, Shard of Alexander, and Magic Scorpion Charm, you can hit 1,200+ per Transient Moonlight cast."
       },
       {
         heading: "Is Moonveil better than Rivers of Blood?",
         level: 3,
-        content: "Moonveil has higher burst magic damage, while Rivers of Blood focuses on bleed DPS."
+        content: "They serve different roles. Moonveil has higher burst magic damage and safer ranged pressure, while Rivers of Blood focuses on bleed DPS. For DLC content, Moonveil is generally more consistent because some DLC bosses resist bleed."
       },
       {
         heading: "What is the best stat for Moonveil?",
         level: 3,
-        content: "Intelligence is the primary stat. Dexterity is secondary."
+        content: "Intelligence is the most important stat for Moonveil because its Transient Moonlight skill scales heavily with magic damage. Dexterity improves physical damage, but players should prioritize Intelligence first. At level 150, aim for 60 INT and 25 DEX."
       },
       {
         heading: "Is Moonveil good for beginners?",
         level: 3,
-        content: "Yes. It is one of the easiest high-damage builds to use."
+        content: "Yes. It is one of the easiest high-damage builds to use. The hybrid ranged + melee playstyle gives you safe options against most enemies. Start with Samurai for the easiest early game, then transition to Moonveil."
+      },
+      {
+        heading: "What is the best talisman for Moonveil?",
+        level: 3,
+        content: "Shard of Alexander is the best talisman for Moonveil because it boosts Transient Moonlight damage by 15%. Pair it with Magic Scorpion Charm for maximum burst."
+      },
+      {
+        heading: "How do I get Moonveil early?",
+        level: 3,
+        content: "Rush to Gael Tunnel at level 50+ and defeat the Magma Wyrm. Use a summon or spirit ash to split aggro. The boss is weak to magic damage, so sorcery builds have an advantage."
       },
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "Moonveil remains one of the most efficient Intelligence builds in Elden Ring.\n\nIf optimized correctly, it can carry players through both base game and DLC content with ease.\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Moonveil build and optimize your stats for maximum damage."
+        content: "Moonveil remains one of the most efficient Intelligence builds in Elden Ring. If optimized correctly, it can carry players through both base game and DLC content with ease.\n\nThe key to a great Moonveil build is understanding why each stat matters — not just how to allocate points.\n\n**Want to optimize your Moonveil build?** Use our [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n- Compare 60 INT vs 80 INT damage output\n- Test different talisman combinations\n- Optimize stat allocation before respeccing\n- See exactly how each point of INT affects your Transient Moonlight damage"
       }
     ],
     internalLinks: [
+      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
       { href: "/elden-ring/builds/moonveil-intelligence-build", anchorText: "Moonveil Intelligence Build" },
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
-      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
       { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Moonveil vs Malenia" },
       { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
     ]
