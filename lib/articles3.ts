@@ -3,141 +3,176 @@ import type { Article } from "./articles";
 // ═══ ELDEN RING — WEAPONS (Reduvia Dagger) ═══
 const article37: Article = {
   keyTakeaways: [
-    { label: "🎯 Why It's Strong", value: "Bleed projectile system — not a melee dagger, ranged bleed pressure" },
-    { label: "⚔️ Weapon Skill (Reduvia Blood Blade)", value: "Fires bleed projectiles — safe ranged pressure + bleed buildup" },
+    { label: "🎯 Why It's Strong", value: "Ranged bleed projectile system — safe pressure + fast bleed" },
+    { label: "🗺️ Location", value: "Murkwater Cave (Limgrave) — kill Bloody Finger Nerijus" },
     { label: "📊 Best Build", value: "ARC 45-60, DEX 20-30, Vigor 50-60" },
-    { label: "🛡️ Best Early Weapon", value: "Obtainable immediately in Limgrave — carries through mid game" },
-    { label: "💡 Best For", value: "Bleed builds, early game, safe ranged poke" },
-    { label: "⚠️ Weakness", value: "Low raw damage, falls off late game vs bosses" },
+    { label: "🛡️ Upgrade", value: "+10 Somber — all materials available before endgame" },
+    { label: "⚡ Best For", value: "Bleed builds, early game, safe ranged poke" },
+    { label: "⚠️ Weakness", value: "Low raw damage, falls off late game vs bleed-resistant bosses" },
   ],
   slug: "reduvia-dagger-explained",
   category: "weapons",
   gameSlug: "elden-ring",
   difficulty: "beginner",
-  readTimeMinutes: 7,
+  readTimeMinutes: 10,
   order: 37,
   title: "Reduvia Dagger Explained: Why This Early Bleed Weapon Dominates Arcane Builds in Elden Ring (2026 Guide)",
   metaDescription:
-    "Complete breakdown of Reduvia scaling, bleed projectile skill, Arcane synergy, early-game power spike, and why it remains one of the best starter bleed weapons in Elden Ring.",
+    "Complete Reduvia Dagger guide: location, stats, scaling, best builds (Level 50/100/150), talismans, upgrade path, and Arcane damage analysis. Everything you need for the best bleed dagger in Elden Ring.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Reduvia is one of the most deceptive weapons in Elden Ring.\\n\\nAt first glance, it looks like a simple dagger.\\n\\nLow range.\\n\\nLow base damage.\\n\\nVery early acquisition.\\n\\nBut in practice, Reduvia behaves like a ranged bleed pressure tool that scales far beyond its early-game classification.\\n\\nMost players underestimate it because they evaluate it as a melee dagger.\\n\\nThat is the wrong mental model.\\n\\nReduvia is not a dagger.\\n\\nIt is a bleed projectile system weapon.",
+        "Reduvia is one of the most deceptive weapons in Elden Ring.\\n\\nAt first glance, it looks like a simple dagger. Low range. Low base damage. Very early acquisition.\\n\\nBut in practice, Reduvia behaves like a ranged bleed pressure tool that scales far beyond its early-game classification.\\n\\nThis guide covers everything you need: where to find it, exact stats, scaling data, best builds at every level, optimal talismans, upgrade materials, and alternatives.",
     },
     {
       heading: "Quick Answer",
       level: 2,
       content:
-        "If you are wondering whether Reduvia is worth using:\\n\\n* Yes, it is one of the strongest early Arcane weapons in Elden Ring\\n* Yes, it provides ranged bleed pressure through its skill\\n* Yes, it scales extremely well with Arcane builds\\n* Yes, it remains viable into mid game with proper upgrades\\n\\nIts strength comes from fast bleed application combined with ranged skill spam.",
+        "**Is Reduvia worth using?**\\n\\n* Yes — one of the strongest early Arcane weapons\\n* Yes — ranged bleed pressure through its unique skill\\n* Yes — scales well with Arcane up to +10\\n* Yes — remains viable into mid game with proper upgrades\\n\\nIts core strength: fast bleed application from a safe distance, combined with low stat requirements (STR 5, DEX 13, ARC 13) that almost any build can meet early on.",
     },
     {
-      heading: "Weapon Overview",
+      heading: "Reduvia Location",
       level: 2,
       content:
-        "| Category | Details |\\n| ------------- | ---------------------------- |\\n| Type | Dagger |\\n| Scaling | DEX / ARC |\\n| Status Effect | Bleed |\\n| Skill | Reduvia Blood Blade |\\n| Playstyle | Ranged bleed pressure |\\n| Strength | Early burst + Arcane synergy |\\n| Weakness | Low melee range |\\n\\nReduvia is designed around fast status application, not melee trading.",
+        "Reduvia is obtained early in Limgrave from an NPC invader.\\n\\n### Step-by-Step\\n\\n1. Travel to **Murkwater Cave** — located north of Agheel Lake, in the ravine east of the Agheel Lake North Site of Grace\\n2. Enter the cave and proceed through the short tunnel\\n3. The **Bloody Finger Nerijus** NPC invader will spawn inside\\n4. **Defeat Nerijus** — he uses bleed attacks and the Reduvia skill against you\\n5. Reduvia drops automatically upon defeat\\n\\n### Tips\\n\\n* Recommended level: 15-20\\n* Summon **Yura** (NPC sign outside the cave) for assistance\\n* Nerijus has low HP but his bleed can stunlock — stay mobile\\n* You can sprint past the cave enemies straight to the boss fog\\n\\nThe entire process takes under 5 minutes from the Site of Grace.",
     },
     {
-      heading: "Why Reduvia Feels Overpowered Early Game",
+      heading: "Reduvia Stats",
       level: 2,
       content:
-        "Reduvia breaks early-game balance through three systems.",
+        "| Stat | Value |\\n| Type | Dagger |\\n| Attack Type | Slash / Pierce |\\n| Weight | 2.5 |\\n| Scaling (Base) | STR E, DEX E, ARC D |\\n| Scaling (+10) | STR E, DEX D, ARC B |\\n| Required Stats | STR 5, DEX 13, ARC 13 |\\n| Passive Effect | Blood Loss (52) |\\n| Weapon Skill | Reduvia Blood Blade |\\n| FP Cost | 11 per use |\\n| Stamina Cost | 20 per use |\\n| Max Upgrade | +10 (Somber Smithing Stones)\\n\\nAt +10 with 45 ARC, Reduvia reaches approximately 240 Physical AR with 72 bleed buildup per hit.",
     },
     {
-      heading: "Ranged Bleed Projectiles",
-      level: 3,
+      heading: "Reduvia Scaling",
+      level: 2,
       content:
-        "The weapon skill fires blood blades at mid-range.\\n\\nThis creates:\\n\\n* Safe damage output from distance\\n* Fast bleed buildup\\n* Strong PvE control\\n\\nMost early weapons cannot apply status effects safely at range.\\n\\nReduvia can.",
+        "Reduvia's scaling improves significantly as you upgrade. Here is the progression:",
     },
     {
-      heading: "Arcane Scaling Acceleration",
+      heading: "Upgrade Scaling Progression",
       level: 3,
       content:
-        "Reduvia scales heavily with Arcane.\\n\\nArcane improves:\\n\\n* Bleed buildup speed\\n* Skill damage output\\n* Status consistency\\n\\nThis creates a scaling curve where damage increases rapidly with investment.",
+        "| Upgrade Level | STR Scaling | DEX Scaling | ARC Scaling |\\n| Base | E | E | D |\\n| +3 | E | E | D |\\n| +5 | E | E | C |\\n| +7 | E | D | C |\\n| +9 | E | D | B |\\n| +10 | E | D | B |\\n\\nThe jump at +5 (ARC C) is significant — it is the recommended minimum for any Arcane build using Reduvia.",
     },
     {
-      heading: "Early Acquisition Power Spike",
+      heading: "Damage by Arcane Investment",
       level: 3,
       content:
-        "Reduvia can be obtained very early in Limgrave.\\n\\nThis means:\\n\\n* Players gain a strong weapon before major bosses\\n* Early game difficulty is significantly reduced\\n* Arcane builds become viable immediately\\n\\nThis early spike is part of its identity.",
+        "| ARC | Physical AR | Bleed Buildup | Recommendation |\\n| 20 | ~180 | ~56 | Minimum for bleed builds |\\n| 30 | ~205 | ~62 | Good early breakpoint |\\n| 45 | ~240 | ~72 | Optimal — best AR-to-bleed ratio |\\n| 60 | ~265 | ~80 | Excellent for pure Arcane builds |\\n| 80 | ~280 | ~85 | Diminishing returns, better spent elsewhere |\\n\\nWant to check exact AR for your stats? Use the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to compare different stat allocations before respeccing.",
+    },
+    {
+      heading: "Best Reduvia Build",
+      level: 2,
+      content:
+        "Here are three optimized builds for different level ranges. Each prioritizes Arcane for bleed buildup and skill damage.",
+    },
+    {
+      heading: "Level 50 Build (Early Game)",
+      level: 3,
+      content:
+        "| Stat | Value |\\n| Vigor | 25 |\\n| Mind | 15 |\\n| Endurance | 15 |\\n| Strength | 5 |\\n| Dexterity | 18 |\\n| Intelligence | 9 |\\n| Faith | 8 |\\n| Arcane | 30 |\\n\\n**Starting Class:** Bandit or Warrior\\n**Focus:** Ranged bleed pressure + skill spam",
+    },
+    {
+      heading: "Level 100 Build (Mid Game)",
+      level: 3,
+      content:
+        "| Stat | Value |\\n| Vigor | 40 |\\n| Mind | 20 |\\n| Endurance | 20 |\\n| Strength | 5 |\\n| Dexterity | 22 |\\n| Intelligence | 9 |\\n| Faith | 8 |\\n| Arcane | 50 |\\n\\n**Starting Class:** Bandit or Warrior\\n**Focus:** High bleed output + survivability for legacy dungeons",
+    },
+    {
+      heading: "Level 150 Build (End Game)",
+      level: 3,
+      content:
+        "| Stat | Value |\\n| Vigor | 55 |\\n| Mind | 25 |\\n| Endurance | 25 |\\n| Strength | 5 |\\n| Dexterity | 30 |\\n| Intelligence | 9 |\\n| Faith | 8 |\\n| Arcane | 60 |\\n\\n**Starting Class:** Bandit\\n**Focus:** Max bleed + skill damage, endgame viable\\n\\nFine-tune your exact stats with the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane investment dramatically increases both bleed speed and skill damage.",
+    },
+    {
+      heading: "Best Talismans for Reduvia",
+      level: 2,
+      content:
+        "Reduvia benefits from talismans that boost skill damage, consecutive attacks, and bleed synergy.\\n\\n### Core Talismans\\n\\n**Lord of Blood's Exultation** — +20% damage for 20 seconds whenever bleed procs nearby. This is your highest priority talisman. Nearly permanent uptime in most fights.\\n\\n**Rotten Winged Sword Insignia** — consecutive attacks boost damage up to +10%. Reduvia's skill spam triggers this easily.\\n\\n**Millicent's Prosthesis** — +5 Dexterity plus the consecutive attack buff (stacks partially with Rotten Winged Sword).\\n\\n**Shard of Alexander** — +15% weapon skill damage. Directly increases Reduvia Blood Blade damage. Essential for endgame.\\n\\n### Defensive Options\\n\\n**Dragoncrest Greatshield Talisman** — massive physical damage reduction. Use when trading hits.\\n\\n**Green Turtle Talisman** — +8% stamina recovery speed. Reduvia's skill spam is stamina-hungry.\\n\\n### Recommended Setup\\n\\n* **Early Game:** Lord of Blood's Exultation + Green Turtle + Dragoncrest\\n* **Late Game:** Shard of Alexander + Lord of Blood's Exultation + Rotten Winged Sword + Millicent's",
+    },
+    {
+      heading: "Best Crystal Tears for Reduvia",
+      level: 2,
+      content:
+        "The **Thorny Cracked Tear** is the standout choice for Reduvia. It boosts consecutive attack damage, which synergizes perfectly with Blood Blade spam.\\n\\n### Recommended\\n\\n* **Thorny Cracked Tear** — consecutive attack damage boost. Each Blood Blade hit stacks this buff.\\n* **Opaline Hardtear** — all damage negation for 3 minutes. Great for survivability.\\n* **Greenburst Crystal Tear** — stamina recovery speed. Helps sustain skill spam.\\n\\n### Not Recommended\\n\\n* Magic-shrouded Cracked Tear — Reduvia deals physical/bleed damage, not magic.\\n* Lightning/Fire tears — no benefit for this weapon.\\n\\nBest combo: **Thorny Cracked Tear + Opaline Hardtear** for a balance of offense and defense.",
+    },
+    {
+      heading: "Upgrade Path — Reduvia to +10",
+      level: 2,
+      content:
+        "Reduvia uses **Somber Smithing Stones**, not regular ones. Here is the full upgrade path:",
+    },
+    {
+      heading: "Somber Smithing Stone Locations",
+      level: 3,
+      content:
+        "| Level | Material | Early Location |\\n| +1 | Somber Stone [1] | Limgrave Tunnels (buy from Merchant) |\\n| +2 | Somber Stone [2] | Liurnia — Raya Lucaria Crystal Tunnel |\\n| +3 | Somber Stone [3] | Altus Plateau — Sealed Tunnel |\\n| +4 | Somber Stone [4] | Mt. Gelmir — Sellia Crystal Tunnel |\\n| +5 | Somber Stone [5] | Leyndell — buy from Twin Maiden Husks |\\n| +6 | Somber Stone [6] | Mountaintops — Guardian's Garrison |\\n| +7 | Somber Stone [7] | Farum Azula — Dragon Temple area |\\n| +8 | Somber Stone [8] | Farum Azula — near Beside the Great Bridge |\\n| +9 | Somber Stone [9] | Consecrated Snowfield — Cave of the Forlorn |\\n| +10 | Somber Ancient Dragon Stone | Crumbling Farum Azula / Elphael (endgame) |\\n\\nYou can reach +9 before entering the Mountaintops by buying Somber Stones from the Twin Maiden Husks at Roundtable Hold (requires their respective bell bearings).",
+    },
+    {
+      heading: "Best Reduvia Alternatives",
+      level: 2,
+      content:
+        "If you want a different playstyle or need a backup weapon, here are the best alternatives:",
+    },
+    {
+      heading: "Other Bleed Weapons Compared",
+      level: 3,
+      content:
+        "| Weapon | Why Choose It | Key Difference from Reduvia |\\n| **Bandit's Curved Sword** | Farmable early, infuse with bleed | Melee-focused, no ranged option |\\n| **Eleonora's Poleblade** | Arcane twinblade, more range | Higher DPS, worse FP efficiency |\\n| **Nagakiba** | Longest katana, flexible AoW | Pure melee, no ranged bleed |\\n| **Rivers of Blood** | Late-game bleed powerhouse | Requires 20 ARC, multi-hit AoW |\\n| **Bloodhound's Fang** | STR/DEX bleed, no Arcane | Better for quality builds |\\n\\nEach has a different niche. Reduvia is the safest option due to its ranged pressure — none of these alternatives offer the same safe distance playstyle.",
+    },
+    {
+      heading: "Reduvia Damage by Arcane Investment",
+      level: 2,
+      content:
+        "Here is a unique look at how Reduvia's performance changes with Arcane investment:",
+    },
+    {
+      heading: "Arcane Breakpoints",
+      level: 3,
+      content:
+        "| ARC Level | Relative Damage | Recommendation |\\n| 20 | ★★☆☆☆ | Too low for dedicated bleed builds |\\n| 30 | ★★★☆☆ | Good early-game breakpoint |\\n| 45 | ★★★★★ | Optimal balance of AR and bleed buildup |\\n| 60 | ★★★★★ | Excellent for pure Arcane builds |\\n| 80 | ★★★★☆ | Diminishing returns beyond most soft caps |\\n\\n**Why 45 ARC is the sweet spot:**\\n\\n* Bleed buildup per hit reaches ~72 at +10\\n* Physical AR is competitive for a dagger (~240)\\n* Remaining levels can go to Vigor (60) and Endurance for sustained pressure\\n\\nUse the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to compare the exact attack rating and bleed buildup for your current stats before spending Larval Tears.",
     },
     {
       heading: "How Reduvia Blood Blade Actually Works",
       level: 2,
       content:
-        "Many players misunderstand the skill as simple projectile spam.\\n\\nIt is actually a layered bleed system.\\n\\n### Activation\\n\\nThe player slashes forward, releasing blood energy.\\n\\n### Projectile Behavior\\n\\n* Fast travel speed\\n* Mid-range reach\\n* Multi-hit bleed buildup potential\\n\\n### Core Function\\n\\nThe skill allows dagger-class weapons to function as ranged pressure tools.",
+        "The weapon skill fires blood projectiles at mid-range. Each hit builds bleed and deals physical damage.\\n\\n### Key Mechanics\\n\\n* Fast travel speed — hard to dodge in PvP\\n* Mid-range reach — safer than any melee bleed option\\n* Multi-hit potential — can trigger bleed in 3-4 hits\\n* FP cost: 11 per use — manageable with Mind investment\\n\\nThe skill is not affected by Ash of War changes — Reduvia is a unique weapon with a fixed skill.",
     },
     {
       heading: "Best Way To Use Reduvia",
       level: 2,
       content:
-        "Reduvia is not a melee spam weapon.\\n\\nIt is a spacing-based bleed harass weapon.\\n\\n### Core Loop\\n\\n1. Maintain mid-range spacing\\n2. Use Blood Blade skill repeatedly\\n3. Force bleed buildup\\n4. Punish stagger windows with melee hits\\n5. Reset distance\\n\\nThis loop maximizes safety and bleed efficiency.",
-    },
-    {
-      heading: "Why Reduvia Works So Well In PvE",
-      level: 2,
-      content:
-        "Reduvia performs strongly in PvE because:\\n\\n### Safe Damage Output\\n\\nPlayers can deal damage without entering melee range.\\n\\n### Rapid Bleed Activation\\n\\nSmall enemies and bosses both trigger bleed quickly.\\n\\n### Stagger Pressure\\n\\nRepeated hits interrupt weaker enemy attack patterns.",
-    },
-    {
-      heading: "Best Stats For Reduvia",
-      level: 2,
-      content:
-        "### Primary Scaling\\n\\n* Arcane (highest priority)\\n* Dexterity (secondary)\\n\\n### Recommended Vigor\\n\\n* 25–35 early game\\n* 40 mid game\\n\\n### Build Type\\n\\n* Pure Arcane bleed builds\\n* Dex/Arc hybrid setups\\n\\nPlan your Reduvia bleed build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane investment dramatically increases both bleed speed and skill damage.",
-    },
-    {
-      heading: "Best Bosses For Reduvia",
-      level: 2,
-      content:
-        "Reduvia excels against:\\n\\n### Early Game Bosses\\n\\n* Margit\\n* Godrick\\n* Rennala\\n\\n### Mid Game Bosses\\n\\n* Radahn\\n* Morgott\\n* Godfrey (Phase 1)",
-    },
-    {
-      heading: "Why It Works Against Bosses",
-      level: 2,
-      content:
-        "Reduvia is effective because it exploits boss design patterns:\\n\\n* Predictable attack windows\\n* Large HP pools (bleed scaling advantage)\\n* Recovery frames that allow ranged punishment\\n\\nBleed damage scales extremely well against high HP targets.",
+        "Reduvia is a spacing-based bleed harass weapon, not a melee spam weapon.\\n\\n### Core Loop\\n\\1. Maintain mid-range spacing\\n2. Use Blood Blade skill repeatedly\\n3. Force bleed buildup from distance\\n4. Punish stagger windows with melee hits\\n5. Reset distance and repeat\\n\\n### Boss Tips\\n\\n* Use Blood Blade during boss recovery frames\\n* Against mobile bosses, aim slightly ahead of their movement\\n* Dual-wield Reduvias for double bleed buildup (power stance)\\n* Keep enough stamina for at least 3-4 skill uses before retreating",
     },
     {
       heading: "Weaknesses Of Reduvia",
       level: 2,
       content:
-        "Despite its strength, it has clear limitations:\\n\\n### Very Short Melee Range\\n\\nWithout skill usage, melee combat is risky.\\n\\n### Stamina Dependency\\n\\nSkill spam consumes stamina quickly.\\n\\n### Lower Late-Game Scaling\\n\\nCompared to higher-tier bleed weapons, it falls off without optimization.",
-    },
-    {
-      heading: "Reduvia vs Other Bleed Weapons",
-      level: 2,
-      content:
-        "### Versus Rivers of Blood\\n\\nReduvia is early-game ranged bleed pressure, Rivers of Blood is late-game multi-hit burst.\\n\\n### Versus Uchigatana\\n\\nUchigatana is balanced melee bleed, Reduvia is ranged skill bleed.\\n\\n### Versus Bloodhound's Fang\\n\\nBloodhound's Fang is burst mobility, Reduvia is status pressure.",
-    },
-    {
-      heading: "Why Reduvia Is So Popular",
-      level: 2,
-      content:
-        "Reduvia is popular because it changes early-game difficulty curves.\\n\\nInstead of:\\n\\n* Slow melee fights\\n* Risky early bosses\\n\\nPlayers get:\\n\\n* Safe ranged bleed application\\n* Fast boss kill times\\n* Low-risk exploration\\n\\nThis makes it one of the strongest starter weapons.",
-    },
-    {
-      heading: "What Reduvia Teaches Players",
-      level: 2,
-      content:
-        "Reduvia teaches a core Elden Ring concept:\\n\\n* Status effects can replace raw damage early game\\n* Ranged pressure is stronger than melee risk\\n* Arcane builds scale differently from traditional STR/DEX\\n\\nPlayers who understand this often transition into advanced bleed builds more easily.",
+        "Reduvia has clear limitations despite its strengths:\\n\\n* **Very Short Melee Range** — without skill usage, melee combat is risky\\n* **Stamina Dependency** — skill spam consumes stamina quickly (20 per use)\\n* **Lower Late-Game Scaling** — compared to Rivers of Blood or Eleonora's, it falls off against endgame bosses\\n* **Bleed-Resistant Enemies** — some endgame bosses (Radagon, Elden Beast) are immune or highly resistant to bleed\\n\\nIf you are hitting a wall with Reduvia, check our [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build) for alternative setups.",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Reduvia good in Elden Ring?\\n\\nYes. It is one of the best early Arcane weapons.\\n\\n### Do I need Arcane for Reduvia?\\n\\nYes. Arcane is its primary scaling stat.\\n\\n### Is Reduvia better than Uchigatana?\\n\\nIn early game bleed application, yes. Uchigatana is more balanced overall.\\n\\n### Can Reduvia carry the game?\\n\\nIt can carry early to mid game, but may require upgrades or hybrid builds later.\\n\\n### Why is Reduvia strong?\\n\\nBecause it combines ranged pressure with fast bleed buildup. See how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Is Reduvia worth upgrading?\\n\\nYes. Reduvia scales well with Somber upgrades up to +10. Each level improves both physical damage and bleed buildup.\\n\\n### Can Reduvia beat Malenia?\\n\\nYes, with proper spacing. Malenia is weak to bleed, and Reduvia's ranged pressure lets you avoid Waterfowl Dance. It is one of the safer Malenia setups.\\n\\n### Can Reduvia carry NG+?\\n\\nIt falls off in NG+ compared to late-game bleed weapons like Rivers of Blood, but remains viable as a secondary ranged option.\\n\\n### Does Arcane increase bleed?\\n\\nYes. Arcane directly increases bleed buildup on weapons with Arcane scaling. At 45 ARC, Reduvia reaches ~72 bleed per hit.\\n\\n### Is dual Reduvia good?\\n\\nYes. Power-stancing two Reduvias doubles bleed buildup per attack sequence. You can get a second Reduvia through NG+ or trading.\\n\\n### Can Reduvia use Ashes of War?\\n\\nNo. Reduvia is a unique weapon with a fixed skill (Reduvia Blood Blade). You cannot change its Ash of War.\\n\\n### What is Reduvia's max bleed?\\n\\nAt +10 with 80 ARC, Reduvia reaches approximately 85 bleed buildup per hit.\\n\\n### Where to get Reduvia?\\n\\nMurkwater Cave in Limgrave. Kill the Bloody Finger Nerijus NPC invader. See the [Reduvia Location](#reduvia-location) section above for detailed steps.\\n\\n### Is Reduvia still good in 2026?\\n\\nYes. Reduvia remains one of the best early-game Arcane weapons. Its ranged bleed pressure is unique — no other weapon offers the same safe distance playstyle at this level requirement.",
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/weapons/rivers-of-blood-explained", anchorText: "Reduvia vs Rivers of Blood" },
-    { href: "/elden-ring/weapons/bloodhounds-fang-explained", anchorText: "Reduvia vs Bloodhound's Fang" },
-    { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Builds" },
-    { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
-    { href: "/elden-ring/bosses/how-to-beat-margit-the-fell-omen", anchorText: "Reduvia vs Margit" },
+    { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+    { href: "/elden-ring/builds/arcane-scaling-guide", anchorText: "Arcane Scaling Guide" },
+    { href: "/elden-ring/weapons/best-daggers", anchorText: "Best Daggers Tier List" },
+    { href: "/elden-ring/weapons/rivers-of-blood-explained", anchorText: "Rivers of Blood Guide" },
+    { href: "/elden-ring/weapons/uchigatana-guide", anchorText: "Uchigatana Guide" },
+    { href: "/elden-ring/builds/arcane-soft-caps", anchorText: "Arcane Soft Caps Explained" },
+    { href: "/elden-ring/builds/bleed-build-explained", anchorText: "Bleed Build Explained" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
+    { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Malenia Boss Guide" },
   ],
-};
+}
+;
 
 const article38: Article = {
   keyTakeaways: [
