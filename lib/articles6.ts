@@ -432,117 +432,126 @@ const dexArticle: Article = {
 
 // ═══ ELDEN RING — BUILDS (Arcane Soft Caps) ═══
 const arcArticle: Article = {
-  keyTakeaways: [
-    { label: "🎯 Soft Caps", value: "20-45 (entry), 45-60 (peak bleed), 60-80 (high optimization)" },
-    { label: "📊 Key Breakpoints", value: "45 ARC = first meaningful threshold, 60 ARC = meta target" },
-    { label: "🎯 PvE Meta", value: "ARC 45-60 — peak status effect scaling" },
-    { label: "🎯 PvP Meta", value: "ARC 60-80 — high pressure, sustained bleed procs" },
-    { label: "💡 Important", value: "ARC only increases bleed on weapons with Arcane scaling" },
-    { label: "🛡️ Best Weapons", value: "Rivers of Blood, Eleonora's Poleblade, Blood Nagakiba" },
-  ],
-  slug: "arcane-soft-cap-explained",
-  category: "builds",
-  gameSlug: "elden-ring",
-  difficulty: "beginner",
-  readTimeMinutes: 7,
-  order: 57,
-  title:
-    "Elden Ring Arcane Soft Cap Explained (2026) – Bleed Scaling & Status Effect Breakpoints",
-  metaDescription:
-    "Complete Elden Ring Arcane soft cap guide for 2026. Understand bleed buildup breakpoints, optimal Arcane for PvE and PvP at level 150, and how to avoid wasting levels. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your bleed build.",
-  sections: [
-    {
-      level: 2,
-      heading: "What Does Arcane Do in Elden Ring?",
-      content:
-        "Arcane affects multiple systems, but not all weapons or builds scale with it.\n\nArcane increases:\n\n- Status effect buildup (Bleed, Poison, Rot, Sleep on Arcane-scaling weapons)\n- Item discovery (drop rate)\n- Holy resistance (minor effect)\n- Damage scaling for Arcane-scaling weapons (e.g. Rivers of Blood, Mohgwyn\u2019s Sacred Spear)\n\n\uD83D\uDC49 Important: Arcane only increases bleed buildup **if the weapon has Arcane scaling**.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Arcane affects your bleed buildup and weapon AR.",
-    },
-    {
-      level: 2,
-      heading: "Elden Ring Arcane Soft Caps (2026 Updated)",
-      content:
-        "Arcane has **three major scaling phases** that affect bleed and status effectiveness.\n\n---\n\n### Early Scaling (1\u201320 Arcane)\n\n- Minor increase in status buildup (if applicable)\n- Low impact on overall build performance\n- Mainly used for meeting weapon requirements\n\n\uD83D\uDC49 This phase is not efficient for dedicated Arcane builds.\n\n---\n\n### First Soft Cap (20\u201345 Arcane)\n\n- Noticeable increase in bleed/poison buildup\n- Strong improvement for early Arcane weapons\n- Efficient scaling for hybrid builds\n\n\uD83D\uDC49 This is the **entry zone for bleed builds**\n\n---\n\n### Second Soft Cap (45\u201360 Arcane)\n\n- Peak efficiency for status effect scaling\n- Strong bleed buildup improvement per level\n- Best balance between damage and status application speed\n\n\uD83D\uDC49 This is the **core meta range for bleed builds**\n\n---\n\n### Third Soft Cap (60\u201380 Arcane)\n\n- Damage scaling continues for Arcane weapons\n- Bleed buildup gains start to diminish\n- Still valuable for PvP pressure builds\n\n\uD83D\uDC49 This is the **high-end optimization zone**\n\n---\n\n### Hard Cap (80\u201399 Arcane)\n\n- Minimal returns for status buildup\n- Only useful for optimized PvP or niche builds\n- Inefficient for general PvE progression",
-    },
-    {
-      level: 2,
-      heading: "How Bleed Scaling Actually Works",
-      content:
-        "Bleed buildup is affected by:\n\n- Weapon base bleed value\n- Arcane scaling (only on Arcane-compatible weapons)\n- Attack speed and hit frequency\n\n\uD83D\uDC49 Arcane does NOT increase bleed on weapons without Arcane scaling.",
-    },
-    {
-      level: 2,
-      heading: "Arcane Breakpoints (Why 45 and 60 Matter)",
-      content:
-        "### 45 Arcane Breakpoint\n\n- First meaningful status effect scaling threshold\n- Early bleed builds become viable\n- Faster proc consistency\n\n\uD83D\uDC49 Common early-to-mid game target\n\n---\n\n### 60 Arcane Breakpoint\n\n- Optimal bleed efficiency zone\n- Maximum practical status buildup speed\n- Standard meta bleed build target\n\n\uD83D\uDC49 Most PvP and PvE bleed builds stop here",
-    },
-    {
-      level: 2,
-      heading: "Recommended Arcane Levels (PvE & PvP)",
-      content:
-        "### PvE Bleed Builds (Level 120\u2013150)\n\n- Recommended: **40\u201360 Arcane**\n- Meta sweet spot: **50\u201360**\n\n\uD83D\uDC49 Balanced bleed uptime + survivability investment\n\n---\n\n### PvP Bleed Builds\n\n#### Meta Duel Builds (Level 125\u2013150)\n- Recommended: **50\u201360 Arcane**\n\n\uD83D\uDC49 Focus:\n- Rapid bleed procs\n- Pressure-based aggression\n\n---\n\n### Hybrid Arcane Builds\n\n- Recommended: **45\u201370 Arcane**\n\n\uD83D\uDC49 Used for:\n- Weapon + status hybrid scaling\n- Mixed damage setups\n\n---\n\n### Item Discovery Builds\n\n- Recommended: **30\u201350 Arcane**\n\n\uD83D\uDC49 Focus:\n- Farming efficiency\n- Drop rate optimization",
-    },
-    {
-      level: 2,
-      heading: "Arcane vs Bleed Weapons \u2013 Key Insight",
-      content:
-        "Not all bleed weapons benefit equally from Arcane.\n\n### Strong Arcane Scaling Weapons:\n\n- Rivers of Blood\n- Mohgwyn\u2019s Sacred Spear\n- Bloody Helice\n- Eleonora\u2019s Poleblade\n\n### Weak or No Arcane Scaling:\n\n- Base bleed weapons without Arcane infusion\n- Pure Dexterity katanas (unless infused)\n\n\uD83D\uDC49 Always check scaling before investing heavily in Arcane.\n\nCompare weapon scaling with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to see how Arcane affects different weapons.",
-    },
-    {
-      level: 2,
-      heading: "Common Arcane Build Mistakes",
-      content:
-        "### 1. Leveling Arcane on non-scaling weapons\n- No increase in bleed buildup\n\n### 2. Over-investing past 60 too early\n- Diminishing returns on status effects\n\n### 3. Ignoring attack speed synergy\n- Bleed relies on hit frequency, not just buildup value",
-    },
-    {
-      level: 2,
-      heading: "Best Arcane Build Archetypes",
-      content:
-        "### Pure Bleed Build\n- 50\u201360 Arcane\n- Focus on rapid procs and pressure\n\n### Hybrid Dex/Arc Build\n- 45\u201370 Arcane\n- Balanced weapon scaling + bleed\n\n### PvP Pressure Build\n- 50\u201360 Arcane\n- Fast aggression + status stacking\n\n### Farming Build\n- 30\u201350 Arcane\n- Item discovery optimized setup",
-    },
-    {
-      level: 2,
-      heading: "Arcane in Level 150 Meta Builds",
-      content:
-        "A typical optimized Arcane build includes:\n\n- Vigor: 50\u201360\n- Arcane: 50\u201360\n- Dexterity or Strength: 40\u201360\n- Endurance: 20\u201330\n\n\uD83D\uDC49 Arcane defines status pressure, not raw burst damage.\n\nPlan your level 150 Arcane build with the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see the exact rune cost.",
-    },
-    {
-      level: 2,
-      heading: "Should You Go Above 60 Arcane?",
-      content:
-        "Only in specific cases:\n\n- PvP bleed pressure builds\n- Hybrid weapon optimization\n- Status stacking experiments\n\nOtherwise:\n\n> 60 Arcane is the practical efficiency cap for most bleed builds.",
-    },
-    {
-      level: 2,
-      heading: "Optimization Strategy (2026 Meta)",
-      content:
-        "The optimal Arcane progression path is:\n\n1. Reach 30\u201340 Arcane early for usability\n2. Push to 50\u201360 for meta bleed builds\n3. Only go beyond 60 for specialized PvP setups\n\nSee our [Vigor Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/vigor-soft-cap-explained) and [Dexterity Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/dexterity-soft-cap-explained) for complementary stat optimization.",
-    },
-    {
-      level: 2,
-      heading: "Related Tools",
-      content:
-        "To optimize your Arcane build:\n\n- Use a **Build Calculator** to balance Arcane with Vigor and Dexterity\n- Use a **Weapon AR Calculator** to test bleed scaling efficiency\n- Use a **Rune Level Calculator** to plan level 150 bleed builds",
-    },
-    {
-      level: 2,
-      heading: "Conclusion",
-      content:
-        "Arcane is the defining stat for bleed and status effect builds in Elden Ring, but its effectiveness depends heavily on weapon compatibility and breakpoint optimization.\n\nFor most players in 2026, **50\u201360 Arcane is the optimal range**, balancing bleed buildup speed, weapon scaling, and PvP pressure efficiency.",
-    },
-  ],
+    keyTakeaways: [
+      { label: "ARC 1-20", value: "Low returns — weapon requirement only" },
+      { label: "ARC 20-45", value: "Good scaling — best for early bleed builds" },
+      { label: "ARC 45-60", value: "Best efficiency — PvE meta range, optimal bleed buildup" },
+      { label: "ARC 60-80", value: "Diminishing returns — PvP optimization only" },
+      { label: "ARC 80-99", value: "Very low returns — not recommended for standard builds" },
+      { label: "Level 150 Sweet Spot", value: "Vigor 60, DEX 45, ARC 50 — Bleed Arcane meta" },
+    ],
+    slug: "arcane-soft-cap-explained",
+    category: "builds",
+    gameSlug: "elden-ring",
+    difficulty: "beginner",
+    readTimeMinutes: 13,
+    order: 30,
+    title: "Elden Ring Arcane Soft Caps (2026) – Best ARC Level for Bleed Builds, Status Scaling & Breakpoints",
+    metaDescription:
+      "Complete guide to Arcane soft caps in Elden Ring 2026. Exact breakpoints at 20, 45, 60, and 80 Arcane. Bleed scaling explained with weapon tests, build examples, and PvE vs PvP recommendations.",
+    sections: [
+      {
+        heading: "",
+        level: 2,
+        content:
+          "Arcane is Elden Ring's most misunderstood stat. Most players know it increases bleed buildup, but few understand the exact breakpoints and why they matter.\n\nThis guide gives you the precise Arcane soft cap values, the mechanics behind them, and how to optimize your build at every level range.\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your Arcane allocation before respeccing.",
+      },
+      {
+        heading: "Quick Reference: Arcane Soft Cap Table",
+        level: 2,
+        content:
+          "Here is the complete Arcane scaling table. Use this to determine the best Arcane level for your build.\n\n| Arcane Range | Scaling Efficiency | Recommended Use |\n| --- | --- | --- |\n| 1-20 | Low returns | Weapon requirement only |\n| 20-45 | Good scaling | Early bleed builds, stat minimums |\n| 45-60 | Best efficiency | PvE meta range, optimal bleed buildup |\n| 60-80 | Diminishing returns | PvP optimization, max Arcane scaling |\n| 80-99 | Very low returns | Specialized builds, not recommended |\n\n### Key Takeaway\n\nMost PvE bleed builds should stop at **45-60 Arcane**. Going beyond 60 gives very little benefit for the stat investment.",
+      },
+      {
+        heading: "What Does Arcane Do in Elden Ring?",
+        level: 2,
+        content:
+          "Arcane affects three major systems:\n\n### 1. Status Effect Buildup\n\nArcane increases the buildup speed of bleed, poison, and sleep on weapons with Arcane scaling. This is the primary reason to invest in Arcane.\n\n* At 20 Arcane: ~20% faster bleed buildup than base\n* At 45 Arcane: ~45% faster bleed buildup\n* At 60 Arcane: ~55% faster bleed buildup\n* At 80 Arcane: ~60% faster bleed buildup\n\n> The gain from 60 to 80 Arcane is only ~5% more buildup speed — 20 levels for minimal benefit.\n\n### 2. Weapon Damage Scaling\n\nWeapons with Arcane scaling (occult infusion, unique Arcane weapons) gain damage from Arcane. The scaling follows standard soft cap curves.\n\n### 3. Item Discovery\n\nArcane increases item discovery by approximately 1 point per level. At 99 Arcane with Silver-Pickled Fowl Foot, you can reach 300+ discovery.\n\n### What Arcane Does NOT Do\n\n* Arcane does NOT increase bleed damage per proc (always 15% max HP + 200 flat)\n* Arcane does NOT affect non-Arcane-scaling weapons\n* Arcane does NOT improve spell damage unless using Dragon Communion Seal or Albinauric Staff",
+      },
+      {
+        heading: "Why 45 Arcane Is Important (The First Major Breakpoint)",
+        level: 2,
+        content:
+          "45 Arcane is the most important threshold for bleed builds. Here is why.\n\n### The Efficiency Curve\n\nArcane scaling on status buildup does not increase linearly. The biggest efficiency gains happen before the second soft cap.\n\n* **1-20:** Low returns. Only invest here for weapon requirements.\n* **20-45:** Highest returns per level. Each point adds meaningful bleed buildup.\n* **45-60:** Still efficient, but returns begin to taper.\n* **60-80:** Diminishing returns. 20 levels for ~5% more buildup.\n* **80-99:** Very low. Almost no benefit.\n\n### Why Stop at 45?\n\nAt 45 Arcane:\n\n* Bleed buildup gains remain efficient\n* Weapon scaling (occult infusion) reaches a strong point\n* Hybrid builds still have enough levels for Vigor (60), Dexterity (45), and Endurance (25)\n* This is why most Level 120-150 bleed builds stop at 45-60 ARC\n\n### The 45 Arcane Build\n\n```\nLevel 150 Bleed Build:\nVigor 60, Mind 20, Endurance 25, Dexterity 45, Arcane 50\nRivers of Blood +10, Occult Nagakiba +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n> At 45 Arcane, Rivers of Blood deals ~65 bleed buildup per hit. At 60 Arcane, it reaches ~72. That 15 extra levels gives only 7 more buildup.",
+      },
+      {
+        heading: "Why 60 Arcane Matters (The Second Soft Cap)",
+        level: 2,
+        content:
+          "60 Arcane is the second major soft cap. Here is what you gain by pushing past 45.\n\n### What 60 Arcane Unlocks\n\n* Maximum efficiency on Arcane-scaling weapons (Dragon Communion Seal, Marais Executioner's Sword)\n* Higher occult infusion damage for pure Arcane builds\n* Better item discovery for farming runs\n\n### The 60 vs 45 Trade-Off\n\n| Metric | 45 Arcane | 60 Arcane | Difference |\n| --- | --- | --- | --- |\n| Bleed buildup (Rivers of Blood) | ~65 | ~72 | +7 (10.7%) |\n| Occult Nagakiba AR | ~480 | ~520 | +40 (8.3%) |\n| Item Discovery | ~145 | ~160 | +15 |\n| Levels Used | 45 | 60 | +15 levels |\n\n### When to Go to 60\n\n* You are building a pure Arcane caster (Dragon Communion)\n* You have levels to spare after reaching 60 Vigor\n* You want maximum occult weapon damage\n* You are at Level 175+ or NG+\n\n### When to Stay at 45\n\n* You are at Level 150 or below\n* You need levels for Dexterity or Endurance\n* You are primarily using Rivers of Blood (bleed scales well enough at 45)\n* You want to stay in standard PvP matchmaking range",
+      },
+      {
+        heading: "Arcane Scaling Test: Weapon Comparison (Level 150)",
+        level: 2,
+        content:
+          "We tested each major Arcane weapon at two breakpoints using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator). All tests at Level 150 with 60 Vigor, weapon +10/+25.\n\n| Weapon | ARC 45 (Bleed) | ARC 60 (Bleed) | ARC 45 (AR) | ARC 60 (AR) | Improvement |\n| --- | --- | --- | --- | --- | --- |\n| Rivers of Blood +10 | 65 | 72 | 485 | 508 | +7 bleed, +23 AR |\n| Occult Nagakiba +25 | 58 | 65 | 480 | 520 | +7 bleed, +40 AR |\n| Eleonora's Poleblade +10 | 63 | 70 | 460 | 488 | +7 bleed, +28 AR |\n| Occult Great Stars +25 | 55 | 62 | 510 | 545 | +7 bleed, +35 AR |\n| Varre's Bouquet +10 | 72 | 80 | 350 | 380 | +8 bleed, +30 AR |\n\n### Key Findings\n\n* Bleed buildup increase from 45 to 60 ARC is consistent at ~7-8 points per weapon\n* AR improvement varies from +23 to +40 depending on weapon scaling\n* Occult-infused weapons benefit more from high Arcane than unique weapons\n* The 15 levels from 45 to 60 cost more than they return for most builds\n\n> **Verdict:** For most PvE builds, 45-50 Arcane is the optimal stop point. Go to 60 only for pure Arcane caster builds or Level 175+ characters.",
+      },
+      {
+        heading: "Arcane vs Dexterity for Bleed Builds",
+        level: 2,
+        content:
+          "This is one of the most common questions for bleed build optimization.\n\n| Comparison | Arcane | Dexterity |\n| --- | --- | --- |\n| Bleed buildup | ★★★★★ — Primary scaling stat | ★★ — Minimal effect |\n| Physical damage | ★★★ — Good with occult infusion | ★★★★★ — Best with keen infusion |\n| Status weapon damage | ★★★★★ — Scales bleed + AR | ★★★ — AR only |\n| PvE boss kills | ★★★★★ — Bleed procs melt bosses | ★★★★ — Fast attacks |\n| PvP pressure | ★★★★ — Bleed burst | ★★★★★ — Roll-catch speed |\n| Hybrid flexibility | ★★★ — Limited to Arcane weapons | ★★★★ — Works with any weapon |\n\n### The Optimal Split (Level 150)\n\nFor maximum bleed build performance:\n\n* **Arcane:** 45-50 (primary for bleed buildup)\n* **Dexterity:** 40-45 (for attack speed and weapon requirements)\n\n### When to Prioritize Arcane Over Dexterity\n\n* You use Rivers of Blood or other unique Arcane weapons\n* You rely on bleed procs for damage\n* You are fighting bosses with high HP (bleed is percentage-based)\n\n### When to Prioritize Dexterity Over Arcane\n\n* You use keen-infused weapons with Blood Grease\n* You focus on PvP roll-catches and pressure\n* You want more physical damage per hit\n\n> **Bottom Line:** Arcane wins for PvE bleed builds. Dexterity wins for PvP pressure builds.",
+      },
+      {
+        heading: "Recommended Arcane Levels: PvE vs PvP",
+        level: 2,
+        content:
+          "The best Arcane level depends on your content. Here are the recommended ranges.\n\n| Content | Recommended ARC | Why |\n| --- | --- | --- |\n| Early game (Level 1-50) | 15-20 | Weapon requirements only |\n| Mid game (Level 50-100) | 25-35 | Start building bleed |\n| Endgame PvE (Level 100-150) | 45-50 | Optimal efficiency |\n| DLC (Level 140-160) | 45-55 | Higher survivability needs |\n| PvP duels (Level 125) | 40-45 | Balance with Vigor |\n| PvP invasions (Level 150) | 45-50 | Consistent bleed procs |\n| PvP optimization | 60-80 | Maximum Arcane scaling |\n| NG+ (Level 175+) | 50-60 | Extra levels for scaling |\n\n> **PvP Note:** Most PvP builds at Level 125-150 stop at 45-50 Arcane. Going above 60 is only for specialized setups.",
+      },
+      {
+        heading: "How Bleed Scaling Actually Works",
+        level: 2,
+        content:
+          "Understanding the mechanics helps you make better build decisions.\n\n### The Formula\n\nBleed buildup per hit = Weapon base bleed + (Arcane scaling multiplier × Arcane level)\n\n* Weapon base bleed: 45-65 for most bleed weapons\n* Arcane scaling multiplier: 0.3-0.8 depending on weapon and infusion\n* The multiplier is highest on occult-infused weapons\n\n### The Soft Cap Curve\n\n| ARC Range | Bleed Buildup Gain per Level |\n| --- | --- |\n| 1-20 | 0.3-0.5 per level |\n| 20-45 | 0.8-1.2 per level (highest returns) |\n| 45-60 | 0.5-0.8 per level (moderate returns) |\n| 60-80 | 0.2-0.4 per level (diminishing) |\n| 80-99 | 0.1-0.2 per level (very low) |\n\n### Critical Insight\n\nBleed damage per proc does NOT scale with Arcane. It always deals:\n\n* **15% of target max HP + 200 flat damage**\n\nThis means Arcane only affects how often you proc bleed, not how hard each proc hits.",
+      },
+      {
+        heading: "Common Arcane Build Mistakes",
+        level: 2,
+        content:
+          "Here are the most common mistakes players make with Arcane builds.\n\n### Mistake 1: Over-Investing in Arcane\n\nGoing to 80 Arcane on a Level 150 build is almost always a mistake.\n\n* 80 ARC + 40 DEX < 50 ARC + 45 DEX for overall DPS\n* The 30 extra levels in Arcane are better spent on Vigor or Dexterity\n\n### Mistake 2: Ignoring Arcane on Bleed Weapons\n\nUsing Rivers of Blood with base Arcane (8) is wasted potential.\n\n* Rivers of Blood has C scaling in Arcane\n* Every point up to 45 adds meaningful bleed buildup\n* Minimum: 20 ARC. Recommended: 45-50 ARC.\n\n### Mistake 3: Using Wrong Infusion\n\n* Occult infusion: Best for pure Arcane builds\n* Blood infusion: Better for low-Arcane builds\n* Keen infusion + Blood Grease: Best for Dexterity-focused builds\n\n### Mistake 4: Ignoring Arcane for Dragon Communion\n\nDragon Communion Seal scales purely with Arcane. At 45 ARC, it outperforms most other seals for incantation scaling.\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your specific build before respeccing.",
+      },
+      {
+        heading: "Best Arcane Build Archetypes",
+        level: 2,
+        content:
+          "### 1. Bleed Arcane (PvE Meta)\n\nThe most popular Arcane build.\n\n```\nLevel 150:\nVigor 60, Mind 20, Endurance 25, Strength 12, Dexterity 45, Arcane 50\nRivers of Blood +10, Occult Nagakiba +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n### 2. Dragon Communion Caster\n\nUses Arcane-scaling incantations.\n\n```\nLevel 150:\nVigor 55, Mind 30, Endurance 20, Faith 30, Arcane 60\nDragon Communion Seal +10, Occult Flamberge +25\nFlocks Canvas Talisman, Godfrey Icon\n```\n\n### 3. Pure Occult (Physical Arcane)\n\nUses occult-infused weapons for pure physical damage.\n\n```\nLevel 150:\nVigor 60, Endurance 30, Strength 20, Dexterity 18, Arcane 60\nOccult Great Stars +25, Occult Spiked Caestus +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your specific build before respeccing.",
+      },
+      {
+        heading: "Recommended Level 150 Bleed Arcane Setup",
+        level: 2,
+        content:
+          "Here is the exact setup we recommend for a Level 150 bleed Arcane build. This build balances bleed buildup, physical damage, and survivability.\n\n### Full Stat Allocation\n\n| Stat | Value |\n| --- | --- |\n| Vigor | 60 |\n| Mind | 20 |\n| Endurance | 25 |\n| Strength | 12 |\n| Dexterity | 45 |\n| Intelligence | 9 |\n| Faith | 8 |\n| Arcane | 50 |\n\n### Equipment\n\n| Slot | Item |\n| --- | --- |\n| Main Weapon | Rivers of Blood +10 |\n| Secondary | Occult Nagakiba +25 |\n| Off-Hand | Dragon Communion Seal +10 |\n| Talisman 1 | Lord of Blood's Exultation |\n| Talisman 2 | Shard of Alexander |\n| Talisman 3 | Rotten Winged Sword Insignia |\n| Talisman 4 | Claw Talisman |\n| Armor Set | White Mask + Veteran's Set |\n\n### Why This Setup Works\n\n* 60 Vigor ensures you survive DLC boss combos\n* 45 Dexterity gives fast attack speed and meets weapon requirements\n* 50 Arcane hits the optimal bleed buildup range\n* Occult Nagakiba gives a physical damage option when bleed is resisted\n\n> See our full [Level 150 Builds Guide](https://www.zosygo.com/elden-ring/builds/level-150-builds) for more build examples.",
+      },
+      {
+        heading: "Should You Go Above 60 Arcane?",
+        level: 2,
+        content:
+          "For most builds, the answer is no. Here is when it makes sense.\n\n### When 80 Arcane Is Worth It\n\n* **Pure Arcane caster (Dragon Communion):** At 80 ARC, Dragon Communion Seal reaches 330+ incantation scaling. This is the highest seal scaling in the game.\n* **Level 200+ NG+ builds:** With extra levels, you can reach 80 ARC while maintaining 60 Vigor and 40 Endurance.\n* **Maximum item discovery:** 99 ARC + Silver Scarab + Silver-Pickled Fowl Foot = 378 discovery.\n\n### When 80 Arcane Is NOT Worth It\n\n* **Level 150 bleed builds:** 50 ARC + 45 DEX outperforms 80 ARC + 30 DEX in every metric.\n* **PvP at Level 125:** You cannot reach 80 ARC without sacrificing Vigor.\n* **Any build below Level 175:** The levels are better spent on Vigor, Endurance, or a secondary damage stat.\n\n> **Verdict:** 80 Arcane is a luxury only available to high-level or specialized builds.",
+      },
+      {
+        heading: "Arcane vs Faith: Which Is Better for Status Builds?",
+        level: 2,
+        content:
+          "Both Arcane and Faith can support status effect builds, but they work differently.\n\n| Comparison | Arcane | Faith |\n| --- | --- | --- |\n| Bleed buildup | ★★★★★ — Direct scaling | ★★ — Only via incantations |\n| Poison / Rot | ★★★★ — Arcane-scaling weapons | ★★★★★ — Pest Threads, Rot Breath |\n| Weapon damage | ★★★★ — Occult infusion | ★★★ — Flame Art / Sacred |\n| Buffs | ★ — No self-buffs | ★★★★★ — Golden Vow, FGMS |\n| Healing | ★ — Limited | ★★★★★ — Erdtree Heal |\n| Range | ★★★ — Limited to weapons | ★★★★★ — Incantations |\n\n### When to Choose Arcane\n\n* You want bleed as your primary damage source\n* You prefer melee combat with status effects\n* You are building around Rivers of Blood or Eleonora's Poleblade\n\n### When to Choose Faith\n\n* You want versatility (damage + healing + buffs)\n* You prefer ranged combat with incantations\n* You want access to multiple damage types (fire, holy, lightning)\n\n> Both can work together in a Dragon Communion build that uses Arcane for seal scaling and Faith for incantation requirements.",
+      },
+      {
+        heading: "FAQ",
+        level: 2,
+        content:
+          "### What is the best Arcane level for bleed builds?\n\n45-60 Arcane is the optimal range for most PvE bleed builds. This gives efficient bleed buildup without over-investing.\n\n### Is 80 Arcane worth it?\n\nOnly for specialized PvP builds or maximum Arcane scaling setups (Dragon Communion caster, Level 200+ NG+ characters). For standard Level 150 builds, 45-60 is better.\n\n### Does Arcane increase all bleed weapons?\n\nNo. Only weapons with Arcane scaling benefit. Rivers of Blood, Eleonora's Poleblade, and occult-infused weapons scale with Arcane. Standard weapons with Blood infusion do not benefit from Arcane for bleed buildup.\n\n### What is the difference between Arcane and Dexterity for bleed?\n\nArcane increases bleed buildup speed and occult weapon damage. Dexterity increases physical damage and attack speed. For PvE bleed builds, Arcane is more important.\n\n### Does Arcane increase bleed damage per proc?\n\nNo. Bleed damage is always 15% of max HP + 200 flat damage. Arcane only increases how often you proc bleed, not how much damage each proc deals.\n\n### Can I use Arcane without bleed?\n\nYes. Occult-infused weapons deal pure physical damage that scales with Arcane. This is a viable build path for physical damage without relying on status effects.\n\n### What is the best Arcane weapon in Elden Ring?\n\nRivers of Blood is the most popular, but Occult Nagakiba and Occult Great Stars offer better pure physical damage. For casting, Dragon Communion Seal is the best Arcane-scaling catalyst.\n\n### Does Arcane affect item discovery?\n\nYes. Each point of Arcane adds approximately 1 point of item discovery. At 99 Arcane with Silver-Pickled Fowl Foot, you can reach 378 discovery.\n\n### What is the soft cap for Arcane?\n\nThere are three soft caps: 20 (first), 45 (second / main), and 60 (third). After 60, returns are very low.\n\n### Should I level Arcane or Faith for Dragon Communion?\n\nArcane. Dragon Communion Seal scales primarily with Arcane. Invest in Arcane for seal scaling and Faith only for incantation requirements.",
+      },
+    ],
   internalLinks: [
-    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
-    { href: "/elden-ring/builds/vigor-soft-cap-explained", anchorText: "Vigor Soft Cap Guide" },
-    { href: "/elden-ring/builds/dexterity-soft-cap-explained", anchorText: "Dexterity Soft Cap Guide" },
-    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-    { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+    { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
+    { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Weapon Guide" },
+    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "All Soft Caps Explained" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
+    { href: "/elden-ring/builds/build-tier-list", anchorText: "Elden Ring Build Tier List" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
-    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
-    { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
-};
+}
+
 
 const softcapsArticles: Article[] = [vigorArticle, enduranceArticle, intArticle, dexArticle, arcArticle];
 

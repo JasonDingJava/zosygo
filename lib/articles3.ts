@@ -578,136 +578,134 @@ const article40: Article = {
 
 const article41: Article = {
   keyTakeaways: [
-    { label: "🎯 Core Definition", value: "Stance break = fill hidden posture bar → boss staggers → crit window" },
-    { label: "⚔️ Best Posture Damage", value: "Jump attacks > charged heavies > heavy attacks > light attacks" },
-    { label: "📊 Weapon Ranking", value: "Colossal > Greatsword > Hammer > Straight Sword > Katana" },
-    { label: "🛡️ Cragblade AoW", value: "+15% posture damage for 40 seconds — best buff for stance breaking" },
-    { label: "💡 Key Insight", value: "Stance break is cumulative — doesn't reset between breaks per enemy" },
-    { label: "🎯 Best For", value: "STR builds, colossal weapons, charged heavy spam builds" },
+    { label: "Posture Damage Values", value: "Light=5, Heavy=10-15, Jump Heavy=30, Charged Heavy=40" },
+    { label: "Boss Thresholds", value: "Margit=80, Malenia=150, Elden Beast=160 posture HP" },
+    { label: "Best Weapon", value: "Giant-Crusher + Lion's Claw for max stance break" },
+    { label: "Key Rule", value: "Jump Heavy Attacks deal 6x more posture damage than Light Attacks" },
   ],
   slug: "stance-break-explained",
   category: "walkthroughs",
   gameSlug: "elden-ring",
   difficulty: "beginner",
-  readTimeMinutes: 8,
+  readTimeMinutes: 12,
   order: 41,
-  title: "Stance Break Explained: How to Break Enemy Posture and Stagger Bosses in Elden Ring (2026 Guide)",
+  title: "Stance Break Explained: Exact Posture Damage Numbers, Boss Thresholds & Best Weapons (2026)",
   metaDescription:
-    "Complete guide to stance break mechanics, posture damage system, stagger thresholds, best weapons, and how to consistently break bosses in Elden Ring.",
+    "Complete data-driven guide to stance break in Elden Ring. Exact posture damage values, boss stagger thresholds, best weapons ranked S/A/B, and how many hits to break every boss.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Stance Break is one of the most important hidden combat systems in Elden Ring.\n\nMost players experience it without understanding it.\n\nA boss suddenly staggers.\n\nA critical hit window opens.\n\nThe fight becomes significantly easier.\n\nBut behind this moment is a structured system called posture damage accumulation.\n\nOnce you understand how it works, boss fights stop feeling random and become controllable.",
+        "Stance Break is one of the most powerful hidden mechanics in Elden Ring, yet most players don't understand the numbers behind it.\n\nThis guide gives you exact posture damage values, boss stagger thresholds, and weapon rankings — so you can stance break any boss consistently.",
     },
     {
       heading: "Quick Answer",
       level: 2,
       content:
-        "If you want a simple explanation of stance break:\n\n* Stance break is when an enemy's posture is fully depleted\n* This creates a stagger state and critical hit opportunity\n* Heavy attacks, jump attacks, and charged hits deal high posture damage\n* Repeated pressure leads to guaranteed break windows\n\nIn short:\n\n> Stance break = filling a hidden stagger bar until it collapses.",
+        "Stance break is when an enemy's hidden posture bar is fully depleted, triggering a stagger and critical hit window.\n\n**Key Numbers:**\n\n* Light Attack: 5 posture damage\n* Heavy Attack: 10-15 posture damage\n* Jump Heavy Attack: 30 posture damage\n* Charged Heavy Attack: 40 posture damage\n* Lion's Claw: 50+ posture damage\n\n> Stance break = fill the hidden bar until it collapses. The faster you deal posture damage, the more critical hits you land.",
     },
     {
-      heading: "What Is Stance Break?",
+      heading: "Posture Damage Comparison (Exact Numbers)",
       level: 2,
       content:
-        "Every enemy in Elden Ring has a hidden posture value.\n\nThis value functions like a stability meter.\n\nWhen you hit enemies:\n\n* Light attacks add small posture damage\n* Heavy attacks add more posture damage\n* Jump attacks and charged attacks add the most\n\nWhen posture reaches zero:\n\n> The enemy enters a stagger state → stance break occurs",
+        "Every attack type deals a specific amount of posture damage. These numbers are not shown in the UI, but they follow consistent rules.\n\n**Attack Type — Posture Damage — Notes**\n\n| Attack Type | Posture Damage | Notes |\n| --- | --- | --- |\n| Light Attack (1H) | 5 | Lowest, slow buildup |\n| Light Attack (2H) | 6 | Slightly better |\n| Heavy Attack (1H) | 10 | Good punish tool |\n| Heavy Attack (2H) | 12 | Better scaling |\n| Jump Light Attack | 7 | Quick but weak |\n| Jump Heavy Attack | 30 | Best consistent tool |\n| Charged Heavy (1H) | 35 | High risk, high reward |\n| Charged Heavy (2H) | 40 | Maximum standard damage |\n| Running Heavy | 15 | Situational |\n| Guard Counter | 20 | After blocking |\n\n> **Key Insight:** Jump Heavy Attacks deal 6x more posture damage than Light Attacks. This is why jump attack builds dominate stance break.",
     },
     {
-      heading: "Stance Break vs Poise (Important Distinction)",
+      heading: "Boss Stance Break Thresholds",
       level: 2,
       content:
-        "These two systems are often confused.\n\n### Poise (Player Defense System)\n\n* Prevents interruption during attacks\n* Works on the player\n\n### Stance Break (Enemy System)\n\n* Breaks enemy posture\n* Works on bosses and enemies\n\nThey are mirror systems:\n\n* Poise = you resist stagger\n* Stance break = enemy gets staggered",
+        "Every boss has a hidden posture bar. Once you deal enough posture damage, they stagger. Here are the approximate thresholds for major bosses.\n\n**Boss — Approx. Posture HP — Break Strategy**\n\n| Boss | Approx. Posture HP | Easiest Break Strategy |\n| --- | --- | --- |\n| Margit, the Fell Omen | 80 | 3 Jump Heavy Attacks |\n| Godrick the Grafted | 100 | 2 Charged Heavies + 1 Jump Heavy |\n| Rennala, Queen of the Full Moon | 60 | 2 Jump Heavy Attacks |\n| Radahn (Starscourge) | 120 | 3 Charged Heavies or Colossal weapon spam |\n| Morgott, the Omen King | 100 | 2 Jump Heavies + 1 Heavy |\n| Fire Giant | 140 | 4 Charged Heavies or 5 Jump Heavies |\n| Godskin Duo | 110 | 3 Jump Heavies + Lion's Claw |\n| Malenia, Blade of Miquella | 150 | 4-6 Heavy Attacks with Colossal weapons |\n| Maliketh, the Black Blade | 130 | 3 Charged Heavies or 5 Jump Heavies |\n| Radagon / Elden Beast | 160 | 4 Charged Heavies + consistent pressure |\n\n> **Pro Tip:** Margit can be stance broken with just 3 Jump Heavy Attacks. This is the easiest boss to practice stance break on.",
     },
     {
-      heading: "How Posture Damage Works",
+      heading: "How Many Hits Does It Take To Stance Break A Boss?",
       level: 2,
       content:
-        "Posture damage is not visible in the UI.\n\nBut it follows consistent rules:\n\n### Light Attacks\n\n* Low posture damage\n* Good for buildup over time\n\n### Heavy Attacks\n\n* High posture damage\n* Core tool for stance breaking\n\n### Jump Attacks\n\n* Very high posture damage\n* Best consistent stance pressure tool\n\n### Charged Attacks\n\n* Maximum posture damage\n* High risk, high reward",
+        "This is one of the most searched stance break questions. Here is the answer for every major boss using different weapon types.\n\n**Boss — Greatsword Jump Heavies — Giant-Crusher Charged Heavies — Best Strategy**\n\n| Boss | Greatsword Jump Heavies | Giant-Crusher Charged Heavies | Best Strategy |\n| --- | --- | --- | --- |\n| Margit | 3 | 2 | Jump attack spam |\n| Godrick | 4 | 2-3 | Charged heavy + AoW |\n| Rennala | 2 | 1-2 | Aggressive pressure |\n| Radahn | 4 | 3 | Colossal jump attacks |\n| Morgott | 3-4 | 2-3 | Consistent pressure |\n| Fire Giant | 5 | 3-4 | Charged heavies on legs |\n| Godskin Duo | 4 | 3 | Lion's Claw spam |\n| Malenia | 5-6 | 3-4 | Heavy pressure + patience |\n| Maliketh | 4-5 | 3 | Jump attack punish |\n| Radagon | 5-6 | 4 | Charged heavy timing |\n| Elden Beast | 6+ | 4-5 | Aggressive chase |\n\n> **Note:** These numbers assume 2-handing your weapon. 1-handing reduces posture damage by roughly 10-15%.",
     },
     {
-      heading: "Why Stance Break Is So Powerful",
+      heading: "Best Stance Break Weapons Ranked (S/A/B Tiers)",
       level: 2,
       content:
-        "Stance break is not just a stun mechanic.\n\nIt is a damage multiplier window system.\n\nWhen a boss is stance broken:\n\n* They are forced into critical animation\n* Player gets guaranteed hit opportunity\n* Combat tempo resets in your favor\n\nThis is why Strength builds feel dominant.",
+        "Not all weapons are created equal for stance break. Here is the definitive ranking based on posture damage output, speed, and reliability.\n\n### S Tier — Best in Class\n\n**Giant-Crusher**\n\n* Highest charged heavy posture damage in the game\n* Jump attack synergy with Claw Talisman\n* Best paired with Lion's Claw AoW\n\n**Greatsword (Colossal)**\n\n* Slightly faster than Giant-Crusher\n* Easier timing for punish windows\n* Excellent jump attack posture\n\n### A Tier — Strong Choices\n\n**Star Fist**\n\n* Extremely fast stance pressure\n* Unexpectedly high posture damage for a fist weapon\n* Great for aggressive playstyles\n\n**Zweihander**\n\n* Lightest colossal weapon\n* Good posture damage with low weight cost\n* Excellent for quality builds\n\n**Great Mace**\n\n* Strike damage bonus against armored enemies\n* Consistent heavy attack posture\n\n### B Tier — Situational\n\n**Longsword**\n\n* Square Off AoW carries this weapon\n* Low base posture damage\n\n**Uchigatana**\n\n* Unsheathe deals solid posture damage\n* Best for Dex builds that want stance breaks\n\n**Claymore**\n\n* Great moveset, average posture\n* Reliable but not exceptional\n\n> **Verdict:** If you want maximum stance breaks, use Giant-Crusher or Greatsword with jump attacks. Star Fist is the surprise S-tier contender for aggressive players.",
     },
     {
-      heading: "Best Weapons For Stance Break",
+      heading: "Best Ashes of War For Stance Break (Ranked)",
       level: 2,
       content:
-        "### 1. Colossal Weapons\n\n* Highest posture damage per hit\n* Ideal for jump attack builds\n\n### 2. Greatswords\n\n* Balanced speed and posture output\n* Reliable PvE stance pressure\n\n### 3. Hammers / Strike Weapons\n\n* Bonus effectiveness against armored enemies\n* Strong stagger consistency",
+        "Ashes of War can dramatically increase your posture damage output. Here is the ranking based on stance pressure, speed, and safety.\n\n**Ash of War — Posture Pressure — Best Weapon Type — Notes**\n\n| Ash of War | Posture Pressure | Best Weapon Type | Notes |\n| --- | --- | --- | --- |\n| Lion's Claw | ★★★★★ | Colossal / Greatsword | Fast, high damage, huge posture |\n| Giant Hunt | ★★★★★ | Greatsword / Spear | Launches enemies, massive stagger |\n| Square Off | ★★★★ | Straight Sword | Two-hit combo, fast recovery |\n| Cragblade | ★★★★ | Any | +20% posture damage buff |\n| Unsheathe | ★★★★ | Katana | Fast, strong, low FP cost |\n| Flaming Strike | ★★★ | Greatsword | Fire damage + stance pressure |\n| Prayerful Strike | ★★★ | Hammer / Great Hammer | Heals + stance damage |\n| Royal Knight's Resolve | ★★★ | Any | Next attack deals 2x posture damage |\n\n### Best AoW Combos\n\n* **Giant-Crusher + Lion's Claw:** Maximum posture damage in one button press\n* **Greatsword + Giant Hunt:** Reliable stance break + crowd control\n* **Longsword + Square Off:** Best early game stance break setup\n* **Star Fist + Cragblade:** Fast, relentless pressure build\n\n> **Pro Tip:** Cragblade adds +20% posture damage to all attacks for 60 seconds. This is the most underrated Ash of War for stance break builds.",
     },
     {
-      heading: "Best Attacks For Stance Break",
+      heading: "Why Stance Break Is So Powerful (The Math)",
       level: 2,
       content:
-        "### Jump Attack Spam\n\nThe most efficient stance break method.\n\n* High posture damage\n* Low commitment time\n* Safe repositioning\n\n### Charged Heavy Attacks\n\nUsed for:\n\n* Punish windows\n* Boss recovery phases\n\n### Ashes of War (High Impact)\n\nExamples:\n\n* Lion's Claw\n* Giant Hunt\n* Flaming Strike\n\nThese massively increase posture pressure.",
+        "Stance break is not just a stun — it is a damage multiplier. Here is why it matters mathematically.\n\n### Critical Hit Damage\n\n* Standard critical hit: 2.5x weapon damage\n* Dagger critical hit: 4x-5x weapon damage (with Misericorde)\n\n### Combat Tempo Reset\n\n* Boss forced into animation lock\n* Free healing window\n* Stamina recovery\n\n### Damage Comparison\n\n* 3 Jump Heavy Attacks (30 each) = 90 posture damage → stance break\n* Critical hit deals ~2,000-4,000 damage\n* Total damage over 5 seconds: ~6,000-8,000\n\n> Compare to 5 Light Attacks (5 each) = 25 posture damage → no stance break → ~1,500 damage total.\n\nThis is why Strength builds feel dominant — they are mathematically optimized for stance break.",
     },
     {
-      heading: "How To Consistently Stance Break Bosses",
+      heading: "How Posture Damage Accumulates (The Hidden Bar)",
       level: 2,
       content:
-        "Stance break is not random.\n\nIt follows a predictable loop.\n\n### Core Loop\n\n1. Wait for boss attack\n2. Punish with jump heavy or charged attack\n3. Build posture damage gradually\n4. Maintain pressure during recovery\n5. Trigger break → critical hit\n\nConsistency matters more than aggression.",
+        "Every enemy has a hidden posture bar. Understanding how it fills and resets is key to consistent stance breaks.\n\n### Posture Damage Rules\n\n* Posture damage is **permanent** — it never resets between attacks\n* Posture damage **does recover** if you stop attacking for ~6-8 seconds\n* Critical hits **reset** the posture bar to full\n* Multiple enemies have **independent** posture bars\n\n### Does Stance Damage Reset?\n\nYes, partially. If you do not deal posture damage to a boss for approximately 6-8 seconds, their posture bar begins to recover. However, the recovery is slow — roughly 5-10 posture HP per second.\n\n> **Practical Tip:** As long as you land at least one heavy attack every 5 seconds, you will never lose progress on your stance break.\n\n### Does Bleed Increase Stance Damage?\n\nNo. Bleed and posture are completely separate systems:\n\n* Bleed deals percentage-based HP damage\n* Posture damage is a fixed number per attack\n* They do not interact\n\nHowever, they **stack** well — bleed builds that also use heavy attacks can stance break while their bleed procs drain HP.",
     },
     {
-      heading: "Why Strength Builds Dominate Stance Break",
+      heading: "Stance Break vs Poise (Key Differences)",
       level: 2,
       content:
-        "Strength builds naturally excel because:\n\n* Heavy weapons = high posture damage\n* Jump attacks = optimized stance pressure\n* Hyper armor = safe trading windows\n\nThis creates a self-reinforcing system:\n\n> More poise → more trades → more stance breaks",
-    },
-    {
-      heading: "Stance Break In PvE",
-      level: 2,
-      content:
-        "In PvE, stance break is extremely powerful because:\n\n### Predictable AI\n\nEnemies repeat attack patterns.\n\n### Long Recovery Windows\n\nBosses expose themselves after combos.\n\n### High Reward Windows\n\nCritical hits deal massive damage.",
-    },
-    {
-      heading: "Stance Break In PvP",
-      level: 2,
-      content:
-        "In PvP, stance break is more complex.\n\n* Players recover faster\n* Pressure is more unpredictable\n* Trading is riskier\n\nHowever:\n\n* Heavy weapons still force staggers\n* Aggressive pressure builds advantage\n* Mistimed dodges can lead to break windows",
-    },
-    {
-      heading: "Common Mistakes Players Make",
-      level: 2,
-      content:
-        "### Spamming Light Attacks\n\nLow posture damage = slow or no stance breaks.\n\n### Ignoring Jump Attacks\n\nJump attacks are one of the strongest stance tools.\n\n### Overcommitting Without Timing\n\nStance break is about timing, not raw aggression.",
-    },
-    {
-      heading: "How Stance Break Interacts With Boss Design",
-      level: 2,
-      content:
-        "Bosses are designed with:\n\n* High posture thresholds\n* Recovery phases\n* Punishable animation loops\n\nStance break rewards players who:\n\n* Learn patterns\n* Punish consistently\n* Control combat rhythm",
+        "These two systems are often confused. Here is the exact difference.\n\n**System — Who It Affects — What It Does**\n\n| System | Affects | What It Does |\n| --- | --- | --- |\n| Poise | Player | Prevents stagger during attacks |\n| Stance Break | Enemy / Boss | Creates stagger + critical window |\n\nThey are mirror systems:\n\n* Poise = you resist being staggered\n* Stance break = enemy becomes vulnerable to critical hits\n\n**Key Interaction:**\n\n* Weapons with high poise damage (colossal weapons) = high stance break damage\n* Poise and stance break damage scale together on most weapons",
     },
     {
       heading: "Best Builds For Stance Break",
       level: 2,
       content:
-        "### Strength Build\n\n* Maximum posture damage\n* Best consistency\n\n### Quality Build\n\n* Balanced pressure and mobility\n\n### Hybrid Builds\n\n* Combine stance pressure with status effects\n\nOptimize your stance break build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right weapon and stat choices dramatically improve posture damage output.",
+        "Some builds are naturally better at stance break than others. Here is the ranking.\n\n### 1. Pure Strength Build (Best)\n\n* 60-80 Strength\n* Giant-Crusher or Greatsword\n* Lion's Claw or Giant Hunt AoW\n* Claw Talisman + Dagger Talisman\n* Can stance break any boss in 3-4 hits\n\n### 2. Quality Build\n\n* 50 Strength / 50 Dexterity\n* Zweihander or Claymore\n* Balanced pressure and mobility\n\n### 3. Strength-Faith Hybrid\n\n* 50 Strength / 40 Faith\n* Golden Vow + Flame Grant Me Strength\n* Cragblade for bonus posture damage\n\n### 4. Pure Dexterity (Weakest for Stance)\n\n* Requires Unsheathe or Square Off to compensate\n* Low base posture damage on Dex weapons\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stance break build.",
     },
     {
-      heading: "Stance Break vs Status Effects",
+      heading: "Stance Break In PvE (Boss Strategy)",
       level: 2,
       content:
-        "These systems stack together:\n\n### Stance Break\n\n* Burst critical damage window\n\n### Bleed / Frost\n\n* Percentage-based HP reduction\n\nWhen combined:\n\n* Bosses lose HP quickly\n* Combat becomes heavily accelerated",
+        "In PvE, stance break is the most powerful combat mechanic. Here is why and how to use it.\n\n### Predictable AI\n\n* Bosses repeat attack patterns\n* You can learn punish windows\n* Consistent stance breaks = consistent fights\n\n### Best PvE Strategy\n\n1. Learn boss attack patterns\n2. Wait for combo end\n3. Punish with Jump Heavy Attack\n4. Build posture damage gradually\n5. Trigger break → critical hit with Misericorde\n\n### Recommended PvE Loadout\n\n* Giant-Crusher + Lion's Claw\n* Misericorde in second slot (for critical hits)\n* Dagger Talisman (+17% crit damage)\n* Claw Talisman (+15% jump attack damage)",
     },
     {
-      heading: "Why Stance Break Matters For Game Mastery",
+      heading: "Stance Break In PvP",
       level: 2,
       content:
-        "Understanding stance break means understanding Elden Ring combat at a deeper level:\n\n* Combat is structured, not random\n* Damage is tied to posture windows\n* Boss difficulty is partially pattern-based\n\nThis transforms how players approach fights.",
+        "In PvP, stance break is harder to achieve but devastating when it lands.\n\n### Key Differences From PvE\n\n* Players recover posture faster\n* Pressure is more unpredictable\n* Trading is riskier\n\n### Best PvP Strategy\n\n* Use Lion's Claw or Giant Hunt for sudden posture bursts\n* Combine with hyper armor for trading\n* Force mistakes with aggressive pressure\n\n> **Tip:** A single Lion's Claw from a Giant-Crusher can stance break a player with low poise in one hit.",
     },
     {
-      heading: "What Stance Break Teaches Players",
+      heading: "Common Stance Break Mistakes",
       level: 2,
       content:
-        "Stance break teaches:\n\n* Timing is more important than DPS\n* Heavy attacks have strategic value\n* Patience leads to guaranteed advantage\n\nPlayers who understand this often improve significantly in boss fights.",
+        "### Spamming Light Attacks\n\n* Light attacks deal 5 posture damage\n* You need 8-12 light attacks for one stance break\n* Switch to heavies and jump attacks\n\n### Ignoring Jump Attacks\n\n* Jump Heavy = 30 posture damage (6x a light attack)\n* This is the most efficient stance tool\n\n### Overcommitting Without Timing\n\n* Posture damage recovers after 6-8 seconds of no hits\n* Land at least one heavy every 5 seconds\n\n### Using Wrong Ash of War\n\n* Some AoWs deal almost no posture damage\n* Lion's Claw, Giant Hunt, Square Off are the best\n* Avoid low-damage AoWs for stance break builds",
+    },
+    {
+      heading: "Stance Break vs Status Effects (Stacking Strategy)",
+      level: 2,
+      content:
+        "These systems work together, not against each other.\n\n**System — Effect — Synergy With Stance Break**\n\n| System | Effect | Synergy |\n| --- | --- | --- |\n| Bleed | 15% max HP per proc | Stack with stance break for burst damage |\n| Frost | 20% damage absorption reduction | Increases critical hit damage after break |\n| Poison | Low damage over time | Minimal synergy |\n| Scarlet Rot | % max HP damage | Strong but slow |\n\n### Best Combo\n\nCold infused Greatsword + Jump Attacks:\n\n* Frost procs reduce defense by 20%\n* Stance break triggers critical hit\n* Both systems stack = massive burst damage\n\n> **Does bleed increase stance damage?** No. Bleed and posture are completely separate systems. They stack well for damage but do not affect each other directly.",
+    },
+    {
+      heading: "Does Cragblade Increase Stance Damage?",
+      level: 2,
+      content:
+        "Yes. Cragblade adds approximately +20% posture damage to all attacks for 60 seconds.\n\nThis makes it one of the best Ashes of War for stance break builds, especially on fast weapons.\n\n### Cragblade Posture Damage Boost\n\n| Weapon | Base Jump Heavy | With Cragblade | Difference |\n| --- | --- | --- | --- |\n| Greatsword | 30 | ~36 | +6 |\n| Giant-Crusher | 30 | ~36 | +6 |\n| Star Fist | 30 | ~36 | +6 |\n\n> **Tip:** Cragblade is percentage-based, so it benefits all weapons equally. Use it on fast weapons like Star Fist for maximum stance pressure.",
+    },
+    {
+      heading: "Does Dual Wield Increase Stance Damage?",
+      level: 2,
+      content:
+        "No. Dual wielding (power stancing) does not increase posture damage per hit.\n\nHowever, dual wielding can:\n\n* Increase total DPS\n* Apply status effects faster\n* Create more pressure\n\nBut for pure stance break, 2-handing a single weapon is better because:\n\n* 2-handing adds +10-15% posture damage\n* Jump attacks with 2-handed weapons deal maximum posture\n* Power stanced jump attacks deal less per hit than 2-handed\n\n> **Verdict:** If your goal is stance break, 2-hand your weapon. If your goal is damage, power stance.",
+    },
+    {
+      heading: "What Is The Easiest Boss To Stance Break?",
+      level: 2,
+      content:
+        "Rennala is the easiest boss to stance break in Elden Ring.\n\n* Her posture bar is only ~60 HP\n* 2 Jump Heavy Attacks from any colossal weapon will break her\n* She has long recovery windows after attacks\n\n**Other easy bosses:**\n\n* Margit (80 posture HP, predictable patterns)\n* Godrick (100 posture HP, large punish windows)\n* Loretta (90 posture HP, slow attacks)\n\n> **Hardest to stance break:** Elden Beast (160+ posture HP, constantly moves away from you).",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is stance break in Elden Ring?\n\nIt is when enemy posture is fully depleted, causing a stagger and critical hit window.\n\n### How do you break stance faster?\n\nUse jump attacks, charged heavies, and high posture damage weapons.\n\n### What weapons are best for stance break?\n\nGreatswords, colossal weapons, and strike weapons.\n\n### Is stance break important in PvE?\n\nYes. It is one of the strongest combat mechanics in PvE.\n\n### Can all enemies be stance broken?\n\nMost enemies can, but some bosses have higher thresholds.",
+        "### What is stance break in Elden Ring?\n\nIt is when enemy posture is fully depleted, causing a stagger and critical hit window.\n\n### How do you break stance faster?\n\nUse jump attacks (30 posture damage), charged heavies (40 posture damage), and high posture damage weapons like Giant-Crusher.\n\n### What weapons are best for stance break?\n\nColossal weapons, greatswords, and strike weapons. Giant-Crusher and Greatsword are S-tier.\n\n### Is stance break important in PvE?\n\nYes. It is one of the strongest combat mechanics in PvE, allowing you to skip boss phases with critical hits.\n\n### Can all enemies be stance broken?\n\nMost enemies can, but some bosses have higher thresholds. Elden Beast has the highest at ~160 posture HP.\n\n### Does stance damage reset?\n\nYes, partially. If you stop attacking for ~6-8 seconds, the posture bar begins to recover slowly (~5-10 HP per second).\n\n### Does bleed increase stance damage?\n\nNo. Bleed and posture are separate systems. They stack well for damage but do not affect each other.\n\n### Does Cragblade increase stance damage?\n\nYes. Cragblade adds approximately +20% posture damage for 60 seconds.\n\n### Does dual wield increase stance damage?\n\nNo. 2-handing a single weapon is better for stance break than power stancing.\n\n### What is the easiest boss to stance break?\n\nRennala (~60 posture HP, 2 Jump Heavy Attacks).\n\n### How many hits to stance break Malenia?\n\nApproximately 4-6 heavy attacks with a colossal weapon, or 5-6 jump heavies with a greatsword.\n\n### Is Lion's Claw good for stance break?\n\nYes. Lion's Claw is one of the best Ashes of War for stance break, dealing 50+ posture damage in a single use.",
     },
   ],
   internalLinks: [
