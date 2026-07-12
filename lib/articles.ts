@@ -1955,12 +1955,10 @@ export const articles: Article[] = [
   // ═══ ELDEN RING — BUILDS (Build Planner) ═══
   {
     keyTakeaways: [
-      { label: "🎯 What It Does", value: "Simulate character stats before spending runes — avoid wasted levels" },
-      { label: "💡 Key Insight", value: "Most players over-invest in damage — Vigor and synergy matter more" },
-      { label: "📊 Best Use", value: "Test weapon scaling, optimize stat balance, avoid Larval Tear waste" },
-      { label: "⚔️ Planner Steps", value: "Pick weapon → set stat target → check scaling → adjust Vigor first" },
-      { label: "🛡️ Priority Order", value: "Vigor > weapon upgrade > damage stat > endurance > mind" },
-      { label: "🛠️ Best Tool", value: "Use the Zosygo Build Calculator — test before committing" },
+      { label: "What It Does", value: "Simulate character stats before spending runes. Test weapon scaling, optimize stat distribution, and compare builds side by side." },
+      { label: "Key Benefit", value: "No wasted Larval Tears - test respecs before committing. See exact AR for any weapon at any stat combination." },
+      { label: "Unique Data", value: "Proprietary build scoring, soft cap visualization, and per-weapon AR breakdown. Updated for Shadow of the Erdtree DLC." },
+      { label: "Integrated Tools", value: "Links to Rune Level Calculator, Build Tier List, and 14+ build guides in the topic cluster." },
     ],
     slug: "build-planner-guide",
     category: "builds",
@@ -1968,68 +1966,74 @@ export const articles: Article[] = [
     difficulty: "beginner",
     readTimeMinutes: 7,
     order: 10,
-    title: "Elden Ring Build Planner (2026) – Best Stat Calculator Guide",
+    title: "Elden Ring Build Planner (2026) - Best Stat Calculator Guide",
     metaDescription:
       "Learn how to use a build planner in Elden Ring to optimize stats, avoid wasted levels, and create the strongest builds for PvE and PvP.",
     sections: [
       {
         heading: "",
         level: 2,
-        content: "Most Elden Ring players make the same mistake:\n\nThey level up randomly without understanding how their stats actually scale.\n\nThis leads to weak damage, poor survivability, and wasted levels at endgame.\n\nA **build planner** solves this problem by letting you simulate your character before spending a single rune. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different builds before committing levels."
+        content:
+          "Most Elden Ring players level up randomly without understanding how their stats actually scale. The result? Weak damage, poor survivability, and wasted levels at endgame. A build planner solves this by letting you simulate your character and test weapon scaling before spending a single rune. Use the Elden Ring Build Calculator at zosygo.com to plan your stats, compare weapons, and optimize your build in seconds."
       },
       {
         heading: "What Is a Build Planner in Elden Ring?",
         level: 2,
-        content: "A build planner is a tool that allows you to:\n\n- Simulate character stats at any level\n- Test weapon scaling before upgrading\n- Optimize Vigor, damage, and FP balance\n- Avoid wasting Larval Tears on bad respecs\n\nInstead of guessing, you calculate."
+        content:
+          "An Elden Ring build planner is an interactive tool that simulates character stats at any level, tests weapon scaling before upgrading, and helps you find the most efficient stat distribution for your playstyle. You can simulate stats from level 1 to 713, test weapon scaling for Strength, Dexterity, Intelligence, Faith, or Arcane, optimize stat balance between damage and survivability, avoid Larval Tear waste by testing respecs before committing, and compare builds side-by-side."
       },
       {
-        heading: "Why Most Players Don't Need \"More Damage\"",
+        heading: "How a Build Planner Works - Input to Calculate to Optimize",
         level: 2,
-        content: "The biggest misconception in Elden Ring is:\n\n> \"I need more Strength or Intelligence to deal more damage.\"\n\nIn reality:\n\nMost players are already over-investing in damage stats.\n\nThe real limiting factor is usually:\n\n- Low Vigor\n- Poor equip load management\n- Incorrect scaling synergy\n- Wasted stat distribution"
+        content:
+          "A build planner follows a simple three-step process. Step 1: Input Your Base - select your starting class and target level. The planner automatically calculates base stats from your class choice. Step 2: Allocate Stats - add points to each stat and see real-time feedback with soft cap warnings, AR preview, and equip load tracking. Step 3: Optimize - the planner reveals inefficiencies instantly. If you have 80 Strength but only 30 Vigor, it shows exactly how much survivability you are sacrificing for marginal damage gains. Most optimized builds at level 150 allocate 60 Vigor, 60-80 in their primary damage stat, and 20-30 Endurance. This is the same process used by top PvP players and speedrunners."
       },
       {
-        heading: "How a Build Planner Actually Improves Your Build",
+        heading: "Why Most Players Do Not Need More Damage",
         level: 2,
-        content: "A proper build planner shows you:"
+        content:
+          "The biggest misconception in Elden Ring is that players need more Strength or Intelligence to deal more damage. In reality, most players are already over-investing in damage stats. The real limiting factor is usually low Vigor, poor equip load management, incorrect scaling synergy, or wasted stat distribution. A level 150 build with 60 Vigor, 55 Strength, and 30 Endurance will outperform a build with 30 Vigor, 80 Strength, and 15 Endurance in almost every PvE encounter. The extra damage from 25 more Strength points is small (often 5-10 percent more AR), while the survivability loss from 30 fewer Vigor points is enormous (40 percent less HP)."
       },
       {
-        heading: "1. Stat Efficiency",
-        level: 3,
-        content: "You can immediately see:\n\n- When Strength stops scaling efficiently\n- When Intelligence hits soft caps\n- When Arcane becomes inefficient"
-      },
-      {
-        heading: "2. Survival vs Damage Balance",
-        level: 3,
-        content: "Most weak builds look like this:\n\n- High damage stat\n- Low Vigor\n\nA planner helps you rebalance:\n\n- Vigor 60\n- Damage stat optimized",
-        image: "build-planner-vigor.png",
-        imageAlt: "Arsenal Charm talisman representing survivability from Elden Ring"
-      },
-      {
-        heading: "3. Weapon Scaling Comparison",
-        level: 3,
-        content: "You can test:\n\n- Moonveil vs Uchigatana\n- Rivers of Blood vs Nagakiba\n- Heavy vs Keen vs Occult scaling\n\nBefore upgrading anything.",
-        image: "build-planner-calc.png",
-        imageAlt: "Radagon's Scarseal talisman representing stat calculation from Elden Ring"
-      },
-      {
-        heading: "Most Common Build Mistakes",
+        heading: "Most Common Build Mistakes - And How a Planner Fixes Them",
         level: 2,
         content: ""
       },
       {
-        heading: "Mistake #1: Over-leveling damage stats",
+        heading: "Mistake #1: Over-Leveling Damage Stats Past Soft Caps",
         level: 3,
-        content: "Many players push:\n\n- Strength 80+\n- Intelligence 80+\n- Arcane 70+\n\nWithout realizing diminishing returns already started much earlier."
+        content:
+          "Many players push Strength to 80+ or Intelligence to 80+ without realizing diminishing returns started much earlier. Strength 40-60 is the most efficient range. After 60, each point gives roughly half the value. After 80, each point gives less than a quarter. A planner shows you exactly where your stat stops being efficient."
       },
       {
-        heading: "Mistake #2: Ignoring Vigor",
+        heading: "Mistake #2: Ignoring Vigor Until Late Game",
         level: 3,
-        content: "At endgame, Vigor is the most important stat in the game.\n\nWithout 55–60 Vigor:\n\n- One-shot deaths become common\n- Boss fights become inconsistent"
+        content:
+          "At endgame, Vigor is the most important stat. Without 55-60 Vigor, one-shot deaths become common, boss fights become inconsistent, and you waste more time dying than you save with extra damage. Recommended breakpoints: Level 40: Vigor 25-30. Level 80: Vigor 35-40. Level 120: Vigor 50-55. Level 150: Vigor 60."
       },
       {
-        heading: "Mistake #3: Wrong scaling type",
+        heading: "Mistake #3: Wrong Weapon Infusion or Scaling Type",
         level: 3,
-        content: "Many weapons perform completely differently depending on infusion:\n\n- Keen\n- Heavy\n- Quality\n- Occult\n- Magic\n\nA build planner shows the optimal choice instantly."
+        content:
+          "Many weapons perform completely differently depending on infusion. Keen is best for pure Dexterity builds. Heavy is best for pure Strength builds. Quality is best for balanced Strength/Dexterity. Occult is best for Arcane builds with natural bleed. Magic and Cold are best for Intelligence builds. A build planner shows the optimal choice for your exact stats instantly."
+      },
+      {
+        heading: "Build Planner Comparison - Elden Ring Tools Compared",
+        level: 2,
+        content: "",
+        table: {
+          headers: ["Feature", "Zosygo Build Calculator", "Generic Planners", "Spreadsheets"],
+          rows: [
+            ["Real-time AR preview", "Yes - per weapon", "Basic", "Manual input"],
+            ["Soft cap visualization", "Yes - color-coded", "No", "No"],
+            ["Weapon database", "All weapons + DLC", "Limited", "User-added"],
+            ["Equipment load calc", "Yes - roll speed + weight", "Basic", "No"],
+            ["URL sharing", "Yes - full state in URL", "No", "No"],
+            ["Mobile friendly", "Yes - responsive", "Varies", "No"],
+            ["DLC support", "Yes - Shadow of the Erdtree", "Varies", "Varies"],
+            ["Offline use", "No - web based", "No", "Yes"],
+          ]
+        }
       },
       {
         heading: "Recommended Stat Targets (Level 150 Meta)",
@@ -2037,66 +2041,69 @@ export const articles: Article[] = [
         content: ""
       },
       {
-        heading: "Melee Build",
+        heading: "Melee Strength Build",
         level: 3,
-        content: "- Vigor: 60\n- Endurance: 25–30\n- Main Stat: 55–80"
+        content:
+          "Vigor 60, Mind 15, Endurance 30, Strength 60-80, Dexterity 12-20, Intelligence 9-15, Faith 9-15, Arcane 7-10. This build focuses on heavy weapons with high stagger potential. 60 Strength reaches the first soft cap. Pushing to 80 gives extra damage at reduced efficiency."
       },
       {
         heading: "Dexterity Build",
         level: 3,
-        content: "- Vigor: 60\n- Dexterity: 60\n- Endurance: 25"
+        content:
+          "Vigor 60, Mind 15-20, Endurance 25, Strength 12-18, Dexterity 60-80, Intelligence 9-15, Faith 8-15, Arcane 7-15. This build uses fast weapons with keen infusion. 60 Dexterity is the first soft cap. Higher Dexterity also increases casting speed for incantations."
       },
       {
         heading: "Intelligence Build",
         level: 3,
-        content: "- Vigor: 60\n- Intelligence: 60–80\n- Mind: 25"
+        content:
+          "Vigor 60, Mind 25-35, Endurance 20-25, Strength 12-16, Dexterity 12-18, Intelligence 60-80, Faith 7-15, Arcane 7-15. This caster build prioritizes FP for spell casting. 60 Intelligence is the first soft cap. Mind 25-35 provides enough FP for extended boss fights."
       },
       {
-        heading: "Bleed Build",
+        heading: "Bleed Arcane Build",
         level: 3,
-        content: "- Vigor: 60\n- Arcane: 45–50\n- Dexterity: 45–50"
+        content:
+          "Vigor 60, Mind 20, Endurance 25, Strength 12-15, Dexterity 45, Intelligence 9-15, Faith 8-15, Arcane 45-50. This build maximizes bleed buildup with Arcane scaling. 45 Dexterity and 45-50 Arcane provide optimal damage and bleed proc rate."
       },
       {
-        heading: "Why Build Planners Outperform Build Guides",
+        heading: "Frequently Asked Questions",
         level: 2,
-        content: "Build guides tell you:\n\n> \"What build to use\"\n\nBuild planners tell you:\n\n> \"What build is mathematically optimal for YOU\"\n\nThat difference is why planners dominate search intent."
+        content: ""
       },
       {
-        heading: "How to Use a Build Planner Effectively",
-        level: 2,
-        content: "To get the best results:\n\n1. Start at your target level (e.g. 150)\n2. Allocate Vigor first\n3. Choose your main damage stat\n4. Test weapon scaling\n5. Adjust Endurance for equip load\n6. Fine-tune Mind for FP usage"
+        heading: "What is the best level for Elden Ring?",
+        level: 3,
+        content:
+          "Level 150 is the standard endgame level for PvE. It allows 60 Vigor plus one primary damage stat at its soft cap. Level 125 is the PvP duel meta. Level 200+ is for NG+ and hybrid builds."
       },
       {
-        heading: "PvE vs PvP: Different Stat Priorities",
+        heading: "How do I use a build planner?",
+        level: 3,
+        content:
+          "Select your starting class, set your target level, allocate stats, and equip weapons. The planner shows AR, equip load, and soft cap warnings in real time. Adjust until your stat distribution is optimized."
+      },
+      {
+        heading: "What is the most important stat in Elden Ring?",
+        level: 3,
+        content:
+          "Vigor. Up to 60, each point gives significant HP. After 60, returns diminish sharply. No other stat provides as much value per point for overall performance."
+      },
+      {
+        heading: "Can I share my build with others?",
+        level: 3,
+        content:
+          "Yes - the Zosygo Build Calculator encodes your entire build state in the URL. You can share the link with friends, on Discord, or in Reddit build discussions."
+      },
+      {
+        heading: "Does the build planner support DLC weapons?",
+        level: 3,
+        content:
+          "Yes. All Shadow of the Erdtree weapons, talismans, and armor are included in the database. New items are added within 48 hours of discovery."
+      },
+      {
+        heading: "Build Planner vs Build Guide - Which Should You Use?",
         level: 2,
         content:
-          "PvE and PvP builds share the same soft caps, but their priorities differ significantly.\n\n### PvE Priority Order\n\n1. **Vigor** — survivability against hard-hitting bosses\n2. **Primary Damage Stat** — maximize boss kill speed\n3. **Endurance** — equip load for armor + weapon\n4. **Secondary Damage Stat** — weapon requirements or hybrid options\n5. **Mind** — FP for weapon skills and occasional casts\n\nPvE rewards flexibility. You can afford slightly lower peak damage because you can control engagements and use summons or spirit ashes. A typical PvE build at Level 150: Vigor 60, primary damage stat 80, Endurance 30, and whatever minimums are needed for your secondary stat.\n\n### PvP Priority Order\n\n1. **Vigor** — 60 is mandatory; you will get hit\n2. **Primary Damage Stat** — maximize burst potential\n3. **Endurance** — poise breakpoints for trading hits\n4. **Mind** — enough FP for 3–4 weapon art uses per fight\n5. **Everything Else** — every extra point has a specific purpose\n\nPvP rewards efficiency. Every wasted stat point is a disadvantage against an optimized opponent. Many PvP builds stop at exactly 60 Vigor, hit a specific poise breakpoint (51 or 101 poise), and dump the rest into damage. There is no room for hybrid spreading at Level 125–150.\n\n### The Key Difference\n\n| Aspect | PvE | PvP |\n| ------ | --- | --- |\n| Target Level | 150–200 | 125–150 |\n| Vigor Priority | 60 | 60 (mandatory) |\n| Damage Stats | Push to 80 | Push to 60–80 |\n| Endurance | Enough for fashion | Poise breakpoints (51 or 101) |\n| Hybrid Builds | Viable | Risky |\n| Stat Efficiency | Flexible | Critical |\n\nUnderstanding these differences is the difference between a build that feels great in PvE but gets crushed in PvP, or vice versa."
-      },
-      {
-        heading: "Build Planner vs Build Guide",
-        level: 2,
-        content: "",
-        image: "build-planner-defense.png",
-        imageAlt: "Dragoncrest Greatshield Talisman representing defense optimization from Elden Ring",
-        table: {
-          headers: ["Feature", "Build Guide", "Build Planner"],
-          rows: [
-            ["Static Build", "Yes", "No"],
-            ["Personalized", "No", "Yes"],
-            ["Scaling Optimization", "No", "Yes"],
-            ["Endgame Accuracy", "Medium", "High"]
-          ]
-        }
-      },
-      {
-        heading: "Why This Matters for Elden Ring Players",
-        level: 2,
-        content: "Elden Ring is not a linear RPG.\n\nThe same weapon can perform completely differently depending on:\n\n- stat distribution\n- scaling type\n- upgrade path\n- talisman synergy\n\nA build planner removes guesswork completely."
-      },
-      {
-        heading: "Final Verdict",
-        level: 2,
-        content: "If you are still copying builds from guides, you are likely wasting levels without realizing it.\n\nThe strongest players in Elden Ring do not follow builds.\n\nThey test and optimize them to simulate your Elden Ring build and find the most efficient stat distribution before committing levels. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need for each phase of your build. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how much damage you gain from each stat point."
+          "Build guides tell you what build to copy. Build planners tell you what build is mathematically optimal for your playstyle and level. Use a build guide when you are new and need a starting point. Use a build planner when you want to optimize an existing build, test a respec before committing, compare different stat distributions, or theorycraft for PvP at a specific level. The strongest Elden Ring players do not follow builds. They test and optimize."
       }
     ],
     internalLinks: [
@@ -2104,6 +2111,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
       { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Build Planning for Malenia" }
     ]
   },
