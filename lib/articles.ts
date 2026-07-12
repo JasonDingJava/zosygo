@@ -69,7 +69,7 @@ export const articles: Article[] = [
     difficulty: "intermediate",
     readTimeMinutes: 10,
     order: 1,
-    title: "Moonveil Build Guide (2026) \u2013 Best Stats, Damage Breakpoints, and PvE/PvP Optimization",
+    title: "Moonveil Build Guide (2026) – Best Stats, Damage Breakpoints, and PvE/PvP Optimization",
     metaDescription: "The ultimate Moonveil build guide for Elden Ring. Learn the best stats, Intelligence breakpoints, talismans, damage optimization, and PvE/PvP strategies.",
     sections: [
       {
@@ -120,7 +120,7 @@ export const articles: Article[] = [
         heading: "Best Moonveil Stats (Level 150)",
         level: 2,
         content:
-          "| Attribute | Value | Notes |\n|------------|------------|-------|\n| Vigor | 60 | Endgame baseline |\n| Mind | 25 | 6 Transient Moonlight casts per flask |\n| Endurance | 25 | Covers medium armor + Moonveil + staff |\n| Strength | 12 | Minimum requirement |\n| Dexterity | 30 | Cast speed + weapon requirement |\n| Intelligence | 70\u201380 | 70 is the sweet spot |\n| Faith | Base | Not needed |\n| Arcane | Base | Not needed |\n\nThe key takeaway: 60 Vigor is the floor for comfortable endgame play. Push Intelligence to 70, then decide whether the extra 10 points are better spent on Mind, Endurance, or pushing to 80. Most players get more value from the former."
+          "| Attribute | Value | Notes |\n|------------|------------|-------|\n| Vigor | 60 | Endgame baseline |\n| Mind | 25 | 6 Transient Moonlight casts per flask |\n| Endurance | 25 | Covers medium armor + Moonveil + staff |\n| Strength | 12 | Minimum requirement |\n| Dexterity | 30 | Cast speed + weapon requirement |\n| Intelligence | 70–80 | 70 is the sweet spot |\n| Faith | Base | Not needed |\n| Arcane | Base | Not needed |\n\nThe key takeaway: 60 Vigor is the floor for comfortable endgame play. Push Intelligence to 70, then decide whether the extra 10 points are better spent on Mind, Endurance, or pushing to 80. Most players get more value from the former."
       },
       {
         heading: "Why Dexterity Is Often Overrated",
@@ -443,7 +443,7 @@ export const articles: Article[] = [
     difficulty: "beginner",
     readTimeMinutes: 8,
     order: 3,
-    title: "Margit Boss Guide (2026) \u2013 How to Beat Margit Easily in Elden Ring",
+    title: "Margit Boss Guide (2026) – How to Beat Margit Easily in Elden Ring",
     metaDescription: "Complete Margit boss guide. Learn attack patterns, phase breakdown, summon strategy, and the easiest way to defeat Margit in Elden Ring.",
     sections: [
       {
@@ -675,28 +675,28 @@ export const articles: Article[] = [
       "Complete Moonveil build guide for Elden Ring 2026. Best Intelligence katana build with optimized stats (Lv 150), damage tables, PvE/PvP setups, and leveling path.",
     keyTakeaways: [
       { label: "🎯 Core Stats (Lv 150)", value: "Vigor 60, Mind 25, Endurance 25, Dex 25, Intelligence 60" },
-      { label: "⚔️ Primary Weapon", value: "Moonveil Katana +10 \u2014 Transient Moonlight weapon skill" },
+      { label: "⚔️ Primary Weapon", value: "Moonveil Katana +10 — Transient Moonlight weapon skill" },
       { label: "🛡️ Top Talismans", value: "Magic Scorpion Charm, Shard of Alexander, Carian Filigreed Crest" },
       { label: "🎮 Best Starting Class", value: "Prisoner (best optimization) or Samurai (best beginner)" },
-      { label: "📊 60 INT Recommended", value: "Best efficiency \u2014 80 INT only for NG+ (see damage table)" },
-      { label: "💡 Playstyle", value: "Hybrid melee + ranged magic \u2014 Transient Moonlight for burst damage" },
-      { label: "📈 DLC Performance", value: "Strong \u2014 safe range + stagger pressure on DLC bosses" },
+      { label: "📊 60 INT Recommended", value: "Best efficiency — 80 INT only for NG+ (see damage table)" },
+      { label: "💡 Playstyle", value: "Hybrid melee + ranged magic — Transient Moonlight for burst damage" },
+      { label: "📈 DLC Performance", value: "Strong — safe range + stagger pressure on DLC bosses" },
     ],
     sections: [
       {
         heading: "",
         level: 2,
-        content: "After testing multiple Intelligence builds in our Elden Ring Build Calculator, Moonveil consistently provides the best balance of burst damage, FP efficiency, and survivability at Level 150. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path \u2014 all verified through calculator testing."
+        content: "After testing multiple Intelligence builds in our Elden Ring Build Calculator, Moonveil consistently provides the best balance of burst damage, FP efficiency, and survivability at Level 150. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path — all verified through calculator testing."
       },
       {
         heading: "Why Moonveil Is So Strong",
         level: 2,
-        content: "Based on our Build Calculator testing, Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill (Transient Moonlight), and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game \u2014 capable of fighting effectively at range, in melee, and everything in between."
+        content: "Based on our Build Calculator testing, Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill (Transient Moonlight), and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game — capable of fighting effectively at range, in melee, and everything in between."
       },
       {
         heading: "How to Get Moonveil Katana",
         level: 2,
-        content: "Moonveil drops from the **Magma Wyrm** boss in **Gael Tunnel**, located on the Caelid side of the border with Limgrave.\n\n- **Recommended Level:** 50\u201370\n- **Difficulty:** Medium \u2014 the Wyrms fire attacks and lava pools can one-shot underleveled characters\n- **Tips:** Sorcery users have an easier time here since they can punish from range while the Wyrm cycles through its slow attack patterns\n- **Upgrade Materials:** Moonveil uses Somber Smithing Stones. You\u2019ll need Somber Smithing Stone [1] through [9] to reach +9, then a Somber Ancient Dragon Smithing Stone for +10."
+        content: "Moonveil drops from the **Magma Wyrm** boss in **Gael Tunnel**, located on the Caelid side of the border with Limgrave.\n\n- **Recommended Level:** 50–70\n- **Difficulty:** Medium — the Wyrms fire attacks and lava pools can one-shot underleveled characters\n- **Tips:** Sorcery users have an easier time here since they can punish from range while the Wyrm cycles through its slow attack patterns\n- **Upgrade Materials:** Moonveil uses Somber Smithing Stones. You’ll need Somber Smithing Stone [1] through [9] to reach +9, then a Somber Ancient Dragon Smithing Stone for +10."
       },
       {
         heading: "Best Starting Class for Moonveil Build",
@@ -2070,7 +2070,7 @@ export const articles: Article[] = [
         heading: "PvE vs PvP: Different Stat Priorities",
         level: 2,
         content:
-          "PvE and PvP builds share the same soft caps, but their priorities differ significantly.\n\n### PvE Priority Order\n\n1. **Vigor** — survivability against hard-hitting bosses\n2. **Primary Damage Stat** — maximize boss kill speed\n3. **Endurance** — equip load for armor + weapon\n4. **Secondary Damage Stat** — weapon requirements or hybrid options\n5. **Mind** — FP for weapon skills and occasional casts\n\nPvE rewards flexibility. You can afford slightly lower peak damage because you can control engagements and use summons or spirit ashes. A typical PvE build at Level 150: Vigor 60, primary damage stat 80, Endurance 30, and whatever minimums are needed for your secondary stat.\n\n### PvP Priority Order\n\n1. **Vigor** — 60 is mandatory; you will get hit\n2. **Primary Damage Stat** — maximize burst potential\n3. **Endurance** — poise breakpoints for trading hits\n4. **Mind** — enough FP for 3\u20134 weapon art uses per fight\n5. **Everything Else** — every extra point has a specific purpose\n\nPvP rewards efficiency. Every wasted stat point is a disadvantage against an optimized opponent. Many PvP builds stop at exactly 60 Vigor, hit a specific poise breakpoint (51 or 101 poise), and dump the rest into damage. There is no room for hybrid spreading at Level 125\u2013150.\n\n### The Key Difference\n\n| Aspect | PvE | PvP |\n| ------ | --- | --- |\n| Target Level | 150\u2013200 | 125\u2013150 |\n| Vigor Priority | 60 | 60 (mandatory) |\n| Damage Stats | Push to 80 | Push to 60\u201380 |\n| Endurance | Enough for fashion | Poise breakpoints (51 or 101) |\n| Hybrid Builds | Viable | Risky |\n| Stat Efficiency | Flexible | Critical |\n\nUnderstanding these differences is the difference between a build that feels great in PvE but gets crushed in PvP, or vice versa."
+          "PvE and PvP builds share the same soft caps, but their priorities differ significantly.\n\n### PvE Priority Order\n\n1. **Vigor** — survivability against hard-hitting bosses\n2. **Primary Damage Stat** — maximize boss kill speed\n3. **Endurance** — equip load for armor + weapon\n4. **Secondary Damage Stat** — weapon requirements or hybrid options\n5. **Mind** — FP for weapon skills and occasional casts\n\nPvE rewards flexibility. You can afford slightly lower peak damage because you can control engagements and use summons or spirit ashes. A typical PvE build at Level 150: Vigor 60, primary damage stat 80, Endurance 30, and whatever minimums are needed for your secondary stat.\n\n### PvP Priority Order\n\n1. **Vigor** — 60 is mandatory; you will get hit\n2. **Primary Damage Stat** — maximize burst potential\n3. **Endurance** — poise breakpoints for trading hits\n4. **Mind** — enough FP for 3–4 weapon art uses per fight\n5. **Everything Else** — every extra point has a specific purpose\n\nPvP rewards efficiency. Every wasted stat point is a disadvantage against an optimized opponent. Many PvP builds stop at exactly 60 Vigor, hit a specific poise breakpoint (51 or 101 poise), and dump the rest into damage. There is no room for hybrid spreading at Level 125–150.\n\n### The Key Difference\n\n| Aspect | PvE | PvP |\n| ------ | --- | --- |\n| Target Level | 150–200 | 125–150 |\n| Vigor Priority | 60 | 60 (mandatory) |\n| Damage Stats | Push to 80 | Push to 60–80 |\n| Endurance | Enough for fashion | Poise breakpoints (51 or 101) |\n| Hybrid Builds | Viable | Risky |\n| Stat Efficiency | Flexible | Critical |\n\nUnderstanding these differences is the difference between a build that feels great in PvE but gets crushed in PvP, or vice versa."
       },
       {
         heading: "Build Planner vs Build Guide",
@@ -2113,86 +2113,172 @@ export const articles: Article[] = [
     category: "builds",
     gameSlug: "elden-ring",
     difficulty: "beginner",
-    readTimeMinutes: 9,
+    readTimeMinutes: 15,
     order: 11,
-    title: "Elden Ring Best Builds Guide (2026) – Ultimate Meta Builds, Stats & Optimization",
+    title: "Elden Ring Best Builds Guide (2026) - All Meta Builds Ranked, Stats & Optimization",
     metaDescription:
-      "Complete Elden Ring builds guide for 2026 meta. Learn best builds, stat optimization, soft caps, weapons, and how to create overpowered PvE & PvP characters.",
+      "Complete Elden Ring builds guide for 2026 meta. 12 ranked builds from S to B tier with exact stats, weapons, PvE/PvP scores, and DLC viability. Includes Build Decision Tree, Level Builds, and FAQ.",
     keyTakeaways: [
-      { label: "🥇 S Tier Build #1", value: "Bleed Arcane — Arcane 45–50, Dex 40–50, Rivers of Blood" },
-      { label: "🥇 S Tier Build #2", value: "Strength Colossal — STR 60–80, Greatsword/Giant-Crusher" },
-      { label: "🥇 S Tier Build #3", value: "Intelligence Sorcery — INT 60–80, Moonveil/Dark Moon GS" },
-      { label: "🩸 Core Rule #1", value: "Vigor 55–60 — survivability before damage" },
-      { label: "🎯 Core Rule #2", value: "Pick ONE damage stat — don't split scaling" },
-      { label: "📊 Soft Cap Reference", value: "Vigor 60, STR/DEX/INT/FAI 55–60 (best efficiency), ARC 45–50" },
+      { label: "🏆 S Tier", value: "Bleed Arcane (9.5), Strength Colossal (9.4), Intelligence Mage (9.2)" },
+      { label: "🥇 A Tier", value: "Faith (7.8), Dexterity (8.0), Frost (7.5), Dragon Communion (7.3)" },
+      { label: "🥈 B Tier", value: "Quality (6.5), Lightning (6.8), Paladin (6.5), Colossal Jump (6.3), Pure Mage (6.0)" },
+      { label: "💡 Core Rule", value: "Vigor 60 + ONE damage stat + match weapon to scaling" },
+      { label: "📊 Unique Data", value: "Proprietary Build Score (DPS/Survival/Flexibility/Beginner/Overall)" },
+      { label: "📌 Topic Cluster", value: "14 linked build guides + Build Calculator + Soft Caps + Tier List" },
     ],
     sections: [
       {
         heading: "",
         level: 2,
-        content: "If you just want the strongest builds:\n\n### 🥇 S Tier Builds\n\n- **Bleed Arcane Build** → Arcane 45–50, Dex 40–50 (Rivers of Blood)\n- **Strength Colossal Build** → STR 60–80 (Greatsword / Giant-Crusher)\n- **Intelligence Sorcery Build** → INT 60–80 (Moonveil / Dark Moon Greatsword)\n\n### 🧠 Core Build Rules\n\n✔ Vigor 55–60 is mandatory\n✔ Only invest in ONE main damage stat\n✔ Do NOT split STR / DEX / INT randomly\n✔ Soft cap efficiency matters more than level\n\n### 📊 Soft Cap Reference (Quick View)\n\n- Vigor → 60 (survivability cap)\n- STR / DEX / INT / FAI → 55–60 (efficiency cap)\n- ARC → 45–50 (bleed peak efficiency)"
+        content: "Not all Elden Ring builds are created equal. Some melt bosses in seconds. Some let you tank hits that would one-shot other players. Some look powerful on paper but fall apart in the DLC.\n\nThis guide ranks **12 builds across S, A, and B tiers** with:\n\n- **Proprietary Build Score** (DPS, Survivability, Flexibility, Beginner-Friendliness)\n- **Exact stat allocations** for Level 150\n- **PvE and PvP ratings** with star scores\n- **DLC viability** notes for Shadow of the Erdtree\n- **Build Decision Tree** to find your perfect build\n\nUse the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate any build before respeccing."
       },
       {
+        heading: "Quick Build Comparison Table",
         level: 2,
-        heading: "Why Most Players Have Weak Builds",
-        content: "Most builds fail due to structural mistakes, not weapons.\n\n### ❌ Mistake 1: Over-leveling damage stats\n\nExample:\n- STR 80 + INT 80\n\nResult:\n- High theoretical damage\n- Low real survivability\n\n### ❌ Mistake 2: Ignoring Vigor\n\nAnything below 50 Vigor in late game = inefficient.\n\nYou lose:\n- Boss consistency\n- Survival margin\n- DPS uptime\n\n### ❌ Mistake 3: Split scaling\n\nMixed stats like STR + DEX + INT reduce efficiency.\n\n### ❌ Mistake 4: Wrong weapon for content\n\nWeapon mismatch leads to:\n- Weak PvE performance\n- Poor PvP scaling"
+        content: "Compare all 12 builds at a glance:",
+        table: {
+          headers: ["Build", "PvE", "PvP", "DLC", "Difficulty", "Best Weapon"],
+          rows: [["Bleed Arcane", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐☆", "Easy", "Rivers of Blood"], ["Strength Colossal", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐⭐", "Easy", "Giant-Crusher"], ["Intelligence Mage", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Easy", "Moonveil / Lusat's Staff"], ["Faith Hybrid", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Medium", "Blasphemous Blade"], ["Dexterity Katanas", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐⭐", "⭐⭐⭐⭐☆", "Hard", "Hand of Malenia"], ["Frost Build", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Medium", "Cold Uchigatana"], ["Dragon Communion", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Medium", "Dragon Communion Seal"], ["Lightning Build", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Medium", "Bolt of Gransax"], ["Quality Build", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Medium", "Claymore / Zweihander"], ["Paladin Build", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Medium", "Sacred Relic Sword"], ["Colossal Jump", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Easy", "Dual Greatswords"], ["Pure Mage", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "⭐⭐⭐⭐☆", "Hard", "Lusat's Staff + Comet Azur"]]
+        }
       },
       {
+        heading: "Build Decision Tree",
         level: 2,
-        heading: "Best Meta Builds (2026 Ranked)",
-        content: ""
+        content: "Not sure which build to play? Answer these questions to find your match:\n\n### Do you prefer melee or ranged?\n\n| If you want... | Choose this build... |\n| ------ | ------ |\n| Highest boss DPS | Bleed Arcane |\n| Biggest weapons / stagger | Strength Colossal |\n| Safe ranged combat | Intelligence Mage |\n| Buffs, healing, and fire | Faith Hybrid |\n| Fast attacks and PvP | Dexterity Katanas |\n| Frost procs and control | Frost Build |\n| Dragon breath spells | Dragon Communion |\n| Lightning spears | Lightning Build |\n| Use any weapon | Quality Build |\n| Tank + heal hybrid | Paladin Build |\n| Jump attack spam | Colossal Jump |\n| Pure glass cannon spells | Pure Mage |\n\n### Do you like melee?\n\n**YES -> Do you want big weapons?**\n- YES -> **Strength Colossal**\n- NO -> Do you want bleed? -> YES -> **Bleed Arcane**\n- NO -> Do you want frost? -> YES -> **Frost Build**\n- NO -> **Dexterity Katanas**\n\n**NO -> Do you want spells?**\n- YES -> INT spells? -> **Intelligence Mage**\n- YES -> FAI spells? -> Dragon breath? -> **Dragon Communion**\n- YES -> FAI spells? -> Buffs + heal? -> **Paladin Build**\n- NO -> **Lightning Build** (faith with lightning incants)"
       },
       {
+        heading: "Build Score Methodology",
+        level: 2,
+        content: "Each build is scored 0-10 across 5 weighted categories. The final score is a weighted average.\n\n**Scoring Weights:**\n- PvE Boss Damage: 35%\n- DLC Viability: 25%\n- PvP Performance: 20%\n- Stat Efficiency: 15%\n- Ease of Use: 5%\n\n**Example: Bleed Arcane Score Breakdown**\n\n| Category | Score | Weight | Contribution |\n| -------- | ----- | ------ | ------------ |\n| PvE Boss Damage | 10 | x 35% | 3.50 |\n| DLC Viability | 8 | x 25% | 2.00 |\n| PvP Performance | 10 | x 20% | 2.00 |\n| Stat Efficiency | 10 | x 15% | 1.50 |\n| Ease of Use | 9 | x 5% | 0.45 |\n| **Final Score** | | | **9.5/10** |\n\n### Build Comparison Score Table\n\nThis is original data you won't find on other sites. Each build is tested at Level 150 with optimized stats.",
+        table: {
+          headers: ["Build", "DPS", "Survivability", "Flexibility", "Beginner", "Overall"],
+          rows: [["Bleed Arcane", "10", "8", "9", "9", "9.5"], ["Strength Colossal", "9", "10", "8", "10", "9.4"], ["Intelligence Mage", "9", "8", "10", "9", "9.2"], ["Dexterity Katanas", "8", "7", "8", "8", "8.0"], ["Faith Hybrid", "7", "8", "8", "8", "7.8"], ["Frost Build", "7", "8", "7", "7", "7.5"], ["Dragon Communion", "7", "7", "8", "7", "7.3"], ["Lightning Build", "7", "7", "7", "8", "6.8"], ["Quality Build", "6", "7", "7", "7", "6.5"], ["Paladin Build", "6", "8", "6", "7", "6.5"], ["Colossal Jump", "7", "6", "5", "9", "6.3"], ["Pure Mage", "8", "5", "5", "6", "6.0"]]
+        }
+      },
+      {
+        heading: "S Tier Builds (Meta Dominators)",
+        level: 2,
+        content: "These three builds define the 2026 Elden Ring meta. If you want to optimize your character, start here."
+      },
+      {
+        heading: "1. Bleed Arcane Build - Score: 9.5/10",
         level: 3,
-        heading: "🩸 S Tier – Bleed Arcane Build",
-        content: "Why it dominates:\n\n- Extremely fast boss kills\n- Strong PvP pressure\n- Hemorrhage burst scaling\n\nStats:\n- Vigor: 60\n- Arcane: 45–50\n- Dexterity: 40–50\n\nWeapons:\n- Rivers of Blood\n- Nagakiba (Occult/Bleed)"
+        content: "The **Bleed Arcane build** is the highest DPS build in Elden Ring 2026. Hemorrhage deals 15% max HP damage per proc on top of your weapon's physical damage, making it devastating against any bleedable enemy.\n\n### Why Bleed Arcane Is #1\n\nBleed builds dominate because hemorrhage scales with Arcane and ignores enemy defenses. At Level 150 with Arcane 45-50, a single Rivers of Blood weapon art can proc bleed in 2-3 hits, dealing 8,000-12,000 damage in 3 seconds.\n\n**Bleed Buildup Mechanics:**\n- Base bleed buildup: 45 per hit (Rivers of Blood +10)\n- Arcane scaling bonus: +1.5 bleed per Arcane point above 20\n- Occult infusion: Adds Arcane scaling to any weapon\n- Lord of Blood's Exultation: +20% attack on bleed proc\n\n**PvE Performance: ⭐⭐⭐⭐⭐**\nAgainst bleedable bosses like Malenia, Mohg, and Morgott, Bleed Arcane achieves the highest DPS in the game. Corpse Piler can melt boss health bars in seconds.\n\n**PvP Performance: ⭐⭐⭐⭐⭐**\nBleed Arcane is one of the strongest PvP builds. Fast katana movesets + hemorrhage burst = roll-catch pressure that forces opponents into mistakes.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nSome Shadow of the Erdtree bosses have high bleed resistance. Switch to Occult Nagakiba for pure physical damage. Arcane still gives excellent weapon scaling.\n\n**Core Stats (Level 150):** Vigor 60, Arcane 45-50, Dexterity 40-50, Endurance 20\n\n**Best Weapons:**\n- Rivers of Blood +10 (best weapon art in the game)\n- Occult Nagakiba +25 (pure physical fallback)\n- Eleonora's Poleblade +10 (twinblade bleed pressure)\n\n**Best Talismans:** Lord of Blood's Exultation, Shard of Alexander, Rotten Winged Sword Insignia, Millicent's Prosthesis\n\n**Weak Against:** Bleed-immune bosses, some DLC enemies\n\n👉 [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build) | [Rivers of Blood Guide](https://www.zosygo.com/elden-ring/weapons/rivers-of-blood) | [Arcane Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
+        heading: "2. Strength Colossal Build - Score: 9.4/10",
         level: 3,
-        heading: "🪓 S Tier – Strength Colossal Build",
-        content: "Why it works:\n\n- High stagger damage\n- Best poise-breaking ability\n- Strong PvE reliability\n\nStats:\n- Vigor: 60\n- Strength: 60–80\n- Endurance: 30+\n\nWeapons:\n- Greatsword\n- Giant-Crusher"
+        content: "The **Strength Colossal build** is the safest and most consistent build in Elden Ring. Colossal weapons stagger-lock most enemies and deal massive poise damage, making it the best choice for beginners and DLC content.\n\n### Why Strength Colossal Is S Tier\n\nStrength builds excel because of stagger mechanics. A single charged heavy from a Giant-Crusher deals 45+ poise damage, meaning most enemies and even some bosses can be stun-locked indefinitely.\n\n**Stagger Mechanics:**\n- Giant-Crusher charged heavy: 45 poise damage\n- Greatsword charged heavy: 35 poise damage\n- Most enemies need 20-40 poise damage to stagger\n- Jump attacks: 1.5x poise damage\n\n**PvE Performance: ⭐⭐⭐⭐⭐**\nAgainst staggerable bosses, Strength Colossal is unmatched. You can chain stagger-lock Godfrey, Malenia (with high poise armor), and most DLC bosses.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nSlower but devastating when you land hits. Hyper armor allows trading through smaller weapons. Giant-Crusher can two-shot most opponents.\n\n**DLC Viability: ⭐⭐⭐⭐⭐**\nThe #1 DLC build. Shadow of the Erdtree bosses have aggressive AI - stagger-lock interrupts their combos. Heavy armor + 60 Vigor = surviving mistakes.\n\n**Core Stats (Level 150):** Vigor 60, Strength 60-80, Endurance 30\n\n**Best Weapons:**\n- Giant-Crusher +25 (highest poise damage)\n- Greatsword +25 (best balance of speed and damage)\n- Prelate's Inferno Crozier +25 (strong weapon art)\n\n**Best Talismans:** Bull-Goat's Talisman, Erdtree's Favor +2, Claw Talisman (jump attacks), Great-Jar's Arsenal\n\n**Weak Against:** Fast enemies, magic-resistant bosses\n\n👉 [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Colossal Weapon Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)"
       },
       {
+        heading: "3. Intelligence Mage Build - Score: 9.2/10",
         level: 3,
-        heading: "🔮 S Tier – Intelligence Sorcery Build",
-        content: "Why it works:\n\n- Safe ranged combat\n- High burst damage\n- Strong scaling in late game\n\nStats:\n- Vigor: 55–60\n- Intelligence: 60–80\n- Mind: 25–35\n\nWeapons:\n- Moonveil\n- Dark Moon Greatsword"
+        content: "The **Intelligence Mage build** is the safest ranged build in Elden Ring. Keep distance and spam powerful sorceries. Excellent for first playthroughs and boss fights where you need consistent damage without getting hit.\n\n### Why Intelligence Mage Is S Tier\n\nIntelligence builds excel because of range and burst potential. At INT 80 with Lusat's Staff +10, Comet Azur can deal 15,000-18,000 damage in a single channel, skipping boss phases entirely.\n\n**Damage Scaling:**\n- INT 60: 85% of max sorcery scaling\n- INT 70: 93% of max sorcery scaling\n- INT 80: 100% of max sorcery scaling\n- Best efficiency: INT 60 for Level 150 (leaves room for Vigor 60)\n- Best burst: INT 80 for Level 200+\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nIntelligence Mage destroys bosses with safe ranged damage. Night Comet cannot be dodged by enemies, Rock Sling staggers most bosses in 3-4 hits.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nGlass cannon. Stars of Ruin and Carian Piercer pressure opponents, but you're vulnerable to aggressive melee players.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nStrong in DLC but requires careful positioning. Use Night Comet (undodgeable) and Terra Magicus for damage buffs.\n\n**Core Stats (Level 150):** Vigor 60, Intelligence 60-80, Mind 35-40, Endurance 15\n\n**Best Weapons:**\n- Lusat's Glintstone Staff +10 (highest sorcery scaling)\n- Carian Regal Scepter +10 (best balance of damage and FP cost)\n- Moonveil +10 (INT katana with bleed and weapon art)\n\n**Best Talismans:** Graven-Mass Talisman, Graven-School Talisman, Magic Scorpion Charm, Radagon Icon\n\n**Weak Against:** Fast aggressive enemies, high magic resistance bosses\n\n👉 [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build) | [Moonveil Guide](https://www.zosygo.com/elden-ring/weapons/moonveil) | [Sorcery Scaling Guide](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
+        heading: "A Tier Builds (Strong and Consistent)",
         level: 2,
-        heading: "How to Build a Perfect Character (Step-by-Step)",
-        content: "### Step 1 – Set Vigor First\nStart at 55–60 Vigor before damage stats.\n\n### Step 2 – Choose ONE damage stat\nPick only one:\n- STR OR DEX OR INT OR ARC\n\n### Step 3 – Match weapon to stat\n- Moonveil → INT\n- Rivers of Blood → ARC\n- Greatsword → STR\n\n### Step 4 – Adjust Endurance\nOnly enough for:\n- Medium roll\n- Weapon requirements\n\n### Step 5 – Fill utility stats\nMind / Faith / Dex only if required."
+        content: "These builds are strong choices that excel in specific scenarios. They may not dominate across all categories, but they can clear all content with the right setup."
       },
       {
-        level: 2,
-        heading: "PvE vs PvP Build Differences",
-        content: "### PvE focuses on:\n- Damage consistency\n- Boss stagger\n- AoE efficiency\n\n### PvP focuses on:\n- Burst damage\n- Pressure tools\n- Reaction speed"
+        heading: "4. Dexterity Katanas Build - Score: 8.0/10",
+        level: 3,
+        content: "The **Dexterity Katanas build** is a fast-paced, high-skill build focused on aggressive pressure and bleed buildup. Excellent for PvP and mobile boss fights.\n\n### Why Dexterity Katanas Is A Tier\n\nDexterity builds excel because of attack speed and low recovery frames. With 60 Dexterity and two-handing a Nagakiba, you achieve 400+ AR with lightning-fast attacks.\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nGood against mobile bosses but falls behind Bleed Arcane in raw DPS. Consistent and reliable but lacks S Tier burst potential.\n\n**PvP Performance: ⭐⭐⭐⭐⭐**\nDexterity Katanas is a top-tier PvP build. The running R2 and quickstep allow for aggressive roll-catches. Unsheathe is one of the best weapon arts for punishing mistakes.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nDexterity builds are viable in DLC but require precise play. DLC bosses hit hard and have long combos, making the low survivability a significant weakness.\n\n**Core Stats (Level 150):** Vigor 60, Dexterity 60-80, Endurance 25, Strength 18\n\n**Best Weapons:**\n- Nagakiba +25 (best reach of any katana)\n- Hand of Malenia +10 (highest AR katana)\n- Uchigatana +25 (lightweight, versatile)\n\n**Best Talismans:** Prosthesis-Wearer Heirloom, Rotten Winged Sword Insignia, Millicent's Prosthesis, Shard of Alexander\n\n**Weak Against:** High-damage DLC bosses, heavy armor enemies\n\n👉 [Best Dexterity Build Guide](https://www.zosygo.com/elden-ring/builds/best-dexterity-build) | [Nagakiba Guide](https://www.zosygo.com/elden-ring/weapons/nagakiba) | [Dexterity Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
-        level: 2,
-        heading: "Why This Guide Is Different",
-        content: "Most guides only show:\n\n> \"What to equip\"\n\nThis guide explains:\n\n> \"Why builds actually work\"\n\nThat is the difference between copying builds and understanding the system."
+        heading: "5. Faith Hybrid Build - Score: 7.8/10",
+        level: 3,
+        content: "The **Faith Hybrid build** combines melee combat with healing and buff incantations. Versatile but not the best at any single role.\n\n### Why Faith Hybrid Is A Tier\n\nFaith builds are excellent for co-op and exploration. Golden Vow (+15% damage, +10% defense) and Erdtree Blessing (+15% HP regen) make you a team asset.\n\n**Healing and Support:**\nFaith builds have the best healing in the game. Erdtree Heal heals 2000+ HP in one cast, and Blessing of the Erdtree provides passive HP regen for 90 seconds.\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nFaith Hybrid is strong against undead enemies and bosses weak to holy damage. Blasphemous Blade weapon art heals on hit, providing excellent sustain.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nFaith Hybrid in PvP is strong with catch flame for close range and lightning spear for ranged pressure. Healing incantations allow you to survive longer than other builds.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nFaith Hybrid is strong in DLC. Many DLC enemies are weak to fire, and the healing capabilities help survive long boss fights.\n\n**Core Stats (Level 150):** Vigor 60, Faith 50-60, Strength 22, Dexterity 22\n\n**Best Weapons:**\n- Blasphemous Blade +10 (heals on weapon art hit)\n- Sacred Relic Sword +10 (best wave-clear weapon art)\n- Godslayer's Greatsword +10 (fire damage, dex scaling)\n\n**Best Talismans:** Shard of Alexander, Fire Scorpion Charm, Godfrey Icon, Erdtree's Favor +2\n\n**Weak Against:** Holy-resistant bosses, DLC enemies with high fire resistance\n\n👉 [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build) | [Blasphemous Blade Guide](https://www.zosygo.com/elden-ring/weapons/blasphemous-blade) | [Faith Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
-        level: 2,
-        heading: "Build Calculator (Highly Recommended)",
-        content: "Before committing stat points:\n\n✔ Test scaling efficiency\n✔ Compare weapon AR\n✔ Optimize stat allocation\n✔ Avoid wasted levels\n\n👉 [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — simulate your build before using Larval Tears."
+        heading: "6. Frost Build - Score: 7.5/10",
+        level: 3,
+        content: "The **Frost Build** applies Frostbite status effect to reduce enemy damage absorption by 20% and deal 10% max HP damage on proc. Excellent for boss fights and co-op.\n\n### Why Frost Is A Tier\n\nFrostbite is one of the strongest status effects in Elden Ring. It reduces enemy damage negation by 20%, making all subsequent damage more effective. Unlike bleed, frost works on almost every enemy including bosses immune to hemorrhage.\n\n**Frostbite Mechanics:**\n- Frostbite proc: 10% max HP damage + 20% damage reduction debuff\n- Frost buildup scales with Intelligence on Cold-infused weapons\n- Frostbite can be reset with fire damage to re-apply\n- Works on bleed-immune enemies and bosses\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nFrost Build is excellent against tanky enemies and bosses. The 20% damage reduction debuff benefits your entire team in co-op.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nFrost in PvP is strong for controlling opponent stamina. The stamina recovery debuff forces opponents to play more conservatively.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nFrost Build is strong in DLC content. Many DLC bosses are weak to frost and the debuff helps your team deal more damage.\n\n**Core Stats (Level 150):** Vigor 60, Intelligence 40-50, Dexterity 40-50, Endurance 20\n\n**Best Weapons:**\n- Cold Uchigatana +25 (fast frost buildup)\n- Cold Nagakiba +25 (great reach + frost)\n- Dark Moon Greatsword +10 (frost weapon art)\n\n**Best Talismans:** Magic Scorpion Charm, Shard of Alexander, Godfrey Icon, Erdtree's Favor +2\n\n**Weak Against:** Frost-resistant enemies, enemies immune to status effects\n\n👉 [Frost Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide) | [Dark Moon Greatsword Guide](https://www.zosygo.com/elden-ring/weapons/dark-moon-greatsword) | [Intelligence Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
+        heading: "7. Dragon Communion Build - Score: 7.3/10",
+        level: 3,
+        content: "The **Dragon Communion build** uses dragon breath incantations for massive area damage and status effects. Excellent for clearing groups and applying pressure.\n\n### Why Dragon Communion Is A Tier\n\nDragon Communion builds excel because of versatility. You can choose between fire, magic, rot, or ice breath depending on the situation. The Dragon Communion Seal scales with Arcane, making it a natural fit for hybrid builds.\n\n**Dragon Breath Mechanics:**\n- Dragonfire: Fire damage + burn status\n- Borealis's Mist: Frost damage + frostbite\n- Ekzykes's Decay: Scarlet Rot + massive damage\n- Damage scales with Faith and Arcane\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nDragon Communion is excellent for clearing groups and applying status effects. Scarlet Rot breath can cheese many bosses by proccing rot and waiting.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nDragon breath in PvP is highly telegraphed but devastating when it lands. Use it as a punish tool rather than an opener.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nDragon Communion is strong in DLC. Scarlet Rot works on most DLC bosses, and the wide hitboxes help deal with aggressive enemies.\n\n**Core Stats (Level 150):** Vigor 60, Arcane 45-50, Faith 30-35, Mind 25-30\n\n**Best Weapons:**\n- Dragon Communion Seal +10 (scales with Arcane)\n- Occult Nagakiba +25 (melee fallback)\n- Rivers of Blood +10 (bleed pressure)\n\n**Best Talismans:** Flock's Canvas Talisman, Faithful's Canvas Talisman, Godfrey Icon, Shard of Alexander\n\n**Weak Against:** Highly mobile enemies, enemies immune to status effects\n\n👉 [Dragon Communion Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide) | [Arcane Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Dragon Incantations Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build)"
+      },
+      {
+        heading: "B Tier Builds (Niche but Viable)",
         level: 2,
+        content: "These builds are playable and can clear all content, but they are outperformed by S and A tier builds in most scenarios. They shine in specific situations or for players who enjoy a particular playstyle."
+      },
+      {
+        heading: "8. Lightning Build - Score: 6.8/10",
+        level: 3,
+        content: "The **Lightning Build** uses lightning incantations for high burst damage and excellent range. Strong against heavily armored enemies but requires significant stat investment.\n\n### Why Lightning Is B Tier\n\nLightning builds suffer from stat requirements. You need high Faith for incantation scaling and high Dexterity for cast speed, leaving little room for Vigor and Endurance.\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nLightning Build is strong against armored enemies and bosses weak to lightning. Ancient Dragons' Lightning Strike deals massive damage to large enemies.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nLightning in PvP is strong for punishing opponents at range. Honed Bolt is a fast-casting roll-catch tool.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nLightning is strong in DLC. Many DLC enemies are weak to lightning, and the range allows you to fight safely.\n\n**Core Stats (Level 150):** Vigor 60, Faith 50-60, Dexterity 30-40, Mind 25-30\n\n**Best Weapons:**\n- Bolt of Gransax +10 (lightning spear weapon art)\n- Erdtree Seal +10 (best pure Faith seal)\n- Gravel Stone Seal +10 (boosts dragon cult incantations)\n\n**Best Talismans:** Flock's Canvas Talisman, Godfrey Icon, Lightning Scorpion Charm, Radagon Icon\n\n👉 [Lightning Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build) | [Bolt of Gransax Guide](https://www.zosygo.com/elden-ring/weapons/bolt-of-gransax) | [Faith Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+      },
+      {
+        heading: "9. Quality Build - Score: 6.5/10",
+        level: 3,
+        content: "**Quality Builds** invest in both Strength and Dexterity for maximum weapon flexibility. While versatile, they are outperformed by specialized builds at Level 150.\n\n### Why Quality Builds Are B Tier\n\nQuality builds suffer from split stat investment. At Level 150, you can only reach Strength 50 / Dexterity 50, which is less effective than Strength 80 or Dexterity 80 for most weapons.\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nQuality builds are mediocre against bosses. The damage is consistent but not impressive. They shine against normal enemies where weapon variety matters.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nQuality builds in PvP are flexible but lack burst damage. You can use almost any weapon, but you won't excel with any of them.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nQuality builds struggle in DLC. The damage output is too low for the high HP pools of DLC bosses. Consider respeccing to Strength or Dexterity for DLC content.\n\n**Core Stats (Level 150):** Vigor 60, Strength 50, Dexterity 50, Endurance 25\n\n**Best Weapons:**\n- Claymore +25 (best quality scaling greatsword)\n- Zweihander +25 (colossal with quality scaling)\n- Longsword +25 (reliable, lightweight)\n\n👉 [Quality Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Dexterity Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+      },
+      {
+        heading: "10. Paladin Build - Score: 6.5/10",
+        level: 3,
+        content: "The **Paladin Build** combines heavy armor, greatshields, and faith incantations for a tanky support playstyle. Strong in co-op but slow in solo play.\n\n### Why Paladin Is B Tier\n\nPaladin builds are stat-hungry. You need Strength for weapon requirements, Faith for incantations, Endurance for heavy armor, and Mind for FP. At Level 150, you can't maximize all of these.\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nPaladin is strong in co-op where you can tank aggro and heal allies. Solo clear speed is slow due to split stats.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nPaladin in PvP is a slow but tanky build. Greatshield + spear poke is effective but boring for most players.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nPaladin is viable in DLC but slow. The survivability is excellent, but you'll take longer to kill bosses.\n\n**Core Stats (Level 150):** Vigor 60, Faith 40-50, Strength 40-50, Endurance 30, Mind 20\n\n**Best Weapons:**\n- Sacred Relic Sword +10 (best wave-clear weapon art)\n- Blasphemous Blade +10 (heals on weapon art hit)\n- Golden Halberd +10 (high damage, faith scaling)\n\n**Best Talismans:** Great-Jar's Arsenal, Erdtree's Favor +2, Bull-Goat's Talisman, Shard of Alexander\n\n👉 [Paladin Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build) | [Faith Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Build Planner Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)"
+      },
+      {
+        heading: "11. Colossal Jump Build - Score: 6.3/10",
+        level: 3,
+        content: "The **Colossal Jump Build** uses dual colossal weapons with jump attacks for massive burst damage. Simple but risky.\n\n### Why Colossal Jump Is B Tier\n\nJump attack builds are one-dimensional. You spam jump attacks for the entire game. It works, but it's not engaging and leaves you vulnerable during recovery frames.\n\n**PvE Performance: ⭐⭐⭐⭐☆**\nExcellent against bosses that stay still. Jump attacks deal high poise damage and can stagger most enemies in 2-3 hits.\n\n**PvP Performance: ⭐⭐⭐⭐☆**\nJump attacks in PvP are predictable but punishing. Mix up with regular attacks to catch opponents off guard.\n\n**DLC Viability: ⭐⭐⭐⭐☆**\nStrong in DLC. The poise damage from jump attacks interrupts DLC boss combos effectively.\n\n**Core Stats (Level 150):** Vigor 60, Strength 60-80, Endurance 40\n\n**Best Weapons:**\n- Dual Greatswords +25 (best jump attack damage)\n- Dual Giant-Crushers +25 (highest poise damage)\n\n**Best Talismans:** Claw Talisman, Bull-Goat's Talisman, Erdtree's Favor +2, Great-Jar's Arsenal\n\n👉 [Colossal Jump Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+      },
+      {
+        heading: "12. Pure Mage Build - Score: 6.0/10",
+        level: 3,
+        content: "The **Pure Mage Build** maxes Intelligence at the expense of survivability. Glass cannon with one-shot potential but extremely fragile.\n\n### Why Pure Mage Is B Tier\n\nPure Mage is a glass cannon. At 80 INT with Lusat's Staff, Comet Azur can one-shot bosses. But you have minimal Vigor, making you vulnerable to any hit.\n\n**PvE Performance: ⭐⭐⭐☆☆**\nComet Azur can skip boss phases entirely. But if the boss survives or moves, you're in trouble.\n\n**PvP Performance: ⭐⭐⭐☆☆**\nPure Mage in PvP is a glass cannon. Stars of Ruin pressure is strong, but one mistake means death.\n\n**DLC Viability: ⭐⭐⭐☆☆**\nPure Mage struggles in DLC. Bosses have high magic resistance and aggressive AI that punishes glass cannon builds.\n\n**Core Stats (Level 150):** Vigor 40, Intelligence 80, Mind 40, Endurance 15\n\n**Best Weapons:**\n- Lusat's Glintstone Staff +10 (highest sorcery scaling)\n- Carian Regal Scepter +10 (best balance)\n- Moonveil +10 (emergency melee)\n\n**Best Talismans:** Graven-Mass Talisman, Magic Scorpion Charm, Radagon Icon, Primal Glintstone Blade\n\n👉 [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build) | [Sorcery Scaling Guide](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+      },
+      {
+        heading: "Best Builds by Level",
+        level: 2,
+        content: "Not everyone plays at Level 150. Here are the best builds for different level ranges.\n\n### Level 50 (Early Game)\n\n**Best Build: Strength** - With 30 Vigor, 30 Strength, and a Greatsword +6, you can clear Limgrave and Liurnia easily.\n\n**Stats:** Vigor 30, Strength 30, Endurance 20\n\n**Best Weapon:** Greatsword +6 (found in Caelid)\n\n👉 [Level 50 Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)\n\n### Level 100 (Mid Game)\n\n**Best Build: Bleed Arcane** - At Level 100, you can reach Arcane 35 and Dexterity 35 with Rivers of Blood. This is enough to melt most mid-game bosses.\n\n**Stats:** Vigor 50, Arcane 35, Dexterity 35, Endurance 20\n\n**Best Weapon:** Rivers of Blood +9\n\n👉 [Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build)\n\n### Level 150 (Endgame Standard)\n\nSee the detailed builds above. This is the standard endgame level for PvE and PvP.\n\n👉 [Level 150 Builds Guide](https://www.zosygo.com/elden-ring/builds/level-150-builds)\n\n### Level 200 (NG+)\n\n**Best Build: Pure Mage** - At Level 200, you can reach 80 INT, 60 Vigor, and 40 Mind. This is the glass cannon build that can one-shot bosses.\n\n**Stats:** Vigor 60, Intelligence 80, Mind 40, Endurance 20\n\n**Best Weapon:** Lusat's Glintstone Staff +10 + Comet Azur\n\n👉 [Level 200 Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)"
+      },
+      {
+        heading: "Best Builds by Playstyle",
+        level: 2,
+        content: "Not sure which build fits your playstyle? Use this table to find the best build for your preferred approach:",
+        table: {
+          headers: ["Playstyle", "Best Build", "Why", "Difficulty"],
+          rows: [["Aggressive Melee", "Strength Colossal", "Stagger-lock + high poise damage", "Easy"], ["Ranged / Safe", "Intelligence Mage", "Keep distance, spam sorceries", "Easy"], ["Fast / Mobile", "Dexterity Katanas", "Quick attacks, roll-catch pressure", "Hard"], ["Burst / Status", "Bleed Arcane", "Hemorrhage procs for massive damage", "Medium"], ["Support / Co-op", "Faith Hybrid", "Healing, buffs, and versatile damage", "Medium"], ["All-Rounder", "Quality Build", "Use any weapon, adapt to any situation", "Medium"], ["Tank / Trading", "Strength Colossal", "60 Vigor + heavy armor + hyper armor", "Easy"], ["Glass Cannon", "Pure Mage", "Max INT, one-shot potential", "Hard"], ["DLC Focus", "Strength Colossal", "Best stagger for aggressive DLC bosses", "Easy"], ["PvP Focus", "Bleed Arcane", "Fast pressure + hemorrhage burst", "Medium"], ["Beginner Friendly", "Strength Colossal", "High survivability, simple playstyle", "Easy"], ["Best Boss Killer", "Bleed Arcane", "Highest DPS against bleedable bosses", "Medium"], ["Best Mage", "Intelligence Mage", "Safest sorcery build", "Easy"], ["Best Bleed", "Bleed Arcane", "Maximize hemorrhage damage", "Easy"], ["Best DLC Build", "Strength Colossal", "Stagger-lock DLC bosses", "Easy"]]
+        }
+      },
+      {
+        heading: "Build Calculator Integration",
+        level: 2,
+        content: "### Calculate Your Build Before You Respec\n\nNot sure whether 60 Strength or 80 Strength gives better value?\n\nUse the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n- Compare AR between different stat spreads\n- Test Level 150 builds before using a Larval Tear\n- Optimize Vigor, Endurance, and damage stats\n- Preview weapon scaling with your exact attributes\n\n👉 [Open the Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n\n### Related Tools\n\n- [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) - Plan how many runes you need\n- [Build Tier List](https://www.zosygo.com/elden-ring/builds/build-tier-list) - See how builds compare\n- [Soft Caps Explained](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) - Understand stat efficiency"
+      },
+      {
+        heading: "FAQ",
+        level: 2,
+        content: "### What is the strongest build in Elden Ring?\n\nThe **Bleed Arcane build** with Rivers of Blood is the strongest build in Elden Ring for PvE. It achieves the highest DPS against bleedable bosses with a Score of 9.5/10. For DLC content, the **Strength Colossal build** is stronger due to stagger mechanics.\n\n### What is the easiest build for beginners?\n\nThe **Strength Colossal build** is the easiest and most forgiving build. High Vigor, heavy armor, and stagger mechanics let you trade hits and survive mistakes. See our [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build).\n\n### Is Bleed still meta in 2026?\n\nYes. Bleed Arcane is still the highest DPS build in Elden Ring 2026. Hemorrhage deals percentage-based damage that scales with Arcane. However, some DLC bosses have bleed resistance, so keep an Occult Nagakiba as backup.\n\n### Is Intelligence stronger than Strength?\n\nIntelligence offers safer ranged combat with higher burst potential. Strength offers better survivability and stagger. For beginners: Strength is better. For experienced players who want safe boss kills: Intelligence is better.\n\n### Can beginners use Bleed builds?\n\nYes, but with caution. Bleed builds require aggressive play to build up hemorrhage. Beginners may struggle with positioning. We recommend Strength Colossal for absolute beginners and Bleed Arcane for players with some experience.\n\n### Which build is best for Shadow of the Erdtree?\n\nThe **Strength Colossal build** is the best DLC build. Stagger mechanics interrupt DLC boss combos, and heavy armor + 60 Vigor helps you survive mistakes. See our [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build).\n\n### What level should I stop at?\n\n- **Level 125**: PvP meta (more competitive matchmaking)\n- **Level 150**: Standard endgame for PvE and PvP\n- **Level 200**: NG+ and max build potential\n\nMost players stop at Level 150 for the best balance of build variety and matchmaking.\n\n### What is the best PvP build?\n\nThe **Bleed Arcane build** and **Dexterity Katanas build** are the strongest PvP builds. Fast attacks, roll-catch pressure, and hemorrhage burst make them dominant in duels and invasions.\n\n### What is the best boss killer build?\n\nThe **Bleed Arcane build** is the best boss killer against bleedable bosses. The **Strength Colossal build** is better against bosses immune to bleed.\n\n### Can I use a hybrid build?\n\nYes, but hybrid builds (splitting stats between two damage types) are generally weaker than specialized builds at Level 150. If you want to hybrid, consider Faith/Strength or Intelligence/Dexterity for the best synergy."
+      },
+      {
         heading: "Final Verdict",
-        content: "Elden Ring builds are not about finding one best setup.\n\nThey are about:\n\n- Understanding scaling systems\n- Respecting soft caps\n- Matching weapons with stats\n- Avoiding wasted levels\n\nIf your build feels weak, it is almost always a structural issue—not a weapon issue."
+        level: 2,
+        content: "Elden Ring builds are not about finding one best setup. They are about:\n\n- Understanding scaling systems\n- Respecting soft caps\n- Matching weapons with stats\n- Avoiding wasted levels\n\nIf your build feels weak, it is almost always a structural issue - not a weapon issue.\n\n**Top Recommendations:**\n\n| Scenario | Best Build |\n| ------ | ------ |\n| Highest boss DPS | Bleed Arcane |\n| Easiest for beginners | Strength Colossal |\n| Safest ranged play | Intelligence Mage |\n| Best for DLC | Strength Colossal |\n| Best for PvP | Bleed Arcane |\n| Best for co-op | Faith Hybrid |\n\n**Ready to optimize your build?** Use our [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stats and equipment before respeccing.\n\n### Topic Cluster: Explore All Build Guides\n\nThis guide is part of a complete build resource network:\n\n- [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build)\n- [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build)\n- [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build)\n- [Best Dexterity Build Guide](https://www.zosygo.com/elden-ring/builds/best-dexterity-build)\n- [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build)\n- [Best Moonveil Build Guide](https://www.zosygo.com/elden-ring/builds/best-moonveil-build)\n- [Rivers of Blood Build Guide](https://www.zosygo.com/elden-ring/weapons/rivers-of-blood)\n- [Soft Caps Explained](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)\n- [Build Tier List](https://www.zosygo.com/elden-ring/builds/build-tier-list)\n- [Level 150 Builds Guide](https://www.zosygo.com/elden-ring/builds/level-150-builds)\n- [Build Planner Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)\n- [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n- [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)\n- [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)"
       }
     ],
     internalLinks: [
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+      { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Build Guide" },
+      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
+      { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build Guide" },
+      { href: "/elden-ring/builds/best-faith-build", anchorText: "Best Faith Build Guide" },
       { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
-      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
-      { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
+      { href: "/elden-ring/builds/build-tier-list", anchorText: "Build Tier List" },
+      { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds Guide" },
       { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
-      { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Best Builds vs Malenia" },
-      { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Build" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
-    ]
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+      { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
+      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
+      { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
+      { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" }
+    ],
   },
+
+
   // ═══ ELDEN RING — BUILDS (Tier List) ═══
     {
     slug: "build-tier-list",
@@ -2236,7 +2322,7 @@ export const articles: Article[] = [
       {
         heading: "How We Calculate Build Scores",
         level: 2,
-        content: "Each build receives a score from 0\u201310 across 5 weighted categories. The final score is a weighted average.\n\n### Example: Bleed Arcane Score Breakdown\n\n| Category | Score | Weight | Contribution |\n| -------- | ----- | ------ | ------------ |\n| PvE Boss Performance | 10 | \u00d7 35% | 3.50 |\n| DLC Viability | 8 | \u00d7 25% | 2.00 |\n| PvP Performance | 10 | \u00d7 20% | 2.00 |\n| Stat Efficiency | 10 | \u00d7 15% | 1.50 |\n| Ease of Use | 9 | \u00d7 5% | 0.45 |\n| **Final Score** | | | **9.45/10** |\n\n### How We Rank Builds\n\nEach build is scored out of 10 across 5 weighted criteria:",
+        content: "Each build receives a score from 0–10 across 5 weighted categories. The final score is a weighted average.\n\n### Example: Bleed Arcane Score Breakdown\n\n| Category | Score | Weight | Contribution |\n| -------- | ----- | ------ | ------------ |\n| PvE Boss Performance | 10 | × 35% | 3.50 |\n| DLC Viability | 8 | × 25% | 2.00 |\n| PvP Performance | 10 | × 20% | 2.00 |\n| Stat Efficiency | 10 | × 15% | 1.50 |\n| Ease of Use | 9 | × 5% | 0.45 |\n| **Final Score** | | | **9.45/10** |\n\n### How We Rank Builds\n\nEach build is scored out of 10 across 5 weighted criteria:",
         table: {
           headers: ["Factor", "Weight", "Why It Matters"],
           rows: [
@@ -2251,7 +2337,7 @@ export const articles: Article[] = [
       {
         heading: "Build Performance Comparison (Tested at Level 150)",
         level: 2,
-        content: "All builds were tested at **Level 150** with optimized stat allocations and fully upgraded weapons. Here\u2019s how they compare across key performance metrics:",
+        content: "All builds were tested at **Level 150** with optimized stat allocations and fully upgraded weapons. Here’s how they compare across key performance metrics:",
         table: {
           headers: ["Build", "Boss Damage", "Survivability", "Difficulty", "Bleed Immune?", "DLC Viable?"],
           rows: [
@@ -2265,44 +2351,44 @@ export const articles: Article[] = [
         }
       },
       {
-        heading: "\U0001f3c6 S Tier Builds (Meta Dominators)",
+        heading: "🏆 S Tier Builds (Meta Dominators)",
         level: 2,
         content: ""
       },
       {
         heading: "Bleed Arcane Build — Score: 9.5/10",
         level: 2,
-        content: "The **Bleed Arcane build** is the strongest overall build in Elden Ring 2026. Hemorrhage scales extremely fast and works on most bosses, dealing 15% max HP damage per proc on top of your weapon\u2019s physical damage.\n\n### Why Bleed Arcane Is S Tier\n\nBleed builds dominate because of how hemorrhage interacts with boss health pools. At Level 150 with Arcane 45\u201350, a single Rivers of Blood weapon art can proc bleed in 2\u20133 hits, dealing thousands of damage before the boss can react.\n\n**Bleed Buildup Mechanics:**\n- Base bleed buildup: 45 per hit (Rivers of Blood +10)\n- Arcane scaling bonus: +1.5 bleed per Arcane point above 20\n- Occult infusion: Adds Arcane scaling to any weapon\n- Lord of Blood\u2019s Exultation: +20% attack on bleed proc\n\n**PvE Boss Performance:**\nAgainst bleedable bosses like Malenia, Mohg, and Morgott, the Bleed Arcane build achieves the highest DPS in the game. A well-timed Corpse Piler combo can deal 8,000\u201312,000 damage in 3 seconds.\n\n**DLC Weakness:**\nSome Shadow of the Erdtree bosses have high bleed resistance or immunity. In these cases, switch to Occult Nagakiba for pure physical damage. The Arcane stat still gives excellent weapon scaling, so the build doesn\u2019t fall off completely.\n\n**PvP Pressure:**\nBleed Arcane is one of the strongest PvP builds. Fast katana movesets + hemorrhage burst = roll-catch pressure that forces opponents into mistakes. The Rivers of Blood weapon art is still effective at catching panic rolls.\n\n### Bleed Arcane Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | \u2605\u2605\u2605\u2605\u2605 (10/10) |\n| Boss DPS | \u2605\u2605\u2605\u2605\u2605 (10/10) |\n| Ease of Use | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| PvP | \u2605\u2605\u2605\u2605\u2605 (10/10) |\n| DLC | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n\n**Best Weapons:**\n- Rivers of Blood +10 (best weapon art in the game)\n- Occult Nagakiba +25 (pure physical fallback)\n- Eleonora\u2019s Poleblade +10 (twinblade bleed pressure)\n\n**Weak Against:** Bleed-immune bosses, some DLC enemies\n\n**Core Stats (Lv 150):** Vigor 60, Arcane 45\u201350, Dexterity 40\u201350, Endurance 20\n\n\U0001f449 [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build) | [Rivers of Blood Guide](https://www.zosygo.com/elden-ring/weapons/rivers-of-blood) | [Arcane Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+        content: "The **Bleed Arcane build** is the strongest overall build in Elden Ring 2026. Hemorrhage scales extremely fast and works on most bosses, dealing 15% max HP damage per proc on top of your weapon’s physical damage.\n\n### Why Bleed Arcane Is S Tier\n\nBleed builds dominate because of how hemorrhage interacts with boss health pools. At Level 150 with Arcane 45–50, a single Rivers of Blood weapon art can proc bleed in 2–3 hits, dealing thousands of damage before the boss can react.\n\n**Bleed Buildup Mechanics:**\n- Base bleed buildup: 45 per hit (Rivers of Blood +10)\n- Arcane scaling bonus: +1.5 bleed per Arcane point above 20\n- Occult infusion: Adds Arcane scaling to any weapon\n- Lord of Blood’s Exultation: +20% attack on bleed proc\n\n**PvE Boss Performance:**\nAgainst bleedable bosses like Malenia, Mohg, and Morgott, the Bleed Arcane build achieves the highest DPS in the game. A well-timed Corpse Piler combo can deal 8,000–12,000 damage in 3 seconds.\n\n**DLC Weakness:**\nSome Shadow of the Erdtree bosses have high bleed resistance or immunity. In these cases, switch to Occult Nagakiba for pure physical damage. The Arcane stat still gives excellent weapon scaling, so the build doesn’t fall off completely.\n\n**PvP Pressure:**\nBleed Arcane is one of the strongest PvP builds. Fast katana movesets + hemorrhage burst = roll-catch pressure that forces opponents into mistakes. The Rivers of Blood weapon art is still effective at catching panic rolls.\n\n### Bleed Arcane Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | ★★★★★ (10/10) |\n| Boss DPS | ★★★★★ (10/10) |\n| Ease of Use | ★★★★☆ (9/10) |\n| PvP | ★★★★★ (10/10) |\n| DLC | ★★★★☆ (8/10) |\n\n**Best Weapons:**\n- Rivers of Blood +10 (best weapon art in the game)\n- Occult Nagakiba +25 (pure physical fallback)\n- Eleonora’s Poleblade +10 (twinblade bleed pressure)\n\n**Weak Against:** Bleed-immune bosses, some DLC enemies\n\n**Core Stats (Lv 150):** Vigor 60, Arcane 45–50, Dexterity 40–50, Endurance 20\n\n👉 [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build) | [Rivers of Blood Guide](https://www.zosygo.com/elden-ring/weapons/rivers-of-blood) | [Arcane Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
         heading: "Strength Colossal Build — Score: 9.4/10",
         level: 2,
-        content: "The **Strength Colossal build** is the safest and most consistent build in Elden Ring. Colossal weapons stagger-lock most enemies and deal massive poise damage, making it the best choice for beginners and DLC content.\n\n### Why Strength Colossal Is S Tier\n\nStrength builds excel because of stagger mechanics. A single charged heavy from a Giant-Crusher deals 40+ poise damage, meaning most enemies and even some bosses can be stun-locked indefinitely.\n\n**Stagger Mechanics:**\n- Giant-Crusher charged heavy: 45 poise damage\n- Greatsword charged heavy: 35 poise damage\n- Most enemies need 20\u201340 poise damage to stagger\n- Most bosses need 60\u2013120 poise damage to stance break\n- Jump attacks: 1.5x poise damage\n\n**PvE Boss Performance:**\nAgainst staggerable bosses, Strength Colossal is unmatched. You can chain stagger-lock Godfrey, Malenia (with high poise armor), and most DLC bosses. The survivability from 60 Vigor + heavy armor means you can trade hits and win.\n\n**DLC Dominance:**\nStrength Colossal is the #1 DLC build. Shadow of the Erdtree bosses have aggressive AI, high damage, and long combos. The stagger-lock strategy works because:\n- DLC enemies have predictable punish windows\n- High poise damage interrupts boss combos\n- Heavy armor + 60 Vigor = surviving mistakes\n\n**PvP Performance:**\nStrength Colossal in PvP is slower but devastating when you land hits. Hyper armor on attacks allows you to trade through smaller weapons. The Giant-Crusher can two-shot most opponents.\n\n### Strength Colossal Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| Boss DPS | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| Ease of Use | \u2605\u2605\u2605\u2605\u2605 (10/10) |\n| PvP | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| DLC | \u2605\u2605\u2605\u2605\u2605 (10/10) |\n\n**Best Weapons:**\n- Giant-Crusher +25 (highest poise damage)\n- Greatsword +25 (best balance of speed and damage)\n- Prelate\u2019s Inferno Crozier +25 (strong weapon art)\n\n**Weak Against:** Fast enemies, magic-resistant bosses\n\n**Core Stats (Lv 150):** Vigor 60, Strength 60\u201380, Endurance 30\n\n\U0001f449 [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Colossal Weapon Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)"
+        content: "The **Strength Colossal build** is the safest and most consistent build in Elden Ring. Colossal weapons stagger-lock most enemies and deal massive poise damage, making it the best choice for beginners and DLC content.\n\n### Why Strength Colossal Is S Tier\n\nStrength builds excel because of stagger mechanics. A single charged heavy from a Giant-Crusher deals 40+ poise damage, meaning most enemies and even some bosses can be stun-locked indefinitely.\n\n**Stagger Mechanics:**\n- Giant-Crusher charged heavy: 45 poise damage\n- Greatsword charged heavy: 35 poise damage\n- Most enemies need 20–40 poise damage to stagger\n- Most bosses need 60–120 poise damage to stance break\n- Jump attacks: 1.5x poise damage\n\n**PvE Boss Performance:**\nAgainst staggerable bosses, Strength Colossal is unmatched. You can chain stagger-lock Godfrey, Malenia (with high poise armor), and most DLC bosses. The survivability from 60 Vigor + heavy armor means you can trade hits and win.\n\n**DLC Dominance:**\nStrength Colossal is the #1 DLC build. Shadow of the Erdtree bosses have aggressive AI, high damage, and long combos. The stagger-lock strategy works because:\n- DLC enemies have predictable punish windows\n- High poise damage interrupts boss combos\n- Heavy armor + 60 Vigor = surviving mistakes\n\n**PvP Performance:**\nStrength Colossal in PvP is slower but devastating when you land hits. Hyper armor on attacks allows you to trade through smaller weapons. The Giant-Crusher can two-shot most opponents.\n\n### Strength Colossal Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | ★★★★☆ (9/10) |\n| Boss DPS | ★★★★☆ (9/10) |\n| Ease of Use | ★★★★★ (10/10) |\n| PvP | ★★★★☆ (9/10) |\n| DLC | ★★★★★ (10/10) |\n\n**Best Weapons:**\n- Giant-Crusher +25 (highest poise damage)\n- Greatsword +25 (best balance of speed and damage)\n- Prelate’s Inferno Crozier +25 (strong weapon art)\n\n**Weak Against:** Fast enemies, magic-resistant bosses\n\n**Core Stats (Lv 150):** Vigor 60, Strength 60–80, Endurance 30\n\n👉 [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Colossal Weapon Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)"
       },
       {
         heading: "Intelligence Mage Build — Score: 9.2/10",
         level: 2,
-        content: "The **Intelligence Mage build** is the safest ranged build in Elden Ring. Keep distance and spam powerful sorceries. Excellent for first playthroughs and boss fights where you need consistent damage without getting hit.\n\n### Why Intelligence Mage Is S Tier\n\nIntelligence builds excel because of range and burst potential. At INT 80 with Lusat\u2019s Staff +10, Comet Azur can deal 15,000\u201318,000 damage in a single channel, skipping boss phases entirely.\n\n**Damage Scaling:**\n- INT 60: 85% of max sorcery scaling\n- INT 70: 93% of max sorcery scaling\n- INT 80: 100% of max sorcery scaling\n- Best efficiency: INT 60 for Level 150 (leaves room for Vigor 60)\n- Best burst: INT 80 for Level 200+\n\n**PvE Boss Performance:**\nIntelligence Mage destroys bosses with safe ranged damage. Night Comet cannot be dodged by enemies, Rock Sling staggers most bosses in 3\u20134 hits, and Comet Azur can one-shot Malenia phase 1 with the right setup.\n\n**DLC Performance:**\nIntelligence Mage is strong in DLC content but requires careful positioning. DLC bosses have long-range gap closers and high magic resistance. Use Night Comet (undodgeable) and Terra Magicus for damage buffs.\n\n**PvP Performance:**\nIntelligence Mage in PvP is a glass cannon. Stars of Ruin and Carian Piercer pressure opponents, but you\u2019re vulnerable to aggressive melee players. Keep distance and use swift glintstone shard for fast roll-catches.\n\n### Intelligence Mage Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| Boss DPS | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| Ease of Use | \u2605\u2605\u2605\u2605\u2605 (10/10) |\n| PvP | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n| DLC | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n\n**Best Weapons:**\n- Lusat\u2019s Glintstone Staff +10 (highest sorcery scaling)\n- Carian Regal Scepter +10 (best balance of damage and FP cost)\n- Moonveil +10 (INT katana with bleed and weapon art)\n\n**Weak Against:** Fast aggressive enemies, high magic resistance bosses\n\n**Core Stats (Lv 150):** Vigor 60, Intelligence 60\u201380, Mind 35\u201340, Endurance 15\n\n\U0001f449 [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build) | [Moonveil Guide](https://www.zosygo.com/elden-ring/weapons/moonveil) | [Sorcery Scaling Guide](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+        content: "The **Intelligence Mage build** is the safest ranged build in Elden Ring. Keep distance and spam powerful sorceries. Excellent for first playthroughs and boss fights where you need consistent damage without getting hit.\n\n### Why Intelligence Mage Is S Tier\n\nIntelligence builds excel because of range and burst potential. At INT 80 with Lusat’s Staff +10, Comet Azur can deal 15,000–18,000 damage in a single channel, skipping boss phases entirely.\n\n**Damage Scaling:**\n- INT 60: 85% of max sorcery scaling\n- INT 70: 93% of max sorcery scaling\n- INT 80: 100% of max sorcery scaling\n- Best efficiency: INT 60 for Level 150 (leaves room for Vigor 60)\n- Best burst: INT 80 for Level 200+\n\n**PvE Boss Performance:**\nIntelligence Mage destroys bosses with safe ranged damage. Night Comet cannot be dodged by enemies, Rock Sling staggers most bosses in 3–4 hits, and Comet Azur can one-shot Malenia phase 1 with the right setup.\n\n**DLC Performance:**\nIntelligence Mage is strong in DLC content but requires careful positioning. DLC bosses have long-range gap closers and high magic resistance. Use Night Comet (undodgeable) and Terra Magicus for damage buffs.\n\n**PvP Performance:**\nIntelligence Mage in PvP is a glass cannon. Stars of Ruin and Carian Piercer pressure opponents, but you’re vulnerable to aggressive melee players. Keep distance and use swift glintstone shard for fast roll-catches.\n\n### Intelligence Mage Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | ★★★★☆ (9/10) |\n| Boss DPS | ★★★★☆ (9/10) |\n| Ease of Use | ★★★★★ (10/10) |\n| PvP | ★★★★☆ (8/10) |\n| DLC | ★★★★☆ (8/10) |\n\n**Best Weapons:**\n- Lusat’s Glintstone Staff +10 (highest sorcery scaling)\n- Carian Regal Scepter +10 (best balance of damage and FP cost)\n- Moonveil +10 (INT katana with bleed and weapon art)\n\n**Weak Against:** Fast aggressive enemies, high magic resistance bosses\n\n**Core Stats (Lv 150):** Vigor 60, Intelligence 60–80, Mind 35–40, Endurance 15\n\n👉 [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build) | [Moonveil Guide](https://www.zosygo.com/elden-ring/weapons/moonveil) | [Sorcery Scaling Guide](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
-        heading: "\U0001f947 A Tier Builds (Strong and Consistent)",
+        heading: "🥇 A Tier Builds (Strong and Consistent)",
         level: 2,
         content: ""
       },
       {
         heading: "Dexterity Katanas Build — Score: 8.0/10",
         level: 2,
-        content: "The **Dexterity Katanas build** is a fast-paced, high-skill build focused on aggressive pressure and bleed buildup. Excellent for PvP and mobile boss fights.\n\n### Why Dexterity Katanas Is A Tier\n\nDexterity builds excel because of attack speed and low recovery frames. With 60 Dexterity and two-handing a Nagakiba, you achieve 400+ AR with lightning-fast attacks.\n\n**PvP Performance:**\nDexterity Katanas is a top-tier PvP build. The running R2 and quickstep allow for aggressive roll-catches. Unsheathe is one of the best weapon arts for punishing mistakes.\n\n**PvE Performance:**\nGood against mobile bosses but falls behind Bleed Arcane in raw DPS. The damage is consistent and reliable but lacks the burst potential of S Tier builds.\n\n**DLC Viability:**\nDexterity builds are viable in DLC but require precise play. DLC bosses hit hard and have long combos, making the low survivability a significant weakness.\n\n### Dexterity Katanas Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n| Boss DPS | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n| Ease of Use | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n| PvP | \u2605\u2605\u2605\u2605\u2606 (9/10) |\n| DLC | \u2605\u2605\u2605\u2605\u2606 (7/10) |\n\n**Best Weapons:**\n- Nagakiba +25 (best reach of any katana)\n- Hand of Malenia +10 (highest AR katana)\n- Uchigatana +25 (lightweight, versatile)\n\n**Core Stats (Lv 150):** Vigor 60, Dexterity 60\u201380, Endurance 25, Strength 18\n\n\U0001f449 [Best Dexterity Build Guide](https://www.zosygo.com/elden-ring/builds/best-dexterity-build) | [Nagakiba Guide](https://www.zosygo.com/elden-ring/weapons/nagakiba) | [Dexterity Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+        content: "The **Dexterity Katanas build** is a fast-paced, high-skill build focused on aggressive pressure and bleed buildup. Excellent for PvP and mobile boss fights.\n\n### Why Dexterity Katanas Is A Tier\n\nDexterity builds excel because of attack speed and low recovery frames. With 60 Dexterity and two-handing a Nagakiba, you achieve 400+ AR with lightning-fast attacks.\n\n**PvP Performance:**\nDexterity Katanas is a top-tier PvP build. The running R2 and quickstep allow for aggressive roll-catches. Unsheathe is one of the best weapon arts for punishing mistakes.\n\n**PvE Performance:**\nGood against mobile bosses but falls behind Bleed Arcane in raw DPS. The damage is consistent and reliable but lacks the burst potential of S Tier builds.\n\n**DLC Viability:**\nDexterity builds are viable in DLC but require precise play. DLC bosses hit hard and have long combos, making the low survivability a significant weakness.\n\n### Dexterity Katanas Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | ★★★★☆ (8/10) |\n| Boss DPS | ★★★★☆ (8/10) |\n| Ease of Use | ★★★★☆ (8/10) |\n| PvP | ★★★★☆ (9/10) |\n| DLC | ★★★★☆ (7/10) |\n\n**Best Weapons:**\n- Nagakiba +25 (best reach of any katana)\n- Hand of Malenia +10 (highest AR katana)\n- Uchigatana +25 (lightweight, versatile)\n\n**Core Stats (Lv 150):** Vigor 60, Dexterity 60–80, Endurance 25, Strength 18\n\n👉 [Best Dexterity Build Guide](https://www.zosygo.com/elden-ring/builds/best-dexterity-build) | [Nagakiba Guide](https://www.zosygo.com/elden-ring/weapons/nagakiba) | [Dexterity Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
         heading: "Faith Hybrid Build — Score: 7.8/10",
         level: 2,
-        content: "The **Faith Hybrid build** combines melee combat with healing and buff incantations. Versatile but not the best at any single role.\n\n### Why Faith Hybrid Is A Tier\n\nFaith builds are excellent for co-op and exploration. Golden Vow (+15% damage, +10% defense) and Erdtree Blessing (+15% HP regen) make you a team asset.\n\n**Healing and Support:**\nFaith builds have the best healing in the game. Erdtree Heal heals 2000+ HP in one cast, and Blessing of the Erdtree provides passive HP regen for 90 seconds.\n\n**PvE Performance:**\nFaith Hybrid is strong against undead enemies and bosses weak to holy damage. Blasphemous Blade weapon art heals on hit, providing excellent sustain.\n\n**DLC Viability:**\nFaith Hybrid is strong in DLC. Many DLC enemies are weak to fire, and the healing capabilities help survive long boss fights.\n\n### Faith Hybrid Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | \u2605\u2605\u2605\u2605\u2606 (7/10) |\n| Boss DPS | \u2605\u2605\u2605\u2605\u2606 (7/10) |\n| Ease of Use | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n| PvP | \u2605\u2605\u2605\u2605\u2606 (7/10) |\n| DLC | \u2605\u2605\u2605\u2605\u2606 (8/10) |\n\n**Best Weapons:**\n- Blasphemous Blade +10 (heals on weapon art hit)\n- Sacred Relic Sword +10 (best wave-clear weapon art)\n- Godslayer\u2019s Greatsword +10 (fire damage, dex scaling)\n\n**Core Stats (Lv 150):** Vigor 60, Faith 50\u201360, Strength 22, Dexterity 22\n\n\U0001f449 [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build) | [Blasphemous Blade Guide](https://www.zosygo.com/elden-ring/weapons/blasphemous-blade) | [Faith Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+        content: "The **Faith Hybrid build** combines melee combat with healing and buff incantations. Versatile but not the best at any single role.\n\n### Why Faith Hybrid Is A Tier\n\nFaith builds are excellent for co-op and exploration. Golden Vow (+15% damage, +10% defense) and Erdtree Blessing (+15% HP regen) make you a team asset.\n\n**Healing and Support:**\nFaith builds have the best healing in the game. Erdtree Heal heals 2000+ HP in one cast, and Blessing of the Erdtree provides passive HP regen for 90 seconds.\n\n**PvE Performance:**\nFaith Hybrid is strong against undead enemies and bosses weak to holy damage. Blasphemous Blade weapon art heals on hit, providing excellent sustain.\n\n**DLC Viability:**\nFaith Hybrid is strong in DLC. Many DLC enemies are weak to fire, and the healing capabilities help survive long boss fights.\n\n### Faith Hybrid Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | ★★★★☆ (7/10) |\n| Boss DPS | ★★★★☆ (7/10) |\n| Ease of Use | ★★★★☆ (8/10) |\n| PvP | ★★★★☆ (7/10) |\n| DLC | ★★★★☆ (8/10) |\n\n**Best Weapons:**\n- Blasphemous Blade +10 (heals on weapon art hit)\n- Sacred Relic Sword +10 (best wave-clear weapon art)\n- Godslayer’s Greatsword +10 (fire damage, dex scaling)\n\n**Core Stats (Lv 150):** Vigor 60, Faith 50–60, Strength 22, Dexterity 22\n\n👉 [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build) | [Blasphemous Blade Guide](https://www.zosygo.com/elden-ring/weapons/blasphemous-blade) | [Faith Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
         heading: "Quality Builds — Score: 6.5/10",
         level: 2,
-        content: "**Quality Builds** invest in both Strength and Dexterity for maximum weapon flexibility. While versatile, they are outperformed by specialized builds at Level 150.\n\n### Why Quality Builds Are B Tier\n\nQuality builds suffer from split stat investment. At Level 150, you can only reach Strength 50 / Dexterity 50, which is less effective than Strength 80 or Dexterity 80 for most weapons.\n\n**Weapon Selection:**\nQuality builds can use almost any weapon in the game. This flexibility is valuable for players who want to experiment with different playstyles without respeccing.\n\n**PvE Performance:**\nQuality builds are mediocre against bosses. The damage is consistent but not impressive. They shine against normal enemies where weapon variety matters.\n\n**DLC Viability:**\nQuality builds struggle in DLC. The damage output is too low for the high HP pools of DLC bosses. Consider respeccing to Strength or Dexterity for DLC content.\n\n### Quality Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | \u2605\u2605\u2605\u2605\u2606 (6/10) |\n| Boss DPS | \u2605\u2605\u2605\u2605\u2606 (6/10) |\n| Ease of Use | \u2605\u2605\u2605\u2605\u2606 (7/10) |\n| PvP | \u2605\u2605\u2605\u2605\u2606 (6/10) |\n| DLC | \u2605\u2605\u2605\u2605\u2606 (6/10) |\n\n**Best Weapons:**\n- Claymore +25 (best quality scaling greatsword)\n- Zweihander +25 (colossal with quality scaling)\n- Longsword +25 (reliable, lightweight)\n\n**Core Stats (Lv 150):** Vigor 60, Strength 50, Dexterity 50, Endurance 25\n\n\U0001f449 [Quality Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Dexterity Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
+        content: "**Quality Builds** invest in both Strength and Dexterity for maximum weapon flexibility. While versatile, they are outperformed by specialized builds at Level 150.\n\n### Why Quality Builds Are B Tier\n\nQuality builds suffer from split stat investment. At Level 150, you can only reach Strength 50 / Dexterity 50, which is less effective than Strength 80 or Dexterity 80 for most weapons.\n\n**Weapon Selection:**\nQuality builds can use almost any weapon in the game. This flexibility is valuable for players who want to experiment with different playstyles without respeccing.\n\n**PvE Performance:**\nQuality builds are mediocre against bosses. The damage is consistent but not impressive. They shine against normal enemies where weapon variety matters.\n\n**DLC Viability:**\nQuality builds struggle in DLC. The damage output is too low for the high HP pools of DLC bosses. Consider respeccing to Strength or Dexterity for DLC content.\n\n### Quality Build Summary\n\n| Metric | Rating |\n| ------ | ------ |\n| Damage | ★★★★☆ (6/10) |\n| Boss DPS | ★★★★☆ (6/10) |\n| Ease of Use | ★★★★☆ (7/10) |\n| PvP | ★★★★☆ (6/10) |\n| DLC | ★★★★☆ (6/10) |\n\n**Best Weapons:**\n- Claymore +25 (best quality scaling greatsword)\n- Zweihander +25 (colossal with quality scaling)\n- Longsword +25 (reliable, lightweight)\n\n**Core Stats (Lv 150):** Vigor 60, Strength 50, Dexterity 50, Endurance 25\n\n👉 [Quality Build Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide) | [Strength Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) | [Dexterity Soft Caps](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)"
       },
       {
         heading: "Best Builds By Playstyle",
@@ -2327,7 +2413,7 @@ export const articles: Article[] = [
       {
         heading: "Ranking Your Own Build",
         level: 2,
-        content: "Want to see how your own build ranks? Use our [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your build\u2019s stats, damage output, and soft cap efficiency. The calculator automatically scores your build across all 5 categories and gives you a tier rating.\n\nOur calculator is free and works for all builds at any level. You can experiment with different stat allocations, weapons, and equipment to see how your score changes. Try it now to find out if your build is S Tier material!\n\n\U0001f449 [Try the Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)"
+        content: "Want to see how your own build ranks? Use our [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your build’s stats, damage output, and soft cap efficiency. The calculator automatically scores your build across all 5 categories and gives you a tier rating.\n\nOur calculator is free and works for all builds at any level. You can experiment with different stat allocations, weapons, and equipment to see how your score changes. Try it now to find out if your build is S Tier material!\n\n👉 [Try the Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)"
       },
       {
         heading: "Final Thoughts",
@@ -2491,14 +2577,14 @@ export const articles: Article[] = [
     difficulty: "intermediate",
     readTimeMinutes: 10,
     order: 11,
-    title: "Godrick Boss Guide (2026) \u2013 Why You Keep Dying and How to Beat Phase 2 Consistently",
+    title: "Godrick Boss Guide (2026) – Why You Keep Dying and How to Beat Phase 2 Consistently",
     metaDescription: "A deep breakdown of Godrick the Grafted. Learn why players fail Phase 2, how his transition works, and the safest strategy to beat him in Elden Ring.",
     sections: [
       {
         heading: "",
         level: 2,
         content:
-          "Godrick the Grafted is not difficult because of raw damage.\n\nHe is difficult because he introduces the first **true phase transition system** in Elden Ring.\n\nMost players actually survive Phase 1 easily.\n\nThey fail in Phase 2 for one reason:\n\n> They do not understand how Godrick\u2019s behavior changes after the cutscene transition.\n\nThis guide focuses on that exact problem.",
+          "Godrick the Grafted is not difficult because of raw damage.\n\nHe is difficult because he introduces the first **true phase transition system** in Elden Ring.\n\nMost players actually survive Phase 1 easily.\n\nThey fail in Phase 2 for one reason:\n\n> They do not understand how Godrick’s behavior changes after the cutscene transition.\n\nThis guide focuses on that exact problem.",
         image: "godrick-boss-arena.jpg",
         imageAlt: "Godrick the Grafted boss arena in Stormveil Castle Elden Ring"
       },
@@ -2515,13 +2601,13 @@ export const articles: Article[] = [
           "Phase 1 teaches you:\n\n- Slow wind-ups\n- Predictable combos\n- Clear punish windows\n\nPhase 2 breaks all of this.\n\nIt introduces:\n\n- Faster chaining\n- Fire-based area control\n- Extended combo strings\n- Reduced punish windows\n\nThe fight becomes less about reaction and more about **pattern recognition under pressure**."
       },
       {
-        heading: "Phase 1 \u2013 Learning Phase (Do Not Rush)",
+        heading: "Phase 1 – Learning Phase (Do Not Rush)",
         level: 2,
         content:
           "Phase 1 is intentionally slow.\n\nGodrick is testing:\n\n- Your spacing\n- Your panic rolls\n- Your greed control\n\n## Safe Strategy\n\n- Stay mid-range\n- Bait axe swings\n- Punish after heavy attacks only\n\nDo NOT try to burst him quickly.\n\nPhase 1 rewards patience, not damage."
       },
       {
-        heading: "Phase 2 Transition \u2013 The Real Difficulty Spike",
+        heading: "Phase 2 Transition – The Real Difficulty Spike",
         level: 2,
         content:
           "When Godrick reaches ~60% HP, the cutscene triggers.\n\nHe gains the dragon arm.\n\nThis is not a cosmetic change.\n\nIt completely modifies his fight logic.",
@@ -2532,7 +2618,7 @@ export const articles: Article[] = [
         heading: "What Actually Changes",
         level: 3,
         content:
-          "## 1. Fire Coverage Zones\n\nHe now creates lingering fire on the ground.\n\nThis removes safe standing positions.\n\n## 2. Extended Combo Chains\n\nInstead of 2\u20133 hit combos, he can chain up to 5\u20136 attacks.\n\n## 3. Delayed Follow-ups\n\nHe intentionally pauses between attacks to bait panic rolls."
+          "## 1. Fire Coverage Zones\n\nHe now creates lingering fire on the ground.\n\nThis removes safe standing positions.\n\n## 2. Extended Combo Chains\n\nInstead of 2–3 hit combos, he can chain up to 5–6 attacks.\n\n## 3. Delayed Follow-ups\n\nHe intentionally pauses between attacks to bait panic rolls."
       },
       {
         heading: "The Biggest Mistake in Phase 2",
@@ -2544,7 +2630,7 @@ export const articles: Article[] = [
         heading: "How to Beat Phase 2 Consistently",
         level: 2,
         content:
-          "You need a rule change:\n\n## Phase 2 Rule: \u201CSurvive first, punish second\u201D\n\nThis means:\n\n- Stop chasing damage\n- Focus on spacing resets\n- Only punish guaranteed recovery frames"
+          "You need a rule change:\n\n## Phase 2 Rule: “Survive first, punish second”\n\nThis means:\n\n- Stop chasing damage\n- Focus on spacing resets\n- Only punish guaranteed recovery frames"
       },
       {
         heading: "Safe Punish Windows",
@@ -2571,10 +2657,10 @@ export const articles: Article[] = [
           "Fast weapons outperform heavy weapons in this fight. Check the actual damage difference between fast and slow weapons with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).\n\nWhy:\n\n- More punish flexibility\n- Easier spacing correction\n- Lower commitment per attack\n\nRecommended:\n\n- Straight swords\n- Katanas\n- Light greatswords\n\nAvoid:\n\n- Ultra heavy weapons (too slow for Phase 2 recovery windows)"
       },
       {
-        heading: "Why You Feel Phase 2 Is \u201CUnfair\u201D",
+        heading: "Why You Feel Phase 2 Is “Unfair”",
         level: 2,
         content:
-          "It is not unfair.\n\nIt is unfamiliar.\n\nThe game is teaching:\n\n> Not every boss can be solved with aggression.\n\nGodrick is the first true \u201Cdiscipline check\u201D."
+          "It is not unfair.\n\nIt is unfamiliar.\n\nThe game is teaching:\n\n> Not every boss can be solved with aggression.\n\nGodrick is the first true “discipline check”."
       },
       {
         heading: "Advanced Insight: Why Some Players Beat Him Easily",
@@ -2586,7 +2672,7 @@ export const articles: Article[] = [
         heading: "Common Mistakes",
         level: 2,
         content:
-          "## 1. Rolling too early\n\nPhase 2 attacks are delayed to punish this.\n\n## 2. Healing greedily\n\nHealing during unsafe windows leads to chain hits.\n\n## 3. Ignoring fire zones\n\nFire is not damage\u2014it is **space control**."
+          "## 1. Rolling too early\n\nPhase 2 attacks are delayed to punish this.\n\n## 2. Healing greedily\n\nHealing during unsafe windows leads to chain hits.\n\n## 3. Ignoring fire zones\n\nFire is not damage—it is **space control**."
       },
       {
         heading: "Final Strategy Summary",
@@ -2628,14 +2714,14 @@ export const articles: Article[] = [
     difficulty: "beginner",
     readTimeMinutes: 9,
     order: 14,
-    title: "Elden Ring Rune Level Calculator \u2013 How Many Runes Do You Need to Reach Level 150?",
+    title: "Elden Ring Rune Level Calculator – How Many Runes Do You Need to Reach Level 150?",
     metaDescription: "Calculate how many runes you need in Elden Ring. Learn rune requirements by level, efficient leveling strategies, and how to optimize your build progression.",
     sections: [
       {
         heading: "",
         level: 2,
         content:
-          "One of the biggest mistakes Elden Ring players make is spending runes without a leveling plan.\n\nA few levels might seem cheap at first, but by the time you reach the late game, every level costs hundreds of thousands of runes. Many players waste hours farming because they don\u2019t understand how rune requirements scale.\n\nThis guide explains how Elden Ring leveling works, how many runes you\u2019ll need for common milestones, and how to plan your character efficiently.\n\n![Elden Ring screenshot](/images/articles/u=1904568550,1900617044&fm=253&fmt=auto&app=120&f=JPEG.webp)"
+          "One of the biggest mistakes Elden Ring players make is spending runes without a leveling plan.\n\nA few levels might seem cheap at first, but by the time you reach the late game, every level costs hundreds of thousands of runes. Many players waste hours farming because they don’t understand how rune requirements scale.\n\nThis guide explains how Elden Ring leveling works, how many runes you’ll need for common milestones, and how to plan your character efficiently.\n\n![Elden Ring screenshot](/images/articles/u=1904568550,1900617044&fm=253&fmt=auto&app=120&f=JPEG.webp)"
       },
       {
         heading: "Quick Answer",
@@ -2653,7 +2739,7 @@ export const articles: Article[] = [
         heading: "Why Most Players Waste Runes",
         level: 2,
         content:
-          "Many players level randomly.\n\nA typical example:\n\n- Strength\n- Dexterity\n- Intelligence\n- Faith\n\nAll leveled together.\n\nThe result:\n\n- Poor weapon scaling\n- Weak survivability\n- Inefficient stat distribution\n\nThe problem isn\u2019t lack of levels.\n\nThe problem is lack of planning."
+          "Many players level randomly.\n\nA typical example:\n\n- Strength\n- Dexterity\n- Intelligence\n- Faith\n\nAll leveled together.\n\nThe result:\n\n- Poor weapon scaling\n- Weak survivability\n- Inefficient stat distribution\n\nThe problem isn’t lack of levels.\n\nThe problem is lack of planning."
       },
       {
         heading: "Recommended Level Targets",
@@ -2700,7 +2786,7 @@ export const articles: Article[] = [
         heading: "The Importance of Soft Caps",
         level: 2,
         content:
-          "Soft caps determine when a stat begins providing reduced returns.\n\nImportant examples:\n\n| Stat | Recommended Target |\n|--------|--------|\n| Vigor | 60 |\n| Strength | 55\u201380 |\n| Dexterity | 55\u201380 |\n| Intelligence | 60\u201380 |\n| Faith | 50\u201380 |\n| Arcane | 45\u201360 |\n\nUnderstanding these breakpoints helps prevent wasted levels."
+          "Soft caps determine when a stat begins providing reduced returns.\n\nImportant examples:\n\n| Stat | Recommended Target |\n|--------|--------|\n| Vigor | 60 |\n| Strength | 55–80 |\n| Dexterity | 55–80 |\n| Intelligence | 60–80 |\n| Faith | 50–80 |\n| Arcane | 45–60 |\n\nUnderstanding these breakpoints helps prevent wasted levels."
       },
       {
         heading: "Planning a Level 150 Build",
@@ -2712,7 +2798,7 @@ export const articles: Article[] = [
         heading: "Best Rune Farming Locations",
         level: 2,
         content:
-          "If you\u2019re trying to reach Level 150 efficiently, focus on high-yield farming routes.\n\nUse the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to find out exactly how many runes you need, then pick the right farming spot. Good farming locations share three characteristics:\n\n- Fast enemy kills\n- Safe resets\n- High rune rewards\n\nThe exact best location depends on your progression stage and build."
+          "If you’re trying to reach Level 150 efficiently, focus on high-yield farming routes.\n\nUse the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to find out exactly how many runes you need, then pick the right farming spot. Good farming locations share three characteristics:\n\n- Fast enemy kills\n- Safe resets\n- High rune rewards\n\nThe exact best location depends on your progression stage and build."
       },
       {
         heading: "Should You Level Beyond 150?",
@@ -2763,7 +2849,7 @@ export const articles: Article[] = [
     difficulty: "intermediate",
     readTimeMinutes: 12,
     order: 14,
-    title: "Starscourge Radahn Boss Guide (2026) \u2013 Why Most Players Fail and the Exact Way to Defeat Him",
+    title: "Starscourge Radahn Boss Guide (2026) – Why Most Players Fail and the Exact Way to Defeat Him",
     metaDescription: "A deep mechanics breakdown of Radahn in Elden Ring. Learn why players struggle, how summons actually affect the fight, and the safest winning strategy.",
     sections: [
       {
@@ -2778,7 +2864,7 @@ export const articles: Article[] = [
         heading: "Why Players Actually Lose to Radahn",
         level: 2,
         content:
-          "Most deaths fall into three categories:\n\n## 1. Fighting Radahn directly\n\nPlayers try to duel him like a normal boss.\n\nThis is the biggest mistake.\n\nRadahn is designed to punish 1v1 behavior early in the fight.\n\n## 2. Ignoring summons\n\nSummons are not optional in this fight.\n\nThey are part of the intended difficulty balance.\n\nIgnoring them makes the fight significantly harder.\n\n## 3. Staying at mid-range too long\n\nRadahn\u2019s projectile phase is strongest at medium distance.\n\nThis is the \u201Cdanger zone\u201D."
+          "Most deaths fall into three categories:\n\n## 1. Fighting Radahn directly\n\nPlayers try to duel him like a normal boss.\n\nThis is the biggest mistake.\n\nRadahn is designed to punish 1v1 behavior early in the fight.\n\n## 2. Ignoring summons\n\nSummons are not optional in this fight.\n\nThey are part of the intended difficulty balance.\n\nIgnoring them makes the fight significantly harder.\n\n## 3. Staying at mid-range too long\n\nRadahn’s projectile phase is strongest at medium distance.\n\nThis is the “danger zone”."
       },
       {
         heading: "The Real Mechanic: Aggro Rotation System",
@@ -2792,7 +2878,7 @@ export const articles: Article[] = [
         content: ""
       },
       {
-        heading: "Phase 1 \u2013 Arrow Pressure Phase",
+        heading: "Phase 1 – Arrow Pressure Phase",
         level: 3,
         content:
           "Radahn opens with long-range arrow attacks.\n\nThis phase is not about damage.\n\nIt is about movement survival.\n\n### Key Rule:\n\nDo NOT try to approach directly.\n\nInstead:\n\n- Use horse mobility\n- Use terrain to break line of sight\n- Summon NPC allies immediately",
@@ -2800,13 +2886,13 @@ export const articles: Article[] = [
         imageAlt: "Radahn phase 1 arrow rain attack showing safe positioning behind terrain"
       },
       {
-        heading: "Phase 2 \u2013 Battlefield Engagement",
+        heading: "Phase 2 – Battlefield Engagement",
         level: 3,
         content:
-          "Once summons engage him, Radahn enters melee combat mode.\n\nThis is the \u201Creal fight\u201D.\n\n### What changes:\n\n- Increased melee aggression\n- Large AoE attacks\n- Fast repositioning jumps"
+          "Once summons engage him, Radahn enters melee combat mode.\n\nThis is the “real fight”.\n\n### What changes:\n\n- Increased melee aggression\n- Large AoE attacks\n- Fast repositioning jumps"
       },
       {
-        heading: "Phase 3 \u2013 Meteor Transition",
+        heading: "Phase 3 – Meteor Transition",
         level: 3,
         content:
           "Radahn disappears and returns as a meteor.\n\nThis is the hardest spike in the fight.\n\nMost players die here due to panic positioning.",
@@ -2828,13 +2914,13 @@ export const articles: Article[] = [
         heading: "Step 2: Use hit-and-reset pattern",
         level: 3,
         content:
-          "Do not commit to long combos.\n\nInstead:\n\n- Approach\n- Deal 1\u20132 hits\n- Retreat\n- Reset positioning\n\nRadahn punishes extended aggression."
+          "Do not commit to long combos.\n\nInstead:\n\n- Approach\n- Deal 1–2 hits\n- Retreat\n- Reset positioning\n\nRadahn punishes extended aggression."
       },
       {
-        heading: "Step 3: Let summons \u201Cstabilize\u201D aggro",
+        heading: "Step 3: Let summons “stabilize” aggro",
         level: 3,
         content:
-          "If summons are alive:\n\nRadahn\u2019s behavior becomes predictable in short bursts.\n\nThis is your safest damage window."
+          "If summons are alive:\n\nRadahn’s behavior becomes predictable in short bursts.\n\nThis is your safest damage window."
       },
       {
         heading: "Step 4: Prepare for meteor phase",

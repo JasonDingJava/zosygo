@@ -176,13 +176,12 @@ export default async function ArticlePage({ params }: Props) {
 
   const siteUrl = "https://www.zosygo.com";
   const catLabel = category.charAt(0).toUpperCase() + category.slice(1);
-  const nightCategoryPrefix = nightreignPrefix ? `${nightreignPrefix}/` : "";
   const breadcrumb = [
     { name: "Zosygo", url: `${siteUrl}/` },
     { name: game.name, url: `${siteUrl}/${slug}` },
     ...(isNightreign ? [{ name: "Nightreign", url: `${siteUrl}/${slug}/nightreign` }] : []),
-    { name: catLabel, url: `${siteUrl}/${slug}/${nightCategoryPrefix}${category}` },
-    { name: article.title, url: `${siteUrl}/${slug}/${nightCategoryPrefix}${category}/${article.slug}` },
+    { name: catLabel, url: `${siteUrl}/${slug}${nightreignPrefix}/${category}` },
+    { name: article.title, url: `${siteUrl}/${slug}${nightreignPrefix}/${category}/${article.slug}` },
   ];
 
   return (
