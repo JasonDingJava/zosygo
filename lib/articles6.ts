@@ -19,13 +19,13 @@ const vigorArticle: Article = {
   title:
     "Elden Ring Vigor Soft Cap Explained (2026) – Best HP Breakpoints for PvE & PvP",
   metaDescription:
-    "Complete Elden Ring Vigor soft cap guide for 2026. Understand HP breakpoints, optimal Vigor targets for PvE and PvP at level 150, and how to avoid wasting stats on diminishing returns. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat distribution.",
+    "Complete Elden Ring Vigor soft cap guide for 2026. Understand HP breakpoints, optimal Vigor targets for PvE and PvP at level 150, and how to avoid wasting stats on diminishing returns. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat distribution.",
   sections: [
     {
       level: 2,
       heading: "What Is Vigor in Elden Ring?",
       content:
-        "Vigor is the primary stat that increases:\n\n- Maximum HP (Health)\n- Fire resistance (minor scaling)\n- Immunity to death by chip damage in late game content\n\nHowever, Vigor does not scale linearly. After certain thresholds (soft caps), each additional point gives significantly less HP.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see exactly how much HP you get per Vigor point at your current level.",
+        "Vigor is the primary stat that increases:\n\n- Maximum HP (Health)\n- Fire resistance (minor scaling)\n- Immunity to death by chip damage in late game content\n\nHowever, Vigor does not scale linearly. After certain thresholds (soft caps), each additional point gives significantly less HP.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see exactly how much HP you get per Vigor point at your current level.",
     },
     {
       level: 2,
@@ -61,7 +61,7 @@ const vigorArticle: Article = {
       level: 2,
       heading: "Best Vigor Builds by Playstyle",
       content:
-        "### Strength Builds\n- 55\u201360 Vigor\n- Heavy armor synergy\n\n### Dexterity Builds\n- 45\u201355 Vigor\n- Rely more on dodging\n\n### Intelligence / Mage Builds\n- 40\u201350 Vigor\n- Focus on distance and burst damage\n\n### Bleed Builds\n- 45\u201355 Vigor\n- High damage compensates survivability\n\n---\n\n## How Vigor Works with Level 150 Meta\n\nAt level 150, optimal builds usually follow this structure:\n\n- Vigor: 55\u201360\n- Primary damage stat: 60\u201380\n- Endurance: 20\u201330\n- Secondary stats: utility only\n\nThis is why Vigor is considered the **foundation stat of all builds**.\n\nSee how these breakpoints apply in real builds with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        "### Strength Builds\n- 55\u201360 Vigor\n- Heavy armor synergy\n\n### Dexterity Builds\n- 45\u201355 Vigor\n- Rely more on dodging\n\n### Intelligence / Mage Builds\n- 40\u201350 Vigor\n- Focus on distance and burst damage\n\n### Bleed Builds\n- 45\u201355 Vigor\n- High damage compensates survivability\n\n---\n\n## How Vigor Works with Level 150 Meta\n\nAt level 150, optimal builds usually follow this structure:\n\n- Vigor: 55\u201360\n- Primary damage stat: 60\u201380\n- Endurance: 20\u201330\n- Secondary stats: utility only\n\nThis is why Vigor is considered the **foundation stat of all builds**.\n\nSee how these breakpoints apply in real builds with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
     {
       level: 2,
@@ -79,7 +79,7 @@ const vigorArticle: Article = {
       level: 2,
       heading: "Related Tools",
       content:
-        "To optimize your build further:\n\n- Use a **Build Calculator** to balance stats efficiently\n- Use a **Rune Level Calculator** to plan level 150 progression\n- Use a **Weapon AR Calculator** to compare damage scaling",
+        "To optimize your build further:\n\n- Use a **Build Planner** to balance stats efficiently\n- Use a **Rune Level Calculator** to plan level 150 progression\n- Use a **Weapon AR Calculator** to compare damage scaling",
     },
     {
       level: 2,
@@ -93,7 +93,7 @@ const vigorArticle: Article = {
     { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
@@ -117,13 +117,13 @@ const enduranceArticle: Article = {
   title:
     "Elden Ring Endurance Soft Cap Explained (2026) – Stamina, Equip Load & Optimization Guide",
   metaDescription:
-    "Complete Elden Ring Endurance soft cap guide for 2026. Understand stamina and equip load scaling, optimal Endurance for PvE and PvP at level 150, and how to avoid wasting levels. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat distribution.",
+    "Complete Elden Ring Endurance soft cap guide for 2026. Understand stamina and equip load scaling, optimal Endurance for PvE and PvP at level 150, and how to avoid wasting levels. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat distribution.",
   sections: [
     {
       level: 2,
       heading: "What Does Endurance Do in Elden Ring?",
       content:
-        "Endurance directly increases:\n\n- Maximum stamina (for attacking, dodging, blocking)\n- Equip load capacity (for armor, weapons, and heavy builds)\n- Resistance to fatigue in prolonged fights\n\nUnlike damage stats, Endurance improves **consistency rather than raw power**.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Endurance affects your equip load and stamina at different levels.",
+        "Endurance directly increases:\n\n- Maximum stamina (for attacking, dodging, blocking)\n- Equip load capacity (for armor, weapons, and heavy builds)\n- Resistance to fatigue in prolonged fights\n\nUnlike damage stats, Endurance improves **consistency rather than raw power**.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Endurance affects your equip load and stamina at different levels.",
     },
     {
       level: 2,
@@ -147,7 +147,7 @@ const enduranceArticle: Article = {
       level: 2,
       heading: "Equip Load Breakpoints Explained",
       content:
-        "Equip load directly affects roll type:\n\n| Equip Load Ratio | Roll Type |\n|------------------|----------|\n| <30% | Fast roll |\n| 30\u201370% | Medium roll |\n| >70% | Heavy roll |\n\n\uD83D\uDC49 Most meta builds aim for **medium roll (30\u201370%)**\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see your exact equip load ratio and roll type as you adjust Endurance.",
+        "Equip load directly affects roll type:\n\n| Equip Load Ratio | Roll Type |\n|------------------|----------|\n| <30% | Fast roll |\n| 30\u201370% | Medium roll |\n| >70% | Heavy roll |\n\n\uD83D\uDC49 Most meta builds aim for **medium roll (30\u201370%)**\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see your exact equip load ratio and roll type as you adjust Endurance.",
     },
     {
       level: 2,
@@ -183,7 +183,7 @@ const enduranceArticle: Article = {
       level: 2,
       heading: "Related Tools",
       content:
-        "To optimize your build efficiently:\n\n- Use a **Build Calculator** to balance Endurance with Vigor and damage stats\n- Use a **Weapon AR Calculator** to ensure you are not sacrificing damage unnecessarily\n- Use a **Rune Level Calculator** to plan level 150 optimization",
+        "To optimize your build efficiently:\n\n- Use a **Build Planner** to balance Endurance with Vigor and damage stats\n- Use a **Weapon AR Calculator** to ensure you are not sacrificing damage unnecessarily\n- Use a **Rune Level Calculator** to plan level 150 optimization",
     },
     {
       level: 2,
@@ -197,7 +197,7 @@ const enduranceArticle: Article = {
     { href: "/elden-ring/builds/vigor-soft-cap-explained", anchorText: "Vigor Soft Cap Guide" },
     { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
@@ -223,13 +223,13 @@ const intArticle: Article = {
   title:
     "Elden Ring Intelligence Soft Cap Explained (2026) – Best Magic Scaling Breakpoints",
   metaDescription:
-    "Complete Elden Ring Intelligence soft cap guide for 2026. Understand sorcery damage breakpoints, optimal INT for PvE and PvP at level 150, and how to avoid wasting levels on diminishing returns. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your mage build.",
+    "Complete Elden Ring Intelligence soft cap guide for 2026. Understand sorcery damage breakpoints, optimal INT for PvE and PvP at level 150, and how to avoid wasting levels on diminishing returns. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your mage build.",
   sections: [
     {
       level: 2,
       heading: "What Does Intelligence Do in Elden Ring?",
       content:
-        "Intelligence increases:\n\n- Sorcery damage (all magic spells)\n- Magic scaling on weapons (e.g., Moonveil, Dark Moon Greatsword)\n- Access to higher-tier sorceries\n- Hybrid build effectiveness (INT weapons)\n\nUnlike physical stats, Intelligence scaling is heavily tied to **spell scaling curves**, meaning breakpoints matter more than raw levels.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Intelligence affects your spell and weapon damage at different levels.",
+        "Intelligence increases:\n\n- Sorcery damage (all magic spells)\n- Magic scaling on weapons (e.g., Moonveil, Dark Moon Greatsword)\n- Access to higher-tier sorceries\n- Hybrid build effectiveness (INT weapons)\n\nUnlike physical stats, Intelligence scaling is heavily tied to **spell scaling curves**, meaning breakpoints matter more than raw levels.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Intelligence affects your spell and weapon damage at different levels.",
     },
     {
       level: 2,
@@ -295,7 +295,7 @@ const intArticle: Article = {
       level: 2,
       heading: "Related Tools",
       content:
-        "To optimize your mage build:\n\n- Use a **Build Calculator** to balance Intelligence with Vigor and Mind\n- Use a **Weapon AR Calculator** for Moonveil / DMGS scaling comparison\n- Use a **Rune Level Calculator** to plan level 150 mage builds",
+        "To optimize your mage build:\n\n- Use a **Build Planner** to balance Intelligence with Vigor and Mind\n- Use a **Weapon AR Calculator** for Moonveil / DMGS scaling comparison\n- Use a **Rune Level Calculator** to plan level 150 mage builds",
     },
     {
       level: 2,
@@ -311,7 +311,7 @@ const intArticle: Article = {
     { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
@@ -336,13 +336,13 @@ const dexArticle: Article = {
   title:
     "Elden Ring Dexterity Soft Cap Explained (2026) – Optimal DPS Scaling Guide",
   metaDescription:
-    "Complete Elden Ring Dexterity soft cap guide for 2026. Understand DPS scaling breakpoints, optimal Dex for PvE and PvP at level 150, and how to avoid wasting levels. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your build.",
+    "Complete Elden Ring Dexterity soft cap guide for 2026. Understand DPS scaling breakpoints, optimal Dex for PvE and PvP at level 150, and how to avoid wasting levels. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your build.",
   sections: [
     {
       level: 2,
       heading: "What Does Dexterity Do in Elden Ring?",
       content:
-        "Dexterity primarily affects:\n\n- Physical weapon damage scaling (Dex-based weapons)\n- Attack speed scaling for certain casting animations (indirect benefit)\n- Fall damage reduction (minor utility)\n- Weapon requirements for Dexterity-based builds\n\nUnlike Intelligence or Faith, Dexterity is primarily a **DPS consistency stat**, meaning it improves sustained damage output rather than burst scaling alone.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Dexterity affects your weapon AR and overall build performance.",
+        "Dexterity primarily affects:\n\n- Physical weapon damage scaling (Dex-based weapons)\n- Attack speed scaling for certain casting animations (indirect benefit)\n- Fall damage reduction (minor utility)\n- Weapon requirements for Dexterity-based builds\n\nUnlike Intelligence or Faith, Dexterity is primarily a **DPS consistency stat**, meaning it improves sustained damage output rather than burst scaling alone.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Dexterity affects your weapon AR and overall build performance.",
     },
     {
       level: 2,
@@ -408,7 +408,7 @@ const dexArticle: Article = {
       level: 2,
       heading: "Related Tools",
       content:
-        "To optimize your Dexterity build:\n\n- Use a **Build Calculator** to balance Dexterity with Vigor and Endurance\n- Use a **Weapon AR Calculator** to compare Dex scaling efficiency across weapons\n- Use a **Rune Level Calculator** to plan level 150 DPS optimization",
+        "To optimize your Dexterity build:\n\n- Use a **Build Planner** to balance Dexterity with Vigor and Endurance\n- Use a **Weapon AR Calculator** to compare Dex scaling efficiency across weapons\n- Use a **Rune Level Calculator** to plan level 150 DPS optimization",
     },
     {
       level: 2,
@@ -424,7 +424,7 @@ const dexArticle: Article = {
     { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
@@ -454,7 +454,7 @@ const arcArticle: Article = {
         heading: "",
         level: 2,
         content:
-          "Arcane is Elden Ring's most misunderstood stat. Most players know it increases bleed buildup, but few understand the exact breakpoints and why they matter.\n\nThis guide gives you the precise Arcane soft cap values, the mechanics behind them, and how to optimize your build at every level range.\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your Arcane allocation before respeccing.",
+          "Arcane is Elden Ring's most misunderstood stat. Most players know it increases bleed buildup, but few understand the exact breakpoints and why they matter.\n\nThis guide gives you the precise Arcane soft cap values, the mechanics behind them, and how to optimize your build at every level range.\n\n> Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your Arcane allocation before respeccing.",
       },
       {
         heading: "Quick Reference: Arcane Soft Cap Table",
@@ -484,7 +484,7 @@ const arcArticle: Article = {
         heading: "Arcane Scaling Test: Weapon Comparison (Level 150)",
         level: 2,
         content:
-          "We tested each major Arcane weapon at two breakpoints using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator). All tests at Level 150 with 60 Vigor, weapon +10/+25.\n\n| Weapon | ARC 45 (Bleed) | ARC 60 (Bleed) | ARC 45 (AR) | ARC 60 (AR) | Improvement |\n| --- | --- | --- | --- | --- | --- |\n| Rivers of Blood +10 | 65 | 72 | 485 | 508 | +7 bleed, +23 AR |\n| Occult Nagakiba +25 | 58 | 65 | 480 | 520 | +7 bleed, +40 AR |\n| Eleonora's Poleblade +10 | 63 | 70 | 460 | 488 | +7 bleed, +28 AR |\n| Occult Great Stars +25 | 55 | 62 | 510 | 545 | +7 bleed, +35 AR |\n| Varre's Bouquet +10 | 72 | 80 | 350 | 380 | +8 bleed, +30 AR |\n\n### Key Findings\n\n* Bleed buildup increase from 45 to 60 ARC is consistent at ~7-8 points per weapon\n* AR improvement varies from +23 to +40 depending on weapon scaling\n* Occult-infused weapons benefit more from high Arcane than unique weapons\n* The 15 levels from 45 to 60 cost more than they return for most builds\n\n> **Verdict:** For most PvE builds, 45-50 Arcane is the optimal stop point. Go to 60 only for pure Arcane caster builds or Level 175+ characters.",
+          "We tested each major Arcane weapon at two breakpoints using the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator). All tests at Level 150 with 60 Vigor, weapon +10/+25.\n\n| Weapon | ARC 45 (Bleed) | ARC 60 (Bleed) | ARC 45 (AR) | ARC 60 (AR) | Improvement |\n| --- | --- | --- | --- | --- | --- |\n| Rivers of Blood +10 | 65 | 72 | 485 | 508 | +7 bleed, +23 AR |\n| Occult Nagakiba +25 | 58 | 65 | 480 | 520 | +7 bleed, +40 AR |\n| Eleonora's Poleblade +10 | 63 | 70 | 460 | 488 | +7 bleed, +28 AR |\n| Occult Great Stars +25 | 55 | 62 | 510 | 545 | +7 bleed, +35 AR |\n| Varre's Bouquet +10 | 72 | 80 | 350 | 380 | +8 bleed, +30 AR |\n\n### Key Findings\n\n* Bleed buildup increase from 45 to 60 ARC is consistent at ~7-8 points per weapon\n* AR improvement varies from +23 to +40 depending on weapon scaling\n* Occult-infused weapons benefit more from high Arcane than unique weapons\n* The 15 levels from 45 to 60 cost more than they return for most builds\n\n> **Verdict:** For most PvE builds, 45-50 Arcane is the optimal stop point. Go to 60 only for pure Arcane caster builds or Level 175+ characters.",
       },
       {
         heading: "Arcane vs Dexterity for Bleed Builds",
@@ -508,13 +508,13 @@ const arcArticle: Article = {
         heading: "Common Arcane Build Mistakes",
         level: 2,
         content:
-          "Here are the most common mistakes players make with Arcane builds.\n\n### Mistake 1: Over-Investing in Arcane\n\nGoing to 80 Arcane on a Level 150 build is almost always a mistake.\n\n* 80 ARC + 40 DEX < 50 ARC + 45 DEX for overall DPS\n* The 30 extra levels in Arcane are better spent on Vigor or Dexterity\n\n### Mistake 2: Ignoring Arcane on Bleed Weapons\n\nUsing Rivers of Blood with base Arcane (8) is wasted potential.\n\n* Rivers of Blood has C scaling in Arcane\n* Every point up to 45 adds meaningful bleed buildup\n* Minimum: 20 ARC. Recommended: 45-50 ARC.\n\n### Mistake 3: Using Wrong Infusion\n\n* Occult infusion: Best for pure Arcane builds\n* Blood infusion: Better for low-Arcane builds\n* Keen infusion + Blood Grease: Best for Dexterity-focused builds\n\n### Mistake 4: Ignoring Arcane for Dragon Communion\n\nDragon Communion Seal scales purely with Arcane. At 45 ARC, it outperforms most other seals for incantation scaling.\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your specific build before respeccing.",
+          "Here are the most common mistakes players make with Arcane builds.\n\n### Mistake 1: Over-Investing in Arcane\n\nGoing to 80 Arcane on a Level 150 build is almost always a mistake.\n\n* 80 ARC + 40 DEX < 50 ARC + 45 DEX for overall DPS\n* The 30 extra levels in Arcane are better spent on Vigor or Dexterity\n\n### Mistake 2: Ignoring Arcane on Bleed Weapons\n\nUsing Rivers of Blood with base Arcane (8) is wasted potential.\n\n* Rivers of Blood has C scaling in Arcane\n* Every point up to 45 adds meaningful bleed buildup\n* Minimum: 20 ARC. Recommended: 45-50 ARC.\n\n### Mistake 3: Using Wrong Infusion\n\n* Occult infusion: Best for pure Arcane builds\n* Blood infusion: Better for low-Arcane builds\n* Keen infusion + Blood Grease: Best for Dexterity-focused builds\n\n### Mistake 4: Ignoring Arcane for Dragon Communion\n\nDragon Communion Seal scales purely with Arcane. At 45 ARC, it outperforms most other seals for incantation scaling.\n\n> Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your specific build before respeccing.",
       },
       {
         heading: "Best Arcane Build Archetypes",
         level: 2,
         content:
-          "### 1. Bleed Arcane (PvE Meta)\n\nThe most popular Arcane build.\n\n```\nLevel 150:\nVigor 60, Mind 20, Endurance 25, Strength 12, Dexterity 45, Arcane 50\nRivers of Blood +10, Occult Nagakiba +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n### 2. Dragon Communion Caster\n\nUses Arcane-scaling incantations.\n\n```\nLevel 150:\nVigor 55, Mind 30, Endurance 20, Faith 30, Arcane 60\nDragon Communion Seal +10, Occult Flamberge +25\nFlocks Canvas Talisman, Godfrey Icon\n```\n\n### 3. Pure Occult (Physical Arcane)\n\nUses occult-infused weapons for pure physical damage.\n\n```\nLevel 150:\nVigor 60, Endurance 30, Strength 20, Dexterity 18, Arcane 60\nOccult Great Stars +25, Occult Spiked Caestus +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your specific build before respeccing.",
+          "### 1. Bleed Arcane (PvE Meta)\n\nThe most popular Arcane build.\n\n```\nLevel 150:\nVigor 60, Mind 20, Endurance 25, Strength 12, Dexterity 45, Arcane 50\nRivers of Blood +10, Occult Nagakiba +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n### 2. Dragon Communion Caster\n\nUses Arcane-scaling incantations.\n\n```\nLevel 150:\nVigor 55, Mind 30, Endurance 20, Faith 30, Arcane 60\nDragon Communion Seal +10, Occult Flamberge +25\nFlocks Canvas Talisman, Godfrey Icon\n```\n\n### 3. Pure Occult (Physical Arcane)\n\nUses occult-infused weapons for pure physical damage.\n\n```\nLevel 150:\nVigor 60, Endurance 30, Strength 20, Dexterity 18, Arcane 60\nOccult Great Stars +25, Occult Spiked Caestus +25\nLord of Blood's Exultation, Shard of Alexander\n```\n\n> Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your specific build before respeccing.",
       },
       {
         heading: "Recommended Level 150 Bleed Arcane Setup",
@@ -548,7 +548,7 @@ const arcArticle: Article = {
     { href: "/elden-ring/builds/soft-caps-explained", anchorText: "All Soft Caps Explained" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/builds/build-tier-list", anchorText: "Elden Ring Build Tier List" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 }
 
@@ -574,7 +574,7 @@ const strengthArticle: Article = {
   title:
     "Elden Ring Strength Soft Cap Explained (2026) – Heavy Builds & Two-Hand Scaling Guide",
   metaDescription:
-    "Complete Elden Ring Strength soft cap guide for 2026. Understand heavy build scaling breakpoints, optimal STR for PvE and PvP at level 150, and how two-handing affects your investment. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your strength build.",
+    "Complete Elden Ring Strength soft cap guide for 2026. Understand heavy build scaling breakpoints, optimal STR for PvE and PvP at level 150, and how two-handing affects your investment. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your strength build.",
   sections: [
     {
       level: 2,
@@ -598,7 +598,7 @@ const strengthArticle: Article = {
       level: 2,
       heading: "Two-Hand Scaling Explained (Very Important)",
       content:
-        "When you two-hand a weapon, your Strength is multiplied by 1.5×.\n\n### Example:\n\n- 40 STR → counts as 60 STR\n- 54 STR → effectively reaches soft cap zone\n\n### Why this matters:\n\n✔ You reach soft caps earlier\n✔ You save stat points\n✔ You can invest more into Vigor or Endurance\n\n👉 This is why Strength builds feel extremely strong early game.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate two-handed scaling for your specific weapon.",
+        "When you two-hand a weapon, your Strength is multiplied by 1.5×.\n\n### Example:\n\n- 40 STR → counts as 60 STR\n- 54 STR → effectively reaches soft cap zone\n\n### Why this matters:\n\n✔ You reach soft caps earlier\n✔ You save stat points\n✔ You can invest more into Vigor or Endurance\n\n👉 This is why Strength builds feel extremely strong early game.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate two-handed scaling for your specific weapon.",
     },
     {
       level: 2,
@@ -616,13 +616,13 @@ const strengthArticle: Article = {
       level: 2,
       heading: "Related Guides",
       content:
-        "To fully optimize your build, read:\n\n- [Elden Ring Vigor Soft Cap Explained](https://www.zosygo.com/elden-ring/builds/vigor-soft-cap-explained)\n- [Elden Ring Endurance Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/endurance-soft-cap-explained)\n- [Best Strength Builds Tier List 2026](https://www.zosygo.com/elden-ring/builds/best-builds-guide)\n- [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n- [Elden Ring Weapon Scaling Explained](https://www.zosygo.com/elden-ring/builds/elden-ring-damage-scaling-explained)",
+        "To fully optimize your build, read:\n\n- [Elden Ring Vigor Soft Cap Explained](https://www.zosygo.com/elden-ring/builds/vigor-soft-cap-explained)\n- [Elden Ring Endurance Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/endurance-soft-cap-explained)\n- [Best Strength Builds Tier List 2026](https://www.zosygo.com/elden-ring/builds/best-builds-guide)\n- [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)\n- [Elden Ring Weapon Scaling Explained](https://www.zosygo.com/elden-ring/builds/elden-ring-damage-scaling-explained)",
     },
     {
       level: 2,
       heading: "Build Optimization Tool",
       content:
-        "Want to test your Strength build?\n\nUse our Build Calculator to:\n\n- Simulate two-handed scaling\n- Compare weapon AR values\n- Find optimal stat distribution\n\n👉 Avoid wasted levels and optimize damage output",
+        "Want to test your Strength build?\n\nUse our Build Planner to:\n\n- Simulate two-handed scaling\n- Compare weapon AR values\n- Find optimal stat distribution\n\n👉 Avoid wasted levels and optimize damage output",
     },
     {
       level: 2,
@@ -639,7 +639,7 @@ const strengthArticle: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -651,7 +651,7 @@ const statOptimizerArticle: Article = {
   gameSlug: "elden-ring",
   title: "Elden Ring Stat Optimizer Guide (2026) – How to Maximize Damage Output Efficiently",
   metaDescription:
-    "Complete Elden Ring stat optimization guide for 2026. Learn how to allocate stats efficiently, maximize damage output, and avoid wasted levels at every stage of the game. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your build.",
+    "Complete Elden Ring stat optimization guide for 2026. Learn how to allocate stats efficiently, maximize damage output, and avoid wasted levels at every stage of the game. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your build.",
   sections: [
     {
       heading: "",
@@ -797,13 +797,13 @@ const statOptimizerArticle: Article = {
       level: 2,
       heading: "🔗 Related Guides (Internal SEO Boost)",
       content:
-        "To further optimize your build, read:\n\n- Elden Ring Best Builds Guide (2026)\n- Elden Ring Strength Soft Cap Explained\n- Elden Ring Weapon Scaling Guide\n- Elden Ring Vigor Optimization Guide\n- Elden Ring Build Calculator Tool",
+        "To further optimize your build, read:\n\n- Elden Ring Best Builds Guide (2026)\n- Elden Ring Strength Soft Cap Explained\n- Elden Ring Weapon Scaling Guide\n- Elden Ring Vigor Optimization Guide\n- Elden Ring Build Planner Tool",
     },
     {
       level: 2,
       heading: "⚙️ Build Optimization Tool",
       content:
-        "You can test your stat efficiency using our build calculator:\n\nhttps://www.zosygo.com/elden-ring/tools/build-calculator\n\nFeatures:\n- Stat efficiency simulation\n- Weapon scaling comparison\n- Build optimization preview",
+        "You can test your stat efficiency using our build planner:\n\nhttps://www.zosygo.com/elden-ring/tools/build-calculator\n\nFeatures:\n- Stat efficiency simulation\n- Weapon scaling comparison\n- Build optimization preview",
     },
     {
       level: 2,
@@ -817,7 +817,7 @@ const statOptimizerArticle: Article = {
     { href: "/elden-ring/builds/strength-soft-cap-explained", anchorText: "Elden Ring Strength Soft Cap Explained" },
     { href: "/elden-ring/builds/weapon-scaling-guide", anchorText: "Elden Ring Weapon Scaling Guide" },
     { href: "/elden-ring/builds/vigor-soft-cap-explained", anchorText: "Elden Ring Vigor Optimization Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator Tool" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner Tool" },
   ],
   keyTakeaways: [
     { label: "🎯 Core Rule", value: "Vigor first (55–60), then ONE damage stat only" },
@@ -837,7 +837,7 @@ const buildMakerArticle: Article = {
   gameSlug: "elden-ring",
   title: "Elden Ring Build Maker Explained (2026) – How to Plan the Perfect Character Build",
   metaDescription:
-    "Complete Elden Ring Build Maker guide for 2026. Learn how to plan stat allocation, avoid wasted levels, and build optimized characters using the 5 core build principles. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your build before leveling.",
+    "Complete Elden Ring Build Maker guide for 2026. Learn how to plan stat allocation, avoid wasted levels, and build optimized characters using the 5 core build principles. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your build before leveling.",
   sections: [
     {
       heading: "",
@@ -998,7 +998,7 @@ const buildMakerArticle: Article = {
       level: 2,
       heading: "🔗 Related Guides (Recommended Next Reads)",
       content:
-        "To improve your build further, read:\n\n- Elden Ring Best Builds Guide (2026)\n- Elden Ring Stat Optimizer Guide\n- Elden Ring Strength Soft Cap Explained\n- Elden Ring Weapon Scaling System Guide\n- Elden Ring Build Calculator Tool",
+        "To improve your build further, read:\n\n- Elden Ring Best Builds Guide (2026)\n- Elden Ring Stat Optimizer Guide\n- Elden Ring Strength Soft Cap Explained\n- Elden Ring Weapon Scaling System Guide\n- Elden Ring Build Planner Tool",
     },
     {
       level: 2,
@@ -1012,7 +1012,7 @@ const buildMakerArticle: Article = {
     { href: "/elden-ring/builds/elden-ring-stat-optimizer-guide", anchorText: "Elden Ring Stat Optimizer Guide" },
     { href: "/elden-ring/builds/strength-soft-cap-explained", anchorText: "Elden Ring Strength Soft Cap Explained" },
     { href: "/elden-ring/builds/weapon-scaling-guide", anchorText: "Elden Ring Weapon Scaling System Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator Tool" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner Tool" },
   ],
   keyTakeaways: [
     { label: "🎯 Core Principle", value: "Build around ONE identity: STR, DEX, INT, or ARC" },
@@ -1032,7 +1032,7 @@ const scalingExplainedArticle: Article = {
   gameSlug: "elden-ring",
   title: "Elden Ring Damage Scaling Explained (2026) – Why Your Build Stops Scaling at High Level",
   metaDescription:
-    "Complete guide to Elden Ring damage scaling in 2026. Understand why high-level builds stop gaining damage, how soft caps work, and how to optimize stat allocation efficiently. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your scaling efficiency.",
+    "Complete guide to Elden Ring damage scaling in 2026. Understand why high-level builds stop gaining damage, how soft caps work, and how to optimize stat allocation efficiently. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your scaling efficiency.",
   sections: [
     {
       heading: "",
@@ -1205,7 +1205,7 @@ const vigorVsEnduranceArticle: Article = {
   gameSlug: "elden-ring",
   title: "Elden Ring Vigor Soft Cap vs Endurance – Which Stat Matters More in 2026 Builds?",
   metaDescription:
-    "Complete comparison of Elden Ring Vigor vs Endurance for 2026 builds. Learn soft caps, when to prioritize each stat, and how to decide where your next levels should go. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stat allocation.",
+    "Complete comparison of Elden Ring Vigor vs Endurance for 2026 builds. Learn soft caps, when to prioritize each stat, and how to decide where your next levels should go. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stat allocation.",
   sections: [
     {
       heading: "",

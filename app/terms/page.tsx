@@ -38,7 +38,7 @@ export default function TermsPage() {
           <section>
             <h2 className="font-display text-xl font-semibold text-white mb-3">2. Description of Service</h2>
             <p>
-              Zosygo provides game guides, build calculators, boss strategies, and related content for video games, primarily Elden Ring. All content is provided for informational and entertainment purposes.
+              Zosygo provides game guides, build planners, boss strategies, and related content for video games, primarily Elden Ring. All content is provided for informational and entertainment purposes.
             </p>
           </section>
 

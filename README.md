@@ -43,7 +43,7 @@ Open [http://localhost:3000](http://localhost:3000).
 |------|-----|
 | Home | [www.zosygo.com](https://www.zosygo.com) |
 | Elden Ring Hub | [www.zosygo.com/elden-ring](https://www.zosygo.com/elden-ring) |
-| Build Calculator | [www.zosygo.com/elden-ring/tools/build-calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) |
+| Build Planner | [www.zosygo.com/elden-ring/tools/build-calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) |
 | Builds | [www.zosygo.com/elden-ring/builds](https://www.zosygo.com/elden-ring/builds) |
 | Bosses | [www.zosygo.com/elden-ring/bosses](https://www.zosygo.com/elden-ring/bosses) |
 | Weapons | [www.zosygo.com/elden-ring/weapons](https://www.zosygo.com/elden-ring/weapons) |

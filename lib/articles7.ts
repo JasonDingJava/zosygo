@@ -19,13 +19,13 @@ const article58: Article = {
   title:
     "Moonveil Scaling Explained (2026) – Best Stats, Soft Caps & Damage Optimization",
   metaDescription:
-    "Complete Moonveil scaling guide for 2026. Understand Dexterity and Intelligence breakpoints, optimal stats for PvE and PvP at level 150, and how to maximize Transient Moonlight damage. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your Moonveil build.",
+    "Complete Moonveil scaling guide for 2026. Understand Dexterity and Intelligence breakpoints, optimal stats for PvE and PvP at level 150, and how to maximize Transient Moonlight damage. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your Moonveil build.",
   sections: [
     {
       level: 2,
       heading: "What Is Moonveil in Elden Ring?",
       content:
-        "Moonveil is a katana that scales primarily with:\n\n- Dexterity (physical melee damage)\n- Intelligence (magic projectile damage from Transient Moonlight)\n\nIts unique skill, **Transient Moonlight**, fires a magical wave that scales heavily with Intelligence while still benefiting from weapon upgrades and Dexterity scaling.\n\n\uD83D\uDC49 This makes Moonveil a **hybrid burst weapon**, not a pure Dex katana.\n\nUse the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how different INT/Dex splits affect Moonveil's total damage output.",
+        "Moonveil is a katana that scales primarily with:\n\n- Dexterity (physical melee damage)\n- Intelligence (magic projectile damage from Transient Moonlight)\n\nIts unique skill, **Transient Moonlight**, fires a magical wave that scales heavily with Intelligence while still benefiting from weapon upgrades and Dexterity scaling.\n\n\uD83D\uDC49 This makes Moonveil a **hybrid burst weapon**, not a pure Dex katana.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how different INT/Dex splits affect Moonveil's total damage output.",
     },
     {
       level: 2,
@@ -91,7 +91,7 @@ const article58: Article = {
       level: 2,
       heading: "Related Tools",
       content:
-        "To optimize Moonveil performance:\n\n- Use a **Build Calculator** to balance Intelligence and Dexterity scaling\n- Use a **Weapon AR Calculator** to compare skill vs melee damage output\n- Use a **Rune Level Calculator** to plan level 150 hybrid builds",
+        "To optimize Moonveil performance:\n\n- Use a **Build Planner** to balance Intelligence and Dexterity scaling\n- Use a **Weapon AR Calculator** to compare skill vs melee damage output\n- Use a **Rune Level Calculator** to plan level 150 hybrid builds",
     },
     {
       level: 2,
@@ -105,7 +105,7 @@ const article58: Article = {
     { href: "/elden-ring/builds/dexterity-soft-cap-explained", anchorText: "Dexterity Soft Cap Guide" },
     { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
@@ -167,7 +167,7 @@ const article60: Article = {
       level: 2,
       content:
         "Level 200 is a trap for a lot of players. Here's when you should stop before you reach it.\n\n### PvP Builds\n\nThe meta remains at 125–150. At 200, you'll match with players in the 175–250 range, which means\n\n- You face hybrid casters who can do everything\n- Build identity blurs — everyone has high stats in multiple areas\n- Matchmaking takes longer\n- Many organized dueling communities cap at 150\n\n### Underleveled Characters\n\nIf you rushed to 200 by farming without exploring, you're a high-level character with +12 weapons, no talismans, and no map knowledge. The game doesn't respect your rune count — it checks your weapon levels and area progression. A Level 200 with +12 weapons will struggle more than a Level 120 with +25 weapons.\n\n### Inefficient Stat Spread\n\
-Pushing past 80 in any damage stat gives near-zero returns. If you're at 200 with 80 Strength, 80 Dexterity, and 40 Vigor, you'd get more value out of a Level 150 with 60 Strength and 60 Vigor. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to check if your stat spread is efficient before committing to the grind."
+Pushing past 80 in any damage stat gives near-zero returns. If you're at 200 with 80 Strength, 80 Dexterity, and 40 Vigor, you'd get more value out of a Level 150 with 60 Strength and 60 Vigor. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to check if your stat spread is efficient before committing to the grind."
     },
     {
       heading: "When Level 200 Actually Makes Sense",
@@ -179,7 +179,7 @@ Pushing past 80 in any damage stat gives near-zero returns. If you're at 200 wit
       heading: "Level 200 vs Level 150: Build Efficiency Comparison",
       level: 2,
       content:
-        "The common assumption is that 200 is \"50 levels better\" than 150. In practice, the gap is smaller than you think because of diminishing returns.\n\n| Metric | Level 150 | Level 200 | Difference |\n| ------ | --------- | --------- | ---------- |\n| Total Runes Spent | ~7M | ~180M | 25x more |\n| Main Stat (Soft Cap) | 60–80 | 80 | Marginal gain |\n| Secondary Stat | Low | Moderate | Depends on build |\n| Vigor (Soft Cap) | 55–60 | 60 | +0–5 (capped) |\n| Equip Load | Medium armor | Heavy armor | Notable upgrade |\n| Pure DPS Gain | Baseline | +5–15% | Modest |\n| Farming Required | Minimal | Heavy | Major time cost |\n\nThe damage difference between 150 and 200 is roughly 5–15% for most builds. The survivability difference can be more noticeable — heavy armor + 60 Vigor lets you survive hits that would two-shot you at 150. But if you're farming 30 hours for a 10% damage increase, ask yourself whether that time is better spent on a second character or learning boss patterns.\n\nCheck your build's actual stat breakpoints with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see if you're past the point of diminishing returns."
+        "The common assumption is that 200 is \"50 levels better\" than 150. In practice, the gap is smaller than you think because of diminishing returns.\n\n| Metric | Level 150 | Level 200 | Difference |\n| ------ | --------- | --------- | ---------- |\n| Total Runes Spent | ~7M | ~180M | 25x more |\n| Main Stat (Soft Cap) | 60–80 | 80 | Marginal gain |\n| Secondary Stat | Low | Moderate | Depends on build |\n| Vigor (Soft Cap) | 55–60 | 60 | +0–5 (capped) |\n| Equip Load | Medium armor | Heavy armor | Notable upgrade |\n| Pure DPS Gain | Baseline | +5–15% | Modest |\n| Farming Required | Minimal | Heavy | Major time cost |\n\nThe damage difference between 150 and 200 is roughly 5–15% for most builds. The survivability difference can be more noticeable — heavy armor + 60 Vigor lets you survive hits that would two-shot you at 150. But if you're farming 30 hours for a 10% damage increase, ask yourself whether that time is better spent on a second character or learning boss patterns.\n\nCheck your build's actual stat breakpoints with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see if you're past the point of diminishing returns."
     },
     {
       heading: "Fastest Rune Farming Routes for Level 200",
@@ -191,7 +191,7 @@ Pushing past 80 in any damage stat gives near-zero returns. If you're at 200 wit
       heading: "Recommended Stats for a Level 200 Character",
       level: 2,
       content:
-        "Reaching 200 gives you roughly 50 extra levels over a standard 150 build. Where should they go? Here's a framework rather than a fixed template, because the optimal spread depends on your build.\n\n| Attribute | Level 150 Range | Level 200 Range | Notes |\n| --------- | --------------- | --------------- | ----- |\n| Vigor | 55–60 | 60 | Hard cap — no reason to go above 60 |\n| Mind | 15–20 | 25–35 | More FP for weapon skills and spells |\n| Endurance | 20–30 | 30–45 | Enables heavy armor + heavy weapons |\n| Main Stat | 60–80 | 80 | Soft cap reached |\n| Secondary | Base | 30–50 | Opens hybrid weapon options |\n| Tertiary | — | 15–25 | Meet spell or weapon requirements |\n\nThe biggest opportunity at 200 vs 150 is **Endurance**. You can wear Bull-Goat or Veteran's set and still medium-roll, which dramatically changes how aggressive you can play in PvE. The second biggest is **Mind**, letting you use weapon skills more liberally. Don't waste levels pushing a main stat past 80 — the returns are near-zero.\n\nPlan your Lv 200 build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing runes."
+        "Reaching 200 gives you roughly 50 extra levels over a standard 150 build. Where should they go? Here's a framework rather than a fixed template, because the optimal spread depends on your build.\n\n| Attribute | Level 150 Range | Level 200 Range | Notes |\n| --------- | --------------- | --------------- | ----- |\n| Vigor | 55–60 | 60 | Hard cap — no reason to go above 60 |\n| Mind | 15–20 | 25–35 | More FP for weapon skills and spells |\n| Endurance | 20–30 | 30–45 | Enables heavy armor + heavy weapons |\n| Main Stat | 60–80 | 80 | Soft cap reached |\n| Secondary | Base | 30–50 | Opens hybrid weapon options |\n| Tertiary | — | 15–25 | Meet spell or weapon requirements |\n\nThe biggest opportunity at 200 vs 150 is **Endurance**. You can wear Bull-Goat or Veteran's set and still medium-roll, which dramatically changes how aggressive you can play in PvE. The second biggest is **Mind**, letting you use weapon skills more liberally. Don't waste levels pushing a main stat past 80 — the returns are near-zero.\n\nPlan your Lv 200 build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing runes."
     },
     {
       heading: "Level 200 Build Examples That Actually Work",
@@ -214,12 +214,12 @@ Pushing past 80 in any damage stat gives near-zero returns. If you're at 200 wit
       heading: "Final Verdict",
       level: 2,
       content:
-        "Level 200 is a luxury, not a necessity. For PvE players who want hybrid builds, heavy armor, and effortless boss fights, it's a satisfying goal. For PvP players and anyone who values efficient progression, 150 is almost always the better stopping point.\n\nIf you do decide to grind, the most important advice is this: don't waste your extra levels. Push Endurance to wear heavy armor, Mind for comfortable FP, and never exceed 80 in a damage stat. A well-built 200 is noticeably stronger than a 150. A poorly-built 200 is just a 150 with wasted runes.\n\nBefore you start farming, plan your build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) and check the remaining cost with the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)."
+        "Level 200 is a luxury, not a necessity. For PvE players who want hybrid builds, heavy armor, and effortless boss fights, it's a satisfying goal. For PvP players and anyone who values efficient progression, 150 is almost always the better stopping point.\n\nIf you do decide to grind, the most important advice is this: don't waste your extra levels. Push Endurance to wear heavy armor, Mind for comfortable FP, and never exceed 80 in a damage stat. A well-built 200 is noticeably stronger than a 150. A poorly-built 200 is just a 150 with wasted runes.\n\nBefore you start farming, plan your build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) and check the remaining cost with the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)."
     },
   ],
   internalLinks: [
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Elden Ring Rune Level Calculator" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/walkthroughs/how-many-runes-to-reach-level-150", anchorText: "How Many Runes to Reach Level 150" },
     { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Elden Ring Builds" },
@@ -245,7 +245,7 @@ const article61: Article = {
   title:
     "Moonveil Build Optimization Guide (2026) – Best Stats at Level 150 & 200",
   metaDescription:
-    "Complete Moonveil build optimization guide for 2026. Optimal stat allocation for Level 150 and 200 builds, best talismans, armor setups, and PvP/PvE playstyle tips. Use the Build Calculator to optimize your Moonveil stat split.",
+    "Complete Moonveil build optimization guide for 2026. Optimal stat allocation for Level 150 and 200 builds, best talismans, armor setups, and PvP/PvE playstyle tips. Use the Build Planner to optimize your Moonveil stat split.",
   sections: [
     {
       level: 2,
@@ -306,7 +306,7 @@ const article61: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/bleed-build-optimization-guide", anchorText: "Bleed Build Optimization Guide" },
     { href: "/elden-ring/builds/level-150-stat-distribution-guide", anchorText: "Level 150 Stat Distribution Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Builds" },
   ],
@@ -331,7 +331,7 @@ const article62: Article = {
   title:
     "Bleed Build Optimization Guide (2026) – Why Your Damage Feels Weak & Fixes",
   metaDescription:
-    "Complete bleed build optimization guide for 2026. Fix weak bleed damage with correct Arcane scaling, multi-hit weapons, and talisman setups for Level 150 and 200. Use the Build Calculator to optimize your bleed build.",
+    "Complete bleed build optimization guide for 2026. Fix weak bleed damage with correct Arcane scaling, multi-hit weapons, and talisman setups for Level 150 and 200. Use the Build Planner to optimize your bleed build.",
   sections: [
     {
       level: 2,
@@ -392,7 +392,7 @@ const article62: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/moonveil-build-optimization-guide", anchorText: "Moonveil Build Optimization Guide" },
     { href: "/elden-ring/builds/level-150-stat-distribution-guide", anchorText: "Level 150 Stat Distribution Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
   ],
@@ -484,7 +484,7 @@ const article63: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/builds/moonveil-build-optimization-guide", anchorText: "Moonveil Build Optimization Guide" },
     { href: "/elden-ring/builds/bleed-build-optimization-guide", anchorText: "Bleed Build Optimization Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Builds" },
   ],

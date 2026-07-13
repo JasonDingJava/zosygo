@@ -127,7 +127,7 @@ export default function GameHero({ game, locale }: GameHeroProps) {
                 href="/elden-ring/tools/build-calculator"
                 className="inline-flex h-14 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-8 text-base font-bold uppercase tracking-wider text-black shadow-[0_0_40px_rgba(251,191,36,0.4)] transition-all hover:scale-[1.02] hover:shadow-[0_0_50px_rgba(251,191,36,0.6)]"
               >
-                ⚔️ Build Calculator
+                ⚔️ Build Planner
               </Link>
               <Link
                 href="/elden-ring/tools"

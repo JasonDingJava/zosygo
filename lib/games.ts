@@ -491,9 +491,9 @@ const fallbackData: Record<string, GameData> = {
     name: "Dark Souls III",
     tagline: "The fire fades. Embers remain.",
     description:
-      "The culmination of the Dark Souls trilogy — boss guides, build calculators, and lore analysis.",
+      "The culmination of the Dark Souls trilogy — boss guides, build planners, and lore analysis.",
     longDescription:
-      "Dark Souls III closes the Dark Souls trilogy with the Lords of Cinder refusing their thrones. Zosygo brings detailed boss strategies for every Lord of Cinder, build calculators for PvE and PvP, weapon upgrade paths, and deep lore connecting Lothric to the Age of Fire.",
+      "Dark Souls III closes the Dark Souls trilogy with the Lords of Cinder refusing their thrones. Zosygo brings detailed boss strategies for every Lord of Cinder, build planners for PvE and PvP, weapon upgrade paths, and deep lore connecting Lothric to the Age of Fire.",
     developer: "FromSoftware",
     publisher: "Bandai Namco Entertainment",
     genres: ["Action RPG", "Soulslike", "Dark Fantasy"],

@@ -1,4 +1,4 @@
-// Starting classes data for Elden Ring Build Calculator
+// Starting classes data for Elden Ring Build Planner
 
 export interface StartingClass {
   name: string;

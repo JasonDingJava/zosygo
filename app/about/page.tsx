@@ -30,7 +30,7 @@ export default function AboutPage() {
           <section>
             <h2 className="font-display text-xl font-semibold text-white mb-3">What We Do</h2>
             <p>
-              Zosygo is an independent game tools and guides platform. Our primary focus is Elden Ring — providing players with accurate build calculators, detailed boss strategies, weapon guides, and optimized builds for every playstyle.
+              Zosygo is an independent game tools and guides platform. Our primary focus is Elden Ring — providing players with accurate build planners, detailed boss strategies, weapon guides, and optimized builds for every playstyle.
             </p>
           </section>
 
@@ -38,7 +38,7 @@ export default function AboutPage() {
             <h2 className="font-display text-xl font-semibold text-white mb-3">What Makes Us Different</h2>
             <ul className="space-y-3">
               <li>
-                <strong className="text-zinc-300">Build Calculator</strong> — A fully interactive tool that lets you plan stats, pick weapons, and see real-time Attack Rating calculations with game-accurate formulas.
+                <strong className="text-zinc-300">Build Planner</strong> — A fully interactive tool that lets you plan stats, pick weapons, and see real-time Attack Rating calculations with game-accurate formulas.
               </li>
               <li>
                 <strong className="text-zinc-300">Practical Guides</strong> — No fluff, no filler. Every guide is written for players who want actionable advice, not lore essays.

@@ -207,7 +207,7 @@ const article47: Article = {
     { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -417,7 +417,7 @@ const article48: Article = {
     { href: "/elden-ring/bosses/how-to-beat-fire-giant", anchorText: "Fire Giant Boss Guide" },
     { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -621,7 +621,7 @@ const article49: Article = {
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg (DLC Entry)" },
     { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -891,7 +891,7 @@ const article50: Article = {
     { href: "/elden-ring/weapons/reduvia-dagger-explained", anchorText: "Reduvia Dagger Guide" },
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
     { href: "/elden-ring/builds/best-arcane-build", anchorText: "Best Arcane Build" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ],
 };
@@ -1211,7 +1211,7 @@ const article51: Article = {
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
     { href: "/elden-ring/builds/best-arcane-build", anchorText: "Best Arcane Build" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 

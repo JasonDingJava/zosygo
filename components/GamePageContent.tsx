@@ -87,7 +87,7 @@ export default function GamePageContent({
                 href={`/${game.slug}/tools/build-calculator`}
                 className="shrink-0 rounded-sm bg-gradient-to-r from-amber-600 to-yellow-600 px-3 py-1.5 text-xs font-bold uppercase tracking-wider text-black transition-all hover:from-amber-500 hover:to-yellow-500"
               >
-                ⚔️ Build Calculator
+                ⚔️ Build Planner
               </Link>
               <Link
                 href={`/${game.slug}/nightreign`}
@@ -188,7 +188,7 @@ export default function GamePageContent({
                         ⚔️
                       </div>
                       <div className="flex-1">
-                        <h3 className="text-lg font-bold text-amber-400 group-hover:text-amber-300">Elden Ring Build Calculator</h3>
+                        <h3 className="text-lg font-bold text-amber-400 group-hover:text-amber-300">Elden Ring Build Planner</h3>
                         <p className="mt-1 text-sm text-zinc-400">
                           Calculate optimal builds with real-time stats, weapon scaling, and smart attribute suggestions. Compare weapons, check soft caps, and find your perfect build.
                         </p>

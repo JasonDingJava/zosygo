@@ -37,7 +37,7 @@ export default function NotFound() {
               href="/elden-ring/tools/build-calculator"
               className="inline-flex h-12 items-center justify-center rounded-sm border border-[#b8956a]/30 px-8 text-sm font-semibold uppercase tracking-wider text-[#e8d5a3] transition-colors hover:border-[#c9a227]/50"
             >
-              ⚔️ Build Calculator
+              ⚔️ Build Planner
             </Link>
             <Link
               href="/elden-ring"

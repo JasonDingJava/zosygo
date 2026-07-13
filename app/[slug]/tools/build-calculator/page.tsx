@@ -631,8 +631,8 @@ export default function EldenRingBuildCalculator() {
       "@graph": [
         {
           "@type": "WebApplication",
-          name: "Elden Ring Build Calculator & Stat Optimizer",
-          description: "Plan and optimize Elden Ring character builds. Real-time stat calculations, weapon AR comparisons, and soft cap analysis. Use as Build Planner, Stat Optimizer, and Damage Calculator.",
+          name: "Elden Ring Build Planner 2026",
+          description: "Create, optimize, and share your Elden Ring builds. Plan stats, weapons, armor, talismans, and spells with real-time calculations and damage optimization.",
           url: "https://www.zosygo.com/elden-ring/tools/build-calculator",
           applicationCategory: "GameApplication",
           operatingSystem: "Web",
@@ -641,7 +641,7 @@ export default function EldenRingBuildCalculator() {
         {
           "@type": "FAQPage",
           mainEntity: [
-            { "@type": "Question", name: "How does the Elden Ring Build Calculator work?", acceptedAnswer: { "@type": "Answer", text: "Select your starting class, adjust stats (1-99), choose up to 3 weapons with upgrade levels, and see real-time HP, FP, Stamina, equip load, and Attack Rating results." } },
+            { "@type": "Question", name: "How does the Elden Ring Build Planner work?", acceptedAnswer: { "@type": "Answer", text: "Select your starting class, adjust stats (1-99), choose up to 3 weapons with upgrade levels, and see real-time HP, FP, Stamina, equip load, and Attack Rating results." } },
             { "@type": "Question", name: "What weapons are supported?", acceptedAnswer: { "@type": "Answer", text: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more." } },
             { "@type": "Question", name: "Can I share my build?", acceptedAnswer: { "@type": "Answer", text: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." } },
             { "@type": "Question", name: "Can I use this as an Elden Ring respec calculator?", acceptedAnswer: { "@type": "Answer", text: "Yes. Before using a Larval Tear at Rennala, plan your new stat distribution here. Adjust stats, check equip load and weapon requirements, then respec with confidence." } },
@@ -779,7 +779,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
         {/* Header */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Calculator &amp; Stat Optimizer{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
+            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Planner 2026 – Create, Optimize &amp; Share Builds{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
             <button
               onClick={function() {
                 setStats({vigor:30,mind:12,endurance:20,strength:16,dexterity:14,intelligence:10,faith:10,arcane:8});
@@ -796,7 +796,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               <span>Reset Build</span>
             </button>
           </div>
-          <p className="mt-1 text-gray-400">Build Planner, Stat Optimizer, Damage Calculator, and Meta Build tool — all in one. Plan stats, pick weapons and armor, see exact Attack Rating.</p>
+          <p className="mt-1 text-gray-400">Create the best Elden Ring builds with real-time stat optimization. Plan your stats, weapons, armor, talismans, and spells, compare damage output, and share your builds instantly.</p>
         </div>
 
         {/* Popular Builds — collapsible, default collapsed */}
@@ -1461,13 +1461,18 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
       {/* ────── SEO CONTENT ────── */}
       <div className="mx-auto max-w-4xl px-4 py-16 border-t border-gray-800">
         <section className="pt-8">
-          <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Build Calculator &amp; Stat Optimizer?</h2>
+          <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Build Planner 2026?</h2>
           <p className="mt-4 text-base leading-relaxed text-gray-400">
-            The Elden Ring Build Calculator &amp; Stat Optimizer is a free online tool that lets you plan and optimize your character build.
-            Use it as a Build Planner to design your stat distribution, a Damage Calculator to compare weapon Attack Rating, or a Meta Build
-            analyzer to see which builds perform best at your target level.
-            It uses game-accurate formulas for stat calculations, weapon scaling, and equip load so you can experiment
-            without respeccing in-game. Supports all 10 starting classes, 123 weapons, and proper soft cap mechanics.
+            The Elden Ring Build Planner is a free character planning tool that helps you create, optimize, and share powerful builds.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-gray-400">
+            Customize your starting class, stats, weapons, armor, talismans, and spells while seeing real-time calculations for HP, FP, stamina, equip load, and weapon Attack Rating.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-gray-400">
+            Unlike a simple build calculator, this planner lets you test complete setups before spending Rune Levels or using a Larval Tear in-game.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-gray-400">
+            It uses accurate Elden Ring formulas for stat scaling, weapon damage, and soft caps. The tool supports all 10 starting classes, 123 weapons, armor optimization, and advanced build analysis.
           </p>
         </section>
 
@@ -1539,65 +1544,82 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
 
 
         <section className="mt-12 border-t border-gray-800 pt-12">
-          <h2 className="text-2xl font-bold text-white">How To Use This Calculator</h2>
-          <ol className="mt-6 space-y-4">
-            <li className="flex gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">1</span>
-              <div><h3 className="font-semibold text-white">Choose a Starting Class</h3><p className="mt-1 text-sm leading-relaxed text-gray-400">Select from Vagabond, Warrior, Hero, Bandit, Astrologer, Prophet, Samurai, Prisoner, Confessor, or Wretch.</p></div>
-            </li>
-            <li className="flex gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">2</span>
-              <div><h3 className="font-semibold text-white">Set Your Attributes</h3><p className="mt-1 text-sm leading-relaxed text-gray-400">Use the +/- buttons to allocate Vigor, Mind, Endurance, Strength, Dexterity, Intelligence, Faith, and Arcane from 1 to 99. The color-coded progress bars show soft cap tiers.</p></div>
-            </li>
-            <li className="flex gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">3</span>
-              <div><h3 className="font-semibold text-white">Select Weapons & Armor</h3><p className="mt-1 text-sm leading-relaxed text-gray-400">Pick up to 3 weapons, set upgrade levels, choose armor pieces by slot, and equip up to 4 talismans.</p></div>
-            </li>
-            <li className="flex gap-3">
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-yellow-900/30 text-sm font-bold text-yellow-400">4</span>
-              <div><h3 className="font-semibold text-white">Review & Share</h3><p className="mt-1 text-sm leading-relaxed text-gray-400">See real-time HP, FP, Stamina, equip load, weapon AR, and share your build via URL.</p></div>
-            </li>
-          </ol>
+          <h2 className="text-2xl font-bold text-white">How To Use the Elden Ring Build Planner</h2>
+
+          <h3 className="mt-6 text-lg font-semibold text-white">1. Choose Your Starting Class</h3>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">Select from all 10 Elden Ring starting classes, including Vagabond, Warrior, Hero, Bandit, Astrologer, Prophet, Samurai, Prisoner, Confessor, and Wretch.</p>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">Choose the class that gives you the best starting stats for your desired build.</p>
+
+          <hr className="mt-6 border-gray-800" />
+
+          <h3 className="mt-6 text-lg font-semibold text-white">2. Allocate Your Stats</h3>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">Adjust Vigor, Mind, Endurance, Strength, Dexterity, Intelligence, Faith, and Arcane from 1 to 99.</p>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">The Elden Ring Build Planner automatically shows soft caps, stat efficiency, and recommended attribute breakpoints so you can optimize every Rune Level.</p>
+
+          <hr className="mt-6 border-gray-800" />
+
+          <h3 className="mt-6 text-lg font-semibold text-white">3. Select Weapons, Armor &amp; Talismans</h3>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">Create your complete loadout by choosing weapons, upgrade levels, armor pieces, talismans, and spells.</p>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">Compare different setups and find the strongest combination for your playstyle.</p>
+
+          <hr className="mt-6 border-gray-800" />
+
+          <h3 className="mt-6 text-lg font-semibold text-white">4. Optimize and Share Your Build</h3>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">View real-time HP, FP, stamina, equip load, weapon Attack Rating, and build performance.</p>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">Save your build or share it with other players through a unique build URL.</p>
         </section>
 
         <section className="mt-12 border-t border-gray-800 pt-12">
           <h2 className="text-2xl font-bold text-white">Recommended Builds</h2>
-          <div className="mt-6 grid gap-4 sm:grid-cols-2">
-            <a href="/elden-ring/builds/elden-ring-pure-dex-bleed-build" className="group rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30">
-              <h3 className="font-semibold text-white group-hover:text-yellow-300">Pure Dexterity Bleed Build</h3>
-              <p className="mt-1 text-sm text-gray-500">High DPS bleed build. 60 Vigor, 80 Dexterity, 60 Arcane.</p>
-            </a>
-            <a href="/elden-ring/builds/moonveil-intelligence-build" className="group rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30">
-              <h3 className="font-semibold text-white group-hover:text-yellow-300">Moonveil Intelligence Build</h3>
-              <p className="mt-1 text-sm text-gray-500">Intelligence samurai build. 50 Vigor, 80 Intelligence, 20 Dexterity.</p>
-            </a>
-            <a href="/elden-ring/builds" className="group rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30 sm:col-span-2">
-              <h3 className="font-semibold text-white group-hover:text-yellow-300">All Elden Ring Builds →</h3>
-              <p className="mt-1 text-sm text-gray-500">Browse all builds including Strength, Faith, Arcane, and hybrid builds.</p>
-            </a>
-          </div>
+
+          <h3 className="mt-6 text-lg font-semibold text-white">Pure Dexterity Bleed Build</h3>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">High DPS bleed build focused on fast weapons and Arcane scaling.</p>
+          <p className="mt-2 text-sm font-medium text-gray-400">Recommended Stats:</p>
+          <ul className="mt-1 list-inside list-disc text-sm text-gray-400">
+            <li>Vigor: 60</li>
+            <li>Dexterity: 80</li>
+            <li>Arcane: 60</li>
+          </ul>
+
+          <hr className="mt-6 border-gray-800" />
+
+          <h3 className="mt-6 text-lg font-semibold text-white">Moonveil Intelligence Build</h3>
+          <p className="mt-2 text-sm leading-relaxed text-gray-400">A powerful Intelligence hybrid build using Moonveil and sorceries.</p>
+          <p className="mt-2 text-sm font-medium text-gray-400">Recommended Stats:</p>
+          <ul className="mt-1 list-inside list-disc text-sm text-gray-400">
+            <li>Vigor: 50</li>
+            <li>Intelligence: 80</li>
+            <li>Dexterity: 20</li>
+          </ul>
+
+          <hr className="mt-6 border-gray-800" />
+
+          <a href="/elden-ring/builds" className="group mt-6 block rounded-sm border border-gray-800 bg-gray-900/50 p-5 transition-all hover:border-yellow-700/30">
+            <h3 className="font-semibold text-white group-hover:text-yellow-300">All Elden Ring Builds →</h3>
+            <p className="mt-1 text-sm text-gray-500">Explore optimized Strength, Dexterity, Intelligence, Faith, Arcane, and hybrid builds.</p>
+          </a>
         </section>
 
         <section className="mt-12 border-t border-gray-800 pt-12">
           <h2 className="text-2xl font-bold text-white">Frequently Asked Questions</h2>
           <div className="mt-6 space-y-4">
             {[
-              { q: "How does the Elden Ring Build Calculator work?", a: "Select your starting class, adjust stats with +/- buttons, choose up to 3 weapons with upgrade levels, pick armor pieces and talismans, and see real-time HP, FP, Stamina, equip load, and Attack Rating results." },
-              { q: "What weapons are supported?", a: "The calculator supports 123 weapons including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more." },
-              { q: "Is the stat calculation accurate to Elden Ring?", a: "Yes. HP, FP, Stamina, and equip load follow Elden Ring\u2019s actual in-game formulas. Weapon Attack Rating uses correct scaling curves and soft cap mechanics." },
-              { q: "Can I share my build?", a: "Yes. Click the Copy Build URL button to generate a shareable link with your build encoded in the URL." },
-              { q: "What is the best starting class?", a: "Vagabond is generally the best for most builds due to high Vigor and balanced stats. For pure casters, Astrologer or Prophet are better." },
-              { q: "Can I use this as an Elden Ring respec calculator?", a: "Yes. Before using a Larval Tear at Rennala, you can plan your respec in this calculator. Adjust stats to your new target distribution, check the equip load and weapon requirements, then confirm everything works before spending the Larval Tear in-game." },
-              { q: "What is a stat optimizer in Elden Ring?", a: "A stat optimizer helps you allocate your rune levels efficiently by showing soft caps, stat breakpoints, and tradeoffs between different attributes. This tool highlights soft caps and warns you when stats exceed efficient thresholds." },
-              { q: "How do soft caps affect builds?", a: "Soft caps reduce the benefit of leveling a stat beyond certain thresholds. For example, Vigor soft caps at 40 and 60, Strength at 20 and 55. Going past these gives diminishing returns, which a stat optimizer helps you avoid." },
-              { q: "What is the best level 150 build?", a: "Popular level 150 builds include Quality (50/50 STR/DEX), Pure Intelligence (80 INT with Moonveil or Dark Moon Greatsword), and Bleed (60 ARC with Rivers of Blood or Eleonora\u2019s Poleblade). The best build depends on your playstyle." },
+              { q: "How does the Elden Ring Build Planner work?", a: "The Elden Ring Build Planner helps you create and optimize your character before leveling up in-game.\n\nChoose your starting class, distribute stats, equip weapons and armor, and instantly see calculated HP, FP, stamina, equip load, and Attack Rating." },
+              { q: "What weapons are supported?", a: "The Elden Ring Build Planner supports 123 Elden Ring weapons, including:<br><br>- Katanas<br>- Greatswords<br>- Curved swords<br>- Spears<br>- Hammers<br>- Axes<br>- Daggers<br>- And more<br><br>You can compare weapon scaling and optimize your stats around your favorite weapons." },
+              { q: "Are the calculations accurate?", a: "Yes. The planner uses Elden Ring formulas for:<br>- HP<br>- FP<br>- Stamina<br>- Equip Load<br>- Weapon Scaling<br>- Attack Rating<br>- Soft Caps<br><br>This allows you to test builds without wasting Rune Levels or using a Larval Tear." },
+              { q: "Can I save and share my Elden Ring build?", a: "Yes.\n\nYou can generate a shareable build URL and send your optimized setup to other players." },
+              { q: "What is the best starting class for Elden Ring builds?", a: "The best starting class depends on your build.<br><br>- <strong>Vagabond</strong> is excellent for Strength and Quality builds.<br>- <strong>Samurai</strong> is ideal for Dexterity and Bleed builds.<br>- <strong>Astrologer</strong> is recommended for Intelligence builds.<br>- <strong>Prophet</strong> is strong for Faith builds." },
+              { q: "Can I use this as an Elden Ring respec planner?", a: "Yes.\n\nThe Build Planner lets you test different stat distributions before using a Larval Tear.\n\nPlan your new build first, then respec in-game with confidence." },
+              { q: "What is an Elden Ring stat optimizer?", a: "An Elden Ring stat optimizer helps you find the most efficient way to spend Rune Levels.<br><br>It analyzes:<br><br>- Soft caps<br>- Attribute efficiency<br>- Weapon requirements<br>- Damage scaling<br>- Build balance" },
+              { q: "How do soft caps affect Elden Ring builds?", a: "Soft caps reduce the benefits of investing too many points into one attribute.\n\nThe Elden Ring Build Planner helps you identify efficient stopping points and avoid wasting levels on low-value stats." },
+              { q: "What is the best Level 150 Elden Ring build?", a: "Popular Level 150 builds include:<br><br>- Bleed builds with high Arcane<br>- Moonveil Intelligence builds<br>- Strength Greatsword builds<br>- Faith Blasphemous Blade builds<br><br>The best build depends on your weapon choice and playstyle." },
             ].map(function(item, i) { return (
               <details key={i} className="group rounded-sm border border-gray-800 bg-gray-900/50">
                 <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-yellow-300">
                   {item.q}
                   <svg className="h-4 w-4 shrink-0 text-gray-500 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
                 </summary>
-                <div className="border-t border-gray-800 px-4 py-3"><p className="text-sm leading-relaxed text-gray-400">{item.a}</p></div>
+                <div className="border-t border-gray-800 px-4 py-3"><p className="text-sm leading-relaxed text-gray-400" dangerouslySetInnerHTML={{__html: item.a}}></p></div>
               </details>
             );})}
           </div>

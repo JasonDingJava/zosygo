@@ -12,7 +12,7 @@ const cinzel = Cinzel({
 const GAME_TOOLS: Record<string, { name: string; description: string; href: string; icon: string }[]> = {
   "elden-ring": [
     {
-      name: "Build Calculator",
+      name: "Build Planner",
       description: "Plan and optimize your Elden Ring character build. Allocate stats, pick weapons, see real-time AR calculations.",
       href: "/elden-ring/tools/build-calculator",
       icon: "⚔️",

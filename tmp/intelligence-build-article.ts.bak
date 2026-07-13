@@ -1,0 +1,253 @@
+import type { ArticleContent } from "./articles";
+
+// ═══ ELDEN RING — BUILDS (Intelligence) ═══
+// Temp file — modify here, then merge back into lib/articles.ts
+const article: ArticleContent = {
+  keyTakeaways: [
+    { label: "🎯 Core Stats (Lv 150)", value: "Vigor 55–60, Mind 25–30, INT 60–80, DEX 18–25" },
+    { label: "⚔️ Best Weapons", value: "Moonveil (hybrid), Carian Regal Scepter (all-around), Lusat's (burst)" },
+    { label: "🎮 Best Starting Class", value: "Prisoner (balanced INT/DEX) or Astrologer (pure mage)" },
+    { label: "⚡ Top Sorceries", value: "Comet Azur (one-shot), Rock Sling (stagger), Night Comet (invisible)" },
+    { label: "🛡️ Key Talismans", value: "Graven-Mass, Magic Scorpion, Radagon Icon, Dragoncrest Greatshield" },
+    { label: "💡 Playstyle", value: "Ranged burst mage with hybrid melee option via Moonveil" },
+  ],
+  slug: "best-intelligence-build",
+  category: "builds",
+  gameSlug: "elden-ring",
+  difficulty: "intermediate",
+  readTimeMinutes: 8,
+  order: 6,
+  title: "Best Intelligence Build Elden Ring (2026 Guide) – Highest Damage Mage Setup",
+  metaDescription:
+    "Complete Intelligence build guide for Elden Ring 2026. Best mage setup with optimal stats (Lv 150), weapons, sorceries, talismans, and progression path.",
+  sections: [
+    {
+      heading: "",
+      level: 2,
+      content: "The Intelligence build in Elden Ring is one of the strongest and most versatile playstyles in the game. It allows players to deal massive magic damage, control fights from range, and burst down bosses with powerful sorceries.\n\nThis guide covers the **best Intelligence build in Elden Ring**, including optimal stats, weapons, spells, talismans, and progression path."
+    },
+    {
+      heading: "Why Intelligence Builds Are So Strong",
+      level: 2,
+      content: "Intelligence builds excel because they combine:\n\n- High burst magic damage\n- Safe ranged combat\n- Strong AoE spell options\n- Flexible hybrid weapon builds\n\nThey are especially powerful in both PvE and DLC content."
+    },
+    {
+      heading: "Best Starting Classes for Intelligence Build",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Prisoner (Best Choice)",
+      level: 3,
+      content: "The Prisoner is the best starting class for Intelligence builds because:\n\n- Balanced Intelligence and Dexterity\n- Smooth early-game scaling\n- Easy transition into Moonveil or spell builds"
+    },
+    {
+      heading: "Astrologer",
+      level: 3,
+      content: "Best pure mage start:\n\n- Highest starting Intelligence\n- Strong early sorceries\n- Low physical defense (glass cannon)"
+    },
+    {
+      heading: "Best Intelligence Build Stats (Level 150)",
+      level: 2,
+      content: "Vigor (60):\nEssential for survival in late-game and DLC.\n\nIntelligence (60–80):\nMain damage stat. Increases sorcery damage, boosts weapon scaling (magic weapons), improves burst DPS.\n\nMind (25–30):\nNeeded for sustained spell casting and boss fights.",
+      table: {
+        headers: ["Attribute", "Value"],
+        rows: [
+          ["Vigor", "55–60"],
+          ["Mind", "25–30"],
+          ["Endurance", "20–25"],
+          ["Strength", "10–12"],
+          ["Dexterity", "18–25"],
+          ["Intelligence", "60–80"],
+          ["Faith", "9"],
+          ["Arcane", "9"]
+        ]
+      }
+    },
+    {
+      heading: "Best Weapons for Intelligence Build",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Moonveil Katana",
+      level: 3,
+      content: "One of the strongest hybrid weapons:\n\n- Fast melee attacks\n- High magic skill damage\n- Safe ranged projectile skill",
+      image: "intelligence-build-moonveil-weapon.png",
+      imageAlt: "Moonveil Katana from Elden Ring"
+    },
+    {
+      heading: "Carian Regal Scepter",
+      level: 3,
+      content: "Best all-around sorcery staff:\n\n- High Intelligence scaling\n- Strong spell damage output"
+    },
+    {
+      heading: "Lusat's Glintstone Staff",
+      level: 3,
+      content: "Highest raw damage staff:\n\n- Very high FP cost\n- Best for burst damage builds"
+    },
+    {
+      heading: "Best Sorceries for Intelligence Build",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Comet Azur",
+      level: 3,
+      content: "One-shot potential against many bosses when fully optimized."
+    },
+    {
+      heading: "Glintstone Pebble",
+      level: 3,
+      content: "Efficient early-game spell with great FP efficiency."
+    },
+    {
+      heading: "Night Comet",
+      level: 3,
+      content: "Harder for enemies to dodge."
+    },
+    {
+      heading: "Stars of Ruin",
+      level: 3,
+      content: "Strong tracking projectile spell."
+    },
+    {
+      heading: "Best Talismans for Intelligence Build",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Magic Scorpion Charm",
+      level: 3,
+      content: "Increases magic damage significantly.",
+      image: "intelligence-build-magic-scorpion-charm.png",
+      imageAlt: "Magic Scorpion Charm talisman from Elden Ring"
+    },
+    {
+      heading: "Graven-Mass Talisman",
+      level: 3,
+      content: "Boosts sorcery damage."
+    },
+    {
+      heading: "Shard of Alexander",
+      level: 3,
+      content: "Enhances weapon skill damage (Moonveil synergy)."
+    },
+    {
+      heading: "Dragoncrest Greatshield Talisman",
+      level: 3,
+      content: "Improves survivability in late-game content."
+    },
+    {
+      heading: "Best Armor for Intelligence Build",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Lusat's Set",
+      level: 3,
+      content: "High Intelligence aesthetic + magic synergy.",
+      image: "intelligence-build-lusats-set.png",
+      imageAlt: "Lusat's Set armor from Elden Ring"
+    },
+    {
+      heading: "Spellblade Set",
+      level: 3,
+      content: "Boosts magic weapon skill damage."
+    },
+    {
+      heading: "General Rule",
+      level: 3,
+      content: "Always maintain Medium Roll for mobility."
+    },
+    {
+      heading: "Leveling Progression",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Early Game (1–50)",
+      level: 3,
+      content: "- Vigor → 30\n- Intelligence → 25\n\nFocus on survival and unlocking core spells."
+    },
+    {
+      heading: "Mid Game (50–100)",
+      level: 3,
+      content: "- Vigor → 45\n- Intelligence → 40–50\n- Mind → 20\n\nBuild becomes powerful in PvE."
+    },
+    {
+      heading: "Late Game (100–150)",
+      level: 3,
+      content: "- Vigor → 60\n- Intelligence → 60–80\n- Mind → 25–30\n\nFully optimized mage build."
+    },
+    {
+      heading: "Best Flask Setup",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Magic-Shrouding Cracked Tear",
+      level: 3,
+      content: "Boosts magic damage output."
+    },
+    {
+      heading: "Intelligence-Knot Crystal Tear",
+      level: 3,
+      content: "Temporary Intelligence boost for burst damage."
+    },
+    {
+      heading: "Strengths and Weaknesses",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Strengths",
+      level: 3,
+      content: "- Extremely high burst damage\n- Safe ranged combat\n- Strong PvE and DLC performance\n- Flexible build options"
+    },
+    {
+      heading: "Weaknesses",
+      level: 3,
+      content: "- FP management required\n- Weak early-game survivability\n- Magic-resistant enemies"
+    },
+    {
+      heading: "Frequently Asked Questions",
+      level: 2,
+      content: ""
+    },
+    {
+      heading: "Is Intelligence build good in Elden Ring?",
+      level: 3,
+      content: "Yes. It is one of the strongest and most flexible builds."
+    },
+    {
+      heading: "Is Moonveil part of Intelligence builds?",
+      level: 3,
+      content: "Yes. Moonveil is one of the best hybrid Intelligence weapons."
+    },
+    {
+      heading: "What is the best staff?",
+      level: 3,
+      content: "Carian Regal Scepter for balance, Lusat's Staff for max damage."
+    },
+    {
+      heading: "Is Intelligence better than Bleed builds?",
+      level: 3,
+      content: "Bleed has higher physical burst, Intelligence has safer ranged control."
+    },
+    {
+      heading: "Final Thoughts",
+      level: 2,
+      content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan how many runes you need to reach the optimal level for your build.\n\nWith proper optimization, they can dominate both PvE and DLC content.\n\n👉 Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your Intelligence build and maximize damage output. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan the rune cost for your Intelligence build."
+    }
+  ],
+  internalLinks: [
+    { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
+    { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
+    { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
+    { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "Intelligence Build vs Radahn" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+  ]
+};
+
+export default article;

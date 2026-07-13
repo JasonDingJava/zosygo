@@ -76,7 +76,7 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "Moonveil has stayed relevant through every major patch and DLC release because it combines four mechanics that most weapons only get one or two of: a fast katana moveset, bleed buildup, Intelligence scaling, and a ranged weapon skill that deals serious posture damage. Other top-tier weapons got nerfed or outclassed by new additions, but Moonveil kept showing up in build discussions because that combination is hard to beat.\n\nThis guide covers the stat breakpoints that actually matter, the talisman setup that maximizes Transient Moonlight, and the common leveling mistakes that waste 10-15 stat points on a typical RL 150 build. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions before spending Larval Tears.\n\n![Elden Ring screenshot](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
+          "Moonveil has stayed relevant through every major patch and DLC release because it combines four mechanics that most weapons only get one or two of: a fast katana moveset, bleed buildup, Intelligence scaling, and a ranged weapon skill that deals serious posture damage. Other top-tier weapons got nerfed or outclassed by new additions, but Moonveil kept showing up in build discussions because that combination is hard to beat.\n\nThis guide covers the stat breakpoints that actually matter, the talisman setup that maximizes Transient Moonlight, and the common leveling mistakes that waste 10-15 stat points on a typical RL 150 build. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions before spending Larval Tears.\n\n![Elden Ring screenshot](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
       },
       {
         heading: "Why Moonveil Is Still One of the Best Weapons",
@@ -234,7 +234,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
       { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
 {
@@ -258,7 +258,7 @@ export const articles: Article[] = [
     {
       heading: "Decision - Should You Use This Build?",
       level: 2,
-      content: "The Pure DEX Bleed build is Elden Ring's highest burst-damage setup against bleedable bosses, but it's also the most binary build in the game. Pick this if you want to delete bosses in under 30 seconds (Malenia in 18s, Mohg in 12s) and enjoy aggressive jump attack pressure. Do NOT pick this if you're fighting bleed-immune bosses (Elden Beast, Radagon, Gargoyles, Crystalians, Rennala phase 1 — about 20% of bosses) or prefer safe ranged play. Bloodhound's Fang is a better all-rounder for first playthroughs, and Moonveil is better for hybrid ranged/melee. Test your stat distribution with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears."
+      content: "The Pure DEX Bleed build is Elden Ring's highest burst-damage setup against bleedable bosses, but it's also the most binary build in the game. Pick this if you want to delete bosses in under 30 seconds (Malenia in 18s, Mohg in 12s) and enjoy aggressive jump attack pressure. Do NOT pick this if you're fighting bleed-immune bosses (Elden Beast, Radagon, Gargoyles, Crystalians, Rennala phase 1 — about 20% of bosses) or prefer safe ranged play. Bloodhound's Fang is a better all-rounder for first playthroughs, and Moonveil is better for hybrid ranged/melee. Test your stat distribution with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears."
     },
     {
       heading: "Stat Distribution vs Bloodhound's Fang Build",
@@ -279,7 +279,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "Bleed Build vs Mohg" },
       { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Katana" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
 },
 {
@@ -321,7 +321,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/bosses/margit-guide", anchorText: "Margit Boss Guide" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Early Game" },
       { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "Starscourge Radahn Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
 },
 {
@@ -355,7 +355,7 @@ export const articles: Article[] = [
       imageAlt: ""
     },
     { heading: "Comparison vs Moonveil", level: 2, content: "RoB at 50 DEX/45 ARC: 565 AR + 112 bleed. Moonveil at 70 INT: 580 AR. RoB does 30% more DPS vs bleedable bosses. Moonveil does 40% more vs magic-weak. Key: Moonveil projectile = safer range. Corpse Piler = need to be close. For Mohg: RoB wins (bleed + hits through phase transition). Rennala: Moonveil wins (distance + magic weakness). Malenia: RoB kills in 18s vs 45s for Moonveil." },
-    { heading: "Stat Scaling and Arcane Cap", level: 2, content: "Scales D STR, C DEX, D ARC at +10. Bleed buildup scales with ARC up to 45 (hard cap). Past 45, +1-2 bleed per level. Physical soft caps at 50 DEX. Optimal: 50 DEX / 45 ARC at RL 150. 80 DEX / 60 ARC adds only 12% more damage for 45 stat points. Test different stat allocations with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to find the best value for your level." },
+    { heading: "Stat Scaling and Arcane Cap", level: 2, content: "Scales D STR, C DEX, D ARC at +10. Bleed buildup scales with ARC up to 45 (hard cap). Past 45, +1-2 bleed per level. Physical soft caps at 50 DEX. Optimal: 50 DEX / 45 ARC at RL 150. 80 DEX / 60 ARC adds only 12% more damage for 45 stat points. Test different stat allocations with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to find the best value for your level." },
     { heading: "Progression and Upgrades", level: 2, content: "Found in Mountaintops of Giants after capital. Complete Yura questline through Altus Plateau. Upgrade: Somber Smithing Stones to +10. Before RoB: use Bloody Slash Uchigatana. Switch to RoB as soon as obtained - outclasses every other bleed weapon for PvE boss killing." },
     { heading: "Common Mistakes", level: 2, content: "(1) Only using Corpse Piler - L1 power-stance does more stance damage. (2) No Mind investment - 10 Mind = 2 Corpse Piler casts per flask. (3) Using RoB vs bleed-immune enemies - switch weapon. (4) Not using Seppuku offhand trick - put Seppuku on left-hand Uchigatana for +30 bleed to both weapons. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)." }
   ],
@@ -365,7 +365,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
       { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
       { href: "/elden-ring/builds/elden-ring-pure-dex-bleed-build", anchorText: "Pure DEX Bleed Build" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
 {
@@ -389,7 +389,7 @@ export const articles: Article[] = [
     {
       heading: "Is Dexterity Build Worth It?",
       level: 2,
-      content: "Dexterity builds in Elden Ring are one of the most efficient and beginner-friendly playstyles for new players. They focus on fast attacks, high mobility, and consistent damage output rather than heavy armor or slow weapons. Yes — Dexterity builds are one of the strongest early-to-mid game options. They are ideal if you prefer: Fast attack speed, High mobility combat, Dodge-based survival instead of blocking. However, Dexterity builds are weaker in terms of poise and can struggle if you get hit frequently. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions and find the right balance for your playstyle."
+      content: "Dexterity builds in Elden Ring are one of the most efficient and beginner-friendly playstyles for new players. They focus on fast attacks, high mobility, and consistent damage output rather than heavy armor or slow weapons. Yes — Dexterity builds are one of the strongest early-to-mid game options. They are ideal if you prefer: Fast attack speed, High mobility combat, Dodge-based survival instead of blocking. However, Dexterity builds are weaker in terms of poise and can struggle if you get hit frequently. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions and find the right balance for your playstyle."
     },
     {
       heading: "Best Weapons for Dexterity Build",
@@ -411,7 +411,7 @@ export const articles: Article[] = [
     {
       heading: "Strengths and Weaknesses",
       level: 2,
-      content: "Strengths: High DPS output, Very fast attack animations, Strong bleed synergy, Beginner friendly once mastered. Weaknesses: Low poise defense, Punished heavily if hit, Requires good dodging skill. Test different stat setups for Godrick with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)."
+      content: "Strengths: High DPS output, Very fast attack animations, Strong bleed synergy, Beginner friendly once mastered. Weaknesses: Low poise defense, Punished heavily if hit, Requires good dodging skill. Test different stat setups for Godrick with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)."
     },
     {
       heading: "Dexterity vs Strength Build",
@@ -424,7 +424,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
       { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Dexterity Build vs Malenia" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
 },
 
@@ -560,43 +560,81 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Early Game" },
       { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "Starscourge Radahn Guide" },
       { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Bleed) ═══
   {
-    keyTakeaways: [
-      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 60, Dexterity 50, Arcane 45, STR 18, Faith 15" },
-      { label: "⚔️ Best Weapons", value: "Rivers of Blood (late), Nagakiba (flexible), Uchigatana (early)" },
-      { label: "🩸 How Bleed Works", value: "% max HP damage on proc — Arcane 45 caps buildup speed" },
-      { label: "🎮 Best Starting Class", value: "Samurai — Uchigatana + DEX scaling from the start" },
-      { label: "🛡️ Top Talismans", value: "Lord of Blood's Exultation, Shard of Alexander, Claw" },
-      { label: "⚠️ Weakness", value: "Bleed-immune bosses (Elden Beast, Radagon) — keep backup" },
-    ],
     slug: "best-bleed-build",
     category: "builds",
     gameSlug: "elden-ring",
     difficulty: "beginner",
-    readTimeMinutes: 8,
+    readTimeMinutes: 12,
     order: 4,
-    title: "Best Bleed Build in Elden Ring (2026 Shadow of the Erdtree Guide)",
+    title: "Best Bleed Build in Elden Ring (PvE Guide) — Weapons, Stats & Arcane Setup",
     metaDescription:
-      "Complete Elden Ring bleed build guide for 2026. Best weapons (Rivers of Blood, Nagakiba), talismans, stats, armor, and leveling path for maximum hemorrhage damage.",
+      "Master the best bleed build in Elden Ring with optimized Rivers of Blood stats, Arcane scaling, and the complete talisman setup. Includes Level 100 and Level 150 stat tables, weapon comparisons, Ash of War options, and DLC-ready strategies. Plan your build with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+    keyTakeaways: [
+      { label: "🎯 Core Stats (Lv 150)", value: "Vigor 60, Endurance 30, Dex 50, Arcane 45 — Blood Samurai focus" },
+      { label: "⚔️ Primary Weapon", value: "Rivers of Blood +10 — Corpse Piler weapon skill with bleed procs" },
+      { label: "🛡️ Core Talismans", value: "Lord of Blood's Exultation, Shard of Alexander, Rotten Winged Sword Insignia" },
+      { label: "🎮 Best Starting Class", value: "Samurai — starts with Uchigatana, minimal wasted stats" },
+      { label: "📊 Level Flexibility", value: "Works at Lv 100, 150, and 200 — see stat tables for each" },
+      { label: "💡 Playstyle", value: "Aggressive melee — stack bleed procs with multi-hit combos" },
+      { label: "⚠️ Hard Counter", value: "Bleed-resistant bosses (Elden Beast, Radagon) need a backup weapon" },
+    ],
     sections: [
       {
-        heading: "Why Bleed Builds Are So Strong",
+        heading: "Should You Use a Bleed Build?",
         level: 2,
-        content: "Bleed builds work differently from standard damage builds. Instead of relying only on attack rating, they trigger Hemorrhage — a proc that deals a large percentage of enemy HP instantly, scaling with Arcane. This makes Bleed one of the strongest damage mechanics in the game, particularly against high-HP bosses where percentage-based damage outperforms raw AR by a significant margin.\n\n**Key advantages:** extremely high boss DPS, fast attack speed, strong performance across the entire game, excellent scaling into New Game Plus, and effectiveness against most DLC bosses. The trade-off is that bleed-resistant enemies (Elden Beast, Radagon, gargoyles) will force you to switch strategies.\n\n**How it works:** each hit builds up the bleed status meter. Once full, a Hemorrhage explosion triggers, dealing percentage-based max HP damage and resetting the meter. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different Arcane and Dexterity balances and find your optimal bleed buildup rate."
+        content: "Bleed builds deal damage through Hemorrhage — a status effect that deals percentage-based HP damage when the bleed meter fills. This makes them exceptional against high-HP bosses where raw AR builds take longer to whittle down health bars.\n\n**Use this build when:** you want the highest boss DPS in the game, you're comfortable with aggressive melee combat, you want a build that scales well into NG+, and you're tackling most DLC bosses (Messmer, Midra, Rellana).\n\n**Do NOT use this build when:** the boss is immune to bleed (Elden Beast, Radagon, Gargoyles, Ancestor Spirit), you prefer ranged/caster playstyles, or you want high stagger damage.\n\n**How it works:** each hit builds up the bleed status meter. Once full, a Hemorrhage explosion triggers, dealing 15% of max HP (plus 200 flat damage) against bosses, then resets the meter. Arcane scaling increases bleed buildup rate on weapons with Arcane scaling.\n\n**Comparison vs alternatives:** Strength builds stagger more consistently and work against every boss, but deal lower DPS on bleedable enemies. Pure Faith builds have better range and healing but lower burst DPS. If you're choosing between Bleed and a [Moonveil Build](https://www.zosygo.com/elden-ring/builds/best-moonveil-build), Moonveil offers safer ranged damage while Bleed wins on raw DPS against bleedable targets.",
+        image: "bleed-build-rivers-of-blood.png",
+        imageAlt: "Rivers of Blood katana from Elden Ring"
+      },
+      {
+        heading: "Bleed vs Other Build Types — When Bleed Wins",
+        level: 2,
+        content: "Not all builds perform equally against Elden Ring's bosses. Here's how Bleed stacks up against the main alternatives in real boss scenarios.",
+        table: {
+          headers: ["Scenario", "Bleed", "Strength", "Faith (Pure)"],
+          rows: [
+            ["Malenia (bleedable)", "⭐ Kills in 45-60s", "Kills in 90-120s", "Kills in 80-100s"],
+            ["Fire Giant (bleedable)", "⭐ 2-3 bleed procs = phase skip", "Steady but slower", "Decent, needs FP management"],
+            ["Elden Beast (immune)", "✗ Swap to Occult weapon", "⭐ Consistent stagger", "⭐ Holy damage bonus"],
+            ["Messmer (DLC, bleedable)", "⭐ Corpse Piler shreds", "Solid, trades speed for safety", "Strong with fire incantations"],
+            ["Radagon (immune)", "✗ Minimal damage", "⭐ Great stagger windows", "Mixed, relies on fire/lightning"],
+            ["Mohg (80% bleed resist)", "Still effective at 80% resist", "Comparable DPS", "Slower without bleed"],
+            ["Dragon fights (all)", "⭐ Bleed triggers fast on big HP pools", "Consistent but slower", "Good with rot/ice breath"],
+          ]
+        }
       },
       {
         heading: "Best Starting Class for Bleed Build",
         level: 2,
-        content: "The Samurai is the most efficient starting class for Bleed builds. It provides the Uchigatana with innate Bleed, strong Dexterity scaling, and smooth early-game progression. Alternative options: Vagabond (more survivability), Warrior (dual-wield focus), or Bandit (Arcane-focused variation)."
+        content: "**Samurai (recommended):** Starts with the Uchigatana (innate bleed), 15 Dexterity, and solid starting armor. This is the most efficient class for the standard Rivers of Blood build — you waste the least stat points to reach 50 Dexterity and 45 Arcane.\n\n**Alternative classes:**\n- **Vagabond:** Better survivability with higher starting Vigor and Endurance. Good if you want a tankier bleed setup.\n- **Warrior:** Best for dual-wield bleed builds. Starts with dual Scimitars and high Dexterity.\n- **Bandit:** Best for pure Arcane bleed builds. The 14 Arcane start lets you reach 45 Arcane with 31 fewer levels than Samurai, but you'll need to level Dexterity separately.\n\nTry different starting classes in the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see the exact stat differences for your target level."
       },
       {
-        heading: "Best Bleed Build Stats (Level 150)",
+        heading: "Best Bleed Build Stats — Level 100, 150, and 200",
         level: 2,
-        content: "Vigor (60): Mandatory for late-game survival. Most bosses can kill low-Vigor builds in 2-3 hits.\n\nDexterity (50): Improves weapon scaling and overall damage output.\n\nArcane (45): Core stat for Bleed builds. Faster bleed buildup, higher status damage, better synergy with bleed weapons. Optimize your stat efficiency through proper stat distribution.",
+        content: "Bleed builds are effective at every major level bracket. Here are the optimized stat distributions for Level 100, Level 150 (meta), and Level 200 (NG+).\n\n### Level 100 Bleed Build (Early-Mid Game)\nGood for Leyndell, Mountaintops, and early DLC content.",
+        table: {
+          headers: ["Attribute", "Value"],
+          rows: [
+            ["Vigor", "45"],
+            ["Mind", "15"],
+            ["Endurance", "25"],
+            ["Strength", "18"],
+            ["Dexterity", "40"],
+            ["Intelligence", "9"],
+            ["Faith", "8"],
+            ["Arcane", "35"]
+          ]
+        }
+      },
+      {
+        heading: "",
+        level: 2,
+        content: "### Level 150 Bleed Build (Meta — Recommended)\nThe standard PvE bleed build. Optimized for Rivers of Blood + Corpse Piler with balanced survivability.",
         table: {
           headers: ["Attribute", "Value"],
           rows: [
@@ -606,61 +644,119 @@ export const articles: Article[] = [
             ["Strength", "18"],
             ["Dexterity", "50"],
             ["Intelligence", "9"],
-            ["Faith", "15"],
+            ["Faith", "8"],
             ["Arcane", "45"]
           ]
         }
       },
       {
-        heading: "Best Weapons for Bleed Build",
+        heading: "",
         level: 2,
-        content: "**Rivers of Blood:** One of the strongest weapons in Elden Ring. Extremely fast bleed buildup, powerful Corpse Piler weapon skill, and high PvE damage output. The downside is that it requires mid-to-late game access and is less flexible than other katanas.\n\n**Nagakiba:** A flexible alternative with very long reach, customizable Ash of War options, and strong Dexterity scaling. Slightly lower burst damage than Rivers of Blood.\n\n**Blood Uchigatana:** The best early-game Bleed weapon. Available very early, easy to upgrade, and has reliable bleed buildup.",
-        image: "bleed-build-rivers-of-blood.png",
-        imageAlt: "Rivers of Blood katana from Elden Ring"
+        content: "### Level 200 Bleed Build (NG+)\nFor NG+ cycles and players who want 60 in both Dexterity and Arcane. This setup maximizes Corpse Piler damage while maintaining 60 Vigor.",
+        table: {
+          headers: ["Attribute", "Value"],
+          rows: [
+            ["Vigor", "60"],
+            ["Mind", "25"],
+            ["Endurance", "35"],
+            ["Strength", "18"],
+            ["Dexterity", "60"],
+            ["Intelligence", "9"],
+            ["Faith", "8"],
+            ["Arcane", "60"]
+          ]
+        }
       },
       {
-        heading: "Best Talismans for Bleed Build",
+        heading: "Best Bleed Weapons — Comparison Table",
         level: 2,
-        content: "**Lord of Blood's Exultation:** Essential for all Bleed builds. Increases attack power by 20% for 20 seconds whenever bleed procs nearby.\n\n**Shard of Alexander:** Boosts weapon skill damage by 15%. Excellent synergy with Rivers of Blood's Corpse Piler.\n\n**Rotten Winged Sword Insignia:** Increases attack power with consecutive hits, up to 13% after four hits. Ideal for fast melee builds that stack hits quickly.\n\n**Dragoncrest Greatshield Talisman:** Provides 20% physical damage reduction. Strongly recommended for DLC bosses.",
-        image: "bleed-build-lord-of-bloods-exultation.png",
-        imageAlt: "Lord of Blood's Exultation talisman"
+        content: "Choosing the right weapon matters more for bleed builds than any other build type. The wrong infusion or weapon skill can cut your DPS in half. Here is every major bleed weapon ranked by performance.",
+        table: {
+          headers: ["Weapon", "Best For", "Bleed Buildup", "Location"],
+          rows: [
+            ["Rivers of Blood +10", "Highest burst DPS", "45 (Arcane scaling)", "Mountaintops (Yura questline)"],
+            ["Nagakiba +25 (Blood)", "Longest reach + Ash of War", "42 + Seppuku", "Yura quest (early Altus)"],
+            ["Uchigatana +25 (Blood)", "Best early game option", "36 + Seppuku", "Samurai starter / Limgrave"],
+            ["Eleonora's Poleblade +10", "Twinblade moveset", "55 per hit", "Altus Plateau (NPC invader)"],
+            ["Bandit's Curved Sword +25", "Fast power-stance", "30 per hit (per sword)", "Sage's Cave (farm)"],
+            ["Scavenger's Curved Sword +25", "Innate bleed + Occult", "28 per hit", "Mt. Gelmir (corpse)"],
+            ["Great Stars +25 (Blood)", "Strike + bleed hybrid", "31 + heal per hit", "Altus Plateau (chest)"]
+          ]
+        }
+      },
+      {
+        heading: "Best Ashes of War for Bleed Builds",
+        level: 2,
+        content: "Your Ash of War choice can make or break a bleed build. The right one doubles your bleed proc rate and gives you access to essential weapon buffs.\n\n**Seppuku (Best in Slot)**\nSeppuku adds 30 flat bleed buildup to your weapon for 60 seconds. When dual-wielding, applying Seppuku to the left-hand weapon applies the bonus to both weapons. This is the single largest DPS increase for any bleed build — always use it before boss fights.\n\n**Bloody Slash (Early Game)**\nYour best early-game bleed Ash of War. Found in Fort Haight (Limgrave), Bloody Slash applies the Blood affinity (adds Arcane scaling) and gives you a ranged slash attack. Use this on your Uchigatana until you get Rivers of Blood.\n\n**Blood Blade (Range Option)**\nFires a ranged blood projectile. Useful for applying bleed from safe distance. Less DPS than Seppuku but excellent for dangerous enemies where you cannot close the gap.\n\n**Occult Affinity (Bleed-Immune Backup)**\nWhen enemies are immune to bleed (Elden Beast, Radagon), swap your Ash of War to **Occult** affinity. Occult gives pure Arcane scaling — your physical AR stays high while bleed buildup is disabled. Put Occult on a Nagakiba or Uchigatana as your backup weapon.\n\n**Best Setup:** Seppuku on left-hand Uchigatana/Nagakiba (Blood affinity) + Rivers of Blood in right hand. Pre-cast Seppuku, then power-stance L1 or use Corpse Piler.\n\nUse the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to compare Blood vs Occult damage for your specific stat allocation.",
+        image: "seppuku-aow.png",
+        imageAlt: "Seppuku Ash of War from Elden Ring"
+      },
+      {
+        heading: "Best Talisman Setup for Bleed Builds",
+        level: 2,
+        content: "Bleed talismans work in a damage chain. Each piece triggers the next for multiplicative damage scaling. Here is the optimal setup and the reasoning behind each choice.\n\n**The Multi-Hit Synergy Chain:** Lord of Blood's Exultation activates on every bleed proc → Rotten Winged Sword Insignia + Millicent's Prosthesis stack additively for up to +24% attack power on consecutive hits → Shard of Alexander multiplies Corpse Piler damage by 1.15x. The result is roughly +50-60% effective damage during a Corpse Piler combo on a bleeding target.",
+        table: {
+          headers: ["Slot", "Talisman", "Effect", "Why It's Here"],
+          rows: [
+            ["1", "Lord of Blood's Exultation", "+20% attack for 20s on bleed proc", "Core — always active in boss fights, triggers every 2-3 hits"],
+            ["2", "Shard of Alexander", "+15% weapon skill damage", "Corpse Piler is your main damage — this buffs every cast"],
+            ["3", "Rotten Winged Sword Insignia", "Up to +13% attack on consecutive hits", "Multi-hit synergy — Corpse Piler hits 3-5 times per cast"],
+            ["4", "Millicent's Prosthesis", "+5 DEX + up to +11% attack on hits", "Extra DEX + second multi-hit buff, stacks with Rotten Winged"],
+            ["Flex", "Claw Talisman", "+15% jump attack damage", "Swap in when using jump L1 power-stance instead of Corpse Piler"],
+            ["Flex", "Dragoncrest Greatshield", "+20% physical damage negation", "Swap in for survivability in DLC / hard bosses"],
+            ["Flex", "Erdtree's Favor +2", "+3% HP/STAM/Equip Load", "General-purpose flex slot when you need stats"]
+          ]
+        }
       },
       {
         heading: "Best Armor for Bleed Build",
         level: 2,
-        content: "**White Mask:** Best helmet for Bleed builds. Boosts attack by 10% for 20 seconds after bleed procs. Strong synergy with Lord of Blood's Exultation.\n\n**Raptor's Black Feathers:** Enhances jump attack damage by 10%. Useful if you're using jump attack loops.\n\n**Medium Armor Setup:** Always maintain Medium Roll for mobility. Mix and match pieces for the best poise-to-weight ratio.",
-        image: "bleed-build-white-mask.webp",
-        imageAlt: "White Mask helmet from Elden Ring"
+        content: "**White Mask (Helmet) — Mandatory**\nWhite Mask grants +10% attack power for 20 seconds whenever bleed procs in your vicinity. This stacks multiplicatively with Lord of Blood's Exultation (1.10 × 1.20 = 1.32x total). Farm White Mask from the invaders at Mohgwyn Palace.\n\n**Body Armor — Ronin's Set or Veteran's Set**\nRonin's Set offers the best weight-to-poise ratio for medium roll with Rivers of Blood + Uchigatana. Veteran's Set (from DLC) gives higher poise for aggressive trading.\n\n**Gauntlets & Greaves**\nFill remaining weight with Veteran's Gauntlets and Veteran's Greaves for maximum poise per weight. Target 51+ poise to tank through light enemy attacks.\n\nCalculate your exact equip load with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)."
       },
       {
-        heading: "Leveling Progression Guide",
+        heading: "Best Flask Setup (Wondrous Physick)",
         level: 2,
-        content: "Early Game (1-50):\nVigor to 30, Dexterity to 25. Focus on survival first.\n\nMid Game (50-100):\nVigor to 45, Dexterity to 35, Arcane to 30.\n\nLate Game (100-150):\nVigor to 60, Dexterity to 50, Arcane to 45."
+        content: "Your Wondrous Physick tear choice dramatically affects bleed build damage output. These two tears are essential:\n\n**Thorny Cracked Tear (+ Consecutive Hits)**\nIncreases attack power with consecutive hits by +9-15%. This stacks with Rotten Winged Sword Insignia and Millicent's Prosthesis for the ultimate multi-hit damage chain. Pop this before boss fog, then immediately start your Corpse Piler combo.\n\n**Opaline Hardtear (Survivability)**\n+15% all damage negation for 3 minutes. Use this when learning new boss patterns or against bosses with high elemental damage.\n\n**Alternative: Stonebarb Cracked Tear**\nBoosts stance damage by +30% for 30 seconds. Useful if you want to stagger bosses faster. Less damage than Thorny Cracked but safer due to stagger windows.\n\n**Flask Allocation:** 10 Crimson Tears + 4 Cerulean Tears. Corpse Piler costs 15 FP per cast — 4 blue flasks give you ~16 casts per rest, which is enough for most boss fights."
       },
       {
-        heading: "Best Flask Setup",
+        heading: "Bleed Build Synergy — How Everything Works Together",
         level: 2,
-        content: "Thorny Cracked Tear:\nBoosts successive attack damage.\n\nDexterity-Knot Crystal Tear:\nTemporary Dexterity boost for burst damage."
+        content: "The bleed build is not just about stacking Arcane. The real power comes from how every piece of your loadout chains together for multiplicative damage.\n\n**The Damage Chain:**\n1. Pop **Thorny Cracked Tear** + **Seppuku** (left-hand weapon) before boss fog\n2. Enter the fight and start **Corpse Piler** combo (hits 3-5 times per cast)\n3. Bleed procs → **Lord of Blood's Exultation** activates (+20% attack for 20s)\n4. Bleed also triggers **White Mask** (+10% attack for 20s) = 1.32x total\n5. Consecutive hits from Corpse Piler stack **Rotten Winged Sword Insignia** (+13%) + **Millicent's Prosthesis** (+11%) = +24% additive\n6. **Shard of Alexander** multiplies Corpse Piler damage by 1.15x\n7. **Thorny Cracked Tear** adds another +9-15% on consecutive hits\n\n**Effective Multiplier:** 1.32 × 1.24 × 1.15 × 1.12 ≈ **2.1x damage** during the peak damage window. This is why bleed builds can kill Malenia in under 60 seconds.\n\nThis synergy is unique to bleed builds — no other build type stacks this many multiplicative damage sources simultaneously. Test your exact damage numbers with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)."
       },
       {
-        heading: "Strengths and Weaknesses",
+        heading: "Level Progression — Early, Mid, and Late Game",
         level: 2,
-        content: "Strengths:\n- Extremely high boss DPS\n- Easy to use\n- Strong in DLC content\n- Scales well into NG+\n\nWeaknesses:\n- Weak against bleed-resistant enemies\n- Requires aggressive playstyle\n- Lower stagger than Strength builds"
+        content: "Not everyone starts at Level 150. Here is how to level your bleed build from start to endgame, including what weapons to use at each stage.\n\n### Early Game (Levels 1-40) — Limgrave to Liurnia\nStart as **Samurai** — you get the Uchigatana (innate bleed) and 15 Dexterity. Focus on Vigor (25) and Dexterity (25). Put **Bloody Slash** Ash of War (Fort Haight) on your Uchigatana for the Blood affinity.\n\n**Weapons:** Uchigatana + Bloody Slash, second Uchigatana from Deathtouched Catacombs for power-stancing\n**Stats:** VGR 25, END 15, DEX 25, ARC 12\n**Key Milestone:** Bloody Slash + Fort Haight\n\n### Mid Game (Levels 40-90) — Altus Plateau to Mountaintops\nComplete Yura's questline to get **Rivers of Blood** and the **Nagakiba**. Level Dexterity to 40 and Arcane to 30. Farm the **White Mask** at Mohgwyn Palace. Start using Corpse Piler as your primary damage.\n\n**Weapons:** Rivers of Blood +6, Nagakiba +15 (Blood affinity)\n**Stats:** VGR 40, END 20, DEX 40, ARC 30\n**Key Milestone:** Rivers of Blood + Lord of Blood's Exultation (from Leyndell catacombs)\n\n### Late Game (Levels 90-150) — Farum Azula to Endgame\nPush Dexterity to 50 and Arcane to 45. Add **Rotten Winged Sword Insignia** (from Millicent's questline) and **Millicent's Prosthesis** for the multi-hit chain. Get **Shard of Alexander** after completing Alexander's quest.\n\n**Weapons:** Rivers of Blood +10, Nagakiba +25 (Blood + Seppuku)\n**Stats:** VGR 60, END 30, DEX 50, ARC 45\n**Key Milestone:** Full talisman setup + Seppuku Ash of War\n\n### NG+ (Levels 150-200)\nPush Dexterity to 60 and Arcane to 60. Add **Erdtree's Favor +2**. This is your final form — maximum Corpse Piler damage with 60 Vigor for survivability.\n\nTrack your exact leveling path with the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)."
+      },
+      {
+        heading: "Common Bleed Build Mistakes (And How to Fix Them)",
+        level: 2,
+        content: "Even experienced players make these mistakes with bleed builds. Here is what to avoid:\n\n**1. Over-relying on Corpse Piler**\nCorpse Piler is powerful, but power-stanced jump L1 attacks deal more stance damage and build bleed faster against aggressive bosses. Mix L1 attacks between Corpse Piler casts.\n\n**2. Neglecting Dexterity for Arcane**\nArcane increases bleed buildup, but Dexterity increases your physical damage and cast speed. At Level 150, aim for 50 DEX / 45 ARC — not 30 DEX / 65 ARC. The bleed buildup difference between 45 and 65 Arcane is only ~15 points.\n\n**3. No backup for bleed-immune bosses**\nElden Beast, Radagon, Gargoyles, Crystalians, and Ancestor Spirits are immune to bleed. Keep an **Occult Nagakiba +25** or **Cold-infused Great Stars +25** in your inventory for these fights. Occult keeps Arcane scaling for physical damage; Cold adds frostbite procs.\n\n**4. Not using Seppuku before fights**\nSeppuku adds 30 bleed buildup to each weapon for 60 seconds. Always pre-cast it before boss fog. If using dual katanas, put Seppuku on the left-hand weapon — it applies to both.\n\n**5. Ignoring poise**\nBleed builds require aggressive play — you need to stay close to stack hits. Below 51 poise, light enemy attacks interrupt your Corpse Piler casts. Use Veteran's set or Bull-Goat Talisman to hit 51+ poise.\n\n**6. Wrong Flask allocation**\nMany players bring 14 red + 0 blue flasks. Corpse Piler costs 15 FP — you need at least 4 blue flasks for sustained boss fights. Allocate 10 Crimson + 4 Cerulean.\n\n**7. Not using the multi-hit talisman chain**\nLord of Blood's Exultation alone is not enough. Rotten Winged Sword Insignia + Millicent's Prosthesis add up to +24% attack power on consecutive hits. Without them, you leave 20-30% damage on the table."
       },
       {
         heading: "Frequently Asked Questions",
         level: 2,
-        content: "**Is Bleed still strong in 2026?** Yes. Bleed remains one of the strongest PvE builds in Elden Ring, particularly against high-HP bosses.\n\n**What is the best Bleed weapon?** Rivers of Blood for burst damage, Nagakiba for reach and flexibility, Blood Uchigatana for early game.\n\n**Should I use Arcane or Dexterity first?** Dexterity first for weapon requirements and early damage, then Arcane for bleed scaling.\n\n**Is Bleed better than Strength builds?** Bleed has higher burst damage against bleedable bosses. Strength builds offer better stagger and consistency against bleed-resistant enemies. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check rune costs for your target level, and see how each weapon's AR compares at your stat allocation with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+        content: "**Does Arcane increase bleed damage?**\nArcane increases **bleed buildup speed** on weapons with Arcane scaling (Blood affinity, Occult affinity, or innate Arcane weapons like Rivers of Blood). It does NOT increase the flat damage of the Hemorrhage proc (15% max HP + 200). The stat caps are 20 (first soft cap) and 45 (second soft cap). Going beyond 45 Arcane gives minimal bleed buildup gains.\n\n**Is Rivers of Blood still good after the DLC?**\nYes. Rivers of Blood remains the highest-DPS weapon against bleedable enemies in Shadow of the Erdtree. Bosses like Messmer, Midra, and Rellana are vulnerable to bleed and die faster to Corpse Piler than almost any other weapon setup. For DLC, pair Rivers of Blood with an Occult Nagakiba backup for the few bleed-resistant enemies.\n\n**What is the best bleed weapon after the DLC?**\nRivers of Blood remains the top choice for burst damage against bleedable bosses. However, the **Blood-infused Great Stars** has gained popularity for DLC content because it deals strike damage (effective against stone/crystal enemies) and heals on each hit — useful against aggressive DLC bosses. For pure speed, dual Blood-infused Bandit's Curved Swords out-damage katanas in sustained fights.\n\n**Is Seppuku still worth using?**\nYes. Seppuku adds 30 bleed buildup to each weapon for 60 seconds. In the DLC, where boss HP pools are larger, the extra bleed buildup from Seppuku is even more valuable. The only downside is the HP cost (10% of max HP) — always use a Crimson Flask or Blessing of the Erdtree after casting.\n\n**What is the best stat split for a bleed build at Level 100?**\nAt Level 100, prioritize Vigor (45) and Dexterity (40), with Arcane at 35. You need enough HP to survive mid-game boss combos. The bleed buildup at 35 Arcane is ~85% of what you get at 45 Arcane, so the difference is manageable. See the stat table above for the exact distribution.\n\n**Can I use a bleed build for PvP?**\nYes, but with adjustments. In PvP, bleed builds rely on roll-catch pressure and status buildup through shields. Swap Rotten Winged Sword Insignia for **Bull-Goat's Talisman** (poise for trades) and use dual Blood-infused Nagakibas for longer reach. Corpse Piler is easier to dodge in PvP — focus on L1 pressure instead.\n\n**What backup weapon should I use for bleed-immune bosses?**\nAn **Occult-infused Nagakiba +25** is the best backup. Occult keeps Arcane scaling for physical damage, so your 45-60 Arcane still contributes. Alternatively, a **Cold-infused Great Stars +25** adds frostbite procs (which deal flat damage and reduce enemy defense) and deals strike damage. Plan your backup weapon loadout using the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
       },
+      {
+        heading: "Ready to Optimize Your Bleed Build?",
+        level: 2,
+        content: "Now you have everything you need to build the best bleed build in Elden Ring. Here is a quick recap of the three tools that will help you fine-tune every stat and piece of gear:\n\n**[Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)** — Plan your full stat allocation, test different starting classes, and see how each stat point affects your damage output.\n\n**[Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)** — Compare Blood vs Occult vs Keen damage for your exact stat split. Test Rivers of Blood, Nagakiba, Uchigatana, and any other weapon.\n\n**[Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)** — Find out exactly how many runes you need to reach each level bracket.\n\nReady to explore more builds? Check out our related guides below."
+      }
     ],
     internalLinks: [
-      { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood — Best Bleed Weapon" },
-      { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "Bleed Build vs Mohg" },
-      { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Bleed Build vs Malenia" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+      { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
+      { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
+      { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Build" },
+      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
+      { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
+      { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
+      { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
-      { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Why Your Bleed Build Feels Weak" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
-    ]
+      { href: "/elden-ring/builds/build-tier-list", anchorText: "Elden Ring Build Tier List" },
+      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
+    ],
   },
   // ═══ ELDEN RING — BUILDS (Moonveil) ═══
   {
@@ -686,12 +782,12 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "After testing multiple Intelligence builds in our Elden Ring Build Calculator, Moonveil consistently provides the best balance of burst damage, FP efficiency, and survivability at Level 150. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path — all verified through calculator testing."
+        content: "After testing multiple Intelligence builds in our Elden Ring Build Planner, Moonveil consistently provides the best balance of burst damage, FP efficiency, and survivability at Level 150. This guide covers the best Moonveil build including stats, weapons, talismans, armor, and leveling path — all verified through calculator testing."
       },
       {
         heading: "Why Moonveil Is So Strong",
         level: 2,
-        content: "Based on our Build Calculator testing, Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill (Transient Moonlight), and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game — capable of fighting effectively at range, in melee, and everything in between."
+        content: "Based on our Build Planner testing, Moonveil combines a fast katana moveset, strong Intelligence scaling, high burst damage from its weapon skill (Transient Moonlight), and safe ranged pressure via magic projectiles. This combination makes it one of the most efficient hybrid builds in the game — capable of fighting effectively at range, in melee, and everything in between."
       },
       {
         heading: "How to Get Moonveil Katana",
@@ -734,7 +830,7 @@ export const articles: Article[] = [
       {
         heading: "Moonveil Damage Optimization (Level 150)",
         level: 2,
-        content: "Moonveil gains most of its weapon skill damage from Intelligence. Understanding how INT breakpoints affect your damage is key to optimizing your build. The data below is verified using our [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        content: "Moonveil gains most of its weapon skill damage from Intelligence. Understanding how INT breakpoints affect your damage is key to optimizing your build. The data below is verified using our [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
         table: {
           headers: ["Intelligence", "Damage Performance", "Recommendation"],
           rows: [
@@ -749,7 +845,7 @@ export const articles: Article[] = [
       {
         heading: "Damage Breakdown",
         level: 3,
-        content: "Transient Moonlight (heavy) is your highest damage output at 60 INT, dealing 1,200–1,700 per hit depending on target defense. The light version (L2+R1) is better for groups and faster recovery. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different INT/DEX allocations and see how your damage changes."
+        content: "Transient Moonlight (heavy) is your highest damage output at 60 INT, dealing 1,200–1,700 per hit depending on target defense. The light version (L2+R1) is better for groups and faster recovery. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different INT/DEX allocations and see how your damage changes."
       },
       {
         heading: "Vigor (60) — Soft Cap",
@@ -938,7 +1034,7 @@ export const articles: Article[] = [
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "Moonveil remains one of the most efficient Intelligence builds in Elden Ring. If optimized correctly, it can carry players through both base game and DLC content with ease.\n\nThe key to a great Moonveil build is understanding why each stat matters — not just how to allocate points.\n\n**Want to optimize your Moonveil build?** Use our [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n- Compare 60 INT vs 80 INT damage output\n- Test different talisman combinations\n- Optimize stat allocation before respeccing\n- See exactly how each point of INT affects your Transient Moonlight damage"
+        content: "Moonveil remains one of the most efficient Intelligence builds in Elden Ring. If optimized correctly, it can carry players through both base game and DLC content with ease.\n\nThe key to a great Moonveil build is understanding why each stat matters — not just how to allocate points.\n\n**Want to optimize your Moonveil build?** Use our [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n- Compare 60 INT vs 80 INT damage output\n- Test different talisman combinations\n- Optimize stat allocation before respeccing\n- See exactly how each point of INT affects your Transient Moonlight damage"
       }
     ],
     internalLinks: [
@@ -946,7 +1042,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/moonveil-intelligence-build", anchorText: "Moonveil Intelligence Build" },
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
       { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Moonveil vs Malenia" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Intelligence) ═══
@@ -978,7 +1074,7 @@ export const articles: Article[] = [
     {
       heading: "Intelligence Damage Testing — Proof That This Is the Highest Damage Mage Setup",
       level: 2,
-      content: 'The title says "Highest Damage Mage Setup." Here\'s the proof.\n\nWe tested maximum magic damage output under identical conditions using our [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).',
+      content: 'The title says "Highest Damage Mage Setup." Here\'s the proof.\n\nWe tested maximum magic damage output under identical conditions using our [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).',
       table: {
         headers: ["Parameter", "Value"],
         rows: [
@@ -1311,7 +1407,7 @@ export const articles: Article[] = [
     {
       heading: "Final Thoughts",
       level: 2,
-      content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. They dominate both PvE and DLC content when properly optimized.\n\n👉 Use our [Intelligence Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n✓ Compare INT 60 vs 80 damage output\n✓ Test different staffs and weapons\n✓ Compare sorcery damage per spell\n✓ Optimize your stat allocation\n\nPlan your build before you level up and save hours of farming."
+      content: "Intelligence builds remain one of the strongest archetypes in Elden Ring. They dominate both PvE and DLC content when properly optimized.\n\n👉 Use our [Intelligence Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n✓ Compare INT 60 vs 80 damage output\n✓ Test different staffs and weapons\n✓ Compare sorcery damage per spell\n✓ Optimize your stat allocation\n\nPlan your build before you level up and save hours of farming."
     }
   ],
   internalLinks: [
@@ -1319,7 +1415,7 @@ export const articles: Article[] = [
     { href: "/elden-ring/builds/best-dark-moon-greatsword-build", anchorText: "Best Dark Moon Greatsword Build" },
     { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
     { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Mage Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Mage Build Planner" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" }
   ]
   },
@@ -1346,7 +1442,7 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "You copied a popular Bleed build.\n\nYou upgraded Rivers of Blood.\n\nYou leveled Arcane.\n\nYet your damage still feels terrible.\n\nIf that sounds familiar, you're making one of the most common mistakes in Elden Ring.\n\nThe truth is that most Bleed builds don't become powerful simply because you equip a Bleed weapon. The strongest Bleed setups rely on correct stat allocation, weapon scaling, talisman synergy, and understanding how Hemorrhage actually works.\n\nThis guide explains why your Bleed build feels weak and exactly how to fix it. Test your current stat distribution with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see where your build is losing efficiency."
+        content: "You copied a popular Bleed build.\n\nYou upgraded Rivers of Blood.\n\nYou leveled Arcane.\n\nYet your damage still feels terrible.\n\nIf that sounds familiar, you're making one of the most common mistakes in Elden Ring.\n\nThe truth is that most Bleed builds don't become powerful simply because you equip a Bleed weapon. The strongest Bleed setups rely on correct stat allocation, weapon scaling, talisman synergy, and understanding how Hemorrhage actually works.\n\nThis guide explains why your Bleed build feels weak and exactly how to fix it. Test your current stat distribution with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see where your build is losing efficiency."
       },
       {
         heading: "The Biggest Myth About Bleed Builds",
@@ -1443,7 +1539,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "Most weak Bleed builds fail because of poor optimization, not because Bleed is weak.\n\nEven in 2026, Bleed remains one of the strongest archetypes in Elden Ring.\n\nThe players who get the best results focus on:\n\n- Proper Vigor\n- Efficient Arcane investment\n- Strong talisman synergy\n- Correct weapon selection\n\nInstead of blindly copying stats from random guides to compare different stat allocations and identify wasted levels before spending a Larval Tear. Fine-tune your Margit setup with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)."
+        content: "Most weak Bleed builds fail because of poor optimization, not because Bleed is weak.\n\nEven in 2026, Bleed remains one of the strongest archetypes in Elden Ring.\n\nThe players who get the best results focus on:\n\n- Proper Vigor\n- Efficient Arcane investment\n- Strong talisman synergy\n- Correct weapon selection\n\nInstead of blindly copying stats from random guides to compare different stat allocations and identify wasted levels before spending a Larval Tear. Fine-tune your Margit setup with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)."
       }
     ],
     internalLinks: [
@@ -1452,7 +1548,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
       { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
       { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "Why Bleed Works on Mohg" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Soft Caps) ═══
@@ -1748,9 +1844,9 @@ export const articles: Article[] = [
         content: "- Vigor: 60\n- Dexterity: 45–50\n- Arcane: 45–50"
       },
       {
-        heading: "How to Use Soft Caps with a Build Calculator",
+        heading: "How to Use Soft Caps with a Build Planner",
         level: 2,
-        content: "The easiest way to optimize your character is by testing stat changes before spending levels.\n\nA build calculator allows you to:\n\n- Compare weapon scaling\n- Test different stat allocations\n- Check equip load thresholds\n- Optimize damage efficiency\n- Avoid wasting Larval Tears during respecs\n\nSmall adjustments can often free up 10–20 levels without reducing meaningful damage."
+        content: "The easiest way to optimize your character is by testing stat changes before spending levels.\n\nA build planner allows you to:\n\n- Compare weapon scaling\n- Test different stat allocations\n- Check equip load thresholds\n- Optimize damage efficiency\n- Avoid wasting Larval Tears during respecs\n\nSmall adjustments can often free up 10–20 levels without reducing meaningful damage."
       },
       {
         heading: "Frequently Asked Questions",
@@ -1793,7 +1889,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
       { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Moonveil vs RoB) ═══
@@ -1936,9 +2032,9 @@ export const articles: Article[] = [
         content: "If we judge purely by consistency and PvE strength:\n\n> **Moonveil is the better overall weapon in 2026**\n\nBut if we judge by burst damage potential:\n\n> **Rivers of Blood can outperform Moonveil in the right situations**"
       },
       {
-        heading: "Build Calculator Tip",
+        heading: "Build Planner Tip",
         level: 2,
-        content: "Instead of guessing which weapon is better, you can test both setups using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator):\n\n- Compare stat efficiency\n- Test damage scaling\n- Optimize Vigor vs damage investment\n- See real DPS differences\n\n👉 This is the fastest way to decide your build before committing a Larval Tear. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        content: "Instead of guessing which weapon is better, you can test both setups using the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator):\n\n- Compare stat efficiency\n- Test damage scaling\n- Optimize Vigor vs damage investment\n- See real DPS differences\n\n👉 This is the fastest way to decide your build before committing a Larval Tear. See the damage difference between weapon infusions with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
         image: "moonveil-vs-rivers-shard-of-alexander.png",
         imageAlt: "Shard of Alexander talisman from Elden Ring"
       }
@@ -1949,7 +2045,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/moonveil-intelligence-build", anchorText: "Moonveil Intelligence Build" },
       { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Moonveil vs RoB: Malenia Test" },
       { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "Moonveil vs RoB: Mohg Test" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
   // ═══ ELDEN RING — BUILDS (Build Planner) ═══
@@ -1974,7 +2070,7 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "Most Elden Ring players level up randomly without understanding how their stats actually scale. The result? Weak damage, poor survivability, and wasted levels at endgame. A build planner solves this by letting you simulate your character and test weapon scaling before spending a single rune. Use the Elden Ring Build Calculator at zosygo.com to plan your stats, compare weapons, and optimize your build in seconds."
+          "Most Elden Ring players level up randomly without understanding how their stats actually scale. The result? Weak damage, poor survivability, and wasted levels at endgame. A build planner solves this by letting you simulate your character and test weapon scaling before spending a single rune. Use the Elden Ring Build Planner at zosygo.com to plan your stats, compare weapons, and optimize your build in seconds."
       },
       {
         heading: "What Is a Build Planner in Elden Ring?",
@@ -2022,7 +2118,7 @@ export const articles: Article[] = [
         level: 2,
         content: "",
         table: {
-          headers: ["Feature", "Zosygo Build Calculator", "Generic Planners", "Spreadsheets"],
+          headers: ["Feature", "Zosygo Build Planner", "Generic Planners", "Spreadsheets"],
           rows: [
             ["Real-time AR preview", "Yes - per weapon", "Basic", "Manual input"],
             ["Soft cap visualization", "Yes - color-coded", "No", "No"],
@@ -2091,7 +2187,7 @@ export const articles: Article[] = [
         heading: "Can I share my build with others?",
         level: 3,
         content:
-          "Yes - the Zosygo Build Calculator encodes your entire build state in the URL. You can share the link with friends, on Discord, or in Reddit build discussions."
+          "Yes - the Zosygo Build Planner encodes your entire build state in the URL. You can share the link with friends, on Discord, or in Reddit build discussions."
       },
       {
         heading: "Does the build planner support DLC weapons?",
@@ -2107,7 +2203,7 @@ export const articles: Article[] = [
       }
     ],
     internalLinks: [
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
       { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
@@ -2132,13 +2228,13 @@ export const articles: Article[] = [
       { label: "🥈 B Tier", value: "Quality (6.5), Lightning (6.8), Paladin (6.5), Colossal Jump (6.3), Pure Mage (6.0)" },
       { label: "💡 Core Rule", value: "Vigor 60 + ONE damage stat + match weapon to scaling" },
       { label: "📊 Unique Data", value: "Proprietary Build Score (DPS/Survival/Flexibility/Beginner/Overall)" },
-      { label: "📌 Topic Cluster", value: "14 linked build guides + Build Calculator + Soft Caps + Tier List" },
+      { label: "📌 Topic Cluster", value: "14 linked build guides + Build Planner + Soft Caps + Tier List" },
     ],
     sections: [
       {
         heading: "",
         level: 2,
-        content: "Not all Elden Ring builds are created equal. Some melt bosses in seconds. Some let you tank hits that would one-shot other players. Some look powerful on paper but fall apart in the DLC.\n\nThis guide ranks **12 builds across S, A, and B tiers** with:\n\n- **Proprietary Build Score** (DPS, Survivability, Flexibility, Beginner-Friendliness)\n- **Exact stat allocations** for Level 150\n- **PvE and PvP ratings** with star scores\n- **DLC viability** notes for Shadow of the Erdtree\n- **Build Decision Tree** to find your perfect build\n\nUse the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate any build before respeccing."
+        content: "Not all Elden Ring builds are created equal. Some melt bosses in seconds. Some let you tank hits that would one-shot other players. Some look powerful on paper but fall apart in the DLC.\n\nThis guide ranks **12 builds across S, A, and B tiers** with:\n\n- **Proprietary Build Score** (DPS, Survivability, Flexibility, Beginner-Friendliness)\n- **Exact stat allocations** for Level 150\n- **PvE and PvP ratings** with star scores\n- **DLC viability** notes for Shadow of the Erdtree\n- **Build Decision Tree** to find your perfect build\n\nUse the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to simulate any build before respeccing."
       },
       {
         heading: "Quick Build Comparison Table",
@@ -2253,9 +2349,9 @@ export const articles: Article[] = [
         }
       },
       {
-        heading: "Build Calculator Integration",
+        heading: "Build Planner Integration",
         level: 2,
-        content: "### Calculate Your Build Before You Respec\n\nNot sure whether 60 Strength or 80 Strength gives better value?\n\nUse the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n- Compare AR between different stat spreads\n- Test Level 150 builds before using a Larval Tear\n- Optimize Vigor, Endurance, and damage stats\n- Preview weapon scaling with your exact attributes\n\n👉 [Open the Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n\n### Related Tools\n\n- [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) - Plan how many runes you need\n- [Build Tier List](https://www.zosygo.com/elden-ring/builds/build-tier-list) - See how builds compare\n- [Soft Caps Explained](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) - Understand stat efficiency"
+        content: "### Calculate Your Build Before You Respec\n\nNot sure whether 60 Strength or 80 Strength gives better value?\n\nUse the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to:\n\n- Compare AR between different stat spreads\n- Test Level 150 builds before using a Larval Tear\n- Optimize Vigor, Endurance, and damage stats\n- Preview weapon scaling with your exact attributes\n\n👉 [Open the Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)\n\n### Related Tools\n\n- [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) - Plan how many runes you need\n- [Build Tier List](https://www.zosygo.com/elden-ring/builds/build-tier-list) - See how builds compare\n- [Soft Caps Explained](https://www.zosygo.com/elden-ring/builds/soft-caps-explained) - Understand stat efficiency"
       },
       {
         heading: "FAQ",
@@ -2265,7 +2361,7 @@ export const articles: Article[] = [
       {
         heading: "Final Verdict",
         level: 2,
-        content: "Elden Ring builds are not about finding one best setup. They are about:\n\n- Understanding scaling systems\n- Respecting soft caps\n- Matching weapons with stats\n- Avoiding wasted levels\n\nIf your build feels weak, it is almost always a structural issue - not a weapon issue.\n\n**Top Recommendations:**\n\n| Scenario | Best Build |\n| ------ | ------ |\n| Highest boss DPS | Bleed Arcane |\n| Easiest for beginners | Strength Colossal |\n| Safest ranged play | Intelligence Mage |\n| Best for DLC | Strength Colossal |\n| Best for PvP | Bleed Arcane |\n| Best for co-op | Faith Hybrid |\n\n**Ready to optimize your build?** Use our [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stats and equipment before respeccing.\n\n### Topic Cluster: Explore All Build Guides\n\nThis guide is part of a complete build resource network:\n\n- [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build)\n- [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build)\n- [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build)\n- [Best Dexterity Build Guide](https://www.zosygo.com/elden-ring/builds/best-dexterity-build)\n- [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build)\n- [Best Moonveil Build Guide](https://www.zosygo.com/elden-ring/builds/best-moonveil-build)\n- [Rivers of Blood Build Guide](https://www.zosygo.com/elden-ring/weapons/rivers-of-blood)\n- [Soft Caps Explained](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)\n- [Build Tier List](https://www.zosygo.com/elden-ring/builds/build-tier-list)\n- [Level 150 Builds Guide](https://www.zosygo.com/elden-ring/builds/level-150-builds)\n- [Build Planner Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)\n- [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n- [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)\n- [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)"
+        content: "Elden Ring builds are not about finding one best setup. They are about:\n\n- Understanding scaling systems\n- Respecting soft caps\n- Matching weapons with stats\n- Avoiding wasted levels\n\nIf your build feels weak, it is almost always a structural issue - not a weapon issue.\n\n**Top Recommendations:**\n\n| Scenario | Best Build |\n| ------ | ------ |\n| Highest boss DPS | Bleed Arcane |\n| Easiest for beginners | Strength Colossal |\n| Safest ranged play | Intelligence Mage |\n| Best for DLC | Strength Colossal |\n| Best for PvP | Bleed Arcane |\n| Best for co-op | Faith Hybrid |\n\n**Ready to optimize your build?** Use our [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stats and equipment before respeccing.\n\n### Topic Cluster: Explore All Build Guides\n\nThis guide is part of a complete build resource network:\n\n- [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build)\n- [Best Strength Build Guide](https://www.zosygo.com/elden-ring/builds/best-strength-build)\n- [Best Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build)\n- [Best Dexterity Build Guide](https://www.zosygo.com/elden-ring/builds/best-dexterity-build)\n- [Best Faith Build Guide](https://www.zosygo.com/elden-ring/builds/best-faith-build)\n- [Best Moonveil Build Guide](https://www.zosygo.com/elden-ring/builds/best-moonveil-build)\n- [Rivers of Blood Build Guide](https://www.zosygo.com/elden-ring/weapons/rivers-of-blood)\n- [Soft Caps Explained](https://www.zosygo.com/elden-ring/builds/soft-caps-explained)\n- [Build Tier List](https://www.zosygo.com/elden-ring/builds/build-tier-list)\n- [Level 150 Builds Guide](https://www.zosygo.com/elden-ring/builds/level-150-builds)\n- [Build Planner Guide](https://www.zosygo.com/elden-ring/builds/build-planner-guide)\n- [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)\n- [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator)\n- [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)"
       }
     ],
     internalLinks: [
@@ -2278,7 +2374,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/build-tier-list", anchorText: "Build Tier List" },
       { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds Guide" },
       { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
       { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
       { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
       { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
@@ -2309,7 +2405,7 @@ export const articles: Article[] = [
       {
         heading: "",
         level: 2,
-        content: "Not all Elden Ring builds are equal. Some dominate boss fights. Some are consistent but safe. Some look strong but fall apart in late-game or DLC content.\n\nThis tier list ranks the **best Elden Ring builds in 2026** based on a weighted scoring system. Each build is rated across 5 categories with verified data from our [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)."
+        content: "Not all Elden Ring builds are equal. Some dominate boss fights. Some are consistent but safe. Some look strong but fall apart in late-game or DLC content.\n\nThis tier list ranks the **best Elden Ring builds in 2026** based on a weighted scoring system. Each build is rated across 5 categories with verified data from our [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)."
       },
       {
         heading: "2026 Build Ranking",
@@ -2421,12 +2517,12 @@ export const articles: Article[] = [
       {
         heading: "Ranking Your Own Build",
         level: 2,
-        content: "Want to see how your own build ranks? Use our [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your build’s stats, damage output, and soft cap efficiency. The calculator automatically scores your build across all 5 categories and gives you a tier rating.\n\nOur calculator is free and works for all builds at any level. You can experiment with different stat allocations, weapons, and equipment to see how your score changes. Try it now to find out if your build is S Tier material!\n\n👉 [Try the Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)"
+        content: "Want to see how your own build ranks? Use our [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to check your build’s stats, damage output, and soft cap efficiency. The calculator automatically scores your build across all 5 categories and gives you a tier rating.\n\nOur calculator is free and works for all builds at any level. You can experiment with different stat allocations, weapons, and equipment to see how your score changes. Try it now to find out if your build is S Tier material!\n\n👉 [Try the Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)"
       },
       {
         heading: "Final Thoughts",
         level: 2,
-        content: "This tier list is based on the current Elden Ring 2026 meta. As new patches and DLC content are released, build rankings may change. We update this list regularly to reflect the latest balance changes.\n\nRemember: the best build is the one you enjoy playing. Tier lists are a guide, not a rule. Experiment with different builds, find what works for your playstyle, and most importantly, have fun in the Lands Between.\n\n**Ready to optimize your build?** Use our [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stats and equipment."
+        content: "This tier list is based on the current Elden Ring 2026 meta. As new patches and DLC content are released, build rankings may change. We update this list regularly to reflect the latest balance changes.\n\nRemember: the best build is the one you enjoy playing. Tier lists are a guide, not a rule. Experiment with different builds, find what works for your playstyle, and most importantly, have fun in the Lands Between.\n\n**Ready to optimize your build?** Use our [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stats and equipment."
       }
     ],
   internalLinks: [
@@ -2435,7 +2531,7 @@ export const articles: Article[] = [
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build Guide" },
     { href: "/elden-ring/builds/best-faith-build", anchorText: "Best Faith Build Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ],
 },
 // ═══ ELDEN RING — BUILDS (Level 150) ═══
@@ -2461,7 +2557,7 @@ export const articles: Article[] = [
         heading: "",
         level: 2,
         content:
-          "Level 150 is the **standard endgame build level** in Elden Ring. It is the point where most players complete their first playthrough, tackle the DLC, and transition into optimized PvP or NG+.\n\nAt this level, your build is no longer about reaching minimum requirements. It is about **stat efficiency, soft cap optimization, and build specialization**.\n\nThis guide covers every viable Level 150 build with exact stat allocations, equipment choices, and progression paths.\n\n> Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan your rune farming, and the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stat allocation.",
+          "Level 150 is the **standard endgame build level** in Elden Ring. It is the point where most players complete their first playthrough, tackle the DLC, and transition into optimized PvP or NG+.\n\nAt this level, your build is no longer about reaching minimum requirements. It is about **stat efficiency, soft cap optimization, and build specialization**.\n\nThis guide covers every viable Level 150 build with exact stat allocations, equipment choices, and progression paths.\n\n> Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to plan your rune farming, and the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to fine-tune your stat allocation.",
       },
       {
         heading: "Why Level 150 Became the Elden Ring Meta",
@@ -2479,7 +2575,7 @@ export const articles: Article[] = [
         heading: "Best Level 150 Builds Compared",
         level: 2,
         content:
-          "Here is a direct comparison of all five major Level 150 builds. The ratings are based on our testing methodology using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) with Level 150, Weapon +10/+25, and 60 Vigor baseline.\n\n| Build | Boss DPS | Survival | Difficulty | DLC Performance | PvP |\n| --- | --- | --- | --- | --- | --- |\n| Bleed Arcane | 10/10 | 8/10 | Medium | 8/10 | 9/10 |\n| Strength Colossal | 9/10 | 10/10 | Easy | 10/10 | 7/10 |\n| Intelligence Sorcery | 9/10 | 8/10 | Easy | 8/10 | 6/10 |\n| Dexterity Katanas | 8/10 | 7/10 | Hard | 8/10 | 9/10 |\n| Faith Hybrid | 8/10 | 9/10 | Medium | 9/10 | 8/10 |\n\n### Reading the Table\n\n* **Boss DPS** — Raw damage output against standard bosses with bleedable targets.\n* **Survival** — Ability to take hits and recover.\n* **Difficulty** — Execution complexity. Easy means accessible to most players.\n* **DLC Performance** — Effectiveness against aggressive DLC bosses with high posture.\n* **PvP** — Effectiveness in invasions and duels.",
+          "Here is a direct comparison of all five major Level 150 builds. The ratings are based on our testing methodology using the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) with Level 150, Weapon +10/+25, and 60 Vigor baseline.\n\n| Build | Boss DPS | Survival | Difficulty | DLC Performance | PvP |\n| --- | --- | --- | --- | --- | --- |\n| Bleed Arcane | 10/10 | 8/10 | Medium | 8/10 | 9/10 |\n| Strength Colossal | 9/10 | 10/10 | Easy | 10/10 | 7/10 |\n| Intelligence Sorcery | 9/10 | 8/10 | Easy | 8/10 | 6/10 |\n| Dexterity Katanas | 8/10 | 7/10 | Hard | 8/10 | 9/10 |\n| Faith Hybrid | 8/10 | 9/10 | Medium | 9/10 | 8/10 |\n\n### Reading the Table\n\n* **Boss DPS** — Raw damage output against standard bosses with bleedable targets.\n* **Survival** — Ability to take hits and recover.\n* **Difficulty** — Execution complexity. Easy means accessible to most players.\n* **DLC Performance** — Effectiveness against aggressive DLC bosses with high posture.\n* **PvP** — Effectiveness in invasions and duels.",
       },
       {
         heading: "How to Reach Level 150 (Progression Guide)",
@@ -2545,7 +2641,7 @@ export const articles: Article[] = [
         heading: "Level 150 Build Testing Methodology",
         level: 2,
         content:
-          "Every build in this guide was tested using the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).\n\n### Testing Parameters\n\n* Character Level: 150\n* Weapon Level: +10 (Somber) / +25 (Standard)\n* Vigor: 60 baseline\n* Talismans: Optimized per build (not generic)\n* Test Bosses: Malenia (DLC), Mohg (Lord of Blood), Godfrey (endgame)\n\n### Metrics Measured\n\n* **AR (Attack Rating):** Total weapon damage output\n* **DPS:** Damage per second accounting for attack speed\n* **Stat Efficiency:** Damage per stat point invested\n* **Survivability:** Time to death under sustained boss pressure\n* **Breakpoint Access:** Whether key thresholds are reached\n\n### How to Test Your Own Build\n\n1. Open the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)\n2. Enter your level, stats, and equipment\n3. Check your AR and DPS\n4. Compare against the builds above\n5. Adjust stats to match soft caps\n\n> The calculator is free and works for any build at any level.",
+          "Every build in this guide was tested using the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).\n\n### Testing Parameters\n\n* Character Level: 150\n* Weapon Level: +10 (Somber) / +25 (Standard)\n* Vigor: 60 baseline\n* Talismans: Optimized per build (not generic)\n* Test Bosses: Malenia (DLC), Mohg (Lord of Blood), Godfrey (endgame)\n\n### Metrics Measured\n\n* **AR (Attack Rating):** Total weapon damage output\n* **DPS:** Damage per second accounting for attack speed\n* **Stat Efficiency:** Damage per stat point invested\n* **Survivability:** Time to death under sustained boss pressure\n* **Breakpoint Access:** Whether key thresholds are reached\n\n### How to Test Your Own Build\n\n1. Open the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)\n2. Enter your level, stats, and equipment\n3. Check your AR and DPS\n4. Compare against the builds above\n5. Adjust stats to match soft caps\n\n> The calculator is free and works for any build at any level.",
       },
       {
         heading: "Best Level 150 Builds for Specific Scenarios",
@@ -2557,7 +2653,7 @@ export const articles: Article[] = [
         heading: "Final Verdict",
         level: 2,
         content:
-          "Level 150 is Elden Ring's sweet spot. It gives you enough stats to feel powerful without removing all challenge.\n\n**Three things to remember:**\n\n1. 60 Vigor is mandatory. Nothing else matters if you die in one hit.\n2. Specialize in one damage stat. Hybrids underperform at Level 150.\n3. Use a [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before respeccing. Do not waste Larval Tears.\n\n**Ready to optimize?** Start with the Build Calculator:\n\n👉 [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator)",
+          "Level 150 is Elden Ring's sweet spot. It gives you enough stats to feel powerful without removing all challenge.\n\n**Three things to remember:**\n\n1. 60 Vigor is mandatory. Nothing else matters if you die in one hit.\n2. Specialize in one damage stat. Hybrids underperform at Level 150.\n3. Use a [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before respeccing. Do not waste Larval Tears.\n\n**Ready to optimize?** Start with the Build Planner:\n\n👉 [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)",
       },
     ],
   internalLinks: [
@@ -2569,7 +2665,7 @@ export const articles: Article[] = [
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide (All 12 Ranked)" },
     { href: "/elden-ring/builds/build-tier-list", anchorText: "Elden Ring Build Tier List" },
     { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Soft Caps Explained" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
   ],
 },
@@ -2707,7 +2803,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
       { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
 // ═══ ELDEN RING — BUILDS (Rune Level Calculator) ═══
@@ -2842,7 +2938,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
       { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
 // ═══ ELDEN RING — BOSSES (Radahn) ═══
@@ -3008,7 +3104,7 @@ export const articles: Article[] = [
       { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "How to Beat Radahn (2026)" },
       { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "Radahn vs Mohg: Late Game Comparison" },
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Radahn" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
     ]
   },
 

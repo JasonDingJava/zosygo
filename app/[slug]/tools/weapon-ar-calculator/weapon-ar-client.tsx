@@ -395,7 +395,7 @@ export default function WeaponARPage() {
               { title: "Soft Caps Explained", href: "/elden-ring/weapons/soft-caps-explained" },
               { title: "Weapon Scaling Guide", href: "/elden-ring/walkthroughs/weapon-scaling-guide" },
               { title: "Best Starting Class Guide", href: "/elden-ring/walkthroughs/best-starting-class-guide" },
-              { title: "Elden Ring Build Calculator", href: "/elden-ring/tools/build-calculator" },
+              { title: "Elden Ring Build Planner", href: "/elden-ring/tools/build-calculator" },
               { title: "Rune Level Calculator", href: "/elden-ring/tools/rune-level-calculator" },
               { title: "Best Dexterity Build", href: "/elden-ring/builds/best-dexterity-build" },
               { title: "Poise Explained", href: "/elden-ring/walkthroughs/poise-explained" },

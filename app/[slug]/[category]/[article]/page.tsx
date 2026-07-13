@@ -283,12 +283,12 @@ export default async function ArticlePage({ params }: Props) {
             </div>
           )}
 
-          {/* Build Calculator CTA — only on Elden Ring build/weapon articles */}
+          {/* Build Planner CTA — only on Elden Ring build/weapon articles */}
           {slug === "elden-ring" && (category === "builds" || category === "weapons") && (
             <section className="mt-8 rounded-sm border border-[#c9a227]/20 bg-gradient-to-r from-[#0a0a0f] to-[#1a1508] p-5">
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <h3 className="text-base font-bold text-white">⚔️ Try the Elden Ring Build Calculator</h3>
+                  <h3 className="text-base font-bold text-white">⚔️ Try the Elden Ring Build Planner</h3>
                   <p className="mt-1 text-sm text-zinc-400">Plan your perfect build with real-time stat calculations and weapon AR comparisons.</p>
                 </div>
                 <Link

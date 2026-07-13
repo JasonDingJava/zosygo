@@ -153,7 +153,7 @@ const maleniaArticle: Article = {
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg, Lord of Blood" },
     { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Katana" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Malenia" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -313,7 +313,7 @@ const buildFeelsWeakArticle: Article = {
     { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
     { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
     { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -608,7 +608,7 @@ const softCapsV2Article: Article = {
       heading: "Final Verdict",
       level: 2,
       content:
-        "Soft caps are one of the most important hidden systems in Elden Ring.\n\nThey explain why:\n\n- More levels don\u2019t always mean more power\n- High-level builds can still feel weak\n- Optimization matters more than grinding\n\nThe strongest builds are not the ones with the highest stats.\n\nThey are the ones that understand when stats stop being efficient.\n\nMaster soft caps, and every future build becomes significantly stronger. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat allocation against the soft caps."
+        "Soft caps are one of the most important hidden systems in Elden Ring.\n\nThey explain why:\n\n- More levels don\u2019t always mean more power\n- High-level builds can still feel weak\n- Optimization matters more than grinding\n\nThe strongest builds are not the ones with the highest stats.\n\nThey are the ones that understand when stats stop being efficient.\n\nMaster soft caps, and every future build becomes significantly stronger. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat allocation against the soft caps."
     }
   ],
   internalLinks: [
@@ -617,7 +617,7 @@ const softCapsV2Article: Article = {
     { href: "/elden-ring/builds/elden-ring-build-mistakes", anchorText: "10 Build Mistakes" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Soft Caps vs Malenia" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Compare Weapon AR" },
   ]
 };
@@ -704,7 +704,7 @@ const article17: Article = {
       heading: "Hidden Factor #3: Scaling Type Matters",
       level: 2,
       content:
-        "Not all weapons scale the same.\n\nSome weapons:\n\n- Scale heavily with one stat  \n- Others split scaling across multiple stats  \n- Some rely more on base damage than scaling  \n\nThis is why two Level 150 players can feel completely different in power. Simulate different stat allocations to see their impact on damage with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        "Not all weapons scale the same.\n\nSome weapons:\n\n- Scale heavily with one stat  \n- Others split scaling across multiple stats  \n- Some rely more on base damage than scaling  \n\nThis is why two Level 150 players can feel completely different in power. Simulate different stat allocations to see their impact on damage with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
     {
       heading: "How to Fix a Weak Build (Practical Checklist)",
@@ -755,7 +755,7 @@ const article17: Article = {
     { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/bosses/how-to-beat-maliketh-black-blade", anchorText: "Damage Scaling vs Maliketh" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -871,7 +871,7 @@ const article18: Article = {
       heading: "Why Level 150 Feels Weak for Many Players",
       level: 2,
       content:
-        "At Level 150, most players expect:\n\n- Max damage  \n- Easy boss fights  \n- High scaling returns  \n\nBut what they actually get is:\n\n- Diminishing returns from stats  \n- Poor efficiency from hybrid builds  \n- Unoptimized talismans  \n\n> The problem is not the level cap.  \n> The problem is build structure. Run your own numbers through the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to find where your build is wasting damage.",
+        "At Level 150, most players expect:\n\n- Max damage  \n- Easy boss fights  \n- High scaling returns  \n\nBut what they actually get is:\n\n- Diminishing returns from stats  \n- Poor efficiency from hybrid builds  \n- Unoptimized talismans  \n\n> The problem is not the level cap.  \n> The problem is build structure. Run your own numbers through the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to find where your build is wasting damage.",
     },
     {
       heading: "How to Actually Increase Damage",
@@ -892,7 +892,7 @@ const article18: Article = {
     { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "Low Damage vs Radahn" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -918,7 +918,7 @@ const article19: Article = {
       heading: "",
       level: 2,
       content:
-        "---\n\nIf your character feels weak in Elden Ring, the problem is almost never \"not enough level\".\n\nIn most cases, players are making **fundamental build mistakes** that completely break damage scaling, survivability, or efficiency.\n\nThis guide breaks down the **10 most common build mistakes** and how to fix them. Test your current build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to identify inefficiencies before making changes.",
+        "---\n\nIf your character feels weak in Elden Ring, the problem is almost never \"not enough level\".\n\nIn most cases, players are making **fundamental build mistakes** that completely break damage scaling, survivability, or efficiency.\n\nThis guide breaks down the **10 most common build mistakes** and how to fix them. Test your current build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to identify inefficiencies before making changes.",
       image: "u=3949170640,2849213860&fm=253&fmt=auto&app=120&f=JPEG.webp",
       imageAlt: "Elden Ring build mistakes stat distribution example",
     },
@@ -1048,7 +1048,7 @@ const article19: Article = {
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "Build Mistakes vs Mohg" },
     { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -1170,7 +1170,7 @@ const article20: Article = {
       heading: "Best Builds Against Malenia",
       level: 2,
       content:
-        "### Bleed Builds\n\nAdvantages:\n\n- High percentage damage\n- Frequent staggers\n- Fast pressure\n\nExcellent for first clears. Fine-tune your build against Malenia with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right stat balance makes a huge difference in this fight.",
+        "### Bleed Builds\n\nAdvantages:\n\n- High percentage damage\n- Frequent staggers\n- Fast pressure\n\nExcellent for first clears. Fine-tune your build against Malenia with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right stat balance makes a huge difference in this fight.",
     },
     {
       heading: "Frost Builds",
@@ -1227,7 +1227,7 @@ const article20: Article = {
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg (Bleed Comparison)" },
     { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood — Best Weapon for Malenia" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -1422,7 +1422,7 @@ const article21: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City. Check if your build is ready for Radahn with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        "### What level should I be for Radahn?\n\nMost players succeed between Level 60 and 80.\n\n### Is Radahn weak to Scarlet Rot?\n\nYes. Scarlet Rot is one of his biggest weaknesses.\n\n### Can I use Torrent during the fight?\n\nYes. Torrent is available throughout the encounter.\n\n### Are summons required?\n\nNo, but they make the fight significantly easier.\n\n### What happens after defeating Radahn?\n\nA star crashes into Limgrave, unlocking access to Nokron, Eternal City. Check if your build is ready for Radahn with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
   ],
   internalLinks: [
@@ -1431,7 +1431,7 @@ const article21: Article = {
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
     { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood — Best Bleed Build" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Radahn" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -1664,7 +1664,7 @@ const article22: Article = {
     { href: "/elden-ring/bosses/how-to-beat-messmer-the-impaler", anchorText: "How to Beat Messmer (DLC Entry)" },
     { href: "/elden-ring/bosses/how-to-beat-starscourge-radahn", anchorText: "How to Beat Radahn" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Mohg" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -1913,7 +1913,7 @@ const article23: Article = {
       heading: "Best Builds Against Maliketh",
       level: 2,
       content:
-        "### Bleed Builds\n\nAdvantages:\n\n- Fast health removal\n- Shortens Phase 2\n\nExcellent choice. Test your build against Maliketh's Phase 2 speed with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — survivability matters as much as damage in this fight.",
+        "### Bleed Builds\n\nAdvantages:\n\n- Fast health removal\n- Shortens Phase 2\n\nExcellent choice. Test your build against Maliketh's Phase 2 speed with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — survivability matters as much as damage in this fight.",
     },
     {
       heading: "Strength Builds",
@@ -1952,7 +1952,7 @@ const article23: Article = {
     { href: "/elden-ring/weapons/blasphemous-blade", anchorText: "Blasphemous Blade — Best Weapon for Maliketh" },
     { href: "/elden-ring/bosses/how-to-beat-messmer-the-impaler", anchorText: "How to Beat Messmer" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Maliketh" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -2083,7 +2083,7 @@ const article24: Article = {
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Malenia vs Messmer: Difficulty Comparison" },
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg (DLC Entry Requirement)" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for DLC" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" }
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
   ]
 };
 
@@ -2193,7 +2193,7 @@ const article25: Article = {
     {
       heading: "Best Builds Against Godfrey",
       level: 2,
-      content: "### Bleed Builds\n\nAdvantages:\n\n* Fast damage\n* Excellent Phase 2 performance\n\nRecommended for aggressive players.\n\n### Frost Builds\n\nAdvantages:\n\n* Burst damage\n* Defensive reduction\n\nConsistently effective throughout the fight.\n\n### Strength Builds\n\nAdvantages:\n\n* High stagger potential\n* Strong jump attacks\n\nParticularly useful during stomp punish windows.\n\nFine-tune your Godfrey build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference in Phase 2."
+      content: "### Bleed Builds\n\nAdvantages:\n\n* Fast damage\n* Excellent Phase 2 performance\n\nRecommended for aggressive players.\n\n### Frost Builds\n\nAdvantages:\n\n* Burst damage\n* Defensive reduction\n\nConsistently effective throughout the fight.\n\n### Strength Builds\n\nAdvantages:\n\n* High stagger potential\n* Strong jump attacks\n\nParticularly useful during stomp punish windows.\n\nFine-tune your Godfrey build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference in Phase 2."
     },
     {
       heading: "Common Mistakes",
@@ -2222,7 +2222,7 @@ const article25: Article = {
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Godfrey" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -2293,7 +2293,7 @@ const article26: Article = {
     {
       heading: "Best Builds Against Morgott",
       level: 2,
-      content: "Although timing matters most, some builds perform particularly well.\n\n### Bleed Builds\n\nBleed remains one of the strongest options.\n\nAdvantages include:\n\n* Fast phase progression\n* Consistent damage\n* Shorter exposure to dangerous combos\n\n### Frost Builds\n\nFrost provides:\n\n* Burst damage\n* Additional survivability through defense reduction\n\n### Strength Builds\n\nHeavy weapons perform surprisingly well because Morgott offers several clear punish windows after full combo sequences.\n\nFine-tune your Morgott build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference against his delayed attacks."
+      content: "Although timing matters most, some builds perform particularly well.\n\n### Bleed Builds\n\nBleed remains one of the strongest options.\n\nAdvantages include:\n\n* Fast phase progression\n* Consistent damage\n* Shorter exposure to dangerous combos\n\n### Frost Builds\n\nFrost provides:\n\n* Burst damage\n* Additional survivability through defense reduction\n\n### Strength Builds\n\nHeavy weapons perform surprisingly well because Morgott offers several clear punish windows after full combo sequences.\n\nFine-tune your Morgott build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference against his delayed attacks."
     },
     {
       heading: "What Morgott Teaches About Elden Ring",
@@ -2312,7 +2312,7 @@ const article26: Article = {
     { href: "/elden-ring/bosses/starscourge-radahn-guide", anchorText: "How to Beat Starscourge Radahn" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Morgott" },
     { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 

@@ -169,7 +169,7 @@ export default async function CategoryPage({ params }: Props) {
               {catLabel} Coming Soon
             </h2>
             <p className="mt-2 max-w-2xl text-sm leading-relaxed text-zinc-500">
-              We are building out comprehensive {game.name} {category} guides. Check back soon for detailed walkthroughs, build calculators, boss strategies, and weapon comparisons.
+              We are building out comprehensive {game.name} {category} guides. Check back soon for detailed walkthroughs, build planners, boss strategies, and weapon comparisons.
             </p>
           </>
         )}

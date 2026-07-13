@@ -6,7 +6,7 @@ import type { Metadata } from "next";
 const GAME_TOOLS: Record<string, { name: string; description: string; href: string; icon: string }[]> = {
   "elden-ring": [
     {
-      name: "Build Calculator",
+      name: "Build Planner",
       description: "Plan and optimize your Elden Ring character build. Allocate stats, pick weapons, and see real-time AR calculations with game-accurate formulas.",
       href: "/elden-ring/tools/build-calculator",
       icon: "⚔️",
@@ -43,11 +43,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   if (slug !== "elden-ring") return {};
   return {
-    title: "Elden Ring Tools — Build Calculator, Weapon Guides & Boss Strategies",
-    description: "Free Elden Ring tools including Build Calculator, weapon guides, and boss strategy resources. Plan your perfect build with game-accurate stat calculations.",
+    title: "Elden Ring Tools — Build Planner, Weapon Guides & Boss Strategies",
+    description: "Free Elden Ring tools including Build Planner, weapon guides, and boss strategy resources. Plan your perfect build with game-accurate stat calculations.",
     openGraph: {
-      title: "Elden Ring Tools — Build Calculator, Weapon Guides & Boss Strategies",
-      description: "Free Elden Ring tools including Build Calculator, weapon guides, and boss strategy resources.",
+      title: "Elden Ring Tools — Build Planner, Weapon Guides & Boss Strategies",
+      description: "Free Elden Ring tools including Build Planner, weapon guides, and boss strategy resources.",
     },
   };
 }
@@ -55,18 +55,18 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 const FAQ = [
   {
     q: "What Elden Ring tools are available?",
-    a: "Three tools are live: the Elden Ring Build Calculator for full character planning, the Weapon AR Calculator for comparing 123 weapons' Attack Rating, and the Rune Level Calculator for planning rune costs from level 1 to 713. More tools coming soon.",
+    a: "Three tools are live: the Elden Ring Build Planner for full character planning, the Weapon AR Calculator for comparing 123 weapons' Attack Rating, and the Rune Level Calculator for planning rune costs from level 1 to 713. More tools coming soon.",
   },
   {
-    q: "Is the Elden Ring Build Calculator accurate?",
-    a: "Yes. The Build Calculator uses game-accurate formulas for HP, FP, Stamina, equip load, and weapon Attack Rating. The Weapon AR Calculator uses the same engine for weapon damage calculations. Soft caps and stat scaling match Elden Ring's actual in-game calculations.",
+    q: "Is the Elden Ring Build Planner accurate?",
+    a: "Yes. The Build Planner uses game-accurate formulas for HP, FP, Stamina, equip load, and weapon Attack Rating. The Weapon AR Calculator uses the same engine for weapon damage calculations. Soft caps and stat scaling match Elden Ring's actual in-game calculations.",
   },
   {
-    q: "How do I use the Build Calculator?",
+    q: "How do I use the Build Planner?",
     a: "Select your starting class, adjust stat sliders (1-99), choose up to 3 weapons with upgrade levels, and view real-time results. You can save and share your build via URL.",
   },
   {
-    q: "What weapons are in the Build Calculator?",
+    q: "What weapons are in the Build Planner?",
     a: "The calculator includes 123 weapons from all categories: straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, and more.",
   },
 ];
@@ -97,7 +97,7 @@ export default function ToolsPage({ params }: { params: Promise<{ slug: string }
         {
           "@type": "WebPage",
           name: "Elden Ring Tools",
-          description: "Free Elden Ring tools including Build Calculator, weapon guides, and boss strategy resources.",
+          description: "Free Elden Ring tools including Build Planner, weapon guides, and boss strategy resources.",
           url: "https://www.zosygo.com/elden-ring/tools",
           breadcrumb: {
             "@type": "BreadcrumbList",
@@ -191,9 +191,9 @@ export default function ToolsPage({ params }: { params: Promise<{ slug: string }
         {isEldenRing && (
           <>
             <section className="mt-16 border-t border-[#b8956a]/10 pt-12">
-              <h2 className="font-display text-2xl font-bold text-white">What Is the Elden Ring Build Calculator?</h2>
+              <h2 className="font-display text-2xl font-bold text-white">What Is the Elden Ring Build Planner?</h2>
               <p className="mt-4 text-base leading-relaxed text-zinc-400">
-                The Elden Ring Build Calculator is a free online tool that lets you plan and optimize your character build for Elden Ring.
+                The Elden Ring Build Planner is a free online tool that lets you plan and optimize your character build for Elden Ring.
                 With game-accurate formulas for stat calculations, weapon scaling, and equip load, you can experiment with different
                 stat allocations, weapons, and starting classes without respeccing in-game.
               </p>
@@ -206,7 +206,7 @@ export default function ToolsPage({ params }: { params: Promise<{ slug: string }
             </section>
 
             <section className="mt-12">
-              <h2 className="font-display text-2xl font-bold text-white">How To Use the Elden Ring Build Calculator</h2>
+              <h2 className="font-display text-2xl font-bold text-white">How To Use the Elden Ring Build Planner</h2>
               <ol className="mt-6 space-y-4">
                 <li className="flex gap-3">
                   <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#c9a227]/20 text-sm font-bold text-[#c9a227]">1</span>

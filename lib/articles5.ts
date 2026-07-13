@@ -30,7 +30,7 @@ const article52: Article = {
       heading: "Quick Decision Tree: Pick Your Starting Class in 30 Seconds",
       level: 2,
       content:
-        "**New player who doesn\u2019t know their build?**\n\u2192 **Vagabond** \u2014 Best shield, best HP, flexible into most physical builds.\n\n**Want to be a mage?**\n\u2192 Pure Int: **Astrologer** / Int/Dex spellblade: **Prisoner**\n\n**Want big weapons?**\n\u2192 Pure Strength: **Hero** / Str/Faith: **Confessor**\n\n**Want fast weapons and bleed?**\n\u2192 Dex: **Samurai** or **Warrior** / Arcane bleed: **Bandit**\n\n**Want Faith casting?**\n\u2192 Pure Faith: **Prophet** / Faith hybrid: **Confessor**\n\n**Building a PvP meta character (RL 125\u2013150)?**\n\u2192 Use a build calculator to check stat efficiency. Most versatile: **Samurai**.\n\nTest your class choice with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing.",
+        "**New player who doesn\u2019t know their build?**\n\u2192 **Vagabond** \u2014 Best shield, best HP, flexible into most physical builds.\n\n**Want to be a mage?**\n\u2192 Pure Int: **Astrologer** / Int/Dex spellblade: **Prisoner**\n\n**Want big weapons?**\n\u2192 Pure Strength: **Hero** / Str/Faith: **Confessor**\n\n**Want fast weapons and bleed?**\n\u2192 Dex: **Samurai** or **Warrior** / Arcane bleed: **Bandit**\n\n**Want Faith casting?**\n\u2192 Pure Faith: **Prophet** / Faith hybrid: **Confessor**\n\n**Building a PvP meta character (RL 125\u2013150)?**\n\u2192 Use a build planner to check stat efficiency. Most versatile: **Samurai**.\n\nTest your class choice with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing.",
     },
     {
       heading: "Should You Worry About Your Starting Class?",
@@ -183,7 +183,7 @@ const article52: Article = {
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Why Your Build Feels Weak" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ],
 };

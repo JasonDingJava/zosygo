@@ -120,7 +120,7 @@ const article27: Article = {
       heading: "Best Builds Against Fire Giant",
       level: 2,
       content:
-        "### Bleed Builds\\n\\nAdvantages:\\n\\n* Percentage-based damage\\n* Excellent performance against high health pools\\n\\nOne of the strongest choices for this fight.\\n\\n### Frost Builds\\n\\nAdvantages:\\n\\n* Large burst windows\\n* Consistent damage increase\\n\\nExcellent throughout both phases.\\n\\n### Strength Builds\\n\\nAdvantages:\\n\\n* Strong stagger potential\\n* Powerful punish attacks\\n\\nMost effective when targeting hands in Phase 2.\\n\\nFine-tune your Fire Giant build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference against his high-damage attacks.",
+        "### Bleed Builds\\n\\nAdvantages:\\n\\n* Percentage-based damage\\n* Excellent performance against high health pools\\n\\nOne of the strongest choices for this fight.\\n\\n### Frost Builds\\n\\nAdvantages:\\n\\n* Large burst windows\\n* Consistent damage increase\\n\\nExcellent throughout both phases.\\n\\n### Strength Builds\\n\\nAdvantages:\\n\\n* Strong stagger potential\\n* Powerful punish attacks\\n\\nMost effective when targeting hands in Phase 2.\\n\\nFine-tune your Fire Giant build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Vigor and damage balance makes a big difference against his high-damage attacks.",
     },
     {
       heading: "The Three Biggest Mistakes Players Make",
@@ -147,7 +147,7 @@ const article27: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Fire Giant" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -258,7 +258,7 @@ const article28: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Why can't I damage Rennala in Phase One?\n\nHer barrier must be broken first by defeating the correct glowing students.\n\n### How do I know which students are correct?\n\nLook for golden light, golden projectiles, and unique singing effects.\n\n### Is Rennala weak to Bleed?\n\nYes. Bleed performs very well throughout the encounter.\n\n### Should I fight Rennala's summons?\n\nUsually no. Maintaining pressure on Rennala is often more effective.\n\n### Why do Intelligence builds struggle against Rennala?\n\nRennala has strong magical resistance, making many spells less effective than usual.\n\n### What is the most important tip for this fight?\n\nUnderstand the mechanic first. Damage comes second. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your respec before visiting Rennala.",
+        "### Why can't I damage Rennala in Phase One?\n\nHer barrier must be broken first by defeating the correct glowing students.\n\n### How do I know which students are correct?\n\nLook for golden light, golden projectiles, and unique singing effects.\n\n### Is Rennala weak to Bleed?\n\nYes. Bleed performs very well throughout the encounter.\n\n### Should I fight Rennala's summons?\n\nUsually no. Maintaining pressure on Rennala is often more effective.\n\n### Why do Intelligence builds struggle against Rennala?\n\nRennala has strong magical resistance, making many spells less effective than usual.\n\n### What is the most important tip for this fight?\n\nUnderstand the mechanic first. Damage comes second. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your respec before visiting Rennala.",
     },
   ],
   internalLinks: [
@@ -267,7 +267,7 @@ const article28: Article = {
     { href: "/elden-ring/bosses/how-to-beat-fire-giant", anchorText: "How to Beat Fire Giant" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Builds" },
     { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -399,7 +399,7 @@ const article29: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds for Rykard" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/walkthroughs/complete-elden-ring-walkthrough", anchorText: "Elden Ring Complete Walkthrough" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -480,7 +480,7 @@ const article30: Article = {
       heading: "Best Stats For Bloodhound's Fang",
       level: 2,
       content:
-        "### Early Game\n\n* Vigor: priority\n* Strength: minimal requirement\n* Dexterity: moderate scaling\n\n### Mid Game\n\n* Dexterity becomes primary scaling stat\n* Strength remains secondary requirement\n\n### Key Insight\n\nThis weapon does not require extreme stat optimization to perform well.\n\nThat is part of its strength.\n\nPlan your Bloodhound's Fang stat allocation with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right STR/DEX balance maximizes its damage output.",
+        "### Early Game\n\n* Vigor: priority\n* Strength: minimal requirement\n* Dexterity: moderate scaling\n\n### Mid Game\n\n* Dexterity becomes primary scaling stat\n* Strength remains secondary requirement\n\n### Key Insight\n\nThis weapon does not require extreme stat optimization to perform well.\n\nThat is part of its strength.\n\nPlan your Bloodhound's Fang stat allocation with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right STR/DEX balance maximizes its damage output.",
     },
     {
       heading: "Best Bosses For Bloodhound's Fang",
@@ -531,7 +531,7 @@ const article30: Article = {
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
     { href: "/elden-ring/weapons/rivers-of-blood-guide", anchorText: "Rivers of Blood Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -618,7 +618,7 @@ const article31: Article = {
       heading: "Best Stats For Blasphemous Blade",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Faith (highest priority)\n* Strength (secondary)\n* Dexterity (support)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game stability\n\n### Build Type\n\n* Strength/Faith hybrid builds\n* PvE sustain builds\n\nFine-tune your Blasphemous Blade build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Faith/STR split and Vigor target make a huge difference in sustain effectiveness.",
+        "### Primary Scaling\n\n* Faith (highest priority)\n* Strength (secondary)\n* Dexterity (support)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game stability\n\n### Build Type\n\n* Strength/Faith hybrid builds\n* PvE sustain builds\n\nFine-tune your Blasphemous Blade build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Faith/STR split and Vigor target make a huge difference in sustain effectiveness.",
     },
     {
       heading: "Best Bosses For Blasphemous Blade",
@@ -675,7 +675,7 @@ const article31: Article = {
     { href: "/elden-ring/weapons/bloodhounds-fang-explained", anchorText: "Bloodhound's Fang vs Blasphemous Blade" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Faith/Strength Builds" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ]
 };
@@ -763,7 +763,7 @@ const article32: Article = {
       heading: "Best Stats For Rivers of Blood",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Arcane (highest priority)\n* Dexterity (secondary)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game consistency\n\n### Build Type\n\n* Bleed-focused Arcane builds\n* Hybrid Dex/Arc setups\n\nSet up your Rivers of Blood stat split with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane/Dex balance makes a massive difference in bleed proc speed.",
+        "### Primary Scaling\n\n* Arcane (highest priority)\n* Dexterity (secondary)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game consistency\n\n### Build Type\n\n* Bleed-focused Arcane builds\n* Hybrid Dex/Arc setups\n\nSet up your Rivers of Blood stat split with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane/Dex balance makes a massive difference in bleed proc speed.",
     },
     {
       heading: "Best Bosses For Rivers of Blood",
@@ -821,7 +821,7 @@ const article32: Article = {
     { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Rivers of Blood vs Malenia" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -908,7 +908,7 @@ const article33: Article = {
       heading: "Best Stats For Moonveil",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Intelligence (highest priority)\n* Dexterity (secondary)\n\n### Recommended Vigor\n\n* 30–40 early game\n* 40–50 mid game\n\n### Build Type\n\n* Pure Intelligence builds\n* Dex/INT hybrid builds\n\nPlan your Moonveil stat split with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right INT/DEX balance maximizes its Transient Moonlight burst damage.",
+        "### Primary Scaling\n\n* Intelligence (highest priority)\n* Dexterity (secondary)\n\n### Recommended Vigor\n\n* 30–40 early game\n* 40–50 mid game\n\n### Build Type\n\n* Pure Intelligence builds\n* Dex/INT hybrid builds\n\nPlan your Moonveil stat split with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right INT/DEX balance maximizes its Transient Moonlight burst damage.",
     },
     {
       heading: "Best Bosses For Moonveil",
@@ -960,7 +960,7 @@ const article33: Article = {
     { href: "/elden-ring/bosses/rennala-explained-hidden-mechanics", anchorText: "Moonveil vs Rennala" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/bosses/how-to-beat-godfrey", anchorText: "Moonveil vs Godfrey" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -1047,7 +1047,7 @@ const article34: Article = {
       heading: "Best Stats For Dark Moon Greatsword",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Intelligence (highest priority)\n* Strength (secondary requirement)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for endgame consistency\n\n### Build Type\n\n* Intelligence spellblade builds\n* Frost hybrid caster builds\n\nOptimize your Dark Moon Greatsword build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right INT/VIG split and STR investment make a huge difference in its beam damage output.",
+        "### Primary Scaling\n\n* Intelligence (highest priority)\n* Strength (secondary requirement)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for endgame consistency\n\n### Build Type\n\n* Intelligence spellblade builds\n* Frost hybrid caster builds\n\nOptimize your Dark Moon Greatsword build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right INT/VIG split and STR investment make a huge difference in its beam damage output.",
     },
     {
       heading: "Best Bosses For Dark Moon Greatsword",
@@ -1105,7 +1105,7 @@ const article34: Article = {
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/bosses/how-to-beat-fire-giant", anchorText: "Best Weapons for Fire Giant" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -1192,7 +1192,7 @@ const article35: Article = {
       heading: "Best Stats For Nagakiba",
       level: 2,
       content:
-        "### Dexterity Build\n\n* Primary scaling: Dexterity\n* Focus: weapon consistency and speed\n\n### Bleed Build\n\n* Primary scaling: Arcane + Dexterity\n* Focus: status effect stacking\n\n### Quality Build\n\n* Balanced STR/DEX\n* Focus: versatility\n\nSet up your Nagakiba stat allocation with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right DEX/ARC split maximizes both range pressure and bleed frequency.",
+        "### Dexterity Build\n\n* Primary scaling: Dexterity\n* Focus: weapon consistency and speed\n\n### Bleed Build\n\n* Primary scaling: Arcane + Dexterity\n* Focus: status effect stacking\n\n### Quality Build\n\n* Balanced STR/DEX\n* Focus: versatility\n\nSet up your Nagakiba stat allocation with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right DEX/ARC split maximizes both range pressure and bleed frequency.",
     },
     {
       heading: "Best Ashes Of War For Nagakiba",
@@ -1256,7 +1256,7 @@ const article35: Article = {
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Builds" },
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Builds" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Nagakiba vs Malenia" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 
@@ -1343,7 +1343,7 @@ const article36: Article = {
       heading: "Best Builds For Greatsword",
       level: 2,
       content:
-        "### Pure Strength Build\n\n* Maximum stagger output\n* High physical damage\n* Simple scaling path\n\n### Quality Build (STR/DEX)\n\n* More flexible weapon usage\n* Slightly faster recovery\n\n### Infusion Builds\n\n* Heavy infusion for raw damage\n* Fire/Lightning for situational scaling\n\nOptimize your Greatsword build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right STR investment and poise breakpoint make a massive difference in stagger consistency.",
+        "### Pure Strength Build\n\n* Maximum stagger output\n* High physical damage\n* Simple scaling path\n\n### Quality Build (STR/DEX)\n\n* More flexible weapon usage\n* Slightly faster recovery\n\n### Infusion Builds\n\n* Heavy infusion for raw damage\n* Fire/Lightning for situational scaling\n\nOptimize your Greatsword build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right STR investment and poise breakpoint make a massive difference in stagger consistency.",
     },
     {
       heading: "Best Ashes Of War For Greatsword",
@@ -1400,7 +1400,7 @@ const article36: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Strength Builds" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/bosses/how-to-beat-godfrey", anchorText: "Greatsword vs Godfrey" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ]
 };
 

@@ -22,15 +22,15 @@ function getLatestArticles(limit = 8) {
 
 const SITE_FAQ = [
   {
-    question: "What is the Elden Ring Build Calculator?",
-    answer: "The Elden Ring Build Calculator is a free online tool that lets you plan and optimize your character builds. Allocate stats, pick weapons, and see real-time Attack Rating calculations with game-accurate formulas including soft caps for Vigor, Mind, Endurance, and all damage stats.",
+    question: "What is the Elden Ring Build Planner?",
+    answer: "The Elden Ring Build Planner is a free online tool that lets you plan and optimize your character builds. Allocate stats, pick weapons, and see real-time Attack Rating calculations with game-accurate formulas including soft caps for Vigor, Mind, Endurance, and all damage stats.",
   },
   {
     question: "What is the best starting class in Elden Ring?",
     answer: "The best starting class depends on your build. Vagabond is the best all-rounder for new players with high HP and the best shield. For pure Strength builds, pick Hero. For Dexterity or bleed builds, Samurai or Bandit. For magic users, Astrologer (pure Int) or Prisoner (Int/Dex spellblade). Check our starting class guide for the complete breakdown.",
   },
   {
-    question: "How does the Build Calculator work?",
+    question: "How does the Build Planner work?",
     answer: "Select your starting class, adjust stat sliders from 1 to 99, choose up to 3 weapons with upgrade levels, and see instant results for HP, FP, Stamina, equip load, and weapon Attack Rating. The calculator uses game-accurate formulas for damage scaling and soft caps.",
   },
   {
@@ -43,7 +43,7 @@ const SITE_FAQ = [
   },
   {
     question: "Is Zosygo free to use?",
-    answer: "Yes, Zosygo is completely free. All build calculators, guides, walkthroughs, and wiki content are accessible without any subscription or account.",
+    answer: "Yes, Zosygo is completely free. All build planners, guides, walkthroughs, and wiki content are accessible without any subscription or account.",
   },
 ];
 
@@ -98,14 +98,14 @@ export default function HomePage() {
             </ol>
           </nav>
           <div className="max-w-3xl">
-            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a227]">{"Elden Ring Build Calculator & Guides"}</p>
-            <h1 className="font-display mt-5 text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">{"Elden Ring Build Calculator, Starting Class Guide & Boss Strategies"}</h1>
+            <p className="text-xs font-bold uppercase tracking-[0.25em] text-[#c9a227]">{"Elden Ring Build Planner & Guides"}</p>
+            <h1 className="font-display mt-5 text-4xl font-bold leading-[1.1] tracking-tight text-white sm:text-5xl lg:text-6xl">{"Elden Ring Build Planner, Starting Class Guide & Boss Strategies"}</h1>
             <p className="mt-6 max-w-2xl text-base leading-relaxed text-zinc-400 sm:text-lg">
-              {"Plan your perfect Elden Ring build with our free Build Calculator. Explore the best starting class for your playstyle, compare weapon stats, master boss strategies, and follow detailed walkthroughs. Zosygo is the ultimate tool hub for every Tarnished in the Lands Between."}
+              {"Plan your perfect Elden Ring build with our free Build Planner. Explore the best starting class for your playstyle, compare weapon stats, master boss strategies, and follow detailed walkthroughs. Zosygo is the ultimate tool hub for every Tarnished in the Lands Between."}
             </p>
             <div className="mt-10 flex flex-col gap-4 sm:flex-row sm:items-center">
               <Link href="/elden-ring/tools/build-calculator" className="inline-flex h-14 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-10 text-base font-bold uppercase tracking-wider text-black shadow-[0_0_40px_rgba(251,191,36,0.4)] transition-all hover:scale-[1.02] hover:shadow-[0_0_50px_rgba(251,191,36,0.6)]">
-                ⚔️ Elden Ring Build Calculator
+                ⚔️ Elden Ring Build Planner
               </Link>
               <Link href="/elden-ring/walkthroughs/best-starting-class-guide" className="inline-flex h-12 items-center justify-center rounded-sm border border-[#b8956a]/30 px-8 text-sm font-semibold uppercase tracking-wider text-[#e8d5a3] transition-colors hover:border-[#c9a227]/50 hover:bg-[#c9a227]/5">{"Best Starting Class Guide"}</Link>
               <Link href="/elden-ring" className="inline-flex h-12 items-center justify-center rounded-sm border border-[#b8956a]/30 px-8 text-sm font-semibold uppercase tracking-wider text-zinc-500 transition-colors hover:border-[#c9a227]/50 hover:text-[#e8d5a3]">{"Explore All Guides"}</Link>
@@ -210,9 +210,9 @@ export default function HomePage() {
       <section className="border-t border-[#b8956a]/10 bg-[#050508]">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl">
-            <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">Elden Ring Build Calculator — Plan Your Perfect Build</h2>
+            <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">Elden Ring Build Planner — Plan Your Perfect Build</h2>
             <p className="mt-6 text-base leading-relaxed text-zinc-400">
-              The Elden Ring Build Calculator lets you plan, optimize, and share your character builds with game-accurate formulas. Whether you are building a <Link href="/elden-ring" className="text-[#c9a227] underline-offset-2 hover:underline">Pure Strength tank</Link>, a Dexterity bleed build, or an Intelligence mage, our calculator gives you precise stat outputs, weapon Attack Rating, equip load analysis, and soft cap warnings.
+              The Elden Ring Build Planner lets you plan, optimize, and share your character builds with game-accurate formulas. Whether you are building a <Link href="/elden-ring" className="text-[#c9a227] underline-offset-2 hover:underline">Pure Strength tank</Link>, a Dexterity bleed build, or an Intelligence mage, our calculator gives you precise stat outputs, weapon Attack Rating, equip load analysis, and soft cap warnings.
             </p>
             <div className="mt-10 grid gap-6 sm:grid-cols-2">
               <div className="rounded-sm border border-white/10 bg-[#12121a] p-6">
@@ -240,7 +240,7 @@ export default function HomePage() {
                   <div className="flex items-center gap-3">
                     <span className="text-xl">⚔️</span>
                     <div>
-                      <span className="text-base font-semibold text-[#e8d5a3] group-hover:text-white">Elden Ring Build Calculator</span>
+                      <span className="text-base font-semibold text-[#e8d5a3] group-hover:text-white">Elden Ring Build Planner</span>
                       <p className="mt-0.5 text-sm text-zinc-500">Plan and optimize your character build with real-time stat calculations. Choose your starting class, allocate stats, compare weapons.</p>
                     </div>
                   </div>
@@ -265,14 +265,14 @@ export default function HomePage() {
                   <p className="mt-1 text-sm text-zinc-500">Complete breakdown of all 10 starting classes with stat efficiency math. Find out which class saves you wasted levels and which is optimal for your build.</p>
                   <div className="mt-2 flex flex-wrap gap-2">
                     <Link href="/elden-ring/walkthroughs/best-starting-class-guide" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Read Guide</Link>
-                    <Link href="/elden-ring/tools/build-calculator" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Build Calculator</Link>
+                    <Link href="/elden-ring/tools/build-calculator" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Build Planner</Link>
                   </div>
                 </div>
                 <div className="rounded-sm border border-white/10 bg-[#12121a] p-4">
                   <Link href="/elden-ring/builds" className="text-base font-semibold text-[#c9a227] hover:underline">Elden Ring Builds</Link>
                   <p className="mt-1 text-sm text-zinc-500">Meta builds for every playstyle — Strength, Dexterity, Intelligence, Faith, Arcane, and hybrid builds. Bleed builds, Intelligence builds, Paladin builds, and more.</p>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    <Link href="/elden-ring/tools/build-calculator" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Build Calculator</Link>
+                    <Link href="/elden-ring/tools/build-calculator" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Build Planner</Link>
                     <Link href="/elden-ring/builds" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">All Builds</Link>
                   </div>
                 </div>
@@ -287,7 +287,7 @@ export default function HomePage() {
                   <Link href="/elden-ring/weapons" className="text-base font-semibold text-[#c9a227] hover:underline">Elden Ring Weapons</Link>
                   <p className="mt-1 text-sm text-zinc-500">Weapon guides covering Moonveil, Rivers of Blood, Bloodhound's Fang, Dark Moon Greatsword, and more. Learn about bleed, frost, poison, and all status effects.</p>
                   <div className="mt-2 flex flex-wrap gap-2">
-                    <Link href="/elden-ring/tools/build-calculator" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Build Calculator</Link>
+                    <Link href="/elden-ring/tools/build-calculator" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">Build Planner</Link>
                     <Link href="/elden-ring/weapons" className="text-xs font-medium text-zinc-400 underline-offset-2 hover:text-white hover:underline">All Weapons</Link>
                   </div>
                 </div>
@@ -300,9 +300,9 @@ export default function HomePage() {
       {/* Homepage FAQ Section */}
       <section id="faq" className="scroll-mt-24 border-t border-[#b8956a]/10 bg-[#050508]">
         <div className="mx-auto max-w-3xl px-4 py-16 sm:px-6 lg:px-8">
-          <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">Elden Ring Build Calculator — FAQ</h2>
+          <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">Elden Ring Build Planner — FAQ</h2>
           <p className="mt-3 text-sm leading-relaxed text-zinc-500">
-            Answers to common questions about Elden Ring builds, starting classes, weapons, and the Zosygo Build Calculator.
+            Answers to common questions about Elden Ring builds, starting classes, weapons, and the Zosygo Build Planner.
           </p>
           <div className="mt-8 space-y-4">
             {SITE_FAQ.map((item, i) => (
@@ -327,10 +327,10 @@ export default function HomePage() {
         <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center rounded-sm border border-[#b8956a]/20 bg-[#0a0a0f] px-6 py-12 text-center sm:px-12">
             <h2 className="font-display text-2xl font-bold text-white sm:text-3xl">Ready to Optimize Your Build?</h2>
-            <p className="mt-4 max-w-xl text-sm text-zinc-500 sm:text-base">Plan your perfect Elden Ring build with the Build Calculator. Try the presets or create your own from scratch.</p>
+            <p className="mt-4 max-w-xl text-sm text-zinc-500 sm:text-base">Plan your perfect Elden Ring build with the Build Planner. Try the presets or create your own from scratch.</p>
             <nav aria-label={"Elden Ring Tools"} className="mt-8 flex flex-wrap justify-center gap-3">
               <Link href="/elden-ring/tools/build-calculator" className="rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-6 py-3 text-sm font-bold uppercase tracking-wider text-black shadow-[0_0_30px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]">
-                Open Build Calculator
+                Open Build Planner
               </Link>
               <Link href="/elden-ring" className="rounded-sm border border-[#b8956a]/30 px-6 py-3 text-sm font-semibold uppercase tracking-wider text-[#e8d5a3] transition-colors hover:border-[#c9a227]/50">
                 Explore Elden Ring Hub

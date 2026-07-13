@@ -374,13 +374,13 @@ export default function RuneLevelClient() {
         </div>
       </Section>
 
-      {/* ═══ Build Calculator CTA ═══ */}
+      {/* ═══ Build Planner CTA ═══ */}
       <Section title="Plan Your Stats" className="mb-6">
         <div className="flex flex-col items-center gap-3 text-center sm:flex-row sm:justify-between sm:text-left">
           <div>
             <p className="text-sm text-gray-300">
               Now that you know how many runes you need, use the{" "}
-              <strong className="text-yellow-400">Build Calculator</strong> to plan your stat allocation.
+              <strong className="text-yellow-400">Build Planner</strong> to plan your stat allocation.
             </p>
             <p className="mt-1 text-xs text-gray-500">
               Set Vigor, Endurance, Strength, Dexterity, Intelligence — see exact damage and defense numbers.
@@ -393,7 +393,7 @@ export default function RuneLevelClient() {
             href="/elden-ring/tools/build-calculator"
             className="shrink-0 rounded bg-gradient-to-r from-amber-500 to-yellow-500 px-6 py-2.5 text-sm font-bold text-black transition hover:scale-[1.02]"
           >
-            Open Build Calculator →
+            Open Build Planner →
           </a>
         </div>
       </Section>

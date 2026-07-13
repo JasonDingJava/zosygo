@@ -84,7 +84,7 @@ const article37: Article = {
       heading: "Level 150 Build (End Game)",
       level: 3,
       content:
-        "| Stat | Value |\\n| Vigor | 55 |\\n| Mind | 25 |\\n| Endurance | 25 |\\n| Strength | 5 |\\n| Dexterity | 30 |\\n| Intelligence | 9 |\\n| Faith | 8 |\\n| Arcane | 60 |\\n\\n**Starting Class:** Bandit\\n**Focus:** Max bleed + skill damage, endgame viable\\n\\nFine-tune your exact stats with the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane investment dramatically increases both bleed speed and skill damage.",
+        "| Stat | Value |\\n| Vigor | 55 |\\n| Mind | 25 |\\n| Endurance | 25 |\\n| Strength | 5 |\\n| Dexterity | 30 |\\n| Intelligence | 9 |\\n| Faith | 8 |\\n| Arcane | 60 |\\n\\n**Starting Class:** Bandit\\n**Focus:** Max bleed + skill damage, endgame viable\\n\\nFine-tune your exact stats with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane investment dramatically increases both bleed speed and skill damage.",
     },
     {
       heading: "Best Talismans for Reduvia",
@@ -167,7 +167,7 @@ const article37: Article = {
     { href: "/elden-ring/weapons/uchigatana-guide", anchorText: "Uchigatana Guide" },
     { href: "/elden-ring/builds/arcane-soft-caps", anchorText: "Arcane Soft Caps Explained" },
     { href: "/elden-ring/builds/bleed-build-explained", anchorText: "Bleed Build Explained" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "Malenia Boss Guide" },
   ],
@@ -257,7 +257,7 @@ const article38: Article = {
       heading: "Best Stats For Eleonora's Poleblade",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Arcane (highest priority)\n* Dexterity (secondary)\n\n### Recommended Vigor\n\n* 35–45 mid game\n* 50+ late game\n\n### Build Type\n\n* Arcane bleed builds\n* Dex/Arc hybrid builds\n\nFine-tune your Eleonora's Poleblade stat split with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane/Dex balance maximizes bleed proc speed and skill damage.",
+        "### Primary Scaling\n\n* Arcane (highest priority)\n* Dexterity (secondary)\n\n### Recommended Vigor\n\n* 35–45 mid game\n* 50+ late game\n\n### Build Type\n\n* Arcane bleed builds\n* Dex/Arc hybrid builds\n\nFine-tune your Eleonora's Poleblade stat split with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Arcane/Dex balance maximizes bleed proc speed and skill damage.",
     },
     {
       heading: "Best Bosses For Eleonora's Poleblade",
@@ -308,7 +308,7 @@ const article38: Article = {
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Builds" },
     { href: "/elden-ring/builds/why-your-bleed-build-feels-weak", anchorText: "Optimizing Bleed Builds" },
     { href: "/elden-ring/bosses/how-to-beat-fire-giant", anchorText: "Best Weapons for Fire Giant" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -395,7 +395,7 @@ const article39: Article = {
       heading: "Best Stats For Bolt of Gransax",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Dexterity (base spear scaling)\n* Faith (lightning amplification)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game stability\n\n### Build Type\n\n* Lightning Faith/Dex hybrid builds\n* Dragon lightning themed builds\n\nSet up your Bolt of Gransax lightning build with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Faith/Dex split maximizes Ancient Lightning Spear burst damage.",
+        "### Primary Scaling\n\n* Dexterity (base spear scaling)\n* Faith (lightning amplification)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game stability\n\n### Build Type\n\n* Lightning Faith/Dex hybrid builds\n* Dragon lightning themed builds\n\nSet up your Bolt of Gransax lightning build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Faith/Dex split maximizes Ancient Lightning Spear burst damage.",
     },
     {
       heading: "Best Bosses For Bolt of Gransax",
@@ -446,7 +446,7 @@ const article39: Article = {
     { href: "/elden-ring/builds/best-faith-build", anchorText: "Best Faith Builds" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Builds" },
     { href: "/elden-ring/bosses/how-to-beat-maliketh", anchorText: "Best Weapons for Maliketh" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -545,7 +545,7 @@ const article40: Article = {
       heading: "How To Build Around Poise",
       level: 2,
       content:
-        "### Strength Builds\n\n* Naturally benefit most from poise\n* Designed for trading hits\n\n### Hybrid Builds\n\n* Moderate poise investment\n* Balanced mobility and defense\n\n### Dex Builds\n\n* Usually low poise\n* Focus on avoiding hits instead of trading\n\nPlan your poise strategy with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right stat allocation and armor loadout make a massive difference in stagger consistency.",
+        "### Strength Builds\n\n* Naturally benefit most from poise\n* Designed for trading hits\n\n### Hybrid Builds\n\n* Moderate poise investment\n* Balanced mobility and defense\n\n### Dex Builds\n\n* Usually low poise\n* Focus on avoiding hits instead of trading\n\nPlan your poise strategy with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right stat allocation and armor loadout make a massive difference in stagger consistency.",
     },
     {
       heading: "Why Poise Is Essential For Understanding Elden Ring Combat",
@@ -572,7 +572,7 @@ const article40: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/bosses/how-to-beat-godfrey", anchorText: "Greatsword vs Godfrey" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -657,7 +657,7 @@ const article41: Article = {
       heading: "Best Builds For Stance Break",
       level: 2,
       content:
-        "Some builds are naturally better at stance break than others. Here is the ranking.\n\n### 1. Pure Strength Build (Best)\n\n* 60-80 Strength\n* Giant-Crusher or Greatsword\n* Lion's Claw or Giant Hunt AoW\n* Claw Talisman + Dagger Talisman\n* Can stance break any boss in 3-4 hits\n\n### 2. Quality Build\n\n* 50 Strength / 50 Dexterity\n* Zweihander or Claymore\n* Balanced pressure and mobility\n\n### 3. Strength-Faith Hybrid\n\n* 50 Strength / 40 Faith\n* Golden Vow + Flame Grant Me Strength\n* Cragblade for bonus posture damage\n\n### 4. Pure Dexterity (Weakest for Stance)\n\n* Requires Unsheathe or Square Off to compensate\n* Low base posture damage on Dex weapons\n\n> Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stance break build.",
+        "Some builds are naturally better at stance break than others. Here is the ranking.\n\n### 1. Pure Strength Build (Best)\n\n* 60-80 Strength\n* Giant-Crusher or Greatsword\n* Lion's Claw or Giant Hunt AoW\n* Claw Talisman + Dagger Talisman\n* Can stance break any boss in 3-4 hits\n\n### 2. Quality Build\n\n* 50 Strength / 50 Dexterity\n* Zweihander or Claymore\n* Balanced pressure and mobility\n\n### 3. Strength-Faith Hybrid\n\n* 50 Strength / 40 Faith\n* Golden Vow + Flame Grant Me Strength\n* Cragblade for bonus posture damage\n\n### 4. Pure Dexterity (Weakest for Stance)\n\n* Requires Unsheathe or Square Off to compensate\n* Low base posture damage on Dex weapons\n\n> Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stance break build.",
     },
     {
       heading: "Stance Break In PvE (Boss Strategy)",
@@ -714,7 +714,7 @@ const article41: Article = {
     { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Builds" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/bosses/how-to-beat-margit-the-fell-omen", anchorText: "Stance Break vs Margit" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -948,7 +948,7 @@ const article42: Article = {
     { href: "/elden-ring/weapons/moonveil-katana-explained", anchorText: "Moonveil Scaling" },
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Scaling" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
   ],
 };
@@ -1243,7 +1243,7 @@ const article43: Article = {
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Ashes of War" },
     { href: "/elden-ring/weapons/nagakiba-explained", anchorText: "Nagakiba Ashes of War" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -1480,7 +1480,7 @@ const article44: Article = {
       heading: "What Rune Farming Teaches Players",
       level: 2,
       content:
-        "Rune farming highlights a core Elden Ring principle:\n\nProgress is not only about skill.\n\nIt is also about efficiency.\n\nPlayers who understand efficient rune generation gain access to:\n\n* Better builds\n* More experimentation\n* Faster progression\n\nWithout increasing difficulty. Use the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how each level improves your character before you farm.",
+        "Rune farming highlights a core Elden Ring principle:\n\nProgress is not only about skill.\n\nIt is also about efficiency.\n\nPlayers who understand efficient rune generation gain access to:\n\n* Better builds\n* More experimentation\n* Faster progression\n\nWithout increasing difficulty. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how each level improves your character before you farm.",
     },
     {
       heading: "FAQ",
@@ -1495,7 +1495,7 @@ const article44: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/builds/why-your-build-feels-weak", anchorText: "Build Optimization Tips" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -1714,7 +1714,7 @@ const article45: Article = {
       heading: "Why This Route Works",
       level: 2,
       content:
-        "The route focuses on the three resources that matter most:\n\n### Survivability\n\n* Vigor\n* Flask upgrades\n\n### Damage\n\n* Weapon upgrades\n* Build specialization\n\n### Efficiency\n\n* Exploration\n* Resource collection\n* Smart progression\n\nMost early-game difficulty disappears once these systems are optimized. Plan your early game stat priority with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        "The route focuses on the three resources that matter most:\n\n### Survivability\n\n* Vigor\n* Flask upgrades\n\n### Damage\n\n* Weapon upgrades\n* Build specialization\n\n### Efficiency\n\n* Exploration\n* Resource collection\n* Smart progression\n\nMost early-game difficulty disappears once these systems are optimized. Plan your early game stat priority with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
     {
       heading: "FAQ",
@@ -1729,7 +1729,7 @@ const article45: Article = {
     { href: "/elden-ring/weapons/bloodhounds-fang-explained", anchorText: "Bloodhound's Fang" },
     { href: "/elden-ring/weapons/reduvia-dagger-explained", anchorText: "Reduvia Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -1951,7 +1951,7 @@ const article46: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Intelligence Build Guide" },
     { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
 };
 
@@ -2003,7 +2003,7 @@ const article47: Article = {
       heading: "Why Is Level 150 the Most Popular Endgame Level?",
       level: 2,
       content:
-        "### Better Survivability\n\nMost endgame builds benefit from:\n\n* 50–60 Vigor\n* Higher Endurance\n* Additional Mind for Ashes of War and spells\n\nAt lower levels, players often sacrifice survivability for damage.\n\n### Build Flexibility\n\nLevel 150 allows players to:\n\n* Reach key soft caps\n* Meet weapon requirements\n* Run hybrid builds\n* Use stronger DLC equipment\n\nPlan your stat allocation for these goals with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).\n\n### Ideal for Shadow of the Erdtree\n\nMany players entering the DLC below Level 120 struggle with damage and survivability.\n\nLevel 150 offers a much smoother experience without feeling excessively overleveled.",
+        "### Better Survivability\n\nMost endgame builds benefit from:\n\n* 50–60 Vigor\n* Higher Endurance\n* Additional Mind for Ashes of War and spells\n\nAt lower levels, players often sacrifice survivability for damage.\n\n### Build Flexibility\n\nLevel 150 allows players to:\n\n* Reach key soft caps\n* Meet weapon requirements\n* Run hybrid builds\n* Use stronger DLC equipment\n\nPlan your stat allocation for these goals with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).\n\n### Ideal for Shadow of the Erdtree\n\nMany players entering the DLC below Level 120 struggle with damage and survivability.\n\nLevel 150 offers a much smoother experience without feeling excessively overleveled.",
     },
     {
       heading: "Is Level 150 Better Than Level 125?",
@@ -2027,13 +2027,13 @@ const article47: Article = {
       heading: "Recommended Stats for a Level 150 Character",
       level: 2,
       content:
-        "Most optimized builds at Level 150 aim for:\n\n| Attribute | Typical Range |\n| ---------------- | ------------- |\n| Vigor | 50–60 |\n| Mind | 15–30 |\n| Endurance | 20–35 |\n| Main Damage Stat | 60–80 |\n\nThe exact distribution depends on your build type.\n\nPopular Level 150 builds include:\n\n* Bleed Builds\n* Intelligence Builds\n* Faith Builds\n* Strength Builds\n* Dexterity Builds\n\n### Best Level 150 Build Examples\n\nHere are three of the most effective Level 150 stat spreads in the current meta.\n\n**Bleed Build**\n\n| Stat | Value |\n| ---- | ----- |\n| Vigor | 60 |\n| Endurance | 25 |\n| Dexterity | 50 |\n| Arcane | 50 |\n\n50 Dexterity and 50 Arcane hit the first soft caps for both damage and bleed buildup, while 60 Vigor maximizes survivability. This spread works perfectly with Rivers of Blood + Uchigatana power-stance or dual Scavenger’s Curved Swords with Seppuku.\n\n**Moonveil Intelligence Build**\n\n| Stat | Value |\n| ---- | ----- |\n| Vigor | 55 |\n| Mind | 25 |\n| Endurance | 20 |\n| Dexterity | 18 |\n| Intelligence | 70 |\n\nMoonveil only needs 18 Dexterity for its minimum requirement, freeing points for 70 Intelligence. This lets Transient Moonlight hit hard while leaving room for Carian Regal Scepter sorceries. 25 Mind provides 6+ weapon art casts per flask.\n\n**Strength/Faith Hybrid**\n\n| Stat | Value |\n| ---- | ----- |\n| Vigor | 55 |\n| Endurance | 30 |\n| Strength | 54 |\n| Faith | 50 |\n\n54 Strength (81 effective when two-handing) hits the first soft cap, while 50 Faith enables Blasphemous Blade, Clawmark Seal incantations, and Golden Vow. 30 Endurance lets you wear Tree Sentinel or Banished Knight armor for solid poise.\n\nTest your planned stat distribution with the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears.",
+        "Most optimized builds at Level 150 aim for:\n\n| Attribute | Typical Range |\n| ---------------- | ------------- |\n| Vigor | 50–60 |\n| Mind | 15–30 |\n| Endurance | 20–35 |\n| Main Damage Stat | 60–80 |\n\nThe exact distribution depends on your build type.\n\nPopular Level 150 builds include:\n\n* Bleed Builds\n* Intelligence Builds\n* Faith Builds\n* Strength Builds\n* Dexterity Builds\n\n### Best Level 150 Build Examples\n\nHere are three of the most effective Level 150 stat spreads in the current meta.\n\n**Bleed Build**\n\n| Stat | Value |\n| ---- | ----- |\n| Vigor | 60 |\n| Endurance | 25 |\n| Dexterity | 50 |\n| Arcane | 50 |\n\n50 Dexterity and 50 Arcane hit the first soft caps for both damage and bleed buildup, while 60 Vigor maximizes survivability. This spread works perfectly with Rivers of Blood + Uchigatana power-stance or dual Scavenger’s Curved Swords with Seppuku.\n\n**Moonveil Intelligence Build**\n\n| Stat | Value |\n| ---- | ----- |\n| Vigor | 55 |\n| Mind | 25 |\n| Endurance | 20 |\n| Dexterity | 18 |\n| Intelligence | 70 |\n\nMoonveil only needs 18 Dexterity for its minimum requirement, freeing points for 70 Intelligence. This lets Transient Moonlight hit hard while leaving room for Carian Regal Scepter sorceries. 25 Mind provides 6+ weapon art casts per flask.\n\n**Strength/Faith Hybrid**\n\n| Stat | Value |\n| ---- | ----- |\n| Vigor | 55 |\n| Endurance | 30 |\n| Strength | 54 |\n| Faith | 50 |\n\n54 Strength (81 effective when two-handing) hits the first soft cap, while 50 Faith enables Blasphemous Blade, Clawmark Seal incantations, and Golden Vow. 30 Endurance lets you wear Tree Sentinel or Banished Knight armor for solid poise.\n\nTest your planned stat distribution with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears.",
     },
     {
       heading: "Have You Already Passed Important Soft Caps?",
       level: 2,
       content:
-        "Many players continue leveling without realizing they've already reached diminishing returns. Before spending millions of additional runes, check whether you've already hit the key soft cap breakpoints:\n\n| Attribute | First Soft Cap | Hard Cap | Notes |\n| --------- | -------------- | -------- | ----- |\n| Vigor | 40 | 60 | 40 = 1,450 HP, 60 = 1,900 HP — diminishing after 60 |\n| Strength | 54 (two-hand) | 80 | Two-handing at 54 STR gives 99 effective STR |\n| Dexterity | 55 | 80 | Also boosts casting speed up to 70 |\n| Intelligence | 60 | 80 | Split soft caps at 60 and 80 for sorcery scaling |\n| Faith | 60 | 80 | Similar curve to INT for incantation scaling |\n| Arcane | 60 | 80 | Affects bleed buildup and Occult scaling |\n\nIf your primary damage stat is already at 80, pushing it to 99 costs 19 levels for single-digit AR gains. Those levels are far better spent on Endurance for heavier armor or Mind for more FP. Understanding these breakpoints can dramatically improve build efficiency.\n\nCheck your current stat distribution against these caps using the [Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) before spending millions of runes.",
+        "Many players continue leveling without realizing they've already reached diminishing returns. Before spending millions of additional runes, check whether you've already hit the key soft cap breakpoints:\n\n| Attribute | First Soft Cap | Hard Cap | Notes |\n| --------- | -------------- | -------- | ----- |\n| Vigor | 40 | 60 | 40 = 1,450 HP, 60 = 1,900 HP — diminishing after 60 |\n| Strength | 54 (two-hand) | 80 | Two-handing at 54 STR gives 99 effective STR |\n| Dexterity | 55 | 80 | Also boosts casting speed up to 70 |\n| Intelligence | 60 | 80 | Split soft caps at 60 and 80 for sorcery scaling |\n| Faith | 60 | 80 | Similar curve to INT for incantation scaling |\n| Arcane | 60 | 80 | Affects bleed buildup and Occult scaling |\n\nIf your primary damage stat is already at 80, pushing it to 99 costs 19 levels for single-digit AR gains. Those levels are far better spent on Endurance for heavier armor or Mind for more FP. Understanding these breakpoints can dramatically improve build efficiency.\n\nCheck your current stat distribution against these caps using the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before spending millions of runes.",
     },
     {
       heading: "Should You Stop Leveling at 150?",
@@ -2050,7 +2050,7 @@ const article47: Article = {
   ],
   internalLinks: [
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Elden Ring Rune Level Calculator" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Elden Ring Builds" },
   ],
