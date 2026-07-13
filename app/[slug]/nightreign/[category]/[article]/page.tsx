@@ -383,13 +383,13 @@ export default async function ArticlePage({ params }: Props) {
             <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <h3 className="text-base font-bold text-white">⚔️ Try the Elden Ring Build Planner</h3>
-                <p className="mt-1 text-sm text-zinc-400">Plan your perfect build with real-time stat calculations and weapon AR comparisons.</p>
+                <p className="mt-1 text-sm text-zinc-400">Create, optimize, and share your perfect Elden Ring build. Plan your stats, weapons, armor, talismans, and spells with real-time calculations.</p>
               </div>
               <Link
                 href="/elden-ring/tools/build-calculator"
                 className="inline-flex h-10 shrink-0 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-6 text-sm font-bold uppercase tracking-wider text-black shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]"
               >
-                Open Calculator
+                Open Build Planner
               </Link>
             </div>
           </section>
