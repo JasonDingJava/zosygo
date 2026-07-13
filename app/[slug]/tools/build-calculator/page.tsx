@@ -779,7 +779,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
         {/* Header */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Planner 2026 – Create, Optimize &amp; Share Builds{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
+            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Planner &amp; Build Calculator{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
             <button
               onClick={function() {
                 setStats({vigor:30,mind:12,endurance:20,strength:16,dexterity:14,intelligence:10,faith:10,arcane:8});
@@ -796,7 +796,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               <span>Reset Build</span>
             </button>
           </div>
-          <p className="mt-1 text-gray-400">Create the best Elden Ring builds with real-time stat optimization. Plan your stats, weapons, armor, talismans, and spells, compare damage output, and share your builds instantly.</p>
+          <p className="mt-1 text-gray-400">Create, optimize, and share Elden Ring builds with real-time stat calculations. Plan your weapons, armor, talismans, spells, and attributes while comparing damage output and Attack Rating.</p>
         </div>
 
         {/* Popular Builds — collapsible, default collapsed */}
