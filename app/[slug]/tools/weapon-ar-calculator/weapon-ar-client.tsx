@@ -145,8 +145,8 @@ export default function WeaponARPage() {
       </nav>
 
       <div className="mb-6">
-            <h1 className="font-display text-2xl font-bold text-white">Elden Ring Weapon AR Calculator &amp; Damage Scaling Tool</h1>
-            <p className="mt-2 text-sm leading-relaxed text-zinc-500">Use as a Damage Calculator, Weapon Scaling Calculator, and AR comparison tool. Compare all 123 weapons and find the best weapon damage setup for your build.</p>
+            <h1 className="font-display text-2xl font-bold text-white">Elden Ring Weapon AR Calculator</h1>
+            <p className="mt-2 text-sm leading-relaxed text-zinc-500">Calculate Elden Ring weapon Attack Rating, damage output, and scaling efficiency. Compare weapons, stats, upgrades, and infusions to find the strongest build for your character.</p>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[280px_1fr]">
@@ -286,80 +286,254 @@ export default function WeaponARPage() {
     <div className="mx-auto max-w-4xl px-4 py-16 border-t border-[#b8956a]/10">
 
       <section className="pt-12">
-        <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Weapon AR Calculator &amp; Damage Scaling Tool?</h2>
+        <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Weapon AR Calculator?</h2>
         <p className="mt-4 text-base leading-relaxed text-zinc-400">
-          The Elden Ring Weapon AR Calculator &amp; Damage Scaling Tool is a free online tool that shows you the Attack Rating (AR) for every
-          weapon in the game. Use it as a Damage Calculator to compare raw damage output, or as a Weapon Scaling Calculator
-          to see exactly how your stat allocation affects each weapon&apos;s performance. Whether you&apos;re optimizing a
-          Moonveil build, checking the best weapon damage setup for a pure STR build, or comparing scaling between
-          katanas and greatswords, this tool gives you instant, game-accurate results. AR represents a weapon&apos;s raw damage output before enemy defenses, damage negation,
-          and absorption. By adjusting your character&apos;s stats, upgrade level, and two-handing status, you can
-          instantly see how much physical, magic, fire, lightning, and holy damage each weapon deals. This makes
-          it easy to compare weapons side by side and find the best option for your build without respeccing
-          in-game. It uses game-accurate formulas including correct scaling curves, soft caps, and upgrade
-          multipliers for all 123 weapons.
+          The <strong>Elden Ring Weapon AR Calculator</strong> is a free tool that helps players compare weapon damage and optimize their Attack Rating (AR). Test different Strength, Dexterity, Intelligence, Faith, and Arcane setups to find the highest-performing weapons for your build.
+        </p>
+        <p className="mt-4 text-base leading-relaxed text-zinc-400">
+          The tool calculates weapon AR using Elden Ring&apos;s actual scaling mechanics, including:
+        </p>
+        <ul className="mt-2 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+          <li>Weapon base damage</li>
+          <li>Stat scaling bonuses</li>
+          <li>Upgrade levels (+0 to +25)</li>
+          <li>Smithing Stone upgrades</li>
+          <li>Two-handed Strength bonuses</li>
+          <li>Soft cap diminishing returns</li>
+        </ul>
+        <p className="mt-4 text-base leading-relaxed text-zinc-400">
+          Instead of guessing which weapon is stronger, you can instantly compare weapons and find the best option for your character level and playstyle.
         </p>
       </section>
 
-      <section className="mt-12 border-t border-[#b8956a]/10 pt-12">
-        <h2 className="text-2xl font-bold text-white">How Does Weapon Scaling Work?</h2>
-        <p className="mt-4 text-base leading-relaxed text-zinc-400">
-          Each weapon in Elden Ring has scaling values for Strength (STR), Dexterity (DEX), Intelligence (INT),
-          Faith (FAI), and Arcane (ARC). The scaling letter grade (S/A/B/C/D/E) tells you how much bonus damage you
-          get from that stat. S scaling gives the highest bonus (up to 175% at 99), E the lowest. When you level up
-          a stat, the weapon&apos;s AR increases based on its scaling coefficient for that stat. Two-handing
-          multiplies your STR by 1.5x, which can significantly boost damage for STR-scaling weapons and even let
-          you meet strength requirements with fewer points invested. The calculator applies all these formulas in
-          real time using the same data mined from the game files.
-        </p>
+            <section className="mt-12 border-t border-[#b8956a]/10 pt-12">
+        <h2 className="text-2xl font-bold text-white">How To Use the Elden Ring Weapon AR Calculator</h2>
+
+        <div className="mt-6">
+          <h3 className="text-lg font-semibold text-white">1. Adjust Your Character Stats</h3>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Set your:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Strength (STR)</li>
+            <li>Dexterity (DEX)</li>
+            <li>Intelligence (INT)</li>
+            <li>Faith (FAI)</li>
+            <li>Arcane (ARC)</li>
+          </ul>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Each stat affects weapon damage differently depending on the weapon&apos;s scaling.
+          </p>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            For example:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Greatswords usually benefit from Strength</li>
+            <li>Katanas often scale with Dexterity</li>
+            <li>Sorcery weapons benefit from Intelligence</li>
+            <li>Bleed weapons often benefit from Arcane</li>
+          </ul>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            The calculator automatically applies Elden Ring soft cap mechanics to show realistic damage gains.
+          </p>
+        </div>
+
+        <hr className="my-6 border-[#b8956a]/10" />
+
+        <div>
+          <h3 className="text-lg font-semibold text-white">2. Select Weapon Upgrade Level</h3>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Choose the weapon upgrade level:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Normal weapons: +0 to +25</li>
+            <li>Special weapons: +0 to +10</li>
+          </ul>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Higher upgrade levels increase:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Base weapon damage</li>
+            <li>Scaling effectiveness</li>
+            <li>Final Attack Rating</li>
+          </ul>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Always compare weapons at the same upgrade level for accurate results.
+          </p>
+        </div>
+
+        <hr className="my-6 border-[#b8956a]/10" />
+
+        <div>
+          <h3 className="text-lg font-semibold text-white">3. Enable Two-Handing</h3>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Turn on the two-handed option to see how Strength affects weapon damage.
+          </p>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Two-handing increases effective Strength by 1.5x.
+          </p>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Example:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>60 STR → 90 effective STR</li>
+            <li>66 STR → 99 effective STR</li>
+          </ul>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            This is especially powerful for:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Colossal weapons</li>
+            <li>Great hammers</li>
+            <li>Heavy greatswords</li>
+            <li>Strength-focused builds</li>
+          </ul>
+        </div>
+
+        <hr className="my-6 border-[#b8956a]/10" />
+
+        <div>
+          <h3 className="text-lg font-semibold text-white">4. Search and Compare Weapons</h3>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Use filters to find weapons by:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Weapon name</li>
+            <li>Weapon type</li>
+            <li>Damage type</li>
+            <li>Scaling attributes</li>
+          </ul>
+          <p className="mt-2 text-base leading-relaxed text-zinc-400">
+            Compare multiple weapons side by side to find:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-base leading-relaxed text-zinc-400">
+            <li>Highest AR weapon</li>
+            <li>Best scaling weapon</li>
+            <li>Best weapon for your build</li>
+          </ul>
+        </div>
       </section>
 
-      <section className="mt-12 border-t border-[#b8956a]/10 pt-12">
-        <h2 className="text-2xl font-bold text-white">How to Use This Tool</h2>
-        <ol className="mt-6 space-y-4">
-          <li className="flex gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#c9a227]/30 text-sm font-bold text-[#e8d5a3]">1</span>
-            <div><h3 className="font-semibold text-white">Adjust Your Stats</h3><p className="mt-1 text-sm leading-relaxed text-zinc-400">Use the sliders in the sidebar to set STR, DEX, INT, FAI, and ARC from 1 to 99. Each stat shows a progress bar with color-coded soft cap tiers.</p></div>
-          </li>
-          <li className="flex gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#c9a227]/30 text-sm font-bold text-[#e8d5a3]">2</span>
-            <div><h3 className="font-semibold text-white">Set Upgrade Level</h3><p className="mt-1 text-sm leading-relaxed text-zinc-400">Choose from +0 to +25 using the slider. The weapon&apos;s base damage and scaling both improve with each upgrade level.</p></div>
-          </li>
-          <li className="flex gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#c9a227]/30 text-sm font-bold text-[#e8d5a3]">3</span>
-            <div><h3 className="font-semibold text-white">Two-Handing Toggle</h3><p className="mt-1 text-sm leading-relaxed text-zinc-400">Toggle two-handing to see how STR ×1.5 affects your AR. This is especially useful for weapons with high STR scaling.</p></div>
-          </li>
-          <li className="flex gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#c9a227]/30 text-sm font-bold text-[#e8d5a3]">4</span>
-            <div><h3 className="font-semibold text-white">Search, Filter & Compare</h3><p className="mt-1 text-sm leading-relaxed text-zinc-400">Search by weapon name, filter by weapon type, or use Quick Presets for common builds. Check weapons to compare their AR side by side in the sidebar.</p></div>
-          </li>
-        </ol>
-      </section>
 
-      <section className="mt-12 border-t border-[#b8956a]/10 pt-12">
+
+<section className="mt-12 border-t border-[#b8956a]/10 pt-12">
         <h2 className="text-2xl font-bold text-white">Frequently Asked Questions</h2>
         <div className="mt-6 space-y-4">
           {[
-            { q: "What is Attack Rating (AR) in Elden Ring?", a: "Attack Rating (AR) is a weapon's raw damage output before enemy defenses are applied. It combines base damage, scaling bonuses from stats, and upgrade level. AR is shown split by damage type: Physical, Magic, Fire, Lightning, and Holy. The actual damage dealt to an enemy will be lower after their damage negation and absorption are applied." },
-            { q: "How does the AR Calculator calculate damage?", a: "The calculator uses the same formulas as Elden Ring. For each damage type, it takes the weapon's base damage at the selected upgrade level, then adds a scaling bonus based on the relevant stat(s) and the weapon's scaling letter grade. It uses correct soft cap mechanics where returns diminish past certain stat thresholds (20, 55, 80). Two-handing correctly multiplies Strength by 1.5 before calculating STR scaling." },
-            { q: "What does the scaling letter grade (S/A/B/C/D/E) mean?", a: "The letter grade indicates how much bonus damage a weapon gets from a stat. S is the highest (strongest scaling), followed by A, B, C, D, and E (weakest). The exact multiplier depends on the stat value and soft cap tier. For example, a weapon with S scaling in STR at 99 STR will get roughly 175% of the base damage as bonus, while E scaling might only give 25%." },
-            { q: "Why does two-handing increase my AR?", a: "Two-handing a weapon multiplies your effective Strength by 1.5. If you have 60 STR, two-handing treats it as 90 STR for damage calculation. This not only increases AR for weapons with STR scaling but also lets you meet strength requirements you normally couldn't. It does not affect Dexterity, Intelligence, Faith, or Arcane scaling." },
-            { q: "Is AR the same as actual damage?", a: "No. AR is the weapon's raw damage output before enemy defenses. Actual damage dealt to an enemy is AR multiplied by damage type-specific multipliers based on the enemy's damage negation and absorption. For example, a boss with high Holy resistance will take much less Holy damage than the AR suggests. However, AR is still the best metric for comparing weapons against each other." },
-            { q: "How many weapons does this tool support?", a: "The calculator includes all 123 weapons from Elden Ring covering all weapon types: straight swords, greatswords, colossal swords, katanas, curved swords, daggers, spears, hammers, great hammers, axes, claws, fists, whips, thrusting swords, twinblades, bows, ballistas, and more." },
-            { q: "Can I use this as an Elden Ring damage calculator?", a: "Yes. While this tool shows Attack Rating (AR) rather than actual damage dealt to enemies, AR is the most reliable way to compare weapons against each other. You can compare any two weapons side by side by selecting them in the weapon list — the Comparison section shows their AR split by damage type." },
-            { q: "How much does two-handing increase damage?", a: "Two-handing increases your effective Strength by 50% (×1.5). For example, at 66 STR, two-handing gives you 99 effective STR, which is the soft cap for STR scaling. The actual AR increase depends on the weapon's STR scaling grade — weapons with S or A scaling in STR get the biggest boost." },
-            { q: "How is weapon damage calculated?", a: "Weapon damage is calculated from the weapon's base damage, its stat scaling multipliers (based on STR/DEX/INT/FTH/ARC), and your current stats. Upgrade level increases both base damage and scaling. Two-handing multiplies your Strength by 1.5x for scaling calculations." },
-            { q: "What is scaling in Elden Ring?", a: "Scaling determines how much bonus damage you get from your stats. Each weapon has scaling grades (S/A/B/C/D/E) for Strength, Dexterity, Intelligence, Faith, and Arcane. Higher grades and higher stats give more bonus damage. Scaling improves as you upgrade the weapon." },
-            { q: "Why is my damage low?", a: "Low damage is usually caused by mismatched stats and weapon scaling. If your weapon scales primarily with Strength but you invested in Dexterity, you'll deal less damage. Check the weapon's scaling grades and ensure your stats align. Also check that you've upgraded the weapon and meet the stat requirements." },
+            { q: "What Is Attack Rating (AR) in Elden Ring?", a: "Attack Rating (AR) is a weapon&apos;s total damage value before enemy defenses are applied.<br/><br/>AR includes:<br/>- Base weapon damage<br/>- Upgrade level bonuses<br/>- Strength scaling<br/>- Dexterity scaling<br/>- Intelligence scaling<br/>- Faith scaling<br/>- Arcane scaling<br/><br/>A weapon with higher AR does not always deal more real damage because enemy defenses and damage types affect the final result." },
+            { q: "How Does the Elden Ring Weapon AR Calculator Work?", a: "The calculator uses Elden Ring weapon scaling formulas to estimate Attack Rating.<br/><br/>The calculation considers:<br/>- Weapon base damage<br/>- Upgrade level<br/>- Scaling coefficients<br/>- Stat values<br/>- Soft cap reductions<br/>- Two-handed Strength bonus<br/><br/>This allows you to test different builds without wasting upgrade materials." },
+            { q: "What Does Weapon Scaling Mean?", a: "Weapon scaling shows how much bonus damage a weapon receives from your attributes.<br/><br/>Scaling grades:<br/>- S = Excellent scaling<br/>- A = Very strong scaling<br/>- B = Good scaling<br/>- C = Average scaling<br/>- D = Weak scaling<br/>- E = Minimal scaling<br/><br/>A weapon with high Strength scaling benefits from STR investment, while a weapon with high Intelligence scaling benefits from INT." },
+            { q: "Why Does Two-Handing Increase Weapon Damage?", a: "Two-handing increases your effective Strength by 50%.<br/><br/>For example:<br/>A character with 60 Strength becomes 90 effective Strength while two-handing.<br/><br/>This increases AR on Strength-scaling weapons but does not affect Dexterity, Intelligence, Faith, or Arcane scaling." },
+            { q: "Is AR the Same as Actual Damage?", a: "No.<br/><br/>AR represents your weapon&apos;s raw damage before enemy defenses.<br/><br/>Actual damage depends on:<br/>- Enemy resistance<br/>- Damage type<br/>- Armor absorption<br/>- Boss weaknesses<br/><br/>For example, a weapon with high Holy AR may perform poorly against enemies with strong Holy resistance.<br/><br/>However, AR remains one of the best ways to compare weapon performance." },
+            { q: "How Many Weapons Does This Tool Support?", a: "The calculator supports <strong>123 Elden Ring weapons</strong>, including:<br/>- Greatswords<br/>- Colossal swords<br/>- Katanas<br/>- Curved swords<br/>- Spears<br/>- Daggers<br/>- Axes<br/>- Hammers<br/>- Twinblades<br/>- Claws<br/>- Fists<br/>- Whips<br/>- Bows<br/>- And more" },
+            { q: "Can This Be Used as an Elden Ring Damage Calculator?", a: "Yes.<br/><br/>The tool works as an Elden Ring damage comparison calculator by showing weapon Attack Rating under different stat setups.<br/><br/>Use it to compare:<br/>- Different weapons<br/>- Different builds<br/>- Different upgrade levels<br/>- Different stat distributions<br/><br/>For exact boss damage, enemy defense and damage modifiers must also be considered." },
+            { q: "Why Is My Weapon Damage Low?", a: "Common reasons include:<br/><br/><strong>1. Wrong Stat Investment</strong><br/>A Strength weapon with high STR scaling will perform poorly if you invest mostly into Dexterity.<br/><br/><strong>2. Weapon Upgrade Is Too Low</strong><br/>Upgrade level has a huge impact on final AR.<br/><br/><strong>3. Ignoring Scaling</strong><br/>A weapon with lower base damage but better scaling can outperform a stronger-looking weapon later.<br/><br/><strong>4. Poor Stat Efficiency</strong><br/>Investing beyond soft caps often gives smaller damage increases." },
           ].map(function(item, i) { return (
             <details key={i} className="group rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f]">
               <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-[#e8d5a3]">
                 {item.q}
                 <svg className="h-4 w-4 shrink-0 text-zinc-600 transition-transform group-open:rotate-180" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
               </summary>
-              <div className="border-t border-[#b8956a]/10 px-4 py-3"><p className="text-sm leading-relaxed text-zinc-400">{item.a}</p></div>
+              <div className="border-t border-[#b8956a]/10 px-4 py-3"><p className="text-sm leading-relaxed text-zinc-400" dangerouslySetInnerHTML={{__html: item.a}} /></div>
             </details>
           );})}
+        </div>
+      </section>
+
+      <section className="mt-12 border-t border-[#b8956a]/10 pt-12">
+        <h2 className="text-2xl font-bold text-white">Weapon Scaling Guide</h2>
+
+        <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h3 className="font-semibold text-white">Strength Weapons</h3>
+            <p className="mt-2 text-sm text-zinc-400">Best stats:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>STR</li>
+              <li>END</li>
+              <li>VIG</li>
+            </ul>
+            <p className="mt-2 text-sm text-zinc-400">Examples:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>Greatsword</li>
+              <li>Giant-Crusher</li>
+              <li>Ruins Greatsword</li>
+            </ul>
+          </div>
+
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h3 className="font-semibold text-white">Dexterity Weapons</h3>
+            <p className="mt-2 text-sm text-zinc-400">Best stats:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>DEX</li>
+              <li>VIG</li>
+              <li>END</li>
+            </ul>
+            <p className="mt-2 text-sm text-zinc-400">Examples:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>Uchigatana</li>
+              <li>Nagakiba</li>
+              <li>Hand of Malenia</li>
+            </ul>
+          </div>
+
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h3 className="font-semibold text-white">Intelligence Weapons</h3>
+            <p className="mt-2 text-sm text-zinc-400">Best stats:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>INT</li>
+              <li>DEX</li>
+              <li>MND</li>
+            </ul>
+            <p className="mt-2 text-sm text-zinc-400">Examples:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>Moonveil</li>
+              <li>Dark Moon Greatsword</li>
+              <li>Wing of Astel</li>
+            </ul>
+          </div>
+
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h3 className="font-semibold text-white">Faith Weapons</h3>
+            <p className="mt-2 text-sm text-zinc-400">Best stats:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>FTH</li>
+              <li>STR/DEX depending on weapon</li>
+            </ul>
+            <p className="mt-2 text-sm text-zinc-400">Examples:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>Blasphemous Blade</li>
+              <li>Sacred Relic Sword</li>
+            </ul>
+          </div>
+
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h3 className="font-semibold text-white">Arcane Weapons</h3>
+            <p className="mt-2 text-sm text-zinc-400">Best stats:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>ARC</li>
+              <li>DEX</li>
+            </ul>
+            <p className="mt-2 text-sm text-zinc-400">Examples:</p>
+            <ul className="mt-1 list-disc space-y-0.5 pl-4 text-sm text-zinc-400">
+              <li>Rivers of Blood</li>
+              <li>Eleonora&apos;s Poleblade</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section className="mt-12 border-t border-[#b8956a]/10 pt-12">
+        <div className="rounded-sm border border-[#c9a227]/20 bg-gradient-to-r from-[#0a0a0f] to-[#1a1508] p-6">
+          <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+            <div>
+              <h3 className="text-base font-bold text-white">Optimize Your Complete Character</h3>
+              <p className="mt-1 text-sm text-zinc-400">Plan stats, weapons, armor, talismans, and spells with real-time calculations.</p>
+            </div>
+            <a href="/elden-ring/tools/build-calculator"
+              className="inline-flex h-10 shrink-0 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-6 text-sm font-bold uppercase tracking-wider text-black shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]">
+              Elden Ring Build Planner →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -409,6 +583,7 @@ export default function WeaponARPage() {
           </div>
         </div>
       </section>
+
     </div>
     </>
   );

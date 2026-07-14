@@ -1474,6 +1474,17 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
           <p className="mt-4 text-base leading-relaxed text-gray-400">
             It uses accurate Elden Ring formulas for stat scaling, weapon damage, and soft caps. The tool supports all 10 starting classes, 123 weapons, armor optimization, and advanced build analysis.
           </p>
+          <div className="mt-6 rounded-sm border border-[#c9a227]/20 bg-gradient-to-r from-[#0a0a0f] to-[#1a1508] p-5">
+            <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+              <div>
+                <p className="text-sm text-zinc-400">Need more accurate weapon damage?</p>
+              </div>
+              <a href="/elden-ring/tools/weapon-ar-calculator"
+                className="inline-flex h-9 shrink-0 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-5 text-xs font-bold uppercase tracking-wider text-black shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]">
+                Elden Ring Weapon AR Calculator →
+              </a>
+            </div>
+          </div>
         </section>
 
         {/* Talisman Picker Modal */}

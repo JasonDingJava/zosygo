@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import WeaponARPage from "./weapon-ar-client";
 
 export const metadata: Metadata = {
-  title: "Elden Ring Weapon AR Calculator & Damage Scaling Tool — Compare All 123 Weapons",
+  title: "Elden Ring Weapon AR Calculator 2026 – Damage & Attack Rating Optimizer",
   description:
-    "Elden Ring Weapon AR Calculator & Damage Scaling Tool. Compare Attack Rating, optimize weapon damage, and find the best weapon damage setup for your build. Use as a Damage Calculator and Weapon Scaling Calculator.",
+    "Calculate Elden Ring weapon Attack Rating, damage output, and scaling efficiency. Compare weapons, stats, upgrades, and infusions to find the strongest build for your character.",
   openGraph: {
-    title: "Elden Ring Weapon AR Calculator & Damage Scaling Tool",
+    title: "Elden Ring Weapon AR Calculator 2026 – Damage & Attack Rating Optimizer",
     description:
-      "Compare AR across all Elden Ring weapons. Real-time stat scaling, upgrade levels, and damage type breakdown. Use as a Damage Calculator and Weapon Scaling Calculator.",
+      "Calculate Elden Ring weapon Attack Rating, damage output, and scaling efficiency. Compare weapons, stats, upgrades, and infusions to find the strongest build for your character.",
     type: "website",
   },
   alternates: {
@@ -21,9 +21,9 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "WebApplication",
-      name: "Elden Ring Weapon AR Calculator & Damage Scaling Tool",
+      name: "Elden Ring Weapon AR Calculator 2026 – Damage & Attack Rating Optimizer",
       description:
-        "Compare Attack Rating and damage scaling for all 123 Elden Ring weapons. Optimize weapon damage setups, compare scaling across builds. Use as a Damage Calculator and Weapon Scaling Calculator.",
+        "Calculate Elden Ring weapon Attack Rating, damage output, and scaling efficiency. Compare weapons, stats, upgrades, and infusions to find the strongest build for your character.",
       url: "https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator",
       applicationCategory: "GameApplication",
       operatingSystem: "Web",
@@ -34,69 +34,70 @@ const jsonLd = {
       mainEntity: [
         {
           "@type": "Question",
-          name: "What is a Weapon AR Calculator?",
+          name: "What Is Attack Rating (AR) in Elden Ring?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "An Attack Rating (AR) Calculator shows how much damage a weapon deals based on your stats, upgrade level, and weapon scaling. It calculates physical and elemental damage separately for every weapon in Elden Ring.",
+            text: "Attack Rating (AR) is a weapon's total damage value before enemy defenses are applied. AR includes base weapon damage, upgrade level bonuses, and stat scaling from Strength, Dexterity, Intelligence, Faith, and Arcane. A weapon with higher AR does not always deal more real damage because enemy defenses and damage types affect the final result.",
           },
         },
         {
           "@type": "Question",
-          name: "How do I use the Weapon AR Calculator?",
+          name: "How Does the Elden Ring Weapon AR Calculator Work?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Set your Strength, Dexterity, Intelligence, Faith, and Arcane stats using the sliders, then adjust the upgrade level and two-handing toggle. The table instantly updates to show every weapon's Attack Rating. Check multiple weapons to compare their AR side by side.",
+            text: "The calculator uses Elden Ring weapon scaling formulas to estimate Attack Rating. The calculation considers weapon base damage, upgrade level, scaling coefficients, stat values, soft cap reductions, and two-handed Strength bonus. This allows you to test different builds without wasting upgrade materials.",
           },
         },
         {
           "@type": "Question",
-          name: "How many weapons are supported?",
+          name: "What Does Weapon Scaling Mean?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "All 123 Elden Ring weapons are supported, including straight swords, greatswords, katanas, curved swords, spears, hammers, axes, daggers, colossal weapons, and more. Each weapon's scaling, stat requirements, and upgrade multipliers are game-accurate.",
+            text: "Weapon scaling shows how much bonus damage a weapon receives from your attributes. Scaling grades range from S (excellent) to E (minimal). A weapon with high Strength scaling benefits from STR investment, while a weapon with high Intelligence scaling benefits from INT.",
           },
         },
         {
           "@type": "Question",
-          name: "Does the calculator include two-handing?",
+          name: "Why Does Two-Handing Increase Weapon Damage?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Yes. Toggle two-handing on and your Strength stat is multiplied by 1.5x for meeting requirements and calculating damage scaling, just like in Elden Ring.",
+            text: "Two-handing increases your effective Strength by 50%. For example, a character with 60 Strength becomes 90 effective Strength while two-handing. This increases AR on Strength-scaling weapons but does not affect Dexterity, Intelligence, Faith, or Arcane scaling.",
           },
         },
         {
           "@type": "Question",
-          name: "What is the difference between AR and actual damage?",
+          name: "Is AR the Same as Actual Damage?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Attack Rating (AR) is the weapon's raw damage before enemy defenses. Actual damage depends on the target's damage negation and resistances. The calculator shows AR so you can compare weapons against each other directly.",
+            text: "No. AR represents your weapon's raw damage before enemy defenses. Actual damage depends on enemy resistance, damage type, armor absorption, and boss weaknesses. For example, a weapon with high Holy AR may perform poorly against enemies with strong Holy resistance.",
           },
         },
         {
           "@type": "Question",
-          name: "How is weapon damage calculated?",
+          name: "How Many Weapons Does This Tool Support?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Weapon damage is calculated from the weapon's base damage, its stat scaling multipliers (based on STR/DEX/INT/FTH/ARC), and your current stats. Upgrade level increases both base damage and scaling. Two-handing multiplies your Strength by 1.5x for scaling calculations.",
+            text: "The calculator supports 123 Elden Ring weapons, including greatswords, colossal swords, katanas, curved swords, spears, daggers, axes, hammers, twinblades, claws, fists, whips, bows, and more.",
           },
         },
         {
           "@type": "Question",
-          name: "What is scaling in Elden Ring?",
+          name: "Can This Be Used as an Elden Ring Damage Calculator?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Scaling determines how much bonus damage you get from your stats. Each weapon has scaling grades (S/A/B/C/D/E) for Strength, Dexterity, Intelligence, Faith, and Arcane. Higher grades and higher stats give more bonus damage. Scaling improves as you upgrade the weapon.",
+            text: "Yes. The tool works as an Elden Ring damage comparison calculator by showing weapon Attack Rating under different stat setups. Use it to compare different weapons, builds, upgrade levels, and stat distributions. For exact boss damage, enemy defense and damage modifiers must also be considered.",
           },
         },
         {
           "@type": "Question",
-          name: "Why is my damage low?",
+          name: "Why Is My Weapon Damage Low?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Low damage is usually caused by mismatched stats and weapon scaling. If your weapon scales primarily with Strength but you invested in Dexterity, you'll deal less damage. Check the weapon's scaling grades and ensure your stats align. Also check that you've upgraded the weapon and meet the stat requirements.",
+            text: "Common reasons include: wrong stat investment (e.g., using a Strength weapon with mostly Dexterity), weapon upgrade too low, ignoring scaling benefits, and poor stat efficiency from investing beyond soft caps.",
           },
         },
       ],
+
     },
   ],
 };
