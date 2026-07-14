@@ -145,7 +145,7 @@ export default function ContentParagraphs({ content }: ContentParagraphsProps) {
     const tableMatch = trimmed.match(/^\|.+\|$/);
     if (tableMatch) {
       // If this is a separator row (| --- | --- |), skip it
-      if (/^\|[\s:-]+\|$/.test(trimmed) && inTable) {
+      if (/^\|[\s:-]+(\|[\s:-]+)*\|$/.test(trimmed) && inTable) {
         continue;
       }
 

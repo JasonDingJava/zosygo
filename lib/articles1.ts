@@ -781,7 +781,7 @@ const article18: Article = {
       heading: "",
       level: 2,
       content:
-        "---",
+        "",
       image: "u=1904568550,1900617044&fm=253&fmt=auto&app=120&f=JPEG.webp",
       imageAlt: "Elden Ring low damage build example showing stat screen",
     },
@@ -1074,7 +1074,7 @@ const article20: Article = {
       heading: "",
       level: 2,
       content:
-        "---",
+        "",
       image: "u=3301460746,907473116&fm=253&fmt=auto&app=138&f=JPEG.webp",
       imageAlt: "Elden Ring Malenia boss fight arena in Elphael Brace of the Haligtree",
     },
@@ -1254,7 +1254,7 @@ const article21: Article = {
       heading: "",
       level: 2,
       content:
-        "---",
+        "",
     },
     {
       heading: "Quick Answer",
@@ -1457,7 +1457,7 @@ const article22: Article = {
       heading: "",
       level: 2,
       content:
-        "---",
+        "",
     },
     {
       heading: "Quick Answer",
@@ -1691,7 +1691,7 @@ const article23: Article = {
       heading: "",
       level: 2,
       content:
-        "---",
+        "",
     },
     {
       heading: "Quick Answer",
@@ -1979,7 +1979,7 @@ const article24: Article = {
       heading: "",
       level: 2,
       content:
-        "---",
+        "",
     },
     {
       heading: "Quick Answer",
