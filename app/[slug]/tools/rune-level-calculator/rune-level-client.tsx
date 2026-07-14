@@ -112,9 +112,9 @@ export default function RuneLevelClient() {
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
-      <h1 className="text-2xl font-bold text-gray-100">Elden Ring Rune Level Calculator – How Many Runes to Reach Any Level</h1>
+      <h1 className="text-2xl font-bold text-gray-100">Elden Ring Rune Level Calculator</h1>
       <p className="mt-1 text-sm text-gray-400">
-        Calculate how many runes you need to reach any level. Plan your build from early game to max level.
+        Find the exact rune cost required for any level. Plan Level 50, 100, 125, 150, and 200 builds before spending your hard-earned runes.
       </p>
 
       {/* ═══ URL Share (top) ═══ */}
@@ -400,167 +400,243 @@ export default function RuneLevelClient() {
 
       {/* ═══ SEO Content ═══ */}
       <div className="mt-8 space-y-6 border-t border-gray-800 pt-8">
+
         <h2 className="text-lg font-bold text-gray-100">What Is the Elden Ring Rune Level Calculator?</h2>
         <p className="text-sm leading-relaxed text-gray-400">
-          The Elden Ring Rune Level Calculator is a free online tool that tells you exactly how many runes you need
-          to reach any level from 1 to 713. Use it as a Level Up Calculator to check the cost for your next level, a Rune Cost Calculator
-          to plan a level range, or a Character Level Planner to see the total runes required from start to your target level.
-          It uses the game's official rune cost formula to calculate the exact
-          number of runes required for each level, so you can plan your character's progression without wasting
-          time farming blindly.
+          The <strong className="text-gray-300">Elden Ring Rune Level Calculator</strong> is a free tool that shows exactly how many runes you need to reach any character level from 1 to 713.
+        </p>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Use it as a:
+        </p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li><strong className="text-gray-300">Rune Cost Calculator</strong> to find the exact cost of your next level</li>
+          <li><strong className="text-gray-300">Level Calculator</strong> to plan your character progression</li>
+          <li><strong className="text-gray-300">Character Level Planner</strong> to estimate total rune requirements for your build</li>
+        </ul>
+        <p className="text-sm leading-relaxed text-gray-400">
+          The calculator follows Elden Ring&apos;s in-game rune progression system, allowing you to plan your leveling path without wasting time farming more runes than necessary.
         </p>
 
-        <h2 className="text-lg font-bold text-gray-100">What Can You Do With It?</h2>
+        <h2 className="text-lg font-bold text-gray-100">What Can You Do With This Rune Calculator?</h2>
+        <p className="text-sm leading-relaxed text-gray-400">
+          With the Elden Ring Rune Level Calculator, you can:
+        </p>
         <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
-          <li>Calculate runes needed from your current level to any target level.</li>
-          <li>See the cost per level across the entire 1–713 curve.</li>
-          <li>Estimate how many farming runs you need with different farming methods.</li>
-          <li>Check rune costs for popular PvP and PvE level targets (125, 150, 200).</li>
-          <li>Share your exact level range via URL with one click.</li>
+          <li>Calculate runes required from your current level to any target level</li>
+          <li>Check the rune cost for every level from 1 to 713</li>
+          <li>Plan popular build levels like RL125, RL150, and RL200</li>
+          <li>Estimate farming time based on your preferred rune farming method</li>
+          <li>Compare different leveling milestones before committing runes</li>
+          <li>Share your level calculation with a custom URL</li>
         </ul>
 
-        <h2 className="text-lg font-bold text-gray-100">How to Use the Rune Level Calculator</h2>
-        <ol className="list-decimal space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
-          <li>
-            <strong className="text-gray-300">Set your current level</strong> — Drag the Current Level slider
-            to match your character's level in-game.
-          </li>
-          <li>
-            <strong className="text-gray-300">Choose a target level</strong> — Drag the Target Level slider,
-            or click one of the Quick Target buttons (RL125, RL150, RL200) for popular breakpoints.
-          </li>
-          <li>
-            <strong className="text-gray-300">Read your results</strong> — The Required Runes card shows the
-            total cost. The Milestones table breaks down costs for multiple targets at once.
-          </li>
-          <li>
-            <strong className="text-gray-300">Estimate farming time</strong> — Pick a farming method and see
-            exactly how many runs you need.
-          </li>
-        </ol>
-      </div>
+        <h2 className="text-lg font-bold text-gray-100">How To Use the Elden Ring Rune Level Calculator</h2>
 
-      {/* ═══ FAQ ═══ */}
+        <h3 className="text-sm font-semibold text-gray-200">1. Set Your Current Rune Level</h3>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Enter your current character level.
+        </p>
+        <p className="text-sm leading-relaxed text-gray-400">Examples:</p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>Level 20 early-game character</li>
+          <li>Level 100 story progression build</li>
+          <li>Level 150 endgame character</li>
+        </ul>
+        <p className="text-sm leading-relaxed text-gray-400">
+          The calculator will use your current level as the starting point.
+        </p>
+
+        <h3 className="text-sm font-semibold text-gray-200">2. Choose Your Target Level</h3>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Select the level you want to reach.
+        </p>
+        <p className="text-sm leading-relaxed text-gray-400">Popular Elden Ring level targets:</p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>RL100 — Main story progression</li>
+          <li>RL125 — PvP meta builds</li>
+          <li>RL150 — Standard endgame builds</li>
+          <li>RL200 — High-level hybrid builds</li>
+          <li>RL713 — Maximum level</li>
+        </ul>
+
+        <h3 className="text-sm font-semibold text-gray-200">3. Check Required Rune Cost</h3>
+        <p className="text-sm leading-relaxed text-gray-400">
+          The calculator displays:
+        </p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>Total runes required</li>
+          <li>Rune cost per level</li>
+          <li>Level milestones</li>
+          <li>Remaining rune requirements</li>
+        </ul>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Use this information to decide whether leveling up is worth the farming time.
+        </p>
+
+        <h3 className="text-sm font-semibold text-gray-200">4. Estimate Rune Farming Requirements</h3>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Choose a farming method to estimate:
+        </p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>Number of farming runs needed</li>
+          <li>Approximate farming time</li>
+          <li>Total rune investment</li>
+        </ul>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Popular farming locations include Mohgwyn Palace and other high-efficiency rune farming areas.
+        </p>
+
+        <hr className="border-gray-800" />
+
+        <h2 className="text-lg font-bold text-gray-100">Elden Ring Rune Cost Explained</h2>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Every character level in Elden Ring requires more runes than the previous level.
+        </p>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Early levels are inexpensive, but costs increase significantly after Level 100.
+        </p>
+        <p className="text-sm leading-relaxed text-gray-400">
+          This is why many players plan around specific breakpoints:
+        </p>
+
+        <h3 className="text-sm font-semibold text-gray-200">Level 125</h3>
+        <p className="text-sm leading-relaxed text-gray-400">
+          Common for:
+        </p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>PvP dueling</li>
+          <li>Competitive builds</li>
+          <li>Multiplayer balance</li>
+        </ul>
+
+        <h3 className="text-sm font-semibold text-gray-200">Level 150</h3>
+        <p className="text-sm leading-relaxed text-gray-400">
+          The most common endgame level.
+        </p>
+        <p className="text-sm leading-relaxed text-gray-400">Popular for:</p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>Shadow of the Erdtree builds</li>
+          <li>PvE characters</li>
+          <li>Co-op builds</li>
+        </ul>
+
+        <h3 className="text-sm font-semibold text-gray-200">Level 200</h3>
+        <p className="text-sm leading-relaxed text-gray-400">Used for:</p>
+        <ul className="list-disc space-y-1.5 pl-5 text-sm leading-relaxed text-gray-400">
+          <li>High-level PvE</li>
+          <li>Hybrid builds</li>
+          <li>Multiple damage stats</li>
+        </ul>
+
+      
+      </div>
 
       {/* ═══ FAQ ═══ */}
       <div className="mt-8 space-y-6 border-t border-gray-800 pt-8">
         <h2 className="text-lg font-bold text-gray-100">Frequently Asked Questions</h2>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">How many runes to reach level 150?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">How many runes do you need to reach Level 150 in Elden Ring?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            From level 1, it takes approximately 12.5 million runes to reach level 150.
-            From level 100, you need about 8.7 million more.
+            From Level 1, reaching Level 150 requires approximately 12.5 million runes.
+          </p>
+          <p className="mt-1 text-sm text-gray-500">
+            From Level 100, you need approximately 8.7 million additional runes.
+          </p>
+          <p className="mt-1 text-sm text-gray-500">
+            The exact amount depends on your current level, which you can calculate using the tool above.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">What is the PvP meta level?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">What is the best Elden Ring level for PvP?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            The standard PvP meta level is 125 for duels and 150 for mixed PvE/PvP activity.
-            Level 125 gives tighter build constraints; level 150 allows more hybrid builds.
+            The most common PvP levels are:
+          </p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-gray-500">
+            <li>Level 125 for competitive duels</li>
+            <li>Level 150 for mixed PvE and PvP activity</li>
+          </ul>
+          <p className="mt-1 text-sm text-gray-500">
+            Level 150 provides more flexibility for hybrid builds while maintaining active multiplayer matchmaking.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">How many runes for level 200?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">How many runes are needed for Level 200?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            From level 1, it takes approximately 70 million runes to reach level 200.
-            From level 150, you need about 57 million more.
+            Reaching Level 200 requires approximately 70 million total runes from Level 1.
+          </p>
+          <p className="mt-1 text-sm text-gray-500">
+            Going from Level 150 to Level 200 requires roughly 57 million additional runes.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">What is the best rune farm in Elden Ring?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">How many runes are needed for max level 713?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            Mohgwyn Palace is the best rune farming location. Use the Sacred Relic Sword or
-            Wave of Gold to clear Albinaurics in one swing for 40,000\u201360,000 runes per run.
-            You can access this area early via Varre's quest.
+            Maximum Rune Level 713 requires more than 1.7 billion total runes.
+          </p>
+          <p className="mt-1 text-sm text-gray-500">
+            Most players stop between Level 125 and Level 200 because those ranges provide the best build efficiency.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">How many runes do I need for level 150?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">How many runes does Level 100 cost?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            From level 1, you need approximately 12.5 million runes to reach level 150. From level 100, you need about 8.7 million more. Use the calculator above to get the exact number for your current level.
+            Around Level 100, each additional level costs approximately 50,000+ runes.
+          </p>
+          <p className="mt-1 text-sm text-gray-500">
+            Rune costs continue increasing as your character level rises.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">What is the fastest rune farming method?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">What is the fastest rune farming method in Elden Ring?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            The fastest method is using Sacred Relic Sword's Wave of Gold at Palace Approach Ledge-Road: about 60,000 runes per 25-second run. Early-game: Mohgwyn bird (17,500 per 15s) or Greyoll's Dragon (75,000 once).
+            Mohgwyn Palace is one of the most efficient rune farming locations.
+          </p>
+          <p className="mt-1 text-sm text-gray-500">Common methods include:</p>
+          <ul className="mt-1 list-disc space-y-1 pl-5 text-sm text-gray-500">
+            <li>Palace Approach Ledge-Road farming</li>
+            <li>Albinauric farming</li>
+            <li>Sacred Relic Sword Wave of Gold farming</li>
+          </ul>
+          <p className="mt-1 text-sm text-gray-500">
+            Your required number of farming runs depends on your current level and rune bonus modifiers.
           </p>
         </div>
 
         <div>
-          <h3 className="text-sm font-semibold text-gray-200">How many runes to max level (713)?</h3>
+          <h3 className="text-sm font-semibold text-gray-200">What rune formula does Elden Ring use?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            Reaching max level 713 (all stats 99) requires over 1.7 billion runes total.
-            This is not practical for normal play — most players stop between 125 and 200.
+            Elden Ring uses a scaling rune requirement formula where each level increases based on a tiered progression curve.
           </p>
-        </div>
-
-        <div>
-          <h3 className="text-sm font-semibold text-gray-200">How many runes per level at level 100?</h3>
           <p className="mt-1 text-sm text-gray-500">
-            At level 100, each level costs roughly 52,000 runes. Going from level 100 to level 101 is 52,606 runes.
-            The cost increases by about 600-800 runes per level at this stage.
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-sm font-semibold text-gray-200">What is the Elden Ring rune cost formula?</h3>
-          <p className="mt-1 text-sm text-gray-500">
-            The game uses a tiered formula where cost = round(0.02x³ + 3.06x² + 105.6x - 895) where x is your current level.
-            This calculator uses the exact same formula from the game data, so the numbers match what you see in-game.
-          </p>
-        </div>
-
-        <div>
-          <h3 className="text-sm font-semibold text-gray-200">How long does it take to reach level 150 from a new game?</h3>
-          <p className="mt-1 text-sm text-gray-500">
-            With efficient rune farming at Mohgwyn Palace, reaching level 150 from level 1 takes about
-            200-250 runs (approximately 3-4 hours of dedicated farming). Without farming, it typically
-            takes 40-60 hours of natural progression through the game.
+            The calculator applies the same progression pattern used by the game to estimate required runes accurately.
           </p>
         </div>
       </div>
 
-      {/* ═══ Related Articles ═══ */}
+      {/* ═══ Related Tools ═══ */}
       <div className="mt-8 space-y-4 border-t border-gray-800 pt-8">
-        <h2 className="text-lg font-bold text-gray-100">Related Guides</h2>
+        <h2 className="text-lg font-bold text-gray-100">Related Tools</h2>
         <ul className="space-y-2 text-sm">
           <li>
             <a
-              href="/elden-ring/builds/rune-level-calculator"
+              href="/elden-ring/tools/build-calculator"
               className="text-blue-400 hover:text-blue-300"
             >
-              How Many Runes to Reach Level 150? — Full Cost Breakdown
+              Elden Ring Build Planner
             </a>
           </li>
           <li>
             <a
-              href="/elden-ring/builds/level-150-builds"
+              href="/elden-ring/tools/weapon-ar-calculator"
               className="text-blue-400 hover:text-blue-300"
             >
-              Best Level 150 Builds (2026)
-            </a>
-          </li>
-          <li>
-            <a
-              href="/elden-ring/builds/moonveil-intelligence-build"
-              className="text-blue-400 hover:text-blue-300"
-            >
-              Moonveil Intelligence Build Guide — Optimized for RL 150
-            </a>
-          </li>
-          <li>
-            <a
-              href="/elden-ring/builds/best-bleed-build"
-              className="text-blue-400 hover:text-blue-300"
-            >
-              Best Bleed Builds in Elden Ring
+              Elden Ring Weapon AR Calculator
             </a>
           </li>
           <li>
@@ -573,18 +649,18 @@ export default function RuneLevelClient() {
           </li>
           <li>
             <a
-              href="/elden-ring/builds/starting-class-guide"
+              href="/elden-ring/builds"
               className="text-blue-400 hover:text-blue-300"
             >
-              Best Starting Class Guide — Which Class Saves You Levels
+              Elden Ring Build Tier List
             </a>
           </li>
           <li>
             <a
-              href="/elden-ring/builds/build-optimization"
+              href="/elden-ring/builds/best-builds"
               className="text-blue-400 hover:text-blue-300"
             >
-              How to Fix a Weak Build in Elden Ring
+              Best Elden Ring Builds
             </a>
           </li>
         </ul>

@@ -2,11 +2,11 @@ import type { Metadata } from "next";
 import RuneLevelClient from "./rune-level-client";
 
 export const metadata: Metadata = {
-  title: "Elden Ring Rune Level Calculator – How Many Runes to Reach Any Level | Zosygo",
+  title: "Elden Ring Rune Level Calculator – Rune Cost & Level Planner (2026)",
   description:
     "Free Elden Ring Rune Level Calculator. Use as a Level Up Calculator, Rune Cost Calculator, and Character Level Planner. Find out how many runes from 1 to 150, 200, or any level.",
   openGraph: {
-    title: "Elden Ring Rune Level Calculator – How Many Runes to Reach Any Level",
+    title: "Elden Ring Rune Level Calculator – Rune Cost & Level Planner (2026)",
     description:
       "Free Elden Ring Rune Level Calculator. Use as a Level Up Calculator, Rune Cost Calculator, and Character Level Planner. See costs for level 150, 200, and more.",
     type: "website",
@@ -21,7 +21,7 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "WebApplication",
-      name: "Elden Ring Rune Level Calculator – How Many Runes to Reach Any Level",
+      name: "Elden Ring Rune Level Calculator – Rune Cost & Level Planner (2026)",
       description:
         "Free Elden Ring Rune Level Calculator. Use as a Level Up Calculator, Rune Cost Calculator, and Character Level Planner. See rune costs for level 150, 200, or any target.",
       url: "https://www.zosygo.com/elden-ring/tools/rune-level-calculator",

@@ -3,11 +3,11 @@ import type { Metadata } from "next";
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   return {
-    title: "Elden Ring Rune Level Calculator — Cost from 1 to 713 | Zosygo",
+    title: "Elden Ring Rune Level Calculator – Rune Cost & Level Planner (2026)",
     description:
       "Free Elden Ring Rune Level Calculator. Calculate runes needed for any level range, estimate farming time, and view the complete cost curve from level 1 to 713.",
     openGraph: {
-      title: "Elden Ring Rune Level Calculator — Cost from 1 to 713",
+      title: "Elden Ring Rune Level Calculator – Rune Cost & Level Planner (2026)",
       description:
         "Calculate runes needed for any level range. Interactive cost chart, farming time estimates, and preset target levels.",
       url: "https://www.zosygo.com/elden-ring/tools/rune-level-calculator",
