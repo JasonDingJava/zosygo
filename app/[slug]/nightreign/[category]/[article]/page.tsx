@@ -222,7 +222,7 @@ export default async function ArticlePage({ params }: Props) {
           </nav>
 
           <h1 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            {article.title}
+            {article.h1 || article.title}
           </h1>
           <p className="mt-4 text-base leading-relaxed text-zinc-400">
             {(() => {

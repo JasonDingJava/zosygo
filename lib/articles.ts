@@ -45,6 +45,7 @@ export interface InternalLink {
 
 export interface Article extends ArticleBase {
   title: string;
+  h1?: string;
   metaDescription: string;
   sections: ArticleSection[];
   internalLinks: InternalLink[];

@@ -463,116 +463,113 @@ const article40: Article = {
   category: "walkthroughs",
   gameSlug: "elden-ring",
   difficulty: "beginner",
-  readTimeMinutes: 8,
+  readTimeMinutes: 12,
   order: 40,
-  title: "Poise Explained: How Stagger Resistance Actually Works in Elden Ring (2026 Complete Guide)",
+  title: "Elden Ring Poise Explained (2026): Breakpoints, Hyper Armor & Stagger Resistance Guide",
+  h1: "Elden Ring Poise Explained (2026): Breakpoints, Hyper Armor & Stagger Resistance",
   metaDescription:
-    "Deep breakdown of poise mechanics, hyper armor, stagger thresholds, weapon poise damage, PvE vs PvP behavior, and how to build around poise in Elden Ring.",
+    "Understand Elden Ring poise mechanics in 2026. Learn poise breakpoints, hyper armor, weapon poise damage, PvE/PvP thresholds, and the best armor setups.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Poise is one of the most misunderstood systems in Elden Ring.\n\nMany players assume it simply means how tanky you are.\n\nOthers think it works like a hidden armor stat that reduces damage.\n\nBoth interpretations are incomplete.\n\nPoise is not about damage reduction.\n\nIt is about stagger resistance during attack exchanges.\n\nOnce you understand this, combat in Elden Ring becomes significantly more predictable and controllable.",
+        "Poise is one of the most misunderstood systems in Elden Ring.\n\nMany players assume it simply means how tanky you are.\n\nOthers think it works like a hidden armor stat that reduces damage.\n\nBoth interpretations are incomplete.\n\nPoise is not about damage reduction.\n\nIt is about stagger resistance during attack exchanges.\n\nOnce you understand this, combat in Elden Ring becomes significantly more predictable and controllable.\n\nUse the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test your armor weight, stats, and poise-focused builds before committing.",
     },
     {
       heading: "Quick Answer",
       level: 2,
       content:
-        "If you are trying to understand poise in simple terms:\n\n* Poise determines whether you get interrupted while attacking\n* Higher poise = fewer interruptions from enemy hits\n* Poise only matters during active attack frames in most cases\n* It does NOT directly reduce incoming damage\n\nIn short:\n\n> Poise is a can I finish my attack? system, not a damage reduction system.",
+        "If you are trying to understand poise in simple terms:\n\n* Poise determines whether you get interrupted while attacking\n* Higher poise = fewer interruptions from enemy hits\n* Poise only matters during active attack frames in most cases\n* It does NOT directly reduce incoming damage\n\nIn short:\n\n> Poise is a \"can I finish my attack?\" system, not a damage reduction system.",
     },
     {
-      heading: "What Poise Actually Does",
+      heading: "What Is Poise in Elden Ring?",
       level: 2,
       content:
-        "Poise is a hidden threshold system.\n\nEvery attack in Elden Ring has a poise damage value.\n\nEvery character has a poise value.\n\nWhen you are hit:\n\n* If incoming poise damage exceeds your active poise threshold → you stagger\n* If it does not → you continue your action\n\nThis creates a dynamic interaction between offense and defense.",
+        "Poise is a hidden threshold system that controls stagger resistance.\n\nEvery attack in Elden Ring has a poise damage value.\n\nEvery character has a poise value determined by their equipped armor.\n\nWhen you are hit:\n\n* If incoming poise damage exceeds your active poise threshold → you stagger\n* If it does not → you continue your action without interruption\n\nThis creates a dynamic interaction between offense and defense. Understanding your poise breakpoint is the first step to building a consistent melee fighter.",
     },
     {
-      heading: "Poise vs Damage Reduction (Important Distinction)",
+      heading: "Poise vs Defense (Critical Difference)",
       level: 2,
       content:
-        "One of the biggest mistakes players make is confusing poise with defense.\n\n### Damage Reduction\n\n* Reduces HP loss\n* Comes from armor, buffs, talismans\n* Always active\n\n### Poise\n\n* Does NOT reduce HP loss\n* Only affects interruption behavior\n* Only matters during specific animations\n\nThis means you can still take full damage while having high poise.",
+        "One of the biggest mistakes players make is confusing poise with defense.\n\n### Damage Reduction\n\n* Reduces HP loss\n* Comes from armor, buffs, talismans\n* Always active regardless of what you are doing\n\n### Poise\n\n* Does NOT reduce HP loss\n* Only affects interruption behavior\n* Only matters during specific attack animations\n\nThis means you can still take full damage while having high poise. A player with 100 poise and no damage reduction will die just as fast as a player with 0 poise — but they will finish their attack before dying.",
+    },
+    {
+      heading: "Elden Ring Poise Breakpoints",
+      level: 2,
+      content:
+        "The most important number to know is your poise breakpoint. These thresholds determine what attacks you can trade through without staggering.\n\n| Poise | What It Allows |\n| --- | --- |\n| 51 | Resist most light weapon hits and basic PvE attacks |\n| 56 | Better defense against common PvE enemy combos |\n| 61 | Medium weapon trading breakpoint — handle katana and straight sword trades |\n| 71 | Stronger PvP pressure resistance against medium weapons |\n| 101 | Heavy weapon trading — trade with greatswords and colossal weapons |\n| 125+ | Maximum hyper armor setups — unstoppable during heavy attacks |\n\n> **Tip:** 51 poise is the minimum target for most PvE builds. 61+ is recommended for melee-focused characters. 101+ is for dedicated tank and colossal weapon builds.",
     },
     {
       heading: "Hyper Armor Explained",
       level: 2,
       content:
-        "Hyper armor is where poise becomes meaningful in combat.\n\nHyper armor is a state during certain attacks where:\n\n* Your poise value is temporarily increased or stabilized\n* You are less likely to be interrupted\n* You can trade hits effectively\n\nThis is why heavy weapons feel unstoppable during certain swings.",
+        "Hyper armor is where poise becomes meaningful in combat.\n\nHyper armor is a state during certain attacks where:\n\n* Your poise value is temporarily increased or stabilized\n* You are less likely to be interrupted\n* You can trade hits effectively\n\nThis is why heavy weapons feel unstoppable during certain swings. A Greatsword user with 61+ poise using a charged heavy attack has enough hyper armor to trade through most enemy attacks.\n\nNot all attacks have hyper armor. Light weapons like daggers and straight swords typically have minimal or no hyper armor frames, which is why they rely on speed and evasion instead of trading.",
     },
     {
-      heading: "Weapon Poise Damage System",
+      heading: "Elden Ring Weapon Poise Damage Explained",
       level: 2,
       content:
-        "Every weapon class deals different poise damage.\n\nGeneral pattern:\n\n### Low Poise Damage\n\n* Daggers\n* Small swords\n* Fast weapons\n\n### Medium Poise Damage\n\n* Katanas\n* Spears\n* Curved swords\n\n### High Poise Damage\n\n* Greatswords\n* Colossal weapons\n* Heavy attacks\n\nThis is why large weapons dominate stagger-based combat.",
+        "Every weapon class deals different poise damage. Understanding this helps you choose the right weapon for your playstyle.\n\n| Weapon Type | Poise Damage |\n| --- | --- |\n| Daggers | Low |\n| Straight Swords | Low-Medium |\n| Katanas | Medium |\n| Spears | Medium |\n| Greatswords | High |\n| Colossal Weapons | Very High |\n| Charged Heavy Attacks | Highest |\n\nA Strength build with high poise should also be tested with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to confirm your damage output matches your defensive capability.",
     },
     {
-      heading: "Why Poise Matters In PvE",
+      heading: "Why Poise Matters in PvE",
       level: 2,
       content:
-        "PvE enemies follow predictable attack patterns.\n\nPoise becomes important because:\n\n### 1. Interrupt Resistance\n\nHigher poise allows players to continue attacks through enemy hits.\n\n### 2. Trade Efficiency\n\nPlayers can trade damage more safely with heavy weapons.\n\n### 3. Combo Stability\n\nFewer interruptions means more consistent DPS windows.",
+        "PvE enemies follow predictable attack patterns. Poise becomes important because:\n\n### 1. Interrupt Resistance\n\nHigher poise allows players to continue attacks through enemy hits. This is critical when fighting aggressive bosses like Malenia or Godfrey.\n\n### 2. Trade Efficiency\n\nPlayers can trade damage more safely with heavy weapons. A well-timed trade can stagger an enemy, opening them up for a critical hit.\n\n### 3. Combo Stability\n\nFewer interruptions means more consistent DPS windows. With 61+ poise, you can complete full attack combos even when taking damage from smaller enemies.",
     },
     {
-      heading: "Why Poise Matters In PvP",
+      heading: "Why Poise Matters in PvP",
       level: 2,
       content:
-        "In PvP, poise becomes even more important.\n\nBecause players:\n\n* React faster\n* Punish interruptions\n* Exploit stagger windows\n\nHigh poise builds can:\n\n* Ignore light weapon pressure\n* Force trades\n* Maintain offensive momentum",
+        "In PvP, poise becomes even more important because players:\n\n* React faster than AI enemies\n* Punish interruptions immediately\n* Exploit stagger windows for free damage\n\nHigh poise builds can:\n\n* Ignore light weapon pressure from daggers and straight swords\n* Force favorable trades against medium weapons\n* Maintain offensive momentum without being stopped\n\nAt 71+ poise, you can effectively pressure opponents with greatswords and heavier weapons without fear of being staggered out of your attacks.",
     },
     {
-      heading: "Soft Poise vs Hard Poise (Important Concept)",
+      heading: "Soft Poise vs Hard Poise",
       level: 2,
       content:
-        "Poise behavior is not linear.\n\nIt can be understood in two layers:\n\n### Soft Poise\n\n* Partial resistance\n* Works against low-damage hits\n* Common in light trades\n\n### Hard Poise Break\n\n* Full stagger threshold exceeded\n* Character is fully interrupted\n* Happens under heavy hits\n\nUnderstanding this difference is key to mastering melee combat.",
+        "Poise behavior is not linear. It can be understood in two layers:\n\n### Soft Poise\n\n* Partial resistance to stagger\n* Works against low-damage hits\n* Common in light trades with daggers and small weapons\n* Your character flinches but does not fully stagger\n\n### Hard Poise Break\n\n* Full stagger threshold exceeded\n* Character is completely interrupted\n* Happens under heavy hits from greatswords and colossal weapons\n* Leaves you vulnerable to follow-up attacks\n\nUnderstanding this difference is key to mastering melee combat. Knowing when you will soft flinch vs hard stagger changes how you approach each trade.",
     },
     {
-      heading: "How Poise Interacts With Weapon Classes",
+      heading: "Best Poise Armor in Elden Ring",
       level: 2,
       content:
-        "### Daggers / Fast Weapons\n\n* Rely on speed\n* Lose most poise trades\n* Avoid direct exchanges\n\n### Katanas / Medium Weapons\n\n* Balanced poise interaction\n* Can trade selectively\n\n### Greatswords / Colossal Weapons\n\n* High poise damage\n* Strong trade potential\n* Designed around stagger dominance",
+        "If you want high poise, you need the right armor. Here are the top sets:\n\n### Bull-Goat Set\n\n* Total poise: 100\n* Heaviest armor in the game\n* Requires high Endurance (40+) or Great-Jar\'s Arsenal\n* Best for colossal weapon builds\n\n### Lionel\'s Set\n\n* Total poise: 85\n* Slightly lighter than Bull-Goat\n* Good balance of protection and mobility\n\n### Veteran\'s Set\n\n* Total poise: 77\n* Popular for PvP builds\n* Excellent weight-to-poise ratio\n\n### Bull-Goat Talisman\n\n* Increases poise by 33%\n* Enables breakpoints with lighter armor\n* Essential for builds that want 51 or 61 poise without heavy armor\n\n> **Pro tip:** Mix armor pieces to hit exact breakpoints. For example, Veteran\'s Helm + Bull-Goat Armor + Veteran\'s Gauntlets + Veteran\'s Greaves gives you 77 poise at a lower weight than the full Bull-Goat set.",
     },
     {
-      heading: "Best Poise Strategy For PvE Builds",
+      heading: "Best Poise Builds in Elden Ring",
       level: 2,
       content:
-        "### 1. Use Hyper Armor Weapons\n\n* Greatsword\n* Colossal weapons\n* Heavy Ashes of War\n\n### 2. Time Attack Windows\n\nDo not trade randomly.\n\nTrade during enemy recovery frames.\n\n### 3. Stack Defense + Poise\n\nArmor improves survivability while poise stabilizes attacks.",
+        "Here are three proven builds that optimize poise for different playstyles:\n\n### 1. Strength Colossal Build (101+ Poise)\n\n* Vigor: 60\n* Endurance: 40\n* Strength: 80\n* Armor: Bull-Goat Set\n* Weapon: Giant-Crusher +25\n* This build trades through almost anything. You can poise through boss attacks and stance break with 2-3 charged heavies.\n\n### 2. Greatsword Hyper Armor Build (61+ Poise)\n\n* Vigor: 60\n* Endurance: 33\n* Strength: 54 (two-handing = 81 effective STR)\n* Armor: Veteran\'s Set\n* Weapon: Greatsword +25 with Lion\'s Claw\n* Balanced for PvE and PvP. Hits the 61 poise breakpoint for medium weapon trading.\n\n### 3. PvP Poise Build (71+ Poise)\n\n* Vigor: 60\n* Endurance: 35\n* Strength: 50\n* Dexterity: 50\n* Armor: Veteran\'s Set with Bull-Goat Talisman\n* Weapon: Zweihander +25 or Claymore +25\n* Designed for invasions and duels. 71+ poise lets you ignore light weapon pressure.\n\nPlan your exact stat allocation and test these builds with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
     {
-      heading: "Common Poise Misconceptions",
+      heading: "Common Poise Mistakes",
       level: 2,
       content:
-        "### High poise makes me invincible\n\nFalse. You still take full damage.\n\n### Poise works all the time\n\nFalse. It mainly matters during attack animations.\n\n### Light weapons don't benefit from poise\n\nPartially false. They benefit less, but still interact with stagger thresholds.",
-    },
-    {
-      heading: "How To Build Around Poise",
-      level: 2,
-      content:
-        "### Strength Builds\n\n* Naturally benefit most from poise\n* Designed for trading hits\n\n### Hybrid Builds\n\n* Moderate poise investment\n* Balanced mobility and defense\n\n### Dex Builds\n\n* Usually low poise\n* Focus on avoiding hits instead of trading\n\nPlan your poise strategy with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right stat allocation and armor loadout make a massive difference in stagger consistency.",
-    },
-    {
-      heading: "Why Poise Is Essential For Understanding Elden Ring Combat",
-      level: 2,
-      content:
-        "Poise is not a secondary stat.\n\nIt is a core combat system that defines:\n\n* Who wins trades\n* Who controls tempo\n* Who dominates melee exchanges\n\nOnce understood, it explains why some weapons feel unstoppable while others feel fragile.",
-    },
-    {
-      heading: "What Poise Teaches Players",
-      level: 2,
-      content:
-        "Poise teaches one of Elden Ring's most important combat principles:\n\n* Combat is not just about damage\n* Timing and stability matter more than raw DPS\n* Trading is a controlled system, not random interaction\n\nPlayers who understand poise often improve dramatically in melee combat.",
+        "### Mistake 1: Confusing poise with defense\n\nHigh poise does not reduce damage. You still need Vigor and damage negation.\n\n### Mistake 2: Ignoring weight load\n\nHeavy armor = high poise, but also heavy weight load. Make sure you stay at Medium Load or below. Use the Build Planner to check your equip load before finalizing.\n\n### Mistake 3: Building poise for light weapons\n\nDaggers, curved swords, and fists benefit minimally from poise because they lack hyper armor frames. Poise is most valuable on weapons with hyper armor — greatswords, colossal weapons, and heavy Ashes of War.\n\n### Mistake 4: Assuming poise works all the time\n\nPoise mainly matters during attack animations. When you are idle, running, or rolling, poise has little to no effect on whether you get staggered.",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is poise in Elden Ring?\n\nPoise determines whether your attacks get interrupted when you are hit.\n\n### Does poise reduce damage?\n\nNo. It only affects stagger resistance.\n\n### Is high poise worth it?\n\nYes, especially for Strength and melee-focused builds.\n\n### What weapons benefit most from poise?\n\nGreatswords and colossal weapons benefit the most.\n\n### Is poise important in PvP?\n\nYes. It heavily affects trade outcomes and pressure control. Compare the damage and poise break potential of different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### How much poise should I have in Elden Ring?\n\nFor most PvE builds, 51 poise is a good minimum target. Heavy melee builds usually aim for 61-101+ poise depending on your weapon class. If you use greatswords or colossal weapons, 61+ is strongly recommended.\n\n### What is the best poise armor in Elden Ring?\n\nThe Bull-Goat Set provides the highest poise at 100. Lionel\'s Set (85) and Veteran\'s Set (77) are also excellent options. For lighter builds, use the Bull-Goat Talisman to boost poise by 33% while keeping lighter armor.\n\n### Does poise work with every weapon?\n\nNo. Poise is most valuable when using attacks with hyper armor, especially greatswords and colossal weapons. Light weapons like daggers and fists have minimal hyper armor, so poise provides less benefit.\n\n### Does poise reduce damage taken?\n\nNo. Poise only prevents stagger. Damage reduction comes from armor defense values, talismans like Dragoncrest Greatshield, and buffs like Golden Vow.\n\n### What is hyper armor in Elden Ring?\n\nHyper armor is a temporary state during certain attack animations where your poise is effectively increased. This allows you to trade hits without being staggered. Heavy weapons and charged attacks have the strongest hyper armor.\n\n### Is poise important in PvP?\n\nYes. Poise heavily affects trade outcomes and pressure control in PvP. At 71+ poise, you can ignore light weapon pressure and force trades. Most competitive PvP builds aim for at least 61 poise. Compare the damage and poise break potential of different weapon classes with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+    },
+    {
+      heading: "Conclusion: Master Poise, Master Combat",
+      level: 2,
+      content:
+        "Poise is not a secondary stat. It is a core combat system that defines:\n\n* Who wins trades\n* Who controls tempo\n* Who dominates melee exchanges\n\nOnce understood, it explains why some weapons feel unstoppable while others feel fragile.\n\nStart by aiming for 51 poise in your next build, then experiment with higher breakpoints as you get comfortable with trading.\n\nUse the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stat allocation, armor weight, and poise breakpoints before you spend your next Larval Tear.",
     },
   ],
   internalLinks: [
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Poise Advantage" },
     { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Builds" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/builds/level-150-builds", anchorText: "Level 150 Builds" },
     { href: "/elden-ring/bosses/how-to-beat-godfrey", anchorText: "Greatsword vs Godfrey" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+    { href: "/elden-ring/walkthroughs/stance-break-explained", anchorText: "Stance Break vs Poise" },
   ],
 };
 
