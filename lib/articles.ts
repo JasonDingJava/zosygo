@@ -70,7 +70,8 @@ export const articles: Article[] = [
     difficulty: "intermediate",
     readTimeMinutes: 10,
     order: 1,
-    title: "Moonveil Build Guide (2026) – Best Stats, Damage Breakpoints, and PvE/PvP Optimization",
+    h1: "Moonveil Build Elden Ring 2026 – Best Intelligence Katana Setup",
+    title: "Moonveil Build Elden Ring 2026 – Best INT Katana Stats, Talismans & Spells",
     metaDescription: "The ultimate Moonveil build guide for Elden Ring. Learn the best stats, Intelligence breakpoints, talismans, damage optimization, and PvE/PvP strategies.",
     sections: [
       {
@@ -767,9 +768,10 @@ export const articles: Article[] = [
     difficulty: "intermediate",
     readTimeMinutes: 10,
     order: 5,
-    title: "Moonveil Build Elden Ring (2026 Guide) – Best Intelligence Katana Build",
+    title: "Moonveil Build Elden Ring 2026 – Best INT Katana Stats, Talismans & Spells",
+    h1: "Moonveil Build Elden Ring 2026 – Best Intelligence Katana Setup",
     metaDescription:
-      "Complete Moonveil build guide for Elden Ring 2026. Best Intelligence katana build with optimized stats (Lv 150), damage tables, PvE/PvP setups, and leveling path.",
+      "Create the best Moonveil build in Elden Ring 2026. Optimized Lv 150 Intelligence katana setup with stats, talismans, spells, damage comparisons, PvE/PvP setup, and leveling guide.",
     keyTakeaways: [
       { label: "🎯 Core Stats (Lv 150)", value: "Vigor 60, Mind 25, Endurance 25, Dex 25, Intelligence 60" },
       { label: "⚔️ Primary Weapon", value: "Moonveil Katana +10 — Transient Moonlight weapon skill" },

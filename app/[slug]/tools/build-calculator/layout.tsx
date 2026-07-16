@@ -3,13 +3,13 @@ import type { Metadata } from "next";
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
   return {
-    title: "Elden Ring Build Planner 2026 – Calculator & Stat Optimizer | Zosygo",
+    title: "Elden Ring Build Planner 2026 – Calculator, Damage & Stat Optimization | Zosygo",
     description:
-      "Create, optimize, and share your Elden Ring builds. Plan stats, weapons, armor, talismans, and spells with real-time calculations and damage optimization.",
+      "Create and optimize Elden Ring builds with our interactive build planner. Calculate weapon damage, compare stats, test weapons, armor, talismans, and spells for your perfect build.",
     openGraph: {
-      title: "Elden Ring Build Planner 2026 – Calculator & Stat Optimizer",
+      title: "Elden Ring Build Planner 2026 – Calculator, Damage & Stat Optimization",
       description:
-        "Create, optimize, and share your Elden Ring builds. Plan stats, weapons, armor, talismans, and spells with real-time calculations and damage optimization.",
+        "Create and optimize Elden Ring builds with our interactive build planner. Calculate weapon damage, compare stats, test weapons, armor, talismans, and spells for your perfect build.",
       url: "https://www.zosygo.com/elden-ring/tools/build-calculator",
     },
     robots: {
