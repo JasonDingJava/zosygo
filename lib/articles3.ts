@@ -476,8 +476,6 @@ const article40: Article = {
       level: 2,
       content:
         "Elden Ring poise determines whether your character gets staggered when taking hits.\n\nThe most important breakpoints are:\n\n* **51 poise**: basic PvE resistance — most PvE hits won't interrupt your attack\n* **61 poise**: medium weapon trades — trade through katana and straight sword attacks\n* **101 poise**: heavy weapon trades — trade with greatswords and colossal weapons\n\nThis guide explains every poise breakpoint, hyper armor interaction, and the best armor setups for PvE and PvP. Before optimizing your build, use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat allocation.\n\nSee also: [How Stance Damage Works](https://www.zosygo.com/elden-ring/walkthroughs/stance-damage-explained) for the related combat mechanic.",
-      image: "poise-breakpoint-comparison.webp",
-      imageAlt: "Elden Ring poise breakpoint armor comparison"
     },
     {
       heading: "Quick Answer",
@@ -547,8 +545,6 @@ const article40: Article = {
       level: 2,
       content:
         "Poise comes from armor only. Here are the top sets:\n\n### Bull-Goat Set\n\n* Total poise: 100\n* Heaviest armor in the game\n* Requires high Endurance (40+) or Great-Jar\u2019s Arsenal\n* Best for colossal weapon builds\n\n### Lionel\u2019s Set\n\n* Total poise: 85\n* Slightly lighter than Bull-Goat\n* Good balance of protection and mobility\n\n### Veteran\u2019s Set\n\n* Total poise: 77\n* Popular for PvP builds\n* Excellent weight-to-poise ratio\n\n### Bull-Goat\u2019s Talisman\n\n* Increases poise by approximately 33%\n* Enables breakpoints with lighter armor\n* Essential for builds that want 51 or 61 poise without heavy armor\n\n> **Pro tip:** Mix armor pieces to hit exact breakpoints. For example, Veteran\u2019s Helm + Bull-Goat Armor + Veteran\u2019s Gauntlets + Veteran\u2019s Greaves gives you 77 poise at lower weight than the full Bull-Goat set.\n\nSee also: [Best Strength Builds](https://www.zosygo.com/elden-ring/builds/best-strength-build) for armor recommendations paired with high-poise weapon builds.",
-      image: "bull-goat-armor.webp",
-      imageAlt: "Bull Goat armor highest poise Elden Ring"
     },
     {
       heading: "Best Poise Builds in Elden Ring",
