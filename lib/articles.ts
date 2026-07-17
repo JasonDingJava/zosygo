@@ -1557,43 +1557,67 @@ export const articles: Article[] = [
   // ═══ ELDEN RING — BUILDS (Soft Caps) ═══
   {
     keyTakeaways: [
-      { label: "🎯 Vigor", value: "60 hard cap — never go past 60, diminishing returns after 40" },
-      { label: "⚔️ STR/DEX", value: "55 first cap (best efficiency), 80 second cap" },
-      { label: "🔮 INT/FAI", value: "60 first cap, 80 second cap — 60 is optimal for most builds" },
+      { label: "🎯 Vigor", value: "60 — second soft cap, never go past" },
+      { label: "⚔️ STR/DEX", value: "55 first cap, 80 second cap" },
+      { label: "🔮 INT/FAI", value: "60 first cap, 80 second cap" },
       { label: "🩸 ARC", value: "45 for bleed buildup, 60 for weapon scaling" },
-      { label: "💡 Mind/End", value: "Mind 20-30 (comfortable FP), Endurance 25-35 (equip load + stamina)" },
-      { label: "📊 Key Rule", value: "A well-optimized Lv 120 beats a poorly distributed Lv 150" },
+      { label: "💡 Mind/End", value: "Mind 20–40, Endurance 25–40" },
+      { label: "📊 Key Rule", value: "60 Vigor > 80 damage stat in most scenarios" },
     ],
     slug: "soft-caps-explained",
     category: "builds",
     gameSlug: "elden-ring",
     difficulty: "beginner",
-    readTimeMinutes: 8,
+    readTimeMinutes: 10,
     order: 8,
-    title: "Elden Ring Soft Caps Explained (2026) – The Most Important Stat Guide",
+    h1: "Elden Ring Soft Caps 2026: Complete Vigor, STR, DEX, INT, FAI & ARC Guide",
+    title: "Elden Ring Soft Caps 2026 – Complete Stat Breakpoints Guide",
     metaDescription:
-      "Learn how Elden Ring soft caps work for Vigor, Mind, Endurance, Strength, Dexterity, Intelligence, Faith, and Arcane. Optimize your build and avoid wasting levels.",
+      "Complete Elden Ring soft caps guide for 2026. Learn Vigor, Strength, Dexterity, Intelligence, Faith, and Arcane stat breakpoints. Optimize your Lv 100–150 build and avoid wasted levels.",
     sections: [
       {
         heading: "",
         level: 2,
-        content: "If you've ever wondered why adding 10 more levels to a stat barely increases your damage, you're running into one of Elden Ring's most important systems:\n\n**Soft Caps.**\n\nUnderstanding soft caps is the difference between creating a powerful build and wasting dozens of levels.\n\nMany players reach level 150 and still have weaker builds than level 120 characters simply because their stats are distributed inefficiently. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check how many runes you need to reach 150.\n\nThis guide explains exactly how Elden Ring soft caps work and how to use them when planning your build."
+        content: "If you\'ve ever wondered why adding 10 more levels to a stat barely increases your damage, you\'re running into one of Elden Ring\'s most important systems:\n\n**Soft Caps.**\n\nUnderstanding soft caps is the difference between creating a powerful build and wasting dozens of levels.\n\nMany players reach level 150 and still have weaker builds than level 120 characters simply because their stats are distributed inefficiently. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check how many runes you need to reach 150.\n\nThis guide explains exactly how Elden Ring stat caps work and how to use them when planning your build."
+      },
+      {
+        heading: "⚔️ Test Your Build",
+        level: 2,
+        content: "Before you read the guide, try our [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see exactly how soft caps affect your weapon damage and stat efficiency in real time.\n\n[Open Build Planner →](https://www.zosygo.com/elden-ring/tools/build-calculator)"
       },
       {
         heading: "Quick Answer",
         level: 2,
-        content: "Soft caps are points where leveling a stat starts providing reduced returns.\n\nFor most builds:",
+        content: "Elden Ring soft caps are the points where leveling a stat gives reduced returns.\n\nFor most builds:",
         table: {
-          headers: ["Stat", "Recommended Target"],
+          headers: ["Stat", "Recommended (Lv 150)"],
           rows: [
             ["Vigor", "60"],
-            ["Mind", "20–30"],
-            ["Endurance", "25–35"],
+            ["Mind", "20–40"],
+            ["Endurance", "25–40"],
             ["Strength", "55–80"],
             ["Dexterity", "55–80"],
             ["Intelligence", "60–80"],
-            ["Faith", "50–80"],
+            ["Faith", "60–80"],
             ["Arcane", "45–60"]
+          ]
+        }
+      },
+      {
+        heading: "Elden Ring Soft Caps Chart",
+        level: 2,
+        content: "Quick reference for all stat breakpoints in Elden Ring 2026:",
+        table: {
+          headers: ["Stat", "First Soft Cap", "Second Soft Cap", "Recommended"],
+          rows: [
+            ["Vigor", "40", "60", "60"],
+            ["Mind", "20 / 38", "50", "20–40"],
+            ["Endurance", "25", "50", "25–40"],
+            ["Strength", "55", "80", "55–80"],
+            ["Dexterity", "55", "80", "55–80"],
+            ["Intelligence", "60", "80", "60–80"],
+            ["Faith", "60", "80", "60–80"],
+            ["Arcane", "45", "60", "45–60"]
           ]
         }
       },
@@ -1608,58 +1632,84 @@ export const articles: Article[] = [
         content: "Many players assume that increasing damage stats is always the best choice.\n\nConsider these two builds:\n\n### Build A\n\n- Vigor: 35\n- Intelligence: 80\n\n### Build B\n\n- Vigor: 60\n- Intelligence: 60\n\nMost players perform significantly better with Build B.\n\nWhile Build A gains slightly more spell damage, Build B survives longer, makes fewer mistakes fatal, and has more opportunities to deal damage throughout a fight.\n\nThis is why understanding soft caps is essential."
       },
       {
+        heading: "Level 150 Meta Builds — Recommended Stats",
+        level: 2,
+        content: "Here\'s how the soft caps translate into real builds at level 150. These are the most popular optimized builds in the current meta."
+      },
+      {
+        heading: "Moonveil Build (INT Katana)",
+        level: 3,
+        content: "- Vigor: 60\n- Mind: 25\n- Endurance: 20\n- Dexterity: 25\n- Intelligence: 60\n\n[Best Moonveil Build Guide →](https://www.zosygo.com/elden-ring/builds/best-moonveil-build)"
+      },
+      {
+        heading: "Bleed Build (Arcane)",
+        level: 3,
+        content: "- Vigor: 60\n- Endurance: 20\n- Dexterity: 45\n- Arcane: 45\n\n[Best Bleed Build Guide →](https://www.zosygo.com/elden-ring/builds/best-bleed-build)"
+      },
+      {
+        heading: "Strength Build (Colossal)",
+        level: 3,
+        content: "- Vigor: 60\n- Endurance: 30\n- Strength: 66\n\n[Best Strength Build Guide →](https://www.zosygo.com/elden-ring/builds/best-strength-build)"
+      },
+      {
         heading: "Vigor Soft Caps",
         level: 2,
-        content: "Vigor determines maximum HP.",
+        content: "Vigor determines maximum HP. This is the most important stat in Elden Ring — no damage matters if you\'re dead.",
         image: "soft-caps-vigor.png",
         imageAlt: "Crimson Amber Medallion representing Vigor from Elden Ring"
       },
       {
-        heading: "First Soft Cap: 40",
+        heading: "What Vigor Does",
         level: 3,
-        content: "HP gains begin slowing down after 40 Vigor."
+        content: "Each point of Vigor increases your HP. The amount gained per point decreases as you invest more levels."
       },
       {
-        heading: "Second Soft Cap: 60",
+        heading: "40 Vigor — First Soft Cap",
         level: 3,
-        content: "This is the most important breakpoint in the game. Most optimized PvE builds should target 60 Vigor."
+        content: "HP gains begin slowing down after 40 Vigor. This is the minimum for mid-game content."
       },
       {
-        heading: "Beyond 60",
+        heading: "60 Vigor — Second Soft Cap",
         level: 3,
-        content: "Additional HP gains become very small. For nearly every build, levels beyond 60 are better spent elsewhere."
+        content: "This is the most important breakpoint in the game. Most optimized PvE builds should target 60 Vigor. Beyond 60, additional HP gains become very small."
       },
       {
-        heading: "Recommended Vigor",
+        heading: "Best Vigor Targets",
         level: 3,
         content: "",
         table: {
-          headers: ["Build Type", "Recommended Vigor"],
+          headers: ["Build Type", "Vigor"],
           rows: [
-            ["Early Game", "30–40"],
-            ["Mid Game", "40–50"],
-            ["End Game", "60"]
+            ["Early Game (Lv 1–50)", "30–40"],
+            ["Mid Game (Lv 50–100)", "40–50"],
+            ["End Game (Lv 100–150)", "60"],
+            ["DLC / NG+", "60"]
           ]
         }
       },
       {
         heading: "Mind Soft Caps",
         level: 2,
-        content: "Mind increases FP and determines how often you can cast spells or use weapon skills. Beyond the main soft cap at 50, there are several useful breakpoints worth knowing."
+        content: "Mind increases FP and determines how often you can cast spells or use weapon skills."
+      },
+      {
+        heading: "What Mind Does",
+        level: 3,
+        content: "Mind affects your FP pool. Higher Mind means more spell casts and weapon skill uses before needing to drink a Cerulean Flask."
       },
       {
         heading: "Key Mind Breakpoints",
         level: 3,
-        content: "- **20 Mind**: A good baseline for melee builds — provides enough FP for weapon skills and emergency casts\n- **38 Mind**: The threshold where a fully upgraded Cerulean Flask +12 restores exactly 220 FP — optimal efficiency for flask-to-FP ratio\n- **50 Mind**: First major soft cap — FP gains begin slowing significantly\n- **60 Mind**: Second soft cap — beyond this, FP returns become minimal"
+        content: "- **20 Mind**: Good baseline for melee builds — enough FP for weapon skills and emergency casts\n- **38 Mind**: Threshold where a fully upgraded Cerulean Flask +12 restores exactly 220 FP — optimal flask efficiency\n- **50 Mind**: First major soft cap — FP gains slow significantly\n- **60 Mind**: Second soft cap — beyond this, returns are minimal"
       },
       {
-        heading: "Recommended Mind Levels",
+        heading: "Best Mind Targets",
         level: 3,
         content: "",
         table: {
           headers: ["Build Type", "Mind"],
           rows: [
-            ["Melee Build", "15–20"],
+            ["Pure Melee", "15–20"],
             ["Hybrid Build", "20–30"],
             ["Pure Mage", "30–40"]
           ]
@@ -1671,49 +1721,64 @@ export const articles: Article[] = [
         content: "Endurance affects:\n\n- Stamina\n- Equip Load\n- Defensive flexibility"
       },
       {
-        heading: "Stamina Soft Cap",
+        heading: "What Endurance Does",
         level: 3,
-        content: "Around 50 Endurance."
+        content: "Endurance governs your stamina pool and equip load. Higher stamina means more attacks, dodges, and blocks. Higher equip load lets you wear heavier armor."
       },
       {
-        heading: "Equip Load Considerations",
+        heading: "25 Endurance — First Soft Cap",
         level: 3,
-        content: "Many players level Endurance solely to maintain Medium Roll. If increasing Endurance doesn't change your equipment load category, those levels may be inefficient."
+        content: "Stamina gains begin slowing. For most builds, 25 is enough for Medium Roll with standard equipment."
       },
       {
-        heading: "Recommended Endurance",
+        heading: "50 Endurance — Second Soft Cap",
+        level: 3,
+        content: "Stamina gains become very small. Only push past 50 if you need Heavy Load armor with colossal weapons."
+      },
+      {
+        heading: "Best Endurance Targets",
         level: 3,
         content: "",
         table: {
           headers: ["Build Type", "Endurance"],
           rows: [
-            ["Light Build", "20–25"],
-            ["Medium Build", "25–30"],
-            ["Heavy Build", "30–40"]
+            ["Light / Caster Build", "20–25"],
+            ["Medium / Hybrid Build", "25–30"],
+            ["Heavy / Strength Build", "30–40"]
           ]
         }
       },
       {
         heading: "Strength Soft Caps",
         level: 2,
-        content: "Strength affects heavy weapons and physical damage scaling.",
+        content: "Strength affects heavy weapons and physical damage scaling. Compare STR scaling with our [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
         image: "soft-caps-strength.png",
-        imageAlt: "Radagon's Soreseal representing Strength from Elden Ring"
+        imageAlt: "Radagon\'s Soreseal representing Strength from Elden Ring"
       },
       {
-        heading: "Major Breakpoints",
+        heading: "What Strength Does",
         level: 3,
-        content: "- 20\n- 55\n- 80"
+        content: "Strength increases physical damage for weapons with STR scaling. Two-handing a weapon multiplies your effective STR by 1.5x."
       },
       {
-        heading: "Recommended Strength",
+        heading: "55 Strength — First Soft Cap",
+        level: 3,
+        content: "This is the best efficiency point. Two-handing at 55 STR gives you effectively 82 STR, hitting the second soft cap."
+      },
+      {
+        heading: "80 Strength — Second Soft Cap",
+        level: 3,
+        content: "Maximum physical damage for STR weapons. Only recommended if you have 60 Vigor and 25–30 Endurance first."
+      },
+      {
+        heading: "Best Strength Targets",
         level: 3,
         content: "",
         table: {
           headers: ["Build Type", "Strength"],
           rows: [
             ["Early Build", "20–30"],
-            ["Standard Build", "55–60"],
+            ["Standard Build (Two-Handed)", "54–55"],
             ["Max Damage Build", "80"]
           ]
         }
@@ -1721,68 +1786,99 @@ export const articles: Article[] = [
       {
         heading: "Dexterity Soft Caps",
         level: 2,
-        content: "Dexterity improves weapon scaling and certain casting speeds."
+        content: "Dexterity improves weapon scaling and casting speed."
       },
       {
-        heading: "Major Breakpoints",
+        heading: "What Dexterity Does",
         level: 3,
-        content: "- 20\n- 55\n- 80"
+        content: "Dexterity increases physical damage for weapons with DEX scaling and slightly reduces spell casting time."
       },
       {
-        heading: "Recommended Dexterity",
+        heading: "55 Dexterity — First Soft Cap",
+        level: 3,
+        content: "Best efficiency point for DEX builds. Most weapons reach their best damage-per-level ratio here."
+      },
+      {
+        heading: "80 Dexterity — Second Soft Cap",
+        level: 3,
+        content: "Maximum physical damage for DEX weapons. Pushing past 55 is only recommended after Vigor and Endurance are set."
+      },
+      {
+        heading: "Best Dexterity Targets",
         level: 3,
         content: "",
         table: {
           headers: ["Build Type", "Dexterity"],
           rows: [
             ["Early Build", "20–30"],
-            ["Standard Build", "55–60"],
-            ["Max Damage Build", "80"]
+            ["Standard DEX Build", "55–60"],
+            ["Max DEX Build", "80"]
           ]
         }
       },
       {
         heading: "Intelligence Soft Caps",
         level: 2,
-        content: "Intelligence governs sorcery scaling and many magic weapons."
+        content: "Intelligence governs sorcery scaling and magic weapon damage."
       },
       {
-        heading: "Major Breakpoints",
+        heading: "What Intelligence Does",
         level: 3,
-        content: "- 20\n- 50\n- 80"
+        content: "Intelligence increases sorcery scaling on staves and magic damage on INT-scaling weapons like Moonveil and Dark Moon Greatsword."
       },
       {
-        heading: "Recommended Intelligence",
+        heading: "60 Intelligence — First Soft Cap",
+        level: 3,
+        content: "Best efficiency for most builds. Provides 85% of max sorcery scaling at 60 INT."
+      },
+      {
+        heading: "80 Intelligence — Second Soft Cap",
+        level: 3,
+        content: "Maximum sorcery scaling. Only for pure mage builds or level 200+ characters."
+      },
+      {
+        heading: "Best Intelligence Targets",
         level: 3,
         content: "",
         table: {
           headers: ["Build Type", "Intelligence"],
           rows: [
             ["Hybrid Build", "50–60"],
-            ["Mage Build", "60–80"],
-            ["Maximum Damage", "80"]
+            ["Pure Mage Build", "60–80"],
+            ["Max Damage Build", "80"]
           ]
         }
       },
       {
         heading: "Faith Soft Caps",
         level: 2,
-        content: "Faith scales Incantations and Faith-based weapons."
+        content: "Faith scales incantations and Faith-based weapons."
       },
       {
-        heading: "Major Breakpoints",
+        heading: "What Faith Does",
         level: 3,
-        content: "- 20\n- 50\n- 80"
+        content: "Faith increases incantation scaling on sacred seals and damage on FAI-scaling weapons like Blasphemous Blade and Sacred Relic Sword."
       },
       {
-        heading: "Recommended Faith",
+        heading: "60 Faith — First Soft Cap",
+        level: 3,
+        content: "Best efficiency for most builds. Provides strong incantation damage while leaving room for Vigor and Mind."
+      },
+      {
+        heading: "80 Faith — Second Soft Cap",
+        level: 3,
+        content: "Maximum incantation scaling. Recommended for pure Faith builds at level 150+."
+      },
+      {
+        heading: "Best Faith Targets",
         level: 3,
         content: "",
         table: {
           headers: ["Build Type", "Faith"],
           rows: [
             ["Hybrid Build", "40–50"],
-            ["Pure Faith Build", "60–80"]
+            ["Pure Faith Build", "60–80"],
+            ["Max Incantation Damage", "80"]
           ]
         }
       },
@@ -1792,12 +1888,22 @@ export const articles: Article[] = [
         content: "Arcane affects:\n\n- Bleed buildup\n- Poison buildup\n- Occult scaling\n- Item Discovery"
       },
       {
-        heading: "Major Breakpoints",
+        heading: "What Arcane Does",
         level: 3,
-        content: "- 20\n- 45\n- 60"
+        content: "Arcane increases bleed and poison buildup on weapons with Arcane scaling, improves Occult infusion damage, and boosts item discovery."
       },
       {
-        heading: "Recommended Arcane",
+        heading: "45 Arcane — First Soft Cap",
+        level: 3,
+        content: "Best efficiency for bleed builds. Bleed buildup gains slow significantly after 45."
+      },
+      {
+        heading: "60 Arcane — Second Soft Cap",
+        level: 3,
+        content: "Maximum Occult scaling. Good for pure Arcane builds using Occult-infused weapons."
+      },
+      {
+        heading: "Best Arcane Targets",
         level: 3,
         content: "",
         table: {
@@ -1814,86 +1920,50 @@ export const articles: Article[] = [
         level: 2,
         content: "The most common mistake is prioritizing damage stats too early.\n\nExample:\n\n- Vigor: 35\n- Dexterity: 80\n\nLooks powerful on paper.\n\nIn practice:\n\n- Lower survivability\n- More deaths\n- Less overall damage during boss fights\n\nA balanced build consistently outperforms a glass cannon setup.",
         image: "soft-caps-erdtree.png",
-        imageAlt: "Erdtree's Favor talisman representing balanced stats from Elden Ring"
-      },
-      {
-        heading: "Recommended Stat Targets at Level 150",
-        level: 2,
-        content: ""
-      },
-      {
-        heading: "Strength Build",
-        level: 3,
-        content: "- Vigor: 60\n- Endurance: 30\n- Strength: 60"
-      },
-      {
-        heading: "Dexterity Build",
-        level: 3,
-        content: "- Vigor: 60\n- Endurance: 25\n- Dexterity: 60"
-      },
-      {
-        heading: "Intelligence Build",
-        level: 3,
-        content: "- Vigor: 60\n- Mind: 25\n- Intelligence: 80"
-      },
-      {
-        heading: "Faith Build",
-        level: 3,
-        content: "- Vigor: 60\n- Mind: 25\n- Faith: 80"
-      },
-      {
-        heading: "Bleed Build",
-        level: 3,
-        content: "- Vigor: 60\n- Dexterity: 45–50\n- Arcane: 45–50"
+        imageAlt: "Erdtree\'s Favor talisman representing balanced stats from Elden Ring"
       },
       {
         heading: "How to Use Soft Caps with a Build Planner",
         level: 2,
-        content: "The easiest way to optimize your character is by testing stat changes before spending levels.\n\nA build planner allows you to:\n\n- Compare weapon scaling\n- Test different stat allocations\n- Check equip load thresholds\n- Optimize damage efficiency\n- Avoid wasting Larval Tears during respecs\n\nSmall adjustments can often free up 10–20 levels without reducing meaningful damage."
+        content: "The best way to understand soft caps is to see them in action.\n\n[Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) shows you:\n\n- Exact AR at each stat level\n- Damage comparison between different stat spreads\n- Weight and equip load calculations\n- Build optimization suggestions\n\n### Step-by-Step:\n\n1. **Open the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)**\n2. **Select your weapon** — see its scaling grade\n3. **Adjust stats** — watch the AR change at each soft cap\n4. **Compare** — 60 INT vs 80 INT vs 50 INT with 60 Vigor\n\n### Example Comparison\n\nAt Intelligence soft caps with Moonveil:\n\n| INT | Moonveil AR | Notes |\n| --- | ----------- | ----- |\n| 60 | 498 | Best efficiency |\n| 70 | 527 | +29 AR for 10 levels |\n| 80 | 546 | +19 more AR for 10 levels |\n\nThe 10 levels from 60 to 80 only add +48 AR. Those same 10 levels could give you +300 HP at 50-60 Vigor."
       },
       {
-        heading: "Frequently Asked Questions",
+        heading: "FAQ",
         level: 2,
         content: ""
       },
       {
         heading: "What is the most important soft cap in Elden Ring?",
         level: 3,
-        content: "For most players, 60 Vigor is the most important soft cap because survivability directly impacts overall performance."
-      },
-      {
-        heading: "Is 80 Strength worth it?",
-        level: 3,
-        content: "Yes, but only after reaching key survivability thresholds such as 60 Vigor."
+        content: "60 Vigor is the most important soft cap in the game. No other stat breakpoint provides as much survival value. Always reach 60 Vigor before pushing damage stats past their first soft cap."
       },
       {
         heading: "Is 80 Intelligence worth it?",
         level: 3,
-        content: "For pure mage builds, yes. For hybrid builds, 60 Intelligence is often sufficient."
+        content: "80 Intelligence is only worth it for pure mage builds at level 150+. For hybrid builds, 60 Intelligence provides 85% of the sorcery scaling while saving 20 levels for Vigor, Mind, or Endurance."
       },
       {
-        heading: "How much Arcane should a Bleed build have?",
+        heading: "Is 60 Vigor enough for DLC?",
         level: 3,
-        content: "Most optimized Bleed builds perform best between 45 and 50 Arcane."
+        content: "Yes. 60 Vigor combined with Dragoncrest Greatshield Talisman +2 and heavy armor is the standard setup for Shadow of the Erdtree. Beyond 60 Vigor, the HP gains are too small to justify the levels."
       },
       {
-        heading: "Should I level beyond soft caps?",
+        heading: "What level should I stop at in Elden Ring?",
         level: 3,
-        content: "Usually no. The value gained per level decreases significantly and those levels are often better invested elsewhere."
+        content: "Level 150 is the most popular stopping point for both PvE and PvP. It allows most builds to reach their primary damage soft cap while maintaining 60 Vigor. Level 125 is common for competitive PvP duels. Level 200+ is for NG+ runs and high-level co-op."
       },
       {
-        heading: "Final Verdict",
-        level: 2,
-        content: "Soft caps are one of the most important systems in Elden Ring.\n\nPlayers who understand them build stronger characters, waste fewer levels, and perform better against difficult bosses.\n\nBefore investing additional levels into Strength, Dexterity, Intelligence, Faith, or Arcane, ask a simple question:\n\n**Am I still getting meaningful value from this stat?**\n\nThe strongest builds are not created by maximizing a single attribute.\n\nThey are created by understanding exactly where each level provides the greatest return."
-      }
+        heading: "What is the difference between a soft cap and a hard cap?",
+        level: 3,
+        content: "A soft cap is where stat returns decrease significantly but are still somewhat useful. A hard cap (typically 99) is the maximum level for any stat — beyond this, you cannot invest more points. In Elden Ring, all stats have a hard cap of 99."
+      },
     ],
     internalLinks: [
-      { href: "/elden-ring/builds/soft-caps-explained-2026", anchorText: "Soft Caps Explained (2026)" },
-      { href: "/elden-ring/builds/build-planner-guide", anchorText: "Build Planner Guide" },
-      { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
-      { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
-    ]
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build" },
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+      { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Build" },
+    ],
   },
   // ═══ ELDEN RING — BUILDS (Moonveil vs RoB) ═══
   {
