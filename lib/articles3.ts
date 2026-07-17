@@ -1732,226 +1732,164 @@ const article45: Article = {
 
 const article46: Article = {
   keyTakeaways: [
-    { label: "🎯 Recommended", value: "Level 35-50, weapon +5 to +8, Vigor 20-30, Flask 6-8" },
-    { label: "🗺️ First Thing", value: "Get the Academy Gate Key from the dragon by Temple Quarter" },
-    { label: "🎓 Raya Lucaria", value: "Best done mid-Liurnia — explore the lake and Caria Manor first" },
-    { label: "💡 Key Rewards", value: "Respec access (Rennala), Moonveil Katana (Gael Tunnel), Sorcery vendors" },
-    { label: "🛡️ Best Side Content", value: "Caria Manor (Royal Greatsword, Loretta), Carian Study Hall (Godskin Noble)" },
-    { label: "⚠️ Common Mistake", value: "Rushing Raya Lucaria without exploring south Liurnia first" },
+    { label: "🎯 Key Unlock", value: "Academy Gate Key — opens Raya Lucaria and access to sorceries" },
+    { label: "⚔️ First Boss", value: "Rennala — grants character respec (Larval Tear system)" },
+    { label: "📚 Main Quest", value: "Ranni the Witch — Liurnia is where her questline begins" },
+    { label: "🗺 Map Unlock", value: "4 map fragments — Eastern, Western, Northern, Central Liurnia" },
+    { label: "🔧 Best Weapon", value: "Moonveil katana — Gael Tunnel, accessible from Liurnia" },
+    { label: "⚠️ Common Trap", value: "Don't rush to Rennala — Caria Manor and Albinauric Village have critical rewards" }
   ],
   slug: "liurnia-walkthrough",
   category: "walkthroughs",
   gameSlug: "elden-ring",
   difficulty: "beginner",
-  readTimeMinutes: 10,
+  readTimeMinutes: 13,
   order: 46,
-  title: "Liurnia Walkthrough: Complete Progression Guide for Liurnia of the Lakes in Elden Ring (2026)",
+  title: "Elden Ring Liurnia Walkthrough (2026): Best Route Order, Bosses, Map, Quests & Secrets",
+  h1: "Elden Ring Liurnia Walkthrough (2026): Best Route Order, Bosses, Map, Quests & Secrets",
   metaDescription:
-    "Complete Liurnia walkthrough covering Academy Gate Key, Raya Lucaria Academy, major bosses, map fragments, quests, upgrade materials, and the fastest progression route through Liurnia of the Lakes.",
+    "Complete Elden Ring Liurnia walkthrough 2026. Best progression route, boss checklist, map fragment locations, Ranni questline, Caria Manor, Albinauric Village, Moonveil location, and secrets before Altus Plateau.",
   sections: [
+
     {
       heading: "",
       level: 2,
       content:
-        "After defeating Godrick the Grafted, most players step into Liurnia of the Lakes expecting a straightforward continuation of Elden Ring's main story.\n\nInstead, they discover one of the largest and most confusing regions in the game.\n\nLiurnia is dramatically different from Limgrave.\n\nThe area is wider, more open, and packed with optional content. Important questlines begin here. Powerful sorceries become available. Several major NPCs move through the region. Some of the best weapons, talismans, and upgrade materials in the game can be found here.\n\nThe challenge is knowing what to do first.\n\nThis walkthrough focuses on the most efficient progression route through Liurnia while highlighting the most important discoveries, bosses, and rewards along the way.",
+        "Liurnia of the Lakes is the first major region where Elden Ring stops giving players a clear path. After defeating Godrick, the map opens wide and the game asks you to figure out your own route.\\n\\nIf you are wondering where to go after Godrick, the best Liurnia route is:\\n\\n**South Liurnia \u2192 Academy Gate Key \u2192 Raya Lucaria Academy \u2192 Caria Manor \u2192 Ranni Quest \u2192 Altus Plateau.**\\n\\nThis walkthrough covers the full progression route, every major boss, map fragment locations, the most important quests, the best loot, and the hidden secrets that most players miss.\\n\\nBefore planning your build for Liurnia, use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your stats.",
     },
     {
-      heading: "Why Liurnia Is One of the Most Important Regions in Elden Ring",
+      heading: "Liurnia Progression Route",
+      level: 2,
+      content: "Follow this route for the smoothest progression from Limgrave to Altus Plateau.",
+      table: {
+        headers: ["Step", "Area", "What to Do", "Why It Matters"],
+        rows: [
+          ["1", "Lake-Facing Cliffs", "Unlock East Liurnia map, collect early items", "Unlocks the western half of the region"],
+          ["2", "South Liurnia", "Explore lakeside grace, begin Thops quest", "Cheapest sorceries available, early Intelligence options"],
+          ["3", "Academy Gate Key", "Defeat sleep dragon Ornel, grab key", "Only way to enter Raya Lucaria"],
+          ["4", "Raya Lucaria Academy", "Clear to Red Wolf, continue to Rennala", "Unlocks respec system"],
+          ["5", "Caria Manor", "Clear manor, unlock Three Sisters", "Sword of Night and Flame, Ranni quest progress"],
+          ["6", "Ranni Quest", "Speak to Ranni at Three Sisters", "Moonveil, Age of Stars ending setup"],
+          ["7", "Bellum Highway", "Clear to Altus Plateau", "Main story continuation"],
+          ["8", "Altus Plateau", "Continue main path", "Next major region"]
+        ]
+      }
+    },
+
+    {
+      heading: "Boss Checklist",
+      level: 2,
+      content: "These are the key bosses in Liurnia. Most are optional except Rennala and the Academy dragon gatekeeper.",
+      table: {
+        headers: ["Boss", "Location", "Required?", "Reward"],
+        rows: [
+          ["Ornstein (sleep dragon)", "West of Academy", "Yes", "Academy Gate Key"],
+          ["Red Wolf of Radagon", "Raya Lucaria Academy", "Yes", "Memory Stone"],
+          ["Rennala, Queen of the Full Moon", "Raya Lucaria Academy", "Yes", "Respec unlocked"],
+          ["Royal Knight Loretta", "Caria Manor", "Optional", "Loretta's Knight Armor"],
+          ["Astel, Naturalborn of the Void", "Lake of Rot", "Optional", "Great Rune (Ranni quest)"],
+          ["Dragon Smarag", "Temple Quarter", "Optional", "Dragon Tear +1, rune drop"],
+          ["Raya Lucaria Crystalians", "Academy side path", "Optional", "Crystal weapons"],
+          ["Elder Dragon Greyoll", "North Liurnia cliffs", "Optional", "2x Dragon Hearts"]
+        ]
+      }
+    },
+
+    {
+      heading: "Map Fragment Locations",
+      level: 2,
+      content: "Liurnia is split into multiple map fragments. Unlocking them reveals the full region and enables fast travel.",
+      table: {
+        headers: ["Fragment", "Location", "Route", "Reward"],
+        rows: [
+          ["East Liurnia", "Near the lake, south of Academy Gate", "From Lake-Facing Cliffs, follow the path west", "Unlocks the southern half of Liurnia"],
+          ["Central Liurnia", "Temple Quarter", "From Academy, explore north", "Unlocks the center and major sorcery shops"],
+          ["North Liurnia", "Bellum Highway, north of manor", "After completing Caria Manor", "Unlocks the path to Altus Plateau"],
+          ["West Liurnia", "Lake of Rot entrance", "From Academy, west through Gael Tunnel", "Unlocks Gael Tunnel and Moonveil area"]
+        ]
+      }
+    },
+
+    {
+      heading: "Important NPC Questlines",
+      level: 2,
+      content: "Liurnia is the hub for Elden Ring's most important questlines. Starting these early prevents missing rewards permanently.",
+      table: {
+        headers: ["NPC", "Quest", "Liurnia Trigger", "Reward"],
+        rows: [
+          ["Ranni the Witch", "Age of Stars questline", "Caria Manor \u2192 Three Sisters \u2192 Speak to Ranni", "Age of Stars ending, Radagon's Scarseal"],
+          ["Hyetta", "Blind maiden questline", "First at Church of Inhibition (south Liurnia)", "Fingerslayer Blade, Ranni quest continuation"],
+          ["White-Faced Varre", "Maidenless questline", "Speak to him at Rose Church", "Varmlo's Bloodflame, Mohgwyn Palace access"],
+          ["Thops", "Academy student quest", "At South Liurnia Lakeshore grace", "Thops's Bell Bearing (sorceries)"],
+          ["Latenna", "Pacifist companion quest", "Near Bridge of Sacrifice (northeast Liurnia)", "Latenna's Arrow Summon Ashes"]
+        ]
+      }
+    },
+
+    {
+      heading: "Best Items to Get Before Leaving Liurnia",
+      level: 2,
+      content: "These items are worth the detour. Most cannot be obtained again if you skip them.",
+      table: {
+        headers: ["Item", "Location", "Best For", "Why"],
+        rows: [
+          ["Moonveil katana", "Gael Tunnel (west of Academy)", "INT/DEX builds", "Best katana in early-mid game, Compressed Mist"],
+          ["Larval Tears (3)", "Village of the Albinaurics", "All builds", "Respec material, respec is unlocked at Rennala"],
+          ["Carian Knight Armor set", "Raya Lucaria Academy", "INT builds", "11 INT bonus, high defense"],
+          ["Academy Glintstone Staff", "Raya Lucaria Academy", "Mage builds", "Early Intelligence staff, affordable"],
+          ["Sword of Night and Flame", "Caria Manor side room", "INT/FTH builds", "High damage, scales both stats"],
+          ["Memory Stone", "Red Wolf of Radagon", "All builds", "Extra spell slot"],
+          ["Smithing Stone [7]", "Various locations in Academy", "All builds", "Mid-game weapon upgrade"],
+          ["Fanged Imps' Ashes", "Caria Manor", "All builds", "Fast attack speed, great for grinding"]
+        ]
+      }
+    },
+
+    {
+      heading: "Caria Manor: Step by Step",
       level: 2,
       content:
-        "Liurnia serves as the game's first major expansion point.\n\nSeveral core systems become available here:\n\n* Sorcery progression\n* Major NPC questlines\n* Build specialization\n* Respec access\n* Advanced weapon upgrades\n* Entry to the underground regions\n\nFor many builds, Liurnia is where a character truly begins to take shape.",
-    },
-    {
-      heading: "Recommended Level for Liurnia",
-      level: 2,
-      content:
-        "Before entering Liurnia, most players should be:\n\n| Recommendation | Value |\n| --------------- | -------- |\n| Character Level | 35–50 |\n| Weapon Upgrade | +5 to +8 |\n| Flask Charges | 6–8 |\n| Vigor | 20–30 |\n\nCharacters below this range may find some areas unnecessarily difficult.",
-    },
-    {
-      heading: "First Objectives After Entering Liurnia",
-      level: 2,
-      content:
-        "Upon exiting Stormveil Castle, resist the urge to immediately rush toward Raya Lucaria Academy.\n\nSeveral important upgrades should be collected first.\n\nYour initial goals should be:\n\n1. Obtain map fragments\n2. Unlock Sites of Grace\n3. Collect Smithing Stones\n4. Begin major questlines\n5. Prepare for the Academy\n\nThis route creates a smoother experience than rushing directly to the legacy dungeon.",
-    },
-    {
-      heading: "Unlock the Liurnia Map Fragments",
-      level: 2,
-      content:
-        "One of the biggest mistakes players make is exploring Liurnia without revealing the map.\n\nLiurnia is divided into multiple map sections.\n\nPrioritize obtaining:\n\n### Eastern Liurnia Map Fragment\n\nLocated near the main roads.\n\n### Northern Liurnia Map Fragment\n\nImportant for later progression.\n\n### Western Liurnia Map Fragment\n\nUseful for quest exploration.\n\nWith all sections revealed, navigation becomes significantly easier.",
-    },
-    {
-      heading: "Explore the Southern Lake Region",
-      level: 2,
-      content:
-        "The flooded central basin contains numerous useful rewards.\n\nImportant discoveries include:\n\n### Sites of Grace\n\nUnlocking travel points early saves considerable time later.\n\n### Smithing Stone Deposits\n\nSeveral upgrade materials can be collected with minimal combat.\n\n### NPC Encounters\n\nMultiple questlines begin around the lake.\n\nDo not rush through this area.\n\nExploration here pays off throughout the game.",
-    },
-    {
-      heading: "Obtain the Academy Gate Key",
-      level: 2,
-      content:
-        "This is the most important progression item in Liurnia.\n\nWithout it, Raya Lucaria Academy remains inaccessible.",
-    },
-    {
-      heading: "Where to Find the Key",
-      level: 3,
-      content:
-        "The key is located west of the Academy behind a sleeping dragon.\n\nMany players attempt to fight the dragon.\n\nThat is unnecessary.\n\nA faster strategy is:\n\n1. Approach carefully\n2. Grab the key\n3. Leave immediately\n\nThe Academy can now be entered.",
-    },
-    {
-      heading: "Begin Ranni's Questline",
-      level: 2,
-      content:
-        "Liurnia marks the beginning of one of Elden Ring's most important questlines.\n\nRanni's story unlocks:\n\n* Major lore revelations\n* Powerful rewards\n* Access to underground regions\n* One of the game's endings\n\nStarting the quest early prevents unnecessary backtracking.",
-    },
-    {
-      heading: "Visit Caria Manor",
-      level: 2,
-      content:
-        "Before entering the Academy, many players benefit from exploring Caria Manor.\n\nImportant rewards include:\n\n### Access to Three Sisters\n\nA key location for multiple questlines.\n\n### Valuable Equipment\n\nSeveral strong items are hidden throughout the manor.\n\n### Lore Progression\n\nCritical connections to the wider story begin here.",
-    },
-    {
-      heading: "Enter Raya Lucaria Academy",
-      level: 2,
-      content:
-        "Raya Lucaria is Liurnia's primary legacy dungeon.\n\nCompared to Stormveil Castle:\n\n* Navigation is more compact\n* Enemy spellcasters are more dangerous\n* Magic resistance becomes valuable\n\nCareful exploration is rewarded.",
-    },
-    {
-      heading: "Academy Exploration Priorities",
-      level: 2,
-      content:
-        "While moving through the Academy, focus on:\n\n### Collecting Upgrade Materials\n\nSeveral valuable resources are hidden throughout the dungeon.\n\n### Unlocking Shortcut Paths\n\nThese dramatically reduce boss runbacks.\n\n### Finding Hidden Loot\n\nMany players miss useful items by rushing the main route.",
-    },
-    {
-      heading: "Defeat the Red Wolf of Radagon",
-      level: 2,
-      content:
-        "The first major Academy boss serves as a skill check.",
-    },
-    {
-      heading: "Recommended Strategy",
-      level: 3,
-      content:
-        "Focus on:\n\n* Dodge timing\n* Punishing recovery windows\n* Maintaining pressure after spell attacks\n\nThe boss has relatively low durability but high mobility.\n\nPatience is more effective than aggression.",
-    },
-    {
-      heading: "Continue Through the Academy",
-      level: 2,
-      content:
-        "After defeating the Red Wolf:\n\n* Unlock additional shortcuts\n* Search side rooms carefully\n* Collect hidden items\n\nMany useful rewards are found beyond the midpoint of the dungeon.",
-    },
-    {
-      heading: "Defeat Rennala, Queen of the Full Moon",
-      level: 2,
-      content:
-        "Rennala is one of the most important bosses in Elden Ring.\n\nNot because she is difficult.\n\nBecause she unlocks a major mechanic.",
-    },
-    {
-      heading: "Why Rennala Matters",
-      level: 3,
-      content:
-        "Defeating Rennala grants access to:",
-    },
-    {
-      heading: "Character Respec",
-      level: 3,
-      content:
-        "Players can reallocate attributes using Larval Tears.\n\nThis allows:\n\n* Build experimentation\n* Mistake correction\n* Complete character restructuring\n\nFor many players, this is one of the most valuable unlocks in the game.",
-    },
-    {
-      heading: "Key Optional Areas in Liurnia",
-      level: 2,
-      content:
-        "Many players leave Liurnia too early.\n\nSeveral optional zones provide exceptional rewards.",
+        "Caria Manor is accessed from the Three Sisters area. It is not strictly required, but the rewards make it worth clearing.\n\n### Key Routes\n\n1. **Manor Main Path:** Enter through the front, clear to the elevator. Enemy types shift from knights to magic-using ghosts.\n2. **Loretta Boss:** Royal Knight Loretta is a high-difficulty optional boss. She is one of the hardest early optional bosses.\n3. **Sword of Night and Flame:** Hidden in a chest in the upper manor. Requires no boss kill.\n4. **Ranni Meeting:** After clearing the manor, go to the Three Sisters. Speak to Ranni at the Moonlight Altar.\n\n### When to Visit\n\n* After defeating Rennala for respec access\n* Or before Rennala if you are ready for Loretta\n* Either order works, but Loretta is harder without respec",
     },
     {
       heading: "Village of the Albinaurics",
-      level: 3,
-      content:
-        "Important for:\n\n* Quest progression\n* Equipment\n* Future farming opportunities",
-    },
-    {
-      heading: "Converted Tower",
-      level: 3,
-      content:
-        "Useful for magic-focused builds.\n\nContains rewards related to sorcery progression.",
-    },
-    {
-      heading: "Study Hall Region",
-      level: 3,
-      content:
-        "Later quest progression unlocks additional exploration opportunities.\n\nThis area becomes increasingly important as Ranni's quest develops.",
-    },
-    {
-      heading: "Bellum Highway",
-      level: 3,
-      content:
-        "The northern route eventually leads toward Altus Plateau.\n\nBefore leaving Liurnia:\n\n* Complete major quests\n* Gather upgrade materials\n* Finish Academy exploration\n\nDoing so reduces future backtracking.",
-    },
-    {
-      heading: "Best Loot to Obtain Before Leaving Liurnia",
       level: 2,
       content:
-        "Important pickups include:\n\n### Academy Glintstone Staff\n\nExcellent early-game sorcery catalyst.\n\n### Carian Equipment\n\nUseful for Intelligence builds.\n\n### Larval Tears\n\nCritical for future respecs.\n\n### Smithing Stones\n\nSupport mid-game weapon progression.",
+        "An optional area north of Raya Lucaria that contains 3 Larval Tears and critical quest items.\n\n### How to Access\n\n1. From the Roundtable Hold, teleport to the **Third Church of the Plague**\n2. Walk north toward the village\n3. Avoid the Albinauric poison traps on the main path\n4. Clear the village and collect all Larval Tears\n\n### Key Rewards\n\n* 3x Larval Tears (one from each of three NPCs)\n* White Mask (from the first Albinauric NPC)\n* Albinauric Bloodclaw (from the second)\n* White Mask talisman for physical builds\n\n### Quest Value\n\n* Triggers part of the **Hyetta questline**\n* Triggers part of the **Ranni questline** if missed earlier",
     },
+
     {
       heading: "Common Liurnia Mistakes",
       level: 2,
       content:
-        "### Rushing Directly to Rennala\n\nPlayers often miss valuable upgrades and questlines.",
+        "### Mistake 1: Rushing directly to Rennala\n\nMost players miss Caria Manor, Albinauric Village, and all the quests. Take the full route.\n\n### Mistake 2: Fighting Ornel the Dragon\n\nThe Academy Gate Key is right next to the sleeping dragon. Run past it. Do not fight.\n\n### Mistake 3: Leaving Liurnia before collecting Larval Tears\n\nLarval Tears are only available here and in Limgrave. Respec flexibility is worth the detour.\n\n### Mistake 4: Skipping NPC conversations\n\nSeveral NPCs in Liurnia start questlines that reward powerful items. If you leave before talking to everyone, you miss them permanently.\n\n### Mistake 5: Ignoring Gael Tunnel\n\nMoonveil is one of the best weapons in the game, hidden in Gael Tunnel, accessible only through Liurnia. Do not skip it.",
     },
+
     {
-      heading: "Ignoring Caria Manor",
-      level: 3,
-      content:
-        "This delays some of the game's most important content.",
-    },
-    {
-      heading: "Fighting the Academy Dragon",
-      level: 3,
-      content:
-        "The key can be obtained without defeating it.",
-    },
-    {
-      heading: "Leaving Before Collecting Larval Tears",
-      level: 3,
-      content:
-        "Respec flexibility becomes increasingly valuable later.",
-    },
-    {
-      heading: "Skipping NPC Interactions",
-      level: 3,
-      content:
-        "Several major questlines begin in Liurnia.\n\nMissing them can complicate progression.",
-    },
-    {
-      heading: "Recommended Exit Checklist",
+      heading: "Liurnia 100% Checklist",
       level: 2,
       content:
-        "Before moving to Altus Plateau, try to complete the following:\n\n* Academy Gate Key obtained\n* Raya Lucaria Academy cleared\n* Rennala defeated\n* Respec unlocked\n* Caria Manor explored\n* Ranni quest started\n* Larval Tears collected\n* Major map fragments obtained\n\nCompleting these objectives creates a smooth transition into the mid game.",
+        "Before leaving Liurnia, check off these boxes:\\n\\n* \u2611 Academy Gate Key obtained from Ornel\\n* \u2611 All 4 map fragments unlocked (East, Central, North, West)\\n* \u2611 Raya Lucaria Academy cleared to Rennala\\n* \u2611 Red Wolf of Radagon defeated\\n* \u2611 Rennala defeated, respec unlocked\\n* \u2611 Caria Manor cleared, Three Sisters unlocked\\n* \u2611 Ranni quest started at Moonlight Altar\\n* \u2611 3x Larval Tears from Albinauric Village\\n* \u2611 White Mask talisman collected\\n* \u2611 Moonveil katana obtained (Gael Tunnel)\\n* \u2611 Sword of Night and Flame obtained\\n* \u2611 Sorcery from Thops purchased\\n* \u2611 All NPC conversations completed\\n* \u2611 Smithing Stone [7] collected from Academy\\n* \u2611 Bellum Highway cleared, ready for Altus Plateau",
     },
-    {
-      heading: "How Liurnia Changes Character Progression",
-      level: 2,
-      content:
-        "Limgrave teaches survival.\n\nLiurnia teaches specialization.\n\nThis is where players begin to define:\n\n* Their build\n* Their weapon choices\n* Their scaling priorities\n* Their long-term progression path\n\nThe decisions made here often shape the rest of the playthrough.",
-    },
+
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for Liurnia?\n\nMost players are comfortable between levels 35 and 50.\n\n### Do I need to defeat the dragon for the Academy Key?\n\nNo. The key can be collected without fighting the dragon.\n\n### Should I do Caria Manor before Rennala?\n\nEither order works, but exploring Caria Manor early offers valuable rewards and quest progression.\n\n### What does defeating Rennala unlock?\n\nRennala unlocks character respec using Larval Tears.\n\n### Is Liurnia optional?\n\nNo. Raya Lucaria Academy and Rennala are part of the main progression path for most playthroughs.",
+        "### What should I do first in Liurnia?\\n\\nStart at Lake-Facing Cliffs, unlock the East Liurnia map fragment, collect early Smithing Stones, and follow the path to the Academy Gate Key.\\n\\n### Can you skip Raya Lucaria Academy?\\n\\nNo. Raya Lucaria Academy and Rennala are required for main story progression. You cannot reach Altus Plateau without defeating Rennala.\\n\\n### What level should I be before Altus Plateau?\\n\\nLevel 60\u201370 is comfortable. Weapon at +7 or higher, Vigor 35, and at least 2 major questlines started.\\n\\n### Where is the best weapon in Liurnia?\\n\\nMoonveil katana is in Gael Tunnel, west of the Academy. Sword of Night and Flame is in Caria Manor.\\n\\n### Where is Moonveil in Liurnia?\\n\\nGael Tunnel is west of Raya Lucaria Academy. It is hidden behind a cliff path accessible only from Liurnia. Use the [Moonveil Build Guide](https://www.zosygo.com/elden-ring/builds/best-moonveil-build) for full details.\\n\\n### How do I get to Caria Manor?\\n\\nFrom the Three Sisters area. The entrance is in the northern Liurnia region, accessible via the Bellum Highway or directly from the Roundtable Hold grace.\\n\\n### Do I need to defeat Ornel to get the Academy Gate Key?\\n\\nNo. Ornel is a sleeping dragon. The key is right next to him. Run past Ornel, grab the key, and leave immediately.\\n\\n### Is Caria Manor required?\\n\\nNo, but it contains the Sword of Night and Flame and is required for Ranni's questline. If you want the Age of Stars ending, it is mandatory.\\n\\n### What is the best first quest to start in Liurnia?\\n\\nThops at the South Liurnia Lakeshore grace. He offers sorceries immediately and his quest gives the best early Intelligence reward.\\n\\n### Should I do Albinauric Village before or after Rennala?\\n\\nEither works, but before Rennala is better if you want to respec after getting the 3 Larval Tears from the village.",
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/walkthroughs/best-early-game-route", anchorText: "Best Early Game Route" },
-    { href: "/elden-ring/bosses/how-to-beat-rennala", anchorText: "Rennala Boss Guide" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
+    { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Moonveil Build Guide" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Intelligence Build Guide" },
-    { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+    { href: "/elden-ring/bosses/how-to-beat-rennala", anchorText: "Rennala Boss Guide" },
+    { href: "/elden-ring/walkthroughs/best-early-game-route", anchorText: "Best Early Game Route" },
+    { href: "/elden-ring/weapons/best-weapons", anchorText: "Best Elden Ring Weapons" },
+    { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+    { href: "/elden-ring/walkthroughs/liurnia-map-fragments", anchorText: "Liurnia Map Fragment Locations" },
   ],
 };
-
 
 const article47: Article = {
   keyTakeaways: [
