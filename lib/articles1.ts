@@ -8,120 +8,127 @@ const maleniaArticle: Article = {
   difficulty: "intermediate",
   readTimeMinutes: 11,
   order: 15,
-  title: "Why Does Malenia Heal When She Hits You? (2026 Elden Ring Healing Mechanic Explained)",
-  h1: "Why Does Malenia Heal When She Hits You? Elden Ring Healing Mechanic Explained",
+  title: "Why Does Malenia Heal When She Hits You? Elden Ring Lifesteal Explained (2026)",
+  h1: "Why Does Malenia Heal When She Hits You? Elden Ring Lifesteal Explained",
   metaDescription:
-    "Learn why Malenia heals every time she hits a target in Elden Ring. Explained: shield healing, Spirit Ash healing, Waterfowl Dance interaction, and how to counter her recovery mechanic.",
+    "Why does Malenia heal when she hits you in Elden Ring? Learn how her lifesteal works, why shields fail, how Spirit Ashes affect healing, and the best ways to counter her recovery mechanic.",
   keyTakeaways: [
-    { label: "💉 Healing Trigger", value: "Malenia heals on every successful hit — not based on damage dealt" },
-    { label: "🛡️ Blocking Still Heals", value: "Shield blocks still trigger healing — dodging is the only true prevention" },
-    { label: "🐾 Spirit Ash Risk", value: "Summons create more targets for Malenia — more hits = more healing for her" },
-    { label: "💧 Waterfowl Dance", value: "Every hit during Waterfowl Dance can restore her health independently" },
-    { label: "🚫 No Disable Method", value: "Her healing mechanic cannot be disabled by any known method or status effect" },
-    { label: "✅ Counter Strategy", value: "Avoid hits entirely — consistency and dodging matter more than raw damage" },
+    { label: "\ud83d\udc89 Healing Trigger", value: "Every successful hit triggers healing \u2014 not based on damage dealt" },
+    { label: "\ud83d\udee1\ufe0f Shields Still Heal", value: "Shield blocks still trigger healing \u2014 dodging is the only true prevention" },
+    { label: "\ud83d\udc3e Spirit Ash Risk", value: "Summons create more healing targets \u2014 every hit on them heals Malenia" },
+    { label: "\ud83d\udca7 Waterfowl Dance", value: "Every hit during Waterfowl Dance can independently restore her HP" },
+    { label: "\ud83d\udeab No Disable Method", value: "No item, spell, or status effect disables Malenia\u2019s lifesteal" },
+    { label: "\u2705 Counter Strategy", value: "Dodge consistently \u2014 consistency matters more than raw damage" },
   ],
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Malenia, Blade of Miquella, is widely considered the most difficult boss in Elden Ring.\n\nMost players blame Waterfowl Dance for their failed attempts.\n\nWhile Waterfowl Dance is certainly dangerous, it is not the mechanic that causes most players to lose.\n\nThe real reason many fights spiral out of control is Malenia's healing ability.\n\nEvery successful hit gives her a chance to recover health, turning small mistakes into major setbacks.\n\nUnderstanding exactly how this system works is one of the fastest ways to improve your chances of victory.\n\nBefore fighting Malenia, use the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize Vigor, weapons, and talismans for survivability.",
+        "Malenia heals whenever one of her attacks successfully hits a target.\n\nThe healing is not based on damage dealt.\n\nIt does not matter whether you:\n\n* block with a shield\n* take reduced damage\n* get hit by Waterfowl Dance\n* use a Spirit Ash\n\nAny successful connection triggers her healing.\n\nThe only way to prevent Malenia from healing is to avoid being hit.\n\nThis is the single most important mechanic to understand before fighting her. It is why many high-damage builds still lose repeatedly, and why some low-damage players win consistently.\n\nBefore optimizing your build for Malenia, use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
       image: "malenia-boss-fight.webp",
-      imageAlt: "Malenia Blade of Miquella boss fight arena in Elden Ring"
+      imageAlt: "Malenia healing after hitting player in Elden Ring"
     },
     {
       heading: "Quick Answer",
       level: 2,
       content:
-        "Malenia heals every time her attack successfully connects with a valid target.\n\nIt does NOT matter:\n\n* How much damage she deals\n* What weapon or move she uses\n* Whether you are blocking or taking it directly\n* Whether the target is you or a summon\n\nThe only thing that prevents healing is making sure her attacks miss you entirely.\n\n> Malenia's healing mechanic is triggered by connection, not damage.",
+        "Malenia heals every time one of her attacks successfully connects with a valid target. The healing amount is fixed and does not depend on how much damage she deals.\n\nShield blocks, Spirit Ash hits, and direct hits all trigger healing. Dodged or missed attacks do not.\n\nThe only reliable prevention is dodging consistently throughout the fight. There is no item, spell, or status effect that disables her lifesteal.\n\n> Malenia\u2019s healing is triggered by connection, not damage. Every successful hit heals her. No exception.",
     },
     {
-      heading: "How Malenia's Healing Works",
+      heading: "How Malenia Lifesteal Works",
       level: 2,
       content:
-        "Malenia's health regeneration works through a fixed recovery system.\n\nWhen her attack connects with any valid target — you, your Spirit Ashes, or your Mimic Tear — she restores a fixed amount of health.\n\nThis healing amount does NOT scale with:\n\n* damage dealt\n* weapon type\n* target armor\n* blocked damage\n\nThe only factor that matters is whether the attack successfully lands.\n\nThis is why shield-based builds often struggle against her. You survive the attack, but she still heals.",
+        "Malenia\u2019s lifesteal works through a fixed recovery system. When any of her attacks connect with a valid target \u2014 your character, a Spirit Ash, or a Mimic Tear \u2014 she restores a fixed amount of health.\n\nThis healing amount does NOT scale with:\n\n* damage dealt\n* weapon type\n* target armor or defense\n* blocked vs unblocked damage\n\nThe only factor that matters is whether the attack successfully lands. This is why shield-based builds often struggle against her: you survive the attack, but Malenia still heals.\n\nThis mechanic applies to every attack in her entire moveset, from basic light attacks to the final moves of Waterfowl Dance. There are no exceptions.",
     },
     {
-      heading: "How Much Health Does Malenia Heal Per Hit?",
+      heading: "How Much HP Does Malenia Heal Per Hit?",
       level: 2,
       content:
-        "Malenia restores a fixed amount of HP whenever her attack connects with a valid target.\n\nThis is one of the most important things to understand about the fight.\n\nThe healing amount does not scale with:\n\n* damage dealt\n* weapon type or scaling\n* target armor or defense\n* blocked vs unblocked hits\n\nThe important factor is whether the attack successfully lands. A single successful hit from any of Malenia's moves — including basic light attacks — triggers the same healing effect.\n\nThis means you cannot outdamage her healing with small hits. Even tiny trades give her a chance to recover.",
-    },
-    {
-      heading: "Malenia Healing Mechanics Explained",
-      level: 2,
-      content:
-        "Here is a breakdown of every situation and whether Malenia heals.\n\n| Situation | Does Malenia Heal? |\n| --- | --- |\n| Direct hit on player | Yes |\n| Shield block on player | Yes |\n| Hit on Spirit Ash | Yes |\n| Hit on Mimic Tear | Yes |\n| Missed attack | No |\n| Dodged attack | No |\n| Damage dealt to Malenia | No effect |\n\n> The only reliable prevention is dodging. Every other option still lets her heal.",
+        "Malenia restores a fixed amount of HP per successful hit. The exact value depends on the game version and patch, but the principle is consistent across all builds: the healing is not tied to damage dealt, and it is significant enough to make every hit matter.\n\nThe healing amount does not scale with:\n\n* damage dealt to you\n* weapon type or scaling\n* your armor or defense\n* whether the hit was blocked\n\nEvery successful hit from any of Malenia\u2019s moves triggers the same healing effect. A single light attack heals her just as much as a heavy attack. This means you cannot out-damage her healing with frequent small trades \u2014 even tiny connections give her back meaningful health.",
+      table: {
+        headers: ["Attack Type", "Healing Trigger"],
+        rows: [
+          ["Normal sword slash", "Yes"],
+          ["Waterfowl Dance \u2014 first hit", "Yes"],
+          ["Waterfowl Dance \u2014 combo hits", "Multiple triggers"],
+          ["Shield block on player", "Yes"],
+          ["Hit on Spirit Ash", "Yes"],
+          ["Hit on Mimic Tear", "Yes"],
+          ["Missed attack", "No"],
+          ["Dodged attack", "No"],
+          ["Parried attack", "No (no connection)"],
+          ["Bleed proc on Malenia", "No (she does not heal from taking damage)"]
+        ]
+      }
     },
     {
       heading: "Does Blocking Stop Malenia Healing?",
       level: 2,
       content:
-        "No.\n\nThis is one of the most important mechanics to understand.\n\nSuccessful attacks against your shield still trigger Malenia's healing.\n\nHere is the critical distinction:\n\n* **Damage**: blocked → you survive\n* **Healing trigger**: still activated → Malenia recovers\n\nA shield build against Malenia is essentially a survival build, not a healing prevention strategy. You reduce your own damage intake, but you still give Malenia healing opportunities.\n\nThis is why shield builds often turn the fight into a war of attrition — you survive longer, but Malenia also stays alive longer.",
+        "No.\n\nThis is the most important misconception to clear. Successful attacks against your shield still trigger Malenia\u2019s healing.\n\nHere is the distinction:\n\n* **Damage**: blocked \u2192 you survive\n* **Healing trigger**: still activated \u2192 Malenia recovers\n\nA shield build against Malenia is essentially a survival build, not a healing prevention strategy. You reduce your own damage intake, but you still give Malenia healing opportunities.\n\nThis is why shield builds often turn the fight into a war of attrition \u2014 you survive longer, but Malenia also stays alive longer. If your goal is to reduce healing, dodging is the only real option.",
     },
     {
       heading: "Does Malenia Heal From Spirit Ashes?",
       level: 2,
       content:
-        "Yes.\n\nEvery successful hit against your Spirit Ashes or other summons triggers Malenia's healing.\n\nThis creates a hidden trade-off:\n\n### What Summons Give You\n\n* Additional damage output\n* Distraction from Malenia\n* More opening windows\n\n### What Summons Cost You\n\n* More targets for Malenia to hit\n* More healing opportunities for her\n* A longer fight duration\n\nA Mimic Tear surviving for several minutes means dozens of potential healing triggers.\n\nThe summon increases your damage output — but it may also increase her total healing throughout the encounter.\n\nThis is why some players notice that Malenia's health bar seems to recover surprisingly quickly when multiple targets are present.",
+        "Yes. Every successful hit against your Spirit Ashes or other summons triggers Malenia\u2019s healing.\n\nThis creates a hidden trade-off:\n\n### What Summons Give You\n\n* Additional damage output\n* Distraction from Malenia\n* More opening windows\n\n### What Summons Cost You\n\n* More targets for Malenia to hit\n* More healing opportunities for her\n* A longer fight duration\n\nA Mimic Tear surviving for several minutes means dozens of potential healing triggers. The summon increases your damage output \u2014 but it may also increase her total healing throughout the encounter.\n\nThis is why some players notice that Malenia\u2019s health bar seems to recover surprisingly quickly when multiple targets are present.",
     },
     {
-      heading: "Why Waterfowl Dance Feels Impossible",
+      heading: "Does Waterfowl Dance Trigger More Healing?",
       level: 2,
       content:
-        "Waterfowl Dance receives most of the attention because it is visually intimidating.\n\nHowever, Waterfowl Dance only becomes devastating because of the healing mechanic.\n\nConsider two players:\n\n### Player A\n\n* Avoids most attacks\n* Gets hit only a few times\n* Uses summons sparingly\n\n### Player B\n\n* Takes frequent small hits\n* Blocks several attacks\n* Uses summons aggressively\n\nEven if both players deal similar damage, Player A will usually win more consistently.\n\nWhy?\n\nBecause Player A gives Malenia fewer opportunities to recover health. Every hit during Waterfowl Dance can independently restore her HP.\n\nThe healing mechanic amplifies every mistake made during the fight.",
+        "Yes \u2014 and this is why Waterfowl Dance is so dangerous beyond the raw damage.\n\nEvery hit during Waterfowl Dance can independently trigger Malenia\u2019s healing. If the full combo connects, she can restore a massive amount of health in a single animation.\n\nThis is why the fight often feels impossible even for high-level players. Waterfowl Dance becomes devastating because the healing mechanic amplifies every hit within the combo. You are not just taking damage \u2014 you are also refilling her health bar.\n\nThe only way to handle Waterfowl Dance is to avoid it entirely through consistent dodging. There is no counter-attack window within the combo that is safe to use.\n\nSee [How to Beat Malenia](https://www.zosygo.com/elden-ring/bosses/how-to-beat-malenia) for the full guide.",
       image: "malenia-waterfowl-dance.webp",
-      imageAlt: "Malenia Waterfowl Dance attack showing the devastating combo in Elden Ring"
+      imageAlt: "Malenia Waterfowl Dance healing mechanic in Elden Ring"
     },
     {
       heading: "Can You Stop Malenia From Healing?",
       level: 2,
       content:
-        "No.\n\nMalenia's healing mechanic cannot be disabled by any known method, status effect, or in-game item.\n\nThe only counter is preventing attacks from connecting with you or your summons.\n\nWhat DOES NOT stop healing:\n\n* Using shields\n* Taking damage-debuff buffs on her\n* Applying bleed or frost\n* Using status effects\n* Any talisman or flask\n\nWhat DOES reduce healing:\n\n* Dodging attacks entirely\n* Reducing the number of summons present\n* Shortening the fight duration\n* Eliminating her recovery windows quickly",
+        "Short answer: no.\n\nThere is no item, spell, status effect, weapon, or talisman that disables Malenia\u2019s healing. Bleed, frost, scarlet rot, magic debuffs, physical debuffs \u2014 none of it stops her lifesteal.\n\n### What DOES NOT stop healing\n\n* Using shields\n* Applying damage debuffs on her\n* Applying bleed or frost status effects\n* Any talisman or consumable\n* Weapon arts or skill effects\n\n### What DOES reduce healing\n\n* Dodging attacks entirely\n* Reducing the number of summons present\n* Shortening the fight duration with consistent damage\n* Eliminating her recovery windows quickly\n\nThe only way to counter Malenia is consistency. Every fight lost is a fight where you gave her too many healing opportunities.",
+    },
+    {
+      heading: "How to Counter Malenia Healing",
+      level: 2,
+      content:
+        "Since you cannot disable her healing, the strategy is to minimize how many times she heals per phase.\n\n### Core Strategy\n\n1. **Commit to dodging.** Every attack you avoid is a hit Malenia does not heal from.\n2. **Limit summons.** One Spirit Ash at most. A Mimic Tear doubles healing triggers.\n3. **Deal burst damage in short windows.** Do not drag the fight out \u2014 fewer turns means fewer healing opportunities for her.\n4. **Do not trade.** A traded attack is a healed hit. Even if you deal more damage, you are giving her health back.\n5. **Use the arena.** Use the room geometry to create distance during dangerous phases.\n\n### The Key Insight\n\nMalenia is not difficult because she is bulky. She is difficult because every mistake you make refills her health bar. This means a 90% damage fight that took 5 minutes can be worse than a 60% damage fight that took 2 minutes.",
     },
     {
       heading: "Best Builds Against Malenia",
       level: 2,
       content:
-        "The best approach against Malenia is not maximum damage, but maximum consistency.\n\n### 1. High Vigor Dodge Build (Recommended)\n\n* Vigor: 60\n* Endurance: 30 (for weight and stamina)\n* Primary damage stat: 50-60\n* Strategy: pure dodge, minimal summons\n\n### 2. Bleed Build\n\n* Best for quick HP depletion\n* Less healing time for Malenia\n* Rivers of Blood, Nagakiba, or Seaking's Greatsword\n\n### 3. Quality Build\n\n* Balanced Strength and Dexterity\n* Claymore or Hand of Malenia\n* Consistent DPS with good mobility\n\nA properly optimized build can reduce the number of risky trades needed to win.\n\nPlan your build with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).\n\nFor a detailed guide on the Malenia fight itself, check [How to Beat Malenia (2026 Guide)](https://www.zosygo.com/elden-ring/bosses/how-to-beat-malenia).",
+        "The best approach against Malenia is not maximum damage, but maximum consistency. Use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stats.\n\n### 1. High Vigor Dodge Build (Recommended)\n\n* Vigor: 60\n* Endurance: 30 (weight and stamina)\n* Primary damage stat: 50\u201360\n* Strategy: pure dodge, minimal summons\n\n### 2. Bleed Build\n\n* Best for quick HP depletion\n* Less healing time for Malenia\n* Rivers of Blood, Nagakiba, or Seaking\u2019s Greatsword\n* See [Best Bleed Build](https://www.zosygo.com/elden-ring/builds/best-bleed-build) for full details\n\n### 3. Quality Build\n\n* Balanced Strength and Dexterity\n* Claymore or Hand of Malenia\n* Consistent DPS with good mobility\n\nFor a detailed fight-by-fight guide, check [How to Beat Malenia](https://www.zosygo.com/elden-ring/bosses/how-to-beat-malenia).",
     },
     {
-      heading: "Common Misconceptions About Malenia's Healing",
+      heading: "Common Myths About Malenia\u2019s Healing",
       level: 2,
       content:
-        "### Myth: She Heals Based on Damage Dealt\n\nFalse. She heals when attacks successfully connect, regardless of damage amount.\n\n### Myth: Shields Completely Counter Her\n\nFalse. Blocking still allows healing to trigger.\n\n### Myth: More Summons Always Make the Fight Easier\n\nFalse. Additional targets create additional healing opportunities for Malenia.\n\n### Myth: Waterfowl Dance Is the Only Dangerous Mechanic\n\nFalse. Her healing system often has a greater impact on long fights than any single attack pattern.",
+        "### Myth 1: \"If I block with a shield, she won\u2019t heal\"\n\nFalse. Shield blocks still trigger healing.\n\n### Myth 2: \"Big attacks heal her more\"\n\nFalse. Healing is fixed per hit, not based on damage dealt.\n\n### Myth 3: \"I can just out-damage her\"\n\nFalse. If you hit her but also take 10 hits, Malenia may have healed more than you dealt.\n\n### Myth 4: \"Waterfowl Dance is the only reason I lose\"\n\nNot always. Even without Waterfowl Dance, frequent small hits accumulate healing that turns the fight.\n\n### Myth 5: \"Bleed bypasses her healing\"\n\nFalse. Bleed damages her normally, but she still heals from hitting you. Bleed just makes her die faster if you can land it.",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### Does Malenia heal from blocked attacks?\n\nYes. Even when a shield blocks the damage, a successful hit still triggers Malenia's healing mechanic. The block prevents you from taking damage, but she still recovers health.\n\n### Does Malenia heal from Spirit Ashes?\n\nYes. Hits against Spirit Ashes, Mimic Tear, or any summoned ally can restore her HP. Every connection counts.\n\n### Does Malenia heal from Waterfowl Dance?\n\nYes. Every successful hit during Waterfowl Dance can independently restore her HP. Each hit is treated as a separate healing trigger.\n\n### Why does Malenia's health bar go up?\n\nBecause every successful attack against a valid target restores her HP. The health bar visually represents her recovery from each connection.\n\n### Does Malenia heal based on damage dealt?\n\nNo. The healing amount is fixed and does not scale with the damage she deals.\n\n### Can you stop Malenia healing with status effects?\n\nNo. Bleed, frost, poison, and scarlet rot do not affect her healing mechanic. The only prevention is dodging attacks.\n\n### Is Malenia healing the same as lifesteal?\n\nSimilar, but different. Malenia's health regeneration works on connection triggers rather than a percentage of damage dealt. Every hit that connects restores a fixed amount of HP.\n\n### Does blocking with a greatshield help?\n\nIt helps you survive, but it does not prevent her from healing. Malenia's lifesteal works on connection, not damage.",
+        "### Why does Malenia heal when she hits you?\n\nBecause her lifesteal mechanic is triggered by any successful attack connection, not by damage dealt. This applies to all her attacks, all phases, and all targets.\n\n### Does blocking stop Malenia from healing?\n\nNo. Shield blocks still trigger her healing. Dodging is the only reliable prevention.\n\n### Does Malenia heal from Spirit Ashes?\n\nYes. Every hit on your summons \u2014 Spirit Ashes, Mimic Tear, or other companions \u2014 triggers her healing.\n\n### Does Waterfowl Dance make Malenia heal more?\n\nYes. Every individual hit during Waterfowl Dance can independently trigger healing. The full combo can restore a large amount of her health.\n\n### Can you stop Malenia from healing?\n\nNo. There is no item, spell, talisman, or status effect that disables her lifesteal. Dodging is the only prevention.\n\n### Does Malenia heal from bleed damage?\n\nNo. Bleed damage does not heal her. Bleed only damages her normally. She still heals from hitting you.\n\n### Does Malenia heal from parries?\n\nNo. A successful parry prevents the attack from connecting, so healing does not trigger.\n\n### What build is best against Malenia?\n\nHigh Vigor dodge builds with minimal summons are the most consistent. See [How to Beat Malenia](https://www.zosygo.com/elden-ring/bosses/how-to-beat-malenia) for a full build breakdown.\n\n### How much HP does Malenia heal per hit?\n\nA fixed amount per successful connection. The exact value depends on the game version and patch, but the principle is consistent: every hit heals a meaningful amount.\n\n### Is Waterfowl Dance the hardest part of the fight?\n\nIt is one of the hardest mechanics, but the bigger challenge is the healing mechanic itself. Waterfowl Dance is dangerous because every hit refills her health.",
     },
     {
-      heading: "The Real Lesson of the Malenia Fight",
+      heading: "Conclusion",
       level: 2,
       content:
-        "Most Elden Ring bosses reward aggression once players learn their patterns.\n\nMalenia rewards discipline.\n\nEvery successful hit she lands creates two problems:\n\n1. You lose health.\n2. She gains health.\n\nThe fight is not simply about dealing damage.\n\nIt is about controlling opportunities.\n\nThe fewer opportunities you give Malenia to heal, the easier the encounter becomes.",
-    },
-    {
-      heading: "Final Verdict",
-      level: 2,
-      content:
-        "Many players focus entirely on Waterfowl Dance when discussing Malenia.\n\nWhile the attack is dangerous, it is her healing mechanic that defines the fight.\n\nUnderstanding how healing works changes the entire encounter.\n\nPlayers who defeat Malenia consistently are not always dealing more damage than everyone else.\n\nThey are simply giving her fewer chances to recover.\n\nMaster that principle, and the fight becomes significantly easier to understand, practice, and eventually conquer.",
+        "Malenia\u2019s healing mechanic is the reason most players lose, not her raw damage. Every hit that connects \u2014 whether from a shield, a Spirit Ash, or a direct strike \u2014 restores her health by a fixed amount.\n\nThe only true counter is consistency. Dodge more. Trade less. Keep the fight short.\n\nIf you understand this mechanic, Malenia stops being a wall of damage and becomes a fight about precision.\n\nFor a complete Malenia strategy guide, read [How to Beat Malenia](https://www.zosygo.com/elden-ring/bosses/how-to-beat-malenia). For optimal build planning, use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/bosses/how-to-beat-malenia", anchorText: "How to Beat Malenia" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
     { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
-    { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
-    { href: "/elden-ring/bosses/boss-tier-list", anchorText: "Elden Ring Boss Tier List" },
-    { href: "/elden-ring/bosses/how-to-beat-maliketh-black-blade", anchorText: "How to Beat Maliketh" },
     { href: "/elden-ring/bosses/how-to-beat-mohg-lord-of-blood", anchorText: "How to Beat Mohg, Lord of Blood" },
     { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Katana" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Against Malenia" },
   ],
-};const buildFeelsWeakArticle: Article = {
+};
+
+const buildFeelsWeakArticle: Article = {
   keyTakeaways: [
     { label: "🎯 Mistake #1", value: "Vigor too low — Vigor 60 > INT 80 in practical fights" },
     { label: "📊 Mistake #2", value: "Chasing damage soft caps too early — 70 vs 80 is often <5% gain" },
