@@ -9,7 +9,7 @@ import path from "path";
 import { getLocalizedGame, getLocalizedGames } from "@/lib/getLocalizedGames";
 import { getGameSlugs, CATEGORIES } from "@/lib/games";
 import { getArticleBySlug, getArticlesForGame } from "@/lib/articles";
-import { generateBreadcrumbJsonLd } from "@/lib/seo";
+import { generateBreadcrumbJsonLd, generateFaqJsonLd } from "@/lib/seo";
 import ContentParagraphs from "@/components/ContentParagraphs";
 
 // Deterministic random selection based on article slug
@@ -189,9 +189,24 @@ export default async function ArticlePage({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify([
-            generateBreadcrumbJsonLd(breadcrumb),
-            {
+          __html: JSON.stringify((function () {
+            const schemas: any[] = [generateBreadcrumbJsonLd(breadcrumb)];
+
+            // Parse FAQ section from article content for rich results
+            const faqSection = article.sections.find((s) => s.heading === "FAQ");
+            if (faqSection && faqSection.content) {
+              const qRegex = /###\s*(.+?)\n\n([\s\S]*?)(?=\n###\s*|$)/g;
+              const matches = [...faqSection.content.matchAll(qRegex)];
+              const questions = matches.map((m) => ({
+                question: m[1].trim(),
+                answer: m[2].trim(),
+              }));
+              if (questions.length > 0) {
+                schemas.push(generateFaqJsonLd(questions));
+              }
+            }
+
+            schemas.push({
               "@context": "https://schema.org",
               "@type": "Article",
               headline: article.title,
@@ -204,8 +219,9 @@ export default async function ArticlePage({ params }: Props) {
               },
               url: `${siteUrl}/${slug}/${category}/${article.slug}`,
               mainEntityOfPage: `${siteUrl}/${slug}/${category}/${article.slug}`,
-            },
-          ]),
+            });
+            return schemas;
+          })()),
         }}
       />
 

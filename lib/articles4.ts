@@ -640,114 +640,218 @@ const article50: Article = {
   difficulty: "intermediate",
   readTimeMinutes: 11,
   order: 50,
-  title: "Elden Ring Bleed Explained (2026): How Blood Loss Works, Arcane Scaling & Best Builds",
-  h1: "Elden Ring Bleed Explained: How Blood Loss Works (2026)",
+  title: "Elden Ring Bleed Guide (2026): Damage Formula, Arcane Scaling, Best Weapons & Builds",
+  h1: "Elden Ring Bleed Guide (2026): How Blood Loss Works, Damage, Arcane Scaling & Best Builds",
   metaDescription:
-    "Learn how bleed (hemorrhage) works in Elden Ring. Includes bleed damage percentage, Arcane scaling, best bleed weapons, best builds, and Shadow of the Erdtree tips.",
+    "Complete Elden Ring Bleed guide for 2026. Learn how Hemorrhage works, damage formula, Arcane scaling, best bleed weapons ranked, early to endgame builds, and status effect comparisons.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Bleed in Elden Ring (officially called Hemorrhage) is a status effect that triggers a percentage-based burst of damage when the enemy's Blood Loss meter is filled.\n\nUnlike normal weapon damage, Bleed ignores enemy defense scaling and becomes stronger against high-HP bosses because the damage is based on maximum health.\n\nThis is why bleed builds remain one of the most effective strategies in the base game and Shadow of the Erdtree.\n\nIf you want to compare different Bleed weapon damage, use our [Elden Ring Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "Bleed (Hemorrhage) is one of the strongest status effects in Elden Ring because it deals percentage-based damage based on the enemy's maximum HP.\n\nWhen the Blood Loss meter fills, enemies instantly lose a large portion of their health regardless of your weapon's raw damage.\n\nThis guide explains how does bleed work in Elden Ring, how Arcane affects buildup, Arcane bleed scaling, the best Bleed weapons ranked, and the strongest Bleed builds for 2026.\n\nBefore you build your bleed character, check your stat efficiency with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
     },
+
+    {
+      heading: "Quick Facts",
+      level: 2,
+      content: "",
+      table: {
+        headers: ["Question", "Answer"],
+        rows: [
+          ["What is Bleed?", "A status effect that causes Hemorrhage — percentage-based max HP damage"],
+          ["How does Bleed activate?", "Fill the hidden Blood Loss meter by landing attacks"],
+          ["How much damage?", "~15% of enemy max HP per proc (varies by enemy resistance)"],
+          ["Does Arcane increase damage?", "No — Arcane increases buildup speed, not damage per proc"],
+          ["Best Arcane level?", "45 for most weapons, 60 for Occult infusion"],
+          ["Best bleed weapons?", "Rivers of Blood, Nagakiba, Eleonora's Poleblade, Reduvia"],
+          ["Does bleed work in DLC?", "Yes, but some Shadow of the Erdtree bosses have high resistance"]
+        ]
+      }
+    },
+
     {
       heading: "Quick Answer",
       level: 2,
       content:
-        "If you want the short version:\n\n* **Bleed (Hemorrhage)** triggers a percentage-based HP burst when the Blood Loss meter fills\n* Most enemies lose approximately **15% of their maximum HP** when Hemorrhage triggers\n* **Arcane** increases bleed buildup speed — not bleed damage\n* Bleed damage is based on the **target's max HP**, not your character stats\n* Bleed works against most bosses, but some DLC enemies and undead are highly resistant\n\n> Bleed does NOT scale with your weapon damage. It scales with the enemy's health pool.",
+        "Bleed works by building a hidden Blood Loss meter with each hit. When the meter fills, Hemorrhage triggers and deals percentage-based damage equal to roughly 15% of the enemy's maximum HP.\n\n**Key facts:**\n\n* Bleed damage scales with enemy HP, not your weapon AR\n* Arcane increases how fast bleed builds up, not how much damage it deals\n* ARC 45 is the soft cap for bleed buildup on most weapons\n* Faster weapons (katanas, twinblades, daggers) proc bleed more often\n* Bleed ignores enemy defenses — it deals the same damage regardless of armor\n* Some bosses (Elden Beast, Radagon, DLC bosses) are highly resistant",
     },
+
     {
-      heading: "What Is Bleed in Elden Ring?",
+      heading: "Bleed Damage Formula",
       level: 2,
       content:
-        "Bleed, officially called **Hemorrhage**, is a status effect that deals a large burst of percentage-based damage when an invisible buildup meter becomes full.\n\nUnlike standard weapon damage:\n\n* Bleed ignores defense scaling advantages\n* Bleed works independently of weapon AR\n* Bleed remains effective against many high-health bosses\n\nThis is the primary reason bleed builds are so powerful in both PvE and PvP.",
+        "Hemorrhage damage is based on the enemy's maximum HP, not your weapon AR.\n\n### General Rule\n\n* **Normal enemies:** ~15% max HP per proc\n* **Bosses:** Reduced by bleed resistance stat (typically 10-13% effective)\n* **Players (PvP):** ~15% + flat 100 damage\n\n### Examples\n\n| Enemy | Max HP | Bleed Damage Per Proc | Procs to Kill |\n| --- | --- | --- | --- |\n| Soldier | 500 | ~75 | 6-7 |\n| Malenia | 40,000 | ~5,200 (13%) | ~8 |\n| Mohg | 45,000 | ~5,850 (13%) | ~8 |\n| Player (PvP) | 1,900 | ~385 | 5 |\n\n### Formula\n\n`Bleed damage is calculated from the enemy's maximum HP and internal Hemorrhage modifiers. The exact value varies by enemy type, boss resistance, and PvP scaling.`\n\nWhere:\n* Base Bleed % = 15% for most enemies\n* Bleed Resistance = 0.10-0.30 for bosses (higher = more resistance)\n* Bleed-immune enemies = 100% resistance (Elden Beast, Radagon, Crystalians)",
     },
+
     {
-      heading: "How Much Damage Does Bleed Deal in Elden Ring?",
+      heading: "Bleed vs Frost vs Poison vs Scarlet Rot",
       level: 2,
-      content:
-        "Bleed damage depends on the enemy's maximum HP.\n\nMost enemies lose approximately **15% of their maximum HP** when Hemorrhage triggers.\n\nThe key point:\n\n* A 2,000 HP enemy loses ~300 HP per bleed proc\n* A 20,000 HP boss loses ~3,000 HP per bleed proc\n* The damage scales with the target's health pool, not your stats\n\nBosses have different resistance values, but percentage-based damage is the reason Bleed remains powerful against high-health enemies. This is why bleed builds often outperform raw damage builds against bosses with large health pools.",
+      content: "",
+      table: {
+        headers: ["Effect", "Type", "Damage", "Best Against"],
+        rows: [
+          ["Bleed", "HP burst on proc", "~15% max HP", "High-HP bosses, PvP"],
+          ["Frost", "Burst + debuff", "~10% max HP + -20% defense", "Most enemies, debuff value"],
+          ["Poison", "Damage over time", "~7% max HP over 90s", "Long fights, chip damage"],
+          ["Scarlet Rot", "Heavy DoT", "~15% max HP over 60s", "Large/slow bosses"],
+          ["Sleep", "Crowd control", "0 damage", "Godskin enemies, PvP setups"]
+        ]
+      }
     },
+
     {
       heading: "How Blood Loss Actually Works",
       level: 2,
       content:
-        "Every attack with a bleed weapon applies buildup.\n\nExamples include:\n\n* Rivers of Blood\n* Reduvia\n* Nagakiba (Blood Affinity)\n* Eleonora's Poleblade\n* Uchigatana\n\nEach successful hit increases a hidden bleed meter.\n\nWhen the meter reaches its threshold:\n\n### Hemorrhage Triggers\n\nThe target immediately suffers a large chunk of percentage-based damage.\n\nThe meter then resets and begins building again.\n\nThis creates a rhythmic damage pattern: build → proc → build → proc. Faster procs = higher effective DPS.",
+        "Every weapon with a bleed property applies a hidden buildup value per hit.\n\n**Step by step:**\n\n1. You hit an enemy with a bleed weapon\n2. A hidden Blood Loss meter increases by the weapon's bleed value\n3. When the meter hits the enemy's bleed resistance threshold, Hemorrhage triggers\n4. The enemy takes percentage-based HP damage\n5. The meter resets to zero and starts building again\n\n### Buildup Formula\n\n`Effective Buildup = Weapon Base Bleed × Arcane Scaling Multiplier`\n\n* Weapon Base Bleed: Listed in weapon stats (e.g., Rivers of Blood = 45 per hit)\n* Arcane Scaling: Up to +40% bonus at ARC 45\n* Multi-hit attacks (Corpse Piler, Eleonora's skill) apply bleed per hit",
     },
+
     {
       heading: "Does Arcane Increase Bleed Damage?",
       level: 2,
       content:
-        "Arcane does **not** directly increase the Hemorrhage percentage damage.\n\nInstead, Arcane increases Bleed buildup on weapons with Arcane scaling.\n\nHigher Arcane means:\n\n* Faster Bleed procs\n* More frequent Hemorrhage triggers\n* Higher effective DPS\n\nThe sweet spot is **ARC 45**, which maximizes bleed buildup on most weapons. After reaching 45 Arcane, the remaining levels are usually better spent on Dexterity, Vigor, or Endurance.\n\nPlan your Arcane-heavy build with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator).",
+        "No — this is the most common misunderstanding about bleed builds.\n\nArcane increases **buildup speed**, not damage per proc.\n\n### What Arcane Actually Does\n\n* **ARC 1-20:** Minimal bleed scaling\n* **ARC 20-45:** Significant bleed buildup increase (up to +40% at 45)\n* **ARC 45:** Soft cap — bleed buildup gains slow significantly after this\n* **ARC 60:** Second soft cap — only worth it for Occult infusion builds\n\n### Real Example\n\n| Arcane | Bleed Buildup (Nagakiba Blood) | Procs to Proc Bleed on Boss |\n| --- | --- | --- |\n| 20 | 78 | ~10 hits |\n| 45 | 109 | ~7 hits |\n| 60 | 118 | ~7 hits |\n\nThe jump from 20 to 45 Arcane reduces the hits needed by 30%. The jump from 45 to 60 barely helps.",
     },
+
     {
       heading: "What Affects Bleed Buildup?",
       level: 2,
       content:
-        "Several factors influence buildup speed.\n\n### Arcane Scaling\n\nArcane is the most important stat for many bleed builds. Because Arcane increases Blood Loss buildup on weapons that scale with Arcane. This allows faster hemorrhage triggers and higher overall damage.\n\n### Attack Frequency\n\nFaster weapons trigger Bleed more consistently. Examples include katanas, twinblades, daggers, and curved swords. More hits equals faster buildup.\n\n### Weapon Affinity\n\n**Blood Affinity** increases bleed buildup and is best for dedicated bleed builds.\n\n**Occult Affinity** provides better Arcane scaling and higher raw damage, making it ideal for high-level Arcane builds. Many late-game builds eventually transition to Occult.",
+        "Several factors determine how quickly you trigger Hemorrhage.\n\n### 1. Arcane Stat\n\nThe biggest factor. ARC 45 is the most important breakpoint for any bleed build.\n\n### 2. Attack Speed\n\nFaster weapons proc bleed more often. A katana hitting 3 times in a jump L1 builds the meter faster than a greatsword hitting once.\n\n### 3. Weapon Affinity\n\n* **Blood Affinity:** +50-70% bleed buildup, -20% physical damage\n* **Occult Affinity:** +Arcane scaling, better raw damage, slightly lower bleed\n* **Standard:** Lowest bleed but highest physical damage\n\n### 4. Dual Wielding\n\nTwo bleed weapons = double the buildup per attack. Jump L1 with dual katanas applies bleed on both weapons simultaneously.\n\n### 5. Weapon Skills\n\n* Corpse Piler (Rivers of Blood): 3-4 hits per skill use\n* Eleonora's skill: 6 hits\n* Seppuku: +30 bleed buildup for 60 seconds",
     },
+
     {
-      heading: "Best Bleed Weapons Comparison",
+      heading: "Best Bleed Weapons by Playstyle",
       level: 2,
       content:
-        "Several weapons have consistently defined the Bleed meta.\n\n| Weapon | Bleed | Best For |\n| --- | --- | --- |\n| Rivers of Blood | High | Weapon skill burst |\n| Nagakiba | High | Range and flexibility |\n| Reduvia | Medium | Early game + projectile skill |\n| Eleonora's Poleblade | High | Multi-hit builds |\n| Uchigatana | Medium | Starter weapon + accessibility |\n| Mohgwyn's Palace Knife | High | Fast proc speed |\n| Claw of Dukje | High | Beastman builds |\n\nIf you want to compare different Bleed weapon damage, use our [Elden Ring Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "The best bleed weapon depends on your playstyle — no single weapon dominates across all scenarios. Here's how they break down:\n\nCompare weapon AR with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+      table: {
+        headers: ["Playstyle", "Weapon", "Bleed", "Why"],
+        rows: [
+          ["Best overall", "Nagakiba", "45 (high)", "Longest range katana, Occult scaling, versatile"],
+          ["Best skill damage", "Rivers of Blood", "45 (high)", "Corpse Piler multi-hit burst, top DPS vs bleedable"],
+          ["Fastest buildup", "Eleonora's Poleblade", "40 (high)", "6-hit weapon skill, fastest buildup"],
+          ["Early game", "Reduvia", "30 (medium)", "Ranged bleed projectile, easy to proc"],
+          ["Starter katana", "Uchigatana", "45 (high)", "Blood affinity scaling, Samurai class weapon"],
+          ["Great range", "Mohgwyn's Sacred Spear", "35 (medium)", "Powerful weapon art, long reach"],
+          ["Dual wield", "Scavenger's Curved Sword", "45 (high)", "Fast attack speed, great paired setup"],
+          ["Twinblade speed", "Godskin Peeler", "40 (high)", "Multi-hit combos, natural bleed affinity"],
+          ["Strength bleed", "Flamberge", "45 (high)", "Greatsword with bleed — rare combo for STR builds"],
+          ["STR build", "Great Stars", "35 (medium)", "Heals on hit, good for strength-focused play"],
+          ["Fun weapon art", "Ghiza's Wheel", "30 (medium)", "Consistent bleed, unique weapon skill"],
+          ["First playthrough", "Bloodhound's Fang", "30 (medium)", "Quality bleed, great for first run"]
+        ]
+      }
     },
+
     {
       heading: "Best Ashes of War for Bleed Builds",
       level: 2,
       content:
-        "Ashes of War significantly impact bleed performance.\n\n### Seppuku\n\nThe most iconic bleed Ash of War.\n\nBenefits:\n\n* Massive buildup increase\n* Excellent boss damage\n* High burst potential\n\nFor many bleed weapons, Seppuku remains the strongest choice.\n\n### Bloody Slash\n\nAdvantages:\n\n* High burst damage\n* Early accessibility\n\nParticularly useful during progression.\n\n### Double Slash\n\nAdvantages:\n\n* Rapid hit sequences\n* Fast buildup generation\n\nExcellent for katana builds.\n\n### Bloodboon\n\nBest for weapon skills that apply bleed over time, especially twinblade builds.",
+        "The right Ash of War can double your bleed effectiveness.\n\n### 1. Seppuku 🏆 (Best Overall)\n\n* Grants +30 bleed buildup for 60 seconds\n* Activates Lord of Blood's Exultation automatically\n* Best for boss fights and high-HP enemies\n\n### 2. Corpse Piler (Rivers of Blood exclusive)\n\n* 3-4 hits per use = massive bleed buildup in 1 second\n* High stance damage, long range\n* Best weapon skill in the game for bleed\n\n### 3. Bloody Slash\n\n* High burst damage + bleed in one attack\n* Early game accessible (Fort Haight)\n* Good for clearing tough early enemies\n\n### 4. Double Slash\n\n* Rapid 2-hit sequence\n* Excellent with Blood affinity on katanas\n* Low FP cost (12 FP)",
     },
+
     {
       heading: "Best Talismans for Bleed Builds",
       level: 2,
       content:
-        "Talismans can dramatically improve bleed performance.\n\n### Lord of Blood's Exultation\n\n* 3% bleed buildup boost when HP is full\n* Synergizes with bleed weapon skills\n\n### Rotten Winged Sword Insignia\n\n* 12% total damage boost\n* 20% when fully upgraded\n\n### Millicent's Prosthesis\n\n* Extra attack after heavy attack\n* Adds more bleed hits per combo\n\n### Marais Executioner's Mask\n\n* 20% bleed buildup boost\n* Best option for pure bleed pressure",
+        "These talismans maximize bleed performance.\n\n### Lord of Blood's Exultation\n\n* +20% attack power when bleed procs nearby\n* Essential for any bleed build\n* Activates from Seppuku self-bleed\n\n### Rotten Winged Sword Insignia\n\n* +10% damage on consecutive hits, +13% upgraded\n* Synergizes perfectly with multi-hit bleed weapons\n\n### Millicent's Prosthesis\n\n* +5 Dexterity + damage on consecutive hits\n* Pairs with Rotten Winged Sword for maximum value\n\n### Shard of Alexander\n\n* +15% weapon skill damage\n* Critical for Rivers of Blood and Eleonora's builds\n\n### Dragoncrest Greatshield Talisman\n\n* +20% physical damage negation\n* Essential survival for aggressive bleed playstyle",
     },
+
     {
-      heading: "Best Bleed Build in Elden Ring",
+      heading: "How to Build a Bleed Character Step by Step",
       level: 2,
       content:
-        "Here is the recommended bleed build for 2026.\n\n### Level 150 Arcane Bleed Build\n\n* Vigor: 60\n* Mind: 15\n* Endurance: 25\n* Strength: 20\n* Dexterity: 50\n* Arcane: 45\n* Intelligence: 8\n* Faith: 8\n\n### Weapon\n\n* **Main:** Rivers of Blood +25 or Nagakiba +25 (Occult affinity)\n* **Off-hand:** Reduvia +25 or Claw of Dukje +25\n\n### Stats Strategy\n\nReach Arcane 45 for maximum bleed buildup, then invest remaining levels in Dexterity for weapon scaling and Vigor for survivability.\n\nUse the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test and optimize your exact build.",
+        "Building a bleed character from scratch can be overwhelming. This step-by-step progression works for new players starting at any class.\n\n### Level 1-30: Starter Phase\n\n* Start as Samurai or Bandit\n* Uchigatana is the best starting weapon — innate bleed, no investment needed\n* Focus on Vigor first (target 25), then Dexterity\n* **Ignore Arcane at this stage** — early Arcane levels have almost no effect on bleed buildup\n* Get Smithing Stone 1-3 to upgrade your weapon to +3\n\n### Level 30-60: Early Game Optimization\n\n* Push Arcane toward 25 — bleed buildup starts to noticeably improve\n* Acquire Reduvia for ranged bleed procs\n* Get Bloodborne Grease consumable for the first Lord of Blood’s Exultation equivalent\n* Target Vigor 30, Dexterity 25, Arcane 25\n* Upgrade weapon to +7\n\n### Level 60-100: Mid Game Build\n\n* Push Arcane toward 45 — the most efficient breakpoint for Blood affinity weapons\n* Transition from Blood affinity to Occult affinity if going for high-level build\n* Acquire Rivers of Blood or Nagakiba\n* Get Lord of Blood’s Exultation talisman\n* Use Seppuku Ash of War for the +30 bleed buff\n\n### Level 100+: Endgame Optimization\n\n* ARC 45 is the most efficient breakpoint for many Blood affinity weapons. For high-level Occult builds, pushing Arcane toward 60 can still improve overall damage.\n* Push Dexterity to 50 for weapon damage scaling\n* Vigor 60 for survival\n* Build around 2-3 weapon swaps for bleed-immune bosses",
     },
-    {
-      heading: "Does Bleed Work on Bosses?",
+{
+      heading: "Bleed Builds: Early Game to Endgame",
       level: 2,
       content:
-        "Yes, but with important exceptions.\n\n### Bosses Bleed Well Against\n\n* Malenia, Blade of Miquella\n* Godfrey, First Elden Lord\n* Radagon\n* Most humanoid and dragon bosses\n\n### Bosses with High Bleed Resistance\n\n* Many Shadow of the Erdtree DLC bosses\n* Undead enemies and skeletons\n* Certain godskin bosses\n\nWhen fighting bleed-resistant enemies, you should have a backup damage strategy ready.",
+        "Bleed builds work at every stage of the game, but your stat priority changes as you level up. Use the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test each setup before spending Larval Tears.",
     },
+
     {
+      heading: "Early Game Bleed Build (RL 30-60)",
+      level: 3,
+      content:
+        "* **Vigor:** 25\n* **Endurance:** 15\n* **Dexterity:** 22\n* **Arcane:** 18\n\n**Weapons:** Uchigatana (Blood Affinity) + Reduvia off-hand\n\n**Strategy:** Focus on Vigor first. The Uchigatana from the starting Samurai class carries you through Limgrave and Liurnia. Reduvia's ranged skill lets you apply bleed from a safe distance.",
+    },
+
+    {
+      heading: "Mid Game Bleed Build (RL 60-100)",
+      level: 3,
+      content:
+        "* **Vigor:** 40\n* **Endurance:** 20\n* **Dexterity:** 30\n* **Arcane:** 30\n\n**Weapons:** Nagakiba (Blood Affinity) or Rivers of Blood (if acquired)\n\n**Strategy:** Push Arcane toward 45. Dual-wield katanas if possible — jump L1 attacks apply bleed from both weapons. Equip Lord of Blood's Exultation once available.",
+    },
+
+    {
+      heading: "Endgame Bleed Build (RL 150)",
+      level: 3,
+      content:
+        "* **Vigor:** 60\n* **Mind:** 15\n* **Endurance:** 25\n* **Strength:** 20\n* **Dexterity:** 50\n* **Arcane:** 45\n\n**Weapons:** Rivers of Blood + Nagakiba (Occult)\n\n**Strategy:** ARC 45 is the most efficient breakpoint for many Blood affinity weapons. For high-level Occult builds, pushing Arcane toward 60 can still improve overall damage.. Push Dexterity to 50 for weapon damage scaling. Use Seppuku on the off-hand Nagakiba for the +30 bleed buff, then two-hand Rivers of Blood for Corpse Piler.\n\nSee our detailed [Best Bleed Build Guide](https://www.zosygo.com/elden-ring/builds/best-bleed-build) for the complete setup.",
+    },
+
+    {
+      heading: "Bleed vs Bosses: Who to Use It On",
+      level: 2,
+      content: "",
+      table: {
+        headers: ["Boss", "Bleed Viability", "Notes"],
+        rows: [
+          ["Malenia", "✅ Excellent", "Easiest bleed target, procs every 4-5 hits"],
+          ["Mohg, Lord of Blood", "✅ Excellent", "Weak to bleed despite being the blood lord"],
+          ["Godfrey / Hoarah Loux", "✅ Good", "Bleed builds melt him in phase 1"],
+          ["Morgott", "✅ Good", "Fast bleed procs, easy fight with bleed"],
+          ["Fire Giant", "✅ Good", "Large HP pool = high bleed value"],
+          ["Maliketh", "⚠️ Mixed", "Phase 1 good, phase 2 resistant"],
+          ["Radagon / Elden Beast", "❌ Immune", "Cannot bleed at all — bring a backup weapon"],
+          ["Crystalians", "❌ Immune", "Fully immune to bleed"],
+          ["DLC Bosses", "⚠️ Mixed", "Most have 30-50% bleed resistance, some are immune"]
+        ]
+      }
+    },
+
+    {
+      heading: "When Should You NOT Use Bleed?",
+      level: 2,
+      content:
+        "Bleed is not a universal solution. There are situations where investing in bleed is a waste of levels.\n\n### Bleed-Immune Enemies\n\nThese enemies cannot be bled at all, making any bleed build ineffective:\n\n* **Elden Beast** — fully immune\n* **Radagon of the Golden Order** — fully immune\n* **Crystalians** (Crystal Hollows, Raya Lucaria) — fully immune\n* **Mohgwyn Dynasty soldiers** — high resistance, barely procs\n\n### Bleed-Resistant Scenarios\n\n* **Undead and skeletons** — most undead are immune or highly resistant\n* **Shadow of the Erdtree DLC bosses** — many have 30-50% bleed resistance\n* **PvP with bleed-immune setups** — some PvP builds use bleed protection\n\n### When NOT to Invest in Bleed\n\n* You plan to rush the DLC and face heavy bleed resistance\n* You prefer pure damage builds without status complexity\n* You cannot carry a backup weapon for immune bosses\n* You are new to the game — raw damage builds are simpler to learn first\n\n**Rule of thumb:** If 20% of your fights are against bleed-immune enemies, a pure bleed build is not optimal.",
+    },
+{
       heading: "Common Bleed Mistakes",
       level: 2,
       content:
-        "### Mistake 1: Thinking bleed damage scales with your stats\n\nBleed damage is based on the target's max HP, not your stats. Higher Arcane means faster procs, not bigger procs.\n\n### Mistake 2: Ignoring Arcane breakpoint at 45\n\nAfter 45 Arcane, bleed buildup stops scaling. Invest in DEX, VIG, or END instead.\n\n### Mistake 3: Using Blood Affinity on every weapon\n\nOccult affinity provides better Arcane scaling and higher raw damage. Transition to Occult in late game.\n\n### Mistake 4: Using bleed against resistant enemies\n\nBleed does not work well on many Shadow of the Erdtree bosses and undead. Always bring a backup strategy.",
+        "### Mistake 1: Thinking bleed damage scales with your stats\n\nBleed damage is based on the target's max HP, not your stats. Higher Arcane means faster procs, not bigger procs.\n\n### Mistake 2: Ignoring Arcane 45 breakpoint\n\nAfter 45 Arcane, bleed buildup gains slow significantly. Those 15 points from 45 to 60 are better spent on Dexterity or Vigor.\n\n### Mistake 3: Using Blood Affinity at high levels\n\nOccult affinity provides better Arcane scaling and higher raw damage. Transition to Occult once you hit ARC 45.\n\n### Mistake 4: No backup for bleed-immune bosses\n\n20% of bosses are immune to bleed. Always carry a non-bleed weapon (occult or standard) for Elden Beast, Radagon, and Crystalians.",
     },
+
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Bleed still good in Elden Ring 2026?\n\nYes. Bleed remains one of the most effective damage strategies in both the base game and Shadow of the Erdtree. Its percentage-based damage makes it strong against high-HP bosses.\n\n### What is the best Arcane level for Bleed?\n\nThe sweet spot is **ARC 45**, which maximizes bleed buildup on most weapons. After 45, invest in Dexterity or Vigor instead.\n\n### Does Bleed work on bosses?\n\nYes, bleed works on most bosses. However, some Shadow of the Erdtree bosses and undead enemies are highly resistant. Check enemy weaknesses before committing to a pure bleed strategy.\n\n### Does Bleed work in Shadow of the Erdtree?\n\nBleed works in the DLC, but many new bosses have high bleed resistance. Pure bleed builds need backup strategies for the hardest DLC encounters.\n\n### Does Arcane increase bleed damage directly?\n\nNo. Arcane increases bleed buildup speed, not the damage percentage of Hemorrhage procs. Higher Arcane = faster procs = higher effective DPS.\n\n### What is the best bleed weapon in Elden Ring?\n\nRivers of Blood remains the most popular for its weapon skill burst. Eleonora's Poleblade and Blood Nagakiba are also excellent choices for different playstyles.\n\n### Can I use bleed with a Strength build?\n\nYes. Greatswords and colossal weapons can apply bleed, though the buildup speed is slower than with faster weapons like katanas.\n\n### How often does bleed proc?\n\nBleed procs every time the hidden Blood Loss meter is filled. The frequency depends on weapon type, Arcane level, and attack speed.",
+        "### Does bleed work on Malenia?\n\nYes \u2014 Malenia is one of the easiest bosses to bleed. With a dual katana setup and Seppuku, you can proc bleed every 4-5 hits.\n\n### Can you bleed Elden Beast?\n\nNo. Elden Beast and Radagon are both immune to bleed. You need a non-bleed backup weapon for this fight.\n\n### Is Arcane better than Dexterity for bleed?\n\nIt depends on your level. ARC 45 is the priority for bleed buildup. After that, Dexterity provides better weapon damage scaling. At RL 150: 50 DEX / 45 ARC is optimal.\n\n### Does Seppuku still work in 2026?\n\nYes. Seppuku grants +30 bleed buildup for 60 seconds and activates Lord of Blood\'s Exultation. It remains the strongest Ash of War for bleed builds.\n\n### Does dual wielding increase bleed?\n\nYes. Dual wielding applies bleed from both weapons simultaneously. Jump L1 with dual katanas is the fastest way to proc bleed.\n\n### What is the fastest bleed weapon?\n\nEleonora\'s Poleblade. Its weapon skill hits 6 times in one use, building bleed faster than any other weapon. Rivers of Blood is second (3-4 hits per skill).\n\n### Is bleed good in Shadow of the Erdtree?\n\nBleed works in the DLC, but many bosses have 30-50% bleed resistance. Pure bleed builds need backup strategies for the hardest DLC encounters.\n\n### What level should I stop at for bleed?\n\nRL 150 is the most popular breakpoint. It allows 60 Vigor + 45 Arcane + 50 Dexterity. RL 125 works for PvP bleed builds but requires sacrificing either Vigor or damage.\n\n### Does bleed work on undead enemies?\n\nNo. Most undead enemies (Those Who Live in Death, skeletons) are immune or highly resistant to bleed.\n\n### Can I use bleed with a Strength build?\n\nYes. Great Stars, Ghiza\'s Wheel, and the Flamberge all have innate bleed. The buildup is slower than katanas, but the raw damage is higher.\n\n### Is Blood Affinity or Occult better for bleed?\n\nBlood Affinity for low-mid Arcane (under 45). Occult for high Arcane (45+). Occult provides better raw damage while maintaining good bleed buildup.\n\n### How many hits to proc bleed on a boss?\n\nWith Rivers of Blood at ARC 45: approximately 4-5 hits on Malenia, 5-6 on Mohg, 7-8 on Fire Giant.\n\n### Does bleed stack with Frost?\n\nYes. Bleed and Frost can be applied simultaneously. This is the basis of the \"Bleedfrost\" build \u2014 bleed for burst, frost for defense debuff.\n\n### What is the best starting class for bleed?\n\nSamurai starts with the Uchigatana (innate bleed) and high Dexterity. Bandit starts with high Arcane for immediate bleed scaling. Samurai is better for new players, Bandit for experienced players.\n\n### Is bleed worth using in PvP?\n\nYes. Bleed is one of the strongest PvP strategies. Fast weapons + bleed pressure forces opponents into mistakes. Lord of Blood\'s Exultation + Shard of Alexander makes Corpse Piler a one-shot combo against most players.",
     },
     {
       heading: "Conclusion",
       level: 2,
       content:
-        "Bleed is one of the most powerful mechanics in Elden Ring. Its percentage-based damage means it scales with enemy health pools, making it devastating against bosses.\n\nMaster the key principles:\n\n* Reach Arcane 45 for maximum buildup\n* Choose the right weapon for your playstyle\n* Transition to Occult affinity in late game\n* Always have a backup against resistant enemies\n\nUse the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to optimize your bleed build before you fight your next boss.",
+        "Bleed is one of the most powerful mechanics in Elden Ring. Its percentage-based damage scales with enemy health pools, making it devastating against bosses.\n\n**Key takeaways:**\n\n* ARC 45 is the most important breakpoint\n* Faster weapons = faster procs = higher DPS\n* Seppuku + Lord of Blood's Exultation is the core combo\n* Always carry a backup for bleed-immune bosses\n* Use Occult affinity at high Arcane levels\n\nTest your bleed build with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) before committing Larval Tears.",
     },
+
   ],
   internalLinks: [
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
-    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Elden Ring Weapon AR Calculator" },
-    { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
+    { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+    { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Guide" },
+    { href: "/elden-ring/weapons/nagakiba", anchorText: "Nagakiba Katana" },
     { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Build" },
-    { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Katana" },
-    { href: "/elden-ring/weapons/nagakiba", anchorText: "Nagakiba" },
-    { href: "/elden-ring/weapons/reduvia", anchorText: "Reduvia" },
     { href: "/elden-ring/walkthroughs/arcane-explained", anchorText: "Arcane Stat Explained" },
-    { href: "/elden-ring/tools/build-tier-list", anchorText: "Build Tier List" },
+    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring soft caps" },
   ],
-};const article51: Article = {
+  };
+  const article51: Article = {
   keyTakeaways: [
     { label: "🎯 Core System", value: "Status effects build hidden meter → triggers effect → resets and repeats" },
     { label: "🩸 Bleed", value: "% HP burst — strongest vs high-HP bosses, scales with attack speed" },
