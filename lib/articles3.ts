@@ -454,7 +454,7 @@ const article39: Article = {
 const article40: Article = {
   keyTakeaways: [
     { label: "🎯 Core Definition", value: "Poise = stagger resistance, NOT damage reduction" },
-    { label: "📊 Key Numbers", value: "51 = PvE minimum, 61 = medium weapon trades, 101 = heavy trades" },
+    { label: "📊 Key Numbers", value: "51 poise resists many common PvE light attacks; 61 = medium trades; 101 = heavy trades" },
     { label: "⚔️ Hyper Armor", value: "Heavy weapons (colossal > greatsword > greataxe > halberd > katana)" },
     { label: "🛡️ Best Armor", value: "Bull-Goat set (100 poise), or mix pieces for 51/61 breakpoints" },
     { label: "💡 Bull-Goat Talisman", value: "Increases poise by approximately 33% — enables breakpoints with lighter armor" },
@@ -466,8 +466,8 @@ const article40: Article = {
   difficulty: "beginner",
   readTimeMinutes: 13,
   order: 40,
-  title: "Elden Ring Poise Explained (2026): 51/61/101 Breakpoints, Hyper Armor & Best Armor",
-  h1: "Elden Ring Poise Explained (2026): 51/61/101 Breakpoints, Hyper Armor & Best Armor",
+  title: "Elden Ring Poise Breakpoints Explained (2026): 51, 61, 101 Poise, Hyper Armor & Best Armor",
+  h1: "Elden Ring Poise Breakpoints Explained (2026): 51, 61, 101 Poise, Hyper Armor & Best Armor",
   metaDescription:
     "Elden Ring poise determines whether you stagger when hit. Learn 51/61/101 poise breakpoints, hyper armor by weapon type, Bull-Goat set, and the best poise builds for PvE and PvP.",
   sections: [
@@ -475,13 +475,13 @@ const article40: Article = {
       heading: "",
       level: 2,
       content:
-        "Elden Ring poise determines whether your character gets staggered when taking hits.\n\nThe most important breakpoints are:\n\n* **51 poise**: basic PvE resistance — most PvE hits won't interrupt your attack\n* **61 poise**: medium weapon trades — trade through katana and straight sword attacks\n* **101 poise**: heavy weapon trades — trade with greatswords and colossal weapons\n\nThis guide explains every poise breakpoint, hyper armor interaction, and the best armor setups for PvE and PvP. Before optimizing your build, use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat allocation.\n\nSee also: [How Stance Damage Works](https://www.zosygo.com/elden-ring/walkthroughs/stance-damage-explained) for the related combat mechanic.",
+        "Elden Ring poise determines whether your character gets staggered when taking hits.\n\nThe most important breakpoints are:\n\n* **51 poise**: resists many common PvE light attacks (daggers, straight swords) — effectiveness varies by enemy type\n* **61 poise**: medium weapon trades — trade through katana and straight sword attacks\n* **101 poise**: heavy weapon trades — trade with greatswords and colossal weapons\n\nThis guide explains every poise breakpoint, hyper armor interaction, and the best armor setups for PvE and PvP. Before optimizing your build, use the [Elden Ring Build Calculator](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your stat allocation.\n\nSee also: [How Stance Damage Works](https://www.zosygo.com/elden-ring/walkthroughs/stance-damage-explained) for the related combat mechanic.",
     },
     {
       heading: "Quick Answer",
       level: 2,
       content:
-        "Poise is a hidden stat that controls whether your character gets interrupted when hit during an attack.\n\nIt does NOT reduce damage. It only determines if you stagger or continue your attack.\n\nThe three numbers to remember:\n\n* **51 poise** — minimum target for most PvE melee builds\n* **61 poise** — medium weapon trading, recommended for most melee players\n* **101+ poise** — heavy weapon trading, for greatswords and colossal weapons\n\nPoise comes from armor only. There is no weapon, spell, or consumable that increases it directly.\n\n> Poise = \"can I finish my attack?\" not \"how much damage do I take?\"",
+        "Poise is a hidden stat that controls whether your character gets interrupted when hit during an attack.\n\nIt does NOT reduce damage. It only determines if you stagger or continue your attack.\n\nThe three numbers to remember:\n\n* **51 poise** — allows you to resist many common PvE light attacks (daggers, straight swords)\n* **61 poise** — medium weapon trading, recommended for most melee players\n* **101+ poise** — heavy weapon trading, for greatswords and colossal weapons\n\nPoise comes from armor only. There is no weapon, spell, or consumable that increases it directly.\n\n> Poise = \"can I finish my attack?\" not \"how much damage do I take?\"",
     },
     {
       heading: "Poise Breakpoint Chart",
@@ -489,16 +489,23 @@ const article40: Article = {
       content:
         "The following table shows the key poise breakpoints and what each tier unlocks:\n",
       table: {
-        headers: ["Poise", "Best For", "Example Builds"],
+        headers: ["Poise", "What It Helps Against", "Example Builds"],
         rows: [
           ["0–30", "Light builds — rely on dodging", "Mage, Dex, Sorcery"],
-          ["51", "General PvE — minimum for melee", "Most PvE melee builds"],
-          ["61", "Medium weapon trades", "Katana, Straight Sword, Greatsword"],
+          ["51", "Common PvE light attacks (daggers, straight swords)", "Most PvE melee builds"],
+          ["61", "Medium weapon trades (katanas, greatswords)", "Katana, Straight Sword, Greatsword"],
           ["71", "PvP pressure resistance", "Competitive PvP builds"],
-          ["101", "Heavy weapon trading", "Greatsword, Greataxe"],
-          ["125+", "Colossal hyper armor", "Strength, Colossal builds"]
+          ["81", "Stronger PvE enemy attacks and boss light attacks", "Greatsword / Greataxe builds"],
+          ["101", "Heavy weapon trades", "Greatsword, Greataxe, Colossal"],
+          ["125+", "Maximum hyper armor builds", "Strength, Colossal builds"]
         ]
       }
+    },
+    {
+      heading: "Bull-Goat Talisman Poise Calculator",
+      level: 2,
+      content:
+        "Bull-Goat's Talisman increases total poise by approximately 33%. Here is a quick reference showing base armor poise versus poise with the talisman equipped:\n\n| Armor Set | Base Poise | With Bull-Goat Talisman |\n| --------- | ---------- | ----------------------- |\n| Veteran Set | 77 | ~102 |\n| Bull-Goat Set | 100 | ~133 |\n| Lionel's Set | 85 | ~113 |\n| Mixed (Veteran Helm + Bull-Goat Armor) | 91 | ~121 |\n| Typical 51-poise mix | 51 | ~68 |\n\nThe 33% multiplier means that with Bull-Goat's Talisman, a set that provides 51 base poise becomes approximately 68 — crossing the 61 breakpoint. Similarly, a Veteran Set (77 base) becomes ~102, reaching the 101 breakpoint.\n\n> Pro tip: Use Bull-Goat's Talisman to unlock higher breakpoints without committing to the full Bull-Goat armor set. This is especially valuable for builds that want medium rolling (medium equip load) while still hitting 61 or 101 poise.\n\nSee also: [Best Strength Builds](https://www.zosygo.com/elden-ring/builds/best-strength-build) for builds that pair high poise with heavy weapons.",
     },
     {
       heading: "What Is Poise in Elden Ring?",
@@ -516,7 +523,7 @@ const article40: Article = {
       heading: "Hyper Armor Explained",
       level: 2,
       content:
-        "Hyper armor is a state during certain attack animations where your character is less likely to be interrupted by incoming hits.\n\nPoise and hyper armor work together: high poise raises your base threshold, and hyper armor increases it further during heavy attacks. This is why a Greatsword user with 61+ poise using a charged heavy attack can trade through most enemy attacks.\n\nNot all attacks have hyper armor. Light weapons like daggers and straight swords typically have minimal or no hyper armor frames, which is why they rely on speed and evasion instead of trading.\n\nSee also: [Greatsword Build Guide](https://www.zosygo.com/elden-ring/weapons/greatsword-explained) for weapon-specific hyper armor details.",
+        "Hyper armor is a state during certain attack animations where your character is less likely to be interrupted by incoming hits.\n\n**Important:** Hyper armor is not determined by weapon class alone. A Greatsword's normal R1, charged heavy attack, running attack, and jump attack all have different hyper armor values. The same is true for Colossal Swords, Great Katanas, and Halberds — each attack animation carries its own hyper armor rating.\n\nPoise and hyper armor work together: high poise raises your base threshold, and hyper armor increases it further during heavy attacks. This is why a Greatsword user with 61+ poise using a charged heavy attack can trade through most enemy attacks.\n\nNot all attacks have hyper armor. Light weapons like daggers and straight swords typically have minimal or no hyper armor frames, which is why they rely on speed and evasion instead of trading.\n\nSee also: [Greatsword Build Guide](https://www.zosygo.com/elden-ring/weapons/greatsword-explained) for weapon-specific hyper armor details.",
     },
     {
       heading: "Which Weapons Have The Best Hyper Armor?",
@@ -544,7 +551,7 @@ const article40: Article = {
       heading: "Best Poise Armor in Elden Ring",
       level: 2,
       content:
-        "Poise comes from armor only. Here are the top sets:\n\n### Bull-Goat Set\n\n* Total poise: 100\n* Heaviest armor in the game\n* Requires high Endurance (40+) or Great-Jar\u2019s Arsenal\n* Best for colossal weapon builds\n\n### Lionel\u2019s Set\n\n* Total poise: 85\n* Slightly lighter than Bull-Goat\n* Good balance of protection and mobility\n\n### Veteran\u2019s Set\n\n* Total poise: 77\n* Popular for PvP builds\n* Excellent weight-to-poise ratio\n\n### Bull-Goat\u2019s Talisman\n\n* Increases poise by approximately 33%\n* Enables breakpoints with lighter armor\n* Essential for builds that want 51 or 61 poise without heavy armor\n\n> **Pro tip:** Mix armor pieces to hit exact breakpoints. For example, Veteran\u2019s Helm + Bull-Goat Armor + Veteran\u2019s Gauntlets + Veteran\u2019s Greaves gives you 77 poise at lower weight than the full Bull-Goat set.\n\nSee also: [Best Strength Builds](https://www.zosygo.com/elden-ring/builds/best-strength-build) for armor recommendations paired with high-poise weapon builds.",
+        "Poise comes from armor only. Here are the top sets:\n\n### Bull-Goat Set\n\n* Total poise: 100\n* Heaviest armor in the game\n* Requires high Endurance (40+) or Great-Jar\u2019s Arsenal\n* Best for colossal weapon builds\n\n### Lionel\u2019s Set\n\n* Total poise: 85\n* Slightly lighter than Bull-Goat\n* Good balance of protection and mobility\n\n### Veteran\u2019s Set\n\n* Total poise: 77\n* Popular for PvP builds\n* Excellent weight-to-poise ratio\n\n### Bull-Goat\u2019s Talisman\n\n* Increases poise by approximately 33%\n* With Veteran Set (77 base): ~102 poise (reaches 101 breakpoint)\n* With Bull-Goat Set (100 base): ~133 poise (maximum)\n* With typical 51-poise mix: ~68 poise (crosses 61 breakpoint)\n\n> **Pro tip:** Mix armor pieces to hit exact breakpoints. For example, Veteran\u2019s Helm + Bull-Goat Armor + Veteran\u2019s Gauntlets + Veteran\u2019s Greaves gives you 77 poise at lower weight than the full Bull-Goat set.\n\nSee also: [Best Strength Builds](https://www.zosygo.com/elden-ring/builds/best-strength-build) for armor recommendations paired with high-poise weapon builds.",
     },
     {
       heading: "Best Poise Builds in Elden Ring",
