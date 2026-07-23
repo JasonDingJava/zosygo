@@ -72,12 +72,12 @@ const POPULAR_BUILDS: PopularBuild[] = [
     name: "Moonveil Intelligence Build",
     description: "Moonveil katana + spells hybrid. Transient Moonlight + Terra Magica for burst DPS.",
     class: "prisoner",
-    stats: {vigor:60,mind:25,endurance:20,strength:12,dexterity:18,intelligence:80,faith:9,arcane:8},
+    stats: {vigor:60,mind:30,endurance:20,strength:12,dexterity:18,intelligence:80,faith:9,arcane:8},
     weapons: ["moonveil", "carian-regal-scepter", "lorettas-greatbow"],
     armor: {helm:"moonlight-set_helm",chest:"moonlight-set_chest",arms:"moonlight-set_arms",legs:"moonlight-set_legs"},
-    talismans: ["shard-of-alexander", "radagon-icon", "carian-filigreed", "graven-mass"],
-    spells: ["rannis-dark-moon", "adulas-moonblade", "terra-magica", "comet-azur", "night-comet", "great-glintstone-shard"],
-    upgradeLevel: 25,
+    talismans: ["shard-of-alexander", "carian-filigreed", "graven-mass", "radagon-icon"],
+    spells: ["rannis-dark-moon", "adulas-moonblade", "carian-slicer", "terra-magica", "comet-azur", "night-comet"],
+    upgradeLevel: 10,
     twoHanding: false,
   },
   {
@@ -1277,30 +1277,63 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                 {/* Equip Load */}
                 <Section title="Equip Load">
                   <div className="mb-2 flex items-center justify-between">
-                    <span className="text-xs text-gray-400">{totalEquipLoad.toFixed(1)} total weight</span>
+                    <span className="text-xs text-gray-400">{buildOutput.equipLoad.current.toFixed(1)} total weight</span>
                     <span className={`text-xs font-medium ${
-                      totalEquipLoad <= stats.endurance * 1.5 * 0.3 ? "text-green-400" : 
-                      totalEquipLoad <= stats.endurance * 1.5 * 0.7 ? "text-yellow-400" : "text-red-400"
+                      buildOutput.equipLoad.rollType === "light" ? "text-green-400" :
+                      buildOutput.equipLoad.rollType === "medium" ? "text-yellow-400" : "text-red-400"
                     }`}>
-                      {totalEquipLoad <= stats.endurance * 1.5 * 0.3 ? "Light Roll" :
-                       totalEquipLoad <= stats.endurance * 1.5 * 0.7 ? "Medium Roll" : "Heavy Roll"}
+                      {buildOutput.equipLoad.rollType === "light" ? "Light Roll" :
+                       buildOutput.equipLoad.rollType === "medium" ? "Medium Roll" : "Heavy Roll"}
                     </span>
                   </div>
                   <div className="h-2.5 w-full overflow-hidden rounded-full bg-gray-800">
                     <div className={`h-full rounded-full transition-all duration-300 ${
-                      totalEquipLoad <= stats.endurance * 1.5 * 0.3 ? "bg-green-500" :
-                      totalEquipLoad <= stats.endurance * 1.5 * 0.7 ? "bg-yellow-500" : "bg-red-500"
-                    }`} style={{ width: `${Math.min(100, (totalEquipLoad / (stats.endurance * 1.5)) * 100)}%` }} />
+                      buildOutput.equipLoad.rollType === "light" ? "bg-green-500" :
+                      buildOutput.equipLoad.rollType === "medium" ? "bg-yellow-500" : "bg-red-500"
+                    }`} style={{ width: `${Math.min(100, (buildOutput.equipLoad.current / buildOutput.equipLoad.maxHeavy) * 100)}%` }} />
                   </div>
                   <div className="mt-2 grid grid-cols-3 gap-2 text-center text-[10px]">
-                    <div><span className="text-green-400">Light</span> ≤ {(stats.endurance * 1.5 * 0.3).toFixed(1)}</div>
-                    <div><span className="text-yellow-400">Medium</span> ≤ {(stats.endurance * 1.5 * 0.7).toFixed(1)}</div>
-                    <div><span className="text-red-400">Heavy</span> ≤ {(stats.endurance * 1.5).toFixed(1)}</div>
+                    <div><span className="text-green-400">Light</span> ≤ {buildOutput.equipLoad.maxLight.toFixed(1)} (<span className="text-gray-400">{Math.round(buildOutput.equipLoad.maxLight/buildOutput.equipLoad.maxHeavy*100)}%</span>)</div>
+                    <div><span className="text-yellow-400">Medium</span> ≤ {buildOutput.equipLoad.maxMedium.toFixed(1)} (<span className="text-gray-400">{Math.round(buildOutput.equipLoad.maxMedium/buildOutput.equipLoad.maxHeavy*100)}%</span>)</div>
+                    <div><span className="text-red-400">Heavy</span> ≤ {buildOutput.equipLoad.maxHeavy.toFixed(1)} (<span className="text-gray-400">100%</span>)</div>
                   </div>
                   <div className="mt-2 grid grid-cols-3 gap-2 text-[10px] text-gray-500">
                     <div>Armor: {totalArmorWeight.toFixed(1)}</div>
                     <div>Weapons: {totalWeaponWeight.toFixed(1)}</div>
                     <div>Talismans: {totalTalismanWeight.toFixed(1)}</div>
+                  </div>
+                </Section>
+
+                {/* Defense */}
+                <Section title="Defense">
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="rounded bg-gray-800/50 px-3 py-2">
+                      <div className="text-[10px] text-gray-500 uppercase tracking-wider">Physical Negation</div>
+                      <div className="text-lg font-bold text-red-400">{buildOutput.defense.physicalNegation}%</div>
+                    </div>
+                    <div className="rounded bg-gray-800/50 px-3 py-2">
+                      <div className="text-[10px] text-gray-500 uppercase tracking-wider">Magic Negation</div>
+                      <div className="text-lg font-bold text-cyan-400">{buildOutput.defense.magicNegation}%</div>
+                    </div>
+                    <div className="rounded bg-gray-800/50 px-3 py-2">
+                      <div className="text-[10px] text-gray-500 uppercase tracking-wider">Fire Negation</div>
+                      <div className="text-lg font-bold text-orange-400">{buildOutput.defense.fireNegation}%</div>
+                    </div>
+                    <div className="rounded bg-gray-800/50 px-3 py-2">
+                      <div className="text-[10px] text-gray-500 uppercase tracking-wider">Lightning Negation</div>
+                      <div className="text-lg font-bold text-yellow-400">{buildOutput.defense.lightningNegation}%</div>
+                    </div>
+                    <div className="rounded bg-gray-800/50 px-3 py-2">
+                      <div className="text-[10px] text-gray-500 uppercase tracking-wider">Holy Negation</div>
+                      <div className="text-lg font-bold text-amber-300">{buildOutput.defense.holyNegation}%</div>
+                    </div>
+                    <div className="rounded bg-gray-800/50 px-3 py-2">
+                      <div className="text-[10px] text-gray-500 uppercase tracking-wider">Poise</div>
+                      <div className="text-lg font-bold text-purple-400">{buildOutput.defense.poise}</div>
+                    </div>
+                  </div>
+                  <div className="mt-2 text-[10px] text-gray-500">
+                    Defense values are estimated from equipped armor set. Poise ≥ 51 reduces enemy stagger animation.
                   </div>
                 </Section>
 
@@ -1328,6 +1361,32 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     <WeaponCards weapons={buildOutput.weapons} />
                     )}
                   </Section>
+
+                {/* Transient Moonlight Damage (shown only when Moonveil is equipped) */}
+                {buildOutput.transientMoonlightDamage && (
+                  <Section title="⚡ Transient Moonlight Damage">
+                    <div className="grid grid-cols-3 gap-3">
+                      <div className="rounded bg-cyan-900/20 border border-cyan-700/30 px-3 py-2">
+                        <div className="text-[10px] text-cyan-400 uppercase tracking-wider">R1 Beam</div>
+                        <div className="text-xl font-bold text-cyan-300">{buildOutput.transientMoonlightDamage.r1.rawAR}</div>
+                        <div className="text-[10px] text-gray-400">≈ {buildOutput.transientMoonlightDamage.r1.withNegation} after negation</div>
+                      </div>
+                      <div className="rounded bg-cyan-900/20 border border-cyan-700/30 px-3 py-2">
+                        <div className="text-[10px] text-cyan-400 uppercase tracking-wider">R2 Beam</div>
+                        <div className="text-xl font-bold text-cyan-300">{buildOutput.transientMoonlightDamage.r2.rawAR}</div>
+                        <div className="text-[10px] text-gray-400">≈ {buildOutput.transientMoonlightDamage.r2.withNegation} after negation</div>
+                      </div>
+                      <div className="rounded bg-cyan-900/20 border border-cyan-700/30 px-3 py-2">
+                        <div className="text-[10px] text-cyan-400 uppercase tracking-wider">Poise Damage (R2)</div>
+                        <div className="text-xl font-bold text-cyan-300">{buildOutput.transientMoonlightDamage.poiseDamage}</div>
+                        <div className="text-[10px] text-gray-400">Breaks most enemies</div>
+                      </div>
+                    </div>
+                    <div className="mt-2 text-[10px] text-gray-500">
+                      Transient Moonlight damage scales primarily with INT at +10. R2 costs 11 FP. Values are estimates.
+                    </div>
+                  </Section>
+                )}
 
                 {/* Attribute Efficiency */}
                 <Section title="Attribute Efficiency">

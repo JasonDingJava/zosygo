@@ -150,6 +150,15 @@ export interface BuildOutput {
   softCapWarnings: SoftCapInfo[];
   suggestions: Suggestion[];
   isViable: boolean;
+  defense: {
+    physicalNegation: number;
+    magicNegation: number;
+    fireNegation: number;
+    lightningNegation: number;
+    holyNegation: number;
+    poise: number;
+  };
+  transientMoonlightDamage: TransientMoonlightDamage | null;
 }
 
 // ─── HP Formula (game-accurate) ───
@@ -217,9 +226,18 @@ function detectBuildType(stats: BuildStats, weaponResults: WeaponARResult[]): st
 
   const [primary, secondary] = damageStats;
 
+  // Special case: Moonveil with high INT → Spellblade
+  const hasMoonveil = weaponResults.some(w => w.slug === "moonveil");
+  if (hasMoonveil && primary[0] === "intelligence" && primary[1] >= 60) {
+    return "Moonveil Spellblade Build";
+  }
+
+  // Pure caster only if all equipped weapons are staff/seal
+  const allCastWeapons = weaponResults.length > 0 && weaponResults.every(w => w.isStaffOrSeal);
+
   if (primary[1] >= 60) {
-    if (primary[0] === "intelligence") return "Pure Mage Build";
-    if (primary[0] === "faith") return "Faith Caster Build";
+    if (primary[0] === "intelligence") return allCastWeapons ? "Pure Mage Build" : "Intelligence Hybrid Build";
+    if (primary[0] === "faith") return allCastWeapons ? "Faith Caster Build" : "Faith Hybrid Build";
     if (primary[0] === "dexterity") return "Pure Dex Build";
     if (primary[0] === "strength") return "Pure Strength Build";
     if (primary[0] === "arcane") return "Arcane Build";
@@ -272,11 +290,14 @@ function getSoftCapWarnings(stats: BuildStats): SoftCapInfo[] {
     const [firstCap, secondCap] = capInfo.caps;
 
     if (value >= secondCap) {
+      const capLabel = stat === "intelligence" ? "Reached second sorcery scaling soft cap. Further investment has very low returns." :
+                  stat === "faith" ? "Reached second incantation scaling soft cap. Further investment has very low returns." :
+                  `${capInfo.label} ${value} — past second soft cap. Further points give very low returns.`;
       warnings.push({
         stat: capInfo.label,
         current: value,
         nextSoftCap: 99,
-        message: `${capInfo.label} ${value} — at the hard cap. Further points give very low returns.`,
+        message: capLabel,
         type: "warning",
       });
     } else if (value >= firstCap) {
@@ -294,7 +315,16 @@ function getSoftCapWarnings(stats: BuildStats): SoftCapInfo[] {
           stat: capInfo.label,
           current: value,
           nextSoftCap: firstCap,
-          message: `${capInfo.label} ${value} — ${diffToFirst} pts from first soft cap (${firstCap}). Good place to invest.`,
+          message: diffToFirst === 0 ? `${capInfo.label} at first soft cap (${firstCap}).` :
+                   `${capInfo.label} ${value} — ${diffToFirst} pts from first soft cap (${firstCap}). Good place to invest.`,
+          type: "info",
+        });
+      } else if (value <= 18) {
+        warnings.push({
+          stat: capInfo.label,
+          current: value,
+          nextSoftCap: firstCap,
+          message: `${capInfo.label} ${value} — meets weapon requirement only. Not investing in this stat.`,
           type: "info",
         });
       } else {
@@ -462,6 +492,44 @@ export function calculateDamage(
   return results;
 }
 
+// ─── Transient Moonlight Damage Estimate ───
+// Moonveil Ash of War damage formula (approximate, based on in-game data)
+// R1 beam:  ~112 base + INT/DEX scaling (D S / S)
+// R2 beam:  ~168 base + INT/DEX scaling (D S / S)
+// Both scale primarily with INT at +10 Moonveil.
+
+export interface TransientMoonlightDamage {
+  r1: { rawAR: number; withNegation: number };
+  r2: { rawAR: number; withNegation: number };
+  poiseDamage: number;
+}
+
+export function calculateTransientMoonlightDamage(
+  moonveilAR: { phys: number; magic: number },
+  defense: { magic: number }
+): TransientMoonlightDamage {
+  // Magic portion of Moonveil AR represents the main damage scaling
+  const magicAR = moonveilAR.magic;
+  // R1 beam damage is roughly 0.6× of magic AR
+  const r1Raw = Math.round(magicAR * 0.60);
+  // R2 beam damage is roughly 0.9× of magic AR
+  const r2Raw = Math.round(magicAR * 0.90);
+  // Poise damage from R2 is roughly 65-80
+  const poise = 72;
+  const magicNeg = defense.magic / 100;
+  return {
+    r1: {
+      rawAR: r1Raw,
+      withNegation: Math.round(r1Raw * (1 - magicNeg)),
+    },
+    r2: {
+      rawAR: r2Raw,
+      withNegation: Math.round(r2Raw * (1 - magicNeg)),
+    },
+    poiseDamage: poise,
+  };
+}
+
 export function calculateBuild(input: BuildInput): BuildOutput {
   const startingClass = STARTING_CLASSES[input.startingClass];
   if (!startingClass) {
@@ -554,6 +622,28 @@ export function calculateBuild(input: BuildInput): BuildOutput {
   const suggestions = generateSuggestions(input.stats, weaponResults, runeLevel);
   const isViable = input.stats.vigor >= 20 && weaponResults.some((w) => w.meetsRequirements);
 
+  // Defense from armor set (estimated from poise)
+  let poise = 0;
+  let physicalNegation = 0;
+  let magicNegation = 0;
+  let fireNegation = 0;
+  let lightningNegation = 0;
+  let holyNegation = 0;
+  if (armorSet) {
+    poise = armorSet.totalPoise;
+    // Rough Elden Ring defense estimate from poise/weight
+    const avgNeg = Math.min(30, Math.round(poise * 0.8));
+    physicalNegation = avgNeg;
+    magicNegation = Math.max(avgNeg - 2, 5);
+    fireNegation = Math.max(avgNeg - 1, 5);
+    lightningNegation = Math.max(avgNeg - 2, 5);
+    holyNegation = Math.max(avgNeg - 1, 5);
+  } else {
+    poise = 10; // default light armor
+    physicalNegation = 6; magicNegation = 4; fireNegation = 5;
+    lightningNegation = 4; holyNegation = 5;
+  }
+
   return {
     runeLevel,
     totalHP: Math.round(totalHP),
@@ -571,5 +661,14 @@ export function calculateBuild(input: BuildInput): BuildOutput {
     softCapWarnings,
     suggestions,
     isViable,
+    defense: {
+      physicalNegation,
+      magicNegation,
+      fireNegation,
+      lightningNegation,
+      holyNegation,
+      poise,
+    },
+    transientMoonlightDamage: null,
   };
 }
