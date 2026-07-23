@@ -1136,15 +1136,15 @@ const article35: Article = {
   difficulty: "beginner",
   readTimeMinutes: 7,
   order: 35,
-  title: "Nagakiba Explained: Why This Long Katana Dominates Range-Based Builds in Elden Ring (2026 Guide)",
+  title: "Nagakiba Elden Ring Guide (2026): Best Builds, Bleed Setup, Location & Why Its Range Is Broken",
   metaDescription:
-    "Complete breakdown of Nagakiba scaling, reach advantage, bleed synergy, best builds, and why it is one of the most consistent katanas in Elden Ring.",
+    "Complete Elden Ring Nagakiba guide covering location, best DEX and bleed builds, scaling, infusions, Ashes of War, and why its extreme range makes it one of the strongest katanas.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Nagakiba is one of the most misunderstood katanas in Elden Ring.\n\nAt first glance, it looks like a simple upgrade to the Uchigatana.\n\nSame weapon class.\n\nSimilar damage.\n\nSame bleed identity.\n\nBut in practice, Nagakiba changes one fundamental rule of katana combat:\n\n> Range becomes a defensive stat.\n\nMost players underestimate how much reach affects survival, spacing, and DPS consistency.\n\nThis is where Nagakiba becomes exceptional.",
+        "Nagakiba is one of the strongest katanas in Elden Ring because it combines the fastest weapon class with the longest melee reach.\n\nUnlike Uchigatana or Rivers of Blood, Nagakiba wins through spacing control. Its extended blade allows safer attacks, easier boss punish windows, and extremely consistent bleed application.\n\nThis guide covers Nagakiba location, best builds, scaling, infusions, Ashes of War, and why this katana remains one of the best Dexterity weapons in 2026.",
     },
     {
       heading: "Quick Answer",
@@ -1153,10 +1153,43 @@ const article35: Article = {
         "If you are wondering whether Nagakiba is worth using:\n\n* Yes, it is one of the best katanas in Elden Ring\n* Yes, it offers the longest melee reach in its class\n* Yes, it works extremely well with bleed builds\n* Yes, it scales into both PvE and PvP effectively\n\nIts strength comes from combining katana speed with spear-like range control.",
     },
     {
+      heading: "How To Get Nagakiba in Elden Ring",
+      level: 2,
+      content:
+        "Nagakiba is obtained through Bloody Finger Hunter Yura's questline in Limgrave. Here is the full step-by-step guide:\n\n### Step 1: Find Yura\n\nTalk to Bloody Finger Hunter Yura near the Seaside Ruins in Limgrave. He is standing on a cliff overlooking the coast.\n\n### Step 2: Help Yura Defeat Bloody Finger Nerijus\n\nYura will ask you to find and defeat Bloody Finger Nerijus, who is located in Murkwater Cave in Limgrave. After defeating Nerijus, Yura rewards you with the Nagakiba as a gift.\n\n### Step 3: Continue Yura's Questline\n\nAfter receiving Nagakiba, Yura continues his journey. You will meet him again in Raya Lucaria Academy, where he asks you to defeat the Bloody Finger in the academy.\n\n### Step 4: Yura's Fate\n\nLater in the questline, Yura is found dying at the Castle Sol. You can choose to finish him off or let him pass. Either way, the quest is complete.\n\n### Alternative Way To Get Nagakiba\n\nIf you miss Yura's questline, you can find Nagakiba lying on a corpse at Castle Sol in the Consecrated Snowfield.\n\n> **Tip:** Completing Yura's questline also grants access to Yura's Bloodblade Ash of War (via his follower Renila) and the Fire Monstrey Ashes of War.",
+    },
+    {
+      heading: "Nagakiba Weapon Stats",
+      level: 2,
+      content:
+        "The following table covers the core Nagakiba stats at +25 upgrade:\n",
+      table: {
+        headers: ["Stat", "Value"],
+        rows: [
+          ["Weapon Type", "Katana"],
+          ["Upgrade Level", "+25 (Standard)"],
+          ["Weight", "7.0"],
+          ["Required STR", "18"],
+          ["Required DEX", "22"],
+          ["Scaling", "DEX"],
+          ["Status Effect", "Bleed"],
+          ["Default Skill", "Unsheathe"],
+          ["Best Infusions", "Keen / Occult / Blood"],
+          ["Max Range", "Longest among standard katanas"],
+        ]
+      }
+    },
+    {
+      heading: "Nagakiba Damage Test",
+      level: 2,
+      content:
+        "Damage values below are approximate and tested at Rune Level 150 with a +25 upgraded Nagakiba. Actual values depend on player stats, talismans, and active buffs.\n\n### Keen Nagakiba +25 (Pure Dexterity Build)\n\n**Stats:** DEX 80, STR 18\n\n* Attack Rating (AR): ~650\n* Best for: Pure DEX builds with Keen infusion\n* Notes: High single-hit damage, consistent bleed buildup\n\n### Occult Nagakiba +25 (Bleed Build)\n\n**Stats:** DEX 50, ARC 45\n\n* Attack Rating (AR): ~630\n* Bleed buildup: High (Arcane scaling)\n* Best for: Fast bleed status triggers\n\n### Blood Nagakiba +25 (Bleed Focus)\n\n**Stats:** DEX 45, ARC 55\n\n* Attack Rating (AR): ~620\n* Bleed buildup: Maximum (Blood infusion +12)\n* Best for: Pure status-based builds\n\nSee the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) for exact AR values based on your specific stat distribution.",
+    },
+    {
       heading: "Weapon Overview",
       level: 2,
       content:
-        "| Category | Details |\n| ------------- | --------------------------------------- |\n| Type | Katana |\n| Scaling | DEX (can be infused) |\n| Status Effect | Bleed (optional via infusion) |\n| Strength | Extreme range + flexibility |\n| Weakness | Slightly slower feel vs shorter katanas |\n\nNagakiba is effectively a hybrid between a katana and a long polearm.\n\nThis creates a unique combat identity.",
+        "Nagakiba is effectively a hybrid between a katana and a long polearm.\n\nThis creates a unique combat identity — the speed of a katana with the reach of a spear.",
     },
     {
       heading: "Why Nagakiba Feels Different From Other Katanas",
@@ -1201,22 +1234,38 @@ const article35: Article = {
         "Nagakiba performs well in PvE because:\n\n### Safe Boss Punishes\n\nIts range allows damage without full melee commitment.\n\n### Consistent Hit Confirmation\n\nFewer whiffs compared to shorter katanas.\n\n### Bleed Synergy (If Applied)\n\nBleed triggers remain effective due to attack frequency.",
     },
     {
+      heading: "Best Nagakiba Builds",
+      level: 2,
+      content:
+        "### 1. Level 150 Bleed Nagakiba Build\n\n**Stat Allocation**\n\n| Stat | Value | Notes |\n| ---- | ----- | ----- |\n| Vigor | 60 | Survivability priority |\n| Mind | 20 | Minimal FP needed for pure melee |\n| Endurance | 25 | Medium roll with mixed armor |\n| Strength | 18 | Weapon requirement |\n| Dexterity | 50 | Bleed buildup sweet spot |\n| Arcane | 45 | Maximum bleed scaling |\n\n**Weapon**\n\n* Occult Nagakiba +25\n* Ash of War: Seppuku\n\n**Talismans**\n\n* Lord of Blood's Exultation (+10% bleed damage)\n* Shard of Alexander (skill damage)\n* Millicent's Prosthesis (extra attacks)\n* Dragoncrest Greatshield Talisman (physical defense)\n\n### 2. Pure Dexterity Nagakiba Build\n\n**Stat Allocation**\n\n| Stat | Value | Notes |\n| ---- | ----- | ----- |\n| Vigor | 60 | Survivability priority |\n| Mind | 25 | Spellcasting backup |\n| Endurance | 25 | Medium roll |\n| Strength | 18 | Weapon requirement |\n| Dexterity | 80 | Maximum DEX scaling |\n| Intelligence | 20 | Spell slot |\n\n**Weapon**\n\n* Keen Nagakiba +25\n* Ash of War: Unsheathe\n\n**Talismans**\n\n* Millicent's Prosthesis\n* Shard of Alexander\n* Graven-School Talisman\n* Lord of Blood's Exultation (if using bleed backup)\n\n> **Try these builds** directly in the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test stat allocations and equip load.",
+    },
+    {
       heading: "Best Stats For Nagakiba",
       level: 2,
       content:
-        "### Dexterity Build\n\n* Primary scaling: Dexterity\n* Focus: weapon consistency and speed\n\n### Bleed Build\n\n* Primary scaling: Arcane + Dexterity\n* Focus: status effect stacking\n\n### Quality Build\n\n* Balanced STR/DEX\n* Focus: versatility\n\nSet up your Nagakiba stat allocation with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right DEX/ARC split maximizes both range pressure and bleed frequency.",
+        "See the detailed Level 150 builds above for optimal stat allocation. For quick reference:\n\n### Dexterity Build\n\n* Primary scaling: Dexterity\n* Focus: weapon consistency and speed\n\n### Bleed Build\n\n* Primary scaling: Arcane + Dexterity\n* Focus: status effect stacking\n\n### Quality Build\n\n* Balanced STR/DEX\n* Focus: versatility\n\nSet up your Nagakiba stat allocation with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right DEX/ARC split maximizes both range pressure and bleed frequency.",
     },
     {
-      heading: "Best Ashes Of War For Nagakiba",
+      heading: "Best Ashes of War For Nagakiba",
       level: 2,
       content:
-        "Nagakiba works especially well with:\n\n### 1. Bloodhound Step (mobility control)\n\nImproves spacing and survival.\n\n### 2. Seppuku (bleed amplification)\n\nMaximizes status output.\n\n### 3. Unsheathe (burst damage)\n\nEnhances punish windows.",
+        "The table below ranks the best Ashes of War for Nagakiba based on use case:\n",
+      table: {
+        headers: ["Ash of War", "Best For", "Why"],
+        rows: [
+          ["Unsheathe", "Pure DEX damage", "Highest raw single-hit damage"],
+          ["Seppuku", "Bleed builds", "Maximum bleed buildup per use"],
+          ["Double Slash", "Bleed pressure", "Two-hit bleed application"],
+          ["Bloodhound Step", "PvP spacing", "Mobility + spacing control"],
+          ["Sword Dance", "Multi-hit pressure", "Rapid 3-hit burst sequence"],
+        ]
+      }
     },
     {
       heading: "Best Bosses For Nagakiba",
       level: 2,
       content:
-        "Nagakiba excels against:\n\n### Early Game Bosses\n\n* Margit\n* Godrick\n* Rennala\n\n### Mid Game Bosses\n\n* Radahn\n* Morgott\n* Fire Giant\n\n### Late Game Bosses\n\n* Maliketh\n* Godfrey\n* Elden Beast",
+        "Nagakiba excels against bosses with predictable attack patterns and large hitboxes. Here is a ranking by effectiveness:\n\n### Best (★★★★★)\n\n* **Radahn** — long attack windows, range lets you punish from safety\n* **Fire Giant** — largest boss hitbox, perfect for Nagakiba range\n* **Margit** — slow telegraphs, easy punish windows\n* **Rennala** — phase 2 is ideal for Nagakiba's spacing\n\n### Good (★★★★)\n\n* **Morgott** — manageable attack patterns\n* **Godfrey (Phase 1)** — large stationary boss\n* **Maliketh** — effective in slower phases\n\n### Situational (★★)\n\n* **Elden Beast** — constant movement reduces Nagakiba range advantage\n* **Malenia** — fast attacks require perfect positioning",
     },
     {
       heading: "Why It Works So Well Against Bosses",
@@ -1234,7 +1283,19 @@ const article35: Article = {
       heading: "Nagakiba vs Uchigatana",
       level: 2,
       content:
-        "### Uchigatana\n\n* Faster feel\n* Shorter range\n* Slightly more aggressive\n\n### Nagakiba\n\n* Longer reach\n* Safer spacing\n* Better consistency in PvE\n\nNagakiba wins in control, Uchigatana wins in speed.",
+        "These two katanas serve different playstyles. Here is a side-by-side comparison:\n",
+      table: {
+        headers: ["Aspect", "Nagakiba", "Uchigatana"],
+        rows: [
+          ["Range", "★★★★★ (longest)", "★★★"],
+          ["Damage", "★★★★", "★★★★★"],
+          ["Bleed buildup", "★★★★", "★★★★"],
+          ["Ease of use", "★★★★★ (range helps)", "★★★★"],
+          ["PvE consistency", "★★★★★", "★★★★"],
+          ["PvP utility", "★★★★★", "★★★★"],
+          ["Attack speed", "★★★★", "★★★★★"],
+        ]
+      }
     },
     {
       heading: "Nagakiba vs Rivers of Blood",
@@ -1258,7 +1319,7 @@ const article35: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Nagakiba better than Uchigatana?\n\nIn most PvE situations, yes, due to longer range.\n\n### Is Nagakiba good for bleed builds?\n\nYes, especially with Arcane infusion or Seppuku.\n\n### Can Nagakiba carry the entire game?\n\nYes. It remains viable from early to late game.\n\n### Is Nagakiba good in PvP?\n\nYes. Its range advantage is extremely valuable in duels.\n\n### Why is Nagakiba so popular?\n\nBecause it combines katana speed with extended reach consistency.\n\nCompare Nagakiba's damage output with different infusions using the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Is Nagakiba the longest katana in Elden Ring?\n\nYes. Nagakiba has the longest reach among standard katanas.\n\n### Is Nagakiba better than Uchigatana?\n\nFor most players, yes, because its range creates safer attacks and easier punish windows.\n\n### Is Nagakiba good for bleed builds?\n\nYes. Occult or Blood infusion allows it to scale extremely well with Arcane.\n\n### What is the best Nagakiba Ash of War?\n\nSeppuku for bleed builds. Unsheathe for pure Dexterity damage.\n\n### Where do you get Nagakiba in Elden Ring?\n\nComplete Bloody Finger Hunter Yura's questline in Limgrave, or find it at Castle Sol in the Consecrated Snowfield if you miss the quest.\n\n### Is Nagakiba good in PvP?\n\nYes. Its range advantage is extremely valuable in duels — it lets you punish from outside your opponent's comfortable range.\n\n### Is Nagakiba good for beginners?\n\nYes. Its long reach makes hit confirmation and spacing easier than other katanas.\n\n### What is the best Nagakiba infusion?\n\nKeen for pure DEX builds, Occult for bleed builds, Blood for pure status focus.\n\n### Is Nagakiba worth using in late game?\n\nYes. It remains one of the best Dexterity weapons through the entire game, including DLC content.\n\nCompare Nagakiba's damage output with different infusions using the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
     },
   ],
   internalLinks: [
