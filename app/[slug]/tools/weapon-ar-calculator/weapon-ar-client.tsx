@@ -16,6 +16,7 @@ import {
   getUpgradeScalingLetter,
   isStaffOrSeal,
   isBow,
+  type WeaponEntry,
 } from "@/lib/build-calculator/weapons";
 
 type StatInputs = {
@@ -70,8 +71,8 @@ function StatSlider({ def, value, onChange }: { def: typeof STAT_DEFS[number]; v
   );
 }
 
-function ScalingLabel({ weapon, effectiveUpgrade, attr }: {
-  weapon: WeaponEntry; effectiveUpgrade: number; attr: string;
+function ScalingLabel({ weapon, attr }: {
+  weapon: WeaponEntry; attr: string;
 }) {
   const letter = getUpgradeScalingLetter(weapon, 0, attr);
   if (letter === "-") return null;
