@@ -866,15 +866,51 @@ const article50: Article = {
   difficulty: "intermediate",
   readTimeMinutes: 10,
   order: 51,
-  title: "Status Effects Explained: Complete Guide to All Status Ailments in Elden Ring (2026)",
+  title: "Elden Ring Status Effects Guide: Bleed, Frost, Rot & All Ailments Explained",
   metaDescription:
-    "Full Elden Ring status effects guide covering Bleed, Frost, Poison, Scarlet Rot, Sleep, Madness, Death Blight, and how buildup, scaling, and resistance work.",
+    "Complete guide to Elden Ring status effects (2026): Bleed, Frostbite, Scarlet Rot, Poison, Sleep, Madness, Death Blight — tier list, buildup values, best weapons, and how to use them effectively.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
         "Status effects are one of the most misunderstood systems in Elden Ring.\n\nMany players think of them as extra damage mechanics or situational tools.\n\nIn reality, status effects are a parallel combat system that can completely redefine how builds function, how bosses are defeated, and how damage is optimized across the entire game.\n\nA properly understood status build can outperform raw weapon damage by a significant margin.\n\nThis guide breaks down every major status effect in Elden Ring, how buildup works, how resistance is calculated, and how to use them effectively in both PvE and DLC content.",
+    },
+    {
+      heading: "Status Effects Tier List",
+      level: 2,
+      content:
+        "The following tier list ranks Elden Ring status effects by overall utility, damage potential, and consistency across PvE and PvP:\n",
+      table: {
+        headers: ["Tier", "Status Effect", "Why"],
+        rows: [
+          ["S", "Bleed (Hemorrhage)", "Highest damage per trigger, works on nearly every boss"],
+          ["S", "Frostbite", "Burst + damage debuff, synergizes with Bleed"],
+          ["A", "Scarlet Rot", "Extreme DoT, excellent for large bosses"],
+          ["A", "Sleep", "Trivializes many bosses, enables critical hits"],
+          ["B", "Poison", "Long duration, reliable DoT for exploration"],
+          ["C", "Madness", "PvP only, most PvE enemies resist"],
+          ["C", "Death Blight", "Extremely niche, most enemies fully resist"],
+        ]
+      }
+    },
+    {
+      heading: "Status Effect Comparison Table",
+      level: 2,
+      content:
+        "Quick reference for choosing the right status effect for your build and playstyle:\n",
+      table: {
+        headers: ["Status", "Damage Type", "Best Against", "Primary Scaling"],
+        rows: [
+          ["Bleed", "% max HP burst", "Bosses with large HP pools", "Arcane (on compatible weapons)"],
+          ["Frostbite", "Burst + 20% damage debuff", "Bosses with slow attacks", "Intelligence"],
+          ["Scarlet Rot", "DoT (~12% max HP over time)", "Large enemies, long fights", "Faith (with appropriate spells)"],
+          ["Poison", "DoT (low but long)", "Exploration, small enemies", "Arcane (on compatible weapons)"],
+          ["Sleep", "Control + critical hit window", "Godskin enemies", "None (uses Sleep items/spells)"],
+          ["Madness", "Burst + FP drain", "PvP opponents", "Faith (with Dragoncommunion incantations)"],
+          ["Death Blight", "Instant kill (when triggered)", "PvP, very few PvE targets", "None"],
+        ]
+      }
     },
     {
       heading: "What Are Status Effects in Elden Ring?",

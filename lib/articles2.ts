@@ -1156,7 +1156,7 @@ const article35: Article = {
       heading: "How To Get Nagakiba in Elden Ring",
       level: 2,
       content:
-        "Nagakiba is obtained through Bloody Finger Hunter Yura's questline in Limgrave. Here is the full step-by-step guide:\n\n### Step 1: Find Yura\n\nTalk to Bloody Finger Hunter Yura near the Seaside Ruins in Limgrave. He is standing on a cliff overlooking the coast.\n\n### Step 2: Help Yura Defeat Bloody Finger Nerijus\n\nYura will ask you to find and defeat Bloody Finger Nerijus, who is located in Murkwater Cave in Limgrave. After defeating Nerijus, Yura rewards you with the Nagakiba as a gift.\n\n### Step 3: Continue Yura's Questline\n\nAfter receiving Nagakiba, Yura continues his journey. You will meet him again in Raya Lucaria Academy, where he asks you to defeat the Bloody Finger in the academy.\n\n### Step 4: Yura's Fate\n\nLater in the questline, Yura is found dying at the Castle Sol. You can choose to finish him off or let him pass. Either way, the quest is complete.\n\n### Alternative Way To Get Nagakiba\n\nIf you miss Yura's questline, you can find Nagakiba lying on a corpse at Castle Sol in the Consecrated Snowfield.\n\n> **Tip:** Completing Yura's questline also grants access to Yura's Bloodblade Ash of War (via his follower Renila) and the Fire Monstrey Ashes of War.",
+        "Nagakiba is obtained through Bloody Finger Hunter Yura's questline. Here is the correct step-by-step guide:\n\n### Yura Questline Location Steps\n\n**Step 1: Meet Yura near Seaside Ruins**\n\nIn Limgrave, near the Seaside Ruins cliff, Bloody Finger Hunter Yura asks for help fighting invasive Bloody Fingers.\n\n**Step 2: Help Yura defeat Bloody Finger Nerijus**\n\nNerijus is located in Murkwater Cave in Limgrave. Yura assists you in the fight. After Nerijus is defeated, Yura rewards you with a Bloodflame Blade Ash of War but does NOT yet give Nagakiba.\n\n**Step 3: Meet Yura at Raya Lucaria Academy**\n\nTravel to Raya Lucaria Academy and meet Yura outside the academy entrance. He asks for help fighting a Bloody Finger in the academy. Defeat the Bloody Finger in the academy and return to Yura.\n\n**Step 4: Meet Yura at Second Church of Marika (Altus Plateau)**\n\nTravel to Altus Plateau and find Yura at the Second Church of Marika. He is infected by the Scarlatine Rot and has only moments left.\n\n**Step 5: Receive Nagakiba**\n\nTalk to Yura one final time. He gives you Nagakiba as a reward and dies.\n\n### Alternative Way To Get Nagakiba\n\nIf you miss Yura's questline, Nagakiba can be found lying on a corpse at Castle Sol in the Consecrated Snowfield (north of Mountaintops of the Giants).\n\n> **Tip:** Completing Yura's questline also unlocks access to Renila the Witch's services (for removing cursed items) and Yura's Bloodflame Blade Ash of War.",
     },
     {
       heading: "Nagakiba Weapon Stats",
@@ -1280,28 +1280,19 @@ const article35: Article = {
         "Despite its strength, it has limitations:\n\n### Slightly Slower Feel\n\nLonger weapon animation can feel less responsive.\n\n### Lower Burst Compared To Special Weapons\n\nIt does not have a skill nuke like Moonveil or Rivers of Blood.\n\n### Requires Spacing Discipline\n\nPoor positioning reduces its advantage significantly.",
     },
     {
-      heading: "Nagakiba vs Uchigatana",
+      heading: "Nagakiba vs Other Katanas",
       level: 2,
       content:
-        "These two katanas serve different playstyles. Here is a side-by-side comparison:\n",
+        "Nagakiba stands out from other katanas primarily due to its reach. Here is how it compares to the most popular katanas in Elden Ring:\n",
       table: {
-        headers: ["Aspect", "Nagakiba", "Uchigatana"],
+        headers: ["Weapon", "Range", "Bleed", "Damage", "Best For"],
         rows: [
-          ["Range", "★★★★★ (longest)", "★★★"],
-          ["Damage", "★★★★", "★★★★★"],
-          ["Bleed buildup", "★★★★", "★★★★"],
-          ["Ease of use", "★★★★★ (range helps)", "★★★★"],
-          ["PvE consistency", "★★★★★", "★★★★"],
-          ["PvP utility", "★★★★★", "★★★★"],
-          ["Attack speed", "★★★★", "★★★★★"],
+          ["Nagakiba", "★★★★★", "★★★★", "★★★★", "Spacing control, PvE consistency"],
+          ["Uchigatana", "★★★", "★★★★★", "★★★★★", "Raw damage, beginner friendly"],
+          ["Rivers of Blood", "★★★", "★★★★★", "★★★★", "Burst bleed, skill spam"],
+          ["Moonveil", "★★★", "❌", "★★★★★", "INT hybrid builds, instant skill"],
         ]
       }
-    },
-    {
-      heading: "Nagakiba vs Rivers of Blood",
-      level: 2,
-      content:
-        "### Rivers of Blood\n\n* Burst bleed stacking\n* Skill-based damage spikes\n\n### Nagakiba\n\n* Stable damage output\n* Better weapon flexibility\n\nNagakiba is more consistent, Rivers is more explosive.",
     },
     {
       heading: "Why Nagakiba Is Underrated",
