@@ -290,8 +290,8 @@ function getSoftCapWarnings(stats: BuildStats): SoftCapInfo[] {
     const [firstCap, secondCap] = capInfo.caps;
 
     if (value >= secondCap) {
-      const capLabel = stat === "intelligence" ? "Reached second sorcery scaling soft cap. Further investment has very low returns." :
-                  stat === "faith" ? "Reached second incantation scaling soft cap. Further investment has very low returns." :
+      const capLabel = stat === "intelligence" ? "Reached the main sorcery scaling cap. Further points provide reduced returns." :
+                  stat === "faith" ? "Reached the main incantation scaling cap. Further points provide reduced returns." :
                   stat === "vigor" ? "Reached second HP soft cap. Further investment gives very low HP gains." :
                   stat === "endurance" ? "Reached second stamina/load soft cap. Further investment gives very low returns." :
                   `${capInfo.label} ${value} — reached second soft cap. Further points give very low returns.`;

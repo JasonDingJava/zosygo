@@ -391,22 +391,27 @@ function DamageCalculatorPanel({ weapons, stats, armorPieces, talismanIds }: {
   const negation = { phys: 0, magic: 0, fire: 0, lightning: 0, holy: 0 };
 
   const allResults = weapons.map(w => {
-    if (!w.detailedAR) return { weapon: w.name, damages: [] };
+    if (!w.detailedAR) return { weapon: w.name, damages: [], isStaffOrSeal: w.isStaffOrSeal };
     return {
       weapon: w.name,
       damages: calculateDamage(w.detailedAR, negation, baseDefense),
+      isStaffOrSeal: w.isStaffOrSeal,
     };
   });
 
   return (
     <Section title="AR Simulator">
       <div className="text-xs text-gray-400 mb-3">
-        Estimated damage vs 100 Defense / 0% Negation. Not actual PvE damage.
+        Simplified AR comparison for weapon ranking. Staves/seals excluded (use Sorcery Scaling instead).
       </div>
       {allResults.map(function(result, wi) { return (
         <div key={wi} className="mb-3 last:mb-0">
           <div className="text-sm font-semibold text-gray-200 mb-1.5">{result.weapon}</div>
-          {result.damages.length === 0 ? (
+          {result.isStaffOrSeal ? (
+            <div className="text-xs text-purple-300 rounded bg-purple-900/20 px-3 py-1.5">
+              Glintstone Staff / Sacred Seal — damage is determined by Sorcery Scaling, not AR.
+            </div>
+          ) : result.damages.length === 0 ? (
             <div className="text-xs text-gray-500">No damage data</div>
           ) : (
             <div className="space-y-1">
@@ -1333,7 +1338,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     </div>
                   </div>
                   <div className="mt-2 text-[10px] text-gray-500">
-                    Defense values are estimated from equipped armor set. Poise ≥ 51 allows you to withstand light enemy attacks without staggering.
+                    Defense values are estimated from equipped armor set. 51+ Poise helps resist many light PvE attacks without staggering.
                   </div>
                 </Section>
 
@@ -1403,8 +1408,20 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     ].map(function(a) {
                       var val = stats[a.key as keyof BuildStats];
                       var pct = Math.min(val / a.soft2, 1) * 100;
-                      var efficiency = val >= a.soft2 ? "Optimal — diminishing returns" : val >= a.soft1 ? "High — past first cap" : "Below cap — efficient";
-                      var effColor = val >= a.soft2 ? "text-red-400" : val >= a.soft1 ? "text-amber-400" : "text-green-400";
+                      var efficiency, effColor;
+                      if (val >= a.soft2) {
+                        efficiency = "At cap — diminishing returns";
+                        effColor = "text-red-400";
+                      } else if (val >= a.soft1) {
+                        efficiency = "Past first soft cap";
+                        effColor = "text-amber-400";
+                      } else if (val <= 18) {
+                        efficiency = "Weapon requirement only";
+                        effColor = "text-gray-400";
+                      } else {
+                        efficiency = "Below first cap — room to invest";
+                        effColor = "text-green-400";
+                      }
                       return (
                         <div key={a.key} className="flex items-center gap-3 rounded-md bg-gray-800/30 px-3 py-2">
                           <span className={"w-8 text-xs font-bold " + a.color}>{a.label}</span>
