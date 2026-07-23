@@ -967,11 +967,11 @@ const article33: Article = {
 const article34: Article = {
   keyTakeaways: [
     { label: "🎯 Why It's Strong", value: "Ranged magic beam + Frostbite on every charged attack" },
-    { label: "⚔️ Weapon Skill (Moonlight Greatsword)", value: "Charged heavy fires beams for 800-1,200 damage at 60 INT" },
-    { label: "📊 Best Build", value: "INT 60-80, STR 30-40, Vigor 60 — Ranni's quest reward" },
-    { label: "🛡️ Frostbite System", value: "Each charged attack builds frost + debuffs enemy defense by 20%" },
-    { label: "💡 Best For", value: "INT greatsword builds, late-game PvE, bosses weak to frost" },
-    { label: "⚠️ Weakness", value: "Slow startup — timing-reliant, less effective against fast bosses" },
+    { label: "⚔️ Weapon Skill (Moonlight Greatsword)", value: "Charged heavy attacks fire moonlight beams for 800-1,200 damage at 60 INT" },
+    { label: "📊 Best Build", value: "LV150: VIG 60 / MND 25 / END 25 / STR 40 / DEX 12 / INT 80 / FTH 7 / ARC 9" },
+    { label: "🛡️ Frostbite System", value: "Each charged attack builds frost; Frostbite temporarily increases damage taken by 20%" },
+    { label: "💡 Best For", value: "INT greatsword builds, late-game PvE, large bosses with openings" },
+    { label: "⚠️ Weakness", value: "Slow startup — timing-reliant, less effective against fast or frost-resistant bosses" },
   ],
   slug: "dark-moon-greatsword-explained",
   category: "weapons",
@@ -979,9 +979,9 @@ const article34: Article = {
   difficulty: "intermediate",
   readTimeMinutes: 8,
   order: 34,
-  title: "Dark Moon Greatsword Explained: Why This Legendary Intelligence Weapon Scales Into Endgame Power in Elden Ring (2026 Guide)",
+  title: "Dark Moon Greatsword Elden Ring Guide (2026): Best Build, Location, Damage & Frost Mechanics",
   metaDescription:
-    "Complete breakdown of Dark Moon Greatsword mechanics, charged beam system, Frost buildup, Intelligence scaling, and why it remains one of the strongest late-game weapons in Elden Ring.",
+    "Dark Moon Greatsword complete guide: Level 150 build, beam damage scaling by INT, how to get from Ranni's quest, boss rankings, Frostbite mechanics, and how it compares to Moonveil.",
   sections: [
     {
       heading: "",
@@ -1017,7 +1017,13 @@ const article34: Article = {
       heading: "Frostbite Scaling System",
       level: 3,
       content:
-        "Dark Moon Greatsword builds Frostbite extremely efficiently.\n\nFrostbite provides:\n\n* Burst percentage damage\n* Temporary damage vulnerability on enemies\n* Strong synergy with Intelligence scaling\n\nThis allows the weapon to scale into late game without falling off.",
+        "Dark Moon Greatsword builds Frostbite extremely efficiently.\n\nFrostbite provides:\n\n* Burst percentage damage\n* Temporarily increases damage taken by the enemy by 20%\n* Strong synergy with Intelligence scaling\n\nThis allows the weapon to scale into late game without falling off.",
+    },
+    {
+      heading: "Beam Damage Scaling",
+      level: 3,
+      content:
+        "Dark Moon Greatsword's charged R2 beam damage scales heavily with Intelligence. The following table shows approximate single-beam damage values at +10 upgrade (before buffs or talismans):\n\n| Intelligence | Charged R2 Beam Damage |\n| ------------- | ---------------------- |\n| 50 | 820-1,050 |\n| 60 | 950-1,200 |\n| 70 | 1,100-1,380 |\n| 80 | 1,250-1,560 |\n\nWith Terra Magica (+35% magic damage) and Magic Scorpion Charm (+12%), effective beam damage at INT 80 can exceed 1,700 per hit.\n\nSee the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to test your own build's AR output.",
     },
     {
       heading: "Intelligence-Driven Hybrid Identity",
@@ -1041,25 +1047,25 @@ const article34: Article = {
       heading: "Why Dark Moon Greatsword Dominates Late Game",
       level: 2,
       content:
-        "Late-game Elden Ring enemies have:\n\n* High HP pools\n* Strong resistances\n* Punishing melee damage\n\nDark Moon Greatsword counters these through:\n\n### Percentage-Based Frost Damage\n\nFrostbite remains effective regardless of enemy HP scaling.\n\n### Ranged Charged Attacks\n\nPlayers can deal damage without entering melee risk zones.\n\n### High Burst Windows\n\nCharged beam attacks create safe, high-damage opportunities.",
+        "Late-game Elden Ring enemies have:\n\n* High HP pools\n* Strong resistances\n* Punishing melee damage\n\nDark Moon Greatsword counters these through:\n\n### Percentage-Based Frost Damage\n\nFrostbite deals a burst of max-HP percentage damage and temporarily increases all damage the enemy takes by 20%. This debuff stacks well with beam DPS regardless of enemy HP scaling.\n\n### Ranged Charged Attacks\n\nPlayers can deal damage without entering melee risk zones.\n\n### High Burst Windows\n\nCharged beam attacks create safe, high-damage opportunities.",
     },
     {
-      heading: "Best Stats For Dark Moon Greatsword",
+      heading: "Level 150 Dark Moon Greatsword Build",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Intelligence (highest priority)\n* Strength (secondary requirement)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for endgame consistency\n\n### Build Type\n\n* Intelligence spellblade builds\n* Frost hybrid caster builds\n\nOptimize your Dark Moon Greatsword build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right INT/VIG split and STR investment make a huge difference in its beam damage output.",
+        "### Rune Level 150 Stat Allocation\n\n| Stat | Value | Notes |\n| ---- | ----- | ----- |\n| Vigor | 60 | Survivability priority |\n| Mind | 25 | Enough for boss burst spell rotation |\n| Endurance | 25 | Medium roll with Spellblade set |\n| Strength | 40 | Meets weapon requirement + good melee scaling |\n| Dexterity | 12 | Bare minimum requirement |\n| Intelligence | 80 | Max INT beam damage scaling |\n| Faith | 7 | Soft cap for minor incantations |\n| Arcane | 9 | Soft cap for status buildup |\n\n### Weapons\n\n* Dark Moon Greatsword +10 (primary melee + frost)\n* Carian Regal Scepter +10 (backup spellcasting)\n\n### Talismans\n\n* Shard of Alexander (skill damage boost)\n* Godfrey Icon (skill damage boost)\n* Magic Scorpion Charm (+12% magic damage, ⚠️ lowers physical defense)\n* Graven-Mass Talisman (+15% sorcery damage)\n\n### Armor\n\n* Spellblade Set (Carian Knight variant) + Snow Witch Hat for +12% magic scaling\n\n### Build Playstyle\n\nThis build is optimized for late-game PvE and DLC content. The high INT investment maximizes beam damage while VIG 60 keeps you alive during long boss fights. END 25 enables medium rolling with the Spellblade armor set for defensive flexibility.\n\n> **Try this Level 150 Dark Moon Greatsword Build** directly in the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see damage output, equip load, and soft cap analysis.",
     },
     {
       heading: "Best Bosses For Dark Moon Greatsword",
       level: 2,
       content:
-        "This weapon excels against:\n\n### Mid Game Bosses\n\n* Morgott\n* Fire Giant\n* Godfrey (Phase 1)\n\n### Late Game Bosses\n\n* Maliketh\n* Radagon\n* Elden Beast",
+        "Dark Moon Greatsword excels against large bosses with open attack windows and long recovery animations.\n\n### Best (★★★★★)\n\n* **Fire Giant** — large hitbox, slow attacks, perfect frost target\n* **Dragonlord Placidusax** — long beam windows between phases\n* **Mohg, Lord of Blood** — Frostbite debuff amplifies beam DPS\n* **Godfrey (Phase 1)** — stationary enough for charged beams\n\n### Good (★★★★)\n\n* **Maliketh** — strong against his slower attacks\n* **Radagon** — effective but requires careful positioning\n\n### Weak (★★)\n\n* **Elden Beast** — moves too quickly, beams often miss, has frost resistance\n\nBosses with long recovery animations are especially vulnerable to its beam attacks.",
     },
     {
       heading: "Why It Works So Well Against Bosses",
       level: 2,
       content:
-        "Dark Moon Greatsword performs well because it combines:\n\n* Safe ranged pressure\n* Frostbite burst damage\n* Charged punish windows\n\nBosses with long recovery animations are especially vulnerable to its beam attacks.",
+        "Dark Moon Greatsword performs well because it combines:\n\n* Safe ranged pressure\n* Frostbite burst damage (10% max HP burst + 20% damage vulnerability)\n* Charged punish windows\n\nBest used on large, slow bosses with predictable attack patterns.",
     },
     {
       heading: "Weaknesses Of Dark Moon Greatsword",
@@ -1077,7 +1083,7 @@ const article34: Article = {
       heading: "Moonveil vs Dark Moon Greatsword",
       level: 2,
       content:
-        "These two weapons define different Intelligence playstyles.\n\n### Moonveil\n\n* Fast burst damage\n* Instant skill activation\n* Mid-game dominance\n\n### Dark Moon Greatsword\n\n* Charged beam pressure\n* Frost scaling\n* Late-game dominance\n\nOne is reaction-based.\n\nThe other is setup-based.",
+        "These two weapons define different Intelligence playstyles.\n\n| Aspect | Dark Moon Greatsword | Moonveil |\n| ------ | -------------------- | -------- |\n| Damage | ★★★★★ | ★★★★ |\n| Speed | ★★★ | ★★★★★ |\n| Range | ★★★★★ | ★★★ |\n| Boss DPS | ★★★★★ | ★★★★ |\n| Ease of Use | ★★★ | ★★★★★ |\n| PvE Viability | ★★★★★ | ★★★★★ |\n| Frostbite | Built-in | None |\n| Skill Type | Charged beam | Instant R2\n\n### Moonveil\n\n* Fast burst damage\n* Instant skill activation\n* Mid-game dominance\n\n### Dark Moon Greatsword\n\n* Charged beam pressure\n* Frost scaling\n* Late-game dominance\n\nOne is reaction-based.\n\nThe other is setup-based.",
     },
     {
       heading: "Why Dark Moon Greatsword Feels Different From Other Weapons",
@@ -1092,10 +1098,16 @@ const article34: Article = {
         "This weapon teaches advanced Elden Ring combat principles:\n\n* Charge timing matters more than speed\n* Positioning determines DPS efficiency\n* Status effects scale better than raw damage in late game\n\nPlayers who master it often transition into high-level Intelligence builds.",
     },
     {
+      heading: "How To Get Dark Moon Greatsword",
+      level: 2,
+      content:
+        "Dark Moon Greatsword is obtained by completing Ranni the Witch's questline. Here is the step-by-step guide:\n\n### Step 1: Start Ranni's Quest\n\nTalk to Ranni the Witch at the Three Sisters temple in Liurnia of the Lakes (north of Lake Lachrymo). Choose to serve her when prompted.\n\n### Step 2: Defeat Starscourge Radahn\n\nTravel to Redmane Castle in Caelid and defeat Starscourge Radahn. After his defeat, you can access the path to Nokron.\n\n### Step 3: Enter Nokron, Eternal City\n\nReturn to the radial gravity site where Radahn fell and jump through the portal to reach Nokron. Explore the city until you find a hidden area accessible by defeating a Golem enemy.\n\n### Step 4: Meet Ranni in the Secret Cellar\n\nDefeat the Golem and open the secret cellar door. Ranni will be waiting inside. Talk to her and choose to help her.\n\n### Step 5: Place the Dark Moon Ring\n\nTravel to the Grand Altar of Eochaid in the Consecrated Snowfield. Place the Dark Moon Ring on the altar's pedestal.\n\n### Step 6: Return to the Moonlight Altar\n\nReturn to Ranni at the Moonlight Altar in the Three Sisters temple. Talk to her to trigger the final sequence.\n\n### Step 7: Receive Dark Moon Greatsword\n\nAfter the cutscene, you will receive the Dark Moon Greatsword as a reward.\n\nThis questline also unlocks the Age of Stars ending. If you want to try multiple endings, consider saving before the final choice.",
+    },
+    {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Dark Moon Greatsword good in late game?\n\nYes. It scales extremely well into endgame content.\n\n### Do I need Intelligence for this weapon?\n\nYes. Intelligence is its primary scaling stat.\n\n### Is it better than Moonveil?\n\nThey serve different roles. Moonveil is fast burst, Dark Moon Greatsword is charged ranged scaling.\n\n### How do I get Dark Moon Greatsword?\n\nIt is obtained after completing Ranni's questline.\n\n### Why is it so popular?\n\nBecause it combines Frostbite, ranged pressure, and Intelligence scaling into one weapon system.\n\nSee how Dark Moon Greatsword's frostbite damage stacks up against other Intelligence greatswords with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "### Is Dark Moon Greatsword good in late game?\n\nYes. It scales extremely well into endgame content, especially at INT 80 with +10 upgrade.\n\n### Do I need Intelligence for this weapon?\n\nYes. Intelligence is its primary scaling stat. STR is secondary for melee attacks.\n\n### Is it better than Moonveil?\n\nThey serve different roles. Moonveil is fast burst with instant skill activation. Dark Moon Greatsword is charged ranged scaling with built-in Frostbite. See the comparison table above.\n\n### How do I get Dark Moon Greatsword?\n\nComplete Ranni the Witch's full questline (see the 'How To Get' section above for the full walkthrough).\n\n### Why is it so popular?\n\nBecause it combines Frostbite status effects, ranged beam pressure, and strong Intelligence scaling into one weapon system — unique among melee weapons.\n\n### Does Dark Moon Greatsword work with Frostbite debuff?\n\nYes. Frostbite deals a burst of max-HP percentage damage and increases all damage the enemy takes by 20% temporarily.\n\nSee how Dark Moon Greatsword's frostbite damage stacks up against other Intelligence greatswords with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
     },
   ],
   internalLinks: [
