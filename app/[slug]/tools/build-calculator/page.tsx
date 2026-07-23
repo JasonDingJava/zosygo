@@ -72,7 +72,7 @@ const POPULAR_BUILDS: PopularBuild[] = [
     name: "Moonveil Intelligence Build",
     description: "Moonveil katana + spells hybrid. Transient Moonlight + Terra Magica for burst DPS.",
     class: "prisoner",
-    stats: {vigor:60,mind:30,endurance:20,strength:12,dexterity:18,intelligence:80,faith:9,arcane:8},
+    stats: {vigor:60,mind:30,endurance:25,strength:12,dexterity:18,intelligence:80,faith:9,arcane:8},
     weapons: ["moonveil", "carian-regal-scepter", "lorettas-greatbow"],
     armor: {helm:"moonlight-set_helm",chest:"moonlight-set_chest",arms:"moonlight-set_arms",legs:"moonlight-set_legs"},
     talismans: ["shard-of-alexander", "magic-scorpion-charm", "graven-mass", "radagon-icon"],
@@ -994,7 +994,11 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
             </Section>
 
             {/* Upgrade Level */}
-            <Section title={`Upgrade Level (+${upgradeLevel})`}>
+            <Section title="Weapon Upgrade Level">
+              <div className="flex items-center gap-3 mb-1">
+                <span className="text-xs text-gray-500">Current:</span>
+                <span className="text-sm font-bold text-yellow-400">+{upgradeLevel}</span>
+              </div>
               <input type="range" min={0} max={25} value={upgradeLevel}
                 onChange={e => setUpgradeLevel(parseInt(e.target.value))}
                 className="w-full h-1.5 appearance-none rounded bg-gray-700 accent-yellow-500 cursor-pointer"
@@ -1338,7 +1342,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     </div>
                   </div>
                   <div className="mt-2 text-[10px] text-gray-500">
-                    Defense values are estimated from equipped armor set. 51+ Poise helps resist many light PvE attacks without staggering.
+                    Defense values are estimated from equipped armor set. Higher poise helps resist light PvE attacks without staggering.
                   </div>
                 </Section>
 
@@ -1481,7 +1485,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                       }
                       // Moonveil-specific weapon art tip
                       if (isMoonveil) {
-                        tips.push({ icon: "⚔️", title: "Weapon Art Tips", text: "Transient Moonlight damage is primarily determined by upgrade level (somber +10) and INT scaling. Terra Magica (+25% INT-based damage) is essential. Pair with Magic Scorpion Charm for additional magic damage." });
+                        tips.push({ icon: "⚔️", title: "Weapon Art Tips", text: "Transient Moonlight damage is primarily determined by upgrade level (somber +10) and INT scaling. Terra Magica (+35% magic damage aura) is essential for boss fights. Pair with Magic Scorpion Charm for additional magic damage." });
                       }
                       return tips.map(function(t, i) { return (
                         <div key={i} className="rounded-md bg-gray-800/30 p-3">
@@ -1525,16 +1529,17 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                             </div>
                             <div className="rounded-md bg-gray-800/30 p-3">
                               <div className="mb-1 font-semibold text-blue-300">🧙 Spells</div>
-                              <p><strong>Ranni's Dark Moon</strong> (core debuff), <strong>Terra Magica</strong> (+25% INT damage), <strong>Comet Azur</strong> (high DPS), <strong>Adula's Moonblade</strong> (dash attack), <strong>Carian Slicer</strong> (close-range), <strong>Night Comet</strong> (AoE). All scale off INT.</p>
+                              <p><strong>Ranni's Dark Moon</strong> (Frostbite + magic negation reduction), <strong>Terra Magica</strong> (+35% magic damage aura), <strong>Comet Azur</strong> (high DPS), <strong>Adula's Moonblade</strong> (dash attack), <strong>Carian Slicer</strong> (close-range), <strong>Night Comet</strong> (AoE). All scale off INT.</p>
                             </div>
                             <div className="rounded-md bg-gray-800/30 p-3">
                               <div className="mb-1 font-semibold text-purple-300">🛡️ Armor</div>
-                              <p><strong>Current (Balanced/Fashion):</strong> Moonlight Set — light, 51 poise, low equip load for rolling.</p>
-                              <p className="mt-1"><strong>For Max Damage (not in this planner's data):</strong> Spellblade Set + Snow Witch Hat — +8% sorcery damage bonus on Transient Moonlight. Worth hunting down if you want peak output.</p>
+                              <p><strong>Current (Balanced/Fashion):</strong> Moonlight Set — very light (14.5 weight), 10 poise, low equip load for rolling.</p>
+                              <p className="mt-1"><strong>For Max Damage (not in this planner's data):</strong> Spellblade Set + Snow Witch Hat — +12% magic scaling on Glintstone sorceries like Carian Slicer and Comet Azur. Does not affect Transient Moonlight.</p>
                             </div>
                             <div className="rounded-md bg-gray-800/30 p-3">
                               <div className="mb-1 font-semibold text-green-300">✦ Talismans</div>
                               <p><strong>Boss Burst:</strong> Shard of Alexander + Magic Scorpion Charm + Graven-Mass + Radagon Icon.</p>
+                              <p className="mt-1 text-red-400"><strong>⚠️ Magic Scorpion Charm</strong> increases magic damage but lowers physical damage negation — expect to take more damage from non-magical attacks.</p>
                               <p className="mt-1"><strong>Exploration:</strong> Shard of Alexander + Magic Scorpion Charm + Carian Filigreed Crest + Dragoncrest Greatshield.</p>
                             </div>
                           </>
@@ -1571,15 +1576,15 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     <ol className="space-y-2 text-xs text-gray-400">
                       <li className="flex gap-2">
                         <span className="text-cyan-400 font-bold">1.</span>
-                        <span><strong>Cast Ranni's Dark Moon</strong> before boss fights to deal 30% of enemy max HP as magic damage. Core opener.</span>
+                        <span><strong>Cast Ranni's Dark Moon</strong> before boss fights to apply Frostbite buildup and reduce enemy magic negation by 10%, increasing Moonveil and sorcery damage.</span>
                       </li>
                       <li className="flex gap-2">
                         <span className="text-cyan-400 font-bold">2.</span>
-                        <span><strong>Cast Terra Magica</strong> for a 25% INT-based damage boost. Lasts 40s. Burst window opens.</span>
+                        <span><strong>Cast Terra Magica</strong> to create a magic damage aura (+35% magic damage). Lasts 40s. Burst window opens.</span>
                       </li>
                       <li className="flex gap-2">
                         <span className="text-cyan-400 font-bold">3.</span>
-                        <span><strong>Use Transient Moonlight R2</strong> on the boss. 60 FP cost, ~1250 magic damage, 72 poise damage. Breaks stagger.</span>
+                        <span><strong>Use Transient Moonlight R2</strong> on the boss. ~20 FP cost, ~1250 magic damage, 72 poise damage. Breaks stagger.</span>
                       </li>
                       <li className="flex gap-2">
                         <span className="text-cyan-400 font-bold">4.</span>
