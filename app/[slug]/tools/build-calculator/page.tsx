@@ -1508,20 +1508,21 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                             </div>
                             <div className="rounded-md bg-gray-800/30 p-3">
                               <div className="mb-1 font-semibold text-blue-300">🧙 Spells</div>
-                              <p><strong>Ranni's Dark Moon</strong> (core debuff), <strong>Adula's Moonblade</strong> (dash attack), <strong>Terra Magica</strong> (+25% INT damage), <strong>Comet Azur</strong> (high DPS), <strong>Night Comet</strong> (AoE). All scale off INT.</p>
+                              <p><strong>Ranni's Dark Moon</strong> (core debuff), <strong>Terra Magica</strong> (+25% INT damage), <strong>Comet Azur</strong> (high DPS), <strong>Adula's Moonblade</strong> (dash attack), <strong>Carian Slicer</strong> (close-range), <strong>Night Comet</strong> (AoE). All scale off INT.</p>
                             </div>
                             <div className="rounded-md bg-gray-800/30 p-3">
                               <div className="mb-1 font-semibold text-purple-300">🛡️ Armor</div>
-                              <p><strong>Spellblade Set</strong> — +8% sorcery damage. Lightweight for rolling, perfect for INT builds. Snow Witch Hat (+10% cold sorcery) as alternative helm.</p>
+                              <p><strong>Current (Balanced/Fashion):</strong> Moonlight Set — light, 51 poise, low equip load for rolling.</p>
+                              <p className="mt-1"><strong>For Max Damage (not in this planner's data):</strong> Spellblade Set + Snow Witch Hat — +8% sorcery damage bonus on Transient Moonlight. Worth hunting down if you want peak output.</p>
                             </div>
                             <div className="rounded-md bg-gray-800/30 p-3">
                               <div className="mb-1 font-semibold text-green-300">✦ Talismans</div>
-                              <p><strong>Shard of Alexander</strong> (weapon art +15%), <strong>Magic Scorpion Charm</strong> (+12% magic damage), <strong>Carian Filigreed Crest</strong> (-10% FP cost), <strong>Graven-Mass Talisman</strong> (+10% magic defense).</p>
+                              <p><strong>Boss Burst:</strong> Shard of Alexander + Magic Scorpion Charm + Graven-Mass + Radagon Icon.</p>
+                              <p className="mt-1"><strong>Exploration:</strong> Shard of Alexander + Magic Scorpion Charm + Carian Filigreed Crest + Dragoncrest Greatshield.</p>
                             </div>
                           </>
                         );
                       }
-                      // Fallback: default build-relevant equipment
                       return (
                         <div className="rounded-md bg-gray-800/30 p-3">
                           <div className="mb-1 font-semibold text-gray-300">Equipment Overview</div>
@@ -1547,6 +1548,36 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                       <SoftCapWarnings warnings={buildOutput.softCapWarnings} />
                     </div>
                   </Section>
+                {/* How to Play Moonveil Build */}
+                {selWeapons.includes("moonveil") && (
+                  <Section title="⚔️ How to Play Moonveil Build">
+                    <ol className="space-y-2 text-xs text-gray-400">
+                      <li className="flex gap-2">
+                        <span className="text-cyan-400 font-bold">1.</span>
+                        <span><strong>Cast Ranni's Dark Moon</strong> before boss fights to deal 30% of enemy max HP as magic damage. Core opener.</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="text-cyan-400 font-bold">2.</span>
+                        <span><strong>Cast Terra Magica</strong> for a 25% INT-based damage boost. Lasts 40s. Burst window opens.</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="text-cyan-400 font-bold">3.</span>
+                        <span><strong>Use Transient Moonlight R2</strong> on the boss. 60 FP cost, ~1250 magic damage, 72 poise damage. Breaks stagger.</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="text-cyan-400 font-bold">4.</span>
+                        <span><strong>Carian Slicer</strong> for close-range enemies. Stun + magic damage per hand. Essential vs groups.</span>
+                      </li>
+                      <li className="flex gap-2">
+                        <span className="text-cyan-400 font-bold">5.</span>
+                        <span><strong>Comet Azur</strong> for sustained ranged DPS. Cast while dodging. Terra Magica active doubles effectiveness.</span>
+                      </li>
+                    </ol>
+                    <div className="mt-3 text-[10px] text-gray-500">
+                      This playstyle makes Moonveil the most versatile weapon in Elden Ring — melee, ranged, burst, and sustain all in one build.
+                    </div>
+                  </Section>
+                )}
               </>
             ) : (
               <Section title="Build Output">
