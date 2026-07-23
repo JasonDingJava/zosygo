@@ -1,9 +1,50 @@
 // Elden Ring build calculation engine
 // Uses game-accurate formulas from regulation data
 
-import { ALL_WEAPONS, calculateWeaponAR, type WeaponEntry } from "./weapons";
+import { ALL_WEAPONS, calculateWeaponAR, calculateSorceryScaling, isStaffOrSeal, type WeaponEntry } from "./weapons";
 import { STARTING_CLASSES, type StartingClass } from "./classes";
 import { ALL_ARMOR_SETS, ALL_TALISMANS } from "./armor";
+
+// Weapon art / skill names mapped by weapon slug
+const WEAPON_SKILL_MAP: Record<string, string> = {
+  "moonveil": "Transient Moonlight",
+  "crescent-moon-axe": "Crescent Moon Axe",
+  "carian-regal-scepter": "Comet Azur",
+  "dark-moon-greatsword": "Dark Moon Greatsword",
+  "royal-greatsword": "Carian Grandeur",
+  "lusat-glintstone-staff": "Lusat's Full Moon",
+  "meteorite-staff": "Gravitational Meteor",
+  "hand-of-malenia": "Bloodflame Dance",
+  "black-knife": "Black Blade",
+  "rivers-of-blood": "Corpse Piler",
+  "morgotts-cursed-sword": "Bloodboon",
+  "eleonoras-pole": "Eleonora's Pole",
+  "giant-crusher": "Giant's Ring",
+  "sword-of-night-and-flame": "Night and Flame",
+  "godslayers-greatsword": "Black Flame Tornado",
+  "blasphemous-blade": "Tenebrae Mist",
+  "umbilical-cord": "Miasma Burst",
+  "mastodon": "Mastodon",
+  "raptor-talon": "Raptor Talon",
+  "mohgwyns-spear": "Seppuku",
+  "bloodhound-fang": "Bloodhound's Finesse",
+  "bloodhound-fang-2h": "Bloodhound's Bite",
+  "dragon-king-claws": "Borealis's Mist",
+  "great-jars-arsenal": "Great Jar's Arsenal",
+  "sacred-relic-sword": "Golden Vow",
+  "star-meteor-staff": "Stars of Ruin",
+  "azurs-glintstone-staff": "Comet Azur",
+  "prazys-staff": "Prelate's Charge",
+  "cerulean-amulet-staff": "Cerulusian Sling",
+  "scepter-of-the-all-knowing": "All-Knowing Sling",
+  "alabaster-lion-greatshield": "Stalwart Shield",
+  "flame-meteor-staff": "Flame Sling",
+  "fingerprint-grave": "Gravitas Sling",
+};
+
+export function getWeaponSkill(slug: string): string {
+  return WEAPON_SKILL_MAP[slug] || "";
+}
 
 export interface BuildStats {
   vigor: number;
@@ -37,6 +78,10 @@ export interface WeaponARResult {
   detailedAR: DetailedAR;
   meetsRequirements: boolean;
   missingStats: string[];
+  isStaffOrSeal: boolean;
+  scalingLabel: string;
+  sorceryScaling: number;
+  weaponSkill: string;
 }
 
 export interface SoftCapInfo {
@@ -224,30 +269,42 @@ function getSoftCapWarnings(stats: BuildStats): SoftCapInfo[] {
   for (const [stat, value] of entries) {
     const capInfo = SOFT_CAPS[stat];
     if (!capInfo) continue;
+    const [firstCap, secondCap] = capInfo.caps;
 
-    for (const cap of capInfo.caps) {
-      if (value < cap) {
-        const diff = cap - value;
-        if (diff <= 10) {
-          warnings.push({
-            stat: capInfo.label,
-            current: value,
-            nextSoftCap: cap,
-            message: `${capInfo.label} is ${diff} points below the ${cap} soft cap. Consider increasing for better returns.`,
-            type: "warning",
-          });
-        }
-      } else if (value >= cap) {
-        const nextCap = cap === capInfo.caps[0] ? capInfo.caps[1] : 99;
-        if (value < nextCap) {
-          warnings.push({
-            stat: capInfo.label,
-            current: value,
-            nextSoftCap: nextCap,
-            message: `${capInfo.label} has reached ${cap} soft cap. Diminishing returns beyond this point.`,
-            type: "info",
-          });
-        }
+    if (value >= secondCap) {
+      warnings.push({
+        stat: capInfo.label,
+        current: value,
+        nextSoftCap: 99,
+        message: `${capInfo.label} ${value} — at the hard cap. Further points give very low returns.`,
+        type: "warning",
+      });
+    } else if (value >= firstCap) {
+      warnings.push({
+        stat: capInfo.label,
+        current: value,
+        nextSoftCap: secondCap,
+        message: `${capInfo.label} ${value} — past first soft cap (${firstCap}). Second cap at ${secondCap} gives diminishing returns.`,
+        type: "info",
+      });
+    } else {
+      const diffToFirst = firstCap - value;
+      if (diffToFirst <= 10) {
+        warnings.push({
+          stat: capInfo.label,
+          current: value,
+          nextSoftCap: firstCap,
+          message: `${capInfo.label} ${value} — ${diffToFirst} pts from first soft cap (${firstCap}). Good place to invest.`,
+          type: "info",
+        });
+      } else {
+        warnings.push({
+          stat: capInfo.label,
+          current: value,
+          nextSoftCap: firstCap,
+          message: `${capInfo.label} ${value} — minimal investment — only meets weapon/armor requirements.`,
+          type: "info",
+        });
       }
     }
   }
@@ -436,9 +493,15 @@ export function calculateBuild(input: BuildInput): BuildOutput {
         fai: input.stats.faith,
         arc: input.stats.arcane,
       },
-      input.upgradeLevel,
+      weapon.somber ? Math.min(input.upgradeLevel, 10) : Math.min(input.upgradeLevel, 25),
       input.twoHanding
     );
+
+    const effectiveUpg = weapon.somber ? Math.min(input.upgradeLevel, 10) : Math.min(input.upgradeLevel, 25);
+    const weaponsStats = { str: input.stats.strength, dex: input.stats.dexterity, int: input.stats.intelligence, fai: input.stats.faith, arc: input.stats.arcane };
+    const scalingResult = isStaffOrSeal(weapon) ? calculateSorceryScaling(weapon, weaponsStats, effectiveUpg) : null;
+    const isStaff = weapon.type === "Glintstone Staff";
+    const isSeal = weapon.type === "Sacred Seal";
 
     weaponResults.push({
       slug,
@@ -457,6 +520,10 @@ export function calculateBuild(input: BuildInput): BuildOutput {
       },
       meetsRequirements: ar.meetsRequirements,
       missingStats: ar.missingStats,
+      isStaffOrSeal: isStaff || isSeal,
+      scalingLabel: scalingResult ? scalingResult.label : "",
+      sorceryScaling: scalingResult ? scalingResult.scaling : 0,
+      weaponSkill: getWeaponSkill(weapon.slug),
     });
   }
 

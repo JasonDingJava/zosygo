@@ -70,13 +70,13 @@ const POPULAR_BUILDS: PopularBuild[] = [
   },
   {
     name: "Moonveil Intelligence Build",
-    description: "Moonveil katana + spells hybrid. High INT for weapon art damage and powerful sorceries.",
+    description: "Moonveil katana + spells hybrid. Transient Moonlight + Terra Magica for burst DPS.",
     class: "prisoner",
-    stats: {vigor:45,mind:25,endurance:20,strength:12,dexterity:25,intelligence:80,faith:9,arcane:8},
-    weapons: ["moonveil", "carian-regal-scepter", "dark-moon-greatsword"],
-    armor: {helm:"lukas-helm",chest:"lukas-armor",arms:"lukas-gauntlets",legs:"lukas-greaves"},
-    talismans: ["shard-of-alexander", "magic-scorpion-charm", "graven-school-talisman", "erdtrees-favor-plus-1"],
-    spells: ["carian-slicer", "adulas-moonblade", "night-comet", "terra-magica", "great-glintstone-shard"],
+    stats: {vigor:60,mind:25,endurance:20,strength:12,dexterity:18,intelligence:80,faith:9,arcane:8},
+    weapons: ["moonveil", "carian-regal-scepter", "lorettas-greatbow"],
+    armor: {helm:"moonlight-set_helm",chest:"moonlight-set_chest",arms:"moonlight-set_arms",legs:"moonlight-set_legs"},
+    talismans: ["shard-of-alexander", "radagon-icon", "carian-filigreed", "graven-mass"],
+    spells: ["rannis-dark-moon", "adulas-moonblade", "terra-magica", "comet-azur", "night-comet", "great-glintstone-shard"],
     upgradeLevel: 25,
     twoHanding: false,
   },
@@ -306,7 +306,7 @@ function SoftCapWarnings({ warnings }: { warnings: Array<{ type: string; message
   );
 }
 
-function WeaponCards({ weapons }: { weapons: Array<{ slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number; detailedAR?: { phys: number; magic: number; fire: number; lightning: number; holy: number } }> }) {
+function WeaponCards({ weapons }: { weapons: Array<{ slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number; detailedAR?: { phys: number; magic: number; fire: number; lightning: number; holy: number }; isStaffOrSeal?: boolean; scalingLabel?: string; sorceryScaling?: number; weaponSkill?: string }> }) {
   return (
     <div className="space-y-3">
       {weapons.map(function(w) { return (
@@ -316,33 +316,44 @@ function WeaponCards({ weapons }: { weapons: Array<{ slug: string; name: string;
   );
 }
 
-function WeaponCard({ w }: { w: { slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number; detailedAR?: { phys: number; magic: number; fire: number; lightning: number; holy: number } } }) {
+function WeaponCard({ w }: { w: { slug: string; name: string; type: string; meetsRequirements: boolean; missingStats: string[]; totalAR: number; physicalAR: number; elementalAR: number; detailedAR?: { phys: number; magic: number; fire: number; lightning: number; holy: number }; isStaffOrSeal?: boolean; scalingLabel?: string; sorceryScaling?: number; weaponSkill?: string } }) {
   return (
-    <div key={w.slug} className="rounded border border-gray-800 bg-gray-900/50 p-3">
+    <div key={w.slug} className={"rounded border " + (w.meetsRequirements ? "border-gray-800" : "border-red-900/60") + " bg-gray-900/50 p-3"}>
       <div className="mb-2 flex items-center justify-between">
         <span className="font-semibold text-gray-200">{w.name}</span>
         <span className="text-xs text-gray-500">{w.type}</span>
       </div>
       {!w.meetsRequirements && (
-        <div className="mb-2 rounded bg-red-900/20 px-2 py-1 text-xs text-red-400">
-          Missing: {w.missingStats.join(", ")}
+        <div className="mb-2 rounded bg-red-900/20 px-2 py-1.5 text-xs">
+          <div className="text-red-300 font-semibold">🔒 Locked — missing: {w.missingStats.join(", ")}</div>
+          <div className="text-red-400/60 mt-0.5">AR unavailable until requirements met</div>
         </div>
       )}
-      <div className="grid grid-cols-3 gap-2 text-center">
-        <div className="rounded bg-gray-800/50 px-2 py-1.5">
-          <div className="text-lg font-bold text-white">{w.totalAR}</div>
-          <div className="text-[10px] text-gray-500">Total AR</div>
+      {w.meetsRequirements && w.isStaffOrSeal ? (
+        <div className="rounded bg-purple-900/20 border border-purple-700/30 px-3 py-2 text-center">
+          <div className="text-lg font-bold text-purple-300">{w.sorceryScaling ?? "—"}</div>
+          <div className="text-[10px] text-gray-400">{w.scalingLabel ?? "Scaling"}</div>
+          {w.weaponSkill && (
+            <div className="mt-1.5 text-xs text-amber-400">✨ {w.weaponSkill}</div>
+          )}
         </div>
-        <div className="rounded bg-gray-800/50 px-2 py-1.5">
-          <div className="text-lg font-bold text-orange-300">{w.physicalAR}</div>
-          <div className="text-[10px] text-gray-500">Physical</div>
+      ) : w.meetsRequirements ? (
+        <div className="grid grid-cols-3 gap-2 text-center">
+          <div className="rounded bg-gray-800/50 px-2 py-1.5">
+            <div className="text-lg font-bold text-white">{w.totalAR}</div>
+            <div className="text-[10px] text-gray-500">Total AR</div>
+          </div>
+          <div className="rounded bg-gray-800/50 px-2 py-1.5">
+            <div className="text-lg font-bold text-orange-300">{w.physicalAR}</div>
+            <div className="text-[10px] text-gray-500">Physical</div>
+          </div>
+          <div className="rounded bg-gray-800/50 px-2 py-1.5">
+            <div className="text-lg font-bold text-purple-300">{w.elementalAR}</div>
+            <div className="text-[10px] text-gray-500">Elemental</div>
+          </div>
         </div>
-        <div className="rounded bg-gray-800/50 px-2 py-1.5">
-          <div className="text-lg font-bold text-purple-300">{w.elementalAR}</div>
-          <div className="text-[10px] text-gray-500">Elemental</div>
-        </div>
-      </div>
-      {w.detailedAR && (
+      ) : null}
+      {w.meetsRequirements && w.detailedAR && !w.isStaffOrSeal && (
         <div className="mt-2 grid grid-cols-5 gap-1 text-center text-[10px]">
           <div><span className="text-orange-300">{w.detailedAR.phys}</span><span className="text-gray-600"> phys</span></div>
           <div><span className="text-blue-300">{w.detailedAR.magic}</span><span className="text-gray-600"> mag</span></div>
@@ -350,6 +361,9 @@ function WeaponCard({ w }: { w: { slug: string; name: string; type: string; meet
           <div><span className="text-yellow-300">{w.detailedAR.lightning}</span><span className="text-gray-600"> ltn</span></div>
           <div><span className="text-gray-300">{w.detailedAR.holy}</span><span className="text-gray-600"> holy</span></div>
         </div>
+      )}
+      {w.meetsRequirements && w.weaponSkill && !w.isStaffOrSeal && (
+        <div className="mt-1.5 text-xs text-amber-400">✨ {w.weaponSkill}</div>
       )}
     </div>
   );
@@ -385,9 +399,9 @@ function DamageCalculatorPanel({ weapons, stats, armorPieces, talismanIds }: {
   });
 
   return (
-    <Section title="Damage Calculator">
+    <Section title="AR Simulator">
       <div className="text-xs text-gray-400 mb-3">
-        Estimated damage vs base defenses. Actual damage varies by enemy.
+        Estimated damage vs 100 Defense / 0% Negation. Not actual PvE damage.
       </div>
       {allResults.map(function(result, wi) { return (
         <div key={wi} className="mb-3 last:mb-0">
@@ -1330,8 +1344,8 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     ].map(function(a) {
                       var val = stats[a.key as keyof BuildStats];
                       var pct = Math.min(val / a.soft2, 1) * 100;
-                      var efficiency = val >= a.soft2 ? "Low (soft cap)" : val >= a.soft1 ? "Medium (soft cap approaching)" : "High (below soft cap)";
-                      var effColor = val >= a.soft2 ? "text-red-400" : val >= a.soft1 ? "text-yellow-400" : "text-green-400";
+                      var efficiency = val >= a.soft2 ? "Optimal — diminishing returns" : val >= a.soft1 ? "High — past first cap" : "Below cap — efficient";
+                      var effColor = val >= a.soft2 ? "text-red-400" : val >= a.soft1 ? "text-amber-400" : "text-green-400";
                       return (
                         <div key={a.key} className="flex items-center gap-3 rounded-md bg-gray-800/30 px-3 py-2">
                           <span className={"w-8 text-xs font-bold " + a.color}>{a.label}</span>
@@ -1354,13 +1368,20 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     {function() {
                       var tips = [];
                       var bt = buildOutput.buildType || "";
-                      // Primary damage stat tip
+                      var isMoonveil = selWeapons.includes("moonveil");
+                      // Primary damage stat tip — context-aware
                       if (bt.includes("STR")) {
                         tips.push({ icon: "💪", title: "Strength Build", text: "Focus on hitting 54 STR for the two-handing soft cap (54 × 1.5 = 81). Heavy infusion gives the best STR scaling. Supplement with 20-30 END for heavy armor." });
                       } else if (bt.includes("DEX")) {
                         tips.push({ icon: "⚡", title: "Dexterity Build", text: "Aim for 60-80 DEX. Keen infusion maximizes DEX scaling. Don't forget 20-25 END — lighter armor means more room for talismans." });
                       } else if (bt.includes("INT") || bt.includes("Magic") || bt.includes("Sorcery")) {
-                        tips.push({ icon: "🔮", title: "Intelligence Build", text: "80 INT is the endgame goal for staff scaling. You need at least 20 MND for sustained casting. Consider the Moonveil or Dark Moon Greatsword as backup weapons." });
+                        if (isMoonveil && stats.intelligence >= 80) {
+                          tips.push({ icon: "🔮", title: "Moonveil INT Setup", text: "Your INT has reached the optimal 80 breakpoint. All further points should go into: MND (spell uptime), END (heavier armor), or VIG (survival). Transient Moonlight damage now scales off your INT and upgrade level." });
+                        } else if (isMoonveil && stats.intelligence >= 55) {
+                          tips.push({ icon: "🔮", title: "Moonveil INT Build", text: "Your INT is past the first soft cap at 55. Each point from 55-80 adds meaningful scaling. Transient Moonlight damage and staff sorceries both benefit." });
+                        } else {
+                          tips.push({ icon: "🔮", title: "Intelligence Build", text: "80 INT is the endgame goal for staff scaling. You need at least 20 MND for sustained casting. Consider the Moonveil or Carian Regal Scepter as primary weapons." });
+                        }
                       } else if (bt.includes("FTH") || bt.includes("Faith") || bt.includes("Incantation")) {
                         tips.push({ icon: "🙏", title: "Faith Build", text: "80 FTH for max incantation scaling. Blasphemous Blade offers great sustain. Minimum 24 MND for extended fights." });
                       } else if (bt.includes("ARC") || bt.includes("Arcane") || bt.includes("Bleed") || bt.includes("Blood")) {
@@ -1368,17 +1389,23 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                       } else if (bt.includes("Quality") || bt.includes("STR/DEX")) {
                         tips.push({ icon: "⚔️", title: "Quality Build", text: "55 STR / 55 DEX is the sweet spot for quality infusion. Quality weapons like the Claymore and Knight's Greatsword shine at this stat spread." });
                       } else {
-                        tips.push({ icon: "🎯", title: "Stat Prioritization", text: "Focus on hitting the first soft cap (40) for your primary damage stat before investing heavily in secondary stats." });
+                        tips.push({ icon: "🎯", title: "Stat Focus", text: "Check the Soft Cap Analysis section to see where your next stat points will have the most impact. Invest in stats close to their soft caps first." });
                       }
                       // Vigor check
                       if (stats.vigor < 40) {
                         tips.push({ icon: "🛡️", title: "Vigor Check", text: "You only have " + stats.vigor + " VIG. Aim for at least 40 by level 100 and 60 by level 150. Extra HP is the single best survival investment." });
+                      } else if (stats.vigor >= 60) {
+                        tips.push({ icon: "🛡️", title: "Vigor Optimized", text: "Your VIG at " + stats.vigor + " is endgame-ready. Further VIG investment is diminishing — focus on damage stats instead." });
                       }
                       // Endurance check
                       if (stats.endurance < 20) {
                         tips.push({ icon: "⚖️", title: "Endurance Low", text: stats.endurance + " END is very low. You need at least 20-25 END for medium armor and multiple weapon swings." });
                       } else if (stats.endurance > 40) {
                         tips.push({ icon: "🏋️", title: "High Endurance", text: stats.endurance + " END is a lot — make sure you're using heavy armor or weapons to justify it. Consider redistributing if you're light rolling." });
+                      }
+                      // Moonveil-specific weapon art tip
+                      if (isMoonveil) {
+                        tips.push({ icon: "⚔️", title: "Weapon Art Tips", text: "Transient Moonlight damage is primarily determined by upgrade level (somber +10) and INT scaling. Terra Magica (+25% INT-based damage) is essential. Pair with Magic Scorpion Charm for additional magic damage." });
                       }
                       return tips.map(function(t, i) { return (
                         <div key={i} className="rounded-md bg-gray-800/30 p-3">
@@ -1408,29 +1435,45 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                   </div>
                 </Section>
 
-                {/* Best Playstyles */}
-                <Section title="Best Playstyles">
+                {/* Recommended Equipment for Moonveil Build */}
+                <Section title="Recommended Equipment">
                   <div className="space-y-3 text-xs text-gray-400">
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-purple-300">⚔️ Quality Build (STR/DEX)</div>
-                      <p>50 VIG, 25 END, 55 STR, 55 DEX. Versatile, can use most weapons. Best paired with quality-infused weapons like the Claymore or Knight's Greatsword.</p>
-                    </div>
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-cyan-300">🔮 Intelligence Build</div>
-                      <p>50 VIG, 20 END, 80 INT. Use Moonveil, Dark Moon Greatsword, or Carian Regal Scepter. High damage output with sorceries but requires good spacing.</p>
-                    </div>
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-yellow-300">🔥 Faith Build</div>
-                      <p>50 VIG, 25 END, 80 FTH. Blasphemous Blade or Sacred Relic Sword. Excellent sustain with healing incantations and powerful AoE damage.</p>
-                    </div>
-                    <div className="rounded-md bg-gray-800/30 p-3">
-                      <div className="mb-1 font-semibold text-red-300">🩸 Arcane Build</div>
-                      <p>50 VIG, 20 END, 80 ARC. Rivers of Blood or Eleonora's Poleblade. Focus on bleed buildup — bleed procs deal percentage-based damage, making this build strong against bosses.</p>
-                    </div>
+                    {function() {
+                      var isMoonveil = selWeapons.includes("moonveil");
+                      if (isMoonveil) {
+                        return (
+                          <>
+                            <div className="rounded-md bg-gray-800/30 p-3">
+                              <div className="mb-1 font-semibold text-yellow-300">🗡️ Weapons</div>
+                              <p><strong>Moonveil</strong> (primary) — Transient Moonlight for burst magic damage. Pair with <strong>Carian Regal Scepter</strong> for high-INT sorceries. <strong>Azur's Glintstone Staff</strong> or <strong>Lusat's Glintstone Staff</strong> as backup.</p>
+                            </div>
+                            <div className="rounded-md bg-gray-800/30 p-3">
+                              <div className="mb-1 font-semibold text-blue-300">🧙 Spells</div>
+                              <p><strong>Ranni's Dark Moon</strong> (core debuff), <strong>Adula's Moonblade</strong> (dash attack), <strong>Terra Magica</strong> (+25% INT damage), <strong>Comet Azur</strong> (high DPS), <strong>Night Comet</strong> (AoE). All scale off INT.</p>
+                            </div>
+                            <div className="rounded-md bg-gray-800/30 p-3">
+                              <div className="mb-1 font-semibold text-purple-300">🛡️ Armor</div>
+                              <p><strong>Spellblade Set</strong> — +8% sorcery damage. Lightweight for rolling, perfect for INT builds. Snow Witch Hat (+10% cold sorcery) as alternative helm.</p>
+                            </div>
+                            <div className="rounded-md bg-gray-800/30 p-3">
+                              <div className="mb-1 font-semibold text-green-300">✦ Talismans</div>
+                              <p><strong>Shard of Alexander</strong> (weapon art +15%), <strong>Magic Scorpion Charm</strong> (+12% magic damage), <strong>Carian Filigreed Crest</strong> (-10% FP cost), <strong>Graven-Mass Talisman</strong> (+10% magic defense).</p>
+                            </div>
+                          </>
+                        );
+                      }
+                      // Fallback: default build-relevant equipment
+                      return (
+                        <div className="rounded-md bg-gray-800/30 p-3">
+                          <div className="mb-1 font-semibold text-gray-300">Equipment Overview</div>
+                          <p>Your current loadout has {buildOutput.equipLoad.current} weight ({buildOutput.equipLoad.rollType}). Adjust armor and talismans to optimize for your playstyle.</p>
+                        </div>
+                      );
+                    }()}
                   </div>
                 </Section>
 
-                {/* Damage Calculator */}                {/* Damage Calculator */}
+                {/* AR Simulator */}
                 {buildOutput.weapons.length > 0 && buildOutput.weapons[0].detailedAR && (
                   <DamageCalculatorPanel
                     weapons={buildOutput.weapons}
@@ -1598,9 +1641,9 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
           <p className="mt-2 text-sm leading-relaxed text-gray-400">A powerful Intelligence hybrid build using Moonveil and sorceries.</p>
           <p className="mt-2 text-sm font-medium text-gray-400">Recommended Stats:</p>
           <ul className="mt-1 list-inside list-disc text-sm text-gray-400">
-            <li>Vigor: 50</li>
+            <li>Vigor: 60</li>
             <li>Intelligence: 80</li>
-            <li>Dexterity: 20</li>
+            <li>Dexterity: 18</li>
           </ul>
 
           <hr className="mt-6 border-gray-800" />

@@ -135,6 +135,66 @@ export function isStaffOrSeal(weapon: WeaponEntry): boolean {
   return weapon.type === "Glintstone Staff" || weapon.type === "Sacred Seal";
 }
 
+// Sorcery/Incant scaling calculation for staves and seals
+// Formula: base * (1 + statCorrection * effectiveScaling)
+// Staves base=100, Seals base=94
+// effectiveScaling = baseScaling * reinforcementScalingMultiplier
+
+const STAFF_SCALING_BASE = 100;
+const SEAL_SCALING_BASE = 94;
+
+// Mapping from weapon type to required stat
+const STAFF_STAT_MAP: Record<string, string> = {
+  "Glintstone Staff": "int",
+  "Sacred Seal": "fai",
+};
+
+export function calculateSorceryScaling(
+  weapon: WeaponEntry,
+  stats: { str: number; dex: number; int: number; fai: number; arc: number },
+  upgradeLevel: number
+): { scaling: number; label: string } | null {
+  if (!isStaffOrSeal(weapon)) return null;
+
+  const statKey = STAFF_STAT_MAP[weapon.type];
+  if (!statKey) return null;
+
+  const statValue = stats[statKey as keyof typeof stats] as number;
+
+  // Base scaling from weapon data
+  const baseScaling = weapon.scaling[statKey as keyof typeof weapon.scaling] as number;
+  if (!baseScaling || baseScaling === 0) return null;
+
+  // Reinforcement scaling multiplier
+  const scalingMult = getUpgradeScalingMult(weapon.reinforceTypeId, upgradeLevel, statKey);
+  const effectiveScaling = baseScaling * scalingMult;
+
+  // Stat correction from calcCorrect graph
+  const aecId = weapon.attackElementCorrectId;
+  const aecTable = attackElementCorrects[String(aecId)];
+  if (!aecTable) return null;
+
+  // Find which graph corresponds to the stat's damage element
+  // For staves (AEC 20000): all INT maps to graph 15
+  // For seals (AEC 30000): all FAI maps to graph 15
+  const graphId = 15; // Both use graph 15 for sorcery/incant scaling
+  const graph = calcCorrectGraphs[String(graphId)];
+  if (!graph) return null;
+
+  const statCorrect = getCalcCorrectValue(graph, statValue);
+
+  // Determine base
+  const base = weapon.type === "Glintstone Staff" ? STAFF_SCALING_BASE : SEAL_SCALING_BASE;
+
+  // Calculate scaling
+  const scaling = base * (1 + statCorrect * effectiveScaling);
+
+  // Determine label
+  const label = weapon.type === "Glintstone Staff" ? "Sorcery Scaling" : "Incant Scaling";
+
+  return { scaling: Math.round(scaling), label };
+}
+
 export function isBow(weapon: WeaponEntry): boolean {
   return weapon.type === "Bow";
 }
