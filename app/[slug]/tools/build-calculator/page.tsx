@@ -75,8 +75,8 @@ const POPULAR_BUILDS: PopularBuild[] = [
     stats: {vigor:60,mind:30,endurance:20,strength:12,dexterity:18,intelligence:80,faith:9,arcane:8},
     weapons: ["moonveil", "carian-regal-scepter", "lorettas-greatbow"],
     armor: {helm:"moonlight-set_helm",chest:"moonlight-set_chest",arms:"moonlight-set_arms",legs:"moonlight-set_legs"},
-    talismans: ["shard-of-alexander", "carian-filigreed", "graven-mass", "radagon-icon"],
-    spells: ["rannis-dark-moon", "adulas-moonblade", "carian-slicer", "terra-magica", "comet-azur", "night-comet"],
+    talismans: ["shard-of-alexander", "magic-scorpion-charm", "graven-mass", "radagon-icon"],
+    spells: ["rannis-dark-moon", "terra-magica", "comet-azur", "adulas-moonblade", "carian-slicer", "night-comet"],
     upgradeLevel: 10,
     twoHanding: false,
   },
@@ -1333,7 +1333,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     </div>
                   </div>
                   <div className="mt-2 text-[10px] text-gray-500">
-                    Defense values are estimated from equipped armor set. Poise ≥ 51 reduces enemy stagger animation.
+                    Defense values are estimated from equipped armor set. Poise ≥ 51 allows you to withstand light enemy attacks without staggering.
                   </div>
                 </Section>
 
@@ -1349,7 +1349,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
                     <StatCard label="VIG" value={stats.vigor} color="text-red-300" />
                     <StatCard label="MND" value={stats.mind} color="text-blue-300" />
                     <StatCard label="END" value={stats.endurance} color="text-green-300" />
-                    <StatCard label="Total" value={STAT_KEYS.reduce((a,k) => a + stats[k], 0)} color="text-gray-300" />
+                    <StatCard label="Total Points" value={STAT_KEYS.reduce((a,k) => a + stats[k], 0)} color="text-gray-300" />
                   </div>
                 </Section>
 

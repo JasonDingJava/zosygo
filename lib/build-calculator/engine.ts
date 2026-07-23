@@ -292,7 +292,9 @@ function getSoftCapWarnings(stats: BuildStats): SoftCapInfo[] {
     if (value >= secondCap) {
       const capLabel = stat === "intelligence" ? "Reached second sorcery scaling soft cap. Further investment has very low returns." :
                   stat === "faith" ? "Reached second incantation scaling soft cap. Further investment has very low returns." :
-                  `${capInfo.label} ${value} — past second soft cap. Further points give very low returns.`;
+                  stat === "vigor" ? "Reached second HP soft cap. Further investment gives very low HP gains." :
+                  stat === "endurance" ? "Reached second stamina/load soft cap. Further investment gives very low returns." :
+                  `${capInfo.label} ${value} — reached second soft cap. Further points give very low returns.`;
       warnings.push({
         stat: capInfo.label,
         current: value,
@@ -301,11 +303,13 @@ function getSoftCapWarnings(stats: BuildStats): SoftCapInfo[] {
         type: "warning",
       });
     } else if (value >= firstCap) {
+      const label = stat === "dexterity" && value <= 25 ? `DEX ${value} — past first soft cap (${firstCap}). Moonveil only requires DEX 18; further DEX investment is optional.` :
+                   `${capInfo.label} ${value} — past first soft cap (${firstCap}). Second cap at ${secondCap} gives diminishing returns.`;
       warnings.push({
         stat: capInfo.label,
         current: value,
         nextSoftCap: secondCap,
-        message: `${capInfo.label} ${value} — past first soft cap (${firstCap}). Second cap at ${secondCap} gives diminishing returns.`,
+        message: label,
         type: "info",
       });
     } else {

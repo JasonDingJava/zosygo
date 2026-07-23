@@ -13,6 +13,36 @@
       "effect": "Raises Mind, Intelligence, Faith, Arcane by 5 each. Increases damage taken by 15%."
     },
     {
+      "id": "magic-scorpion-charm",
+      "name": "Magic Scorpion Charm",
+      "weight": 0.8,
+      "effect": "Increases magic damage by 8%. Increases damage taken by 12%."
+    },
+    {
+      "id": "fire-scorpion-charm",
+      "name": "Fire Scorpion Charm",
+      "weight": 0.8,
+      "effect": "Increases fire damage by 8%. Increases damage taken by 12%."
+    },
+    {
+      "id": "bloodflame-scorpion-charm",
+      "name": "Bloodflame Scorpion Charm",
+      "weight": 0.8,
+      "effect": "Increases bloodflame damage by 8%. Increases damage taken by 12%."
+    },
+    {
+      "id": "lightning-scorpion-charm",
+      "name": "Lightning Scorpion Charm",
+      "weight": 0.8,
+      "effect": "Increases lightning damage by 8%. Increases damage taken by 12%."
+    },
+    {
+      "id": "holy-scorpion-charm",
+      "name": "Holy Scorpion Charm",
+      "weight": 0.8,
+      "effect": "Increases holy damage by 8%. Increases damage taken by 12%."
+    },
+    {
       "id": "erdtrees-favor",
       "name": "Erdtree's Favor",
       "weight": 0.6,
