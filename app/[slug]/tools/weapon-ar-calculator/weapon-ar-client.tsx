@@ -13,6 +13,9 @@ import {
   TYPE_NAME_MAP,
   calculateWeaponAR,
   getScalingLetter,
+  getUpgradeScalingLetter,
+  isStaffOrSeal,
+  isBow,
 } from "@/lib/build-calculator/weapons";
 
 type StatInputs = {
@@ -23,12 +26,19 @@ type StatInputs = {
   arc: number;
 }
 
+type SortKey = "ar" | "phys" | "magic" | "name";
+
+const SCALING_COLORS: Record<string, string> = {
+  S: "text-red-400", A: "text-orange-400", B: "text-amber-400",
+  C: "text-yellow-400", D: "text-zinc-500", E: "text-zinc-600",
+};
+
 const DEFAULT_STATS: StatInputs = {
-  str: 50,
-  dex: 50,
-  int: 50,
-  fai: 50,
-  arc: 50,
+  str: 40,
+  dex: 40,
+  int: 40,
+  fai: 40,
+  arc: 40,
 };
 
 const STAT_DEFS = [
@@ -60,30 +70,56 @@ function StatSlider({ def, value, onChange }: { def: typeof STAT_DEFS[number]; v
   );
 }
 
-function WeaponRow({ slug, stats, upgradeLevel, twoHanding, checked, onToggle }: {
-  slug: string; stats: StatInputs; upgradeLevel: number; twoHanding: boolean; checked: boolean; onToggle: () => void;
+function ScalingLabel({ weapon, effectiveUpgrade, attr }: {
+  weapon: WeaponEntry; effectiveUpgrade: number; attr: string;
 }) {
-  const weapon = ALL_WEAPONS[slug];
-  const result = useMemo(() => calculateWeaponAR(weapon, stats, upgradeLevel, twoHanding), [weapon, stats, upgradeLevel, twoHanding]);
+  const letter = getUpgradeScalingLetter(weapon, 0, attr);
+  if (letter === "-") return null;
+  return (
+    <span className="text-[10px] leading-none">
+      <span className="text-zinc-600">{attr.toUpperCase()}</span>{" "}
+      <span className={`${SCALING_COLORS[letter] || "text-zinc-600"} font-medium`}>{letter}</span>
+    </span>
+  );
+}
+
+type WeaponRowResult = {
+  slug: string;
+  weapon: WeaponEntry;
+  effectiveUpgrade: number;
+  result: ReturnType<typeof calculateWeaponAR>;
+  isCaster: boolean;
+  isBowType: boolean;
+};
+
+function WeaponRow({ data, checked, onToggle }: {
+  data: WeaponRowResult; checked: boolean; onToggle: () => void;
+}) {
+  const { weapon, effectiveUpgrade, result, isCaster, isBowType } = data;
   return (
     <tr className={`border-b border-white/5 transition-colors ${checked ? "bg-amber-500/5" : ""} hover:bg-white/[0.02]`}>
       <td className="py-2.5 pl-3"><input type="checkbox" checked={checked} onChange={onToggle} className="h-4 w-4 rounded border-zinc-700 bg-zinc-900 text-amber-500 focus:ring-amber-500/30" /></td>
-      <td className="py-2.5 pr-3"><span className="text-sm font-medium text-white">{weapon.name}</span><span className="ml-2 rounded bg-zinc-800 px-1.5 py-0.5 text-[10px] uppercase text-zinc-500">{TYPE_NAME_MAP[weapon.type] || weapon.type}</span></td>
-      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-300">{result.totalAR}</td>
-      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{result.phys || "—"}</td>
-      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{result.magic || "—"}</td>
-      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{result.fire || "—"}</td>
-      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{result.lightning || "—"}</td>
-      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{result.holy || "—"}</td>
+      <td className="py-2.5 pr-3">
+        <span className="text-sm font-medium text-white">{weapon.name}</span>
+        <span className="ml-2 text-[10px] text-zinc-600">+{effectiveUpgrade}</span>
+        <br />
+        <span className="rounded bg-zinc-800 px-1.5 py-0.5 text-[10px] uppercase text-zinc-500">{TYPE_NAME_MAP[weapon.type] || weapon.type}</span>
+        {isCaster && <span className="ml-1.5 rounded bg-purple-900/30 px-1.5 py-0.5 text-[10px] text-purple-400">{weapon.type === "Glintstone Staff" ? "Sorcery Scaling" : "Incant Scaling"}</span>}
+        {isBowType && <span className="ml-1.5 rounded bg-green-900/30 px-1.5 py-0.5 text-[10px] text-green-400">Bow</span>}
+      </td>
+      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-300">
+        {isCaster ? "—" : isBowType ? "—" : result.totalAR}
+      </td>
+      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{isCaster || isBowType ? "—" : (result.phys || "—")}</td>
+      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{isCaster || isBowType ? "—" : (result.magic || "—")}</td>
+      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{isCaster || isBowType ? "—" : (result.fire || "—")}</td>
+      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{isCaster || isBowType ? "—" : (result.lightning || "—")}</td>
+      <td className="py-2.5 pr-3 text-right font-mono text-sm text-zinc-500">{isCaster || isBowType ? "—" : (result.holy || "—")}</td>
       <td className="py-2.5 pr-3 text-right">
-        <div className="flex gap-1 text-[10px] font-medium">
-          {(["str","dex","int","fai","arc"] as const).map((s) => {
-            const val = weapon.scaling[s];
-            if (!val) return null;
-            const letter = getScalingLetter(val);
-            const colors: Record<string, string> = { S: "text-red-400", A: "text-orange-400", B: "text-amber-400", C: "text-yellow-400", D: "text-zinc-500", E: "text-zinc-600" };
-            return <span key={s} className={`${colors[letter] || "text-zinc-600"} uppercase`}>{letter}</span>;
-          })}
+        <div className="flex flex-col items-end gap-0.5">
+          {(["str","dex","int","fai","arc"] as const).map((s) => (
+            <ScalingLabel key={s} weapon={weapon} attr={s} />
+          ))}
         </div>
       </td>
       <td className="py-2.5 pr-3 text-right">
@@ -110,12 +146,15 @@ export default function WeaponARPage() {
   if (!game) notFound();
 
   const [stats, setStats] = useState<StatInputs>(DEFAULT_STATS);
+  const [upgradeType, setUpgradeType] = useState<"normal" | "somber">("normal");
   const [upgradeLevel, setUpgradeLevel] = useState(25);
   const [twoHanding, setTwoHanding] = useState(false);
   const [selectedType, setSelectedType] = useState<string>("all");
   const [search, setSearch] = useState("");
   const [checkedSlugs, setCheckedSlugs] = useState<Set<string>>(new Set());
   const [showCheckedOnly, setShowCheckedOnly] = useState(false);
+  const [sortKey, setSortKey] = useState<SortKey>("ar");
+  const [sortDesc, setSortDesc] = useState(true);
 
   const filteredWeapons = useMemo(() => {
     let list = ALL_WEAPON_SLUGS;
@@ -125,9 +164,45 @@ export default function WeaponARPage() {
     return list;
   }, [selectedType, search, showCheckedOnly, checkedSlugs]);
 
+  const weaponRows = useMemo((): WeaponRowResult[] => {
+    return filteredWeapons.map((s) => {
+      const w = ALL_WEAPONS[s];
+      const effUpg = upgradeType === "somber" ? (w.somber ? Math.min(upgradeLevel, 10) : 0) : (w.somber ? Math.min(upgradeLevel, 10) : Math.min(upgradeLevel, 25));
+      const r = calculateWeaponAR(w, stats, effUpg, twoHanding);
+      return {
+        slug: s, weapon: w, effectiveUpgrade: effUpg, result: r,
+        isCaster: isStaffOrSeal(w), isBowType: isBow(w),
+      };
+    });
+  }, [filteredWeapons, stats, upgradeLevel, upgradeType, twoHanding]);
+
+  const sortedRows = useMemo(() => {
+    const rows = [...weaponRows];
+    rows.sort((a, b) => {
+      let cmp = 0;
+      if (sortKey === "ar") cmp = (a.result.totalAR || 0) - (b.result.totalAR || 0);
+      else if (sortKey === "phys") cmp = (a.result.phys || 0) - (b.result.phys || 0);
+      else if (sortKey === "magic") cmp = (a.result.magic || 0) - (b.result.magic || 0);
+      else cmp = a.weapon.name.localeCompare(b.weapon.name);
+      return sortDesc ? -cmp : cmp;
+    });
+    return rows;
+  }, [weaponRows, sortKey, sortDesc]);
+
+
   const toggleWeapon = useCallback((s: string) => { setCheckedSlugs((prev) => { const n = new Set(prev); n.has(s) ? n.delete(s) : n.add(s); return n; }); }, []);
   const applyPreset = useCallback((s: StatInputs) => setStats(s), []);
   const comparedWeapons = useMemo(() => ALL_WEAPON_SLUGS.filter((s) => checkedSlugs.has(s)), [checkedSlugs]);
+
+
+
+  const toggleSort = (key: SortKey) => {
+    if (sortKey === key) setSortDesc(!sortDesc);
+    else { setSortKey(key); setSortDesc(key !== "name"); }
+  };
+  const sortArrow = (key: SortKey) => sortKey === key ? (sortDesc ? " ↓" : " ↑") : "";
+
+
 
   return (
     <>
@@ -146,7 +221,7 @@ export default function WeaponARPage() {
 
       <div className="mb-6">
             <h1 className="font-display text-2xl font-bold text-white">Elden Ring Weapon AR Calculator</h1>
-            <p className="mt-2 text-sm leading-relaxed text-zinc-500">Calculate Elden Ring weapon Attack Rating, damage output, and scaling efficiency. Compare weapons, stats, upgrades, and infusions to find the strongest build for your character.</p>
+        <p className="mt-2 text-sm leading-relaxed text-zinc-500">Compare weapon Attack Rating, scaling, upgrades and infusions. Find the strongest weapon for your build with real-time AR calculations.</p>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-[280px_1fr]">
@@ -160,9 +235,44 @@ export default function WeaponARPage() {
           </div>
 
           <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-[#c9a227]">Effective Stats</h2>
+            <div className="space-y-1.5">
+              {STAT_DEFS.map((d) => {
+                const k = d.key as keyof typeof stats;
+                const effective = (k === "str" && twoHanding) ? Math.round(stats[k] * 1.5) : stats[k];
+                const modifier = k === "str" && twoHanding ? " (×1.5)" : "";
+                return (
+                  <div key={d.key} className="flex items-center justify-between">
+                    <span className="text-xs font-semibold uppercase tracking-wider text-zinc-500">{d.short}{modifier}</span>
+                    <span className="font-mono text-xs font-bold text-[#e8d5a3]">{effective}</span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
+            <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-[#c9a227]">Upgrade Type</h2>
+            <div className="space-y-2">
+              <label className="flex items-center gap-2">
+                <input type="radio" name="upgradeType" checked={upgradeType === "normal"} onChange={() => setUpgradeType("normal")}
+                  className="h-4 w-4 rounded border-zinc-700 bg-zinc-900 text-amber-500 focus:ring-amber-500/30" />
+                <span className="text-xs font-medium text-zinc-400">Normal <span className="text-zinc-600">(+0~+25)</span></span>
+              </label>
+              <label className="flex items-center gap-2">
+                <input type="radio" name="upgradeType" checked={upgradeType === "somber"} onChange={() => setUpgradeType("somber")}
+                  className="h-4 w-4 rounded border-zinc-700 bg-zinc-900 text-amber-500 focus:ring-amber-500/30" />
+                <span className="text-xs font-medium text-zinc-400">Somber <span className="text-zinc-600">(+0~+10, special weapons)</span></span>
+              </label>
+            </div>
+            <p className="mt-3 text-[10px] leading-relaxed text-zinc-600">Normal weapons use Smithing Stones. Somber weapons use Somber Smithing Stones (legendary/unique weapons).</p>
+          </div>
+
+          <div className="rounded-sm border border-[#b8956a]/15 bg-[#0a0a0f] p-4">
             <h2 className="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-[#c9a227]">Upgrade Level</h2>
             <div className="flex items-center gap-3">
-              <input type="range" min={0} max={25} value={upgradeLevel} onChange={(e) => setUpgradeLevel(Number(e.target.value))}
+              <input type="range" min={0} max={upgradeType === "somber" ? 10 : 25} value={upgradeLevel}
+                onChange={(e) => setUpgradeLevel(Math.min(Number(e.target.value), upgradeType === "somber" ? 10 : 25))}
                 className="h-1.5 w-full cursor-pointer appearance-none rounded-full bg-zinc-800 accent-amber-500 [&::-webkit-slider-thumb]:h-3.5 [&::-webkit-slider-thumb]:w-3.5 [&::-webkit-slider-thumb]:appearance-none [&::-webkit-slider-thumb]:rounded-full [&::-webkit-slider-thumb]:bg-amber-400"
                 onTouchMove={function(e) { e.preventDefault(); }} />
               <span className="w-10 text-right font-mono text-sm font-bold text-[#e8d5a3]">+{upgradeLevel}</span>
@@ -208,7 +318,8 @@ export default function WeaponARPage() {
               <div className="space-y-2">
                 {comparedWeapons.map((s) => {
                   const w = ALL_WEAPONS[s];
-                  const r = calculateWeaponAR(w, stats, upgradeLevel, twoHanding);
+                  const effUpg = upgradeType === "somber" ? (w.somber ? Math.min(upgradeLevel, 10) : 0) : (w.somber ? Math.min(upgradeLevel, 10) : Math.min(upgradeLevel, 25));
+                  const r = calculateWeaponAR(w, stats, effUpg, twoHanding);
                   return (
                     <div key={s} className="border-b border-white/5 pb-2 last:border-0 last:pb-0">
                       <div className="flex items-center justify-between">
@@ -254,12 +365,12 @@ export default function WeaponARPage() {
           <div className="overflow-y-auto rounded-sm border border-[#b8956a]/10" style={{ maxHeight: "calc(100vh - 220px)" }}>
             <table className="w-full text-xs">
               <thead>
-                <tr className="border-b border-[#b8956a]/10 bg-[#0a0a0f] text-[10px] font-semibold uppercase tracking-wider text-zinc-500">
+                <tr className="border-b border-[#b8956a]/10 bg-[#0a0a0f] text-[10px] font-semibold uppercase tracking-wider text-zinc-500 sticky top-0 z-10">
                   <th className="py-3 pl-3 text-left w-8"></th>
                   <th className="py-3 pr-3 text-left">Weapon</th>
-                  <th className="py-3 pr-3 text-right">Total AR</th>
-                  <th className="py-3 pr-3 text-right">Phys</th>
-                  <th className="py-3 pr-3 text-right">Mag</th>
+                  <th className="py-3 pr-3 text-right cursor-pointer hover:text-zinc-300" onClick={() => toggleSort("ar")}>Total AR{sortArrow("ar")}</th>
+                  <th className="py-3 pr-3 text-right cursor-pointer hover:text-zinc-300" onClick={() => toggleSort("phys")}>Phys{sortArrow("phys")}</th>
+                  <th className="py-3 pr-3 text-right cursor-pointer hover:text-zinc-300" onClick={() => toggleSort("magic")}>Mag{sortArrow("magic")}</th>
                   <th className="py-3 pr-3 text-right">Fire</th>
                   <th className="py-3 pr-3 text-right">Light</th>
                   <th className="py-3 pr-3 text-right">Holy</th>
@@ -268,15 +379,15 @@ export default function WeaponARPage() {
                 </tr>
               </thead>
               <tbody>
-                {filteredWeapons.map((s) => (
-                  <WeaponRow key={s} slug={s} stats={stats} upgradeLevel={upgradeLevel} twoHanding={twoHanding} checked={checkedSlugs.has(s)} onToggle={() => toggleWeapon(s)} />
+                {sortedRows.map((data) => (
+                  <WeaponRow key={data.slug} data={data} checked={checkedSlugs.has(data.slug)} onToggle={() => toggleWeapon(data.slug)} />
                 ))}
               </tbody>
             </table>
           </div>
 
           <p className="mt-4 text-xs text-zinc-700">
-            Showing {filteredWeapons.length} of {ALL_WEAPON_SLUGS.length} weapons. &middot; Check weapons to compare &middot; Adjust stats and upgrade level in the sidebar.
+            Showing {sortedRows.length} of {ALL_WEAPON_SLUGS.length} weapons. &middot; Check weapons to compare &middot; Adjust stats and upgrade level in the sidebar.
           </p>
         </div>
       </div>

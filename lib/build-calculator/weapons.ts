@@ -45,6 +45,7 @@ export const ALL_WEAPON_SLUGS = Object.keys(ALL_WEAPONS).sort(
 );
 
 // Weapon type categories
+// TypeXX are old raw IDs from game data (some weapons still have them)
 export const TYPE_NAME_MAP: Record<string, string> = {
   Type13: "Katana",
   Type15: "Thrusting Sword",
@@ -55,6 +56,33 @@ export const TYPE_NAME_MAP: Record<string, string> = {
   Type28: "Great Spear",
   Type61: "Sacred Seal",
   Type87: "Torch",
+  // Named types (after fix)
+  Dagger: "Dagger",
+  "Straight Sword": "Straight Sword",
+  Greatsword: "Greatsword",
+  "Colossal Sword": "Colossal Sword",
+  "Thrusting Sword": "Thrusting Sword",
+  "Heavy Thrusting Sword": "Heavy Thrusting Sword",
+  "Curved Sword": "Curved Sword",
+  "Curved Greatsword": "Curved Greatsword",
+  Katana: "Katana",
+  Twinblade: "Twinblade",
+  Hammer: "Hammer",
+  "Great Hammer": "Great Hammer",
+  Flail: "Flail",
+  Axe: "Axe",
+  "Colossal Weapon": "Colossal Weapon",
+  Spear: "Spear",
+  "Great Spear": "Great Spear",
+  Halberd: "Halberd",
+  Reaper: "Reaper",
+  Whip: "Whip",
+  Fist: "Fist",
+  Claw: "Claw",
+  Torch: "Torch",
+  "Glintstone Staff": "Glintstone Staff",
+  "Sacred Seal": "Sacred Seal",
+  Bow: "Bow",
 };
 
 export const WEAPON_CATEGORIES: Record<string, string[]> = {};
@@ -85,6 +113,30 @@ export function getScalingLetter(value: number): string {
     if (value >= threshold) return letter;
   }
   return "E";
+}
+
+// ─── Get scaling letter after upgrade ───
+
+export function getUpgradeScalingLetter(
+  weapon: WeaponEntry,
+  upgradeLevel: number,
+  attribute: string
+): string {
+  const scalingFactor = weapon.scaling[attribute as keyof typeof weapon.scaling] ?? 0;
+  if (!scalingFactor) return "-";
+  const upgScalingMult = getUpgradeScalingMult(weapon.reinforceTypeId, upgradeLevel, attribute);
+  const effectiveScaling = scalingFactor * upgScalingMult;
+  return getScalingLetter(effectiveScaling);
+}
+
+// ─── Check if weapon is a staff or seal ───
+
+export function isStaffOrSeal(weapon: WeaponEntry): boolean {
+  return weapon.type === "Glintstone Staff" || weapon.type === "Sacred Seal";
+}
+
+export function isBow(weapon: WeaponEntry): boolean {
+  return weapon.type === "Bow";
 }
 
 // ─── CalcCorrect lookup ───
@@ -201,7 +253,7 @@ export function calculateWeaponAR(
           if (!scalingFactor) continue;
 
           const upgScalingMult = getUpgradeScalingMult(weapon.reinforceTypeId, upgradeLevel, attrKey);
-          const effectiveScaling = (scalingFactor / 100) * upgScalingMult;
+          const effectiveScaling = scalingFactor * upgScalingMult;
 
           const statValue = attrKey === "str" ? effectiveStr : stats[attrKey as keyof typeof stats];
 
