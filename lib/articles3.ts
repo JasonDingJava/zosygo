@@ -466,8 +466,8 @@ const article40: Article = {
   difficulty: "beginner",
   readTimeMinutes: 13,
   order: 40,
-  title: "Elden Ring Poise Breakpoints Explained (2026): 51, 61, 101 Poise, Hyper Armor & Best Armor",
-  h1: "Elden Ring Poise Breakpoints Explained (2026): 51, 61, 101 Poise, Hyper Armor & Best Armor",
+  title: "Elden Ring Poise Guide: 51, 61, 101 Breakpoints, Hyper Armor & Best Armor",
+  h1: "Elden Ring Poise Guide: 51, 61, 101 Breakpoints, Hyper Armor & Best Armor",
   metaDescription:
     "Elden Ring poise determines whether you stagger when hit. Learn 51/61/101 poise breakpoints, hyper armor by weapon type, Bull-Goat set, and the best poise builds for PvE and PvP.",
   sections: [

@@ -1136,7 +1136,7 @@ const article35: Article = {
   difficulty: "beginner",
   readTimeMinutes: 7,
   order: 35,
-  title: "Nagakiba Elden Ring Guide (2026): Best Builds, Bleed Setup, Location & Why Its Range Is Broken",
+  title: "Nagakiba Elden Ring Guide: Best Bleed Builds, Location, Scaling & Range Explained",
   metaDescription:
     "Complete Elden Ring Nagakiba guide covering location, best DEX and bleed builds, scaling, infusions, Ashes of War, and why its extreme range makes it one of the strongest katanas.",
   sections: [
