@@ -457,7 +457,7 @@ const article40: Article = {
     { label: "📊 Key Numbers", value: "51 poise resists many common PvE light attacks; 61 = medium trades; 101 = heavy trades" },
     { label: "⚔️ Hyper Armor", value: "Heavy weapons (colossal > greatsword > greataxe > halberd > katana)" },
     { label: "🛡️ Best Armor", value: "Bull-Goat set (100 poise), or mix pieces for 51/61 breakpoints" },
-    { label: "💡 Bull-Goat Talisman", value: "Increases poise by approximately 33% — enables breakpoints with lighter armor" },
+    { label: "💡 Bull-Goat Talisman", value: "Increases poise by ~33%; Veteran Set 77→102, Bull-Goat 100→133" },
     { label: "⚠️ Common Myth", value: "Poise does NOT reduce damage — only prevents stagger during attacks" },
   ],
   slug: "poise-explained",
