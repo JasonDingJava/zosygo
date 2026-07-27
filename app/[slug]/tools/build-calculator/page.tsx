@@ -798,7 +798,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
         {/* Header */}
         <div className="mb-6">
           <div className="flex items-center justify-between">
-            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Planner &amp; Build Calculator{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
+            <h1 className="text-3xl font-bold text-yellow-400">Elden Ring Build Planner{buildName ? <span className="ml-2 text-lg font-normal text-gray-400">— {buildName}</span> : ""}</h1>
             <button
               onClick={function() {
                 setStats({vigor:30,mind:12,endurance:20,strength:16,dexterity:14,intelligence:10,faith:10,arcane:8});
@@ -1618,7 +1618,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
         <section className="pt-8">
           <h2 className="text-2xl font-bold text-white">What Is the Elden Ring Build Planner 2026?</h2>
           <p className="mt-4 text-base leading-relaxed text-gray-400">
-            The Elden Ring Build Planner is a free character planning tool that helps you create, optimize, and share powerful builds.
+            The Elden Ring Build Planner is an advanced Elden Ring build calculator that helps players create, optimize, and compare character builds.
           </p>
           <p className="mt-4 text-base leading-relaxed text-gray-400">
             Customize your starting class, stats, weapons, armor, talismans, and spells while seeing real-time calculations for HP, FP, stamina, equip load, and weapon Attack Rating.
@@ -1640,6 +1640,23 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               </a>
             </div>
           </div>
+        </section>
+
+        <section className="mt-12 border-t border-gray-800 pt-12">
+          <h2 className="text-2xl font-bold text-white">Elden Ring Build Calculator Features</h2>
+          <p className="mt-4 text-base leading-relaxed text-gray-400">
+            The Elden Ring Build Calculator helps players test different stat distributions, weapon combinations, and equipment setups before committing Rune Levels.
+          </p>
+          <p className="mt-4 text-base leading-relaxed text-gray-400">
+            Calculate:
+          </p>
+          <ul className="mt-1 list-inside list-disc text-sm text-gray-400">
+            <li>Weapon Attack Rating</li>
+            <li>HP, FP, and Stamina</li>
+            <li>Equip Load</li>
+            <li>Stat Scaling</li>
+            <li>Soft Cap Efficiency</li>
+          </ul>
         </section>
 
         {/* Talisman Picker Modal */}
@@ -1736,7 +1753,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
         </section>
 
         <section className="mt-12 border-t border-gray-800 pt-12">
-          <h2 className="text-2xl font-bold text-white">Recommended Builds</h2>
+          <h2 className="text-2xl font-bold text-white">Elden Ring Build Planner Recommended Builds</h2>
 
           <h3 className="mt-6 text-lg font-semibold text-white">Pure Dexterity Bleed Build</h3>
           <p className="mt-2 text-sm leading-relaxed text-gray-400">High DPS bleed build focused on fast weapons and Arcane scaling.</p>
@@ -1779,6 +1796,7 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
               { q: "What is an Elden Ring stat optimizer?", a: "An Elden Ring stat optimizer helps you find the most efficient way to spend Rune Levels.<br><br>It analyzes:<br><br>- Soft caps<br>- Attribute efficiency<br>- Weapon requirements<br>- Damage scaling<br>- Build balance" },
               { q: "How do soft caps affect Elden Ring builds?", a: "Soft caps reduce the benefits of investing too many points into one attribute.\n\nThe Elden Ring Build Planner helps you identify efficient stopping points and avoid wasting levels on low-value stats." },
               { q: "What is the best Level 150 Elden Ring build?", a: "Popular Level 150 builds include:<br><br>- Bleed builds with high Arcane<br>- Moonveil Intelligence builds<br>- Strength Greatsword builds<br>- Faith Blasphemous Blade builds<br><br>The best build depends on your weapon choice and playstyle." },
+              { q: "What is the difference between an Elden Ring Build Planner and Build Calculator?", a: "An Elden Ring Build Planner is a complete character optimization tool that includes build calculation features.<br><br>A build calculator focuses on calculating stats and damage, while a build planner allows players to create complete builds with weapons, armor, talismans, spells, and attributes." },
             ].map(function(item, i) { return (
               <details key={i} className="group rounded-sm border border-gray-800 bg-gray-900/50">
                 <summary className="flex cursor-pointer items-center justify-between p-4 text-sm font-semibold text-white transition-colors hover:text-yellow-300">
