@@ -28,7 +28,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!game) return {};
 
   const catLabel = category.charAt(0).toUpperCase() + category.slice(1);
-  const title = `${game.name} ${catLabel} — Guides, Tips & Strategies | Zosygo`;
+  const title = `${game.name} ${catLabel} — Guides, Tips & Strategies`;
   const description = `Comprehensive ${game.name} ${category} guides covering everything you need to know.`;
 
   return {

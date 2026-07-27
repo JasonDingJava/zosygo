@@ -175,7 +175,7 @@ export function generateGameJsonLd(game: Game) {
 
 export function generateHomeMetadata(): Metadata {
   const title =
-    "Game Guides Hub — Game Wiki, Walkthroughs & Boss Strategies | Zosygo";
+    "Game Guides Hub — Game Wiki, Walkthroughs & Boss Strategies";
   const description =
     "Zosygo is your game guides hub and game wiki for walkthroughs, meta builds, boss strategies, and complete coverage of Elden Ring, GTA 6, Cyberpunk 2077, and more.";
 
@@ -242,8 +242,8 @@ export function generateGameMetadata(game: Game): Metadata {
   };
 
   const title = titleTemplates[game.slug]
-    ? `${titleTemplates[game.slug]} | ${SITE_NAME}`
-    : `${game.name} — Guides, Builds & Walkthroughs | ${SITE_NAME}`;
+    ? titleTemplates[game.slug]
+    : `${game.name} — Guides, Builds & Walkthroughs`;
 
   const ogUrl = `${SITE_URL}/${game.slug}`;
   const images = resolveImages(game.ogImage || game.heroImage, 1200, 630);

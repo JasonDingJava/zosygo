@@ -8,7 +8,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata = {
-  title: "Terms of Service | Zosygo",
+  title: "Terms of Service",
   description: "Zosygo terms of service — rules, disclaimers, and usage guidelines.",
 };
 

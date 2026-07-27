@@ -8,7 +8,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata = {
-  title: "Privacy Policy | Zosygo",
+  title: "Privacy Policy",
   description: "Zosygo privacy policy — how we collect, use, and protect your data.",
 };
 

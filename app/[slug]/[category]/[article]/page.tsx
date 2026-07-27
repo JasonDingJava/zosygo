@@ -107,7 +107,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const nightreignPrefix = isNightreign ? "/nightreign" : "";
 
   return {
-    title: `${article.title} | Zosygo`,
+    title: `${article.title}`,
     description: article.metaDescription,
     alternates: {
       canonical: `https://www.zosygo.com/${slug}${nightreignPrefix}/${article.category}/${article.slug}`,

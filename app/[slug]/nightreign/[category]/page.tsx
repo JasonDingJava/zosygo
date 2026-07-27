@@ -15,10 +15,10 @@ const SITE_URL = "https://www.zosygo.com";
 const NIGHTREIGN_CATEGORIES = ["builds", "bosses", "weapons", "walkthroughs"] as const;
 
 const TITLE_TEMPLATES: Record<string, string> = {
-  builds: "Elden Ring Nightreign Character Builds — Best Builds for Every Hero | Zosygo",
-  bosses: "Elden Ring Nightreign Boss Guides — Nightlord & All Boss Strategies | Zosygo",
-  weapons: "Elden Ring Nightreign Weapons — Stats, Upgrades & Best Gear | Zosygo",
-  walkthroughs: "Elden Ring Nightreign Walkthrough — 3-Day Cycle Complete Guide | Zosygo",
+  builds: "Elden Ring Nightreign Character Builds — Best Builds for Every Hero",
+  bosses: "Elden Ring Nightreign Boss Guides — Nightlord & All Boss Strategies",
+  weapons: "Elden Ring Nightreign Weapons — Stats, Upgrades & Best Gear",
+  walkthroughs: "Elden Ring Nightreign Walkthrough — 3-Day Cycle Complete Guide",
 };
 
 const DESCRIPTION_TEMPLATES: Record<string, string> = {
@@ -121,7 +121,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, category } = await params;
   if (slug !== "elden-ring" || !NIGHTREIGN_CATEGORIES.includes(category as any)) return {};
 
-  const title = TITLE_TEMPLATES[category] ?? `Elden Ring Nightreign ${CATEGORY_DATA[category].label} | Zosygo`;
+  const title = TITLE_TEMPLATES[category] ?? `Elden Ring Nightreign ${CATEGORY_DATA[category].label}`;
   const description = DESCRIPTION_TEMPLATES[category] ?? CATEGORY_DATA[category].description;
   const canonical = `${SITE_URL}/elden-ring/nightreign/${category}`;
   const path = `/elden-ring/nightreign/${category}`;

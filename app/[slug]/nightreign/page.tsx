@@ -18,7 +18,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
   if (slug !== "elden-ring") return {};
 
-  const title = "Elden Ring Nightreign — Character Builds, Boss Guides & Walkthroughs | Zosygo";
+  const title = "Elden Ring Nightreign — Character Builds, Boss Guides & Walkthroughs";
   const description =
     "Comprehensive Elden Ring Nightreign guides covering FromSoftware's standalone co-op survival game. Character builds for all 8 heroes, boss strategies, weapon picks, relic upgrades, and 3-day cycle walkthroughs.";
 
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       languages: generateAlternateLanguages(NIGHTREIGN_PATH),
     },
     openGraph: {
-      title: "Elden Ring Nightreign — Complete Guide Hub | Zosygo",
+      title: "Elden Ring Nightreign — Complete Guide Hub",
       description:
         "Master Nightreign with detailed character builds for Wylder, Recluse, Duchess, Guardian, and more. Boss guides, weapon stats, and day-cycle strategies for FromSoftware's co-op roguelite.",
       url: NIGHTREIGN_URL,
@@ -62,7 +62,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Elden Ring Nightreign — Complete Guide Hub | Zosygo",
+      title: "Elden Ring Nightreign — Complete Guide Hub",
       description:
         "Character builds, boss guides, weapons, and walkthroughs for Nightreign — the co-op survival game from FromSoftware.",
       images: [`${SITE_URL}/images/elden-ring-og.jpg`],

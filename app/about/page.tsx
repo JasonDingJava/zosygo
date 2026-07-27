@@ -8,7 +8,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata = {
-  title: "About | Zosygo",
+  title: "About",
   description: "Zosygo is an independent game tools and guides site focused on Elden Ring builds, calculators, and boss strategies.",
 };
 

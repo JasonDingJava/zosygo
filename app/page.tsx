@@ -5,6 +5,10 @@ import { getAllGames } from "@/lib/games";
 import { articles } from "@/lib/articles";
 import { generateHomeJsonLd, generateBreadcrumbJsonLd } from "@/lib/seo";
 
+export const metadata = {
+  title: "Elden Ring Guides, Builds & Boss Strategies | Zosygo",
+};
+
 const cinzel = Cinzel({
   subsets: ["latin"],
   variable: "--font-display",

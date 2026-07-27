@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.zosygo.com"),
   title: {
-    default: "Elden Ring Build Planner, Guides & Boss Strategies | Zosygo",
+    default: "Elden Ring Build Planner, Guides & Boss Strategies",
     template: "%s | Zosygo",
   },
   description: "Elden Ring build planner, starting class guide, weapon comparisons, boss strategies, and walkthroughs. Plan your perfect Tarnished build with Zosygo's free tools and detailed guides.",

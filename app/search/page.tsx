@@ -10,7 +10,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata = {
-  title: "Search | Zosygo",
+  title: "Search",
   description: "Search game guides, builds, boss strategies, and tools on Zosygo.",
 };
 

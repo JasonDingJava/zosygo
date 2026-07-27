@@ -8,7 +8,7 @@ const cinzel = Cinzel({
 });
 
 export const metadata = {
-  title: "Contact | Zosygo",
+  title: "Contact",
   description: "Get in touch with the Zosygo team.",
 };
 
