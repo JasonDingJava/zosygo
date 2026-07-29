@@ -1020,290 +1020,135 @@ const article43: Article = {
     { label: "🛡️ Best AoW for ARC", value: "Seppuku (bleed buff), Blood Blade (ranged bleed)" },
     { label: "📊 Key Rule", value: "Your weapon matters. Your Ash of War often matters MORE" },
   ],
-  slug: "ashes-of-war-guide",
+    slug: "ashes-of-war-guide",
   category: "walkthroughs",
   gameSlug: "elden-ring",
   difficulty: "beginner",
-  readTimeMinutes: 10,
+  readTimeMinutes: 12,
   order: 43,
-  title: "Ashes of War Guide: How Weapon Skills, Affinities, and Scaling Actually Work in Elden Ring (2026)",
+  title: "Elden Ring Ashes of War Guide 2026: Best Skills, Affinities & Scaling Explained",
+  h1: "Elden Ring Ashes of War Guide 2026: Best Skills, Affinities & Scaling Explained",
   metaDescription:
-    "Complete Elden Ring Ashes of War guide covering weapon skills, affinities, scaling changes, best Ashes of War, build optimization, and common mistakes.",
+    "Complete Elden Ring Ashes of War guide for 2026. Learn how weapon skills, affinities, scaling, and upgrades work. Find the best Ashes of War for Strength, Dex, Bleed, Mage, and Faith builds.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Ashes of War are one of the most powerful systems in Elden Ring.\n\nThey do much more than add a weapon skill.\n\nThey can completely transform a weapon's identity.\n\nA standard sword can become a Strength weapon.\n\nA Dexterity weapon can become an Intelligence weapon.\n\nA simple katana can become the foundation of a bleed build.\n\nUnderstanding Ashes of War is one of the biggest differences between a functional build and an optimized build.\n\nMany players spend hours farming weapons.\n\nVeteran players often spend more time choosing the right Ash of War.",
+        "Elden Ring Ashes of War Explained\n\nAshes of War are one of Elden Ring\'s most important build systems.\n\nThey do two things:\n\n* Add a unique weapon skill\n* Change your weapon affinity and stat scaling\n\nA single weapon can completely change its role depending on the Ash of War you choose.\n\nFor example:\n\nGreatsword + Heavy affinity → Strength weapon\nNagakiba + Occult affinity → Arcane bleed weapon\nClaymore + Cold affinity → Intelligence frost weapon\n\nChoosing the correct Ash of War is often more important than choosing the weapon itself.",
     },
     {
-      heading: "Quick Answer",
+      heading: "Elden Ring Ashes of War Quick Answer",
       level: 2,
       content:
-        "If you want the simplest explanation:\n\n* Ashes of War add weapon skills\n* Ashes of War can change weapon scaling\n* Ashes of War determine affinities\n* The right Ash of War can increase damage dramatically\n\nIn short:\n\n> Your weapon matters. Your Ash of War often matters more.",
+        "The best Ashes of War depend on your build:\n",
+      table: {
+        headers: ['Build', 'Best Ashes of War'],
+        rows: [['Strength', "Lion's Claw, Cragblade, Giant Hunt"], ['Dexterity', 'Unsheathe, Sword Dance, Double Slash'], ['Bleed', 'Seppuku, Bloody Slash, Blood Blade'], ['Intelligence', 'Chilling Mist, Carian Grandeur'], ['Faith', 'Flaming Strike, Sacred Blade'], ['PvP', 'Storm Stomp, Piercing Fang']]
+      }
+    },
+    {
+      heading: "",
+      level: 2,
+      content:
+        "For most PvE players:\n\n* Lion\'s Claw = best Strength option\n* Unsheathe = best Katana burst skill\n* Seppuku = strongest bleed setup\n* Chilling Mist = strongest frost utility",
+    },
+    {
+      heading: "How Do Ashes of War Work?",
+      level: 2,
+      content:
+        "Every Ash of War contains three components:\n\n### 1. Weapon Skill\n\nThe active ability you use in combat.\n\nExamples:\n\n* Lion\'s Claw → forward flip attack\n* Unsheathe → fast katana slash\n* Seppuku → bleed buff\n\n### 2. Affinity\n\nDetermines your weapon scaling.\n\nExamples:\n\n* Heavy: Higher Strength scaling, lower Dexterity scaling\n* Keen: Higher Dexterity scaling\n* Blood: Adds Bleed buildup\n* Occult: Adds Arcane scaling\n* Cold: Adds Frost buildup\n\n### 3. Scaling\n\nScaling determines how much damage your stats provide.\n\nA weapon with S Strength scaling will gain more damage from Strength levels.\n\nThe same weapon with B Strength scaling will gain less.",
+    },
+    {
+      heading: "Elden Ring Affinity Guide",
+      level: 2,
+      content:
+        "Quick reference for every affinity in Elden Ring:\n",
+      table: {
+        headers: ['Affinity', 'Best Stat', 'Best Builds'],
+        rows: [['Heavy', 'Strength', 'Colossal weapons, Greatswords'], ['Keen', 'Dexterity', 'Katanas, curved swords'], ['Quality', 'STR + DEX', 'High level builds (150+)'], ['Magic', 'Intelligence', 'Spellblade builds'], ['Cold', 'Intelligence', 'Frost builds, hybrid INT'], ['Sacred', 'Faith', 'Holy builds, undead zones'], ['Flame Art', 'Faith', 'Fire builds, Blasphemous Blade'], ['Blood', 'Arcane', 'Bleed builds'], ['Occult', 'Arcane', 'Endgame Arcane builds']]
+      }
     },
     {
       heading: "What Are Ashes of War?",
       level: 2,
       content:
-        "Ashes of War are customizable upgrades that can be applied to compatible weapons.\n\nThey provide two major benefits:",
-    },
-    {
-      heading: "Weapon Skills",
-      level: 3,
-      content:
-        "Special attacks activated with FP.\n\nExamples:\n\n* Lion's Claw\n* Bloodhound's Step\n* Unsheathe\n* Flaming Strike",
-    },
-    {
-      heading: "Affinity Changes",
-      level: 3,
-      content:
-        "Affinities modify:\n\n* Damage types\n* Scaling values\n* Build optimization\n\nThis is where most of their power comes from.",
+        "Ashes of War are customizable upgrades that can be applied to compatible weapons.\n\nThey provide two major benefits:\n\n### Weapon Skills\n\nSpecial attacks activated with FP.\n\nCommon examples:\n\n* Lion\'s Claw\n* Bloodhound\'s Step\n* Unsheathe\n* Flaming Strike\n\n### Affinity Changes\n\nAffinities modify:\n\n* Damage types\n* Scaling values\n* Build optimization\n\nThis is where most of their power comes from.",
     },
     {
       heading: "Why Ashes of War Are So Important",
       level: 2,
       content:
-        "Most RPGs lock weapons into fixed roles.\n\nElden Ring does not.\n\nAshes of War allow players to reshape weapons around their build.\n\nFor example:\n\n* A Greatsword can become a Strength weapon\n* A Nagakiba can become an Arcane weapon\n* A Claymore can become an Intelligence weapon\n\nThe weapon stays the same.\n\nThe scaling changes completely.",
+        "Most RPGs lock weapons into fixed roles.\n\nElden Ring does not.\n\nAshes of War allow players to reshape weapons around their build.\n\nFor example:\n\n* A Greatsword can become a Strength weapon\n* A Nagakiba can become an Arcane weapon\n* A Claymore can become an Intelligence weapon\n\nThe weapon stays the same. The scaling changes completely.",
     },
     {
-      heading: "How Ashes of War Actually Work",
+      heading: "Best Ashes of War in Elden Ring",
       level: 2,
       content:
-        "Every Ash of War contains two systems.",
+        "The best Ashes of War in Elden Ring, ranked by overall PvE performance:\n",
     },
     {
-      heading: "System 1: Weapon Skill",
-      level: 3,
-      content:
-        "The visible part.\n\nExamples:\n\n* Spinning Slash\n* Giant Hunt\n* Sword Dance\n\nThese affect combat directly.",
-    },
-    {
-      heading: "System 2: Affinity",
-      level: 3,
-      content:
-        "The hidden power system.\n\nAffinities determine:\n\n* Damage scaling\n* Attribute efficiency\n* Build compatibility\n\nMost damage optimization comes from affinity selection.",
-    },
-    {
-      heading: "Affinity System Explained",
+      heading: "",
       level: 2,
       content:
-        "Choosing the correct affinity is often more important than choosing the weapon itself.",
+        "### S Tier\n\n#### Lion\'s Claw\n\nBest for:\n\n* Greatsword\n* Colossal weapons\n* Strength builds\n\nWhy:\n\n* Extremely high stance damage\n* Hyper armor during the attack\n* Easy boss punish window\n* One of the best boss-killing skills in the game\n\n#### Seppuku\n\nBest for:\n\n* Bleed builds\n* Nagakiba\n* Uchigatana\n\nWhy:\n\n* Massive bleed buildup boost\n* Activates Lord of Blood\'s Exultation\n* Works exceptionally well with dual weapons\n* The strongest bleed setup tool\n\n#### Unsheathe\n\nBest for:\n\n* Katana builds\n* Dexterity builds\n* Samurai starting class\n\nWhy:\n\n* Huge burst damage\n* Fast recovery after the attack\n* Excellent posture damage\n* The heavy attack variant has extremely high stagger",
     },
     {
-      heading: "Standard",
-      level: 3,
-      content:
-        "Default weapon behavior.\n\nCharacteristics:\n\n* Balanced scaling\n* No specialization\n\nBest for:\n\n* Early game",
-    },
-    {
-      heading: "Heavy",
-      level: 3,
-      content:
-        "Strength-focused affinity.\n\nEffects:\n\n* Increases Strength scaling\n* Reduces Dexterity scaling\n\nBest for:\n\n* Greatsword\n* Giant-Crusher\n* Strength builds",
-    },
-    {
-      heading: "Keen",
-      level: 3,
-      content:
-        "Dexterity-focused affinity.\n\nEffects:\n\n* Increases Dexterity scaling\n* Reduces Strength scaling\n\nBest for:\n\n* Nagakiba\n* Uchigatana\n* Guardian's Swordspear",
-    },
-    {
-      heading: "Quality",
-      level: 3,
-      content:
-        "Hybrid scaling affinity.\n\nEffects:\n\n* Balanced Strength and Dexterity scaling\n\nBest for:\n\n* High-level characters\n* Quality builds",
-    },
-    {
-      heading: "Magic",
-      level: 3,
-      content:
-        "Intelligence-focused affinity.\n\nEffects:\n\n* Adds magic damage\n* Adds Intelligence scaling\n\nBest for:\n\n* Spellblade builds\n* Moonveil alternatives",
-    },
-    {
-      heading: "Cold",
-      level: 3,
-      content:
-        "Frost-based affinity.\n\nEffects:\n\n* Adds Frost buildup\n* Retains useful scaling\n\nBest for:\n\n* Hybrid Intelligence builds\n* Frost status setups",
-    },
-    {
-      heading: "Sacred",
-      level: 3,
-      content:
-        "Faith-focused affinity.\n\nEffects:\n\n* Adds Holy damage\n* Improves Faith scaling\n\nBest for:\n\n* Faith builds\n* Holy-focused characters",
-    },
-    {
-      heading: "Flame Art",
-      level: 3,
-      content:
-        "Faith fire affinity.\n\nEffects:\n\n* Fire damage scaling through Faith\n\nBest for:\n\n* Blasphemous Blade style builds",
-    },
-    {
-      heading: "Blood",
-      level: 3,
-      content:
-        "Bleed-focused affinity.\n\nEffects:\n\n* Adds Blood Loss buildup\n\nBest for:\n\n* Arcane bleed builds",
-    },
-    {
-      heading: "Poison",
-      level: 3,
-      content:
-        "Poison-focused affinity.\n\nEffects:\n\n* Adds Poison buildup\n\nBest for:\n\n* Status effect builds",
-    },
-    {
-      heading: "Occult",
-      level: 3,
-      content:
-        "Arcane scaling affinity.\n\nEffects:\n\n* Strong Arcane scaling\n* Excellent late-game damage\n\nBest for:\n\n* Arcane-focused characters",
-    },
-    {
-      heading: "Best Ashes of War For PvE",
+      heading: "",
       level: 2,
       content:
-        "Some Ashes consistently outperform others.",
+        "### A Tier\n\n#### Giant Hunt\n\nBest for:\n\n* Greatswords\n* Spears\n* Strength builds\n\nWhy:\n\n* Excellent posture damage\n* Launches humanoid enemies\n* Reliable stagger against most bosses\n\n#### Cragblade\n\nBest for:\n\n* Colossal weapons\n* Strength builds\n\nWhy:\n\n* Increases stance damage significantly\n* Short recovery time\n* Excellent for stance break focused builds\n\n#### Flaming Strike\n\nBest for:\n\n* Faith builds\n* Melee-focused characters\n* Fire-infused weapons\n\nWhy:\n\n* Buffs weapon damage temporarily\n* Strong fire burst on activation\n* Fast execution with low recovery\n\n#### Sword Dance\n\nBest for:\n\n* Dexterity builds\n* Curved swords\n* Quality builds\n\nWhy:\n\n* Strong mobility\n* Consistent DPS\n* Flexible application against different enemy types\n\n#### Chilling Mist\n\nBest for:\n\n* Intelligence builds\n* Frost setups\n* Hybrid builds\n\nWhy:\n\n* Adds Frost buildup\n* Weapon buff that improves damage\n* Excellent for Frostbite procs",
     },
     {
-      heading: "Lion's Claw",
-      level: 3,
-      content:
-        "Why it's strong:\n\n* Massive stagger damage\n* Hyper armor\n* Excellent boss punishment\n\nBest for:\n\n* Greatswords\n* Colossal weapons",
-    },
-    {
-      heading: "Flaming Strike",
-      level: 3,
-      content:
-        "Why it's strong:\n\n* Buffs weapon damage\n* Strong fire burst\n* Fast execution\n\nBest for:\n\n* Melee-focused builds",
-    },
-    {
-      heading: "Giant Hunt",
-      level: 3,
-      content:
-        "Why it's strong:\n\n* Excellent posture damage\n* Powerful against humanoid enemies\n\nBest for:\n\n* Strength builds",
-    },
-    {
-      heading: "Unsheathe",
-      level: 3,
-      content:
-        "Why it's strong:\n\n* Fast execution\n* High burst damage\n* Excellent stagger pressure\n\nBest for:\n\n* Katanas",
-    },
-    {
-      heading: "Sword Dance",
-      level: 3,
-      content:
-        "Why it's strong:\n\n* Strong mobility\n* Consistent DPS\n* Flexible application\n\nBest for:\n\n* Dexterity builds",
-    },
-    {
-      heading: "Best Ashes of War For Bleed Builds",
+      heading: "Best Ashes of War by Build",
       level: 2,
       content:
-        "Bleed remains one of the strongest PvE mechanics.\n\nTop choices include:",
-    },
-    {
-      heading: "Seppuku",
-      level: 3,
-      content:
-        "Provides:\n\n* Additional bleed buildup\n* Huge status pressure\n\nBest for:\n\n* Nagakiba\n* Uchigatana",
-    },
-    {
-      heading: "Bloody Slash",
-      level: 3,
-      content:
-        "Provides:\n\n* High burst damage\n* Early-game power spike\n\nBest for:\n\n* New characters",
-    },
-    {
-      heading: "Best Ashes of War For Stance Breaking",
-      level: 2,
-      content:
-        "Stance damage is often stronger than raw DPS.\n\nTop options:\n\n### Lion's Claw\n\nExtremely high posture damage.\n\n### Giant Hunt\n\nReliable stagger potential.\n\n### Stamp (Upward Cut)\n\nStrong against aggressive enemies.",
+        "Best Ashes of War by Build:\n",
+      table: {
+        headers: ['Build', 'Recommended Weapon', 'Best Ash of War'],
+        rows: [['Strength', 'Greatsword', "Lion's Claw"], ['Colossal', 'Giant Crusher', 'Cragblade'], ['Bleed', 'Nagakiba', 'Seppuku'], ['Dexterity', 'Uchigatana', 'Unsheathe'], ['Intelligence', 'Claymore', 'Chilling Mist'], ['Faith', 'Straight Sword', 'Sacred Blade'], ['PvP', 'Any weapon', 'Storm Stomp']]
+      }
     },
     {
       heading: "How To Choose The Right Ash of War",
       level: 2,
       content:
-        "Ask three questions:\n\n### What Is My Main Stat?\n\n* Strength\n* Dexterity\n* Intelligence\n* Faith\n* Arcane",
-    },
-    {
-      heading: "What Is My Win Condition?",
-      level: 3,
-      content:
-        "* Bleed\n* Frost\n* Burst damage\n* Stance breaks",
-    },
-    {
-      heading: "Does The Affinity Match My Build?",
-      level: 3,
-      content:
-        "This is the most important question.\n\nWrong affinity can reduce overall damage dramatically.",
+        "Choosing the right Ash of War follows a simple decision process:\n\n### Step 1: Choose Your Main Stat\n\n* STR → Heavy affinity\n* DEX → Keen affinity\n* INT → Magic or Cold affinity\n* FAI → Sacred or Flame Art affinity\n* ARC → Blood or Occult affinity\n\n### Step 2: Choose Your Goal\n\n* Damage → Lion\'s Claw, Unsheathe, Giant Hunt\n* Status → Seppuku (Bleed), Chilling Mist (Frost)\n* Stance break → Cragblade, Lion\'s Claw\n* PvP → Storm Stomp, Piercing Fang\n\n### Step 3: Test Scaling\n\nUse the Weapon AR Calculator to compare how different affinities affect your weapon\'s damage output.\n\nThe right Ash of War can increase your effective damage by 30-50% compared to the wrong choice.",
     },
     {
       heading: "Common Ashes of War Mistakes",
       level: 2,
       content:
-        "### Choosing Skills Based On Animation\n\nMany flashy skills perform poorly.\n\nDamage and scaling matter more.",
-    },
-    {
-      heading: "Ignoring Affinity Changes",
-      level: 3,
-      content:
-        "Some players only look at the skill.\n\nThe affinity often has greater impact than the skill itself.",
-    },
-    {
-      heading: "Using Quality Too Early",
-      level: 3,
-      content:
-        "Quality builds require high levels.\n\nHeavy or Keen usually outperform it during progression.",
-    },
-    {
-      heading: "Copying Endgame Builds",
-      level: 3,
-      content:
-        "An Ash of War that works at level 150 may be inefficient at level 50.",
-    },
-    {
-      heading: "Ashes of War and Weapon Scaling",
-      level: 2,
-      content:
-        "Ashes of War directly affect scaling.\n\nFor example:",
-    },
-    {
-      heading: "Greatsword",
-      level: 3,
-      content:
-        "Standard:\n\n* Moderate Strength scaling\n\nHeavy:\n\n* Much stronger Strength scaling",
-    },
-    {
-      heading: "Nagakiba",
-      level: 3,
-      content:
-        "Standard:\n\n* Balanced Dexterity scaling\n\nBlood:\n\n* Adds bleed pressure\n\nOccult:\n\n* Improves Arcane scaling\n\nThe weapon stays the same.\n\nThe build changes completely.",
+        "### Choosing Skills Based On Animation\n\nMany flashy skills perform poorly. Damage and utility matter more than visuals.\n\n### Ignoring Affinity Changes\n\nSome players only look at the skill. The affinity often has greater impact than the skill itself.\n\n### Using Quality Too Early\n\nQuality affinity requires high STR and DEX levels. Heavy or Keen usually outperform it during normal progression.\n\n### Copying Endgame Builds\n\nAn Ash of War that works at level 150 may be inefficient at level 50. Choose based on your current stats.",
     },
     {
       heading: "How Ashes of War Affect Build Diversity",
       level: 2,
       content:
-        "Ashes of War are one of the reasons Elden Ring has so much build variety.\n\nWithout them:\n\n* Most weapons would have fixed roles\n\nWith them:\n\n* One weapon can support multiple archetypes\n* Different builds can share the same weapon\n* Scaling becomes customizable\n\nThis system creates enormous replay value.",
-    },
-    {
-      heading: "What Ashes of War Teach Players",
-      level: 2,
-      content:
-        "Ashes of War reveal one of Elden Ring's most important design principles:\n\nThe strongest build is not created by finding the strongest weapon.\n\nIt is created by matching:\n\n* The correct weapon\n* The correct affinity\n* The correct scaling\n* The correct Ash of War\n\nPlayers who understand this often gain more damage from optimization than from leveling.",
+        "Ashes of War are one of the reasons Elden Ring has so much build variety.\n\nWithout them:\n\n* Most weapons would have fixed roles\n* Build experimentation would be limited\n\nWith them:\n\n* One weapon can support multiple archetypes\n* Different builds can share the same weapon\n* Scaling becomes customizable\n\nThis system creates enormous replay value and is central to Elden Ring\'s build identity.",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### What do Ashes of War do in Elden Ring?\n\nThey add weapon skills and allow affinity changes that modify scaling and damage.\n\n### Can Ashes of War increase damage?\n\nYes. Proper affinity selection can dramatically increase weapon performance.\n\n### What is the best Ash of War?\n\nThere is no universal best option. Lion's Claw, Unsheathe, Giant Hunt, and Flaming Strike are among the strongest PvE choices.\n\n### What is the best affinity?\n\nThe best affinity depends on your primary attribute and build strategy.\n\n### Are Ashes of War more important than weapons?\n\nIn many cases, yes. The correct Ash of War can completely transform a weapon's effectiveness. ",
+        "### What is the strongest Ash of War?\n\nFor PvE, Lion\'s Claw, Seppuku, Unsheathe, and Giant Hunt are among the strongest options depending on your build.\n\n### Can you change Ashes of War?\n\nYes. Ashes of War can be replaced at any Site of Grace. You can also freely swap between affinities you have unlocked.\n\n### Does Ash of War change scaling?\n\nYes. Many Ashes of War allow you to change weapon affinity, which changes stat scaling. A Heavy affinity improves Strength scaling, while Keen improves Dexterity scaling.\n\n### What is the best Ash of War for bleed?\n\nSeppuku is generally the strongest choice because it increases bleed buildup and works with Arcane weapons.\n\n### How do I duplicate Ashes of War?\n\nLost Ashes of War can be purchased from the Twin Maiden Husks at Roundtable Hold after giving them the Lost Ashes of War Bell Bearing.\n\n### What is the best affinity for Strength builds?\n\nHeavy affinity provides the highest Strength scaling and is the best choice for most Strength-focused builds.\n\n### What is the best Ash of War for PvP?\n\nStorm Stomp and Piercing Fang are among the strongest PvP options because of their speed, range, and pressure potential.\n\n### Can you put Ashes of War on any weapon?\n\nMost melee weapons can accept Ashes of War. Some unique weapons with fixed skills cannot have their Ashes of War replaced.",
     },
+    {
+      heading: "Conclusion",
+      level: 2,
+      content:
+        "Ashes of War are one of the most important systems in Elden Ring.\n\n**Key takeaways:**\n\n* Choose your Ash of War based on your build, not the animation\n* Affinity matters more than the weapon skill for damage output\n* Lion\'s Claw, Seppuku, and Unsheathe are the strongest PvE options\n* Heavy, Keen, Blood, and Occult are the most useful affinities\n* Always test scaling before committing to a build\n\nTest different Ash of War combinations with the Elden Ring Build Planner to see how affinities affect your weapon damage output.",
+    }
   ],
   internalLinks: [
+    { href: "/elden-ring/weapons/bleed-explained", anchorText: "how Bleed buildup works with Ashes" },
+    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring stat soft caps" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "compare weapon scaling and damage" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "optimize your build" },
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
     { href: "/elden-ring/walkthroughs/stance-break-explained", anchorText: "Stance Break Guide" },
-    { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Ashes of War" },
-    { href: "/elden-ring/weapons/nagakiba-explained", anchorText: "Nagakiba Ashes of War" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
   ],
-};
+};;
 
 const article44: Article = {
   keyTakeaways: [
