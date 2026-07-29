@@ -800,20 +800,44 @@ const article50: Article = {
   category: "weapons",
   gameSlug: "elden-ring",
   difficulty: "intermediate",
-  readTimeMinutes: 10,
+  readTimeMinutes: 12,
   order: 51,
-  title: "Elden Ring Status Effects Guide: Bleed, Frost, Rot & All Ailments Explained",
+  title: "Elden Ring Status Effects Explained (2026): All Bleed, Frost, Rot & Ailments Guide",
   metaDescription:
-    "Complete guide to Elden Ring status effects (2026): Bleed, Frostbite, Scarlet Rot, Poison, Sleep, Madness, Death Blight — tier list, buildup values, best weapons, and how to use them effectively.",
+    "Learn every Elden Ring status effect in 2026. Compare Bleed, Frostbite, Scarlet Rot, Poison, Sleep, Madness and Death Blight with buildup, damage, scaling, and best weapons.",
   sections: [
+{
+      heading: "",
+      level: 2,
+      content:
+        "Elden Ring has 7 major status effects, each with unique mechanics, buildup values, and build applications.\n\nThis guide covers every status effect in detail \u2014 how buildup works, which stats scale each effect, the best weapons for each status, and how to optimize your build around status damage.\n\nWhether you are building a Bleed katana setup, a Frostbite hybrid, or a Rot-focused caster, this guide explains exactly how each status functions and how to maximize its potential.",
+    },
+    {
+      heading: "Elden Ring Status Effects Quick Summary",
+      level: 2,
+      content:
+        "Elden Ring has 7 major status effects:\n",
+      table: {
+        headers: ["Status", "Effect", "Best Use"],
+        rows: [
+          ["Bleed", "HP burst based on enemy max HP", "Boss killing"],
+          ["Frostbite", "Burst damage + 20% damage increase", "Hybrid builds"],
+          ["Scarlet Rot", "Long duration HP damage", "Large enemies"],
+          ["Poison", "Slow damage over time", "Exploration"],
+          ["Sleep", "Crowd control", "Godskin enemies"],
+          ["Madness", "HP + FP damage", "PvP"],
+          ["Death Blight", "Instant death", "PvP niche"],
+        ]
+      }
+    },
     {
       heading: "",
       level: 2,
       content:
-        "Status effects are one of the most misunderstood systems in Elden Ring.\n\nMany players think of them as extra damage mechanics or situational tools.\n\nIn reality, status effects are a parallel combat system that can completely redefine how builds function, how bosses are defeated, and how damage is optimized across the entire game.\n\nA properly understood status build can outperform raw weapon damage by a significant margin.\n\nThis guide breaks down every major status effect in Elden Ring, how buildup works, how resistance is calculated, and how to use them effectively in both PvE and DLC content.",
+        "The strongest PvE status effects are Bleed and Frost because they provide the highest damage value against bosses.",
     },
     {
-      heading: "Status Effects Tier List",
+      heading: "Best Status Effects in Elden Ring Ranked (2026)",
       level: 2,
       content:
         "The following tier list ranks Elden Ring status effects by overall utility, damage potential, and consistency across PvE and PvP:\n",
@@ -829,6 +853,42 @@ const article50: Article = {
           ["C", "Death Blight", "Extremely niche, most enemies fully resist"],
         ]
       }
+    },
+    {
+      heading: "What Are Status Effects in Elden Ring?",
+      level: 2,
+      content:
+        "Status effects are special combat conditions that build up over time when attacking enemies.\n\nOnce a hidden threshold is reached, the effect triggers.\n\nEach status has:\n\n* A buildup value\n* A resistance value on enemies\n* A trigger effect\n* A reset mechanic after activation\n\nUnlike standard damage, status effects often scale with frequency of hits rather than single attack power.",
+    },
+    {
+      heading: "Elden Ring Status Effect Buildup Explained",
+      level: 2,
+      content:
+        "Every hit applies a hidden buildup value. When buildup exceeds enemy resistance, the status effect triggers, the buildup meter resets, and the cycle begins again.\n\nUnderstanding how buildup works is critical for optimizing your build:\n",
+      table: {
+        headers: ["Status", "How Buildup Works", "Scaling"],
+        rows: [
+          ["Bleed", "Blood Loss meter fills with each hit", "Arcane (on compatible weapons)"],
+          ["Frostbite", "Frost meter fills with each hit", "Weapon affinity"],
+          ["Poison", "Poison meter fills with each hit", "Arcane (on compatible weapons)"],
+          ["Scarlet Rot", "Scarlet Rot meter fills over time", "Spell/weapon"],
+          ["Sleep", "Sleep meter fills with each hit", "None"],
+          ["Madness", "Madness meter fills with each hit", "Faith (PvP)"],
+          ["Death Blight", "Death Blight meter fills in proximity", "None"],
+        ]
+      }
+    },
+    {
+      heading: "",
+      level: 2,
+      content:
+        "The faster you build status, the more often it triggers. Attack speed and multi-hit weapons are the most important factors for status buildup efficiency.",
+    },
+    {
+      heading: "Why Status Effects Are So Powerful",
+      level: 2,
+      content:
+        "Status effects scale in a unique way:\n\n### They scale with:\n\n* Attack speed\n* Multi-hit weapons\n* Weapon affinity\n* Arcane scaling (for many statuses)\n\n### They ignore:\n\n* Traditional defense scaling (partially)\n* Flat armor reduction in many cases\n\nThis makes them especially effective against high-HP enemies and bosses.",
     },
     {
       heading: "Status Effect Comparison Table",
@@ -848,29 +908,10 @@ const article50: Article = {
         ]
       }
     },
-    {
-      heading: "What Are Status Effects in Elden Ring?",
+{      heading: "Bleed (Hemorrhage)",
       level: 2,
       content:
-        "Status effects are special combat conditions that build up over time when attacking enemies.\n\nOnce a hidden threshold is reached, the effect triggers.\n\nEach status has:\n\n* A buildup value\n* A resistance value on enemies\n* A trigger effect\n* A reset mechanic after activation\n\nUnlike standard damage, status effects often scale with frequency of hits rather than single attack power.",
-    },
-    {
-      heading: "How Status Buildup Works",
-      level: 2,
-      content:
-        "Every hit applies a hidden buildup value.\n\nWhen buildup exceeds enemy resistance:\n\n* The status effect triggers\n* The buildup meter resets\n* The cycle begins again\n\nThis creates a loop-based damage system.\n\nThe faster you build status, the more often it triggers.",
-    },
-    {
-      heading: "Why Status Effects Are So Powerful",
-      level: 2,
-      content:
-        "Status effects scale in a unique way:\n\n### They scale with:\n\n* Attack speed\n* Multi-hit weapons\n* Weapon affinity\n* Arcane scaling (for many statuses)\n\n### They ignore:\n\n* Traditional defense scaling (partially)\n* Flat armor reduction in many cases\n\nThis makes them especially effective against high-HP enemies and bosses.",
-    },
-    {
-      heading: "Bleed (Hemorrhage)",
-      level: 2,
-      content:
-        "Bleed is the most powerful and widely used status effect in Elden Ring.",
+        "Bleed is the most powerful and widely used status effect in Elden Ring.\n\nFor a complete breakdown of Bleed damage, Arcane scaling, and bleed builds, see our Elden Ring Bleed Guide."
     },
     {
       heading: "What Bleed Does",
@@ -900,7 +941,7 @@ const article50: Article = {
       heading: "What Frost Does",
       level: 3,
       content:
-        "When triggered:\n\n* Deals burst damage\n* Reduces target damage absorption temporarily\n\nThis creates both offensive and defensive advantages.",
+        "When triggered:\n\n* Deals burst damage\n* Reduces target damage absorption by 20% temporarily\n\nThis creates both offensive and defensive advantages.",
     },
     {
       heading: "Why Frost Is Strong",
@@ -909,10 +950,38 @@ const article50: Article = {
         "* Provides burst + debuff\n* Synergizes with Bleed\n* Resets slower than Bleed",
     },
     {
+      heading: "Frostbite Explained: Damage, Debuff and Reset Mechanics",
+      level: 3,
+      content:
+        "When Frostbite triggers:\n\n1. Enemy takes burst damage (approximately 10% of max HP)\n2. Enemy receives a 20% damage absorption penalty for 30 seconds\n3. Effect lasts approximately 30 seconds\n4. Frost buildup must reset before triggering again\n\nThe 20% defense debuff is the main reason Frost is so powerful. It effectively increases all damage from all sources by 20% while active.\n\nFrost buildup can be reset early by using a Fire weapon or fire damage to remove the Frostbite status, then re-applying it for another burst damage hit.",
+    },
+    {
       heading: "Common Frost Weapons",
       level: 3,
       content:
         "* Dark Moon Greatsword\n* Moonveil (hybrid builds)\n* Cold-infused weapons",
+    },
+    {
+      heading: "Bleed vs Frostbite: Which Status Effect Is Better?",
+      level: 2,
+      content:
+        "Both Bleed and Frostbite are S-tier status effects, but they serve different roles:\n",
+      table: {
+        headers: ["", "Bleed", "Frostbite"],
+        rows: [
+          ["Damage", "Higher burst", "Lower burst"],
+          ["Extra effect", "None", "20% debuff"],
+          ["Best builds", "ARC", "INT"],
+          ["Best weapons", "Katanas", "Cold weapons"],
+          ["Bosses", "High HP bosses", "Long fights"],
+        ]
+      }
+    },
+    {
+      heading: "",
+      level: 2,
+      content:
+        "Bleed deals more burst damage, but Frost provides a 20% defense debuff. They stack well together. The Bleedfrost build uses both simultaneously for maximum damage output.",
     },
     {
       heading: "Poison",
@@ -951,24 +1020,6 @@ const article50: Article = {
         "* Boss fights with long duration\n* Open-world exploration\n* Large enemies",
     },
     {
-      heading: "Madness",
-      level: 2,
-      content:
-        "Madness is a PvP-focused status with limited PvE application.",
-    },
-    {
-      heading: "What Madness Does",
-      level: 3,
-      content:
-        "* Deals burst damage\n* Drains FP\n* Can interrupt enemy behavior",
-    },
-    {
-      heading: "Limitations",
-      level: 3,
-      content:
-        "* Many PvE enemies resist or ignore it\n* Stronger in PvP scenarios",
-    },
-    {
       heading: "Sleep",
       level: 2,
       content:
@@ -985,6 +1036,24 @@ const article50: Article = {
       level: 3,
       content:
         "* Strong against humanoid enemies\n* Useful for setup-based builds",
+    },
+    {
+      heading: "Madness",
+      level: 2,
+      content:
+        "Madness is a PvP-focused status with limited PvE application.",
+    },
+    {
+      heading: "What Madness Does",
+      level: 3,
+      content:
+        "* Deals burst damage\n* Drains FP\n* Can interrupt enemy behavior",
+    },
+    {
+      heading: "Limitations",
+      level: 3,
+      content:
+        "* Many PvE enemies resist or ignore it\n* Stronger in PvP scenarios",
     },
     {
       heading: "Death Blight",
@@ -1005,6 +1074,12 @@ const article50: Article = {
         "* Extremely high resistance in most enemies\n* Mostly PvP or niche PvE usage",
     },
     {
+      heading: "Best Weapons for Each Status Effect",
+      level: 2,
+      content:
+        "Each status effect has specific weapons that excel at applying it. Here are the best weapons for each status in 2026:\n\n### Bleed Weapons\n\n* Rivers of Blood \u2014 Weapon skill hits 3-4 times, fastest bleed buildup\n* Nagakiba (Blood Affinity) \u2014 Longest reach katana, excellent with Seppuku\n* Eleonora's Poleblade \u2014 Weapon skill hits 6 times, fastest bleed proc in the game\n* Reduvia \u2014 Best early-game bleed weapon, weapon skill fires projectiles\n\nFor a complete Bleed weapon tier list, see our Elden Ring Bleed Guide.\n\n### Frostbite Weapons\n\n* Dark Moon Greatsword \u2014 Frost buildup + magic damage, best for INT builds\n* Moonveil \u2014 Frost + magic hybrid, excellent for Intelligence builds\n* Cold Uchigatana \u2014 Cold affinity on a fast weapon, high proc rate\n\nSee our Moonveil Build Guide for Frost + Intelligence hybrid setups.\n\n### Scarlet Rot Weapons\n\n* Rotten Breath (Incantation) \u2014 Instant Rot proc, 15 Faith requirement\n* Ekzykes Decay (Incantation) \u2014 Faster Rot application, higher Faith requirement\n* Antspur Rapier \u2014 Innate Rot, can be infused with Bleed or Frost for dual status\n\n### Sleep Weapons\n\n* Sword of St. Trina \u2014 Innate Sleep buildup, weapon skill creates Sleep cloud\n* Sleep Pots \u2014 Craftable, instant Sleep application for any build\n\n### Madness Weapons\n\n* Frenzied Flame Seal \u2014 Scales Madness incantations\n* Vyke's War Spear \u2014 Innate Madness buildup, weapon skill applies Madness quickly",
+    },
+    {
       heading: "How Arcane Affects Status Effects",
       level: 2,
       content:
@@ -1020,10 +1095,9 @@ const article50: Article = {
       heading: "Arcane Does NOT Improve:",
       level: 3,
       content:
-        "* Frostbite (direct scaling)\n* Sleep\n* Death Blight\n\nUnderstanding this distinction is critical for build optimization.",
+        "* Frostbite (direct scaling)\n* Sleep\n* Death Blight\n\nUnderstanding this distinction is critical for build optimization.\n\nFor the exact Arcane breakpoints, see our Soft Caps Explained guide.",
     },
-    {
-      heading: "Best Status Effect Combinations",
+{      heading: "Best Status Effect Combinations",
       level: 2,
       content:
         "Some status effects synergize extremely well.",
@@ -1119,28 +1193,91 @@ const article50: Article = {
         "Status effects succeed because they bypass traditional combat limitations.\n\nThey:\n\n* Scale with repetition, not raw damage\n* Remain effective in late game\n* Work across multiple build types\n* Adapt to different enemy types\n\nThis makes them one of the most flexible systems in the game.",
     },
     {
-      heading: "Status Effects in DLC (Shadow of the Erdtree)",
+      heading: "Shadow of the Erdtree Status Effects",
       level: 2,
       content:
-        "In the DLC, status effects remain highly relevant.\n\nHowever:\n\n* Enemies have higher resistance\n* Build optimization becomes more important\n* Scadutree Blessings influence effectiveness indirectly\n\nBleed and Frost remain dominant in most scenarios.",
+        "In the Shadow of the Erdtree DLC, status effects remain highly relevant but with some important changes:\n\n* DLC bosses have 30-50% higher status resistance than base game bosses\n* Bleed is still strong but requires more procs to trigger\n* Frostbite remains useful, especially with the 20% defense debuff\n* Scarlet Rot is less reliable \u2014 many DLC bosses are immune or highly resistant\n* Build optimization becomes more important \u2014 hitting Arcane soft caps is critical\n* Scadutree Blessings influence effectiveness indirectly through damage scaling\n\nBleed and Frost remain the dominant status effects in most DLC scenarios, but pure status builds need backup strategies for the hardest encounters.",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### What is the strongest status effect in Elden Ring?\n\nBleed is generally considered the strongest due to percentage-based damage.\n\n### Does Arcane affect all status effects?\n\nNo. It mainly affects Bleed and some Poison/Madness setups.\n\n### Can status effects stack?\n\nYes. Multiple different statuses can be applied simultaneously.\n\n### Is Frost better than Bleed?\n\nThey serve different roles. Bleed is burst damage, Frost is debuff + burst hybrid.\n\n### Are status effects good in DLC?\n\nYes, but they require better optimization due to higher enemy resistance.\n\nSee how each status effect weapon's Attack Rating compares with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator).",
+        "",
     },
+    {
+      heading: "What is the best status effect in Elden Ring?",
+      level: 3,
+      content:
+        "Bleed is generally considered the strongest due to percentage-based damage. It scales with enemy HP, making it devastating against bosses. Frostbite is a close second because of the 20% defense debuff.",
+    },
+    {
+      heading: "Can you use multiple status effects at once?",
+      level: 3,
+      content:
+        "Yes. Multiple different statuses can be applied simultaneously. The most popular combination is Bleed + Frost (Bleedfrost build), which uses both burst damage and a defense debuff for maximum damage output.",
+    },
+    {
+      heading: "Does Arcane increase Bleed damage?",
+      level: 3,
+      content:
+        "No. Arcane increases bleed buildup speed, not damage per proc. This is the most common misunderstanding about bleed builds. For a full breakdown, see our Bleed Guide."
+    },
+    {
+      heading: "Is Frost better than Bleed?",
+      level: 3,
+      content:
+        "They serve different roles. Bleed provides higher burst damage per proc. Frost provides a 20% defense debuff that benefits all damage sources. For most PvE scenarios, Bleed is better for pure damage, while Frost is better for hybrid builds and team play.",
+    },
+    {
+      heading: "Are status effects good in DLC?",
+      level: 3,
+      content:
+        "Yes, but they require better optimization. DLC bosses have 30-50% higher status resistance, so you need to hit Arcane soft caps and use multi-hit weapons to maintain effectiveness.",
+    },
+    {
+      heading: "What is the best Arcane level for status builds?",
+      level: 3,
+      content:
+        "45 Arcane is the most efficient breakpoint for bleed buildup. After 45, bleed buildup gains slow significantly. ARC 60 is a second soft cap worth it only for Occult infusion builds. See our Soft Caps Explained guide for details."
+    },
+    {
+      heading: "Does Bleed work on DLC bosses?",
+      level: 3,
+      content:
+        "Bleed works in Shadow of the Erdtree, but many bosses have 30-50% bleed resistance. Pure bleed builds need backup strategies for the hardest DLC encounters.",
+    },
+    {
+      heading: "How do I reset Frostbite to trigger again?",
+      level: 3,
+      content:
+        "Use a Fire weapon or fire damage to remove the Frostbite status from the enemy. Once removed, you can re-apply Frostbite for another burst damage hit. This technique is called Frostbite resetting.",
+    },
+    {
+      heading: "Compare status weapon damage with our Weapon AR Calculator",
+      level: 2,
+      content:
+        "Test different status weapon setups:\n\n* Blood vs Occult affinity comparison\n* Cold vs Magic infusion damage\n* Bleed buildup at different Arcane levels\n\nUse the Weapon AR Calculator to see exact damage numbers for each status weapon setup."
+    },
+    {
+      heading: "Conclusion",
+      level: 2,
+      content:
+        "Status effects are one of the most powerful systems in Elden Ring. Bleed and Frost dominate the meta, but every status has its use case.\n\n**Key takeaways:**\n\n* Bleed is the best for pure damage, Frost for debuff synergy\n* Arcane scales Bleed and Poison, but not Frost or Sleep\n* Attack speed is the most important factor for status buildup\n* Multi-hit weapons and skills dramatically increase proc rate\n* Always carry a backup for immune bosses\n\nTest your status build with the Elden Ring Build Planner before committing Larval Tears."
+    }
   ],
   internalLinks: [
-    { href: "/elden-ring/weapons/bleed-explained", anchorText: "Bleed Explained" },
+    { href: "/elden-ring/weapons/bleed-explained", anchorText: "Bleed damage formula" },
+    { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Frost and Intelligence builds" },
+    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Arcane soft cap" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
     { href: "/elden-ring/weapons/rivers-of-blood-explained", anchorText: "Rivers of Blood Guide" },
     { href: "/elden-ring/weapons/dark-moon-greatsword-explained", anchorText: "Dark Moon Greatsword Guide" },
     { href: "/elden-ring/walkthroughs/weapon-scaling-guide", anchorText: "Weapon Scaling Guide" },
-    { href: "/elden-ring/builds/best-arcane-build", anchorText: "Best Arcane Build" },
-    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+    { href: "/elden-ring/builds/best-arcane-build", anchorText: "Best Arcane Build" }
   ],
-};
+  };
+
 
 const articles4Articles = [article47, article48, article49, article50, article51];
 
