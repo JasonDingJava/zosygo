@@ -9,7 +9,7 @@ const maleniaArticle: Article = {
   readTimeMinutes: 11,
   order: 15,
   title: "Why Does Malenia Heal When She Hits You? Elden Ring Lifesteal Explained (2026)",
-  h1: "Why Does Malenia Heal When She Hits You? Elden Ring Lifesteal Explained",
+  h1: "Why Does Malenia Heal When She Hits You? Elden Ring Lifesteal Explained (2026)",
   metaDescription:
     "Why does Malenia heal when she hits you in Elden Ring? Learn how her lifesteal works, why shields fail, how Spirit Ashes affect healing, and the best ways to counter her recovery mechanic.",
   keyTakeaways: [

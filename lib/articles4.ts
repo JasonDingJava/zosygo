@@ -615,7 +615,7 @@ const article50: Article = {
   readTimeMinutes: 11,
   order: 50,
   title: "Elden Ring Bleed Guide (2026): Damage Formula, Arcane Scaling, Best Weapons & Builds",
-  h1: "Elden Ring Bleed Guide (2026): How Blood Loss Works, Damage, Arcane Scaling & Best Builds",
+  h1: "Elden Ring Bleed Guide (2026): Damage Formula, Arcane Scaling, Best Weapons & Builds",
   metaDescription:
     "Complete Elden Ring Bleed guide for 2026. Learn how Hemorrhage works, damage formula, Arcane scaling, best bleed weapons ranked, early to endgame builds, and status effect comparisons.",
   sections: [
