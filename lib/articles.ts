@@ -59,7 +59,13 @@ export interface Article extends ArticleBase {
 }
 
 export const articles: Article[] = [
+  ...articles2Articles,
+  ...articles3Articles,
   ...articles4Articles,
+  ...articles5Articles,
+  ...articles6Articles,
+  ...articles7Articles,
+  ...nightreignArticles,
   ...extracted1,
   ...extracted2,
   ...extracted3,
