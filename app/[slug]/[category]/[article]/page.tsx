@@ -299,19 +299,49 @@ export default async function ArticlePage({ params }: Props) {
             </div>
           )}
 
+          {/* Table of Contents */}
+          {article.toc && article.toc.length > 0 && (
+            <section className="mt-8 rounded-sm border border-white/10 bg-[#12121a] p-5">
+              <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-[#c9a227]">
+                📋 Table of Contents
+              </h3>
+              <nav className="mt-4 grid gap-2 sm:grid-cols-2">
+                {article.toc.map((item, i) => (
+                  <a
+                    key={i}
+                    href={`#${item.heading.toLowerCase().replace(/\s+/g, "-")}`}
+                    className="text-sm text-zinc-400 underline-offset-2 hover:text-[#c9a227] hover:underline"
+                  >
+                    {i + 1}. {item.heading}
+                  </a>
+                ))}
+              </nav>
+            </section>
+          )}
+
           {/* Build Planner CTA — only on Elden Ring build/weapon articles */}
           {slug === "elden-ring" && (category === "builds" || category === "weapons") && (
             <section className="mt-8 rounded-sm border border-[#c9a227]/20 bg-gradient-to-r from-[#0a0a0f] to-[#1a1508] p-5">
               <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <h3 className="text-base font-bold text-white">⚔️ Try the Elden Ring Build Planner</h3>
-                  <p className="mt-1 text-sm text-zinc-400">Create, optimize, and share your perfect Elden Ring build. Plan your stats, weapons, armor, talismans, and spells with real-time calculations.</p>
+                  <h3 className="text-base font-bold text-white">
+                    ⚔️ {article.slug === "best-intelligence-build"
+                      ? "Build Your Intelligence Build"
+                      : "Try the Elden Ring Build Planner"}
+                  </h3>
+                  <p className="mt-1 text-sm text-zinc-400">
+                    {article.slug === "best-intelligence-build"
+                      ? "Allocate stats, compare INT 60 vs 80, pick staffs, talismans, and see real-time damage numbers for your Intelligence build."
+                      : "Create, optimize, and share your perfect Elden Ring build. Plan your stats, weapons, armor, talismans, and spells with real-time calculations."}
+                  </p>
                 </div>
                 <Link
                   href="/elden-ring/tools/build-calculator"
                   className="inline-flex h-10 shrink-0 items-center justify-center rounded-sm bg-gradient-to-r from-amber-500 via-amber-400 to-yellow-500 px-6 text-sm font-bold uppercase tracking-wider text-black shadow-[0_0_20px_rgba(251,191,36,0.3)] transition-all hover:scale-[1.02]"
                 >
-                  Open Build Planner
+                  {article.slug === "best-intelligence-build"
+                    ? "Open Build Planner"
+                    : "Open Build Planner"}
                 </Link>
               </div>
             </section>

@@ -224,202 +224,176 @@ const article48: Article = {
   category: "walkthroughs",
   gameSlug: "elden-ring",
   difficulty: "advanced",
-  readTimeMinutes: 10,
+  readTimeMinutes: 14,
   order: 48,
-  title: "Mountaintops of the Giants Walkthrough: Complete Progression Guide for Elden Ring (2026)",
+  title: "Mountaintops of the Giants Walkthrough – Complete Route, Map, Bosses & Secrets (Elden Ring 2026)",
   metaDescription:
-    "Complete Mountaintops of the Giants walkthrough covering map fragments, Fire Giant, Castle Sol, Haligtree Medallion, upgrade materials, key rewards, and the fastest progression route.",
+    "Complete Mountaintops of the Giants walkthrough: fastest route, map fragments, Castle Sol walkthrough, Commander Niall strategy, Fire Giant phases, Haligtree Medallion, all Sites of Grace, missable loot, and best builds.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Reaching the Mountaintops of the Giants feels like crossing a threshold.\n\nFor most of Elden Ring, players are encouraged to explore. Limgrave, Liurnia, Altus Plateau, and even Leyndell offer multiple paths forward.\n\nThe Mountaintops are different.\n\nThis is where the game begins its final act.\n\nEnemy health increases dramatically. Mistakes become more punishing. Upgrade materials become rarer and more valuable. Optional content starts leading toward some of the hardest encounters in the game.\n\nMany players arrive here expecting another open-world region.\n\nInstead, they discover a zone that quietly prepares them for Elden Ring's endgame.\n\nThis walkthrough focuses on the fastest progression route while ensuring you collect the most important rewards before facing the Fire Giant and advancing the main story.",
+        "The Mountaintops of the Giants is one of Elden Ring's final main story regions, accessed after Leyndell via the Grand Lift of Rold.\n\nThis walkthrough covers the fastest progression route, including:\n\n* Map fragment locations\n* Castle Sol and Commander Niall\n* Haligtree Secret Medallion\n* Fire Giant preparation and phase-by-phase strategy\n* All Sites of Grace route\n* Missable loot checklist\n* Best builds for this region\n\n**Recommended level: 100-120 with weapon +20 or higher.**\n\n![Mountaintops of the Giants Elden Ring](/images/articles/mountaintops-of-the-giants-walkthrough-elden-ring.jpg)\n\nThe Mountaintops marks a major difficulty spike. Enemy health roughly doubles compared to Altus Plateau. Upgrade materials become rarer. This is where Elden Ring begins preparing you for the endgame — and the game expects you to be ready.",
+    },
+    {
+      heading: "Mountaintops of the Giants Progression Route",
+      level: 2,
+      content:
+        "Here is the fastest route through the Mountaintops. Follow this sequence to minimize backtracking and maximize rewards:\n\n```\nGrand Lift of Rold\n│\n▼\nZamor Ruins (map fragment + loot)\n│\n▼\nAncient Snow Valley Ruins (Grace checkpoint)\n│\n▼\nFreezing Lake (Dragon + resources)\n│\n▼\nCastle Sol\n│  └─ Commander Niall → Haligtree Secret Medallion (Left)\n│\n▼\nWhiteridge Road (Fire Giant approach)\n│\n▼\nFoot of the Forge (Fire Giant arena)\n│\n▼\nFire Giant (Phase 1 → Phase 2)\n│\n▼\nForge of the Giants\n```\n\nThis route is designed to collect every important reward before the Fire Giant while keeping travel distance to a minimum.",
+    },
+    {
+      heading: "Mountaintops of the Giants Sites of Grace Route",
+      level: 2,
+      content:
+        "These are the essential Sites of Grace you should unlock in order:\n\n| Order | Site of Grace | Why Visit |\n| ----- | ------------- | --------- |\n| 1 | Zamor Ruins | Starting area, map fragment, early loot |\n| 2 | Ancient Snow Valley Ruins | Main route checkpoint, central hub |\n| 3 | Freezing Lake | Dragon fight, upgrade materials |\n| 4 | Whiteridge Road | Castle Sol access, shortcut |\n| 5 | Church of Eclipse | Castle Sol checkpoint, shortcut |\n| 6 | Castle Sol Rooftop | Before Commander Niall |\n| 7 | Foot of the Forge | Fire Giant boss entrance |\n| 8 | Forge of the Giants | Post-Fire Giant, story progression |\n\nUnlocking these in this order gives you the fastest travel network through the region.",
     },
     {
       heading: "Why the Mountaintops of the Giants Matter",
       level: 2,
       content:
-        "The Mountaintops serve as the gateway to every major late-game area.\n\nProgress here eventually leads toward:\n\n* Fire Giant\n* Forge of the Giants\n* Crumbling Farum Azula\n* Consecrated Snowfield\n* Miquella's Haligtree\n* Endgame boss encounters\n\nSeveral of the strongest weapons, talismans, and upgrade materials become available during this stage of the game.",
+        "The Mountaintops serve as the gateway to every major late-game area.\n\nProgress here eventually leads toward:\n\n* Fire Giant — the region's main story boss\n* Forge of the Giants — unlocks the next main story area\n* Crumbling Farum Azula — endgame legacy dungeon\n* Consecrated Snowfield — optional but highly rewarding\n* Miquella's Haligtree — home to Malenia, one of the hardest bosses in any FromSoftware game\n\nSeveral of the strongest weapons, talismans, and upgrade materials become available during this stage of the game. The region also contains one of the few Ancient Dragon Smithing Stones available before the final boss.",
     },
     {
-      heading: "Recommended Level for the Mountaintops",
+      heading: "Recommended Level and Preparation",
       level: 2,
       content:
-        "Before entering the region, most players should have:\n\n| Recommendation | Value |\n| --------------- | ---------- |\n| Character Level | 100–120 |\n| Standard Weapon | +20 to +24 |\n| Somber Weapon | +8 to +9 |\n| Flask Charges | 10–12 |\n| Vigor | 40–60 |\n\nThe difficulty spike becomes noticeable below these ranges.",
+        "Before entering the region, here is what you should aim for:\n\n| Requirement | Minimum | Recommended |\n| ----------- | ------- | ----------- |\n| Character Level | 100 | 110–120 |\n| Standard Weapon | +20 | +22 to +24 |\n| Somber Weapon | +8 | +9 |\n| Flask Charges | 10 | 12 |\n| Vigor | 40 | 50–60 |\n| Main Damage Stat | 40 | 50–60 |\n\nPlayers below these numbers will notice the difficulty spike immediately. The Mountaintops is not designed for experimentation — it expects a focused build. If you need to respec, now is the time. Use the [Elden Ring Build Planner](https://zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions before spending Larval Tears.",
     },
     {
-      heading: "First Objectives After Entering",
+      heading: "Best Builds for the Mountaintops of the Giants",
       level: 2,
       content:
-        "Many players immediately head toward the Fire Giant.\n\nThis is rarely the best approach.\n\nYour initial goals should be:\n\n1. Unlock map fragments\n2. Activate major Sites of Grace\n3. Gather upgrade materials\n4. Explore Castle Sol\n5. Strengthen your build\n6. Prepare for Fire Giant\n\nThis route minimizes frustration and maximizes progression efficiency.",
+        "The Mountaintops favors builds that can handle large enemies and multiple targets. These three builds perform exceptionally well:\n\n### Bleed Build\n\nWhy it works: Fire Giant is weak to bleed. Commander Niall's summons are also vulnerable. Bleed's percentage-based damage is especially effective against the region's high-HP enemies.\n\nRecommended: [Bleed Build Guide](https://zosygo.com/elden-ring/builds/bleed)\n\n### Moonveil Build\n\nWhy it works: Transient Moonlight deals heavy posture damage, letting you stagger enemies quickly. The ranged attack is invaluable for picking off dangerous targets before they close distance.\n\nRecommended: [Moonveil Build Guide](https://zosygo.com/elden-ring/builds/moonveil)\n\n### Frost Build\n\nWhy it works: Frostbite reduces enemy damage negation by 20%, making follow-up attacks hit much harder. The Mountaintops has several enemies weak to frost, and frost + bleed is a devastating combination against the Fire Giant.\n\nRecommended: [Best Builds Overview](https://zosygo.com/elden-ring/builds/best-builds-guide)\n\nAll three builds benefit from the upgrade materials available in this region. Make sure your weapon is at least +20 before attempting the Fire Giant.",
     },
     {
-      heading: "Obtain the East Mountaintops Map Fragment",
+      heading: "First Objectives After Entering the Mountaintops",
       level: 2,
       content:
-        "Your first priority should always be map visibility.\n\nThe eastern section contains:\n\n* Main story progression\n* Castle Sol access\n* Key farming routes\n* Important side content\n\nExploration becomes significantly easier once the map is revealed.",
+        "Many players immediately head toward the Fire Giant. This is rarely the best approach.\n\nYour initial goals should be:\n\n1. **Obtain the East Mountaintops map fragment** — navigation is much harder without it\n2. **Explore Zamor Ruins** — valuable loot and upgrade materials\n3. **Activate Ancient Snow Valley Ruins Grace** — central travel hub\n4. **Collect Smithing Stones [7] and [8]** — weapon upgrades are critical here\n5. **Visit Freezing Lake** — dragon fight, resources, and route to Castle Sol\n6. **Clear Castle Sol** — Haligtree Secret Medallion is the most important optional item\n7. **Prepare for Fire Giant** — finalize your build, upgrade weapons, stock up on consumables\n8. **Defeat Fire Giant** — unlocks Forge of the Giants and endgame progression\n\nThis route minimizes frustration and maximizes progression efficiency.",
     },
     {
-      heading: "Explore Zamor Ruins",
+      heading: "East Mountaintops Map Fragment Location",
       level: 2,
       content:
-        "One of the first major locations players encounter.\n\nReasons to visit:\n\n### Valuable Loot\n\nSeveral useful items can be found here.\n\n### Upgrade Materials\n\nImportant for final weapon improvements.\n\n### Build Resources\n\nMany players overlook resources hidden throughout the ruins.\n\nZamor Ruins should be explored thoroughly before moving deeper into the region.",
+        "Your first priority should always be map visibility.\n\n**Location:** From the Zamor Ruins Grace, head east along the cliff edge. The map stone is on a small plateau guarded by a few wolves.\n\n**Why it matters:** The eastern section contains main story progression, Castle Sol access, key farming routes, and important side content. The Mountaintops is deceptive — what looks like a small region is actually one of the largest areas in the game when you account for vertical exploration.\n\nWithout the map, you will waste time backtracking through areas that look identical in the snow.",
     },
     {
-      heading: "Collect Late-Game Smithing Stones",
+      heading: "Zamor Ruins Walkthrough",
       level: 2,
       content:
-        "Weapon upgrades remain the single most important source of damage.\n\nThroughout the Mountaintops you can obtain:\n\n* Smithing Stone [7]\n* Smithing Stone [8]\n* Ancient Dragon materials later\n* Somber upgrade resources\n\nBefore fighting Fire Giant, your primary weapon should be close to its maximum upgrade level.",
+        "Zamor Ruins is the first major location you will encounter after the Grand Lift of Rold.\n\n**What to do here:**\n\n1. Activate the Zamor Ruins Site of Grace\n2. Explore the central building for the Smithing Stone [7] and Somber Smithing Stone [7]\n3. Loot the surrounding area for Golden Runes and crafting materials\n4. Defeat the Zamor Knights for decent rune drops\n\n**Key loot:**\n\n* Smithing Stone [7] (×3)\n* Somber Smithing Stone [7]\n* Golden Rune [12]\n* Zamor armor set (from the boss)\n\nThe Zamor Ruins boss is optional but drops a unique armor set that provides decent frost resistance — useful for the Fire Giant fight.",
     },
     {
-      heading: "Unlock Key Sites of Grace",
+      heading: "Collecting Late-Game Smithing Stones",
       level: 2,
       content:
-        "The region is enormous.\n\nEfficient travel becomes increasingly important.\n\nPrioritize unlocking:\n\n### Ancient Snow Valley Ruins\n\nCentral travel hub.\n\n### Freezing Lake\n\nImportant exploration checkpoint.\n\n### Whiteridge Road\n\nUseful for future progression.\n\nThese locations reduce unnecessary backtracking.",
+        "Weapon upgrades remain the single most important source of damage throughout Elden Ring. In the Mountaintops, you can find:\n\n**Smithing Stone [7] locations:**\n* Zamor Ruins (×3)\n* Ancient Snow Valley Ruins (×2)\n* Freezing Lake area (×1)\n\n**Smithing Stone [8] locations:**\n* Guardians' Garrison (×2)\n* Castle Sol (×2)\n\n**Somber Smithing Stone [8]:**\n* Castle Sol (×1)\n* Guardians' Garrison (×1)\n\n**Ancient Dragon Smithing Stone:**\n* Castle Sol — behind the boss room after defeating Commander Niall\n\nThis is one of the only Ancient Dragon Smithing Stones available before the final boss. Do not miss it.",
     },
     {
-      heading: "Explore the Freezing Lake",
+      heading: "Unlocking Key Sites of Grace",
       level: 2,
       content:
-        "The Freezing Lake area contains:\n\n* Valuable resources\n* Optional encounters\n* Important progression routes\n\nSeveral late-game materials become available here.\n\nDo not simply ride through.",
+        "The region is enormous. Efficient travel becomes increasingly important.\n\n**Ancient Snow Valley Ruins** — Central travel hub. From here you can reach most of the eastern Mountaintops. Activate this Grace immediately after Zamor Ruins.\n\n**Freezing Lake** — Important exploration checkpoint. The lake area contains a dragon, upgrade materials, and the path to Castle Sol. There is also a Death Rite Bird that spawns at night.\n\n**Whiteridge Road** — Useful for reaching the Fire Giant area quickly. This Grace also gives you access to a shortcut back to the main path if you need to resupply.\n\n**Church of Eclipse** — Castle Sol's first Grace. Unlocking this gives you a safe respawn point for the Castle Sol run.",
     },
     {
-      heading: "Defeat the Tibia Mariner (Optional)",
+      heading: "Freezing Lake Area Guide",
       level: 2,
       content:
-        "Although optional, the encounter provides:\n\n* Rune rewards\n* Additional progression resources\n* Useful exploration incentives\n\nMost late-game characters can handle the fight comfortably.",
+        "The Freezing Lake area is deceptive — it looks empty, but it contains several important encounters.\n\n**What to do here:**\n\n1. **Defeat the dragon** (Borealis of the Freezing Lake) — drops a Dragon Heart and the Borealis's Mist incantation. This dragon is aggressive but follows the same pattern as other Ancient Dragons. Stay behind the head and watch for the frost breath.\n\n2. **Death Rite Bird (night only)** — this enemy spawns at night near the lake's southern edge. Defeating it drops the Ancient Death Rancor spell (requires 21 Faith, 27 Intelligence). If you are running an Intelligence build, this spell is worth the detour.\n\n3. **Collect Smithing Stones** — several stones are scattered around the lake's edges.\n\n4. **Find the path to Castle Sol** — from the northern edge of the lake, head northeast through the canyon. You will eventually reach the Castle Sol entrance.\n\n**Recommended level for this area:** 100+ with a weapon at +20 or higher.",
     },
     {
-      heading: "Visit Castle Sol",
+      heading: "Tibia Mariner (Optional Encounter)",
       level: 2,
       content:
-        "Castle Sol is the single most important optional area in the Mountaintops.\n\nMany players skip it.\n\nThis is a major mistake.",
+        "Located in the southern part of the Mountaintops, this Tibia Mariner is much stronger than the ones you faced in Limgrave and Liurnia.\n\n**Rewards:**\n\n* Rune rewards (approximately 80,000 runes)\n* Deathroot (for the Beast Clergyman questline)\n\n**Strategy:** Use Torrent to close distance quickly. The Tibia Mariner summons skeletons — ignore them and focus on the mariner. When it starts casting, use the pillars for cover.\n\nThis fight is optional but recommended if you are progressing the Beast Clergyman questline.",
     },
     {
-      heading: "Why Castle Sol Matters",
-      level: 3,
-      content:
-        "Castle Sol contains one of the most important items in the game.\n\nWithout it:\n\n* Consecrated Snowfield cannot be accessed\n* Miquella's Haligtree remains unavailable\n\nThe rewards here impact some of Elden Ring's hardest content.",
-    },
-    {
-      heading: "Navigate Castle Sol Efficiently",
-      level: 3,
-      content:
-        "Castle Sol is filled with:\n\n* Aggressive enemies\n* Dangerous spirits\n* Difficult ambushes\n\nRecommended approach:\n\n1. Unlock shortcuts\n2. Clear key pathways\n3. Avoid unnecessary fights\n4. Preserve Flask charges\n\nPatience is more effective than rushing.",
-    },
-    {
-      heading: "Defeat Commander Niall",
+      heading: "Castle Sol Walkthrough (Complete)",
       level: 2,
       content:
-        "Commander Niall is one of the most significant optional bosses before the endgame.",
+        "Castle Sol is the single most important optional area in the Mountaintops. Many players skip it — this is a major mistake.\n\n**Why Castle Sol matters:**\n\nCastle Sol contains the Haligtree Secret Medallion (Left), which is required to access the Consecrated Snowfield and, eventually, Miquella's Haligtree. Without it, you cannot reach Malenia or some of the best late-game loot.\n\n**Complete Castle Sol route:**\n\n1. **Enter Castle Sol** from the northeastern path. The entrance is guarded by several exiled soldiers.\n2. **Activate the Church of Eclipse Grace** — this is your first safe point inside the castle.\n3. **Clear the courtyard** — watch for soldiers on the ramparts above. Use ranged attacks or a bow to thin them out before entering.\n4. **Climb the main tower** — defeat the Lion Guardian blocking the stairs. This enemy hits hard but is slow — dodge through its attacks and punish from behind.\n5. **Reach the rooftop** — from the tower, cross the rooftops. There are several Banished Knights here. They are aggressive and have high poise. Use a shield or keep your distance.\n6. **Open the shortcut** — on the rooftop, find the lever that opens the castle's main gate. This shortcut connects back to the Church of Eclipse Grace.\n7. **Descend to the boss room** — from the shortcut, head down the stairs toward the courtyard. The boss room is at the bottom.\n8. **Fight Commander Niall** — see the dedicated section below.\n9. **Collect the Haligtree Secret Medallion** — behind the boss room, loot the chest.\n10. **Take the elevator** — behind the medallion chest, there is an elevator leading to a lower area with an Ancient Dragon Smithing Stone.\n\n**Recommended level for Castle Sol:** 105+ with weapon +20 or higher.\n\n**Tips:**\n\n* The Banished Knights can be backstabbed if you are patient\n* Use a Strike weapon against the soldiers — they are weak to strike damage\n* The Lion Guardian is weak to fire\n* Summon a Spirit Ash for the Commander Niall fight",
     },
     {
-      heading: "Why Commander Niall Is Important",
-      level: 3,
-      content:
-        "Defeating him grants:\n\n* Haligtree Secret Medallion (Left)\n* Access to future endgame regions\n\nThis reward is mandatory for players seeking full exploration.",
-    },
-    {
-      heading: "Strategy Overview",
-      level: 3,
-      content:
-        "Focus on:\n\n* Eliminating summons quickly\n* Maintaining spacing\n* Punishing recovery windows\n\nThe first phase often determines the outcome of the fight.",
-    },
-    {
-      heading: "Obtain the Haligtree Secret Medallion",
+      heading: "Commander Niall Strategy (Phase-by-Phase)",
       level: 2,
       content:
-        "This item eventually unlocks:\n\n### Consecrated Snowfield\n\nWhich leads to:\n\n### Miquella's Haligtree\n\nOne of the most challenging and rewarding areas in Elden Ring.\n\nEven if you do not visit immediately, securing the medallion now is recommended.",
+        "Commander Niall is one of the most challenging optional bosses before the endgame. He is a gatekeeper for the Haligtree content.\n\n**Why Commander Niall is important:**\n\nDefeating him grants:\n\n* Haligtree Secret Medallion (Left)\n* Access to Consecrated Snowfield and Miquella's Haligtree\n* 90,000 runes\n\n**Phase 1 — The Summons**\n\nCommander Niall starts the fight with two summons: a dual-wielding Banished Knight and a shield-bearing Banished Knight.\n\nStrategy:\n\n1. **Kill the dual-wielding knight first** — he is faster and more dangerous. Use a Spirit Ash to draw aggro while you focus him down.\n2. **Kill the shield knight second** — he is slower but has a shield that blocks most attacks. Use Guard Break or a weapon skill that deals heavy posture damage.\n3. **Avoid hitting Niall during Phase 1** — he is mostly passive while his summons are alive, but hitting him will trigger his aggression early.\n\n**Phase 2 — Niall Alone**\n\nOnce both summons are dead, Niall becomes active. His moveset includes:\n\n* **Lightning kick** — a fast kick with a lightning AOE. Dodge backward.\n* **Ice lightning stomp** — he slams his prosthetic foot, creating a large ice lightning AOE. Jump or dodge away.\n* **Scarlet Rot sword** — he stabs his sword into the ground, creating a wide Scarlet Rot explosion. Run away immediately.\n* **Leaping slam** — he jumps into the air and slams down with his prosthetic leg. Dodge to the side.\n\nStrategy:\n\n1. **Stay close but not directly in front** — Niall's melee attacks are telegraphed but hit hard.\n2. **Punish his recovery windows** — after his lightning kick and leaping slam, he has a long recovery window. Get 2-3 hits in and back off.\n3. **Use a tanky Spirit Ash** — Mimic Tear or Black Knife Tiche can hold aggro while you attack from behind.\n4. **Watch for the Scarlet Rot sword** — if you see him stab the ground, run. The AOE covers a wide area.\n\n**Recommended equipment:**\n\n* Weapon: Strike damage weapon (heavy weapons work well)\n* Physick: Opaline Hardtear (damage negation) + Crimsonburst Crystal Tear (HP regen)\n* Talisman: Dragoncrest Greatshield Talisman (physical damage negation)\n\n**Phase 2 key tip:** Niall is vulnerable to bleed and frost. If you are running a bleed build, this fight becomes significantly easier.",
     },
     {
-      heading: "Prepare for the Fire Giant",
+      heading: "Haligtree Secret Medallion Location",
       level: 2,
       content:
-        "The Fire Giant serves as the region's major progression gate.\n\nBefore challenging him, ensure:\n\n* Weapon upgrades are nearly complete\n* Flask upgrades are maximized\n* Build is finalized\n* Rune level is appropriate\n\nPreparation dramatically improves the encounter.",
+        "After defeating Commander Niall:\n\n1. Exit the boss room through the rear door\n2. Loot the chest to obtain the **Haligtree Secret Medallion (Left)**\n3. Take the elevator behind the chest to find an **Ancient Dragon Smithing Stone**\n\n**What the medallion unlocks:**\n\n* Consecrated Snowfield (accessed via the Grand Lift of Rold)\n* Miquella's Haligtree\n* Malenia, Blade of Miquella\n\n**Important:** You need both halves of the medallion. The right half is found in the Consecrated Snowfield, which you can only access with the left half. The Haligtree is entirely optional but contains some of the best loot in the game, including the Millicent's Prosthesis talisman and the Scarlet Aeonia incantation.",
     },
     {
-      heading: "Recommended Fire Giant Checklist",
+      heading: "Fire Giant Preparation Checklist",
       level: 2,
       content:
-        "Before entering the fight:\n\n* Level 100+\n* 40–60 Vigor\n* Weapon +20 or higher\n* Strong healing setup\n* Appropriate talismans equipped\n\nMany players struggle simply because they arrive underprepared.",
+        "The Fire Giant is the region's main boss and a major progression gate. Do not rush this fight.\n\n**Fire Giant Preparation Checklist:**\n\n| Item | Recommendation | Why |\n| ---- | -------------- | --- |\n| Character Level | 100-120 | Below 100, the fight is significantly harder |\n| Vigor | 40-60 | Most one-shot attacks are survivable at 50+ |\n| Weapon Level | +20 or higher | Damage check — under-upgraded weapons extend the fight |\n| Best Status Effect | Bleed or Frost | Fire Giant has high HP and low status resistance |\n| Spirit Ash | Mimic Tear +10 | Draws aggro during Phase 2 |\n| Physick | Fireproof Dried Liver + Opaline Hardtear | Reduces fire damage significantly |\n| Torrent | Yes | Essential for closing distance in Phase 1 |\n| Ranged Option | Bow or spell | Useful for hitting the eye in Phase 2 |\n\n**Recommended talismans:**\n\n* Dragoncrest Greatshield Talisman — reduces physical damage\n* Flamedrake Talisman +2 — reduces fire damage\n* Erdtree's Favor +2 — boosts HP, stamina, and equip load\n* Green Turtle Talisman — faster stamina recovery",
     },
     {
-      heading: "Defeat the Fire Giant",
+      heading: "Fire Giant Strategy — Phase 1",
       level: 2,
       content:
-        "The Fire Giant is one of the largest bosses in the game.\n\nThe encounter emphasizes:\n\n### Positioning\n\nStaying near vulnerable areas is crucial.\n\n### Patience\n\nOvercommitting often leads to punishment.\n\n### Endurance\n\nThe fight is designed to be longer than most previous encounters.\n\nVictory unlocks the final progression path toward the endgame.",
+        "The Fire Giant fight is a battle of endurance. The boss has an enormous health pool and two distinct phases.\n\n**Phase 1 — The Fire Giant mobile**\n\nIn Phase 1, the Fire Giant is mobile and aggressive. His left leg is wrapped in a brace — this is your primary target.\n\n**Strategy:**\n\n1. **Summon Torrent immediately** — you need mobility to close the gap\n2. **Target the left ankle (the braced leg)** — dealing enough damage to the braced leg triggers a stagger animation\n3. **Use Torrent to close distance** — the Fire Giant creates distance with his shield and fire attacks\n4. **Avoid the shield** — when he raises his shield, he is about to slam it down. The AOE has a wide radius\n5. **Watch for the fire bowl** — he swings his fire bowl in a wide arc. This is heavily telegraphed — dodge through it\n6. **Punish the rolling recovery** — when the Fire Giant rolls, he leaves a large opening. Chase him on Torrent and attack the braced leg\n7. **Apply bleed or frost** — status effects build up quickly. If you can proc bleed, it deals massive percentage-based damage\n\n**Phase 1 tips:**\n\n* Stay behind him whenever possible\n* Do not lock on — the camera is your enemy in this fight\n* Use Torrent's double jump to avoid ground AOE attacks\n* If you are struggling, summon a cooperator — the fight scales well with two players\n\n**Phase 1 transitions to Phase 2** when the Fire Giant's health reaches approximately 50%. He will collapse, creating a massive fire AOE — run away from his body to avoid taking damage.",
+    },
+    {
+      heading: "Fire Giant Strategy — Phase 2",
+      level: 2,
+      content:
+        "Phase 2 begins when the Fire Giant rips off his injured leg. He becomes more aggressive but also more vulnerable.\n\n**Phase 2 — The Fire Giant stationary**\n\nIn Phase 2, the Fire Giant is less mobile but gains new fire-based attacks. He crawls on his hands and uses his remaining leg to move.\n\n**Strategy:**\n\n1. **Do not stay under him** — in Phase 2, staying under the Fire Giant is dangerous. He has a close-range fire AOE that can one-shot you\n2. **Attack the arms and eye** — his arms and the eye on his chest are the weak points in Phase 2\n3. **Use ranged attacks** — if you have a bow or ranged spell, use it to hit the eye from a distance. This is safer than getting close\n4. **Watch for the fireball volley** — he shoots a volley of fireballs that track your position. Use Torrent's sprint to dodge them\n5. **Avoid the fire breath** — he breathes fire in a wide cone. This attack covers a large area and lingers\n6. **Summon your Spirit Ash** — if you saved it for Phase 2, now is the time. The Spirit Ash draws aggro and gives you openings\n7. **Punish the eye opening** — after certain attacks, the eye on his chest opens. This is the highest damage window in the fight\n\n**Phase 2 tips:**\n\n* The Fire Giant's fire attacks deal massive damage — wear fire-resistant armor\n* If you are using a bleed build, Phase 2 is easier because bleed procs ignore his increased fire resistance\n* Do not get greedy — 2-3 hits per opening is enough\n* The fight is designed to be long. Patience wins this encounter",
     },
     {
       heading: "Reach the Forge of the Giants",
       level: 2,
       content:
-        "After defeating the Fire Giant:\n\n* The main story advances significantly\n* New regions become available\n* Endgame progression begins\n\nThis is one of the most important moments in Elden Ring.",
+        "After defeating the Fire Giant:\n\n1. Follow the path through the arena\n2. Take the elevator up\n3. You will arrive at the **Forge of the Giants**\n\n**What happens here:**\n\n* The main story advances significantly\n* You can interact with the forge to trigger a major story event\n* New regions become available\n* Endgame progression begins\n\n**Important:** Before interacting with the forge, make sure you have completed everything you want to do in the Mountaintops. The forge is a point of no return — after interacting with it, you will be transported to Crumbling Farum Azula and cannot return to the Mountaintops until much later.",
     },
     {
-      heading: "Best Loot to Obtain Before Leaving",
+      heading: "Missable Content Checklist — Things to Do Before Leaving",
       level: 2,
       content:
-        "Several rewards should not be missed.\n\n### Haligtree Secret Medallion\n\nRequired for optional endgame content.\n\n### Late-Game Smithing Stones\n\nCritical for weapon upgrades.\n\n### Golden Seeds\n\nAdditional Flask charges remain valuable.\n\n### High-Level Talismans\n\nSome powerful options become available in this region.",
+        "Before progressing past the Fire Giant, make sure you have collected everything on this list:\n\n✅ **East Mountaintops Map Fragment** — required for navigation\n✅ **Castle Sol** — Haligtree Secret Medallion (Left)\n✅ **Commander Niall defeated** — 90,000 runes + medallion\n✅ **Haligtree Secret Medallion (Left)** — required for Consecrated Snowfield\n✅ **Ancient Dragon Smithing Stone** — behind Commander Niall's boss room\n✅ **Smithing Stone [7] and [8]** — upgrade your weapon to +24\n✅ **Golden Seed** — several available in the region\n✅ **Sacred Tear** — available at the Mountaintops Church of Marika\n✅ **Death Rite Bird** — drops Ancient Death Rancor spell (night only)\n✅ **Borealis of the Freezing Lake** — Dragon Heart + incantation\n✅ **Zamor Ruins loot** — Smithing Stones + armor set\n\n**Optional but recommended:**\n\n* Consecrated Snowfield exploration (requires medallion)\n* Miquella's Haligtree (requires both medallion halves)\n* Malenia boss fight (Haligtree end boss)",
+    },
+    {
+      heading: "Fire Giant Recommended Builds",
+      level: 2,
+      content:
+        "The Fire Giant is resistant to fire but weak to bleed and frost. These builds work especially well:\n\n### Bleed Build (Best Choice)\n\nBleed procs deal percentage-based damage, making the Fire Giant's massive health pool much more manageable. A dual-wielding bleed build with Blood Nagakiba or Rivers of Blood can proc bleed multiple times during the fight.\n\n[Full Bleed Build Guide](https://zosygo.com/elden-ring/builds/bleed)\n\n### Frost Build\n\nFrostbite reduces the Fire Giant's damage negation by 20%, making all follow-up damage hit harder. Combine frost with bleed for devastating results. The Dark Moon Greatsword is an excellent choice.\n\n### Moonveil Build\n\nTransient Moonlight's ranged attacks are useful for hitting the eye in Phase 2. The heavy posture damage helps stagger the Fire Giant, creating longer punish windows.\n\n[Full Moonveil Build Guide](https://zosygo.com/elden-ring/builds/moonveil)\n\n### General Tips for All Builds\n\n* Upgrade your weapon to +24 (+9 for Somber) before the fight\n* Equip the Fireproof Dried Liver for 20% fire damage reduction\n* Use the Opaline Hardtear in your Physick for additional damage negation\n* Bring a Spirit Ash — Mimic Tear +10 is the best choice\n* Use Torrent for mobility, especially in Phase 1",
     },
     {
       heading: "Common Mountaintops Mistakes",
       level: 2,
       content:
-        "### Rushing the Fire Giant\n\nMany players ignore valuable upgrades and struggle unnecessarily.",
-    },
-    {
-      heading: "Skipping Castle Sol",
-      level: 3,
-      content:
-        "This delays access to major late-game content.",
-    },
-    {
-      heading: "Neglecting Weapon Upgrades",
-      level: 3,
-      content:
-        "Enemy health scaling becomes significant here.",
-    },
-    {
-      heading: "Underinvesting in Vigor",
-      level: 3,
-      content:
-        "Glass-cannon builds often suffer heavily in this region.",
-    },
-    {
-      heading: "Ignoring Exploration",
-      level: 3,
-      content:
-        "Several important rewards are hidden away from the main path.",
-    },
-    {
-      heading: "Fastest Progression Route Summary",
-      level: 2,
-      content:
-        "For maximum efficiency:\n\n1. Enter Mountaintops\n2. Obtain map fragment\n3. Explore Zamor Ruins\n4. Unlock major Sites of Grace\n5. Upgrade weapons\n6. Visit Freezing Lake\n7. Clear Castle Sol\n8. Defeat Commander Niall\n9. Obtain Haligtree Secret Medallion\n10. Prepare build for Fire Giant\n11. Defeat Fire Giant\n12. Reach Forge of the Giants\n\nThis route provides the smoothest progression into Elden Ring's endgame.",
+        "### Rushing the Fire Giant\n\nThis is the most common mistake. The Fire Giant is designed to be tackled after you have explored the region. Players who rush it often arrive underleveled, with under-upgraded weapons, and without the Haligtree Medallion. The result is a much harder fight and missing out on some of the best late-game content.\n\n### Skipping Castle Sol\n\nCastle Sol is optional, but skipping it locks you out of the Consecrated Snowfield and Miquella's Haligtree. The Haligtree Secret Medallion is one of the most important items in the game. Do not skip Castle Sol.\n\n### Neglecting Weapon Upgrades\n\nEnemy health in the Mountaintops is roughly double what you faced in Altus Plateau. A +15 weapon will struggle. Aim for +24 (+9 for Somber) before the Fire Giant. The Smithing Stones [7] and [8] in this region are specifically placed to help you reach this goal.\n\n### Underinvesting in Vigor\n\nGlass-cannon builds suffer heavily in this region. The Fire Giant's fire attacks can one-shot players with less than 40 Vigor. Aim for 50-60 Vigor before the fight. The difference between 40 and 50 Vigor is roughly 300 HP — enough to survive a hit that would otherwise kill you.\n\n### Ignoring Exploration\n\nSeveral important rewards are hidden away from the main path. The Ancient Dragon Smithing Stone behind Commander Niall's boss room, the Death Rite Bird's spell drop, and the Borealis dragon incantation are all easily missed. Take the time to explore.",
     },
     {
       heading: "How the Mountaintops Change Elden Ring",
       level: 2,
       content:
-        "Earlier regions focus on growth.\n\nThe Mountaintops focus on preparation.\n\nBy this stage, players should already understand:\n\n* Build optimization\n* Weapon scaling\n* Flask management\n* Boss fundamentals\n\nThe game now expects mastery rather than experimentation.\n\nThis shift is what makes the Mountaintops one of Elden Ring's most memorable regions.",
+        "Earlier regions focus on growth. The Mountaintops focus on preparation.\n\nBy this stage, players should already understand:\n\n* Build optimization — spreading stats too thin is punished\n* Weapon scaling — your weapon should match your primary damage stat\n* Flask management — 12+ charges are expected\n* Boss fundamentals — attack patterns, punish windows, positioning\n\nThe game now expects mastery rather than experimentation.\n\nThis shift is what makes the Mountaintops one of Elden Ring's most memorable regions. It is not the hardest area in the game, but it is the one that forces you to stop playing like an explorer and start playing like someone preparing for the endgame.",
     },
     {
       heading: "FAQ",
       level: 2,
       content:
-        "### What level should I be for the Mountaintops of the Giants?\n\nMost players are comfortable between levels 100 and 120.\n\n### Is Castle Sol required?\n\nNo, but it is highly recommended because it contains the Haligtree Secret Medallion.\n\n### What weapon level should I have before Fire Giant?\n\nA standard weapon should ideally be between +20 and +24.\n\n### Should I explore before fighting Fire Giant?\n\nYes. The region contains valuable upgrades that make the encounter significantly easier.\n\n### What comes after the Mountaintops?\n\nAfter the Forge of the Giants, progression eventually leads to Crumbling Farum Azula and the final stages of the game.",
+        "### What level should I be for the Mountaintops of the Giants?\n\nMost players are comfortable between levels 100 and 120. Below 100, the difficulty spike becomes noticeable.\n\n### Is the Mountaintops harder than Altus Plateau?\n\nYes, significantly. Enemy health roughly doubles. The difficulty spike is intentional — the Mountaintops is designed to prepare you for the endgame.\n\n### Is Castle Sol required?\n\nNo, but it is highly recommended. Castle Sol contains the Haligtree Secret Medallion (Left), which is required to access the Consecrated Snowfield and Miquella's Haligtree.\n\n### What weapon level should I have before the Fire Giant?\n\nA standard weapon should ideally be between +20 and +24. A Somber weapon should be +8 or +9. Under-upgraded weapons will make the fight significantly longer and harder.\n\n### Can I skip Castle Sol and still finish the game?\n\nYes. Castle Sol is optional for the main story. However, skipping it locks you out of the Consecrated Snowfield, Miquella's Haligtree, and Malenia.\n\n### Where is the Mountaintops map fragment?\n\nFrom the Zamor Ruins Grace, head east along the cliff edge. The map stone is on a small plateau guarded by a few wolves.\n\n### What should I do before the Fire Giant?\n\nComplete the following: upgrade your weapon to +24, explore Castle Sol, collect the Haligtree Secret Medallion, gather Smithing Stones [7] and [8], and finalize your build. Use the [Elden Ring Build Planner](https://zosygo.com/elden-ring/tools/build-calculator) to optimize your stat distribution.\n\n### Is the Haligtree optional?\n\nYes. The Haligtree and Malenia are entirely optional. However, the area contains some of the best loot in the game, including the Millicent's Prosthesis talisman, the Scarlet Aeonia incantation, and the highest rune yield from any boss.\n\n### What comes after the Mountaintops?\n\nAfter the Forge of the Giants, progression leads to Crumbling Farum Azula, then to the endgame bosses. You can also explore the Consecrated Snowfield and Miquella's Haligtree if you obtained the Haligtree Secret Medallion.\n\n### What level should I fight the Fire Giant?\n\nLevel 100-120 with 40-60 Vigor and a weapon at +20 or higher. Bleed and frost builds have a significant advantage in this fight.",
     },
   ],
   internalLinks: [
     { href: "/elden-ring/walkthroughs/altus-plateau-walkthrough", anchorText: "Altus Plateau Walkthrough" },
     { href: "/elden-ring/walkthroughs/liurnia-walkthrough", anchorText: "Liurnia Walkthrough" },
     { href: "/elden-ring/bosses/how-to-beat-fire-giant", anchorText: "Fire Giant Boss Guide" },
-    { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
+    { href: "/elden-ring/builds/bleed", anchorText: "Bleed Build Guide" },
+    { href: "/elden-ring/builds/moonveil", anchorText: "Moonveil Build Guide" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+    { href: "/elden-ring/walkthroughs/rune-farming-guide", anchorText: "Rune Farming Guide" },
+    { href: "/elden-ring/walkthroughs/shadow-of-the-erdtree-dlc-route", anchorText: "Shadow of the Erdtree DLC Route" },
   ],
 };
+
 
 const article49: Article = {
   keyTakeaways: [
