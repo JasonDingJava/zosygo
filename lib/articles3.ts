@@ -461,15 +461,31 @@ const article40: Article = {
     { label: "⚠️ Common Myth", value: "Poise does NOT reduce damage — only prevents stagger during attacks" },
   ],
   slug: "poise-explained",
-  category: "walkthroughs",
+  category: "mechanics",
   gameSlug: "elden-ring",
   difficulty: "beginner",
   readTimeMinutes: 13,
   order: 40,
-  title: "Elden Ring Poise Guide: 51, 61, 101 Breakpoints, Hyper Armor & Best Armor",
-  h1: "Elden Ring Poise Guide: 51, 61, 101 Breakpoints, Hyper Armor & Best Armor",
+  title: "Elden Ring Poise Explained: 51, 61 & 101 Breakpoints Guide (2026)",
+  h1: "Elden Ring Poise Explained: 51, 61 & 101 Breakpoints Guide (2026)",
   metaDescription:
-    "Elden Ring poise determines whether you stagger when hit. Learn 51/61/101 poise breakpoints, hyper armor by weapon type, Bull-Goat set, and the best poise builds for PvE and PvP.",
+    "Learn how poise works in Elden Ring. Complete guide to 51, 61, and 101 poise breakpoints, hyper armor, Bull-Goat armor, and the best PvE/PvP setups.",
+
+  toc: [
+    { heading: "How Much Poise Do You Need?", anchor: "how-much-poise-do-you-need-in-elden-ring" },
+    { heading: "Poise Breakpoint Chart", anchor: "poise-breakpoint-chart" },
+    { heading: "Poise Breakpoint Infographic", anchor: "poise-breakpoint-infographic" },
+    { heading: "Bull-Goat Talisman Calculator", anchor: "bull-goat-talisman-poise-calculator" },
+    { heading: "What Is Poise?", anchor: "what-is-poise-in-elden-ring" },
+    { heading: "51 vs 61 Poise", anchor: "is-51-or-61-poise-better" },
+    { heading: "Hyper Armor Explained", anchor: "hyper-armor-explained" },
+    { heading: "Hyper Armor Weapons", anchor: "which-weapons-have-the-best-hyper-armor" },
+    { heading: "Poise Damage", anchor: "elden-ring-weapon-poise-damage-explained" },
+    { heading: "Best Poise Armor", anchor: "best-poise-armor-in-elden-ring" },
+    { heading: "Best Poise Builds", anchor: "best-poise-builds-in-elden-ring" },
+    { heading: "Common Mistakes", anchor: "common-poise-mistakes" },
+    { heading: "FAQ", anchor: "faq" }
+  ],
   sections: [
     {
       heading: "",
@@ -482,6 +498,20 @@ const article40: Article = {
       level: 2,
       content:
         "Poise is a hidden stat that controls whether your character gets interrupted when hit during an attack.\n\nIt does NOT reduce damage. It only determines if you stagger or continue your attack.\n\nThe three numbers to remember:\n\n* **51 poise** — allows you to resist many common PvE light attacks (daggers, straight swords)\n* **61 poise** — medium weapon trading, recommended for most melee players\n* **101+ poise** — heavy weapon trading, for greatswords and colossal weapons\n\nPoise comes from armor only. There is no weapon, spell, or consumable that increases it directly.\n\n> Poise = \"can I finish my attack?\" not \"how much damage do I take?\"",
+    },
+    {
+      heading: "How Much Poise Do You Need in Elden Ring?",
+      level: 2,
+      content:
+        "The answer depends on your weapon and playstyle. Here is the breakdown:",
+      table: {
+        headers: ["Poise Target", "Best For", "Recommended Builds"],
+        rows: [
+          ["51 Poise — Casual PvE", "Light attacks, ranged builds, sorcery playstyle", "Dexterity builds, Intelligence builds, Faith builds, Dex sorcery hybrids"],
+          ["61 Poise — Melee Trading", "Resist medium weapon attacks while trading blows", "Greatsword builds, Katana builds, Strength/Dex hybrids, straight sword builds"],
+          ["101+ Poise — Heavy Weapons", "Trade through heavy enemy attacks, boss exchanges", "Colossal weapon builds, Lion's Claw builds, charged attack builds, pure Strength builds"]
+        ]
+      }
     },
     {
       heading: "Poise Breakpoint Chart",
@@ -498,6 +528,21 @@ const article40: Article = {
           ["81", "Stronger PvE enemy attacks and boss light attacks", "Greatsword / Greataxe builds"],
           ["101", "Heavy weapon trades", "Greatsword, Greataxe, Colossal"],
           ["125+", "Maximum hyper armor builds", "Strength, Colossal builds"]
+        ]
+      }
+    },
+    {
+      heading: "Poise Breakpoint Infographic",
+      level: 2,
+      content:
+        "Quick visual reference for the three most important poise breakpoints:",
+      table: {
+        headers: ["Poise", "What You Get", "Who It's For"],
+        rows: [
+          ["0–50", "Basic PvE — you will stagger against most boss light attacks", "Mages, sorcery builds, pure ranged players"],
+          ["51", "Basic PvE resistance — trade through common enemy attacks", "Most PvE melee builds (Dex, Faith, light Strength)"],
+          ["61", "Melee trading unlocked — resist medium weapon attacks", "Greatsword, Katana, hybrid melee builds"],
+          ["101", "Heavy weapon trading unlocked — trade through boss attacks", "Colossal weapons, Lion's Claw, charged attack builds"]
         ]
       }
     },
@@ -583,6 +628,7 @@ const article40: Article = {
     { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Build Guide" },
     { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Builds" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Tier List" },
     { href: "/elden-ring/walkthroughs/stance-damage-explained", anchorText: "Stance Damage Explained" },
     { href: "/elden-ring/bosses/how-to-beat-godfrey", anchorText: "Greatsword vs Godfrey" },
   ],
@@ -721,7 +767,7 @@ const article41: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/walkthroughs/poise-explained", anchorText: "Stance Break vs Poise" },
+    { href: "/elden-ring/mechanics/poise-explained", anchorText: "Stance Break vs Poise" },
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Stance Break Build" },
     { href: "/elden-ring/builds/best-strength-build", anchorText: "Best Strength Builds" },
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Overview" },
@@ -955,7 +1001,7 @@ const article42: Article = {
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/walkthroughs/poise-explained", anchorText: "Poise Mechanics" },
+    { href: "/elden-ring/mechanics/poise-explained", anchorText: "Poise Mechanics" },
     { href: "/elden-ring/walkthroughs/stance-break-explained", anchorText: "Stance Break Guide" },
     { href: "/elden-ring/weapons/moonveil-katana-explained", anchorText: "Moonveil Scaling" },
     { href: "/elden-ring/weapons/greatsword-explained", anchorText: "Greatsword Scaling" },

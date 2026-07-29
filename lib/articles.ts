@@ -15,7 +15,7 @@ import extracted5 from "./articles_5";
 
 export interface ArticleBase {
   slug: string;
-  category: "builds" | "bosses" | "weapons" | "walkthroughs";
+  category: "builds" | "bosses" | "weapons" | "walkthroughs" | "mechanics";
   gameSlug: string;
   difficulty?: "beginner" | "intermediate" | "advanced" | "expert";
   readTimeMinutes: number;
