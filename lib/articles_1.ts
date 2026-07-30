@@ -545,17 +545,15 @@ const articles: Article[] = [
 
   keyTakeaways: [
 
-    { label: "⚔️ Corpse Piler Variants", value: "L2+R1 = horizontal slash (groups), L2+R2 = vertical (single target, stagger)" },
+    { label: "⚔️ Best Stats", value: "50 DEX / 45 ARC / 55-60 VIG for RL150" },
 
-    { label: "🎯 Core Stat", value: "Arcane 45 (hard cap), Dexterity 50, Vigor 55" },
+    { label: "💀 Best Setup", value: "White Mask + Lord of Blood's Exultation + Corpse Piler" },
 
-    { label: "💀 Boss Kill Times", value: "Malenia ~20s, Mohg ~15s — specialist vs bleedable bosses" },
+    { label: "🔥 Best Against", value: "Malenia, Mohg, Godfrey and bleedable bosses" },
 
-    { label: "⚠️ Do NOT Use Against", value: "Elden Beast, Radagon, gargoyles, Rennala — bleed immunity" },
+    { label: "⚠️ Avoid", value: "Elden Beast, Radagon and bleed immune enemies" },
 
-    { label: "🛡️ Key Setup", value: "Lord of Blood's Exultation + White Mask = 32% attack boost on bleed" },
-
-    { label: "📊 Comparison", value: "RoB > Moonveil vs bleedable, Moonveil > RoB vs immune and in PvP" },
+    { label: "📊 Verdict", value: "Still one of the fastest PvE boss-killing weapons" },
 
   ],
 
@@ -571,43 +569,57 @@ const articles: Article[] = [
 
   order: 1,
 
-  title: "Rivers of Blood Guide - Corpse Piler, Arcane Scaling & Best Builds",
+  title: "Elden Ring Rivers of Blood Build 2026: Best Stats, Corpse Piler & Arcane Setup",
 
-  metaDescription: "Is Rivers of Blood still the best katana? Corpse Piler timing, arcane cap at 45, comparison vs Moonveil and Hand of Malenia, and when NOT to use it.",
+  metaDescription: "Build the strongest Rivers of Blood setup in Elden Ring 2026. Learn the best Arcane and Dexterity stats, Corpse Piler combos, talismans, armor, and when RoB beats Moonveil.",
 
   sections: [
 
     {
 
-      heading: "Decision - Should You Use Rivers of Blood?",
+      heading: "Is Rivers of Blood Still Good in 2026?",
 
       level: 2,
 
-      content: "RoB is the highest-DPS weapon against bleedable targets, but it's a specialist weapon. Use it if you want to melt bosses under 20s, have Arcane investment, and are fighting bleedable bosses (Malenia, Mohg, Godfrey). Do NOT use it against bleed-immune bosses (Elden Beast, Radagon, gargoyles, Rennala) or in PvP where Corpse Piler is easy to dodge post-nerf. Moonveil is better for range. Hand of Malenia has higher potential but is harder to land consistently."
+      content: "Rivers of Blood remains one of the strongest PvE weapons in Elden Ring 2026, but it's a specialist tool. Here's how it compares:\n\n| Situation | Winner |\n|-------|--------|\n| Bleed bosses | Rivers of Blood |\n| Magic weak bosses | Moonveil |\n| PvP | Moonveil |\n| Exploration | Nagakiba |\n| Maximum burst | Rivers of Blood |\n\nUse RoB if you want to melt bosses under 20s, have Arcane investment, and are fighting bleedable bosses (Malenia, Mohg, Godfrey). Do NOT use it against bleed-immune bosses (Elden Beast, Radagon, gargoyles, Rennala) or in PvP where Corpse Piler is easy to dodge post-nerf."
 
     },
 
     {
 
-      heading: "Corpse Piler - Timing and Positioning",
+      heading: "Corpse Piler Explained",
 
       level: 2,
 
-      content: "L2 > R1 (horizontal slash, 360 arc, groups/mobile bosses). L2 > R2 (overhead vertical, single targets, stance breaks). Bleed procs on SECOND hit - always commit to 2 hits. 16 FP per cast. At 20 Mind = 6 casts per flask. Range: 2/3 of Moonveil's Transient Moonlight. The weapon art tracks slightly - if first hit misses, second re-adjusts.",
+      content: "Corpse Piler is the weapon art that makes Rivers of Blood legendary. Two variants for different situations:\n\n**L2 → R1 (Horizontal Slash)**\n\nBest for:\n- Groups of enemies\n- Mobile bosses that move side to side\n- Repeated bleed buildup without overcommitting\n\n**L2 → R2 (Overhead Vertical)**\n\nBest for:\n- Single target damage\n- Stagger and stance breaks\n- Punish windows after boss attacks\n\nBleed procs on the SECOND hit — always commit to 2 hits. 16 FP per cast. At 20 Mind = 6 casts per flask. Range: 2/3 of Moonveil's Transient Moonlight. The weapon art tracks slightly — if the first hit misses, the second re-adjusts.\n\n> The biggest mistake is spamming the entire combo. Most bosses only need 2-3 clean Corpse Piler hits before bleed triggers. Watch the bleed bar, not your animation.",
 
       image: "elden-ring-rivers-of-blood-corpse-piler.jpg",
 
-      imageAlt: ""
+      imageAlt: "Rivers of Blood Corpse Piler build Elden Ring 2026"
 
     },
 
     { heading: "Comparison vs Moonveil", level: 2, content: "RoB at 50 DEX/45 ARC: 565 AR + 112 bleed. Moonveil at 70 INT: 580 AR. RoB does 30% more DPS vs bleedable bosses. Moonveil does 40% more vs magic-weak. Key: Moonveil projectile = safer range. Corpse Piler = need to be close. For Mohg: RoB wins (bleed + hits through phase transition). Rennala: Moonveil wins (distance + magic weakness). Malenia: RoB kills in 18s vs 45s for Moonveil." },
 
-    { heading: "Stat Scaling and Arcane Cap", level: 2, content: "Scales D STR, C DEX, D ARC at +10. Bleed buildup scales with ARC up to 45 (hard cap). Past 45, +1-2 bleed per level. Physical soft caps at 50 DEX. Optimal: 50 DEX / 45 ARC at RL 150. 80 DEX / 60 ARC adds only 12% more damage for 45 stat points. Test different stat allocations with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to find the best value for your level." },
+    { heading: "Best Rivers of Blood Stats", level: 2, content: "Scales D STR, C DEX, D ARC at +10. Bleed buildup scales with ARC up to 45 (hard cap). Past 45, +1-2 bleed per level. Physical soft caps at 50 DEX.\n\n**Recommended stat allocation by level:**\n\n| Level | Vigor | Dexterity | Arcane |\n|-------|-------|-----------|--------|\n| Lv 100 | 40 | 40 | 35 |\n| Lv 125 | 50 | 45 | 45 |\n| Lv 150 | 60 | 50 | 45 |\n\nOptimal at RL 150: 50 DEX / 45 ARC / 60 VIG. 80 DEX / 60 ARC adds only 12% more damage for 45 stat points. Test different stat allocations with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to find the best value for your level." },
+
+    { heading: "Best Rivers of Blood Build Equipment", level: 2, content: "A complete Rivers of Blood build needs more than just stats. Here's the full setup:\n\n**Weapons**\n\n- Main hand: Rivers of Blood +10\n- Off-hand: Uchigatana (Seppuku) or Nagakiba\n\n**Armor**\n\n- White Mask (mandatory — 10% attack boost on bleed proc)\n- Any medium-weight chest/legs for 51+ poise\n\n**Talismans**\n\n- Lord of Blood's Exultation (+20% attack on bleed)\n- Shard of Alexander (+15% weapon art damage)\n- Rotten Winged Sword Insignia (+attack power on successive hits)\n- Carian Filigreed Crest (reduces FP cost)\n\n**Flask of Wondrous Physick**\n\n- Thorny Cracked Tear (successive attack boost)\n- Flame-Shrouding Cracked Tear (fire damage boost for Corpse Piler)" },
+
+    { heading: "Rivers of Blood vs Other Katanas", level: 2, content: "How does Rivers of Blood compare to other katanas?\n\n| Weapon | Best For |\n|--------|----------|\n| Rivers of Blood | Bleed DPS |\n| Moonveil | Range + Magic |\n| Nagakiba | Flexible bleed |\n| Hand of Malenia | Skill ceiling |\n\nEach katana has a clear role. Rivers of Blood excels at melting bleedable bosses faster than any other weapon." },
 
     { heading: "Progression and Upgrades", level: 2, content: "Found in Mountaintops of Giants after capital. Complete Yura questline through Altus Plateau. Upgrade: Somber Smithing Stones to +10. Before RoB: use Bloody Slash Uchigatana. Switch to RoB as soon as obtained - outclasses every other bleed weapon for PvE boss killing." },
 
-    { heading: "Common Mistakes", level: 2, content: "(1) Only using Corpse Piler - L1 power-stance does more stance damage. (2) No Mind investment - 10 Mind = 2 Corpse Piler casts per flask. (3) Using RoB vs bleed-immune enemies - switch weapon. (4) Not using Seppuku offhand trick - put Seppuku on left-hand Uchigatana for +30 bleed to both weapons. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)." }
+    { heading: "Common Mistakes", level: 2, content: "(1) Only using Corpse Piler - L1 power-stance does more stance damage. (2) No Mind investment - 10 Mind = 2 Corpse Piler casts per flask. (3) Using RoB vs bleed-immune enemies - switch weapon. (4) Not using Seppuku offhand trick - put Seppuku on left-hand Uchigatana for +30 bleed to both weapons. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)." },
+
+    {
+
+      heading: "Frequently Asked Questions",
+
+      level: 2,
+
+      content: "## Is Rivers of Blood still good after the nerf?\n\nYes. The post-nerf Corpse Piler still melts bleedable bosses. It's slightly weaker in PvP but remains one of the fastest PvE boss-killing weapons in Elden Ring 2026.\n\n## What stats are best for Rivers of Blood?\n\nAt RL 150: 60 Vigor, 50 Dexterity, 45 Arcane. Arcane caps bleed buildup at 45. Dexterity provides physical damage scaling.\n\n## Does Arcane increase Corpse Piler damage?\n\nYes. Arcane increases both the physical damage (D scaling) and bleed buildup of Rivers of Blood. The bleed cap is at 45 Arcane.\n\n## Is Rivers of Blood better than Moonveil?\n\nIt depends on the situation. Rivers of Blood wins against bleedable bosses. Moonveil wins against bleed-immune enemies and in PvP.\n\n## Can Rivers of Blood beat Malenia?\n\nYes. Rivers of Blood can kill Malenia in approximately 18 seconds with the right setup — one of the fastest Malenia kill strategies in the game."
+
+    }
 
   ],
 
