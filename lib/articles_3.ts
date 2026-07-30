@@ -779,7 +779,9 @@ const articles: Article[] = [
 
     order: 10,
 
-    title: "Elden Ring Build Planner (2026) - Best Stat Calculator Guide",
+    title: "Elden Ring Stat Calculator Guide (2026) - Optimize Your Build Stats",
+
+
 
     metaDescription:
 
@@ -789,7 +791,7 @@ const articles: Article[] = [
 
       {
 
-        heading: "",
+        heading: "Elden Ring Stat Calculator Guide (2026) - Optimize Your Build Stats",
 
         level: 2,
 
