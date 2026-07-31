@@ -206,116 +206,72 @@ const enduranceArticle: Article = {
 
 // ═══ ELDEN RING — BUILDS (Intelligence Soft Caps) ═══
 const intArticle: Article = {
-  keyTakeaways: [
-    { label: "🎯 Soft Caps", value: "20-50 (best efficiency), 50-80 (meta), 80+ (diminishing)" },
-    { label: "📊 PvE Meta", value: "INT 60-80 — comfortable damage + weapon scaling" },
-    { label: "🎯 PvP Meta", value: "INT 60-70 — burst build, high damage per FP" },
-    { label: "🛡️ Staff Matters", value: "Staff choice often matters as much as raw INT level" },
-    { label: "⚔️ Weopon Scaling", value: "Moonveil and DMGS scale well to 80 INT" },
-    { label: "💡 Key Rule", value: "INT 80 hard cap — never go past 80 in any build" },
-  ],
   slug: "intelligence-soft-cap-explained",
   category: "builds",
   gameSlug: "elden-ring",
   difficulty: "beginner",
   readTimeMinutes: 7,
   order: 55,
-  title:
-    "Elden Ring Intelligence Soft Cap Explained (2026) – Best Magic Scaling Breakpoints",
-  metaDescription:
-    "Complete Elden Ring Intelligence soft cap guide for 2026. Understand sorcery damage breakpoints, optimal INT for PvE and PvP at level 150, and how to avoid wasting levels on diminishing returns. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to plan your mage build.",
+  title: "Elden Ring Intelligence Soft Cap (2026) \u2013 Best INT Levels for Sorcery & Weapons",
+  metaDescription: "Elden Ring Intelligence soft cap explained. Learn the best INT levels for sorcery damage, Moonveil, Dark Moon Greatsword, PvE, PvP, and level 150 builds.",
+
   sections: [
     {
       level: 2,
-      heading: "What Does Intelligence Do in Elden Ring?",
-      content:
-        "Intelligence increases:\n\n- Sorcery damage (all magic spells)\n- Magic scaling on weapons (e.g., Moonveil, Dark Moon Greatsword)\n- Access to higher-tier sorceries\n- Hybrid build effectiveness (INT weapons)\n\nUnlike physical stats, Intelligence scaling is heavily tied to **spell scaling curves**, meaning breakpoints matter more than raw levels.\n\nUse the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to see how Intelligence affects your spell and weapon damage at different levels.",
+      heading: "What Is The Best Intelligence Level In Elden Ring?",
+      content: "The best Intelligence level in Elden Ring depends on your build type:\n\nFor Pure Mage Builds (comet / gravity spells): 70-80 Intelligence is the target, with 80 INT being the maximum practical cap.\n\nFor Hybrid Builds (Moonveil or Dark Moon Greatsword): 60-70 Intelligence provides excellent scaling while leaving room for Vigor and Mind.\n\nFor PvP: 80-90 Intelligence is common in high-level PvP, with 90+ used only in niche builds.\n\n| INT Level | Scaling | Best Use |\n|---------|---------|----------|\n| 20 | Early breakpoint | Beginner mage |\n| 40 | Strong scaling | Mid game |\n| 60 | Best efficiency | PvE meta |\n| 70 | Hybrid sweet spot | Moonveil / DMGS |\n| 80 | Maximum practical | Pure mage |\n| 99 | Poor efficiency | Not recommended |\n\n| Build Type | Recommended INT | Rationale |\n|---------|---------|----------|\n| Pure Mage | 80-90 | Maximum sorcery damage |\n| Moonveil Hybrid | 60-70 | Magic scaling + Dexterity |\n| Dark Moon Hybrid | 65-75 | Heavy greatsword magic |\n| PvP Mage | 80-90 | Competitive damage |\n| Balanced | 50-60 | Survivability priority |",
     },
     {
       level: 2,
-      heading: "Elden Ring Intelligence Soft Caps (2026 Updated)",
-      content:
-        "Intelligence has **three major soft caps** affecting sorcery damage and weapon scaling.\n\n---\n\n### Early Scaling (1\u201320 Intelligence)\n\n- Moderate sorcery damage increase per level\n- Early-game spells scale quickly\n- Strong progression for beginner mages\n\n\uD83D\uDC49 Best phase for early spell power growth\n\n---\n\n### First Soft Cap (20\u201350 Intelligence)\n\n- Strongest efficiency zone for most sorceries\n- High damage scaling per level\n- Most meta mage builds stabilize here early\n\n\uD83D\uDC49 This is the **core mage progression range**\n\n---\n\n### Second Soft Cap (50\u201380 Intelligence)\n\n- Damage scaling begins to slow down\n- High-tier sorceries still benefit significantly\n- Weapon scaling (Moonveil, DMGS) remains strong\n\n\uD83D\uDC49 This is the **PvE and PvP meta range**\n\n---\n\n### Hard Cap (80\u201399 Intelligence)\n\n- Minimal sorcery damage gains\n- Mostly used for optimized PvP burst builds\n- Not efficient for general progression",
+      heading: "Elden Ring Intelligence Soft Cap Breakpoints",
+      content: "Intelligence has several soft cap breakpoints that determine scaling efficiency:\n\n20 Intelligence: The first minor breakpoint. Magic scaling begins to improve noticeably. This is the natural starting point for beginner mages.\n\n40 Intelligence: A significant scaling increase. Most mid-game sorceries become viable. Intelligence scaling on magic weapons reaches acceptable levels.\n\n60 Intelligence: The first major soft cap. This is the most efficient point for most PvE builds, providing excellent damage while allowing room for defensive stats.\n\n70 Intelligence: Another strong breakpoint, particularly beneficial for hybrid weapon builds using Moonveil or Dark Moon Greatsword.\n\n80 Intelligence: The practical maximum for most players. Sorcery scaling peaks here. Additional investment beyond 80 provides diminishing returns.\n\n90+ Intelligence: Only recommended for dedicated PvP builds or completionist pure mage builds. The marginal damage increase is extremely small per point.\n\n| INT Level | Scaling Efficiency | Recommendation |\n|---------|---------|----------|\n| 20-39 | Moderate | Early game acceptable |\n| 40-59 | Good | Solid mid game |\n| 60-69 | Excellent | Best PvE efficiency |\n| 70-79 | Very good | Hybrid sweet spot |\n| 80+ | Diminishing | Max practical cap |",
     },
     {
       level: 2,
-      heading: "Intelligence Scaling and Sorcery Damage Explained",
-      content:
-        "Sorcery damage depends on:\n\n- Staff scaling (Sorcery Scaling stat)\n- Intelligence level\n- Spell base power\n- Buffs and talismans\n\n\uD83D\uDC49 Intelligence increases scaling efficiency, but **staff choice often matters as much as raw INT level**.\n\nCompare staff scaling with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to see the difference at your INT level.",
+      heading: "Intelligence vs Sorcery Damage",
+      content: "As Intelligence increases, sorcery damage grows through magic scaling. The relationship is not linear \u2013 each soft cap delivers a noticeable spike in damage output.\n\nFrom 20 to 40 INT, sorcery damage increases steadily with good efficiency. From 40 to 60 INT, you get the best damage-per-level investment of the entire stat range. Beyond 60 INT, each point gives less damage, but the absolute numbers are still substantial.\n\nFor reference, a pure glintstone sorcerer at 60 INT can deal roughly 30-40% more sorcery damage than at 40 INT, while the jump from 70 to 80 INT is closer to 10-15%.",
     },
     {
       level: 2,
-      heading: "Intelligence Breakpoints (Why 50 and 80 Matter)",
-      content:
-        "### 50 Intelligence Breakpoint\n\n- Strong mid-game sorcery damage\n- Efficient FP-to-damage ratio\n- Unlocks most viable mage builds\n\n\uD83D\uDC49 Ideal for early meta builds\n\n---\n\n### 80 Intelligence Breakpoint\n\n- Peak sorcery damage scaling\n- Required for high-end PvP mage builds\n- Maximizes weapon magic scaling\n\n\uD83D\uDC49 Standard endgame mage target",
+      heading: "Intelligence Scaling For Popular Weapons",
+      content: "Two of the most popular Intelligence weapons in Elden Ring benefit enormously from magic investment:\n\nMoonveil\n\nMoonveil scales strongly with Intelligence, reaching excellent returns around 60-70 INT. The weapon's Transient Moonlight skill also scales with magic, making it devastating for both melee and ranged combat. Going from 70 to 80 INT increases damage, but the improvement is smaller compared with investing those levels into Vigor or Mind for survivability.\n\nRead more: Moonveil Build Guide\n\nDark Moon Greatsword\n\nDark Moon Greatsword benefits heavily from Intelligence because both weapon damage and its Transient Moonlight-style ranged attacks scale with magic investment. Most players invest 65-75 INT for optimal performance, as the greatsword's heavy-hitting nature rewards sustained magic scaling.\n\nRead more: Dark Moon Greatsword Build Guide",
     },
     {
       level: 2,
-      heading: "Recommended Intelligence Levels (PvE & PvP)",
-      content:
-        "### PvE Mage Builds (Level 120\u2013150)\n\n- Recommended: **50\u201370 Intelligence**\n- Meta sweet spot: **60\u201370**\n\n\uD83D\uDC49 Balanced sorcery damage + survivability investment\n\n---\n\n### PvP Mage Builds\n\n#### Meta Duel Builds (Level 125\u2013150)\n- Recommended: **60\u201380 Intelligence**\n\n\uD83D\uDC49 Focus:\n- Burst spells\n- Weapon hybrid scaling\n- One-shot potential setups\n\n---\n\n### Pure Glass Cannon Builds\n\n- Recommended: **80\u201399 Intelligence**\n\n\uD83D\uDC49 Focus:\n- Maximum sorcery damage\n- High-risk, high-reward playstyle",
+      heading: "60 INT vs 80 INT: Which Is Better?",
+      content: "The question is not whether 80 INT gives more damage. It does.\n\nThe question is whether the extra 20 levels outperform Vigor, Mind, or Endurance investment.\n\n| Build | INT | Vigor | Total Level | Damage | Survivability |\n|---------|---------|----------|----------|----------|----------|\n| Balanced Mage | 60 | 50 | ~150 | 100% (baseline) | High |\n| Pure Mage | 80 | 30 | ~150 | +20-25% | Low |\n| Hybrid | 70 | 40 | ~150 | +10-15% | Medium |\n\nAt level 150, a balanced mage with 60 INT and 50 Vigor will outlive a pure mage with 80 INT and 30 Vigor by a significant margin \u2013 and the damage difference is often not enough to justify the survivability gap in single-player content.\n\nFor PvP, 80-90 INT is more justifiable because damage output matters more than survivability, and opponents will kill you regardless of your health pool.",
     },
     {
       level: 2,
-      heading: "Intelligence vs Weapon Scaling (Important Insight)",
-      content:
-        "Many Intelligence builds rely on hybrid weapons:\n\n- Moonveil Katana\n- Dark Moon Greatsword\n- Wing of Astel\n\nThese weapons scale differently:\n\n- Early scaling: Intelligence heavily boosts damage\n- Late scaling: weapon base scaling becomes dominant\n\n\uD83D\uDC49 This is why **80 Intelligence is often the effective cap for hybrid builds**\n\nUse the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to compare Moonveil or DMGS damage at 60 vs 80 Intelligence.",
-    },
-    {
-      level: 2,
-      heading: "Common Mistakes Intelligence Players Make",
-      content:
-        "### 1. Over-investing beyond 80 too early\n- Minimal damage gain for high stat cost\n\n### 2. Ignoring staff scaling\n- Wrong staff can reduce damage more than low INT\n\n### 3. Not balancing FP efficiency\n- High INT builds often waste FP on inefficient spells",
-    },
-    {
-      level: 2,
-      heading: "Best Intelligence Build Archetypes",
-      content:
-        "### Sorcery Nuker Build\n- 70\u201380 Intelligence\n- Focus on burst spells\n\n### Hybrid Weapon Mage\n- 50\u201370 Intelligence\n- Moonveil / DMGS focus\n\n### PvP Burst Mage\n- 70\u201380 Intelligence\n- One-shot spell setups\n\n### Early Game Mage\n- 20\u201340 Intelligence\n- Rapid progression scaling",
-    },
-    {
-      level: 2,
-      heading: "Intelligence in Level 150 Meta Builds",
-      content:
-        "A standard optimized mage build:\n\n- Vigor: 50\u201360\n- Intelligence: 60\u201380\n- Endurance: 20\u201330\n- Mind: 20\u201335\n\n\uD83D\uDC49 Intelligence defines damage ceiling, but survivability still depends on Vigor balance.\n\nPlan your mage build with the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to see the exact rune cost from your current level.",
-    },
-    {
-      level: 2,
-      heading: "Should You Go Above 80 Intelligence?",
-      content:
-        "Only if:\n\n- Pure sorcery PvP build\n- Max burst damage setup\n- No hybrid weapon usage\n\nOtherwise:\n\n> 80 Intelligence is the practical optimization cap for most builds.",
-    },
-    {
-      level: 2,
-      heading: "Optimization Strategy (2026 Meta)",
-      content:
-        "The best Intelligence strategy is:\n\n1. Reach 50 Intelligence early for strong scaling\n2. Push to 60\u201370 for balanced builds\n3. Only go to 80+ for PvP or pure mage optimization\n\nSee our [Vigor Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/vigor-soft-cap-explained) and [Endurance Soft Cap Guide](https://www.zosygo.com/elden-ring/builds/endurance-soft-cap-explained) for complementary stat optimization.",
-    },
-    {
-      level: 2,
-      heading: "Related Tools",
-      content:
-        "To optimize your mage build:\n\n- Use a **Build Planner** to balance Intelligence with Vigor and Mind\n- Use a **Weapon AR Calculator** for Moonveil / DMGS scaling comparison\n- Use a **Rune Level Calculator** to plan level 150 mage builds",
+      heading: "Intelligence for Incantations",
+      content: "Intelligence does not scale traditional incantations (which use Faith). However, certain hybrid spells and magic-based incantations benefit from Intelligence investment.\n\nSome sorcery incantation hybrids, such as certain Dragon Communion spells infused with magic, can benefit from a mix of Intelligence and Faith. For most players, sticking with a pure Intelligence or pure Faith build is more effective than splitting points between the two.",
     },
     {
       level: 2,
       heading: "Conclusion",
-      content:
-        "Intelligence is the primary scaling stat for mage builds in Elden Ring, but its effectiveness is defined by clear breakpoints rather than linear progression.\n\nFor most players in 2026, **60\u201380 Intelligence is the optimal range**, balancing sorcery damage, weapon scaling, and overall build efficiency for both PvE and PvP.",
+      content: "For most Elden Ring players, 60-80 Intelligence is the optimal range. 60 INT provides the best efficiency for PvE builds, while 80 INT is the practical maximum for pure mage builds.\n\nIf you are playing Moonveil or Dark Moon Greatsword, aim for 60-70 INT to maximize weapon scaling while maintaining survivability. If you are building a pure sorcerer, 80 INT is the target.\n\nRemember: in a level 150 build, the choice of how to distribute the remaining points between Intelligence, Vigor, Mind, and Endurance matters just as much as the Intelligence cap itself.",
+    },
+    {
+      level: 2,
+      heading: "FAQ",
+      content: "Is 80 Intelligence worth it in Elden Ring?\n\n80 Intelligence is the practical maximum for most mage builds. The damage increase after 80 is extremely small, making additional points inefficient for single-player.\n\nIs 60 Intelligence enough?\n\nYes. 60 INT provides excellent damage while allowing more investment into survivability. It is the most efficient point for PvE.\n\nWhat is the best INT level for Moonveil?\n\nMoonveil performs well between 60-80 Intelligence. Most level 150 builds prefer 70 INT with higher Vigor.\n\nWhat is the INT cap in Elden Ring?\n\nThe hard cap for Intelligence is 99, but the soft cap is 80. Going beyond 80 is only worthwhile for PvP or completionist builds.\n\nDoes Intelligence scale with sorcery?\n\nYes. Intelligence is the primary stat for sorcery scaling. Higher INT directly increases magic damage output.",
+    },
+    {
+      level: 2,
+      heading: "Related Guides",
+      content: "Want to build the best INT character? Check out these guides:\n\n\u2022 Moonveil Build Guide \u2013 The best hybrid INT/Dexterity weapon\n\n\u2022 Dark Moon Greatsword Build \u2013 Heavy magic greatsword\n\n\u2022 Elden Ring Build Calculator \u2013 Plan your level 150 build\n\n\u2022 Sorcery Guide \u2013 All spells ranked",
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
-    { href: "/elden-ring/builds/vigor-soft-cap-explained", anchorText: "Vigor Soft Cap Guide" },
-    { href: "/elden-ring/builds/endurance-soft-cap-explained", anchorText: "Endurance Soft Cap Guide" },
-    { href: "/elden-ring/builds/elden-ring-damage-scaling-explained", anchorText: "Damage Scaling Explained" },
-    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+    { href: "/elden-ring/builds/moonveil-build", anchorText: "Moonveil Build Guide" },
+    { href: "/elden-ring/builds/dark-moon-greatsword", anchorText: "Dark Moon Greatsword Build" },
     { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
-    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
-    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
+    { href: "/elden-ring/builds/soft-caps-explained", anchorText: "Elden Ring Soft Caps Explained" },
+    { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
+    { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
-  ],
-};
+  ]}
+
 
 // ═══ ELDEN RING — BUILDS (Dexterity Soft Caps) ═══
 const dexArticle: Article = {
