@@ -32,11 +32,11 @@ const articles: Article[] = [
 
     order: 1,
 
-    h1: "Moonveil Build Elden Ring 2026 – Best Intelligence Katana Setup",
+    h1: "Best Moonveil Build Elden Ring 2026 – 70 INT Stats, Talismans & Transient Moonlight Guide",
 
-    title: "Moonveil Build Elden Ring 2026 – Best INT Katana Stats, Talismans & Spells",
+    title: "Best Moonveil Build Elden Ring 2026 – 70 INT Stats, Talismans & Transient Moonlight Guide",
 
-    metaDescription: "The ultimate Moonveil build guide for Elden Ring. Learn the best stats, Intelligence breakpoints, talismans, damage optimization, and PvE/PvP strategies.",
+    metaDescription: "Create the best Moonveil build in Elden Ring 2026. Learn the optimal 70 INT stats, strongest talismans, spells, Transient Moonlight combos, and PvE/PvP strategies for RL150.",
 
     sections: [
 
@@ -48,7 +48,7 @@ const articles: Article[] = [
 
         content:
 
-          "Moonveil has stayed relevant through every major patch and DLC release because it combines four mechanics that most weapons only get one or two of: a fast katana moveset, bleed buildup, Intelligence scaling, and a ranged weapon skill that deals serious posture damage. Other top-tier weapons got nerfed or outclassed by new additions, but Moonveil kept showing up in build discussions because that combination is hard to beat.\n\nThis guide covers the stat breakpoints that actually matter, the talisman setup that maximizes Transient Moonlight, and the common leveling mistakes that waste 10-15 stat points on a typical RL 150 build. Use the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions before spending Larval Tears.\n\n![Elden Ring screenshot](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
+          "Moonveil has stayed relevant through every major patch and DLC release because it combines four mechanics that most weapons only get one or two of: a fast katana moveset, bleed buildup, Intelligence scaling, and a ranged weapon skill that deals serious posture damage. Other top-tier weapons got nerfed or outclassed by new additions, but Moonveil kept showing up in build discussions because that combination is hard to beat.\n\n**Recommended Moonveil Build Summary**\n\n| Category | Best Choice |\n|----------|-------------|\n| Level | 150 |\n| Starting Class | Samurai |\n| Weapon | Moonveil +10 |\n| Intelligence | 70 |\n| Vigor | 60 |\n| Mind | 25 |\n| Staff | Carian Regal Scepter |\n| Armor | Light/Medium |\n| Main Skill | Transient Moonlight |\n| Flask | Magic-Shrouding + Intelligence Knot |\n\nThis guide covers the stat breakpoints that actually matter, the talisman setup that maximizes Transient Moonlight, and the common leveling mistakes that waste 10-15 stat points on a typical RL 150 build. Use the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to test different stat distributions before spending Larval Tears.\n\n![Moonveil Transient Moonlight build Elden Ring 2026](/images/articles/u=1067614621,3217285792&fm=253&fmt=auto&app=120&f=JPEG.webp)"
 
       },
 
@@ -142,6 +142,18 @@ const articles: Article[] = [
 
       {
 
+        heading: "Moonveil Build Calculator",
+
+        level: 2,
+
+        content:
+
+          "Want to test your own Moonveil setup? Use the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) to adjust your Intelligence, Dexterity, Mind, and talismans, then compare your AR and Transient Moonlight damage against different stat allocations.\n\nTry different combinations:\n\n- 70 INT vs 80 INT with the same Vigor\n- Magic Scorpion Charm vs Graven-Mass Talisman\n- 20 Mind vs 25 Mind for Transient Moonlight spam\n\n[Open Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator)"
+
+      },
+
+      {
+
         heading: "Why Dexterity Is Often Overrated",
 
         level: 2,
@@ -206,7 +218,19 @@ const articles: Article[] = [
 
         content:
 
-          "Cuts FP cost of weapon skills by 25%. If you're chugging blue flasks more than red ones, this talisman extends your combat uptime significantly. It's a quality-of-life pick that becomes more valuable the more aggressively you use Transient Moonlight.\n\n![Elden Ring screenshot](/images/articles/u=1563453329,401002841&fm=253&app=138&f=JPEG.jpeg)"
+          "Cuts FP cost of weapon skills by 25%. If you're chugging blue flasks more than red ones, this talisman extends your combat uptime significantly. It's a quality-of-life pick that becomes more valuable the more aggressively you use Transient Moonlight.\n\n![Moonveil katana INT build using Transient Moonlight in Elden Ring](/images/articles/u=1563453329,401002841&fm=253&app=138&f=JPEG.jpeg)"
+
+      },
+
+      {
+
+        heading: "Best Moonveil Armor",
+
+        level: 2,
+
+        content:
+
+          "The right armor setup balances damage, mobility, and poise for your Moonveil build.\n\n**White Mask** — 10% attack boost on bleed proc. Works well with Moonveil's passive bleed buildup.\n\n**Spellblade Set** — Rogier's set boosts sorcery damage by 2% per piece. Lightweight and thematic.\n\n**Ranni's Dark Moon Setup** — Mix Ranni's Hat with medium-weight chest/legs for fashion and function.\n\n**Light Roll Setup** — Use Blue Silver Mail + reduced weight armor to stay under 30% equip load for light rolls.\n\n**Flask Setup** — Magic-Shrouding Cracked Tear (20% magic damage) + Intelligence-Knot Crystal Tear (+10 INT) for burst windows. Pop both before boss fights."
 
       },
 
@@ -306,6 +330,30 @@ const articles: Article[] = [
 
       {
 
+        heading: "Moonveil Damage Test",
+
+        level: 2,
+
+        content:
+
+          "Real damage numbers for Moonveil +10 at 70 Intelligence with optimized talismans:\n\n| Boss | Transient Moonlight R2 | Notes |\n|------|----------------------|-------|\n| Godrick | ~1200-1400 damage | Staggers in 3-4 hits |\n| Malenia | ~900-1100 per hit | 4-5 hits to stagger |\n| Mimic Tear | ~1500-1800 damage | High magic damage |\n| Radagon | ~600-800 damage | Use physical backup weapon |\n| Elden Beast | ~500-700 damage | Switch to Holy-resistant setup |\n\nTest values with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to see exact numbers for your specific stat allocation."
+
+      },
+
+      {
+
+        heading: "Moonveil Balance History",
+
+        level: 2,
+
+        content:
+
+          "Moonveil has remained popular through every Elden Ring patch because no major nerf has removed its core strengths.\n\n- Transient Moonlight still provides ranged magic damage with good stance break potential\n- Intelligence scaling remains competitive at 70 INT\n- Bleed passive (45 buildup) remains useful against most bosses\n- The weapon art recovery speed has never been significantly nerfed\n\nThe weapon is still one of the strongest INT melee options in 2026, and this guide's recommendations remain current through all balance updates."
+
+      },
+
+      {
+
         heading: "Moonveil vs Rivers of Blood",
 
         level: 2,
@@ -313,6 +361,18 @@ const articles: Article[] = [
         content:
 
           "Moonveil and Rivers of Blood are often compared because they're both katanas with powerful weapon skills, but they serve different roles. Moonveil is better at range and works well with hybrid caster builds. Rivers of Blood deals higher raw damage against bleedable bosses and procs status effects faster.\n\n| Category | Moonveil | Rivers of Blood |\n|-----------|-----------|-----------|\n| Burst Damage | Excellent | Excellent |\n| Range | Excellent | Average |\n| Bleed Damage | Moderate | Exceptional |\n| Boss Consistency | Excellent | Good |\n| PvP Pressure | Excellent | Excellent |\n| Build Flexibility | High | Moderate |\n\nPick Moonveil if you want ranged pressure and flexibility to swap between melee and sorcery. Pick Rivers of Blood if you want maximum bleed procs and aggressive close-range pressure."
+
+      },
+
+      {
+
+        heading: "Moonveil PvE Boss Matchups",
+
+        level: 2,
+
+        content:
+
+          "How Moonveil performs against major bosses:\n\n| Boss | Difficulty | Strategy |\n|------|------------|----------|\n| Malenia | Medium | Transient Moonlight at range, stance break for crits |\n| Radagon | Hard | Use physical backup weapon, Moonveil for magic phase |\n| Elden Beast | Hard | Chase with Transient Moonlight, dodge homing attacks |\n| Mohg | Easy | Bleed + magic damage, Transient Moonlight through phase transition |\n| Godfrey | Medium | Stance break with L2+R2, punish openings |\n| DLC Bosses | Medium | Most DLC bosses weak to magic, Transient Moonlight spacing works well |\n\nMoonveil performs best against enemies weak to magic or stance damage. Keep a physical backup weapon for magic-resistant bosses."
 
       },
 
@@ -336,7 +396,7 @@ const articles: Article[] = [
 
         content:
 
-          "**Is Moonveil still worth using in 2026?** Yes — it has survived every balance patch and remains one of the best Intelligence-scaling weapons in the game.\n\n**Is 80 Intelligence necessary?** No. 60-70 Intelligence is enough for most content. The last 10 points provide diminishing returns and are better spent on Vigor or Mind.\n\n**What level is best for Moonveil builds?** RL 150 offers the best balance between damage output and survivability. This is also the most active level range for co-op and PvP. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check how many runes you need to reach 150 from your current level.\n\n**Moonveil vs Dark Moon Greatsword?** Moonveil is more flexible and easier to use. Dark Moon Greatsword has higher peak damage in optimized builds but requires more setup and commitment to each attack.\n\n**Is Moonveil beginner-friendly?** Yes — the combination of ranged attacks, bleed buildup, and straightforward stat scaling makes it one of the easiest top-tier weapons to pick up."
+          "**Is Moonveil still worth using in 2026?** Yes — it has survived every balance patch and remains one of the best Intelligence-scaling weapons in the game.\n\n**How much Intelligence does Moonveil need?** 70 Intelligence is the sweet spot for RL 150. Pushing to 80 provides diminishing returns and is better spent on Vigor or Mind.\n\n**What is the best Moonveil level 150 build?** 60 Vigor, 25 Mind, 25 Endurance, 12 Strength, 30 Dexterity, 70 Intelligence. Use Samurai starting class for optimal stat efficiency.\n\n**Does Moonveil still bleed in 2026?** Yes, Moonveil retains its 45 bleed buildup passive. It's not as strong as dedicated bleed weapons, but it provides useful chip damage against bleedable bosses.\n\n**Moonveil vs Rivers of Blood which is better?** Moonveil wins for range, magic damage, and hybrid caster builds. Rivers of Blood wins for pure bleed DPS against bleedable bosses. See our [Moonveil vs Rivers of Blood](https://www.zosygo.com/elden-ring/builds/moonveil-vs-rivers-of-blood) comparison.\n\n**Is 80 Intelligence necessary?** No. 60-70 Intelligence is enough for most content. The last 10 points provide diminishing returns and are better spent on Vigor or Mind.\n\n**What level is best for Moonveil builds?** RL 150 offers the best balance between damage output and survivability. This is also the most active level range for co-op and PvP. Use the [Rune Level Calculator](https://www.zosygo.com/elden-ring/tools/rune-level-calculator) to check how many runes you need to reach 150 from your current level.\n\n**Moonveil vs Dark Moon Greatsword?** Moonveil is more flexible and easier to use. Dark Moon Greatsword has higher peak damage in optimized builds but requires more setup and commitment to each attack.\n\n**Is Moonveil beginner-friendly?** Yes — the combination of ranged attacks, bleed buildup, and straightforward stat scaling makes it one of the easiest top-tier weapons to pick up."
 
       },
 
@@ -348,7 +408,7 @@ const articles: Article[] = [
 
         content:
 
-          "Moonveil is not the flashiest or hardest-hitting weapon in Elden Ring, but it is one of the most consistent. The combination of Intelligence scaling, bleed buildup, ranged pressure, and posture damage covers more situations than almost any other single weapon. Most players struggling with Moonveil don't need more damage — they need better stat allocation and a proper talisman setup. Nail the fundamentals — 60 Vigor, 70 Intelligence, the right talismans, and a few supporting sorceries — and Moonveil will carry you through every major boss in the game. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator)."
+          "Moonveil is not the flashiest or hardest-hitting weapon in Elden Ring, but it is one of the most consistent. The combination of Intelligence scaling, bleed buildup, ranged pressure, and posture damage covers more situations than almost any other single weapon. Most players struggling with Moonveil don't need more damage — they need better stat allocation and a proper talisman setup. Nail the fundamentals — 60 Vigor, 70 Intelligence, the right talismans, and a few supporting sorceries — and Moonveil will carry you through every major boss in the game. Check the exact damage numbers for your weapon setup with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator). Plan your next build with the [Elden Ring Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) and compare against our [Intelligence Build Guide](https://www.zosygo.com/elden-ring/builds/best-intelligence-build)."
 
       }
 
@@ -356,15 +416,19 @@ const articles: Article[] = [
 
     internalLinks: [
 
-      { href: "/elden-ring/builds/best-moonveil-build", anchorText: "Best Moonveil Build Guide (2026)" },
-
       { href: "/elden-ring/builds/moonveil-vs-rivers-of-blood", anchorText: "Moonveil vs Rivers of Blood" },
 
-      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build" },
+      { href: "/elden-ring/builds/best-intelligence-build", anchorText: "Best Intelligence Build Guide" },
+
+      { href: "/elden-ring/builds/best-bleed-build", anchorText: "Best Bleed Build Guide" },
+
+      { href: "/elden-ring/weapons/rivers-of-blood", anchorText: "Rivers of Blood Build Guide" },
 
       { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
 
-      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" }
+      { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+
+      { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" }
 
     ]
 
