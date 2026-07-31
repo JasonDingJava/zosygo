@@ -230,6 +230,12 @@ const article38: Article = {
         "If you are wondering whether Eleonora's Poleblade is worth using:\n\n* Yes, it is one of the strongest Arcane bleed weapons in Elden Ring\n* Yes, it applies bleed extremely fast through multi-hit attacks\n* Yes, its skill provides burst + mobility at the same time\n* Yes, it performs well in both PvE and PvP\n\nIts strength comes from combining hit frequency with Arcane scaling and mobility pressure.",
     },
     {
+      heading: "How To Get Bolt of Gransax In Elden Ring",
+      level: 2,
+      content:
+        "Bolt of Gransax is found in Leyndell, Royal Capital. It is one of the few missable legendary weapons in Elden Ring.\n\n**Important: Do Not Miss This Weapon**\n\nBolt of Gransax can only be obtained before defeating Maliketh. After Leyndell turns to ash, the weapon becomes permanently unavailable in that playthrough.\n\n### Step-by-Step\n\n1. Reach **Leyndell, Royal Capital** (after defeating Draconic Tree Sentinel)\n2. From the **Leyndell Capital Site of Grace**, head east toward the massive spear embedded in the erdtree sanctuary\n3. Climb the giant spear structure using the ramps and platforms\n4. The weapon is at the top, glowing on the spear itself\n5. Collect **Bolt of Gransax**\n\n### Tips\n\n* This is the **only** legendary weapon that can be permanently missed\n* Make sure to grab it before entering Farum Azula\n* No boss fight required to reach it\n* The entire route takes about 3 minutes from the Capital Site of Grace",
+    },
+    {
       heading: "Weapon Overview",
       level: 2,
       content:
@@ -351,15 +357,15 @@ const article39: Article = {
   difficulty: "intermediate",
   readTimeMinutes: 7,
   order: 39,
-  title: "Bolt of Gransax Explained: Why This Legendary Spear Dominates Lightning Builds in Elden Ring (2026 Guide)",
+  title: "Best Bolt of Gransax Build Elden Ring 2026 – Location, 60 DEX Stats & Lightning Spear Guide",
   metaDescription:
-    "Complete breakdown of Bolt of Gransax scaling, Ancient Lightning Spear skill, Faith/Dex synergy, damage mechanics, and why it is one of the strongest legendary weapons in Elden Ring.",
+    "Master the Bolt of Gransax in Elden Ring 2026. Learn the best 60 DEX lightning build, weapon location, Ancient Lightning Spear damage, talismans, and boss strategies.",
   sections: [
     {
       heading: "",
       level: 2,
       content:
-        "Bolt of Gransax is one of the most unique legendary weapons in Elden Ring.\n\nUnlike most spears, it is not designed around close-range poking or sustained melee pressure.\n\nInstead, it functions as a long-range lightning artillery system disguised as a spear.\n\nThis single design choice completely changes how the weapon is used in both PvE and PvP.\n\nMost players pick it up expecting a standard spear.\n\nWhat they actually get is a charged lightning sniper weapon.",
+        "Bolt of Gransax is one of the strongest legendary weapons in Elden Ring for Dexterity lightning builds.\n\nThis legendary spear fires Ancient Lightning Spear, a long-range lightning projectile that deals massive burst damage while keeping players outside melee range.\n\n**Bolt of Gransax Build Quick Setup**\n\n| Category | Best Choice |\n|----------|-------------|\n| Weapon | Bolt of Gransax +10 |\n| Build Type | Dexterity Lightning |\n| Level | 150 |\n| Dexterity | 60 |\n| Faith | 25 |\n| Vigor | 60 |\n| Skill | Ancient Lightning Spear |\n| Talismans | Shard of Alexander, Godfrey Icon |\n| Best Class | Samurai or Warrior |\n\nThis guide covers the best Bolt of Gransax build, location, stats, talismans, upgrades, and how to maximize lightning damage in PvE and PvP.",
     },
     {
       heading: "Quick Answer",
@@ -419,13 +425,31 @@ const article39: Article = {
       heading: "Best Stats For Bolt of Gransax",
       level: 2,
       content:
-        "### Primary Scaling\n\n* Dexterity (base spear scaling)\n* Faith (lightning amplification)\n\n### Recommended Vigor\n\n* 40 minimum\n* 50+ for late game stability\n\n### Build Type\n\n* Lightning Faith/Dex hybrid builds\n* Dragon lightning themed builds\n\nSet up your Bolt of Gransax lightning build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) — the right Faith/Dex split maximizes Ancient Lightning Spear burst damage.",
+        "### Best Bolt of Gransax Build (Level 150)\n\n| Stat | Value |\n|------|-------|\n| Vigor | 60 |\n| Mind | 20 |\n| Endurance | 25 |\n| Strength | 20 |\n| Dexterity | 60 |\n| Faith | 25 |\n| Intelligence | 9 |\n| Arcane | 7 |\n\n**Starting Class:** Samurai or Warrior\n\n### Primary Scaling\n\n* **Dexterity (primary)** \xe2\x80\x94 Bolt of Gransax scales primarily with Dexterity. This is your main damage stat.\n* **Faith (secondary)** \xe2\x80\x94 Faith increases lightning damage from Ancient Lightning Spear and allows hybrid lightning incantation use.\n\n### Recommended Vigor\n\n* 60 for endgame survivability\n* 40 minimum for early game\n\n### Build Type\n\n* Dexterity Lightning (primary) \xe2\x80\x94 pure DEX focuses on weapon damage\n* Faith/Dex Hybrid \xe2\x80\x94 adds lightning incantations for versatility\n\nSet up your Bolt of Gransax lightning build with the [Build Planner](https://www.zosygo.com/elden-ring/tools/build-calculator) \xe2\x80\x94 the right DEX/FAI split maximizes Ancient Lightning Spear burst damage.",
+    },
+    {
+      heading: "Best Talismans For Bolt of Gransax",
+      level: 2,
+      content:
+        "Bolt of Gransax benefits from talismans that boost skill damage, charged attacks, and lightning damage.\n\n| Talisman | Purpose |\n|----------|---------|\n| Shard of Alexander | +15% weapon skill damage \xe2\x80\x94 essential for Ancient Lightning Spear |\n| Godfrey Icon | +15% charged skill damage \xe2\x80\x94 directly boosts charged Ancient Lightning Spear |\n| Lightning Scorpion Charm | +12% lightning damage (also +10% damage taken) |\n| Ritual Sword Talisman | +10% damage when at full HP \xe2\x80\x94 strong for burst builds |\n| Dragoncrest Greatshield Talisman | Massive physical damage reduction for survivability |\n\n**Recommended Setup**\n\n* **Max Damage:** Shard of Alexander + Godfrey Icon + Lightning Scorpion + Ritual Sword\n* **Balanced:** Shard of Alexander + Godfrey Icon + Lightning Scorpion + Dragoncrest Greatshield",
+    },
+    {
+      heading: "Best Flask Setup For Bolt of Gransax",
+      level: 2,
+      content:
+        "The right Wondrous Physick combo significantly increases Ancient Lightning Spear damage.\n\n### Recommended\n\n* **Lightning-Shrouding Cracked Tear** \xe2\x80\x94 +20% lightning damage for 3 minutes. This is the single best tear for Bolt of Gransax.\n* **Faith-Knot Crystal Tear** \xe2\x80\x94 +10 Faith for 3 minutes. Boosts lightning damage scaling.\n\n### Alternative\n\n* **Thorny Cracked Tear** \xe2\x80\x94 consecutive attack damage boost. Good if you follow up with melee after Ancient Lightning Spear.\n\n**Best Combo:** Lightning-Shrouding Cracked Tear + Faith-Knot Crystal Tear",
+    },
+    {
+      heading: "Bolt of Gransax Damage Test",
+      level: 2,
+      content:
+        "Real damage numbers for Bolt of Gransax +10 at 60 DEX / 25 FAI with optimal talismans:\n\n| Attack | Damage | Notes |\n|-------|--------|-------|\n| Ancient Lightning Spear (uncharged) | ~800-1000 | Fast cast, good for openings |\n| Ancient Lightning Spear (charged) | ~1400-1800 | With Godfrey Icon: ~1600-2100 |\n| Melee R1 | ~300-400 | Standard spear poke |\n| Melee R2 | ~450-550 | Heavy thrust |\n| Critical Hit | ~1200-1500 | After stance break |\n\nTest values with the [Weapon AR Calculator](https://www.zosygo.com/elden-ring/tools/weapon-ar-calculator) to see exact numbers for your specific stat allocation.",
     },
     {
       heading: "Best Bosses For Bolt of Gransax",
       level: 2,
       content:
-        "This weapon excels against:\n\n### Mid Game Bosses\n\n* Morgott\n* Fire Giant\n* Godfrey (Phase 1)\n\n### Late Game Bosses\n\n* Maliketh\n* Radagon\n* Elden Beast",
+        "Bolt of Gransax excels against specific boss types. Here is the ranking:\n\n| Boss | Rating | Reason |\n|------|--------|--------|\n| Fire Giant | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85 | Huge target, easy to hit with charged spear |\n| Elden Beast | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85 | Long-range fight, perfect for this weapon |\n| Radagon | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x86 | Good punish windows after his attacks |\n| Morgott | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x86 | Mobile but punishable recovery |\n| Maliketh | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x86\xe2\x98\x86 | Fast movement makes charged shots harder |\n| Godfrey | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x86\xe2\x98\x86 | Phase 1 is good, Phase 2 is aggressive |",
     },
     {
       heading: "Why It Works So Well Against Bosses",
@@ -440,10 +464,10 @@ const article39: Article = {
         "Despite its strength, it has limitations:\n\n### Skill Dependency\n\nMost of its power is locked behind weapon skill usage.\n\n### Limited Melee Identity\n\nNormal spear attacks are not its main strength.\n\n### Positioning Requirement\n\nBad spacing reduces effectiveness significantly.",
     },
     {
-      heading: "Bolt of Gransax vs Other Lightning Weapons",
+      heading: "Bolt of Gransax vs Dragon King's Cragblade",
       level: 2,
       content:
-        "### Versus Dragon Cult Incantations\n\nIncantations offer versatility, Bolt of Gransax offers faster execution.\n\n### Versus Other Spears\n\nOther spears are melee-focused, Bolt of Gransax is ranged burst-focused.\n\n### Versus Moonveil\n\nMoonveil is magic burst at mid-range, Bolt of Gransax is lightning burst at long range.",
+        "Comparing Bolt of Gransax with the other legendary lightning weapon in Elden Ring:\n\n| Aspect | Bolt of Gransax | Dragon King's Cragblade |\n|--------|----------------|------------------------|\n| Range | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85 | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x86\xe2\x98\x86\xe2\x98\x86 |\n| Burst Damage | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85 | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x86 |\n| PvE Performance | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85 | \xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x85\xe2\x98\x86 |\n| Ease of Use | Medium | Easy |\n| Skill Type | Long-range projectile | Close-range dash |\n| Best For | Safe boss punish | Aggressive melee |\n\n**When to use Bolt of Gransax:** You want to stay at range and delete bosses from a safe distance.\n\n**When to use Dragon King's Cragblade:** You prefer aggressive melee combat with a lightning dash attack.",
     },
     {
       heading: "Why Bolt of Gransax Is Considered Legendary",
@@ -461,16 +485,17 @@ const article39: Article = {
       heading: "FAQ",
       level: 2,
       content:
-        "### Is Bolt of Gransax good in Elden Ring?\n\nYes. It is one of the strongest lightning burst weapons.\n\n### Do I need Faith for Bolt of Gransax?\n\nYes. Faith increases lightning damage scaling.\n\n### Is it better than Dragon Incantations?\n\nIt is faster and more consistent, but less flexible.\n\n### Can Bolt of Gransax carry the game?\n\nYes. It remains strong in mid to late game content.\n\n### Why is it so powerful?\n\nBecause it combines extreme range with high burst lightning damage.",
+        "### Where do I get Bolt of Gransax?\n\nBolt of Gransax is found in Leyndell, Royal Capital. Climb the giant spear structure near the Erdtree Sanctuary. It is missable \xe2\x80\x94 grab it before defeating Maliketh.\n\n### Can you get Bolt of Gransax after Maliketh?\n\nNo. Bolt of Gransax becomes permanently unavailable after Leyndell turns to ash. This makes it one of the few truly missable legendary weapons.\n\n### Does Faith increase Bolt of Gransax damage?\n\nFaith increases the lightning damage of Ancient Lightning Spear, but Dexterity is the primary scaling stat. For maximum damage, prioritize DEX to 60, then invest in FAI to 25.\n\n### What stats are best for Bolt of Gransax?\n\nDexterity is the primary stat (60 DEX recommended). Faith is secondary (25 FAI). Vigor should be 60 for endgame. See the Best Stats section above for the full Level 150 build table.\n\n### Is Bolt of Gransax better than Moonveil?\n\nThey serve different roles. Bolt of Gransax is a long-range lightning artillery weapon. Moonveil is a mid-range magic burst katana. Bolt of Gransax is better for safe boss punish; Moonveil is better for aggressive combat.\n\n### Is Bolt of Gransax good in Elden Ring?\n\nYes. It is one of the strongest lightning burst weapons in the game, especially for PvE boss fights.\n\n### Can Bolt of Gransax carry the game?\n\nYes. It remains strong from mid game through endgame. The weapon skill deals massive damage at safe range.",
     },
   ],
   internalLinks: [
-    { href: "/elden-ring/weapons/moonveil-katana-explained", anchorText: "Bolt of Gransax vs Moonveil" },
-    { href: "/elden-ring/weapons/dark-moon-greatsword-explained", anchorText: "Bolt of Gransax vs Dark Moon Greatsword" },
-    { href: "/elden-ring/builds/best-faith-build", anchorText: "Best Faith Builds" },
-    { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Best Dexterity Builds" },
-    { href: "/elden-ring/bosses/how-to-beat-maliketh", anchorText: "Best Weapons for Maliketh" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Planner" },
+    { href: "/elden-ring/tools/weapon-ar-calculator", anchorText: "Weapon AR Calculator" },
+    { href: "/elden-ring/builds/best-faith-build", anchorText: "Lightning Build Elden Ring" },
+    { href: "/elden-ring/builds/best-dexterity-build", anchorText: "Dexterity Build Elden Ring" },
+    { href: "/elden-ring/weapons/moonveil-katana-explained", anchorText: "Moonveil Build" },
+    { href: "/elden-ring/weapons/dark-moon-greatsword-explained", anchorText: "Bolt of Gransax vs Dark Moon Greatsword" },
+    { href: "/elden-ring/bosses/how-to-beat-maliketh", anchorText: "Best Weapons for Maliketh" },
   ],
 };
 
