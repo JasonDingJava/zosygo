@@ -221,6 +221,8 @@ export default function ContentParagraphs({ content }: ContentParagraphsProps) {
 
 // Renders inline Markdown within a text string: **bold**, `code`, ![alt](src)
 function renderInlineMarkdown(text: string): React.ReactNode {
+  // Decode HTML entities like &#9733; (★) to actual Unicode characters
+  text = text.replace(/&#(\d+);/g, (_, code) => String.fromCharCode(parseInt(code, 10)));
   // First handle image syntax: ![alt](src)
   const imageMatch = text.match(/^!\[([^\]]*)\]\(([^)]+)\)$/);
   if (imageMatch) {
