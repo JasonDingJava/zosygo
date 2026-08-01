@@ -64,6 +64,23 @@ export default function AboutPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-xl font-semibold text-white mb-3">Open Source</h2>
+            <p>
+              Zosygo is built with Next.js. The source code is available on GitHub.
+            </p>
+            <div className="mt-3">
+              <a
+                href="https://github.com/JasonDingJava/zosygo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#c9a227] hover:underline"
+              >
+                GitHub Repository
+              </a>
+            </div>
+          </section>
+
+          <section>
             <h2 className="font-display text-xl font-semibold text-white mb-3">Get in Touch</h2>
             <p>
               Questions, feedback, or just want to say hi?{" "}

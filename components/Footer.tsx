@@ -131,6 +131,16 @@ export default function Footer({ games: propGames }: FooterProps) {
                   Steam
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://github.com/JasonDingJava/zosygo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-zinc-500 transition-colors hover:text-white"
+                >
+                  GitHub Repository
+                </a>
+              </li>
             </ul>
           </div>
         </div>

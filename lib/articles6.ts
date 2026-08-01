@@ -270,7 +270,8 @@ const intArticle: Article = {
     { href: "/elden-ring/builds/best-builds-guide", anchorText: "Best Builds Guide" },
     { href: "/elden-ring/tools/build-calculator", anchorText: "Elden Ring Build Calculator" },
     { href: "/elden-ring/tools/rune-level-calculator", anchorText: "Rune Level Calculator" },
-  ]}
+  ],
+}
 
 
 // ═══ ELDEN RING — BUILDS (Dexterity Soft Caps) ═══

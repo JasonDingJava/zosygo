@@ -1859,6 +1859,20 @@ function StickyBuildSummary({ buildOutput, stats }: { buildOutput: BuildOutput |
           </div>
         </section>
 
+        <section className="mt-12 border-t border-gray-800 pt-8 text-center">
+          <p className="text-sm text-gray-500">
+            Built with Next.js. {" "}
+            <a
+              href="https://github.com/JasonDingJava/zosygo"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#c9a227] hover:underline"
+            >
+              View source on GitHub
+            </a>
+          </p>
+        </section>
+
       <StickyBuildSummary buildOutput={buildOutput} stats={stats} />
       </div>
     </div>
