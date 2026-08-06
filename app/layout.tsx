@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { generateSiteSchemaJsonLd } from "@/lib/seo";
 import NextAuthProvider from "@/components/auth/NextAuthProvider";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -124,6 +125,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <main className="flex-1">{children}</main>
             <Footer />
           </NextAuthProvider>
+          <Analytics />
       </body>
     </html>
   );
